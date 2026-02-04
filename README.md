@@ -34,6 +34,10 @@ The repository includes a comprehensive research paper documenting the methodolo
 - Documentation and supplementary materials
 - License information
 
+# Data
+
+- All data in this repository is synthetically generated.
+
 ## 🚀 Getting Started
 
 ### Installation
