@@ -34,6 +34,8 @@ The repository includes a comprehensive research paper documenting the methodolo
 - Documentation and supplementary materials
 - License information
 
+Some code has been removed from this repository to preserve privacy and reduce privacy risk; if you are interested in the omitted components, please contact us.
+
 # Data
 
 - All data in this repository is synthetically generated.
