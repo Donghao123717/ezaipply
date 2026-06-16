@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Debate: captain, some local awards. tbh i didn't know there was national level c",
+          "role": "",
+          "description": "Debate: captain, some local awards. tbh i didn't know there was national level competition until senior year"
+        },
+        {
+          "name": "MUN: president, some local awards",
+          "role": "",
+          "description": "MUN: president, some local awards"
+        },
+        {
+          "name": "Paid Internship with small tech company",
+          "role": "",
+          "description": "Paid Internship with small tech company"
+        },
+        {
+          "name": "misc community service",
+          "role": "",
+          "description": "misc community service"
+        },
+        {
+          "name": "NHS",
+          "role": "",
+          "description": "NHS"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "these were so mid omg",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "MUN Best Delegate 2x",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Debate best speaker (from school)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "student of the month",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP scholar with honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "honor roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "misc community service"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "politics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

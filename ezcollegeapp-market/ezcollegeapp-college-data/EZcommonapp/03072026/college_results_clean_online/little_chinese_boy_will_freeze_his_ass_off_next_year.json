@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Independent Transit Research, pending publication",
+          "role": "",
+          "description": "1. Independent Transit Research, pending publication"
+        },
+        {
+          "name": "2. Math Olympiad Club Leadership",
+          "role": "",
+          "description": "2. Math Olympiad Club Leadership"
+        },
+        {
+          "name": "3. App Developer, created MOOC (massive online open curriculum) for teaching Pyt",
+          "role": "",
+          "description": "3. App Developer, created MOOC (massive online open curriculum) for teaching Python and implemented it into app, didn’t list impressions"
+        },
+        {
+          "name": "4. UC Science Program, was only a few hours a week but I had the chance to explo",
+          "role": "",
+          "description": "4. UC Science Program, was only a few hours a week but I had the chance to explore machine learning within the speech pathology field"
+        },
+        {
+          "name": "5. Hackathon Attendee, fit other hackathon award (3rd place + best design) and a",
+          "role": "",
+          "description": "5. Hackathon Attendee, fit other hackathon award (3rd place + best design) and also mentioned plans to host one"
+        },
+        {
+          "name": "6. French Horn, huge timesink, played in local (fairly prestigious?) band, all-s",
+          "role": "",
+          "description": "6. French Horn, huge timesink, played in local (fairly prestigious?) band, all-state band, won school awards"
+        },
+        {
+          "name": "7. Transit Council Member",
+          "role": "",
+          "description": "7. Transit Council Member"
+        },
+        {
+          "name": "8. Technology Summer Camp Volunteering, threw dodgeballs at kids and fixed their",
+          "role": "",
+          "description": "8. Technology Summer Camp Volunteering, threw dodgeballs at kids and fixed their shit"
+        },
+        {
+          "name": "9. UC Data Science Program, wrangled and analyzed data",
+          "role": "",
+          "description": "9. UC Data Science Program, wrangled and analyzed data"
+        },
+        {
+          "name": "10. Electrical Engineering Club Leadership, primarily an educational club but lo",
+          "role": "",
+          "description": "10. Electrical Engineering Club Leadership, primarily an educational club but looking to shift towards long-term projects"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. 1st at Local Hackathon (Built AI-based voice translator app)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AIME Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. USACO Silver",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 1st at Local Math Competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied math"
+    },
+    "ESSAY_SCORE": null
+  }
+}

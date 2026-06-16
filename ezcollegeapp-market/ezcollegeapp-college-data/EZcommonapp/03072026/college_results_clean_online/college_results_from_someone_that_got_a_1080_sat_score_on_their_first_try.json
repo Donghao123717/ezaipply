@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1080,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Teacher Aide at local Church for 2 yrs \\~3 hours a week for the school year.",
+          "role": "",
+          "description": "Teacher Aide at local Church for 2 yrs \\~3 hours a week for the school year."
+        },
+        {
+          "name": "Participated in child lector group in church since 5th grade.",
+          "role": "",
+          "description": "Participated in child lector group in church since 5th grade."
+        },
+        {
+          "name": "Vice President of National Honor Society for one year, member for one year.",
+          "role": "",
+          "description": "Vice President of National Honor Society for one year, member for one year."
+        },
+        {
+          "name": "Chief of Fundraising for Engineering Club for one year.",
+          "role": "",
+          "description": "Chief of Fundraising for Engineering Club for one year."
+        },
+        {
+          "name": "Summer Reading/Feeding program during one summer, \\~5.5 hours a week for 2.5 mon",
+          "role": "",
+          "description": "Summer Reading/Feeding program during one summer, \\~5.5 hours a week for 2.5 months."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Seal of Multiliteracy",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Top Ten at my school for 3 years so far",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

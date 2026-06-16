@@ -1,0 +1,44 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I’m going to keep this brief because I don’t want to dox myself lol",
+          "role": "",
+          "description": "I’m going to keep this brief because I don’t want to dox myself lol"
+        },
+        {
+          "name": "This was definitely one of the weaker components of my application. I held no le",
+          "role": "",
+          "description": "This was definitely one of the weaker components of my application. I held no leadership in school, and I was really only apart of 1 club all throughout high school. I didn’t do any fancy summer programs (like MITES, SSP, etc), research, internships, etc., so I am really an outlier from everyone else here. Summary: Roblox game developer w/ 50k+ players, Independent study and translation of [redacted, philosophical/religious texts], Co-Founder of an online e-sports community, YT channel with less than 1k subs, and CSF (California Scholarship Federation) club member at my school. I also worked at a restaurant outside of school to help the family pay bills, and I had other family responsibilities that I mentioned in my QB app that I'd rather not divulge."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: 5 APs, 2-4 Dual Enrollment Courses. AP Lit, AP Calc BC, AP Physics 1, AP Gov, DE Sociology, DE ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "This was definitely one of the weaker components of my application. I held no leadership in school, and I was really only apart of 1 club all throughout high school. I didn’t do any fancy summer programs (like MITES, SSP, etc), research, internships, etc., so I am really an outlier from everyone else here. Summary: Roblox game developer w/ 50k+ players, Independent study and translation of [redact"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science w/ an intent to minor in Philosophy or Earth Systems"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.58,
+      "sat_total": 1480,
+      "act_composite": null,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Dance- senior member of world renown pre-professional dance company",
+          "role": "",
+          "description": "1. Dance- senior member of world renown pre-professional dance company"
+        },
+        {
+          "name": "2. Editor-in-Chief of school yearbook, recognized for design/layout",
+          "role": "",
+          "description": "2. Editor-in-Chief of school yearbook, recognized for design/layout"
+        },
+        {
+          "name": "3. Relay for Life- first junior to head the campus organization, raised nearly $",
+          "role": "",
+          "description": "3. Relay for Life- first junior to head the campus organization, raised nearly $200,000 collectively at time of application"
+        },
+        {
+          "name": "4. Founder of my own nonprofit with really successful projects (won't get into t",
+          "role": "",
+          "description": "4. Founder of my own nonprofit with really successful projects (won't get into them for the sake of anonymity)"
+        },
+        {
+          "name": "5. Soloist- One of the few members of my company to have been allowed to do my o",
+          "role": "",
+          "description": "5. Soloist- One of the few members of my company to have been allowed to do my own professional act. Was in the works but didn't happen due to rona :("
+        },
+        {
+          "name": "6. Job- TA for dance classes",
+          "role": "",
+          "description": "6. Job- TA for dance classes"
+        },
+        {
+          "name": "7. Job- math/biology tutor",
+          "role": "",
+          "description": "7. Job- math/biology tutor"
+        },
+        {
+          "name": "8. Link Crew- helped revive this organization at my school",
+          "role": "",
+          "description": "8. Link Crew- helped revive this organization at my school"
+        },
+        {
+          "name": "9. Took a class I was really passionate about so I just included it but no disti",
+          "role": "",
+          "description": "9. Took a class I was really passionate about so I just included it but no distinct leadership/achievement w that."
+        },
+        {
+          "name": "Most of these activities were huge time commitment.",
+          "role": "",
+          "description": "Most of these activities were huge time commitment."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. NHS- only open to seniors at my school",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "7. Job- math/biology tutor"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mix of biology/public health/bioengineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

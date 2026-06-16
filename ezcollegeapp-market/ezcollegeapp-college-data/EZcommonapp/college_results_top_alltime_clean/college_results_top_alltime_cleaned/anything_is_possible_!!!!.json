@@ -1,0 +1,103 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.72,
+      "sat_total": null,
+      "act_composite": 21,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Varsity Bowling (4 years; Captain [senior]): Regional Runner-up (2023); Regio",
+          "role": "",
+          "description": "1. Varsity Bowling (4 years; Captain [senior]): Regional Runner-up (2023); Regional Champion (2024, 2025); DII Girls' Bowling State Champion (2025)"
+        },
+        {
+          "name": "2. Literary Art Magazine (3 years; public relations [junior], Art Editor [senior",
+          "role": "",
+          "description": "2. Literary Art Magazine (3 years; public relations [junior], Art Editor [senior])"
+        },
+        {
+          "name": "3. YMCA Youth in Government (3 years; White Chamber Senator [sophomore], Red Hou",
+          "role": "",
+          "description": "3. YMCA Youth in Government (3 years; White Chamber Senator [sophomore], Red House Representative [junior])"
+        },
+        {
+          "name": "4. Hispanic Student Organization (4 years; Co-president [senior])",
+          "role": "",
+          "description": "4. Hispanic Student Organization (4 years; Co-president [senior])"
+        },
+        {
+          "name": "5. Cheese Club (2 years; founder/ president [junior, senior]",
+          "role": "",
+          "description": "5. Cheese Club (2 years; founder/ president [junior, senior]"
+        },
+        {
+          "name": "6. 150+ hours of community service/ volunteer work at multiple non-profits",
+          "role": "",
+          "description": "6. 150+ hours of community service/ volunteer work at multiple non-profits"
+        },
+        {
+          "name": "essay",
+          "role": "",
+          "description": "essay"
+        },
+        {
+          "name": "My essay is about my life dealing with seizures and how the time frame of a seiz",
+          "role": "",
+          "description": "My essay is about my life dealing with seizures and how the time frame of a seizure is the same as the time it takes to make a difference in someone’s life."
+        },
+        {
+          "name": "colleges",
+          "role": "",
+          "description": "colleges"
+        },
+        {
+          "name": "Agnes Scott College (rolling): accepted",
+          "role": "",
+          "description": "Agnes Scott College (rolling): accepted"
+        },
+        {
+          "name": "Duquesne University (rolling): accepted",
+          "role": "",
+          "description": "Duquesne University (rolling): accepted"
+        },
+        {
+          "name": "Belmont University (EA): accepted",
+          "role": "",
+          "description": "Belmont University (EA): accepted"
+        },
+        {
+          "name": "Fordham University (EA): deferred",
+          "role": "",
+          "description": "Fordham University (EA): deferred"
+        },
+        {
+          "name": "Wellesley College (ED): accepted + committed !!!",
+          "role": "",
+          "description": "Wellesley College (ED): accepted + committed !!!"
+        },
+        {
+          "name": "I can’t believe I’ll be at my dream college next fall and have officially finish",
+          "role": "",
+          "description": "I can’t believe I’ll be at my dream college next fall and have officially finished my college process. GO BLUE !!!!"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "6. 150+ hours of community service/ volunteer work at multiple non-profits"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "polisci or international relations with a minor in media studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

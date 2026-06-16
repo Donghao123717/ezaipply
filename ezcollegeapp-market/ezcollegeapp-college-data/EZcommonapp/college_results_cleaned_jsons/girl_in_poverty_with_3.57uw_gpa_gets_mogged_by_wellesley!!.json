@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.57,
+      "sat_total": 1450,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Interned at local city for 2 summers, full-time Varsity captain in academic",
+          "role": "",
+          "description": "etc. Interned at local city for 2 summers, full-time Varsity captain in academic extracurricular, out of 18 students (won’t specify ‘cuz I don’t want to dox myself) Caretaker for disabled autistic older brother"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Literature",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP CSA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Biology",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Calculus",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honors Psychology Standardized Testing List the highest scores earned and all scores that were reported. SAT superscore:",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 20,
+      "first_gen": true,
+      "service_summary": "Internship at local community education accessibility organization"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "[health sciences related] (I’m going to make my own major 😸), im not sure if I had to select a major when applied tho? I think I selected public policy if I had to"
+    },
+    "ESSAY_SCORE": null
+  }
+}

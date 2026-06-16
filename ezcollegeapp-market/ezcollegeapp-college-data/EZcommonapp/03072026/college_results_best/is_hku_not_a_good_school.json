@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1qy4ahk",
+    "title": "Is HKU not a good school?",
+    "author": "One-String5342",
+    "selftext": "So many people are commenting that it isnt a good school, no good placements for economics, not that competitive to get in etc. Can someone give me an honest review on how everything is at HKU, from friends to english speaking internationals to faculty , quality of education, placements etc. Please someone help! I got an offer for bachelor in Econ and finance",
+    "score": "2",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1qy4ahk/is_hku_not_a_good_school/",
+    "created": "2026-02-07T04:34:34+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o4132xk",
+      "author": "Top_Butterscotch8867",
+      "body": "its not that competitive imo.\nSome people i know got in with mid grades in courses like engineering,compsci etc.",
+      "score": "1 point",
+      "created": "2026-02-07T04:41:33+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o42ef6b",
+      "author": "Glittering_Grape6137",
+      "body": "There’s the whole evil dictatorship issue.",
+      "score": "2 points",
+      "created": "2026-02-07T11:51:25+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qy4ahk",
+        "author": "One-String5342",
+        "title": "Is HKU not a good school?",
+        "body": "So many people are commenting that it isnt a good school, no good placements for economics, not that competitive to get in etc. Can someone give me an honest review on how everything is at HKU, from friends to english speaking internationals to faculty , quality of education, placements etc. Please someone help! I got an offer for bachelor in Econ and finance",
+        "full_text": "Is HKU not a good school?\n\nSo many people are commenting that it isnt a good school, no good placements for economics, not that competitive to get in etc. Can someone give me an honest review on how everything is at HKU, from friends to english speaking internationals to faculty , quality of education, placements etc. Please someone help! I got an offer for bachelor in Econ and finance"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o4132xk",
+          "author": "Top_Butterscotch8867",
+          "body": "its not that competitive imo.\nSome people i know got in with mid grades in courses like engineering,compsci etc.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o42ef6b",
+          "author": "Glittering_Grape6137",
+          "body": "There’s the whole evil dictatorship issue.",
+          "score": "2 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

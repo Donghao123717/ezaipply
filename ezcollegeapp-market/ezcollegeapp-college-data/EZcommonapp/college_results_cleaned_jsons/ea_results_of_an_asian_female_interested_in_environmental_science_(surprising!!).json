@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1310,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founder of an agriculture solution - 4 yrs TEDx Speaker - 1 yr Prestigious inter",
+          "role": "",
+          "description": "Founder of an agriculture solution - 4 yrs TEDx Speaker - 1 yr Prestigious internship with my local forest - 1 yr Chapter leader and member of a global youth organization- 3 yrs Leadership in a youth-led non-profit focusing on food tech -1 yr"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Blue Ocean Student Entrepreneurship Competition Finalist (International/State and Regional) John Locke Institute Global ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LORs: I didn't read any of my rec letters, but I believe they would be strong! Letters from my counselor, AP Calc AB tea",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essay: My Common App essay was a mix of belonging, personal stories, and pieces of my character. Stories that reveal who",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Environmental Studies/Sciences (main), Economics, Entrepreneurship"
+    },
+    "ESSAY_SCORE": null
+  }
+}

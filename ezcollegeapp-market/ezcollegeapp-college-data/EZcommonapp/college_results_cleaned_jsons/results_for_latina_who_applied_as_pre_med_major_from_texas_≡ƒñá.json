@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.82,
+      "sat_total": 1310,
+      "act_composite": null,
+      "class_rank_percentile": 88.41,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "children's hospital volunteer (4 years + 185+ hrs + volunteer of the year) psych",
+          "role": "",
+          "description": "children's hospital volunteer (4 years + 185+ hrs + volunteer of the year) psychology club/psi alpha co-president (3 years + social media manager) lead for leadership conference (4 years) national honor society secretary (2 years)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Statistics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP English Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP European History",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP US Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Macro",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honors Biomedical Innovations (PLTW) + electives Testing SAT: 1310 (670RW, 640M) 4 APUSH, 4 AP Pre-Calc, 4 AP Psych, 4 A",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "children's hospital volunteer (4 years + 185+ hrs + volunteer of the year) Junior Volunteer of the Year AP Psych Teacher/Psych Club sponsor (10/10): wrote about my leadership, work ethic, and involvement in school + community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Cognitive Science / Psychology / Chemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

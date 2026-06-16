@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.8,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Long term small business passion project: 20k generated Summer law internship at",
+          "role": "",
+          "description": "Long term small business passion project: 20k generated Summer law internship at local law firm President and mentor for school’s mentorship program to 6th graders (mentioned in personal statement) Co President of Mu Alpha Theta"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: 4 APs and 2 reg Standardized Testing SAT/ACT/APs: 1500 SAT. No APs reported.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied economics, finance, or psychology depending on school"
+    },
+    "ESSAY_SCORE": null
+  }
+}

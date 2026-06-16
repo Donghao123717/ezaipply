@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Bio research in a yearlong research class at my school that connects with env",
+          "role": "",
+          "description": "1. Bio research in a yearlong research class at my school that connects with environmental justice/water access/health equity. Results inconclusive due to probably bad planning and malfunctioning equipment, but I put as "
+        },
+        {
+          "name": "2. Personal blog about my experiences during the pandemic, in which I tried to t",
+          "role": "",
+          "description": "2. Personal blog about my experiences during the pandemic, in which I tried to track trends I saw, empathize with common issues, and be a source of comfort to the people I knew. Reached only mine and my family's circle, "
+        },
+        {
+          "name": "3. Summer swimming and coaching, typical fun summer activity where I got to work",
+          "role": "",
+          "description": "3. Summer swimming and coaching, typical fun summer activity where I got to work with kids and cheer for people"
+        },
+        {
+          "name": "4. 1/4 leaders of my school's poetry club, organize events like Poetry Out Loud ",
+          "role": "",
+          "description": "4. 1/4 leaders of my school's poetry club, organize events like Poetry Out Loud and poetry slams, make fun presentations :))"
+        },
+        {
+          "name": "5. School swim team captain",
+          "role": "",
+          "description": "5. School swim team captain"
+        },
+        {
+          "name": "6. Volunteering with political party in my state, both canvassing and phone bank",
+          "role": "",
+          "description": "6. Volunteering with political party in my state, both canvassing and phone banking. Some of my essays talked about how I've inherited my activism from my mom with these."
+        },
+        {
+          "name": "7. Member of 3 literary magazines; no major leadership positions but I love litm",
+          "role": "",
+          "description": "7. Member of 3 literary magazines; no major leadership positions but I love litmags so I'm always going to do them"
+        },
+        {
+          "name": "8. 1/3 founders of a chapter of an activism group in my city; treasurer who met ",
+          "role": "",
+          "description": "8. 1/3 founders of a chapter of an activism group in my city; treasurer who met with representatives and communicated with the press, group started in 7th (?) grade but died off during the pandemic"
+        },
+        {
+          "name": "9. Lifeguard at the same pool I do summer swim",
+          "role": "",
+          "description": "9. Lifeguard at the same pool I do summer swim"
+        },
+        {
+          "name": "10. Tutoring: SAT/ACT course with an organization, TA for humanities teacher on ",
+          "role": "",
+          "description": "10. Tutoring: SAT/ACT course with an organization, TA for humanities teacher on call for essay help"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. School writing competition first prize for poetry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar With Honors",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. AP World History class award in 9th grade",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "lots of different names for similar things, but summed up by: public/environment"
+    },
+    "ESSAY_SCORE": null
+  }
+}

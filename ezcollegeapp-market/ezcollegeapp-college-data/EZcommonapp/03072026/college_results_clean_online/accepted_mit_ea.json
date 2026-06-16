@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1470,
+      "act_composite": 4,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Engineering Club. Built robots for competitions. President for senior year. (",
+          "role": "",
+          "description": "1. Engineering Club. Built robots for competitions. President for senior year. (3 years)"
+        },
+        {
+          "name": "2. Math Club. Tutored kids in math, taught them new math topics. (2 years)",
+          "role": "",
+          "description": "2. Math Club. Tutored kids in math, taught them new math topics. (2 years)"
+        },
+        {
+          "name": "3. Key Club. A volunteering club. (2 years)",
+          "role": "",
+          "description": "3. Key Club. A volunteering club. (2 years)"
+        },
+        {
+          "name": "4. Varsity Volleyball. (4 years)",
+          "role": "",
+          "description": "4. Varsity Volleyball. (4 years)"
+        },
+        {
+          "name": "5. Cross Country. (2 years)",
+          "role": "",
+          "description": "5. Cross Country. (2 years)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Questbridge Finalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

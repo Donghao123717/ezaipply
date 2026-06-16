@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1570,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Startup: Very good VC traction and decent waitlist. DM if you're an enginee",
+          "role": "",
+          "description": "etc. Startup: Very good VC traction and decent waitlist. DM if you're an engineer! Research Project: Economics/tech qualitative research. Reached a lot of people VC Internship: Very atypical vc work, it's not a normal fund (in a good way)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Max rigor Standardized Testing List the highest scores earned and all scores that were reported",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Startup intern: ML modeling and community service oriented"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Business + CS or Econ"
+    },
+    "ESSAY_SCORE": null
+  }
+}

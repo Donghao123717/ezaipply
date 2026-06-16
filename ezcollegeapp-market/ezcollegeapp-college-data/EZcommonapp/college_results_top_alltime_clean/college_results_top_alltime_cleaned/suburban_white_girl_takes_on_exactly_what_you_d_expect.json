@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1420,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. SGA - 3 year rep, treasurer then VP, 1-2 hours per week",
+          "role": "",
+          "description": "1. SGA - 3 year rep, treasurer then VP, 1-2 hours per week"
+        },
+        {
+          "name": "2. Quizbowl- three year Captain, 1 hour per week",
+          "role": "",
+          "description": "2. Quizbowl- three year Captain, 1 hour per week"
+        },
+        {
+          "name": "3. MUN- 3 year member",
+          "role": "",
+          "description": "3. MUN- 3 year member"
+        },
+        {
+          "name": "4. varsity volleyball. 10+ awful hours per week (the worst three years of my lif",
+          "role": "",
+          "description": "4. varsity volleyball. 10+ awful hours per week (the worst three years of my life)"
+        },
+        {
+          "name": "5. club volleyball, 3 years, national schedule, 10+ amazing hours per week,",
+          "role": "",
+          "description": "5. club volleyball, 3 years, national schedule, 10+ amazing hours per week,"
+        },
+        {
+          "name": "6. worked full time at a law firm one summer",
+          "role": "",
+          "description": "6. worked full time at a law firm one summer"
+        },
+        {
+          "name": "7. volenteered at a camp one summer",
+          "role": "",
+          "description": "7. volenteered at a camp one summer"
+        },
+        {
+          "name": "8. catholic youth group",
+          "role": "",
+          "description": "8. catholic youth group"
+        },
+        {
+          "name": "I'll check but these are all I remeber. I model now so I could add that to my de",
+          "role": "",
+          "description": "I'll check but these are all I remeber. I model now so I could add that to my deferral stuff for GT."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. national honors society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. ap scholar with honors",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "accounting, business administration, management, finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

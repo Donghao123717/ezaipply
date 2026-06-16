@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1ou2p33",
+    "title": "Meredith Decision Notification",
+    "author": "monkey-03",
+    "selftext": "Has everyone received their decision from Meredith? Their website says November 10 as the decision release day, but my application is still under review.",
+    "score": "2",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1ou2p33/meredith_decision_notification/",
+    "created": "2025-11-11T06:54:41+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_no9hvnz",
+      "author": "gelirogorcmgeli",
+      "body": "I haven’t received it yet",
+      "score": "1 point",
+      "created": "2025-11-11T11:09:49+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nogdett",
+      "author": "CleanPresentation648",
+      "body": "I got mine around mid september",
+      "score": "1 point",
+      "created": "2025-11-12T13:45:16+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1ou2p33",
+        "author": "monkey-03",
+        "title": "Meredith Decision Notification",
+        "body": "Has everyone received their decision from Meredith? Their website says November 10 as the decision release day, but my application is still under review.",
+        "full_text": "Meredith Decision Notification\n\nHas everyone received their decision from Meredith? Their website says November 10 as the decision release day, but my application is still under review."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_no9hvnz",
+          "author": "gelirogorcmgeli",
+          "body": "I haven’t received it yet",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nogdett",
+          "author": "CleanPresentation648",
+          "body": "I got mine around mid september",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

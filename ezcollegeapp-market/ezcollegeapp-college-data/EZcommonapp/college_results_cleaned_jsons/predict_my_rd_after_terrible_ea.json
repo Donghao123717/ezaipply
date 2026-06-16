@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1460,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Co-founder, CEO, Lead Developer & Programmer of a Productivity non-profit develo",
+          "role": "",
+          "description": "Co-founder, CEO, Lead Developer & Programmer of a Productivity non-profit developing desktop/mobile apps and browser extension to fight procrastination using AI technology; 25+ interns, 700+ users. Lead AI/ML Intern, Dyne Research Worked on a brain tumor detection model utilizing deep-learning techniques for medical image analysis. Achieved 96% accuracy (benchmark 90%+)."
+        },
+        {
+          "name": "Team Lead, FIRST LEGO League, Unified Robotics, and World Robot Olympiad Led sch",
+          "role": "",
+          "description": "Team Lead, FIRST LEGO League, Unified Robotics, and World Robot Olympiad Led school team to national finals in all three competitions. Unified Robotics involved working with 2 students with disabilities in Special Olympics."
+        },
+        {
+          "name": "Participant in YES Fellowship, Yale Entreprenurial Society (YES) Gained industy ",
+          "role": "",
+          "description": "Participant in YES Fellowship, Yale Entreprenurial Society (YES) Gained industy exposure and experience in startup development. Won first place ($450) in pitch competition for a procrastination app idea."
+        },
+        {
+          "name": "Participant, Cambridge Centre for International Research (CCIR) & ThinkingBeyond",
+          "role": "",
+          "description": "Participant, Cambridge Centre for International Research (CCIR) & ThinkingBeyond CCIR: real-time low-light image enhancement for robotics (published Nov. 2025). | BeyondAI: satellite trajectory prediction and collision detection."
+        },
+        {
+          "name": "Participant, Harvard Undergraduate Venture TECH Program (HUVTSP) interned at Ray",
+          "role": "",
+          "description": "Participant, Harvard Undergraduate Venture TECH Program (HUVTSP) interned at Rayfield Systems (energy management startup); created prototype of a wind energy prediction AI model with high accuracy (Rsquared=.997)."
+        },
+        {
+          "name": "Team Lead, New York Academy of Sciences Led the development of an AI deepfake de",
+          "role": "",
+          "description": "Team Lead, New York Academy of Sciences Led the development of an AI deepfake detection model and invited feedback from the NYAS community, which helped us improve accuracy from 92% to 95%."
+        },
+        {
+          "name": "Participant, Harvard Project for Asian and International Relations : In the Futu",
+          "role": "",
+          "description": "Participant, Harvard Project for Asian and International Relations : In the Future Entrepreneurs Program, I worked with peers to simulate building a startup and learned how ideas are developed into ventures."
+        },
+        {
+          "name": "Chess Team Member and Club Founder, Ranked top 5,000 in India among active playe",
+          "role": "",
+          "description": "Chess Team Member and Club Founder, Ranked top 5,000 in India among active players (FIDE 1600); represented school in tournaments; started chess club for free play & intra-school events."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Led team to the Create Apps Championship finals for Best Youth category (Top 12 out of 4800+ teams) - International CBSE",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Team Lead, New York Academy of Sciences Led the development of an AI deepfake detection model and invited feedback from the NYAS community, which helped us improve accuracy from 92% to 95%."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

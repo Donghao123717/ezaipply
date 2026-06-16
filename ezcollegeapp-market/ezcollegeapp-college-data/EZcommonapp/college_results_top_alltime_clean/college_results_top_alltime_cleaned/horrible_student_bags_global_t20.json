@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1100,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 13
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *founded a club based around gender justice and community service acts that s",
+          "role": "",
+          "description": "1. *founded a club based around gender justice and community service acts that support women*"
+        },
+        {
+          "name": "2. volunteered as a student teacher for low income kids (100+ hours)",
+          "role": "",
+          "description": "2. volunteered as a student teacher for low income kids (100+ hours)"
+        },
+        {
+          "name": "3. worked as a liaison to an environmental organization",
+          "role": "",
+          "description": "3. worked as a liaison to an environmental organization"
+        },
+        {
+          "name": "4. editor at school art magazine",
+          "role": "",
+          "description": "4. editor at school art magazine"
+        },
+        {
+          "name": "5. volunteered at a food pantry (35 hours)",
+          "role": "",
+          "description": "5. volunteered at a food pantry (35 hours)"
+        },
+        {
+          "name": "6. co-president of school comedy club",
+          "role": "",
+          "description": "6. co-president of school comedy club"
+        },
+        {
+          "name": "7. study abroad program in australia where i studied conservation",
+          "role": "",
+          "description": "7. study abroad program in australia where i studied conservation"
+        },
+        {
+          "name": "8. college course on urban education",
+          "role": "",
+          "description": "8. college course on urban education"
+        },
+        {
+          "name": "9. member of school model congress",
+          "role": "",
+          "description": "9. member of school model congress"
+        },
+        {
+          "name": "10. teachers assistant",
+          "role": "",
+          "description": "10. teachers assistant"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I literally didn't realize this was an option and my college counselor didn't tell me. Welp.*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "1. *founded a club based around gender justice and community service acts that support women*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

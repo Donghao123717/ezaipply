@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Niche musical performance activity — Ranked 1st in the country, won multiple ",
+          "role": "",
+          "description": "1. Niche musical performance activity — Ranked 1st in the country, won multiple national competitions, held important leadership positions, long-term and heavy commitment (submitted music portfolio)"
+        },
+        {
+          "name": "2. Published research — Conducted research at a local flagship university, only ",
+          "role": "",
+          "description": "2. Published research — Conducted research at a local flagship university, only high schooler in the lab, 6 weeks and 200+ hours over the summer; secured through cold-emailing, paid stipend (submitted paper)"
+        },
+        {
+          "name": "3. Congressional lobbying for niche science policy, received responses from nati",
+          "role": "",
+          "description": "3. Congressional lobbying for niche science policy, received responses from national organizations and senators; independent project (submitted policy briefs w/proposals and cost analyses to Harvard)"
+        },
+        {
+          "name": "4. Director/manager of a student-led music group — Significant community impact,",
+          "role": "",
+          "description": "4. Director/manager of a student-led music group — Significant community impact, well-recognized locally, performed for large audiences"
+        },
+        {
+          "name": "5. Lectured on astrophysics at a local National Guard Armory — Reached 1.5K+ peo",
+          "role": "",
+          "description": "5. Lectured on astrophysics at a local National Guard Armory — Reached 1.5K+ people, managed exhibitions as an artifact curator; strong community STEM involvement and impact"
+        },
+        {
+          "name": "6. ⁠Particle physics research — Conducted high-caliber modeling research at a lo",
+          "role": "",
+          "description": "6. ⁠Particle physics research — Conducted high-caliber modeling research at a local flagship university, gained valuable technical experience + tested and soldered projects for my PI’s college workshops; paid stipend, se"
+        },
+        {
+          "name": "7. Vice President of Foreign Language NHS — Led a community-impact project relev",
+          "role": "",
+          "description": "7. Vice President of Foreign Language NHS — Led a community-impact project relevant to a local immigrant community; raised hundreds of supplies"
+        },
+        {
+          "name": "8. Lead campaigner for a local youth civic coalition — Organized a county-wide n",
+          "role": "",
+          "description": "8. Lead campaigner for a local youth civic coalition — Organized a county-wide nonprofit fair with 20+ NGOs, met with the mayor and local elected officials, frequently presented community service projects at leadership c"
+        },
+        {
+          "name": "9. ⁠Soil metagenomics research — Conducted research at a local flagship universi",
+          "role": "",
+          "description": "9. ⁠Soil metagenomics research — Conducted research at a local flagship university integrating wet lab and computational analysis; had agricultural relevance/impact for local farming communities; secured through an appli"
+        },
+        {
+          "name": "10. Event/activities programmer for a local STEM-related community event — Raise",
+          "role": "",
+          "description": "10. Event/activities programmer for a local STEM-related community event — Raised $15K+ for Habitat for Humanity and had 400+ participants"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Very competitive leadership award — One of three selected from my state (national level)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Very competitive national individual award for my niche music activity",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Foreign language national contest — Three-time gold medalist (ranked around the top 5 in my divis",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Writer/editor for an internationally distributed youth-led science communication journal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. (Combined two awards) — A state-issued award and another award for which I was a nominee (\\~0.5%\\",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "4. Director/manager of a student-led music group — Significant community impact, well-recognized locally, performed for large audiences; 5. Lectured on astrophysics at a local National Guard Armory — Reached 1.5K+ people, managed exhibitions as an artifact curator; strong community STEM involvement and impact; 7. Vice President of Foreign Language NHS — Led a community-impact project relevant to a local immigrant community; raised hundreds of supplies; 8. Lead campaigner for a local youth civic "
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "undecided, but listed astrophysics, music, environmental science/public policy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

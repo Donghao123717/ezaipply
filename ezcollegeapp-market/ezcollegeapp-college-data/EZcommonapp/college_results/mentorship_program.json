@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1pv2u6g",
+    "title": "mentorship program",
+    "author": "DistanceMedical4981",
+    "selftext": "Anyone interested in helping scale a mentorship program I started?",
+    "score": "0",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pv2u6g/mentorship_program/",
+    "created": "2025-12-25T02:03:38+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nvz9jf1",
+      "author": "Ready_Return_5998",
+      "body": "Wrong sub",
+      "score": "2 points",
+      "created": "2025-12-26T05:04:59+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nw26swh",
+      "author": "[deleted]",
+      "body": "I would be interested. Could you share a bit more info about the program and what kind of help you’re looking for?",
+      "score": "1 point",
+      "created": "2025-12-26T18:20:53+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pv2u6g",
+        "author": "DistanceMedical4981",
+        "title": "mentorship program",
+        "body": "Anyone interested in helping scale a mentorship program I started?",
+        "full_text": "mentorship program\n\nAnyone interested in helping scale a mentorship program I started?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nvz9jf1",
+          "author": "Ready_Return_5998",
+          "body": "Wrong sub",
+          "score": "2 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nw26swh",
+          "author": "[deleted]",
+          "body": "I would be interested. Could you share a bit more info about the program and what kind of help you’re looking for?",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

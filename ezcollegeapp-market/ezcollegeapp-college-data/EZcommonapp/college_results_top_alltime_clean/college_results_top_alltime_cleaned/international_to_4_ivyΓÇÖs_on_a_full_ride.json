@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 98.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Global science fair competitor in Canada’s top 2% (Poster presentation in Abu",
+          "role": "",
+          "description": "1. Global science fair competitor in Canada’s top 2% (Poster presentation in Abu Dhabi attended and funded by the royal family)"
+        },
+        {
+          "name": "2. Home aide for a woman with  developmental disabilities, since I was 6 years o",
+          "role": "",
+          "description": "2. Home aide for a woman with  developmental disabilities, since I was 6 years old."
+        },
+        {
+          "name": "3. Regenerative medicine research assistant at a local university lab",
+          "role": "",
+          "description": "3. Regenerative medicine research assistant at a local university lab"
+        },
+        {
+          "name": "4. Paid student researcher at a university stem cell lab with an upcoming first ",
+          "role": "",
+          "description": "4. Paid student researcher at a university stem cell lab with an upcoming first author publication"
+        },
+        {
+          "name": "5. Volunteer at a organization providing educational initiatives in medicine.",
+          "role": "",
+          "description": "5. Volunteer at a organization providing educational initiatives in medicine."
+        },
+        {
+          "name": "6. Founded a small healthcare business and presented to business leaders at a st",
+          "role": "",
+          "description": "6. Founded a small healthcare business and presented to business leaders at a state-wide gala."
+        },
+        {
+          "name": "7. Pre-college summer neuroscience student at McGill University on a scholarship",
+          "role": "",
+          "description": "7. Pre-college summer neuroscience student at McGill University on a scholarship"
+        },
+        {
+          "name": "8. Professional development mentorship program with a stipend.",
+          "role": "",
+          "description": "8. Professional development mentorship program with a stipend."
+        },
+        {
+          "name": "9. School newspaper editor and publication with policy professors in regional ne",
+          "role": "",
+          "description": "9. School newspaper editor and publication with policy professors in regional newspapers"
+        },
+        {
+          "name": "10. Created an app and student guide to promote access to internships and academ",
+          "role": "",
+          "description": "10. Created an app and student guide to promote access to internships and academic programs for underrepresented youth."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. Volunteer at a organization providing educational initiatives in medicine."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " biology on the pre-med track, but also looking for some entrepreneurship expe"
+    },
+    "ESSAY_SCORE": null
+  }
+}

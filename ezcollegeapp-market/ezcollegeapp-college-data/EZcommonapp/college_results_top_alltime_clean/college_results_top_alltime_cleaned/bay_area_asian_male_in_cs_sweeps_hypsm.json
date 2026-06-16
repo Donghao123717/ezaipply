@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 16
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. ML Researcher at Stanford under a decently well known professor, first author",
+          "role": "",
+          "description": "1. ML Researcher at Stanford under a decently well known professor, first author on paper accepted to international conferences and qualified to ISEF, during school year and summer."
+        },
+        {
+          "name": "2. Founder of nonprofit that developed a software for kids with cerebral palsy, ",
+          "role": "",
+          "description": "2. Founder of nonprofit that developed a software for kids with cerebral palsy, used my CS and ML background to design and develop it. Used by over 2,000 kids, recognized by congressman and received some awards for it."
+        },
+        {
+          "name": "3. At hackathons, developed a lot of ML based projects and won awards at prestig",
+          "role": "",
+          "description": "3. At hackathons, developed a lot of ML based projects and won awards at prestigious events."
+        },
+        {
+          "name": "4. Developer of music related app with 250,000 downloads.",
+          "role": "",
+          "description": "4. Developer of music related app with 250,000 downloads."
+        },
+        {
+          "name": "5. Drum Major of Marching Band, led and conducted 150+ members",
+          "role": "",
+          "description": "5. Drum Major of Marching Band, led and conducted 150+ members"
+        },
+        {
+          "name": "6. Wind Ensemble principal player",
+          "role": "",
+          "description": "6. Wind Ensemble principal player"
+        },
+        {
+          "name": "7. Principal player at outside of school orchestra",
+          "role": "",
+          "description": "7. Principal player at outside of school orchestra"
+        },
+        {
+          "name": "8. ASB President (in school leadership all 4 years)",
+          "role": "",
+          "description": "8. ASB President (in school leadership all 4 years)"
+        },
+        {
+          "name": "9. Math, Physics, and CS Tutor (taught both AP students and olympiad students)",
+          "role": "",
+          "description": "9. Math, Physics, and CS Tutor (taught both AP students and olympiad students)"
+        },
+        {
+          "name": "10. CS Club President",
+          "role": "",
+          "description": "10. CS Club President"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. USAPHO Silver Medalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USAMO Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. International ML Conference Acceptance",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Regional science fair awards and ISEF qualification",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. All-State Band and a national level band",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": "9. Math, Physics, and CS Tutor (taught both AP students and olympiad students)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

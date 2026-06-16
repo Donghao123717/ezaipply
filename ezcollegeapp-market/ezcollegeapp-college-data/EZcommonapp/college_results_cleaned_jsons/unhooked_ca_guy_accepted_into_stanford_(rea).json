@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.92,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founded a student research org connecting HS students with medical research ment",
+          "role": "",
+          "description": "Founded a student research org connecting HS students with medical research mentors; ran workshops and helped students submit abstracts Research intern at a university lab (neuroscience related); contributed to abstract + poster that was later presented at a conference"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior year: AP Physics C",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Stats",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Gov + research elective Testing SAT: 1550 (780M / 770R) ACT: didn’t take APs: mostly 5s, one 4",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "AP Biology TA / peer tutor Honestly shocked about Stanford. I assumed my unhooked background was really really work against me LOL (my parents didn't even want to pay the application fee initially like it was that bad bruh), but having a consistent research + service story probably mattered more than trying to optimize majors."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

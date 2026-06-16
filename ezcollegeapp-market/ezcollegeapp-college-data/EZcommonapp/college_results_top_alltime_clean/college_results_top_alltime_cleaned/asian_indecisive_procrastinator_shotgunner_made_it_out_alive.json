@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": 15,
+      "class_rank_percentile": 97.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. farmers market job (family responsibilities)",
+          "role": "",
+          "description": "1. farmers market job (family responsibilities)"
+        },
+        {
+          "name": "2. youth leader of food justice nonprofit",
+          "role": "",
+          "description": "2. youth leader of food justice nonprofit"
+        },
+        {
+          "name": "3. clinic receptionist job",
+          "role": "",
+          "description": "3. clinic receptionist job"
+        },
+        {
+          "name": "4. remote research/data intern",
+          "role": "",
+          "description": "4. remote research/data intern"
+        },
+        {
+          "name": "5. co-president of sustainability club",
+          "role": "",
+          "description": "5. co-president of sustainability club"
+        },
+        {
+          "name": "6. political campaign internships",
+          "role": "",
+          "description": "6. political campaign internships"
+        },
+        {
+          "name": "7. small business",
+          "role": "",
+          "description": "7. small business"
+        },
+        {
+          "name": "8. choir section leader",
+          "role": "",
+          "description": "8. choir section leader"
+        },
+        {
+          "name": "9. NHS officer",
+          "role": "",
+          "description": "9. NHS officer"
+        },
+        {
+          "name": "10. freelance translator",
+          "role": "",
+          "description": "10. freelance translator"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. DECA internationals finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. media competition top 5",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. national merit scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. piano all-state 2nd chair, choir all-region 1st chair",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. pvsa gold, girl scout gold",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "econ, global health, healthcare management"
+    },
+    "ESSAY_SCORE": null
+  }
+}

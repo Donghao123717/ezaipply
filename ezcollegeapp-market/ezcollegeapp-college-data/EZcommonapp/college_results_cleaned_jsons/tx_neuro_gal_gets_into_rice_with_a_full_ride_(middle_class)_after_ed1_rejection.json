@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.91,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "generalized so as not to doxx",
+          "role": "",
+          "description": "generalized so as not to doxx"
+        },
+        {
+          "name": "you know the drill Neuro intern at local uni (it was good) Student Body VP",
+          "role": "",
+          "description": "you know the drill Neuro intern at local uni (it was good) Student Body VP"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Calc BC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Spanish",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Anatomy",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "DC Econ (no AP) Standardized Testing ACT: 35 superscore (worked so hard for this btw)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Volunteer (80+ hrs)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Neuro/Cog-Sci pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

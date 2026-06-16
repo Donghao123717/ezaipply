@@ -1,0 +1,27 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1480,
+      "act_composite": 14,
+      "class_rank_percentile": 98.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "symbolic systems (combination of math + cs + linguistics + psychology)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

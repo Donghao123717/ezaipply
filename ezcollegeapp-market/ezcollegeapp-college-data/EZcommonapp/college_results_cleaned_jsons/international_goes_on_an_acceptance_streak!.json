@@ -1,0 +1,33 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Scholarship for an exchange program ≈5000 USD? MUN Awards IGCSE award Essays/LORs: all aight, I don’t think that I’m an ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "5 community based (student council, volunteering, etc.)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Environmental Science + Global Development"
+    },
+    "ESSAY_SCORE": null
+  }
+}

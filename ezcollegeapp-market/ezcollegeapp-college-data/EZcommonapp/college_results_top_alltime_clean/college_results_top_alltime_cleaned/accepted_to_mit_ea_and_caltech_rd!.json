@@ -1,0 +1,144 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 18
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *#1 Beta Club. President Junior and Senior year. I won the Spanish competitio",
+          "role": "",
+          "description": "1. *#1 Beta Club. President Junior and Senior year. I won the Spanish competition at the National Convention my freshman year.*"
+        },
+        {
+          "name": "2. \\#2 NHS. President Senior year. VP junior year. Mostly just community service",
+          "role": "",
+          "description": "2. \\#2 NHS. President Senior year. VP junior year. Mostly just community service."
+        },
+        {
+          "name": "3. \\#3 Science National Honors Society. Mostly community service and tutoring. V",
+          "role": "",
+          "description": "3. \\#3 Science National Honors Society. Mostly community service and tutoring. VP"
+        },
+        {
+          "name": "4. \\#4 Academic Team/Quiz Bowl. Probably my largest time commitment.",
+          "role": "",
+          "description": "4. \\#4 Academic Team/Quiz Bowl. Probably my largest time commitment."
+        },
+        {
+          "name": "5. \\#5 Did science fair one year. did horrible, but I still talked about it.",
+          "role": "",
+          "description": "5. \\#5 Did science fair one year. did horrible, but I still talked about it."
+        },
+        {
+          "name": "6. \\#6 Social justice club at my school. Also did some work with young democrats",
+          "role": "",
+          "description": "6. \\#6 Social justice club at my school. Also did some work with young democrats at my school."
+        },
+        {
+          "name": "7. \\#7",
+          "role": "",
+          "description": "7. \\#7"
+        },
+        {
+          "name": "8. \\#8",
+          "role": "",
+          "description": "8. \\#8"
+        },
+        {
+          "name": "9. \\#9",
+          "role": "",
+          "description": "9. \\#9"
+        },
+        {
+          "name": "10. \\#10",
+          "role": "",
+          "description": "10. \\#10"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP:18",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Dual Enrollment: 9",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Senior Year Course Load:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Organic Chemistry 2",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Multivariable Calculus",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Linear Algebra",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Human Geography",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Government",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Environmental Science",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honors Advanced Composition (Prereq for AP lit)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Current Issues",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": "2. \\#2 NHS. President Senior year. VP junior year. Mostly just community service.; 3. \\#3 Science National Honors Society. Mostly community service and tutoring. VP"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied as chemical engineering, but i'm considering doing eecs."
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Co-Founded a medium-scale non profit which raised ~$8",
+          "role": "",
+          "description": "Co-Founded a medium-scale non profit which raised ~$8"
+        },
+        {
+          "name": "000 to provide sewing machines and sewing classes to a rural community Pokemon S",
+          "role": "",
+          "description": "000 to provide sewing machines and sewing classes to a rural community Pokemon Showdown (Random Battles), Global top 100 (2300+ elo) for more than 3 months. Co-Founded a Library On Wheels-like service for same underdeveloped community, later worked with Room To Read, Nepal, to expand the same,"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "An International (mostly Asia tbh) level award for the aforementioned niche club that's literally it, I had no academic ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Interviews:",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 300,
+      "first_gen": null,
+      "service_summary": "Co-Founded a medium-scale non profit which raised ~$8,000 to provide sewing machines and sewing classes to a rural community, Co-Founded a Library On Wheels-like service for same underdeveloped community, later worked with Room To Read, Nepal, to expand the same, The UChicago acceptance + almost a full ride aid package still feels surreal to me. I thought I was deep fried for being an internationa"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Economics for some colleges, Mechanical Engineering otherwise"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1480,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Speaking four languages - English, Russian, Kazakh and French. I also learned so",
+          "role": "",
+          "description": "Speaking four languages - English, Russian, Kazakh and French. I also learned some Polish and Inter-Slav language."
+        },
+        {
+          "name": "Volunteering - help with organization Nazarbayev University first Winter Games. ",
+          "role": "",
+          "description": "Volunteering - help with organization Nazarbayev University first Winter Games. Mainly I did photographing there. Not a big deal."
+        },
+        {
+          "name": "Tennis - 4 years (hobby).",
+          "role": "",
+          "description": "Tennis - 4 years (hobby)."
+        },
+        {
+          "name": "Computer programming - self-learning Java and Python. Programming allowed me to ",
+          "role": "",
+          "description": "Computer programming - self-learning Java and Python. Programming allowed me to create a portfolio of pet-projects, as well as win in competitions."
+        },
+        {
+          "name": "MUN Member - 1 year",
+          "role": "",
+          "description": "MUN Member - 1 year"
+        },
+        {
+          "name": "Finalist of ABC x TCA Incubation program (Central Asia). Proposed a startup, whi",
+          "role": "",
+          "description": "Finalist of ABC x TCA Incubation program (Central Asia). Proposed a startup, which helps to write effectively in Kazakh language using AI. It is somewhat similar to [Grammarly.com](https://grammarly.com/)"
+        },
+        {
+          "name": "Internship at [makatov.pro](https://makatov.pro/). Developed a back-end function",
+          "role": "",
+          "description": "Internship at [makatov.pro](https://makatov.pro/). Developed a back-end functionality for a local university."
+        },
+        {
+          "name": "I also enjoy playing piano, I have ended musical school and have international a",
+          "role": "",
+          "description": "I also enjoy playing piano, I have ended musical school and have international and national awards in 6th grade."
+        },
+        {
+          "name": "Won funding($3000) from mayor of Karaganda to produce dry mushrooms, carrots and",
+          "role": "",
+          "description": "Won funding($3000) from mayor of Karaganda to produce dry mushrooms, carrots and onions in my town."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "NASA International Space Apps Challenge - Winner and Global Nominee.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "International Hackathon \"Digital Commonwealth\" - Absolute Champion. It was organized by MIPT (Moscow",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Future Business Leaders of America, Public Speaking - National Winner.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Olympiad of the History of Kazakhstan - 3rd Place (freshman year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Olympiad in Computer Science - 3rd Place (junior year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Tennis regional competition - I place.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Science projects competition - II place.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Next Generation Nations Hackathon – 4th place.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "MIT COVID 19 Challenge – proposed a blockchain cloud CT scan service. No award.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "These achievements were reached because of the high focus on environmental and social issues in the ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science, statistics, data science."
+    },
+    "ESSAY_SCORE": null
+  }
+}

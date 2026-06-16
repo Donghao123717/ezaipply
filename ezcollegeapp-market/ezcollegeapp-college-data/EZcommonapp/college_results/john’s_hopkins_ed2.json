@@ -1,0 +1,54 @@
+{
+  "post": {
+    "id": "t3_1plp5zw",
+    "title": "John’s Hopkins Ed2",
+    "author": "FncsBats",
+    "selftext": "If there is anyone that can help with my college essay, please reach out! Thank you and congrats to those who got accepted!",
+    "score": "3",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1plp5zw/johns_hopkins_ed2/",
+    "created": "2025-12-13T16:17:51+00:00",
+    "num_comments": 1,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nxzgrli",
+      "author": "Odd_Sir_9349",
+      "body": "What's the essay about?",
+      "score": "1 point",
+      "created": "2026-01-06T10:30:25+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1plp5zw",
+        "author": "FncsBats",
+        "title": "John’s Hopkins Ed2",
+        "body": "If there is anyone that can help with my college essay, please reach out! Thank you and congrats to those who got accepted!",
+        "full_text": "John’s Hopkins Ed2\n\nIf there is anyone that can help with my college essay, please reach out! Thank you and congrats to those who got accepted!"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nxzgrli",
+          "author": "Odd_Sir_9349",
+          "body": "What's the essay about?",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

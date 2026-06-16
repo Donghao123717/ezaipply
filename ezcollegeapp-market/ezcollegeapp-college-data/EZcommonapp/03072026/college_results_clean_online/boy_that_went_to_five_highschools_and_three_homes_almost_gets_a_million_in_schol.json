@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": 1400,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. *Scholastic Bowl Virginia High School league*",
+          "role": "",
+          "description": "1. *Scholastic Bowl Virginia High School league*"
+        },
+        {
+          "name": "2. Virginia's Summer Residential Governor's Schools of math, science, and techno",
+          "role": "",
+          "description": "2. Virginia's Summer Residential Governor's Schools of math, science, and technology."
+        },
+        {
+          "name": "3. Track and Field outdoor",
+          "role": "",
+          "description": "3. Track and Field outdoor"
+        },
+        {
+          "name": "4. Cross-country",
+          "role": "",
+          "description": "4. Cross-country"
+        },
+        {
+          "name": "5. Boy Scouts of America",
+          "role": "",
+          "description": "5. Boy Scouts of America"
+        },
+        {
+          "name": "6. Key Club",
+          "role": "",
+          "description": "6. Key Club"
+        },
+        {
+          "name": "7. Work",
+          "role": "",
+          "description": "7. Work"
+        },
+        {
+          "name": "8. Indoor track",
+          "role": "",
+          "description": "8. Indoor track"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "They kinda suck.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. The Virginia Summer Governor’s Schools Certificate of Commendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. athlete scholar award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Academic team ranked 3rd in region",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Honor roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here) neuroscience"
+    },
+    "ESSAY_SCORE": null
+  }
+}

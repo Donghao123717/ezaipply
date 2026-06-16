@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": 35,
+      "class_rank_percentile": 84.0,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "1. Practiced Japanese calligraphy for over 7 years and received numerous interna",
+          "role": "",
+          "description": "1. Practiced Japanese calligraphy for over 7 years and received numerous internationally recognized awards and certifications for proficiency and artistic style (1st and 2nd cycle), uploaded samples o"
+        },
+        {
+          "name": "2. Coxswain of HS Crew, participated in freshman and sophomore year before endin",
+          "role": "",
+          "description": "2. Coxswain of HS Crew, participated in freshman and sophomore year before ending it due to COVID (1st and 2nd cycle)"
+        },
+        {
+          "name": "3. Volunteer work at a cultural summer camp including leadership roles in engage",
+          "role": "",
+          "description": "3. Volunteer work at a cultural summer camp including leadership roles in engagement, ranked up from junior to senior position (1st and 2nd cycle)"
+        },
+        {
+          "name": "4. Helped teach students in underserved communities who were struggling in eleme",
+          "role": "",
+          "description": "4. Helped teach students in underserved communities who were struggling in elementary school to learn math and English (1st and 2nd cycle)"
+        },
+        {
+          "name": "5. Internship at two local hospitals, including communicating with patients and ",
+          "role": "",
+          "description": "5. Internship at two local hospitals, including communicating with patients and assisting with tasks along with observing healthcare practices &amp; surgery (1st and 2nd cycle)"
+        },
+        {
+          "name": "6. Extensive preparation to become an EMT, including over 150 hours of mandatory",
+          "role": "",
+          "description": "6. Extensive preparation to become an EMT, including over 150 hours of mandatory training and involvement in significant realistically simulated scenarios (2nd cycle)"
+        },
+        {
+          "name": "7. Volunteer position at a local senior memory care facility, involved with both",
+          "role": "",
+          "description": "7. Volunteer position at a local senior memory care facility, involved with both leading and assisting group activities designed for elderly residents (2nd cycle)"
+        },
+        {
+          "name": "8. Self - studied Python to code and design a program used to identify handwritt",
+          "role": "",
+          "description": "8. Self - studied Python to code and design a program used to identify handwritten digits with over 99% accuracy using concepts from Linear Algebra (2nd cycle)"
+        },
+        {
+          "name": "(9). Self - studied German to where I got a 4 on the AP German test... this, alo",
+          "role": "",
+          "description": "(9). Self - studied German to where I got a 4 on the AP German test... this, along with my dual enrollment, appeared in part of my additional info section and not in the EC list (1st and 2nd cycle)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Numerous awards in Japanese calligraphy for \"good work\" (1st and 2nd cycle)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. CPR and BLS certifications as part of EMT training (2nd cycle)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. NASA College Scholarship Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. AATG National German Examination level 2 and 3 bronze awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Seal of Biliteracy",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. AP Scholar with distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. Volunteer work at a cultural summer camp including leadership roles in engagement, ranked up from junior to senior position (1st and 2nd cycle); 7. Volunteer position at a local senior memory care facility, involved with both leading and assisting group activities designed for elderly residents (2nd cycle)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "chemistry (1st cycle), neuroscience + linguistics (2nd cycle)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

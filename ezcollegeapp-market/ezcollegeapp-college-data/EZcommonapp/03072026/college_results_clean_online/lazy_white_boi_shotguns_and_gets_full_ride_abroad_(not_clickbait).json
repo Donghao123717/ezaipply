@@ -1,0 +1,63 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.865,
+      "sat_total": 1550,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(co-)president of cyber competition team (didn't rly win anything)",
+          "role": "",
+          "description": "(co-)president of cyber competition team (didn't rly win anything)"
+        },
+        {
+          "name": "founded an informal discussion club of sorts for public policy stuff",
+          "role": "",
+          "description": "founded an informal discussion club of sorts for public policy stuff"
+        },
+        {
+          "name": "writing center tutor during my senior year (selected by faculty)",
+          "role": "",
+          "description": "writing center tutor during my senior year (selected by faculty)"
+        },
+        {
+          "name": "involved in environment club, model un, academic team, and newspaper but didn't ",
+          "role": "",
+          "description": "involved in environment club, model un, academic team, and newspaper but didn't do anything too major with those"
+        },
+        {
+          "name": "research internship at state flagship where i did a project using machine learni",
+          "role": "",
+          "description": "research internship at state flagship where i did a project using machine learning tools to forecast and analyze elections. no related awards, but I presented it"
+        },
+        {
+          "name": "some minor political volunteering",
+          "role": "",
+          "description": "some minor political volunteering"
+        },
+        {
+          "name": "not sure if I'm forgetting something there",
+          "role": "",
+          "description": "not sure if I'm forgetting something there"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "writing center tutor during my senior year (selected by faculty)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

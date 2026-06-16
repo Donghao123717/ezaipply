@@ -1,0 +1,141 @@
+{
+  "post": {
+    "id": "t3_1po8cq2",
+    "title": "Vanderbilt ED 1 Release?",
+    "author": "Unhappy-Swimming-944",
+    "selftext": "When is it Vanderbilt ED 1 getting released? Wasn't it supposed to be 17th December?",
+    "score": "3",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1po8cq2/vanderbilt_ed_1_release/",
+    "created": "2025-12-16T17:43:26+00:00",
+    "num_comments": 4,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nud9lnk",
+      "author": "FuturePause2736",
+      "body": "lmk when you find out",
+      "score": "1 point",
+      "created": "2025-12-16T17:45:16+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nuf7i7n",
+      "author": "AdSpecialist2110",
+      "body": "Yep! Tomorrow at 5pm central time, 6pm eastern, idk the other time zones",
+      "score": "1 point",
+      "created": "2025-12-16T23:38:30+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nufa1j2",
+          "author": "Overall-Ad-3251",
+          "body": "You don't know the other time zones? 6 East/5 Central/4 Mountain/3 Pacific... If you are curious Alaska would be 2 and Hawaii would be 1",
+          "score": "1 point",
+          "created": "2025-12-16T23:53:12+00:00",
+          "depth": 1,
+          "parent_id": "t1_nuf7i7n",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_nufd13b",
+              "author": "AdSpecialist2110",
+              "body": "I just don’t know time zones 😭 I just know I’m in eastern and Vandy is in central",
+              "score": "1 point",
+              "created": "2025-12-17T00:10:22+00:00",
+              "depth": 2,
+              "parent_id": "t1_nufa1j2",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1po8cq2",
+        "author": "Unhappy-Swimming-944",
+        "title": "Vanderbilt ED 1 Release?",
+        "body": "When is it Vanderbilt ED 1 getting released? Wasn't it supposed to be 17th December?",
+        "full_text": "Vanderbilt ED 1 Release?\n\nWhen is it Vanderbilt ED 1 getting released? Wasn't it supposed to be 17th December?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nud9lnk",
+          "author": "FuturePause2736",
+          "body": "lmk when you find out",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nuf7i7n",
+          "author": "AdSpecialist2110",
+          "body": "Yep! Tomorrow at 5pm central time, 6pm eastern, idk the other time zones",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nuf7i7n",
+        "author": "AdSpecialist2110",
+        "body": "Yep! Tomorrow at 5pm central time, 6pm eastern, idk the other time zones",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nufa1j2",
+          "author": "Overall-Ad-3251",
+          "body": "You don't know the other time zones? 6 East/5 Central/4 Mountain/3 Pacific... If you are curious Alaska would be 2 and Hawaii would be 1",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nufa1j2",
+        "author": "Overall-Ad-3251",
+        "body": "You don't know the other time zones? 6 East/5 Central/4 Mountain/3 Pacific... If you are curious Alaska would be 2 and Hawaii would be 1",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nufd13b",
+          "author": "AdSpecialist2110",
+          "body": "I just don’t know time zones 😭 I just know I’m in eastern and Vandy is in central",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 2,
+    "total_qa_pairs": 3
+  }
+}

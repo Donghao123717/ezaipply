@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *President of Hispanic Student Association (9-12)*",
+          "role": "",
+          "description": "1. *President of Hispanic Student Association (9-12)*"
+        },
+        {
+          "name": "2. President of Schools Literary Magazine (9-12)",
+          "role": "",
+          "description": "2. President of Schools Literary Magazine (9-12)"
+        },
+        {
+          "name": "3. Intern for a Senate Campaign (11)",
+          "role": "",
+          "description": "3. Intern for a Senate Campaign (11)"
+        },
+        {
+          "name": "4. Student Body President (12)",
+          "role": "",
+          "description": "4. Student Body President (12)"
+        },
+        {
+          "name": "5. Event Coordinator for High School Political non-Profit (11-12)",
+          "role": "",
+          "description": "5. Event Coordinator for High School Political non-Profit (11-12)"
+        },
+        {
+          "name": "6. President of Debate Team (9-12)",
+          "role": "",
+          "description": "6. President of Debate Team (9-12)"
+        },
+        {
+          "name": "7. Poetry: a bunch of publications, attended Adroit, etc (10-12)",
+          "role": "",
+          "description": "7. Poetry: a bunch of publications, attended Adroit, etc (10-12)"
+        },
+        {
+          "name": "8. Volunteer for a social-justice based non profit (10-12)",
+          "role": "",
+          "description": "8. Volunteer for a social-justice based non profit (10-12)"
+        },
+        {
+          "name": "9. MA chair of a student-run nonprofit for creative writing (12)",
+          "role": "",
+          "description": "9. MA chair of a student-run nonprofit for creative writing (12)"
+        },
+        {
+          "name": "10. Tutor (11-12)",
+          "role": "",
+          "description": "10. Tutor (11-12)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Scholastic Art and Writing Award: x2 Silver Keys, x2 Honorable Mention",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Published Research Paper in a Youth Essay Writing Conference",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National Merit Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. College Board Hispanic Recognition",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "8. Volunteer for a social-justice based non profit (10-12); 10. Tutor (11-12)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science and english"
+    },
+    "ESSAY_SCORE": null
+  }
+}

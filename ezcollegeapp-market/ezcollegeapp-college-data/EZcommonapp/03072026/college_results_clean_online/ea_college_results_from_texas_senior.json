@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 800,
+      "act_composite": null,
+      "class_rank_percentile": 64.2,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "JKCF Semi-Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Elks MVS Lodge",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "deca state finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "selected to be deca state voting delegate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "national merit semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "national african-american recognition award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "UIL Debate 3rd place district",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "10 APS, 8 DES + 2 UG Electrical Engineering Courses, 11 Honors: AP Precalc (5), AP CSP (3 💀), AP CSA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "target: texas a & m",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "reaches: all ivies (upenn m&t), stanford, mit, ut austin, uva, usc, umich ibe, georgia tech, rice, c",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "ece + math/ ece + business or csba @ viterbi"
+    },
+    "ESSAY_SCORE": null
+  }
+}

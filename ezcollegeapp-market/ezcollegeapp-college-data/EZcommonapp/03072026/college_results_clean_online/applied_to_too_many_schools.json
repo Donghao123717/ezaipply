@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1320,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Science Olympiad co-captain",
+          "role": "",
+          "description": "1. Science Olympiad co-captain"
+        },
+        {
+          "name": "2. Peer Leaders",
+          "role": "",
+          "description": "2. Peer Leaders"
+        },
+        {
+          "name": "3. Musicals &amp; Drama- ensemble",
+          "role": "",
+          "description": "3. Musicals &amp; Drama- ensemble"
+        },
+        {
+          "name": "4. Volunteering clubs",
+          "role": "",
+          "description": "4. Volunteering clubs"
+        },
+        {
+          "name": "5. Speech &amp; Drama member",
+          "role": "",
+          "description": "5. Speech &amp; Drama member"
+        },
+        {
+          "name": "6. Book Club member",
+          "role": "",
+          "description": "6. Book Club member"
+        },
+        {
+          "name": "7. MSA member",
+          "role": "",
+          "description": "7. MSA member"
+        },
+        {
+          "name": "8. TSA state medalist",
+          "role": "",
+          "description": "8. TSA state medalist"
+        },
+        {
+          "name": "9. jv xc for 3 yrs and track for 4 yrs",
+          "role": "",
+          "description": "9. jv xc for 3 yrs and track for 4 yrs"
+        },
+        {
+          "name": "10. Volunteering at Animal Shelter",
+          "role": "",
+          "description": "10. Volunteering at Animal Shelter"
+        },
+        {
+          "name": "11. Playing piano for 11 yrs",
+          "role": "",
+          "description": "11. Playing piano for 11 yrs"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Honors Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. High Honor Roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Tri-M Music Honor Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Thespian Inductee",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": false,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biomedical engineering/, bio-engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

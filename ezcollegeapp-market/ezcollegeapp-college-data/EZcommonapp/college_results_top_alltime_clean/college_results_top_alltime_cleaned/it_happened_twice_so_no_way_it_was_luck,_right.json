@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "I only included school extracurriculars from my junior and senior years. for my ",
+          "role": "",
+          "description": "I only included school extracurriculars from my junior and senior years. for my extracurriculars at my old school, I just tossed them into additional info and explained transfer schools."
+        },
+        {
+          "name": "1. Family business, worked there since I was a kid and do lots of things for the",
+          "role": "",
+          "description": "1. Family business, worked there since I was a kid and do lots of things for them since they can't speak English. worked here a lot throughout hs."
+        },
+        {
+          "name": "2. cs research labs",
+          "role": "",
+          "description": "2. cs research labs"
+        },
+        {
+          "name": "3. Began my own art business",
+          "role": "",
+          "description": "3. Began my own art business"
+        },
+        {
+          "name": "4. Founded volunteering club at school during COVID and did some community proje",
+          "role": "",
+          "description": "4. Founded volunteering club at school during COVID and did some community projects."
+        },
+        {
+          "name": "5. Small volunteering leadership position in another club, coordinated a couple ",
+          "role": "",
+          "description": "5. Small volunteering leadership position in another club, coordinated a couple of volunteer opportunities."
+        },
+        {
+          "name": "6. Kode with Klossy + was featured in a magazine",
+          "role": "",
+          "description": "6. Kode with Klossy + was featured in a magazine"
+        },
+        {
+          "name": "7. Youth Orchestra",
+          "role": "",
+          "description": "7. Youth Orchestra"
+        },
+        {
+          "name": "I also linked my Github in additional info.",
+          "role": "",
+          "description": "I also linked my Github in additional info."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 6,
+      "first_gen": true,
+      "service_summary": "4. Founded volunteering club at school during COVID and did some community projects.; 5. Small volunteering leadership position in another club, coordinated a couple of volunteer opportunities."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs, art"
+    },
+    "ESSAY_SCORE": null
+  }
+}

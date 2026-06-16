@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Cricket Player - #4 school team in state Coder - Java, Python, C++, etc. wi",
+          "role": "",
+          "description": "etc. Cricket Player - #4 school team in state Coder - Java, Python, C++, etc. with projects and the like School House Head - Leadership Civic Service - Cleaning roads, awareness campaigns, etc. Family commitment - cooking, cleaning, helping younger siblings, etc."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application. Cricket Awards School Excellence SOF IMO #2 in zone Letters of",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Civic Service - Cleaning roads, awareness campaigns, etc. Personal Statement - Wrote about making the best of my situation and all my qualities and how they've helped me improve my community (7/10 if I had to guess)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

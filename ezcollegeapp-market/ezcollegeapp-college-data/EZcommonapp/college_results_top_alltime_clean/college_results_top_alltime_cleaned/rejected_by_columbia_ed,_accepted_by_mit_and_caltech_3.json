@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": 94.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Research Intern- Research at t20 university on recombination (didn't get pub",
+          "role": "",
+          "description": "1. *Research Intern- Research at t20 university on recombination (didn't get published but I really got to know the prof and she wrote a rec letter :0)*"
+        },
+        {
+          "name": "2. Gaming- LMAO I played competitively for a mobile game and had a notable leade",
+          "role": "",
+          "description": "2. Gaming- LMAO I played competitively for a mobile game and had a notable leadership position of a pretty notable esports org"
+        },
+        {
+          "name": "3. Science Olympiad President- our team always qualified to states and got decen",
+          "role": "",
+          "description": "3. Science Olympiad President- our team always qualified to states and got decent medals :0"
+        },
+        {
+          "name": "4. Varsity Tennis- Doubles #1 and was one of the top doubles teams in our league",
+          "role": "",
+          "description": "4. Varsity Tennis- Doubles #1 and was one of the top doubles teams in our league"
+        },
+        {
+          "name": "5. Shadowing surgeon/oncologist- Went into the Operating Room and got to see sur",
+          "role": "",
+          "description": "5. Shadowing surgeon/oncologist- Went into the Operating Room and got to see surgeries performed :0"
+        },
+        {
+          "name": "6. Lab Assistant- Did some lab stuff at a notable organization, wasn't research ",
+          "role": "",
+          "description": "6. Lab Assistant- Did some lab stuff at a notable organization, wasn't research but helped maintain lab supplies, technician work"
+        },
+        {
+          "name": "7. Biology Club President- Biology !!",
+          "role": "",
+          "description": "7. Biology Club President- Biology !!"
+        },
+        {
+          "name": "8. Art Insta- Had like around 1.5K followers at some point and I really loved po",
+          "role": "",
+          "description": "8. Art Insta- Had like around 1.5K followers at some point and I really loved posting digital art on there :0"
+        },
+        {
+          "name": "9. Summer Research Intern- Cancer research at a notable hospital",
+          "role": "",
+          "description": "9. Summer Research Intern- Cancer research at a notable hospital"
+        },
+        {
+          "name": "10. Biology tutor (like 80-100 hours?)",
+          "role": "",
+          "description": "10. Biology tutor (like 80-100 hours?)"
+        },
+        {
+          "name": "I also did a semi-prestigious summer program (15% acceptance rate?) and some wor",
+          "role": "",
+          "description": "I also did a semi-prestigious summer program (15% acceptance rate?) and some workshops and online courses but I couldn't decide and put them in my additional info"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *Biology Olympiad High Honors (was like top 30)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *British Biology Olympiad Gold Medal (like top 6%)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *13 Science Olymiad Medals ? (LOL I couldn't figure out where to put this so I just decided to ja",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *Tennis award CIF for being a top ranked doubles team in our league*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *AP Scholar w/ distinction*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "10. Biology tutor (like 80-100 hours?)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.82,
+      "sat_total": null,
+      "act_composite": 33,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Cheerleading Team (9 hrs/week)",
+          "role": "",
+          "description": "Cheerleading Team (9 hrs/week)"
+        },
+        {
+          "name": "Best Buddies",
+          "role": "",
+          "description": "Best Buddies"
+        },
+        {
+          "name": "Dairy Queen Employee",
+          "role": "",
+          "description": "Dairy Queen Employee"
+        },
+        {
+          "name": "Junior and Senior Class President",
+          "role": "",
+          "description": "Junior and Senior Class President"
+        },
+        {
+          "name": "Babysitter &amp; Dog Walker freshman through junior year before corona (paid)",
+          "role": "",
+          "description": "Babysitter &amp; Dog Walker freshman through junior year before corona (paid)"
+        },
+        {
+          "name": "Key Club Vice President",
+          "role": "",
+          "description": "Key Club Vice President"
+        },
+        {
+          "name": "Volunteering at Animal Hospital (300+ hours)",
+          "role": "",
+          "description": "Volunteering at Animal Hospital (300+ hours)"
+        },
+        {
+          "name": "Cancer Foundation President",
+          "role": "",
+          "description": "Cancer Foundation President"
+        },
+        {
+          "name": "Soup kitchen volunteer sophomore year",
+          "role": "",
+          "description": "Soup kitchen volunteer sophomore year"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National Merit Commended Student",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Honor Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Best student in AP English (junior year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Employee of the month",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Soup kitchen volunteer sophomore year"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "sociology/social work"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "blind for all freshman applicants to the College of Letters & Science, so what you put on your application doesn't matter. Surprisingly, the average college student changes majors **4-5 times** before they graduate, so realistically, none of you will end up leaving with whatever you declared to begin with."
+    },
+    "ESSAY_SCORE": null
+  }
+}

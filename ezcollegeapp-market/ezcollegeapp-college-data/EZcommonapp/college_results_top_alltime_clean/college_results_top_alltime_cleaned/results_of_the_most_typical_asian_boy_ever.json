@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.2,
+      "sat_total": 780,
+      "act_composite": 15,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "Math club president and math team captain, helped many students excel in competi",
+          "role": "",
+          "description": "Math club president and math team captain, helped many students excel in competitions, led team to second in state"
+        },
+        {
+          "name": "Internship at a very large hospital (1 of 6 chosen), shadowed physicians and rec",
+          "role": "",
+          "description": "Internship at a very large hospital (1 of 6 chosen), shadowed physicians and received specific hands-on training"
+        },
+        {
+          "name": "Event organizer for a very large NPO with 100+ branches, over 200 hours, UN visi",
+          "role": "",
+          "description": "Event organizer for a very large NPO with 100+ branches, over 200 hours, UN visits"
+        },
+        {
+          "name": "Speciality-specifc lectures by medical profs at hospital (I listed this as a sep",
+          "role": "",
+          "description": "Speciality-specifc lectures by medical profs at hospital (I listed this as a separate EC although it was very closely related with another), shared my experience in journals"
+        },
+        {
+          "name": "Published research on radiology with hospital mentor, peer reviewed and name cre",
+          "role": "",
+          "description": "Published research on radiology with hospital mentor, peer reviewed and name credit"
+        },
+        {
+          "name": "Varsity bowling",
+          "role": "",
+          "description": "Varsity bowling"
+        },
+        {
+          "name": "Reararch at Rutgers University on radiology",
+          "role": "",
+          "description": "Reararch at Rutgers University on radiology"
+        },
+        {
+          "name": "Self taught guitar and piano",
+          "role": "",
+          "description": "Self taught guitar and piano"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. 2x AIME qual (AMC 10a 2022 and AMC 12b 2024, school top scorer for each, 1/~1200)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. PVSA silver (no gold sadly)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Top finishes in many local and statewide math comps",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. John Locke essay competition commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Another random math competition",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology/chemistry (premed)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

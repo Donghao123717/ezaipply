@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.87,
+      "sat_total": 1460,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "being vague so that people don’t recognize me 🙂‍↕️🙂‍↕️🙂‍↔️😟😓🫠🫤",
+          "role": "",
+          "description": "being vague so that people don’t recognize me 🙂‍↕️🙂‍↕️🙂‍↔️😟😓🫠🫤"
+        },
+        {
+          "name": "Activism for Nonprofit (significant involvement) Art Club (significant involveme",
+          "role": "",
+          "description": "Activism for Nonprofit (significant involvement) Art Club (significant involvement, was involved in school wide art events, leadership role, yada yada) Engineering Competition (ranked first in state!)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Chem, AP Calc BC, AP Physics C, AP US Government, Honors English, Film Studies, Engineering ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Standardized Testing**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "List the highest scores earned and all scores that were reported.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT: 1460 💀 (reported to Purdue, UMich, and safeties)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP/IB: Bio, APUSH, CSP (5), Lang, Calc AB, (4), Physics 1 (3) 💀(did not report)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Volunteer at Animal Shelter"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

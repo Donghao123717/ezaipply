@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "(Notes: I applied for financial aid but the amount I requested was higher than Fordham’s minimum EFC requirement so i wa",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: You can still be rejected for primarily financial aid reasons if you were over their minimum EFC.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Many my international students who get into Fordham get scholarships that drop the total cost maybe around $60,000/year ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "As Fordham is not full-need for international students, they do not reject applicants for requesting financial aid. They",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- fordham is trying to drop their acceptance rate this year, the head of the school said it or sum. they are pushing for",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

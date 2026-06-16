@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.07,
+      "sat_total": 1160,
+      "act_composite": 31,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\#1 President of my school's chess club (12th)",
+          "role": "",
+          "description": "\\#1 President of my school's chess club (12th)"
+        },
+        {
+          "name": "\\#2 Robotics (all 4 years)",
+          "role": "",
+          "description": "\\#2 Robotics (all 4 years)"
+        },
+        {
+          "name": "\\#3 Over-the-board chess tournaments (been playing since I was 8)",
+          "role": "",
+          "description": "\\#3 Over-the-board chess tournaments (been playing since I was 8)"
+        },
+        {
+          "name": "\\#4 Math tutor ( 10th, 11th, 12th)",
+          "role": "",
+          "description": "\\#4 Math tutor ( 10th, 11th, 12th)"
+        },
+        {
+          "name": "\\#5 Mentorship program which was a part of robotics ( 10th, 11th, 12th )",
+          "role": "",
+          "description": "\\#5 Mentorship program which was a part of robotics ( 10th, 11th, 12th )"
+        },
+        {
+          "name": "\\#6 Summer job ( 10th, 11th )",
+          "role": "",
+          "description": "\\#6 Summer job ( 10th, 11th )"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "NONE",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "And I WILL be the 1; You don’t know me; And I have shit immune system I missed 2-3 months of school total last year you try catching up on that; how are you still waiting on UCs?; appeals; you can appeal those??"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "data science, computer science, stats"
+    },
+    "ESSAY_SCORE": null
+  }
+}

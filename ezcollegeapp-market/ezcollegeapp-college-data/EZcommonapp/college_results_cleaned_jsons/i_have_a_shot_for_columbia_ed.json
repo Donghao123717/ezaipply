@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.84,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 81.51,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Career Oriented:",
+          "role": "",
+          "description": "Career Oriented:"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Algebra 1 Pre-AP (8th Grade) Algebra 2 Pre-AP (9th Grade Geometry Honors (10th Grade) Biology Pre-AP (9th Grade) Chemist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Dual Enrollment Coursework: 24 Dual Credit courses at Community College (70+ college credits total) Honors Projects: 7 (",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Core STEM: Calc I, Calc II, Pre-Calc, College Algebra, Discrete Math, Programming, Biology Majors 1 & 2 (lab + lecture),",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Selected to present Community College Honors & STEM Expo (First EC student ever selected for this City-wide Competition)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Expo Project (sent to Columbia via portal): Interdisciplinary showcase combining Art, Psychology, and advanced Math to p",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State recognition for two Research Paper on Cybercrime and Cyberbullying through CC - I have submitted two research abst",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "24 Dual Credit courses at Community College (70+ college credits total) Community College Honors Program Selected to present Community College Honors & STEM Expo (First EC student ever selected for this City-wide Competition):"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

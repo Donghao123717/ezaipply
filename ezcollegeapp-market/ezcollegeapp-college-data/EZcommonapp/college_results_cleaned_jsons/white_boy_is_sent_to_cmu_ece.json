@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.87,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "BWSI Basics of ASICs Research intern at a local research institution doing ml-ba",
+          "role": "",
+          "description": "BWSI Basics of ASICs Research intern at a local research institution doing ml-based coral investigation MSEF (did microbial fuel cell work, got an honorable mention) Shellfish department internship Co-President of Mock Trial team"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Testing SAT: 1590 Superscore (790M / 800R) (made up of 2 1560s) APs: 5 on APUSH, Lit, Chem, Calc AB, 4 on CS:A",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

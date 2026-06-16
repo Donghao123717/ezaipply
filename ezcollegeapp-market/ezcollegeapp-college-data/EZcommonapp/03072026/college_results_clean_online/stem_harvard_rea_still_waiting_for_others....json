@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 5,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 15
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "independent research",
+          "role": "",
+          "description": "independent research"
+        },
+        {
+          "name": "research at local uni",
+          "role": "",
+          "description": "research at local uni"
+        },
+        {
+          "name": "started a software development company",
+          "role": "",
+          "description": "started a software development company"
+        },
+        {
+          "name": "started a mid-sized youtube channel",
+          "role": "",
+          "description": "started a mid-sized youtube channel"
+        },
+        {
+          "name": "stem advocacy",
+          "role": "",
+          "description": "stem advocacy"
+        },
+        {
+          "name": "boy scouts",
+          "role": "",
+          "description": "boy scouts"
+        },
+        {
+          "name": "track",
+          "role": "",
+          "description": "track"
+        },
+        {
+          "name": "debate",
+          "role": "",
+          "description": "debate"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "isef 1st place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "research science institute",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "two-time national jshs winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "eagle scout",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "time magazine 25 most influential teen",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "neuroscience"
+    },
+    "ESSAY_SCORE": null
+  }
+}

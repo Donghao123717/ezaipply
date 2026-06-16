@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Class Officer on Class Planning Board (Managed 42k Budget)",
+          "role": "",
+          "description": "1. Class Officer on Class Planning Board (Managed 42k Budget)"
+        },
+        {
+          "name": "2. Violin (School Honors Orchestra/Local Orchestra/Local Music Festivals)",
+          "role": "",
+          "description": "2. Violin (School Honors Orchestra/Local Orchestra/Local Music Festivals)"
+        },
+        {
+          "name": "3. Science Olympiad Captain (Couple Invitational/State Awards)",
+          "role": "",
+          "description": "3. Science Olympiad Captain (Couple Invitational/State Awards)"
+        },
+        {
+          "name": "4. School Newspaper Editor-in-Chief (Quadrupled Digital Readership/Launched App)",
+          "role": "",
+          "description": "4. School Newspaper Editor-in-Chief (Quadrupled Digital Readership/Launched App)"
+        },
+        {
+          "name": "5. Soccer (Varsity Starter Senior Year)",
+          "role": "",
+          "description": "5. Soccer (Varsity Starter Senior Year)"
+        },
+        {
+          "name": "6. BME Internship at a t50 college (Didn't do much, Helped with ongoing research",
+          "role": "",
+          "description": "6. BME Internship at a t50 college (Didn't do much, Helped with ongoing research)"
+        },
+        {
+          "name": "7. Internship/Project With a Local Sustainability Organization",
+          "role": "",
+          "description": "7. Internship/Project With a Local Sustainability Organization"
+        },
+        {
+          "name": "8. Mock Trial",
+          "role": "",
+          "description": "8. Mock Trial"
+        },
+        {
+          "name": "9. STEM Club (Club Officer)",
+          "role": "",
+          "description": "9. STEM Club (Club Officer)"
+        },
+        {
+          "name": "10. Ultimate (Varsity)",
+          "role": "",
+          "description": "10. Ultimate (Varsity)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Brown Book Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. NMSQT Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Tri-M",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. World Language National Honors Society",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "engineering (probably mechanical)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

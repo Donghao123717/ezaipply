@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2nd Place in PA SEED environmental literacy hackathon - Designed an app that could both benefit the ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National African American Recognition Award - Good test scores",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Community Service Award - Most volunteer hours freshman and sophomore year",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "American Legion School Award Medal - Regional award for displaying patriotism and leadership qualiti",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Good Citizenship Award - Regional award for my performance in class and in my community",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Dean of the Academy Medal - Top of my class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "The President’s Award - Best new student my freshman year",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "High Q Team Member - I participate in a regional trivia-like quiz competition.; Football team captain; Leadership - At a military academy we have a rank hierarchy. It’s hard to explain but I worked very hard to become a captain and now I’m the PAO (public affairs officer) and I coordinate admissions tours, open houses, an; Homelife - I help take care of my older sister’s children when I am home. She’s a single mother of 6 and has cerebral palsy so it takes all of us to help them get by.; Work ex"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mathematics/statistics/business (subject to change in college)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.2,
+      "sat_total": 1050,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\#1 Worked with dad in construction ever since I was six. Started off as a trans",
+          "role": "",
+          "description": "\\#1 Worked with dad in construction ever since I was six. Started off as a translator since dad couldn't speak English eventually became a laborer. Would work during weekends and summer breaks. Incredibly brutal, most da"
+        },
+        {
+          "name": "\\#2 Worked at Chick-Fil-A during fall semester of senior year for 4 months on sc",
+          "role": "",
+          "description": "\\#2 Worked at Chick-Fil-A during fall semester of senior year for 4 months on school days. Averaging 15-20 hours. Used income to pay bills."
+        },
+        {
+          "name": "\\#3 President of Key Club",
+          "role": "",
+          "description": "\\#3 President of Key Club"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "President's volunteer service award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 200,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied math"
+    },
+    "ESSAY_SCORE": null
+  }
+}

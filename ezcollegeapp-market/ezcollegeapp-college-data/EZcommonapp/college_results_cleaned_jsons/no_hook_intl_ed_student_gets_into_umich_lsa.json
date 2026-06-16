@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Author and published peer reviewed research paper on recommender systems in an i",
+          "role": "",
+          "description": "Author and published peer reviewed research paper on recommender systems in an international journal."
+        },
+        {
+          "name": "Volunteer at a local NGO teaching kids math through games.",
+          "role": "",
+          "description": "Volunteer at a local NGO teaching kids math through games."
+        },
+        {
+          "name": "Student Council post",
+          "role": "",
+          "description": "Student Council post"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Took AP courses Calc BC and Statistics got a 5 on them. Senior Year Course Load: A level Math, Physics, Computer Science",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT II: AP/IB: 5 Calc BC and Statistics Other (ex. IELTS, TOEFL, etc.):IELTS band 8",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. Volunteer at a local NGO teaching kids math through games."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

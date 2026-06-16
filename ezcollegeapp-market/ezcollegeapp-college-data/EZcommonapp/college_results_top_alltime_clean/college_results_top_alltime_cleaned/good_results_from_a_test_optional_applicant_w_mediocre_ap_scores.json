@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": 1400,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1.  Officer in two school clubs",
+          "role": "",
+          "description": "1.  Officer in two school clubs"
+        },
+        {
+          "name": "2. Volunteer tutor at local community center",
+          "role": "",
+          "description": "2. Volunteer tutor at local community center"
+        },
+        {
+          "name": "3. Did several summer research programs at a college",
+          "role": "",
+          "description": "3. Did several summer research programs at a college"
+        },
+        {
+          "name": "4. Started a project to help students in my community",
+          "role": "",
+          "description": "4. Started a project to help students in my community"
+        },
+        {
+          "name": "5. Worked part time for like a year",
+          "role": "",
+          "description": "5. Worked part time for like a year"
+        },
+        {
+          "name": "6. Was part of this STEM program",
+          "role": "",
+          "description": "6. Was part of this STEM program"
+        },
+        {
+          "name": "7. Was a mentee for this women-in-stem group",
+          "role": "",
+          "description": "7. Was a mentee for this women-in-stem group"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Questbridge national college match finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Random school/district writing awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. Volunteer tutor at local community center; 4. Started a project to help students in my community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biomedical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

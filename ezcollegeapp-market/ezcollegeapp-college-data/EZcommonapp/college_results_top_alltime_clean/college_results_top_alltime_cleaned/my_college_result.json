@@ -1,0 +1,88 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": 99.69,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Schools Ranked: MIT, Yale, Princeton, Stanford, Duke, Dartmouth, UPenn, Brown, Columbia, and Rice",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I've had interviews with MIT and UPenn",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "congrats!!!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Great job! Could we expect a stat post soon?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Already updated the post :)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Thanks! You're insane!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "🐐",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "congratulations!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AMAZING! CONGRATS!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Wow when did the decision come out?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Go you!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Congrats!! You’re gonna love it!!",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

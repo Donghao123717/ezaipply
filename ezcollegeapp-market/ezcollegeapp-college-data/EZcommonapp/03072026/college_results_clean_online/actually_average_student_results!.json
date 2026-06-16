@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. *#1* Small business shop- over 1,450 sales, ran every part of the shop (10th ",
+          "role": "",
+          "description": "1. *#1* Small business shop- over 1,450 sales, ran every part of the shop (10th grade- present)"
+        },
+        {
+          "name": "2. \\#2 Math and history tutor (11th grade- present)",
+          "role": "",
+          "description": "2. \\#2 Math and history tutor (11th grade- present)"
+        },
+        {
+          "name": "3. \\#3 worked at a fast food restaurant (10th grade- present)",
+          "role": "",
+          "description": "3. \\#3 worked at a fast food restaurant (10th grade- present)"
+        },
+        {
+          "name": "4. \\#4 Marine Science Club- treasurer (12th)",
+          "role": "",
+          "description": "4. \\#4 Marine Science Club- treasurer (12th)"
+        },
+        {
+          "name": "5. \\#5 Art club (9th)",
+          "role": "",
+          "description": "5. \\#5 Art club (9th)"
+        },
+        {
+          "name": "6. \\#6 Virtual Enterprise- marketing manager (11th)",
+          "role": "",
+          "description": "6. \\#6 Virtual Enterprise- marketing manager (11th)"
+        },
+        {
+          "name": "7. \\#7 Spanish Club (9th)",
+          "role": "",
+          "description": "7. \\#7 Spanish Club (9th)"
+        },
+        {
+          "name": "8. \\#8 worked at my parents’ store (4th-11th)",
+          "role": "",
+          "description": "8. \\#8 worked at my parents’ store (4th-11th)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Gold and blue honor roll- didn’t put that in my resume though. I feel like it’s pretty generic/usele",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. \\#2 Math and history tutor (11th grade- present)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "sociology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

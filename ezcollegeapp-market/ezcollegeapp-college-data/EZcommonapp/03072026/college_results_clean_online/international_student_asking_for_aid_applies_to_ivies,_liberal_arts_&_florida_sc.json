@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1470,
+      "act_composite": 2,
+      "class_rank_percentile": 85.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. founder of politics blog, written articles for newspaper",
+          "role": "",
+          "description": "1. founder of politics blog, written articles for newspaper"
+        },
+        {
+          "name": "2. \\-Football team",
+          "role": "",
+          "description": "2. \\-Football team"
+        },
+        {
+          "name": "3. \\-VP of culture club",
+          "role": "",
+          "description": "3. \\-VP of culture club"
+        },
+        {
+          "name": "4. \\-Secretary in business club, developed business course",
+          "role": "",
+          "description": "4. \\-Secretary in business club, developed business course"
+        },
+        {
+          "name": "5. \\-Catering company",
+          "role": "",
+          "description": "5. \\-Catering company"
+        },
+        {
+          "name": "6. \\-community service - packages for covid relief, spending time with senior ci",
+          "role": "",
+          "description": "6. \\-community service - packages for covid relief, spending time with senior citizens"
+        },
+        {
+          "name": "7. \\-moderator- debate club",
+          "role": "",
+          "description": "7. \\-moderator- debate club"
+        },
+        {
+          "name": "8. \\-Government internship and Investment company internship, conducted research",
+          "role": "",
+          "description": "8. \\-Government internship and Investment company internship, conducted research there"
+        },
+        {
+          "name": "2 online courses in econ and comp sci (not listed on common app activities but o",
+          "role": "",
+          "description": "2 online courses in econ and comp sci (not listed on common app activities but on resume and additional info)"
+        },
+        {
+          "name": "(all the ec's are explained in depth on common app)",
+          "role": "",
+          "description": "(all the ec's are explained in depth on common app)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 Award for achieving the highest possible mark for regional exam (probably equivalent to a 5 i",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 Academic honours throughout high school",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "6. \\-community service - packages for covid relief, spending time with senior citizens"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "econ"
+    },
+    "ESSAY_SCORE": null
+  }
+}

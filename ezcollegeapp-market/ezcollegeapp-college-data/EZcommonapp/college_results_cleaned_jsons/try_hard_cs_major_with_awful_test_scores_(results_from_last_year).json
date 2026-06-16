@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.85,
+      "sat_total": null,
+      "act_composite": 32,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Co-Captain of iGEM Synthetic Biology Research at a community lab (10",
+          "role": "",
+          "description": "Co-Captain of iGEM Synthetic Biology Research at a community lab (10"
+        },
+        {
+          "name": "11",
+          "role": "",
+          "description": "11"
+        },
+        {
+          "name": "12) Cofounded an educational consulting firm and cowrote a novel(9, 10, 11, 11) ",
+          "role": "",
+          "description": "12) Cofounded an educational consulting firm and cowrote a novel(9, 10, 11, 11) Summer Intern at an EdTech startup, held a leadership position(12) Student Fellow at another EdTech startup, held a leadership position (12)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "APs (8): AP HG (5)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Lang (4)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Art History",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Phys2",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP CSA (1",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "slept through the whole exam)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc AB",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Macro (2",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "slept through exam)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APUG Dual Credits: 8 Classes",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Senior Year Course Load (semester based): AP CSA, AP Calc AB, Macro Economics (Dual Enrollment), AP Physics 2, Creative ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Co-Captain of iGEM Synthetic Biology Research at a community lab (10, 11, 12)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

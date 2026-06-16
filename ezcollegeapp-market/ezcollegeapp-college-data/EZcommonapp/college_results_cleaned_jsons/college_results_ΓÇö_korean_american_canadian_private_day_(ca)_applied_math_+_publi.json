@@ -1,0 +1,33 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.86,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP CSA, AP Bio, AP Chem, AP Physics C: E&M (self-study), Honors Advanced Jazz Band, English Sem",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Taught 100+ peers in P2P/group/class settings; Silver Service Honors; co-founded Math Tutorial program + expanded to SAT Math."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Applied Mathematics, Public Policy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

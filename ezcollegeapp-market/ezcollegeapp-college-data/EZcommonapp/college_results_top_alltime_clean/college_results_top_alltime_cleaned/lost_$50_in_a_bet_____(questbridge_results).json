@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 20
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Manager, Statistician, and Announcer of Girl's Varsity Soccer",
+          "role": "",
+          "description": "1. Manager, Statistician, and Announcer of Girl's Varsity Soccer"
+        },
+        {
+          "name": "2. Nature Trail Leader + VP of Nature Trail Conservancy Club",
+          "role": "",
+          "description": "2. Nature Trail Leader + VP of Nature Trail Conservancy Club"
+        },
+        {
+          "name": "3. President of Mu Alpha Theta (Math Honors)",
+          "role": "",
+          "description": "3. President of Mu Alpha Theta (Math Honors)"
+        },
+        {
+          "name": "4. Beta Club (Community Service)",
+          "role": "",
+          "description": "4. Beta Club (Community Service)"
+        },
+        {
+          "name": "5. Baking (Hobby)",
+          "role": "",
+          "description": "5. Baking (Hobby)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Freshman Mathematics Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Sophomore Mathematics Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Calculus BC Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. AP Government Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP Environmental Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. AP Biology Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. Questbridge Finalist + NCP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "8. NMSQT Commended Student",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "9. Certificate of Achievement in Biology",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "10. Certificate of Achievement in Chemistry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Interviews:** 1st essay was about my life story and the difficulties I faced, 2nd was ab",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1st LOR- Calc Teacher (10/10)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": true,
+      "service_summary": "4. Beta Club (Community Service)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

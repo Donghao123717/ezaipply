@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.8,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "12th: Founder & President",
+          "role": "",
+          "description": "12th: Founder & President"
+        },
+        {
+          "name": "Lucent Mental Health Club",
+          "role": "",
+          "description": "Lucent Mental Health Club"
+        },
+        {
+          "name": "Founded the school’s first peer-led mental health club focused on mindfulness, s",
+          "role": "",
+          "description": "Founded the school’s first peer-led mental health club focused on mindfulness, stress relief, and peer support. Lead biweekly meetings and schoolwide events, manage officer board, and oversee fundraising. Built 30+ consistent members and raised $1,000+ in less than a month already."
+        },
+        {
+          "name": "Lead a competitive chapter at the regional, state, and national levels. Organize",
+          "role": "",
+          "description": "Lead a competitive chapter at the regional, state, and national levels. Organize practices, competitions, and logistics. Directed fundraising efforts raising $15,000+ to support attendance at the Maryland State Leadership Conference 2025."
+        },
+        {
+          "name": "Volunteering & Service: 9th–12th: Shepherd’s Cove Women’s Shelter 400+ volunteer",
+          "role": "",
+          "description": "Volunteering & Service: 9th–12th: Shepherd’s Cove Women’s Shelter 400+ volunteer hours. Prepared and served meals for 200+ homeless women and children, providing at least 500 meals. 9th–10th: Public Library Volunteer"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "English 9 & 10 Honors U.S. History Honors Took all honors courses offered that fit schedule",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Assist with youth services, mentorship, public speaking, and organization of community outreach initiatives. Perform and choreograph routines for school and community events. Volunteering & Service:"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Biology or Neuroscience (Pre-Med)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

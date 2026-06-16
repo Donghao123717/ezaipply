@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "ok i dont feel like putting hours or years i dont think that my ECs were my stro",
+          "role": "",
+          "description": "ok i dont feel like putting hours or years i dont think that my ECs were my strong point anyways sorryyyy"
+        },
+        {
+          "name": "1. first chair instrument at my school, playing since forever, region and allsta",
+          "role": "",
+          "description": "1. first chair instrument at my school, playing since forever, region and allstate, etc etc etc"
+        },
+        {
+          "name": "2. summer research project with a graduate student, i didn't really get it publi",
+          "role": "",
+          "description": "2. summer research project with a graduate student, i didn't really get it published in any cool places but whatever"
+        },
+        {
+          "name": "3. vice chair (2019) and general member of local political group",
+          "role": "",
+          "description": "3. vice chair (2019) and general member of local political group"
+        },
+        {
+          "name": "4. campaign fellow over this past summer",
+          "role": "",
+          "description": "4. campaign fellow over this past summer"
+        },
+        {
+          "name": "5. regular volunteer at local library woooooo",
+          "role": "",
+          "description": "5. regular volunteer at local library woooooo"
+        },
+        {
+          "name": "6. nhs/beta club/third volunteering club but i dont even like these that much",
+          "role": "",
+          "description": "6. nhs/beta club/third volunteering club but i dont even like these that much"
+        },
+        {
+          "name": "7. model un",
+          "role": "",
+          "description": "7. model un"
+        },
+        {
+          "name": "8. art history blog",
+          "role": "",
+          "description": "8. art history blog"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. i put both allstate and region orchestra",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. junior marshal (how to spell that??) at graduation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. special school program for seniors i got into at my school",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. regular volunteer at local library woooooo"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "art history"
+    },
+    "ESSAY_SCORE": null
+  }
+}

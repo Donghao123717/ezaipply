@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": 91.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I wrote a book on AI and independently published it, I got top 20 new works for ",
+          "role": "",
+          "description": "I wrote a book on AI and independently published it, I got top 20 new works for my category"
+        },
+        {
+          "name": "Published AI paper on student journal &amp; research w/ machine learning profess",
+          "role": "",
+          "description": "Published AI paper on student journal &amp; research w/ machine learning professional"
+        },
+        {
+          "name": "Founded virtual volunteering organizations",
+          "role": "",
+          "description": "Founded virtual volunteering organizations"
+        },
+        {
+          "name": "Co-founder of regional winning robotics team",
+          "role": "",
+          "description": "Co-founder of regional winning robotics team"
+        },
+        {
+          "name": "Internship at virtual tutoring company under marketing (I helped w/ website and ",
+          "role": "",
+          "description": "Internship at virtual tutoring company under marketing (I helped w/ website and wrote blogs)"
+        },
+        {
+          "name": "1/3 Editor-in-Chief's of school journalism club",
+          "role": "",
+          "description": "1/3 Editor-in-Chief's of school journalism club"
+        },
+        {
+          "name": "a lot of volunteering stuff",
+          "role": "",
+          "description": "a lot of volunteering stuff"
+        },
+        {
+          "name": "Radio Interview + presentations (about being an author)",
+          "role": "",
+          "description": "Radio Interview + presentations (about being an author)"
+        },
+        {
+          "name": "I also put that I was a member from 9-10th grade of my school's AI club.. no lea",
+          "role": "",
+          "description": "I also put that I was a member from 9-10th grade of my school's AI club.. no leadership haha"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Awards: I got all the AP distinctions possible",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Gold President's Volunteering Service Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "In late April of this year, I got a highly selective national recognition based on my stats (won't b",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science (but for some schools like ivies + stanny, i applied for sts)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

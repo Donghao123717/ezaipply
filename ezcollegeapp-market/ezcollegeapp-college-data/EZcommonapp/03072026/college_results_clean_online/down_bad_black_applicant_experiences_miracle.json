@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.75,
+      "sat_total": 1380,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Varsity Soccer- 4 Years",
+          "role": "",
+          "description": "Varsity Soccer- 4 Years"
+        },
+        {
+          "name": "Quiz Bowl- 1 year, Was a founding member of my schools quiz bowl team, and was t",
+          "role": "",
+          "description": "Quiz Bowl- 1 year, Was a founding member of my schools quiz bowl team, and was the captain. No Quiz Bowl this year because of COVID."
+        },
+        {
+          "name": "Math Literacy Worker- Worked as a Math Tutor in the summer for the Youngs People",
+          "role": "",
+          "description": "Math Literacy Worker- Worked as a Math Tutor in the summer for the Youngs People Project, and I taught Basic Math Literacy to Middle School students using engaging games and Activities."
+        },
+        {
+          "name": "Beta Club, TSA: Member",
+          "role": "",
+          "description": "Beta Club, TSA: Member"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "AP Capstone Diploma",
+          "role": "",
+          "description": "AP Capstone Diploma"
+        },
+        {
+          "name": "AP Scholar with Honor",
+          "role": "",
+          "description": "AP Scholar with Honor"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Capstone Diploma",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Math Literacy Worker- Worked as a Math Tutor in the summer for the Youngs People Project, and I taught Basic Math Literacy to Middle School students using engaging games and Activities."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "management information's systems/finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

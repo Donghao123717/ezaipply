@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1550,
+      "act_composite": 34,
+      "class_rank_percentile": 91.0,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Music (playing violin for 9 years, in several youth orchestras including my s",
+          "role": "",
+          "description": "1. Music (playing violin for 9 years, in several youth orchestras including my school's orchestra program which is competitive bc it's an art school) — grades 9-12"
+        },
+        {
+          "name": "2. Game development hobby (learned a few programming languages and engines for t",
+          "role": "",
+          "description": "2. Game development hobby (learned a few programming languages and engines for the sake of making games, participated in game jams and published projects for fun) — grades 10-12"
+        },
+        {
+          "name": "3. COSMOS summer program (for game design and development) —11th grade",
+          "role": "",
+          "description": "3. COSMOS summer program (for game design and development) —11th grade"
+        },
+        {
+          "name": "4. Pop music performance group at my school (performed in gigs across the commun",
+          "role": "",
+          "description": "4. Pop music performance group at my school (performed in gigs across the community, in school, and for recordings, to raise money for the school) — grades 11-12"
+        },
+        {
+          "name": "5. Research assistant for linguistics lab at local UC — grades 11-12",
+          "role": "",
+          "description": "5. Research assistant for linguistics lab at local UC — grades 11-12"
+        },
+        {
+          "name": "6. Japanese saturday school — grades 9-12",
+          "role": "",
+          "description": "6. Japanese saturday school — grades 9-12"
+        },
+        {
+          "name": "7. Creative writing hobby (write mostly prose fiction, including fanfic 💀, and n",
+          "role": "",
+          "description": "7. Creative writing hobby (write mostly prose fiction, including fanfic 💀, and nonfiction essays/memoirs, sometimes also poetry, submitted to comps/publications) — grades 9-12"
+        },
+        {
+          "name": "8. Music composition hobby (took two classes at school for it, also do it for fu",
+          "role": "",
+          "description": "8. Music composition hobby (took two classes at school for it, also do it for fun or for games I'm working on) — grades 9-12"
+        },
+        {
+          "name": "9. Community Service (with several orgs, nothing crazy, probably between 150-200",
+          "role": "",
+          "description": "9. Community Service (with several orgs, nothing crazy, probably between 150-200 hours total across all four years) — grades 9-12"
+        },
+        {
+          "name": "10. Journalism class at school (write articles for newspaper, make small browser",
+          "role": "",
+          "description": "10. Journalism class at school (write articles for newspaper, make small browser games for website) — 12th grade"
+        },
+        {
+          "name": "For MIT specifically, my 4 main activities were music (lumped in both orchestra ",
+          "role": "",
+          "description": "For MIT specifically, my 4 main activities were music (lumped in both orchestra and pop group), game dev, linguistics research, and community service"
+        },
+        {
+          "name": "For the MIT summer activities, I included a Europe tour with my orchestra, healt",
+          "role": "",
+          "description": "For the MIT summer activities, I included a Europe tour with my orchestra, health summer course (graduation requirement 💀), COSMOS, creative writing hobby, music composition hobby, and cross country practice (from 9th gr"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. NMS semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. North American Computational Linguistics Olympiad",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Scholastic Art and Writing (honorable mentions)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. NHS (💀)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP scholar with distinction (💀💀) (really scraping the bottom of the barrel here)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "On the optional music supplements/portfolios (for MIT and Stanford), I also included some of my musi",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": "4. Pop music performance group at my school (performed in gigs across the community, in school, and for recordings, to raise money for the school) — grades 11-12; 9. Community Service (with several orgs, nothing crazy, probably between 150-200 hours total across all four years) — grades 9-12; For MIT specifically, my 4 main activities were music (lumped in both orchestra and pop group), game dev, linguistics research, and community service"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science, computational linguistics, game development, and other similar"
+    },
+    "ESSAY_SCORE": null
+  }
+}

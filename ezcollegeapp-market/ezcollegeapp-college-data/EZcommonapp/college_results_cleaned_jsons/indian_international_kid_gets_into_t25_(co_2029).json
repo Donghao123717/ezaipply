@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Street Jazz & Ballet Dance Trainee",
+          "role": "",
+          "description": "Street Jazz & Ballet Dance Trainee"
+        },
+        {
+          "name": "English tutor",
+          "role": "",
+          "description": "English tutor"
+        },
+        {
+          "name": "Publications editor + studco",
+          "role": "",
+          "description": "Publications editor + studco"
+        },
+        {
+          "name": "neuroscience research program w/ prof from a top 3 lac - recieved 4 college cred",
+          "role": "",
+          "description": "neuroscience research program w/ prof from a top 3 lac - recieved 4 college credits"
+        },
+        {
+          "name": "intern at the indian express - authored several articles that were published onl",
+          "role": "",
+          "description": "intern at the indian express - authored several articles that were published online and in-print"
+        },
+        {
+          "name": "writer - had my own newspaper blog",
+          "role": "",
+          "description": "writer - had my own newspaper blog"
+        },
+        {
+          "name": "led and organized a major stem event at my school: first-time ever",
+          "role": "",
+          "description": "led and organized a major stem event at my school: first-time ever"
+        },
+        {
+          "name": "co-founded a stem club",
+          "role": "",
+          "description": "co-founded a stem club"
+        },
+        {
+          "name": "climate-action project - partnered w a national ngo to organize recycling worksh",
+          "role": "",
+          "description": "climate-action project - partnered w a national ngo to organize recycling workshops and climate awareness classes"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: lang & lit hl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "chem hl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "bio hl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "spanish b sl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "math aa sl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "and psych sl Standardized Testing List the highest scores earned and all scores that were reported. SAT/ACT: 1540 (760 e",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "- English tutor"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "undecided or something in foreign affairs, international relations - applied to some places as pre-law"
+    },
+    "ESSAY_SCORE": null
+  }
+}

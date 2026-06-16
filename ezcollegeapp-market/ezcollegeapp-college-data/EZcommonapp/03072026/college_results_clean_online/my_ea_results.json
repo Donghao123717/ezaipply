@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "#1 FRC Robotics, programming team lead since 11th grade",
+          "role": "",
+          "description": "#1 FRC Robotics, programming team lead since 11th grade"
+        },
+        {
+          "name": "#2 Martial Arts, training since 11 years old",
+          "role": "",
+          "description": "#2 Martial Arts, training since 11 years old"
+        },
+        {
+          "name": "#3 Boy Scouts, currently Star rank, SPL since 11th grade",
+          "role": "",
+          "description": "#3 Boy Scouts, currently Star rank, SPL since 11th grade"
+        },
+        {
+          "name": "#4 Coding Club, VP in 11th grade, currently president",
+          "role": "",
+          "description": "#4 Coding Club, VP in 11th grade, currently president"
+        },
+        {
+          "name": "#5 CIT (counselor in training), at an overnight summer camp near me",
+          "role": "",
+          "description": "#5 CIT (counselor in training), at an overnight summer camp near me"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "#1 Various CB awards",
+          "role": "",
+          "description": "#1 Various CB awards"
+        },
+        {
+          "name": "#2 NMSC Commended Student",
+          "role": "",
+          "description": "#2 NMSC Commended Student"
+        },
+        {
+          "name": "​",
+          "role": "",
+          "description": "​"
+        },
+        {
+          "name": "Interviews",
+          "role": "",
+          "description": "Interviews"
+        },
+        {
+          "name": "None",
+          "role": "",
+          "description": "None"
+        },
+        {
+          "name": "​",
+          "role": "",
+          "description": "​"
+        },
+        {
+          "name": "Essays",
+          "role": "",
+          "description": "Essays"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#1 Various CB awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#2 NMSC Commended Student",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "​",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "None",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "​",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I wrote about my experience working as a summer camp counselor the summer after my CIT year.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "​",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer engineering and/or computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

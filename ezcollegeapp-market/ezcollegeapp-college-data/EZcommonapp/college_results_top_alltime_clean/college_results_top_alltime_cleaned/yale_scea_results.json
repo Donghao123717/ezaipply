@@ -1,0 +1,134 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *#1 Deca ( 2x Vice President, 2x district qualifier, Top scorer in state) Org",
+          "role": "",
+          "description": "1. *#1 Deca ( 2x Vice President, 2x district qualifier, Top scorer in state) Organized school business and donation drive leading us to send 3 teams to nationals and collect awards for community service*"
+        },
+        {
+          "name": "2. \\#2 *Student Government ( since 10th grade , that's when we can start) Was th",
+          "role": "",
+          "description": "2. \\#2 *Student Government ( since 10th grade , that's when we can start) Was the groups technical advisor, made the platform we now use for school voting (MVP award) led our association to getting the gold medallion (hi"
+        },
+        {
+          "name": "3. \\#3 *Junior Class President*",
+          "role": "",
+          "description": "3. \\#3 *Junior Class President*"
+        },
+        {
+          "name": "4. \\#4 *Senior Class Vice President*",
+          "role": "",
+          "description": "4. \\#4 *Senior Class Vice President*"
+        },
+        {
+          "name": "5. \\#5 *Homeless shelter volunteer, spent weekends giving out soup and collectin",
+          "role": "",
+          "description": "5. \\#5 *Homeless shelter volunteer, spent weekends giving out soup and collecting clothes for distribution*"
+        },
+        {
+          "name": "6. \\#6 *Domestic Violence shelter volunteer, organized collection drives for wom",
+          "role": "",
+          "description": "6. \\#6 *Domestic Violence shelter volunteer, organized collection drives for women in need who suffered from domestic abuse and period poverty.*"
+        },
+        {
+          "name": "7. \\#7 *Varsity Soccer Player ( Captain Sr &amp;amp;amp;amp;amp;amp;Jr, Jr.Capta",
+          "role": "",
+          "description": "7. \\#7 *Varsity Soccer Player ( Captain Sr &amp;amp;amp;amp;amp;amp;Jr, Jr.Captain sophomore year)*"
+        },
+        {
+          "name": "8. \\#8 *Varsity Lacrosse Player (Captain Sr &amp;amp;amp;amp;amp;amp; Jr, )*",
+          "role": "",
+          "description": "8. \\#8 *Varsity Lacrosse Player (Captain Sr &amp;amp;amp;amp;amp;amp; Jr, )*"
+        },
+        {
+          "name": "9. \\#9 *Tutoring (My FAVORITE thing) Spent my weekends and after school tutoring",
+          "role": "",
+          "description": "9. \\#9 *Tutoring (My FAVORITE thing) Spent my weekends and after school tutoring kids in my school and community. I taught children how to read and prepare for grade school exams*"
+        },
+        {
+          "name": "10. \\#10 *National Honor Society (Vice President ) Organized collection drives f",
+          "role": "",
+          "description": "10. \\#10 *National Honor Society (Vice President ) Organized collection drives for homeless and those in needs regarding books, food, and clothing. Competed in district Brain Brawl*"
+        },
+        {
+          "name": "11. *Harvest Drive organized school harvest drive (senior and junior year) colle",
+          "role": "",
+          "description": "11. *Harvest Drive organized school harvest drive (senior and junior year) collecting food for 3000 families for the holidays*"
+        },
+        {
+          "name": "12. *Islamic School; I have been learning and memorizing Quran as well as gettin",
+          "role": "",
+          "description": "12. *Islamic School; I have been learning and memorizing Quran as well as getting Islamic knowledge*"
+        },
+        {
+          "name": "13. *Spanish Honor Society*",
+          "role": "",
+          "description": "13. *Spanish Honor Society*"
+        },
+        {
+          "name": "14. *Mu Alpha Theta (Vice President &amp;amp;amp;amp;amp;amp; President) Tutored",
+          "role": "",
+          "description": "14. *Mu Alpha Theta (Vice President &amp;amp;amp;amp;amp;amp; President) Tutored children in math and competed in competitions*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 AP scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 Principals Honor roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 Underclassmen Awards (given to the top 10 students out of 1,500 underclassmen)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\#4 National merit Scholar commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5 Posse Scholar semifinalist (dropped out cause I did not like the schools they offered)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": true,
+      "service_summary": "1. *#1 Deca ( 2x Vice President, 2x district qualifier, Top scorer in state) Organized school business and donation drive leading us to send 3 teams to nationals and collect awards for community service*; 5. \\#5 *Homeless shelter volunteer, spent weekends giving out soup and collecting clothes for distribution*; 6. \\#6 *Domestic Violence shelter volunteer, organized collection drives for women in need who suffered from domestic abuse and period poverty.*; 9. \\#9 *Tutoring (My FAVORITE thing) Spe"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "anything that combines history, society, and science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

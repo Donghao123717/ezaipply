@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.53,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Cofounder of a passion project Instagram account that is dedicated to educating ",
+          "role": "",
+          "description": "Cofounder of a passion project Instagram account that is dedicated to educating the public of future innovations in healthcare. (3K+ followers) (2 Years)"
+        },
+        {
+          "name": "Dance (6 years) (Ballet, Jazz, Lyrical)",
+          "role": "",
+          "description": "Dance (6 years) (Ballet, Jazz, Lyrical)"
+        },
+        {
+          "name": "Track and Field JV (1 Year)",
+          "role": "",
+          "description": "Track and Field JV (1 Year)"
+        },
+        {
+          "name": "Science National Honor Society Member (2 Years)",
+          "role": "",
+          "description": "Science National Honor Society Member (2 Years)"
+        },
+        {
+          "name": "National Honor Society Member (1 Year)",
+          "role": "",
+          "description": "National Honor Society Member (1 Year)"
+        },
+        {
+          "name": "Link Crew Leader (2 Years)",
+          "role": "",
+          "description": "Link Crew Leader (2 Years)"
+        },
+        {
+          "name": "Redcross Club Member (1 Year)",
+          "role": "",
+          "description": "Redcross Club Member (1 Year)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Scores: 5 on Psych, 3 on Lang",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4 years of the PLTW Biomedical program",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Neuroscience"
+    },
+    "ESSAY_SCORE": null
+  }
+}

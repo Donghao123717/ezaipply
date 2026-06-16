@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Junior golf tournaments. national ranking ~ 800",
+          "role": "",
+          "description": "1. Junior golf tournaments. national ranking ~ 800"
+        },
+        {
+          "name": "2. varsity golf team 4 yrs and captain sr year",
+          "role": "",
+          "description": "2. varsity golf team 4 yrs and captain sr year"
+        },
+        {
+          "name": "3. Secretary of Science National Honor Society",
+          "role": "",
+          "description": "3. Secretary of Science National Honor Society"
+        },
+        {
+          "name": "4. Math team 4 years. i was pretty shite",
+          "role": "",
+          "description": "4. Math team 4 years. i was pretty shite"
+        },
+        {
+          "name": "5. Co-president of a stem club",
+          "role": "",
+          "description": "5. Co-president of a stem club"
+        },
+        {
+          "name": "yes only 5",
+          "role": "",
+          "description": "yes only 5"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Capstone Diploma",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 1st place at a county math tournament",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. honorable mention at county science fair",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied math, math, undecided engineering, idk lol"
+    },
+    "ESSAY_SCORE": null
+  }
+}

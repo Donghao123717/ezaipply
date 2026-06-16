@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1p3ritj",
+    "title": "Can I still apply priority to a university if I already applied ED to another?",
+    "author": "frigg08",
+    "selftext": "Hello, I'm applying internationally to US for fall of 2026. I already applied ED to a college, but was wondering if I can apply priority to another college?",
+    "score": "3",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1p3ritj/can_i_still_apply_priority_to_a_university_if_i/",
+    "created": "2025-11-22T11:59:05+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nq6s2vs",
+      "author": "Big-Monk2317",
+      "body": "This is the wrong sub to be asking this. But what do you mean priority? There is ED, EA, and RD. If you mean early action, yes you can, but many of those deadlines have already passed.",
+      "score": "3 points",
+      "created": "2025-11-22T13:25:52+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nq7ncsf",
+      "author": "Loose_Definition_993",
+      "body": "I guess you must’ve meant ED2 since it is the “priority” right after ED. So actually, yes, you can, but as soon as you get accepted by your ED uni you must withdraw all your other applications including ED2 to another uni",
+      "score": "2 points",
+      "created": "2025-11-22T16:24:01+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1p3ritj",
+        "author": "frigg08",
+        "title": "Can I still apply priority to a university if I already applied ED to another?",
+        "body": "Hello, I'm applying internationally to US for fall of 2026. I already applied ED to a college, but was wondering if I can apply priority to another college?",
+        "full_text": "Can I still apply priority to a university if I already applied ED to another?\n\nHello, I'm applying internationally to US for fall of 2026. I already applied ED to a college, but was wondering if I can apply priority to another college?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nq6s2vs",
+          "author": "Big-Monk2317",
+          "body": "This is the wrong sub to be asking this. But what do you mean priority? There is ED, EA, and RD. If you mean early action, yes you can, but many of those deadlines have already passed.",
+          "score": "3 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nq7ncsf",
+          "author": "Loose_Definition_993",
+          "body": "I guess you must’ve meant ED2 since it is the “priority” right after ED. So actually, yes, you can, but as soon as you get accepted by your ED uni you must withdraw all your other applications including ED2 to another uni",
+          "score": "2 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

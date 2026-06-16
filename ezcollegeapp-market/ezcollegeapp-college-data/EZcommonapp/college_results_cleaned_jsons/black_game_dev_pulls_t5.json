@@ -1,0 +1,48 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.4,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP French 5",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English 12 (DE)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Physics I (DE)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "various electives Standardized Testing SAT I: Didn't report ACT: N/A SAT II: N/A AP/IB: APUSH 4, AP Lang 4, AP French 5 ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Game Design, Game Development, etc."
+    },
+    "ESSAY_SCORE": null
+  }
+}

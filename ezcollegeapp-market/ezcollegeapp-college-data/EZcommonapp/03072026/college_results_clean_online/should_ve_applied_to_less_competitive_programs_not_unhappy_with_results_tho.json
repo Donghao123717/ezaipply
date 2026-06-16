@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1570,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Startup: Very good VC traction and decent waitlist. DM if you're an engineer!",
+          "role": "",
+          "description": "Startup: Very good VC traction and decent waitlist. DM if you're an engineer!"
+        },
+        {
+          "name": "Research Project: Economics/tech qualitative research. Reached a lot of people",
+          "role": "",
+          "description": "Research Project: Economics/tech qualitative research. Reached a lot of people"
+        },
+        {
+          "name": "VC Internship: Very atypical vc work, it's not a normal fund (in a good way)",
+          "role": "",
+          "description": "VC Internship: Very atypical vc work, it's not a normal fund (in a good way)"
+        },
+        {
+          "name": "Startup intern: ML modeling and community service oriented",
+          "role": "",
+          "description": "Startup intern: ML modeling and community service oriented"
+        },
+        {
+          "name": "Non-profit lead: raised 6 figures and reached 3000 directly",
+          "role": "",
+          "description": "Non-profit lead: raised 6 figures and reached 3000 directly"
+        },
+        {
+          "name": "Startup: 10 mil valuation? (rejected offer and pivoted)",
+          "role": "",
+          "description": "Startup: 10 mil valuation? (rejected offer and pivoted)"
+        },
+        {
+          "name": "DECA: state team",
+          "role": "",
+          "description": "DECA: state team"
+        },
+        {
+          "name": "Varsity athlete: team awards",
+          "role": "",
+          "description": "Varsity athlete: team awards"
+        },
+        {
+          "name": "Sport volunteering: lots of hours",
+          "role": "",
+          "description": "Sport volunteering: lots of hours"
+        },
+        {
+          "name": "Investment/ML Comps: nothing crazy just a filler activity",
+          "role": "",
+          "description": "Investment/ML Comps: nothing crazy just a filler activity"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "Olympiad national qualifier (intentionally vague)",
+          "role": "",
+          "description": "Olympiad national qualifier (intentionally vague)"
+        },
+        {
+          "name": "Investment comp recognition",
+          "role": "",
+          "description": "Investment comp recognition"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Olympiad national qualifier (intentionally vague)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Investment comp recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Some national math award since 8th grade",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "IB diploma",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Internship awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Not gonna rate cuz who knows",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor: My golf coach and really likes me",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Startup intern: ML modeling and community service oriented"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "business + cs or econ"
+    },
+    "ESSAY_SCORE": null
+  }
+}

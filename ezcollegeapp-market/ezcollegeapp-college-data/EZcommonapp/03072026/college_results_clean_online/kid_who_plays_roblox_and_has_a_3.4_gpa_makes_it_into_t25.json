@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 828,
+      "act_composite": null,
+      "class_rank_percentile": 93.0,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\-News show: Head editor, 3 years",
+          "role": "",
+          "description": "\\-News show: Head editor, 3 years"
+        },
+        {
+          "name": "\\-Film Club: Head editor, 2 years",
+          "role": "",
+          "description": "\\-Film Club: Head editor, 2 years"
+        },
+        {
+          "name": "\\-Quizbowl: cofounder / co president, 1 year",
+          "role": "",
+          "description": "\\-Quizbowl: cofounder / co president, 1 year"
+        },
+        {
+          "name": "\\-NHS, SGA, school’s volunteering club: Member, 1 year",
+          "role": "",
+          "description": "\\-NHS, SGA, school’s volunteering club: Member, 1 year"
+        },
+        {
+          "name": "\\-Part time job: no leadership position, 1 year",
+          "role": "",
+          "description": "\\-Part time job: no leadership position, 1 year"
+        },
+        {
+          "name": "\\-(Roblox) Trader of virtual items, made 40K percent increase in value (equivale",
+          "role": "",
+          "description": "\\-(Roblox) Trader of virtual items, made 40K percent increase in value (equivalent to going from 10 dollars to 5k+) across the span of 2 years (can be considered 4 years if investing for two years cou"
+        },
+        {
+          "name": "\\-Cooking cheap meals (learnt recipes, calories, and macro nutrients in order to",
+          "role": "",
+          "description": "\\-Cooking cheap meals (learnt recipes, calories, and macro nutrients in order to make healthy but cheap meals), 2 years"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Only awards I had was ap scholar, honor roll, and nominations for school lvl awards I didn't even wi",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 1,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "undeclared"
+    },
+    "ESSAY_SCORE": null
+  }
+}

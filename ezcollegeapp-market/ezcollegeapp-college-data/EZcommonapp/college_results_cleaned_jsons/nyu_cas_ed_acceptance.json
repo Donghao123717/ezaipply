@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "4 years of musical theater with top roles GSA President",
+          "role": "",
+          "description": "4 years of musical theater with top roles GSA President"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Lit, AP Calc AB (school doesn’t offer BC), AP Stats, AP Gov, AP Macro, PE/Personal Finance, ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ACT: 35 Superscore / 34 single sitting",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP: HuG (5), Seminar (4), Bio (5), APUSH (5), Research (5), PreCalc (5)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Data Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

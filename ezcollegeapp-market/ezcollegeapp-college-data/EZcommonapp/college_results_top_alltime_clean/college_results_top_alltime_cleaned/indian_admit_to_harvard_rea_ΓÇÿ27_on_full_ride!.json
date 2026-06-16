@@ -1,0 +1,139 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Counterterrorism Research under Indian Professor",
+          "role": "",
+          "description": "1. Counterterrorism Research under Indian Professor"
+        },
+        {
+          "name": "2. Founder of Podcast on Indian Martyrs and their families",
+          "role": "",
+          "description": "2. Founder of Podcast on Indian Martyrs and their families"
+        },
+        {
+          "name": "3. Co-Founder of Social Initiative to teach Underprivileged children using exper",
+          "role": "",
+          "description": "3. Co-Founder of Social Initiative to teach Underprivileged children using experiential learning (10 Core, 50+ Volunteers, 250+ Children reached)"
+        },
+        {
+          "name": "4. President, School Theatre Club and Youngest Member of a Professional Theatre ",
+          "role": "",
+          "description": "4. President, School Theatre Club and Youngest Member of a Professional Theatre Society"
+        },
+        {
+          "name": "5. Co-Founder of News Blog for Teenagers and Chief Editor of School Publication",
+          "role": "",
+          "description": "5. Co-Founder of News Blog for Teenagers and Chief Editor of School Publication"
+        },
+        {
+          "name": "6. School Prefect (Highest Student Office)",
+          "role": "",
+          "description": "6. School Prefect (Highest Student Office)"
+        },
+        {
+          "name": "7. President of Debating Society, Secretary General of Model UN Society, and Pre",
+          "role": "",
+          "description": "7. President of Debating Society, Secretary General of Model UN Society, and President of Business and Economics Club"
+        },
+        {
+          "name": "8. Psychology Research under Indian Professor",
+          "role": "",
+          "description": "8. Psychology Research under Indian Professor"
+        },
+        {
+          "name": "9. Captain of School’s Under 19 Hockey Team",
+          "role": "",
+          "description": "9. Captain of School’s Under 19 Hockey Team"
+        },
+        {
+          "name": "10. Intern, HR Department of Tech Startup",
+          "role": "",
+          "description": "10. Intern, HR Department of Tech Startup"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1.  John Locke Essay Competition (Psychology - High Commendation), (Economics - Commendation) - two ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. NASA Writing Competition - National Winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Multiple Awards in Maths and Science Private International Olympiads",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Science Concours - A+ Grade (old science competition, discontinued)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Highest School Award for All-Round Excellence",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Add’l Honours (mentioned in the Add’l Info section):",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. International and Zonal Award in Private English Olympiad (SOF, Will not recommend) - 2 times in ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Member - Junior Academy, NYAS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Scholarship and School Award for Class 10 Board Result",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. School’s Best Debater of the Year Award (Sent in Update)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. School’s Student of the Year Award (Sent in Update)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 250,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics and psychology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

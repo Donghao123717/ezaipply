@@ -1,0 +1,23 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Runtime data (operational state — do not commit)
+memory/state.json
+memory/comment_log.json
+memory/ig_session.json
+review_queue/review_queue.json
+
+# Test / tooling
+.pytest_cache/
+.coverage
+htmlcov/

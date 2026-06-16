@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 25
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Varsity Soccer",
+          "role": "",
+          "description": "1. Varsity Soccer"
+        },
+        {
+          "name": "2. Music things",
+          "role": "",
+          "description": "2. Music things"
+        },
+        {
+          "name": "3. Volunteering for a large organization",
+          "role": "",
+          "description": "3. Volunteering for a large organization"
+        },
+        {
+          "name": "4. Local internship in field of study",
+          "role": "",
+          "description": "4. Local internship in field of study"
+        },
+        {
+          "name": "5. Student Government",
+          "role": "",
+          "description": "5. Student Government"
+        },
+        {
+          "name": "6-10. School STEM Clubs",
+          "role": "",
+          "description": "6-10. School STEM Clubs"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. College Math Tournament Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3 and 4. Semiprestigious Summer Programs",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

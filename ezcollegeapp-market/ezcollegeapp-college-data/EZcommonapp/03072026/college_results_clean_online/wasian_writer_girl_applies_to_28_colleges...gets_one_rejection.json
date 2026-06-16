@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "started youth writing program @ local library",
+          "role": "",
+          "description": "started youth writing program @ local library"
+        },
+        {
+          "name": "editor at popular online teen literary magazine",
+          "role": "",
+          "description": "editor at popular online teen literary magazine"
+        },
+        {
+          "name": "founder/president of school creative writing club",
+          "role": "",
+          "description": "founder/president of school creative writing club"
+        },
+        {
+          "name": "actor/tech for local youth theatre company",
+          "role": "",
+          "description": "actor/tech for local youth theatre company"
+        },
+        {
+          "name": "musician w/ local youth symphony",
+          "role": "",
+          "description": "musician w/ local youth symphony"
+        },
+        {
+          "name": "editor-in-chief for school literary magazine",
+          "role": "",
+          "description": "editor-in-chief for school literary magazine"
+        },
+        {
+          "name": "competitive summer writing program",
+          "role": "",
+          "description": "competitive summer writing program"
+        },
+        {
+          "name": "reporter for school newspaper",
+          "role": "",
+          "description": "reporter for school newspaper"
+        },
+        {
+          "name": "volunteer musician (virtual) for local hospitals/retirement homes",
+          "role": "",
+          "description": "volunteer musician (virtual) for local hospitals/retirement homes"
+        },
+        {
+          "name": "principal musician for freshman orchestra",
+          "role": "",
+          "description": "principal musician for freshman orchestra"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Scholastic Gold Medal for writing (national)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "semi-finalist national poetry ambassador",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "YoungArts Merit for writing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP scholar w/ distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School award, nom. by English teacher",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "principal musician for freshman orchestra"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "english, creative writing, linguistics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

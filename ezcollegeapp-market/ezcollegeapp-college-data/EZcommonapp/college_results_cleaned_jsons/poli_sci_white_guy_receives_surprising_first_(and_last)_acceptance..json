@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "#1 Legislative Intern, State House, (12th): Bill Research, Hearings, Mock Senate",
+          "role": "",
+          "description": "#1 Legislative Intern, State House, (12th): Bill Research, Hearings, Mock Senate Experience Program, Wrote Newsletter, Research Convinced Rep to Cosponsor an Act That Expands Rights of Undocumented Migrants."
+        },
+        {
+          "name": "#2 Founding Member, Model UN Club (10th, 11th, 12th): Medalled Every Competition",
+          "role": "",
+          "description": "#2 Founding Member, Model UN Club (10th, 11th, 12th): Medalled Every Competition, Achieved Most Medals in Chapter History, Elected for Student Government Experience, Mentored 8+ Junior Delegates. #3 Student Journalist, Selective/Prestigious Journalism Program (12th): Lectures/Workshops, Conducted Interviews, Published op-ed."
+        },
+        {
+          "name": "#4 Co-founder, Debate Club (11th, 12th): Organized Meetings, Engaged in/Moderate",
+          "role": "",
+          "description": "#4 Co-founder, Debate Club (11th, 12th): Organized Meetings, Engaged in/Moderated Debate, Designed Activities, Researched Competitions, Grew to 25+ Active Members, Liaison w/ Advisor & Admin."
+        },
+        {
+          "name": "#5 Founder & Editor-In-Chief, School Newspaper (11th, 12th): Organizing Monthly ",
+          "role": "",
+          "description": "#5 Founder & Editor-In-Chief, School Newspaper (11th, 12th): Organizing Monthly Releases, Contributions of Content, Selecting Articles, Arranging Page Layout, Conferring w/ Administration."
+        },
+        {
+          "name": "#6 Counselor, School Summer Program (10th, 11th): Organized/Designed PBL Project",
+          "role": "",
+          "description": "#6 Counselor, School Summer Program (10th, 11th): Organized/Designed PBL Projects/Activities for 100+ Primarily High-Needs Students to Prepare Them For High School, Outreach to Isolated Students."
+        },
+        {
+          "name": "#7 Founder & President, Chess/Boardgames Club (10th, 11th, 12th): Organized Week",
+          "role": "",
+          "description": "#7 Founder & President, Chess/Boardgames Club (10th, 11th, 12th): Organized Weekly Meetings, Managed Donations, Organized Tournament With 12+ Participants, Chess Tutoring For 15+ Elementary Schoolers."
+        },
+        {
+          "name": "#8 Member, Student Council (10th): Organized Spirit Activities, Represented Stud",
+          "role": "",
+          "description": "#8 Member, Student Council (10th): Organized Spirit Activities, Represented Student Body in Discussions of Policy w/Administration, Helped to organize Breast Cancer Awareness Effort."
+        },
+        {
+          "name": "#9 President, Math Club (10th, 12th): Organized Weekly Meetings, Designed Activi",
+          "role": "",
+          "description": "#9 President, Math Club (10th, 12th): Organized Weekly Meetings, Designed Activities For Meetings, Organized School-Level \"24\" Tournament, Represented in Discussions w/ Administration. #10 Competitor, SkillsUSA (9th, 10th, 11th, 12th): Competed All 4 Years, Competed In CS Related/Speech Competitions at In-House, District, State Levels."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing SAT: 1540 (780 RW, 760 M) AP: CSP, 4; Lang, 5; Seminar, 5; Physics, 4.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 275,
+      "first_gen": true,
+      "service_summary": "#4 NHS Admission & Graduation (275 Hours Community Service Total) Interviewed in a Panera Bread a few towns over. Interviewer was an older guy, one who had been doing alumni interviews for around 20 years on and off. We had a nice conversation (weirdly cerebral), although, strangely, he never asked me a lot of important questions (like Why [College]?). I talked about the clubs I founded, and how I"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Political Science/Economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

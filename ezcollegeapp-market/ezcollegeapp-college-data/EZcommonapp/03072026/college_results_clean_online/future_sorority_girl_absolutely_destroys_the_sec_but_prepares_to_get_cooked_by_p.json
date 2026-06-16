@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1490,
+      "act_composite": 34,
+      "class_rank_percentile": 91.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "Physics Olympiad president - founded and organized everything. did bad on the ac",
+          "role": "",
+          "description": "Physics Olympiad president - founded and organized everything. did bad on the actual test but i talked a lot about how failing motivated me and how teaching others in the club was more valuable to me"
+        },
+        {
+          "name": "Yearbook Editor - connection between communication and physics was a big part of",
+          "role": "",
+          "description": "Yearbook Editor - connection between communication and physics was a big part of my app and activity supps"
+        },
+        {
+          "name": "Scouting America - they eat female boy scouts up",
+          "role": "",
+          "description": "Scouting America - they eat female boy scouts up"
+        },
+        {
+          "name": "National Charity League - like any good southern girl, got a ton of hours",
+          "role": "",
+          "description": "National Charity League - like any good southern girl, got a ton of hours"
+        },
+        {
+          "name": "Irish dance - only did for two years in HS because i had to quit from serious in",
+          "role": "",
+          "description": "Irish dance - only did for two years in HS because i had to quit from serious injury. got some decent places tho"
+        },
+        {
+          "name": "Science museum volunteer - ton of hours and relation to major",
+          "role": "",
+          "description": "Science museum volunteer - ton of hours and relation to major"
+        },
+        {
+          "name": "7-10 - these didn't have a huge impact on my application",
+          "role": "",
+          "description": "7-10 - these didn't have a huge impact on my application"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Eagle Scout",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Some collegeboard award i forgot but it was stupid",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "USAPhO participant",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Science museum volunteer - ton of hours and relation to major"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "physics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Chorus officer",
+          "role": "",
+          "description": "1. Chorus officer"
+        },
+        {
+          "name": "2. Research; not published, provisionally patented. Worked at a top CS school.",
+          "role": "",
+          "description": "2. Research; not published, provisionally patented. Worked at a top CS school."
+        },
+        {
+          "name": "3. EdX: CS50 at Harvard",
+          "role": "",
+          "description": "3. EdX: CS50 at Harvard"
+        },
+        {
+          "name": "4. Eagle Scout",
+          "role": "",
+          "description": "4. Eagle Scout"
+        },
+        {
+          "name": "5. Local CS internship (really tiny company, like $3-4M revenue/year)",
+          "role": "",
+          "description": "5. Local CS internship (really tiny company, like $3-4M revenue/year)"
+        },
+        {
+          "name": "6. CS summer camp counselor. 1 month; for two years.",
+          "role": "",
+          "description": "6. CS summer camp counselor. 1 month; for two years."
+        },
+        {
+          "name": "7. Esports varsity (state semifinalist)",
+          "role": "",
+          "description": "7. Esports varsity (state semifinalist)"
+        },
+        {
+          "name": "8. Student Pilot.",
+          "role": "",
+          "description": "8. Student Pilot."
+        },
+        {
+          "name": "9. [city name] physics club, member",
+          "role": "",
+          "description": "9. [city name] physics club, member"
+        },
+        {
+          "name": "10. Cashier, Fast food restraunt (like mcdonalds, Burger King, etc)",
+          "role": "",
+          "description": "10. Cashier, Fast food restraunt (like mcdonalds, Burger King, etc)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Sang at Carnegie hall",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. All state chorus",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Eagle Scout",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Valorant Radiant NA-- I was too focused on the ewomen 😔😔😔",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National merit finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Updated; regeneron sts semifinalist.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

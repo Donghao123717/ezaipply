@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": 99.2,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Gardening 4yrs- gardened with my family my whole life 6hrs/week 50 week/yr",
+          "role": "",
+          "description": "1. Gardening 4yrs- gardened with my family my whole life 6hrs/week 50 week/yr"
+        },
+        {
+          "name": "2. Varsity Lacrosse Goalie 4yrs- state champion team, I was captain senior year ",
+          "role": "",
+          "description": "2. Varsity Lacrosse Goalie 4yrs- state champion team, I was captain senior year but that was decided after submitting my apps. 14hr/week 13week/yr"
+        },
+        {
+          "name": "3. Volunteer Tutor 2yr- 1hr/week 16week/yr",
+          "role": "",
+          "description": "3. Volunteer Tutor 2yr- 1hr/week 16week/yr"
+        },
+        {
+          "name": "4. Volunteer Tutor 1yr-4.3hr/week, 13week/yr",
+          "role": "",
+          "description": "4. Volunteer Tutor 1yr-4.3hr/week, 13week/yr"
+        },
+        {
+          "name": "5. Club Lacrosse Goalie 3yr - 2.5hr/week, 26wk/yr",
+          "role": "",
+          "description": "5. Club Lacrosse Goalie 3yr - 2.5hr/week, 26wk/yr"
+        },
+        {
+          "name": "6. Grocery Story Clerk 1 yr - 18hr/wk, 9wk/yr",
+          "role": "",
+          "description": "6. Grocery Story Clerk 1 yr - 18hr/wk, 9wk/yr"
+        },
+        {
+          "name": "7. JV/Varsity Soccer 4 yr - 10.5hr/wk, 13wk/yr",
+          "role": "",
+          "description": "7. JV/Varsity Soccer 4 yr - 10.5hr/wk, 13wk/yr"
+        },
+        {
+          "name": "8. Varsity Cross Country 3yr - 10hr/wk, 13wk/yr",
+          "role": "",
+          "description": "8. Varsity Cross Country 3yr - 10hr/wk, 13wk/yr"
+        },
+        {
+          "name": "9. Foreign Exchange 1 yr 35hr/wk, 2wk/yr",
+          "role": "",
+          "description": "9. Foreign Exchange 1 yr 35hr/wk, 2wk/yr"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Merit Scholar Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National Honor Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Headmaster's List",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": true,
+      "service_summary": "3. Volunteer Tutor 2yr- 1hr/week 16week/yr; 4. Volunteer Tutor 1yr-4.3hr/week, 13week/yr"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs and chemical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

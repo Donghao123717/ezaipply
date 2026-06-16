@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "volunteering at local animal shelter",
+          "role": "",
+          "description": "volunteering at local animal shelter"
+        },
+        {
+          "name": "sport (club)",
+          "role": "",
+          "description": "sport (club)"
+        },
+        {
+          "name": "nhs (leadership)",
+          "role": "",
+          "description": "nhs (leadership)"
+        },
+        {
+          "name": "club (leadership)",
+          "role": "",
+          "description": "club (leadership)"
+        },
+        {
+          "name": "sport captain (school)",
+          "role": "",
+          "description": "sport captain (school)"
+        },
+        {
+          "name": "sport captain (school)",
+          "role": "",
+          "description": "sport captain (school)"
+        },
+        {
+          "name": "work",
+          "role": "",
+          "description": "work"
+        },
+        {
+          "name": "DECA",
+          "role": "",
+          "description": "DECA"
+        },
+        {
+          "name": "club",
+          "role": "",
+          "description": "club"
+        },
+        {
+          "name": "work",
+          "role": "",
+          "description": "work"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "national merit scholarship",
+          "role": "",
+          "description": "national merit scholarship"
+        },
+        {
+          "name": "high honors at school (no clue why i used this)",
+          "role": "",
+          "description": "high honors at school (no clue why i used this)"
+        },
+        {
+          "name": "college book award",
+          "role": "",
+          "description": "college book award"
+        },
+        {
+          "name": "stem company certificate of merit",
+          "role": "",
+          "description": "stem company certificate of merit"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "national merit scholarship",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "high honors at school (no clue why i used this)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "college book award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "stem company certificate of merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. 10/10 no notes my chem teacher and favorite person in the building",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 8/10 a very nice person and teacher I’m relatively close with, he’s an excellent writer",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "no",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "My common-app essay was well-written but not about anything special; I talked about my childhood bed",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

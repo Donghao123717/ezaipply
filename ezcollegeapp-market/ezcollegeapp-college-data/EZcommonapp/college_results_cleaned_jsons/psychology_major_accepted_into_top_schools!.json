@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1260,
+      "act_composite": 26,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Latin Honor Society - Executive board",
+          "role": "",
+          "description": "Latin Honor Society - Executive board"
+        },
+        {
+          "name": "Latin Club - Executive board/President",
+          "role": "",
+          "description": "Latin Club - Executive board/President"
+        },
+        {
+          "name": "Anti-Racism Club - Co-Founder & Co-President",
+          "role": "",
+          "description": "Anti-Racism Club - Co-Founder & Co-President"
+        },
+        {
+          "name": "Service Organization - Executive board",
+          "role": "",
+          "description": "Service Organization - Executive board"
+        },
+        {
+          "name": "Diversity Club - President",
+          "role": "",
+          "description": "Diversity Club - President"
+        },
+        {
+          "name": "Quiz Bowl - JV & Varsity Captain",
+          "role": "",
+          "description": "Quiz Bowl - JV & Varsity Captain"
+        },
+        {
+          "name": "Rowing - 2.5 years",
+          "role": "",
+          "description": "Rowing - 2.5 years"
+        },
+        {
+          "name": "Work: Scorekeeping middle school sports - 4 years",
+          "role": "",
+          "description": "Work: Scorekeeping middle school sports - 4 years"
+        },
+        {
+          "name": "Work: Internship - summer going into senior year",
+          "role": "",
+          "description": "Work: Internship - summer going into senior year"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Latin, AP Psychology, Honors Ancient Greek, Honors African American Literature/English, Stat",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "* Service Organization - Executive board * Service Organization - Executive board"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Psychology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

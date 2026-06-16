@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1470,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I only put down 8",
+          "role": "",
+          "description": "I only put down 8"
+        },
+        {
+          "name": "1. Internship at the University of Miami Hospital (3mths)",
+          "role": "",
+          "description": "1. Internship at the University of Miami Hospital (3mths)"
+        },
+        {
+          "name": "2. Science Olympiad President (4 ys)",
+          "role": "",
+          "description": "2. Science Olympiad President (4 ys)"
+        },
+        {
+          "name": "3. Robotics Captain (4 ys)",
+          "role": "",
+          "description": "3. Robotics Captain (4 ys)"
+        },
+        {
+          "name": "4. Shadowing doctor at a hospital (2y)",
+          "role": "",
+          "description": "4. Shadowing doctor at a hospital (2y)"
+        },
+        {
+          "name": "5. Part-time job at Kumon (1y)",
+          "role": "",
+          "description": "5. Part-time job at Kumon (1y)"
+        },
+        {
+          "name": "6. DECA member (4 ys)",
+          "role": "",
+          "description": "6. DECA member (4 ys)"
+        },
+        {
+          "name": "7. Photography club (4 ys)",
+          "role": "",
+          "description": "7. Photography club (4 ys)"
+        },
+        {
+          "name": "8. NHS member (2 ys)",
+          "role": "",
+          "description": "8. NHS member (2 ys)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Nothing major lol",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Just some Sci Oly awards. (Regional only)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology (premed)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

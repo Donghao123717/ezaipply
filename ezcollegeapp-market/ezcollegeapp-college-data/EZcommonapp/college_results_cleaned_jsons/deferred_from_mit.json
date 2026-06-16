@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. CyberPatriot Linux Captain - Made platinum semifinals round this year. Rece",
+          "role": "",
+          "description": "etc. CyberPatriot Linux Captain - Made platinum semifinals round this year. Received recognition from Board of Education."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Macroeconomics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP U.S. Government",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calculus BC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP English Literature",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Psychology",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Statistics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Cybersecurity courses Standardized Testing List the highest scores earned and all scores that were reported. SAT I: 1520",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 30,
+      "first_gen": true,
+      "service_summary": "r/suggestapc Moderator and Head Advisor - Guided thousands of global users in making purchasing decisions. Moderated a community of 47,000+ members. Chief Editor of the Prebuilt Spreadsheet. Owner of online Discord community server with 90,000+ members"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

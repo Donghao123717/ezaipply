@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. FBLA  - school president and the district president of**Awards/Honors**",
+          "role": "",
+          "description": "1. FBLA  - school president and the district president of**Awards/Honors**"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "role": "",
+          "description": "List all awards and honors submitted on your application.*"
+        },
+        {
+          "name": "1. QuestBridge National College Match Finalist",
+          "role": "",
+          "description": "1. QuestBridge National College Match Finalist"
+        },
+        {
+          "name": "2. QuestBridge College Prep Scholar",
+          "role": "",
+          "description": "2. QuestBridge College Prep Scholar"
+        },
+        {
+          "name": "3. Girls State",
+          "role": "",
+          "description": "3. Girls State"
+        },
+        {
+          "name": "4. Math and Science Scholar for my state",
+          "role": "",
+          "description": "4. Math and Science Scholar for my state"
+        },
+        {
+          "name": "5. 1st Place in FBLA for my district for 4 years in a row",
+          "role": "",
+          "description": "5. 1st Place in FBLA for my district for 4 years in a row"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "earth and planetary sciences or biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

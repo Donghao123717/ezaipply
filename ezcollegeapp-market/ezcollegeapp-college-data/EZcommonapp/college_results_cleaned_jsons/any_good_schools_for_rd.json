@@ -1,0 +1,44 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Creative Writer – Independently wrote and completed two full novels (sent writin",
+          "role": "",
+          "description": "Creative Writer – Independently wrote and completed two full novels (sent writing samples as supplement to St. Olaf) Founding member of 4 school clubs across high school (2 in Grade 11; leadership highlighted in principal LOR)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "None",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "country doesn't offer that many competitions.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "You dont seem like a bad student but US schools cannot judge you because you didnt take any standardized tests/coursework. You would be better off applying to Canadian schools or community college, which are much cheaper for international students."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science (possible Creative Writing minor/double major)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

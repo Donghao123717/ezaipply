@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        },
+        {
+          "name": "I think UC has the edge in building your resume easier and the classes are also ",
+          "role": "",
+          "description": "I think UC has the edge in building your resume easier and the classes are also easier as per the information I get from my friend. OSU has the funding, the prestige, the bling but honestly seeing where I am now at OSU, I would think more deeply into my decision of coming here."
+        },
+        {
+          "name": "I'm leaning more at osu too also but i was just worried since i heard that uc ha",
+          "role": "",
+          "description": "I'm leaning more at osu too also but i was just worried since i heard that uc has a lot of opporunites. I personally like a more social environment and i think OSU has that compared to uc. Is OSU up to your standards, though?"
+        },
+        {
+          "name": "I know OSU is a big social hub for others but for me that’s not the case. I’m st",
+          "role": "",
+          "description": "I know OSU is a big social hub for others but for me that’s not the case. I’m still friends with my high school people and I haven’t really branched out and while that’s mostly my fault it’s still something to consider"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "COMMENTS: Go to cheaper school. Both will have ample opportunities",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honestly, I usually am on the “go to the cheaper school” train, but if you are serious about going to med school, it is ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "OSU probably will have slightly better instruction and resources, and the higher prestige is good as well. OSU also rece",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

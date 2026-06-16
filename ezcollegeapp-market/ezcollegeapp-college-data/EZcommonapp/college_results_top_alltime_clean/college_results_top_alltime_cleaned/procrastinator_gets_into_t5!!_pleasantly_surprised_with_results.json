@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": 1500,
+      "act_composite": 32,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Research 9-12: Worked on like 3 research projects all throughout high school.",
+          "role": "",
+          "description": "1. Research 9-12: Worked on like 3 research projects all throughout high school. One was chemistry related one was animal sciences related and one was aerospace related. Won numerous science fair awards: 1st place, best "
+        },
+        {
+          "name": "2. Debate 9-12: Captain senior year. Huge time commitment. Ranked third in my st",
+          "role": "",
+          "description": "2. Debate 9-12: Captain senior year. Huge time commitment. Ranked third in my state. First person from my school to be competitive nationally."
+        },
+        {
+          "name": "3. Youth led non profit 12: introduced an internationally known non profit to my",
+          "role": "",
+          "description": "3. Youth led non profit 12: introduced an internationally known non profit to my state. Hosted community events and met with legislations to change state laws relating to particular issues (sorry for being vague lol)"
+        },
+        {
+          "name": "4. Marching/Concert Band 8-11: Principal trumpetist all years. Went to competiti",
+          "role": "",
+          "description": "4. Marching/Concert Band 8-11: Principal trumpetist all years. Went to competitions and football games. Helped new members etc. Also a huge time commitment."
+        },
+        {
+          "name": "5. Flight Simulator 9-12: Listed that I was very active on flight simulators pil",
+          "role": "",
+          "description": "5. Flight Simulator 9-12: Listed that I was very active on flight simulators piloting domestic and international flights. Amassed 300+ flight hours."
+        },
+        {
+          "name": "6. Volunteer at mosque 9-12: Lived at mosque for 2 weeks out of the year and hel",
+          "role": "",
+          "description": "6. Volunteer at mosque 9-12: Lived at mosque for 2 weeks out of the year and helped organize for annual holidays. Organize daily dinners for the community."
+        },
+        {
+          "name": "7. Fishing 9-12: Went on fishing trips catching multiple species. Pretty active ",
+          "role": "",
+          "description": "7. Fishing 9-12: Went on fishing trips catching multiple species. Pretty active in fishing tournaments. I connected this EC to aerospace because one of my research projects had to do with creating aircraft designs based "
+        },
+        {
+          "name": "8. Science Clubs 11-12: Ocean Bowl and Science Olympiad. Nothing special. Won so",
+          "role": "",
+          "description": "8. Science Clubs 11-12: Ocean Bowl and Science Olympiad. Nothing special. Won some regional medals."
+        },
+        {
+          "name": "9. Summer job 11: worked part time at a fast food restaurant",
+          "role": "",
+          "description": "9. Summer job 11: worked part time at a fast food restaurant"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Given a society for science award for community innovation on my research in animal sciences. Giv",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Intel ISEF Finalist for my project in chemistry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Academic all American for debate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 2x national qualifier in debate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Highest distinction level awarded in debate by NSDA",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": true,
+      "service_summary": "3. Youth led non profit 12: introduced an internationally known non profit to my state. Hosted community events and met with legislations to change state laws relating to particular issues (sorry for being vague lol); 6. Volunteer at mosque 9-12: Lived at mosque for 2 weeks out of the year and helped organize for annual holidays. Organize daily dinners for the community."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mechanical/aerospace engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

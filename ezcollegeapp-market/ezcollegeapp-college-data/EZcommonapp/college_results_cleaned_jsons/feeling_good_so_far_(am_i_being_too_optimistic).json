@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Science Olympiad: participated all four years",
+          "role": "",
+          "description": "Science Olympiad: participated all four years"
+        },
+        {
+          "name": "Outreach Manager",
+          "role": "",
+          "description": "Outreach Manager"
+        },
+        {
+          "name": "21 medals (including 2 at state) NHS: Co-President, planned a bunch of events Sp",
+          "role": "",
+          "description": "21 medals (including 2 at state) NHS: Co-President, planned a bunch of events Spanish NHS: President, planned cultural events and tutoring Math Club: member since 9th grade, Secretary, 3rd place team country math comp"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP: 2 freshman / 5 sophomore / 2 junior / 0 senior (took/will take several extra AP tests that correspond to my IB cours",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Senior Year Course Load: IB Math Analysis and Apps HL IB English Lit HL IB Physics SL IB Spanish B HL IB History of the ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "11th grade IB HOTA (History) teacher, didn’t ask to read it, but I did read the rec letter she wrote me when I was running for student school board member and it was outstanding. Included how excited I was to participate in class and my wider concern for the community."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Asian American Studies/Urban Studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "post": {
+    "id": "t3_1piefjn",
+    "title": "Hamilton College applicants!",
+    "author": "Due-Expression9747",
+    "selftext": "now that the decisions day for ed1 is just 8 days away, what are your predictions?",
+    "score": "5",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1piefjn/hamilton_college_applicants/",
+    "created": "2025-12-09T18:01:00+00:00",
+    "num_comments": 6,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_ntgmy5l",
+      "author": "Scary_Fan1716",
+      "body": "applying RD and did my interview last week! good luck to you all",
+      "score": "1 point",
+      "created": "2025-12-11T13:20:22+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nt7a8z9",
+      "author": "Wide_Appointment7422",
+      "body": "finally why aren’t people talking. i ed’ed there",
+      "score": "0 points",
+      "created": "2025-12-09T23:50:53+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nt7t8x9",
+          "author": "Due-Expression9747",
+          "body": "i have the same thing to say! why aren't people talking at all?\ndid you receive that decisions day announcement email?",
+          "score": "1 point",
+          "created": "2025-12-10T01:41:15+00:00",
+          "depth": 1,
+          "parent_id": "t1_nt7a8z9",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_nt90w0x",
+              "author": "Wide_Appointment7422",
+              "body": "yes i got it yesterday. i just LOVE how they never give any signs to accepted students. just find out on decision day",
+              "score": "1 point",
+              "created": "2025-12-10T06:43:16+00:00",
+              "depth": 2,
+              "parent_id": "t1_nt7t8x9",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "t1_nt8u0e6",
+          "author": "tractata",
+          "body": "Because this is the wrong sub for this discussion.",
+          "score": "1 point",
+          "created": "2025-12-10T05:43:55+00:00",
+          "depth": 1,
+          "parent_id": "t1_nt7a8z9",
+          "is_reply_to_post": false,
+          "replies": []
+        },
+        {
+          "id": "t1_nug5fdk",
+          "author": "Wide_Appointment7422",
+          "body": "I GOT IN!!",
+          "score": "1 point",
+          "created": "2025-12-17T02:59:34+00:00",
+          "depth": 1,
+          "parent_id": "t1_nt7a8z9",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1piefjn",
+        "author": "Due-Expression9747",
+        "title": "Hamilton College applicants!",
+        "body": "now that the decisions day for ed1 is just 8 days away, what are your predictions?",
+        "full_text": "Hamilton College applicants!\n\nnow that the decisions day for ed1 is just 8 days away, what are your predictions?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_ntgmy5l",
+          "author": "Scary_Fan1716",
+          "body": "applying RD and did my interview last week! good luck to you all",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nt7a8z9",
+          "author": "Wide_Appointment7422",
+          "body": "finally why aren’t people talking. i ed’ed there",
+          "score": "0 points",
+          "has_replies": true,
+          "num_replies": 3
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nt7a8z9",
+        "author": "Wide_Appointment7422",
+        "body": "finally why aren’t people talking. i ed’ed there",
+        "score": "0 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nt7t8x9",
+          "author": "Due-Expression9747",
+          "body": "i have the same thing to say! why aren't people talking at all?\ndid you receive that decisions day announcement email?",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_nt8u0e6",
+          "author": "tractata",
+          "body": "Because this is the wrong sub for this discussion.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_nug5fdk",
+          "author": "Wide_Appointment7422",
+          "body": "I GOT IN!!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nt7t8x9",
+        "author": "Due-Expression9747",
+        "body": "i have the same thing to say! why aren't people talking at all?\ndid you receive that decisions day announcement email?",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nt90w0x",
+          "author": "Wide_Appointment7422",
+          "body": "yes i got it yesterday. i just LOVE how they never give any signs to accepted students. just find out on decision day",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 4,
+    "total_qa_pairs": 3
+  }
+}

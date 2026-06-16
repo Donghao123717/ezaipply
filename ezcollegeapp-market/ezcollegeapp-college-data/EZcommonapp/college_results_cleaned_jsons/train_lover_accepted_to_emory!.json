@@ -1,0 +1,33 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Non Profit Exec (UN Recognized + Award Winning) Sponsorships Director @ Hackatho",
+          "role": "",
+          "description": "Non Profit Exec (UN Recognized + Award Winning) Sponsorships Director @ Hackathon (made 3.2k out of 7k, 6xed sponsorships) School Trivia/QB Club Prez and Captain AP Club Prez (increased membership by 5x, provide resources for 12 subjects & 200+ students)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Public Health/Pure Biology/Biochem"
+    },
+    "ESSAY_SCORE": null
+  }
+}

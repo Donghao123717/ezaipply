@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "(gonna stay vague cause I'm lazy and also don't wanna get exposed hehe)",
+          "role": "",
+          "description": "(gonna stay vague cause I'm lazy and also don't wanna get exposed hehe)"
+        },
+        {
+          "name": "1. *#1* Internship at Law Firm - worked with local congressional offices and bur",
+          "role": "",
+          "description": "1. *#1* Internship at Law Firm - worked with local congressional offices and bureaucracy (10-12)"
+        },
+        {
+          "name": "2. \\#2 Altar Serving 💀 - HUGE time commitment almost every week since fifth grad",
+          "role": "",
+          "description": "2. \\#2 Altar Serving 💀 - HUGE time commitment almost every week since fifth grade (5-12)"
+        },
+        {
+          "name": "3. \\#3 Part-Time Job - I actually had a few of these during high school, wrote s",
+          "role": "",
+          "description": "3. \\#3 Part-Time Job - I actually had a few of these during high school, wrote some cool essays about them, although they were literally just regular retail jobs (11-12)"
+        },
+        {
+          "name": "4. \\#4 Varsity Tennis - not only did the pandemic happen but I realized that I h",
+          "role": "",
+          "description": "4. \\#4 Varsity Tennis - not only did the pandemic happen but I realized that I hated sports mid-way through my Sophomore year so nothing special here (9-10)"
+        },
+        {
+          "name": "5. \\#5 Varsity Marching Band - okay so I actually liked marching band but it got",
+          "role": "",
+          "description": "5. \\#5 Varsity Marching Band - okay so I actually liked marching band but it got canceled due to funding mid-way through my Sophomore year lmao (9-10)"
+        },
+        {
+          "name": "6. \\#6 Journalism/Research Project - I was a writer at an international student-",
+          "role": "",
+          "description": "6. \\#6 Journalism/Research Project - I was a writer at an international student-run magazine; worked on an independent research project with a friend on school English pedagogy (11-12)"
+        },
+        {
+          "name": "7. \\#7 Leader of Immigrant Club - didn't really do too much because of the pande",
+          "role": "",
+          "description": "7. \\#7 Leader of Immigrant Club - didn't really do too much because of the pandemic, mainly used as a way for me and others to get involved in other school charity events (11-12)"
+        },
+        {
+          "name": "8. \\#8 Religious Organization (intentionally vague) Student Leader - basically I",
+          "role": "",
+          "description": "8. \\#8 Religious Organization (intentionally vague) Student Leader - basically I volunteered to teach middle schoolers about leadership every year during high school (9-12)"
+        },
+        {
+          "name": "9. \\#9 School Ambassador - assigned to do volunteer events here and there, wasn'",
+          "role": "",
+          "description": "9. \\#9 School Ambassador - assigned to do volunteer events here and there, wasn't the biggest time commitment in the world though (9-12)"
+        },
+        {
+          "name": "10. \\#10 Summer Reading Program Volunteer - tutored kids every summer at local l",
+          "role": "",
+          "description": "10. \\#10 Summer Reading Program Volunteer - tutored kids every summer at local library, nothing too special (9-10)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 AP Scholar With Distinction (Regional)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 School English Award Thingy (School)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 National Honor Society (School...?)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "9. \\#9 School Ambassador - assigned to do volunteer events here and there, wasn't the biggest time commitment in the world though (9-12); 10. \\#10 Summer Reading Program Volunteer - tutored kids every summer at local library, nothing too special (9-10)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "sociology &lt;3"
+    },
+    "ESSAY_SCORE": null
+  }
+}

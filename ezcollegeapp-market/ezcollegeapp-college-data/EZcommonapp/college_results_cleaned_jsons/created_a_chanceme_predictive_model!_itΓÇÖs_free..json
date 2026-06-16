@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "- Good idea. Will add in now.",
+          "role": "",
+          "description": "- Good idea. Will add in now."
+        },
+        {
+          "name": "- Oh, and maybe some abbreviations of the school names. E.g Carnegie Mellon —> C",
+          "role": "",
+          "description": "- Oh, and maybe some abbreviations of the school names. E.g Carnegie Mellon —> CMU, Massachusetts institute of technology —> MIT, Georgia Tech etc."
+        },
+        {
+          "name": "- Good idea. Not sure if I’ll go with it tho. I think full name keeps pretty cle",
+          "role": "",
+          "description": "- Good idea. Not sure if I’ll go with it tho. I think full name keeps pretty clear and like for example I didn’t even know CMU was Carnegie Mellon specifically."
+        },
+        {
+          "name": "- Oh, I usually use CollegeVine and I’m just saying what they do. They put (full",
+          "role": "",
+          "description": "- Oh, I usually use CollegeVine and I’m just saying what they do. They put (full name) | (abbreviation)"
+        },
+        {
+          "name": "- on laptop i cant put in a number for gpa, js 4 or 3",
+          "role": "",
+          "description": "- on laptop i cant put in a number for gpa, js 4 or 3"
+        },
+        {
+          "name": "- Fixed. Let me know how accurate it is for you if you already are in college or",
+          "role": "",
+          "description": "- Fixed. Let me know how accurate it is for you if you already are in college or if not what features you’d appreciate ."
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "- Yes. I will totally work on that. Thank you for your feedback!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Could you add an option for students living abroad?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Yes, as in international? I’m going to work on that asap. Good idea",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I would like to give you some suggestions:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Add international as an option",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Add other courses as options e.g igcse, alevels",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "can you create a community college transfer option pls?:)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

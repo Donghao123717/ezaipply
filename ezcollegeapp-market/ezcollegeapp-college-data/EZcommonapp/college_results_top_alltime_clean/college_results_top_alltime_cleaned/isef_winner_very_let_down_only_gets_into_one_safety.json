@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.86,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Wrote software to automate many large data processing related tasks (600k+ re",
+          "role": "",
+          "description": "1. Wrote software to automate many large data processing related tasks (600k+ records) for a major democratic political organization for the 2020 election."
+        },
+        {
+          "name": "2. Worked on vape sensing research at local university and helped sell 80 units ",
+          "role": "",
+          "description": "2. Worked on vape sensing research at local university and helped sell 80 units to schools across North Texas (including mine)"
+        },
+        {
+          "name": "3. Directing an intensive summer camp teaching \\~150 MS/HS kids about CS/AI and ",
+          "role": "",
+          "description": "3. Directing an intensive summer camp teaching \\~150 MS/HS kids about CS/AI and how to code"
+        },
+        {
+          "name": "4. Science Research Club President",
+          "role": "",
+          "description": "4. Science Research Club President"
+        },
+        {
+          "name": "5. CS and Math Club VP",
+          "role": "",
+          "description": "5. CS and Math Club VP"
+        },
+        {
+          "name": "6. Worked on software (leading a team of 2 other HS devs) for decentralized cryp",
+          "role": "",
+          "description": "6. Worked on software (leading a team of 2 other HS devs) for decentralized cryptomining to turn volunteer's computer power into charitable donations ($2200 donated)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. 1st place grand award + 1st place special award at ISEF",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Grand prize at TXSEF, a few other regional/state science fair related awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Presented and published research at an MIT undergrad conference",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Won some random university-sponsored hackathons (Rice, UTD)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. 2x AIME qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. News feature on NBC for my research",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "6. Worked on software (leading a team of 2 other HS devs) for decentralized cryptomining to turn volunteer's computer power into charitable donations ($2200 donated)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs or ee"
+    },
+    "ESSAY_SCORE": null
+  }
+}

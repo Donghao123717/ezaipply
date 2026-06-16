@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Student Government Association (SGA) - Was the secretary for my SGA for one ",
+          "role": "",
+          "description": "1. *Student Government Association (SGA) - Was the secretary for my SGA for one year, and a representative for three years. I did stuff like organizing events for the school, helping out with the scho"
+        },
+        {
+          "name": "2. *Peer Advisor - At my boarding school, I basically helped make sure other peo",
+          "role": "",
+          "description": "2. *Peer Advisor - At my boarding school, I basically helped make sure other people were settled in, and helped with mental health and making sure that the dorms were clean.*"
+        },
+        {
+          "name": "3. *Research - Basically I partnered with a professor from the University of Ala",
+          "role": "",
+          "description": "3. *Research - Basically I partnered with a professor from the University of Alabama and worked on constructing a model for solar flare prediction. It didn't really turn out well, but it was really go"
+        },
+        {
+          "name": "4. *Science Olympiad - I was the president of the Science Olympiad, and competed",
+          "role": "",
+          "description": "4. *Science Olympiad - I was the president of the Science Olympiad, and competed for four years. I got 1st place in regional and state competitions.*"
+        },
+        {
+          "name": "5. *Recycling - Served as the recycling head for my school, and promoted stuff l",
+          "role": "",
+          "description": "5. *Recycling - Served as the recycling head for my school, and promoted stuff like more recycling on campus, and led trips to the recycling center*"
+        },
+        {
+          "name": "6. *Symphonic/Marching Band - I played trumpet for my school band for four years",
+          "role": "",
+          "description": "6. *Symphonic/Marching Band - I played trumpet for my school band for four years, and did marching band for one year.*"
+        },
+        {
+          "name": "7. *Animation - I made some animation projects, one of which being 3.5 minutes l",
+          "role": "",
+          "description": "7. *Animation - I made some animation projects, one of which being 3.5 minutes long, the other being 2 minutes long. I showed one of my animations to an audience of over 200 people.*"
+        },
+        {
+          "name": "8. *Music - I am a Spotify-verified artist and I have self-produced and released",
+          "role": "",
+          "description": "8. *Music - I am a Spotify-verified artist and I have self-produced and released two albums and an EP.*"
+        },
+        {
+          "name": "9. *Church Worship Band - I played trumpet for my local church during the summer",
+          "role": "",
+          "description": "9. *Church Worship Band - I played trumpet for my local church during the summer*"
+        },
+        {
+          "name": "10. *Yearbook - Served as an editor and photographer for my school yearbook team",
+          "role": "",
+          "description": "10. *Yearbook - Served as an editor and photographer for my school yearbook team.*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *AATG National German Exam Gold Winner - Scored higher than 93% of all German test takers*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *National Merit Semifinalist (Eventually became a Finalist but the money had no use to me rip)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Science Olympiad Awards - Won first place for Fossils in Regional and State competitions, and wo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Alabama All State Honor Band - Qualified for the All State band (ended up getting last chair lmao",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP Scholar - lol",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 8,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "astrophysics/physics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1430,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 13
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *President of NHS (250 student members). Successfully ran several fundraisers",
+          "role": "",
+          "description": "1. *President of NHS (250 student members). Successfully ran several fundraisers and food drives for local shelters. Organized and ran a free child care program at a Title I elementary school*"
+        },
+        {
+          "name": "2. *Fundraiser Coordinator for a Nonprofit Company that provides books and schoo",
+          "role": "",
+          "description": "2. *Fundraiser Coordinator for a Nonprofit Company that provides books and school supplies in several South American countries.*"
+        },
+        {
+          "name": "3. *Vice President of Mu Alpha Theta (Math Honor Society) organized tutoring ser",
+          "role": "",
+          "description": "3. *Vice President of Mu Alpha Theta (Math Honor Society) organized tutoring services for failing seniors*"
+        },
+        {
+          "name": "4. Medical Clerk in Psychiatry Office. Worked on average 15 hours per week begin",
+          "role": "",
+          "description": "4. Medical Clerk in Psychiatry Office. Worked on average 15 hours per week begining Sophomore Year of High School through the summer after graduation."
+        },
+        {
+          "name": "5. Volunteer Coordinator for Environmental Club - organized several beach clean ",
+          "role": "",
+          "description": "5. Volunteer Coordinator for Environmental Club - organized several beach clean ups"
+        },
+        {
+          "name": "6. Varsity and Club Soccer",
+          "role": "",
+          "description": "6. Varsity and Club Soccer"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *QuestBridge Finalist*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *AP Scholar with Distinction*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. Volunteer Coordinator for Environmental Club - organized several beach clean ups"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology, neuroscience, biomedical engineering. i plan on going to medical school"
+    },
+    "ESSAY_SCORE": null
+  }
+}

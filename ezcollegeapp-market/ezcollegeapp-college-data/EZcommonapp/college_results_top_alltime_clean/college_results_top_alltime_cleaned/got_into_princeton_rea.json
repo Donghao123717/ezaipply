@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 720,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Rotary Interact - President",
+          "role": "",
+          "description": "1. Rotary Interact - President"
+        },
+        {
+          "name": "2. Marching Band - Section Leader",
+          "role": "",
+          "description": "2. Marching Band - Section Leader"
+        },
+        {
+          "name": "3. Computer Science/ STEM Residential Program",
+          "role": "",
+          "description": "3. Computer Science/ STEM Residential Program"
+        },
+        {
+          "name": "4. Software Company Intern",
+          "role": "",
+          "description": "4. Software Company Intern"
+        },
+        {
+          "name": "5. City Council - Representative",
+          "role": "",
+          "description": "5. City Council - Representative"
+        },
+        {
+          "name": "6. Academic Bowl - Varsity",
+          "role": "",
+          "description": "6. Academic Bowl - Varsity"
+        },
+        {
+          "name": "7. Math Tutoring",
+          "role": "",
+          "description": "7. Math Tutoring"
+        },
+        {
+          "name": "8. Independent Research Program - Scholar",
+          "role": "",
+          "description": "8. Independent Research Program - Scholar"
+        },
+        {
+          "name": "9. Tennis - JV/V (only did this for 2 yrs but still included it)",
+          "role": "",
+          "description": "9. Tennis - JV/V (only did this for 2 yrs but still included it)"
+        },
+        {
+          "name": "10. Job shadowing at a Physician Clinic",
+          "role": "",
+          "description": "10. Job shadowing at a Physician Clinic"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AP Scholar with Distinction; National",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Rural and Small Town Recognition Award; National",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Georgia Certificate of Merit Award; State/Regional",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Center for Women and Information",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Technology Aspirations in Computing Award; State/Regional",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Governor’s Honors Program Semifinalist - Math/Social Studies; School, State/Regional",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

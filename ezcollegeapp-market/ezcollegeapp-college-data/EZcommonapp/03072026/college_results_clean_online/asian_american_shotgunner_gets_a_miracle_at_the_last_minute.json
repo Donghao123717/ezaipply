@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Violinist &amp; Officer in School Orchestra -  Musician in Orchestra; earned ",
+          "role": "",
+          "description": "1. Violinist &amp; Officer in School Orchestra -  Musician in Orchestra; earned TMEA Texas Music Scholar Award (Grade 11) and a score of 1 in TMEA Solo &amp; Ensemble Contest (Grades 10 &amp; 11)."
+        },
+        {
+          "name": "2. Karate -  Progressed from White to Black Belt over the course of 7 years (Gra",
+          "role": "",
+          "description": "2. Karate -  Progressed from White to Black Belt over the course of 7 years (Grades 3-9); won sparring competition; volunteered as helper for younger students."
+        },
+        {
+          "name": "3. Founder &amp; Lead Musician of Celtic Music Ensemble -  ensemble that I found",
+          "role": "",
+          "description": "3. Founder &amp; Lead Musician of Celtic Music Ensemble -  ensemble that I founded, organized, and led. Performed at community venues (restaurant, performance hall, open mic, school)."
+        },
+        {
+          "name": "4. Constructed Language Project - Created a fully functioning constructed langua",
+          "role": "",
+          "description": "4. Constructed Language Project - Created a fully functioning constructed language (2nd constructed language draft in progress); reflective of informal intensive linguistics study."
+        },
+        {
+          "name": "5. Founding Officer (Secretary) -  founded mentorship club for ESL students, hel",
+          "role": "",
+          "description": "5. Founding Officer (Secretary) -  founded mentorship club for ESL students, helping them grow comfortable with conversational English skills &amp; preparing them for the TELPAS exam."
+        },
+        {
+          "name": "Most of the rest are just other orchestras/musical ensembles that I've been in.",
+          "role": "",
+          "description": "Most of the rest are just other orchestras/musical ensembles that I've been in."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. TMEA Texas Music Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. School honor-roll-type award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Honor Society",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. Founder &amp; Lead Musician of Celtic Music Ensemble -  ensemble that I founded, organized, and led. Performed at community venues (restaurant, performance hall, open mic, school)."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "undecided, leaning towards linguistics/social sciences"
+    },
+    "ESSAY_SCORE": null
+  }
+}

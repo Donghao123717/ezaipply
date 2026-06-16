@@ -1,0 +1,88 @@
+{
+  "post": {
+    "id": "t3_1pg5alm",
+    "title": "Lindner Business Honors",
+    "author": "Upper_War9565",
+    "selftext": "Hi everyone! I interviewed today for Lindner business honors and I feel like my interview don’t go too well. If you are in it, what stats do you think students who get in generally have? Lindner Honors is literally my top choice.",
+    "score": "3",
+    "url": "https://www.reddit.com/r/uCinci/comments/1pg5alm/lindner_business_honors/",
+    "created": "2025-12-07T01:04:31+00:00",
+    "num_comments": 4,
+    "subreddit": "uCinci"
+  },
+  "comments": [
+    {
+      "id": "t1_ntwti7a",
+      "author": "Upset_Scientist_4408",
+      "body": "Do you know if they let the students know if they are not accepted into honors?  We haven’t heard anything and we know others who haven’t as well.  They said 12/12 for decision.",
+      "score": "1 point",
+      "created": "2025-12-14T01:55:53+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_ntwwtgk",
+          "author": "Upper_War9565",
+          "body": "I haven’t heard back from them either! I assumed I got rejected but I don’t know anybody who got accepted hearing back yet either so maybe it’s not done?",
+          "score": "1 point",
+          "created": "2025-12-14T02:17:31+00:00",
+          "depth": 1,
+          "parent_id": "t1_ntwti7a",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pg5alm",
+        "author": "Upper_War9565",
+        "title": "Lindner Business Honors",
+        "body": "Hi everyone! I interviewed today for Lindner business honors and I feel like my interview don’t go too well. If you are in it, what stats do you think students who get in generally have? Lindner Honors is literally my top choice.",
+        "full_text": "Lindner Business Honors\n\nHi everyone! I interviewed today for Lindner business honors and I feel like my interview don’t go too well. If you are in it, what stats do you think students who get in generally have? Lindner Honors is literally my top choice."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_ntwti7a",
+          "author": "Upset_Scientist_4408",
+          "body": "Do you know if they let the students know if they are not accepted into honors?  We haven’t heard anything and we know others who haven’t as well.  They said 12/12 for decision.",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_ntwti7a",
+        "author": "Upset_Scientist_4408",
+        "body": "Do you know if they let the students know if they are not accepted into honors?  We haven’t heard anything and we know others who haven’t as well.  They said 12/12 for decision.",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_ntwwtgk",
+          "author": "Upper_War9565",
+          "body": "I haven’t heard back from them either! I assumed I got rejected but I don’t know anybody who got accepted hearing back yet either so maybe it’s not done?",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

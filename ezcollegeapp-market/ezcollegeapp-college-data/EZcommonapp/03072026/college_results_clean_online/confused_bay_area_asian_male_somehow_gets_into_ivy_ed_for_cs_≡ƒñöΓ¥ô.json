@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Math team: president (12), VP (11): I teach competition math and started a tutor",
+          "role": "",
+          "description": "Math team: president (12), VP (11): I teach competition math and started a tutoring program"
+        },
+        {
+          "name": "Physics club: VP (11-12): I don't do much; I taught some lessons and organized s",
+          "role": "",
+          "description": "Physics club: VP (11-12): I don't do much; I taught some lessons and organized some fundraisers"
+        },
+        {
+          "name": "COSMOS: (11) California summer program, CS-adjacent",
+          "role": "",
+          "description": "COSMOS: (11) California summer program, CS-adjacent"
+        },
+        {
+          "name": "Nonprofit: (10-12) raised 5k by selling clothes",
+          "role": "",
+          "description": "Nonprofit: (10-12) raised 5k by selling clothes"
+        },
+        {
+          "name": "Research: (11) made some diagrams for a proposal to NASA, linked to my ED",
+          "role": "",
+          "description": "Research: (11) made some diagrams for a proposal to NASA, linked to my ED"
+        },
+        {
+          "name": "Personal Projects: (12) some image processing programs that I submitted to peer-",
+          "role": "",
+          "description": "Personal Projects: (12) some image processing programs that I submitted to peer-reviewed journals... none were actually accepted yet by the time ED came out"
+        },
+        {
+          "name": "ASB: (12) student IT guy",
+          "role": "",
+          "description": "ASB: (12) student IT guy"
+        },
+        {
+          "name": "Some other fillers that don't matter too much",
+          "role": "",
+          "description": "Some other fillers that don't matter too much"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science (applied cs+math)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

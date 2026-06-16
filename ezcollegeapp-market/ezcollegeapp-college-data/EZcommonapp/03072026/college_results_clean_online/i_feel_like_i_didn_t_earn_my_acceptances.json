@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 80.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\#1 7-week internship in Japan, lived alone in Tokyo and worked for a travel age",
+          "role": "",
+          "description": "\\#1 7-week internship in Japan, lived alone in Tokyo and worked for a travel agency, did cultural research on various attractions and built connections between agency and providers."
+        },
+        {
+          "name": "\\#2 Swim Team Captain (12th) State Finalist (10, 11, 12) Didnt make 9th due to C",
+          "role": "",
+          "description": "\\#2 Swim Team Captain (12th) State Finalist (10, 11, 12) Didnt make 9th due to Covid, Biggest regret is not reaching out to MIT Coach, have D3 recruitable times for MIT, didnt realize until rd deadlin"
+        },
+        {
+          "name": "\\#4 Muti-Racial Affinity Group Head",
+          "role": "",
+          "description": "\\#4 Muti-Racial Affinity Group Head"
+        },
+        {
+          "name": "\\#5 Senior Mentor on Freshman Dorm",
+          "role": "",
+          "description": "\\#5 Senior Mentor on Freshman Dorm"
+        },
+        {
+          "name": "\\#6 Special Olympics Assistant Head- Helped to organize the fall gathering for t",
+          "role": "",
+          "description": "\\#6 Special Olympics Assistant Head- Helped to organize the fall gathering for the states special olympics"
+        },
+        {
+          "name": "\\#7 Crew- 4 years on a varsity boat, very competitive program sending multiple r",
+          "role": "",
+          "description": "\\#7 Crew- 4 years on a varsity boat, very competitive program sending multiple recruits this year"
+        },
+        {
+          "name": "\\#8 East Asian Affinity Group Member",
+          "role": "",
+          "description": "\\#8 East Asian Affinity Group Member"
+        },
+        {
+          "name": "\\#9 Summer Debate Camp, not prestigious at all",
+          "role": "",
+          "description": "\\#9 Summer Debate Camp, not prestigious at all"
+        },
+        {
+          "name": "\\#10 Cross Country Runner last 2 years",
+          "role": "",
+          "description": "\\#10 Cross Country Runner last 2 years"
+        },
+        {
+          "name": "Awards:Left Section Blank",
+          "role": "",
+          "description": "Awards:Left Section Blank"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "Math Teacher (9/10)- Had him for 2 years, nothing special together, our biggest ",
+          "role": "",
+          "description": "Math Teacher (9/10)- Had him for 2 years, nothing special together, our biggest connection and main point was surrounding my natural curiosity and love for quantitative reasoning. He focused on our fi"
+        },
+        {
+          "name": "History Teacher (7/10)- Took two courses, one a 94(the best student in the cours",
+          "role": "",
+          "description": "History Teacher (7/10)- Took two courses, one a 94(the best student in the course) and the other was my first B. Wrote surrounding my love for history, especially around the concept of trying to disse"
+        },
+        {
+          "name": "Columbia Letter of Reference (10/10)- Had a lecturer at Columbia who I grew up a",
+          "role": "",
+          "description": "Columbia Letter of Reference (10/10)- Had a lecturer at Columbia who I grew up around, a tight friend of my father's write a letter to Columbia about why he thought I was a great fit for the school, a"
+        },
+        {
+          "name": "Interviews",
+          "role": "",
+          "description": "Interviews"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Math Teacher (9/10)- Had him for 2 years, nothing special together, our biggest connection and main ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "History Teacher (7/10)- Took two courses, one a 94(the best student in the course) and the other was",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Columbia Letter of Reference (10/10)- Had a lecturer at Columbia who I grew up around, a tight frien",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Only had one interview, Georgetown, went amazing, the alum was actually an alum of my boarding schoo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Didn’t submit a Chicago video profile, didn’t know that was an option…",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Personal Statement (8/10): Wrote about the importance of asking questions in order to connect, used ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Supplements:Columbia- 7/10 Nothing special, felt ok, 150 words were too short, was my dream school t",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

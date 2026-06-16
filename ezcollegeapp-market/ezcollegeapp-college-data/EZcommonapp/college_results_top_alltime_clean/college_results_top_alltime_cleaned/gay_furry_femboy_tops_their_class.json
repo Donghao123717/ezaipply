@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1400,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Chess Club: President and founder, no achievements bc its really new and nob",
+          "role": "",
+          "description": "1. *Chess Club: President and founder, no achievements bc its really new and nobody wants to go to tournaments :(*"
+        },
+        {
+          "name": "2. Academic Team: Captain, State Placement, County Champ, and MVP Award Winner",
+          "role": "",
+          "description": "2. Academic Team: Captain, State Placement, County Champ, and MVP Award Winner"
+        },
+        {
+          "name": "3. Math Club: nothing notable",
+          "role": "",
+          "description": "3. Math Club: nothing notable"
+        },
+        {
+          "name": "4. Math Honors Society: nothing notable",
+          "role": "",
+          "description": "4. Math Honors Society: nothing notable"
+        },
+        {
+          "name": "5. Swim: 2x County Champ, 2x County Gold Medalist, and MVP Award Winner",
+          "role": "",
+          "description": "5. Swim: 2x County Champ, 2x County Gold Medalist, and MVP Award Winner"
+        },
+        {
+          "name": "6. Tennis: State Placement",
+          "role": "",
+          "description": "6. Tennis: State Placement"
+        },
+        {
+          "name": "7. Science Olympiad: nothing notable (all the feeder schools take top placements",
+          "role": "",
+          "description": "7. Science Olympiad: nothing notable (all the feeder schools take top placements....................................)"
+        },
+        {
+          "name": "8.  SGA: Senator",
+          "role": "",
+          "description": "8.  SGA: Senator"
+        },
+        {
+          "name": "9. NHS: like 30 service hours tutoring kids, no leadership",
+          "role": "",
+          "description": "9. NHS: like 30 service hours tutoring kids, no leadership"
+        },
+        {
+          "name": "10. Lifeguard: 20-30 hrs a week, employee of the month",
+          "role": "",
+          "description": "10. Lifeguard: 20-30 hrs a week, employee of the month"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Positive Athlete Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. A Honor Roll 10-11th",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "9. NHS: like 30 service hours tutoring kids, no leadership"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

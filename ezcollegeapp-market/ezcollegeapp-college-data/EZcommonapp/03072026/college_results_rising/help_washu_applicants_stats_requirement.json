@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1rntujx",
+    "title": "Help Washu applicants stats requirement",
+    "author": "Adventurous-Item-737",
+    "selftext": "As a sophomore, I'm really interests in Washu. I want to know the stats requirement for apply washu ed1. I want to do environmental science major.If you know the info, please help me! I'll really grateful! thanks",
+    "score": "1",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1rntujx/help_washu_applicants_stats_requirement/",
+    "created": "",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o99jdky",
+      "author": "3duckshere",
+      "body": "Search up Washu common data set. There are no strict requirements, but the data set can give you a good idea of coursework/SAT or ACT scores/etc.",
+      "score": "1",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o9ddv8d",
+      "author": "Important_Sky_3908",
+      "body": "Go to the WashU admissions page?\nStats here:\n\nhttps://admissions.washu.edu/life-at-washu/incoming-class-profile/",
+      "score": "1",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1rntujx",
+        "author": "Adventurous-Item-737",
+        "title": "Help Washu applicants stats requirement",
+        "body": "As a sophomore, I'm really interests in Washu. I want to know the stats requirement for apply washu ed1. I want to do environmental science major.If you know the info, please help me! I'll really grateful! thanks",
+        "full_text": "Help Washu applicants stats requirement\n\nAs a sophomore, I'm really interests in Washu. I want to know the stats requirement for apply washu ed1. I want to do environmental science major.If you know the info, please help me! I'll really grateful! thanks"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o99jdky",
+          "author": "3duckshere",
+          "body": "Search up Washu common data set. There are no strict requirements, but the data set can give you a good idea of coursework/SAT or ACT scores/etc.",
+          "score": "1",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o9ddv8d",
+          "author": "Important_Sky_3908",
+          "body": "Go to the WashU admissions page?\nStats here:\n\nhttps://admissions.washu.edu/life-at-washu/incoming-class-profile/",
+          "score": "1",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

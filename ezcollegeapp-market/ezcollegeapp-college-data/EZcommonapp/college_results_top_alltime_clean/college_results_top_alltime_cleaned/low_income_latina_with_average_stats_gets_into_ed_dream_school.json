@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.67,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(message me if u want in depth descriptions, so much has happened in each indivi",
+          "role": "",
+          "description": "(message me if u want in depth descriptions, so much has happened in each individual ec)*"
+        },
+        {
+          "name": "1. Google Code Next - Engineer (12th)",
+          "role": "",
+          "description": "1. Google Code Next - Engineer (12th)"
+        },
+        {
+          "name": "2. FTC Girls Robotics - Co-Captain (11th - 12th)",
+          "role": "",
+          "description": "2. FTC Girls Robotics - Co-Captain (11th - 12th)"
+        },
+        {
+          "name": "3. Film Club - Founder &amp;amp; President (11th - 12th)",
+          "role": "",
+          "description": "3. Film Club - Founder &amp;amp; President (11th - 12th)"
+        },
+        {
+          "name": "4. Data Analyst Internship (11th)",
+          "role": "",
+          "description": "4. Data Analyst Internship (11th)"
+        },
+        {
+          "name": "5. Mentorship Thing - Advisee (11th - 12th)",
+          "role": "",
+          "description": "5. Mentorship Thing - Advisee (11th - 12th)"
+        },
+        {
+          "name": "6. Club - Project Committee Member (11th - 12th)",
+          "role": "",
+          "description": "6. Club - Project Committee Member (11th - 12th)"
+        },
+        {
+          "name": "7. Key Club - Webmaster (9th - 12th)",
+          "role": "",
+          "description": "7. Key Club - Webmaster (9th - 12th)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. QuestBridge College Prep Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Small School Thing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Small School Thing",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science / film studies minor"
+    },
+    "ESSAY_SCORE": null
+  }
+}

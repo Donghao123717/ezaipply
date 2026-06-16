@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.5,
+      "sat_total": null,
+      "act_composite": 5,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Essays/Supps",
+          "role": "",
+          "description": "Essays/Supps"
+        },
+        {
+          "name": "focused on capitalization as a metaphor for my role in my life and how I grew to",
+          "role": "",
+          "description": "focused on capitalization as a metaphor for my role in my life and how I grew to be proud of capitalizing my name got really good feedback on this one"
+        },
+        {
+          "name": "Essays/LORs/Other:  idk my LORs since teachers never let us see it but I may ask",
+          "role": "",
+          "description": "Essays/LORs/Other:  idk my LORs since teachers never let us see it but I may ask"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Extracurriculars: Founder/President Students in Action (110+ members, ongoing service work) Model UN",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/Supps",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "focused on capitalization as a metaphor for my role in my life and how I grew to be proud of capital",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Other:  idk my LORs since teachers never let us see it but I may ask",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "act/sat/sat ii: not good omg don’t smoke me i alr know (1120) test optional"
+    },
+    "ESSAY_SCORE": null
+  }
+}

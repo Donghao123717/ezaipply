@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.72,
+      "sat_total": 1550,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "#1 (9–11)",
+          "role": "",
+          "description": "#1 (9–11)"
+        },
+        {
+          "name": "Psychology Research (Q1 Journal Publication)",
+          "role": "",
+          "description": "Psychology Research (Q1 Journal Publication)"
+        },
+        {
+          "name": "Trauma related",
+          "role": "",
+          "description": "Trauma related"
+        },
+        {
+          "name": "#2 (9, 11 Summers)",
+          "role": "",
+          "description": "#2 (9, 11 Summers)"
+        },
+        {
+          "name": "Hospital Learning Program, Internship",
+          "role": "",
+          "description": "Hospital Learning Program, Internship"
+        },
+        {
+          "name": "learned from medical professors; shadowed a cardiologist and an anesthesiologist",
+          "role": "",
+          "description": "learned from medical professors; shadowed a cardiologist and an anesthesiologist during surgeries. (passion for cardio from my essays here)"
+        },
+        {
+          "name": "#3 (9–12)",
+          "role": "",
+          "description": "#3 (9–12)"
+        },
+        {
+          "name": "Founder, President, Fundraising Club (Health-related)",
+          "role": "",
+          "description": "Founder, President, Fundraising Club (Health-related)"
+        },
+        {
+          "name": "Led 60+ members; raised $9,000+ for a disease related cause; organized book driv",
+          "role": "",
+          "description": "Led 60+ members; raised $9,000+ for a disease related cause; organized book drive collecting 460+ books."
+        },
+        {
+          "name": "#4 (10–12)",
+          "role": "",
+          "description": "#4 (10–12)"
+        },
+        {
+          "name": "Youth Mental Health Leadership Positions",
+          "role": "",
+          "description": "Youth Mental Health Leadership Positions"
+        },
+        {
+          "name": "Grouped up 2 programs I did on a trauma-related mental health leadership advisor",
+          "role": "",
+          "description": "Grouped up 2 programs I did on a trauma-related mental health leadership advisory board and an LGBTQ mental health org."
+        },
+        {
+          "name": "Hosted Events for people to hang out",
+          "role": "",
+          "description": "Hosted Events for people to hang out"
+        },
+        {
+          "name": "#5 (9 → Member, 10–12 → President)",
+          "role": "",
+          "description": "#5 (9 → Member, 10–12 → President)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "#1 Top 3 – Environmental Research contest",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#2 Top 3 - same contest",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#3 Major Psych Conference, Poster Acceptance  (if it works, it works)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#4 National Merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#5 Local Volunteer Award w Scholarship",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#1 AP Lang Teacher - I talked with them alot about psych stuff and they really know my passion and w",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#2 AP Bio - Was a pretty good student, 2nd highest grade in my grade in their class, and we vibed. (",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#3 Freshmen-Sophomore Mentor for research challenge - I had a good relationship with them and we tal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#4 DO doc from my hospital internship, (7?/10) <<They are really uptight, but we liked each other",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 6,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "psychology, bs/md, bs/do"
+    },
+    "ESSAY_SCORE": null
+  }
+}

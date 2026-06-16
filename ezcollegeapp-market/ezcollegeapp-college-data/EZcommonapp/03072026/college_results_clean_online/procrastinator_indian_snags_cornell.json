@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Multiple acceptances to international research symposiums/conferences, including two IEEE events ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Selected as a summer program intern (6% acceptance rate, one of two chosen for my project).",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Congressional Award Silver Medalist &amp; STEM Star (recognizing volunteering and STEM contributi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Designed and developed my lab’s first 3D clinostat (to study the effects of microgravity) during ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP Scholar with Honors",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

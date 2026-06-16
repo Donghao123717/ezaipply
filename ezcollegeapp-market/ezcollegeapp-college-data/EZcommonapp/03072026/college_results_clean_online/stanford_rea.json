@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": 35,
+      "class_rank_percentile": 97.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Philanthropy Board - 4 years; President",
+          "role": "",
+          "description": "1. Philanthropy Board - 4 years; President"
+        },
+        {
+          "name": "2. Community Service Club - 4 years; President",
+          "role": "",
+          "description": "2. Community Service Club - 4 years; President"
+        },
+        {
+          "name": "3. Research Assistant - 1 year; 2 Co-Author Publications",
+          "role": "",
+          "description": "3. Research Assistant - 1 year; 2 Co-Author Publications"
+        },
+        {
+          "name": "4. Instrumental Music - 4 years; HEAVY involvement",
+          "role": "",
+          "description": "4. Instrumental Music - 4 years; HEAVY involvement"
+        },
+        {
+          "name": "5. Sports Medicine - 2 years; Clinical and Instructional Experience",
+          "role": "",
+          "description": "5. Sports Medicine - 2 years; Clinical and Instructional Experience"
+        },
+        {
+          "name": "6. Cross-Country/Track and Field - 4 years; about 15hrs/wk year-round",
+          "role": "",
+          "description": "6. Cross-Country/Track and Field - 4 years; about 15hrs/wk year-round"
+        },
+        {
+          "name": "7. Public Health NPO - 1 year; Founder",
+          "role": "",
+          "description": "7. Public Health NPO - 1 year; Founder"
+        },
+        {
+          "name": "8. Fast Food Associate - 2 years; 15hrs/week",
+          "role": "",
+          "description": "8. Fast Food Associate - 2 years; 15hrs/week"
+        },
+        {
+          "name": "9. SAT/ACT Tutor - 1 year",
+          "role": "",
+          "description": "9. SAT/ACT Tutor - 1 year"
+        },
+        {
+          "name": "10. Only student voting member on school district’s board, representing &amp;amp",
+          "role": "",
+          "description": "10. Only student voting member on school district’s board, representing &amp;amp;amp;gt;36,000 K-12 students - 1 year"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Coca-Cola Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Boys’ State Delegate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Student Speaker at Regional Event",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. American Chemical Society Excellence Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Case Competition First Place",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": true,
+      "service_summary": "2. Community Service Club - 4 years; President; 9. SAT/ACT Tutor - 1 year"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "science, technology, and society; humbio"
+    },
+    "ESSAY_SCORE": null
+  }
+}

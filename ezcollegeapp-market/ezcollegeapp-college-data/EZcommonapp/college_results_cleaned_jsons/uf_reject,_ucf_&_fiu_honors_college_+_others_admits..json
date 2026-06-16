@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.7,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "COMMENTS: The uw gpa is low , that might be a reason as well.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7/4 is low? With most classes with B Math and science classes?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "How is that overqualified when the SAT is right in the middle of their middle 50? The 2 people I know who got in both ar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- The UF acceptance criteria is crazy! 5.1W is because she's taken college advanced math and science classes, classes on",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Easy way to get in is simply complete aa degree from Florida public community college. With 7 ap  and 23 credits dual enrollment, only one more semester is needed at the community college. This is already about 44 credits; hence 16 credits more at the Cc to make 60 to earn aa degree and I assume the gen ed was mostly covered between dual enrollment and ap. Then just reapply to uf and go there in s"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

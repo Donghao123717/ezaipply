@@ -24,3 +24,20 @@ pnpm-debug.log*
 *.orig
 *.patch
 tmp/
+
+# Local/generated data
+**/.adk/
+**/faiss.index
+*.db
+*.sqlite
+*.sqlite3
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store

@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *App developer w/ mobile app approved by App Store*",
+          "role": "",
+          "description": "1. *App developer w/ mobile app approved by App Store*"
+        },
+        {
+          "name": "2. *Web Dev Volunteer @ Non-profit Organization*",
+          "role": "",
+          "description": "2. *Web Dev Volunteer @ Non-profit Organization*"
+        },
+        {
+          "name": "3. *ML Internship at startup in India*",
+          "role": "",
+          "description": "3. *ML Internship at startup in India*"
+        },
+        {
+          "name": "4. *Played soccer first two years of HS*",
+          "role": "",
+          "description": "4. *Played soccer first two years of HS*"
+        },
+        {
+          "name": "5. *Have played guitar for like 9 years w/ some achievements/honors*",
+          "role": "",
+          "description": "5. *Have played guitar for like 9 years w/ some achievements/honors*"
+        },
+        {
+          "name": "6. *Github profile w/ some interesting projects + open-source contributions*",
+          "role": "",
+          "description": "6. *Github profile w/ some interesting projects + open-source contributions*"
+        },
+        {
+          "name": "That's about it tbh, I added a few more filler ones but they were def not impres",
+          "role": "",
+          "description": "That's about it tbh, I added a few more filler ones but they were def not impressive"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *National Merit Semifinalist*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *AP Scholar w/ Distinction*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *USACO Silver Division*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *First place @ Regional Hackathon*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. *Web Dev Volunteer @ Non-profit Organization*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

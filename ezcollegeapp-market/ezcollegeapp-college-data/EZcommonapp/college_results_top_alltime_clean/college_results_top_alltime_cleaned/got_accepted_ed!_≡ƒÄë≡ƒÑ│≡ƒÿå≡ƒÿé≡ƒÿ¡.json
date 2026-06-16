@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Private Violin Lessons 🎻",
+          "role": "",
+          "description": "1. Private Violin Lessons 🎻"
+        },
+        {
+          "name": "2. School Tennis Team 🎾 (Was on JV all three years 😭)",
+          "role": "",
+          "description": "2. School Tennis Team 🎾 (Was on JV all three years 😭)"
+        },
+        {
+          "name": "3. Video Game Coding Project 🎮",
+          "role": "",
+          "description": "3. Video Game Coding Project 🎮"
+        },
+        {
+          "name": "4. Made a Website 💻",
+          "role": "",
+          "description": "4. Made a Website 💻"
+        },
+        {
+          "name": "5. In an orchestra for a year 🎻",
+          "role": "",
+          "description": "5. In an orchestra for a year 🎻"
+        },
+        {
+          "name": "6. Learned Java and Python 🐍",
+          "role": "",
+          "description": "6. Learned Java and Python 🐍"
+        },
+        {
+          "name": "7. Learned Piano on my own 🎹",
+          "role": "",
+          "description": "7. Learned Piano on my own 🎹"
+        },
+        {
+          "name": "8. Cultural Cooking 🍳🇵🇹🇸🇬",
+          "role": "",
+          "description": "8. Cultural Cooking 🍳🇵🇹🇸🇬"
+        },
+        {
+          "name": "9. Mountain Biking for a Year 🚵",
+          "role": "",
+          "description": "9. Mountain Biking for a Year 🚵"
+        },
+        {
+          "name": "10. Pickle Ball with Friends 🥒",
+          "role": "",
+          "description": "10. Pickle Ball with Friends 🥒"
+        },
+        {
+          "name": "\\-",
+          "role": "",
+          "description": "\\-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "None 😭",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\-",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science 🖥️⌨️🖱️🐭"
+    },
+    "ESSAY_SCORE": null
+  }
+}

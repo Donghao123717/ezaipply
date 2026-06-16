@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 900,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 15
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "This is where it gets interesting:",
+          "role": "",
+          "description": "This is where it gets interesting:"
+        },
+        {
+          "name": "So beginning of Sophomore year was the year I started working at my local Panera",
+          "role": "",
+          "description": "So beginning of Sophomore year was the year I started working at my local Panera. I live in a household of 13 currently and lets just say our finances are not the best. I hated seeing my dad strugglin"
+        },
+        {
+          "name": "Anyways, all of my classes were pretty much self-studied throughout Sophomore an",
+          "role": "",
+          "description": "Anyways, all of my classes were pretty much self-studied throughout Sophomore and Junior year. I am very proud of my AP scores despite the fact that I rarely showed up for the classes. On my free time"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": ". College Prep Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": ". AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": ". National College Match Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": ". National College Match Recipient",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": ". National Hispanic Recognition Recipient",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": ". Principle’s Honor Roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": ". Honor Roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mathematical sciences with a pre-med track"
+    },
+    "ESSAY_SCORE": null
+  }
+}

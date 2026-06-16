@@ -1,0 +1,83 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.83,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founder of Imbernet Entertainment: Direct a community-based game studio producin",
+          "role": "",
+          "description": "Founder of Imbernet Entertainment: Direct a community-based game studio producing historical fiction. Supervise 70+ creatives through collaborative development across 6 departments."
+        },
+        {
+          "name": "Local Museum Docent: Design props, sets, and costumes from scratch for co-curate",
+          "role": "",
+          "description": "Local Museum Docent: Design props, sets, and costumes from scratch for co-curate exhibitions, true-to-life history reenactments, museum tours, & archive city history."
+        },
+        {
+          "name": "Artist and Curator (Self-Employed): Create artbooks, posters, sculptures, & anim",
+          "role": "",
+          "description": "Artist and Curator (Self-Employed): Create artbooks, posters, sculptures, & animations based on the life of President Warren Harding in collaboration with historians and family members."
+        },
+        {
+          "name": "Freelance Illustrator: Create concept art & product designs for businesses and p",
+          "role": "",
+          "description": "Freelance Illustrator: Create concept art & product designs for businesses and personalities, including film studios, museums, reenactment groups, and authors."
+        },
+        {
+          "name": "Analog Horror Series Development: Produce full episodes and concept art for \"Exe",
+          "role": "",
+          "description": "Analog Horror Series Development: Produce full episodes and concept art for \"Executive Resurrection\", an original sci-fi YouTube animated series focused on U.S. presidential history."
+        },
+        {
+          "name": "Antique Collector & Blogger: Archive antique love letters & photographs with soc",
+          "role": "",
+          "description": "Antique Collector & Blogger: Archive antique love letters & photographs with social commentary and reconnect heirlooms with families. (90+ Items)"
+        },
+        {
+          "name": "Student Volunteer Archivist: Document transcription, book cataloging, & artifact",
+          "role": "",
+          "description": "Student Volunteer Archivist: Document transcription, book cataloging, & artifact restoration with a specialization in Filipino-American, LGBTQ+,  & industrial/labor history."
+        },
+        {
+          "name": "Concept Art Intern: Research/create illustrations/3d models/props for [indie stu",
+          "role": "",
+          "description": "Concept Art Intern: Research/create illustrations/3d models/props for [indie studio's] franchise."
+        },
+        {
+          "name": "Citizen Archivist (National Archives): Transcribe records and caption images wit",
+          "role": "",
+          "description": "Citizen Archivist (National Archives): Transcribe records and caption images with a specialization in 1950s UFO reports & 17th-18th century handwritten letters. (500+ Items)"
+        },
+        {
+          "name": "Producer (Unreleased Titanic-themed Project): Research & design a web-based inve",
+          "role": "",
+          "description": "Producer (Unreleased Titanic-themed Project): Research & design a web-based investigative exhibition about the Titanic tragedy, chairman Bruce Ismay, and Randolph Hearst/yellow journalism."
+        },
+        {
+          "name": "Awards/Honors: HiiiBrand International Illustration Shortlist, Scholastic Nation",
+          "role": "",
+          "description": "Awards/Honors: HiiiBrand International Illustration Shortlist, Scholastic National Gold Medal (Expanded Projects), California Arts Scholar (CSSSA), TeenInk Editor's Choice"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Founder of Imbernet Entertainment: Direct a community-based game studio producing historical fiction. Supervise 70+ creatives through collaborative development across 6 departments.; Student Volunteer Archivist: Document transcription, book cataloging, & artifact restoration with a specialization in Filipino-American, LGBTQ+,  & industrial/labor history."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "interactive art & history/politics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

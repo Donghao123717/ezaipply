@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Science Olympiad (9-11) - Vice President*",
+          "role": "",
+          "description": "1. *Science Olympiad (9-11) - Vice President*"
+        },
+        {
+          "name": "2. *Band (9-12) - 1st Chair*",
+          "role": "",
+          "description": "2. *Band (9-12) - 1st Chair*"
+        },
+        {
+          "name": "3. *Volunteering (9-12) - Around 60 hours*",
+          "role": "",
+          "description": "3. *Volunteering (9-12) - Around 60 hours*"
+        },
+        {
+          "name": "4. *Office Assistant at Doctor's Office (9-12)*",
+          "role": "",
+          "description": "4. *Office Assistant at Doctor's Office (9-12)*"
+        },
+        {
+          "name": "5. *St. Baldrick's (10-11) - Around 20 hours volunteering*",
+          "role": "",
+          "description": "5. *St. Baldrick's (10-11) - Around 20 hours volunteering*"
+        },
+        {
+          "name": "6. *Band Camp at a college (9) - Open to 9-12 graders and I was placed in one of",
+          "role": "",
+          "description": "6. *Band Camp at a college (9) - Open to 9-12 graders and I was placed in one of the top bands*"
+        },
+        {
+          "name": "7. *Book Club (11)*",
+          "role": "",
+          "description": "7. *Book Club (11)*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *Junior Marshal (11)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *Beta Club (10-12)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Honor Roll (9-12)*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biomedical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1490,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Violin* - local youth orchestra for 7 years (concertmaster of the top group ",
+          "role": "",
+          "description": "1. *Violin* - local youth orchestra for 7 years (concertmaster of the top group for 2), volunteering + student representative committee (selective) with the organization for 2 years, top 3 chairs in a"
+        },
+        {
+          "name": "2. Science Olympiad - regular member for 2 years + senior member/supplementary e",
+          "role": "",
+          "description": "2. Science Olympiad - regular member for 2 years + senior member/supplementary event captain for one, some wins and all top 3s at regionals, some top 3 awards at state (my school never goes to nationa"
+        },
+        {
+          "name": "3. Science Bowl - member for one year and  president the next, practically found",
+          "role": "",
+          "description": "3. Science Bowl - member for one year and  president the next, practically founded the club (found a new sponsor, organized new meeting times, grew membership from zero)"
+        },
+        {
+          "name": "4. Environmental Club - only regular membership but we did research and organize",
+          "role": "",
+          "description": "4. Environmental Club - only regular membership but we did research and organized a campus arboretum which i felt was worth including, especially with my environmental focus"
+        },
+        {
+          "name": "5. Like 60+ community service hours",
+          "role": "",
+          "description": "5. Like 60+ community service hours"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. RPI Medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Carter G Woodson Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National African American Recognition Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. School Honor Roll + Awards for Best in AP Calculus an Orchestra",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. Like 60+ community service hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "pretty much applied everywhere for music and chem e/sustainability, some for pre"
+    },
+    "ESSAY_SCORE": null
+  }
+}

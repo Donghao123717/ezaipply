@@ -1,0 +1,103 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Tutoring Website — Founder (10, 11, 12)",
+          "role": "",
+          "description": "Tutoring Website — Founder (10, 11, 12)"
+        },
+        {
+          "name": "Self-taught coding and managed tutoring site for K-12/test prep; guided 300+ stu",
+          "role": "",
+          "description": "Self-taught coding and managed tutoring site for K-12/test prep; guided 300+ students to top SAT/SHSAT/Regents scores."
+        },
+        {
+          "name": "Microbiology Lab Research — Student Researcher (10–12)",
+          "role": "",
+          "description": "Microbiology Lab Research — Student Researcher (10–12)"
+        },
+        {
+          "name": "Performed wet lab analysis on bacterial growth; analyzed data and presented find",
+          "role": "",
+          "description": "Performed wet lab analysis on bacterial growth; analyzed data and presented findings at Bronx STEM Exposition at Yankee Stadium."
+        },
+        {
+          "name": "T20 Internship — Researcher (12)",
+          "role": "",
+          "description": "T20 Internship — Researcher (12)"
+        },
+        {
+          "name": "Assisted with DNA purification and co-crystallization trials; tracked results an",
+          "role": "",
+          "description": "Assisted with DNA purification and co-crystallization trials; tracked results and contributed data to ongoing NYU nanotechnology research."
+        },
+        {
+          "name": "T20 Research Program — Program Participant/Researcher (12)",
+          "role": "",
+          "description": "T20 Research Program — Program Participant/Researcher (12)"
+        },
+        {
+          "name": "One of 30 students selected to participate in neuroscience mentorship program: e",
+          "role": "",
+          "description": "One of 30 students selected to participate in neuroscience mentorship program: explored brain research and collaborated on learning projects."
+        },
+        {
+          "name": "Hospital Volunteering — Volunteer (11)",
+          "role": "",
+          "description": "Hospital Volunteering — Volunteer (11)"
+        },
+        {
+          "name": "Assisted with invoices, accounting, and administrative tasks to support hospital",
+          "role": "",
+          "description": "Assisted with invoices, accounting, and administrative tasks to support hospital operations and staff efficiency."
+        },
+        {
+          "name": "Pharmacy Volunteering — Volunteer (11)",
+          "role": "",
+          "description": "Pharmacy Volunteering — Volunteer (11)"
+        },
+        {
+          "name": "Helped regularly at cousin’s pharmacy doing unpaid retail work: cashier, stockin",
+          "role": "",
+          "description": "Helped regularly at cousin’s pharmacy doing unpaid retail work: cashier, stocking inventory, and customer service."
+        },
+        {
+          "name": "Doctor Shadowing — Student Observer (11–12)",
+          "role": "",
+          "description": "Doctor Shadowing — Student Observer (11–12)"
+        },
+        {
+          "name": "Observed medical procedures and patient consultations; gained insight into diagn",
+          "role": "",
+          "description": "Observed medical procedures and patient consultations; gained insight into diagnosis, treatment, and daily clinical workflow."
+        },
+        {
+          "name": "Restaurant Help — Business Assistant (11)",
+          "role": "",
+          "description": "Restaurant Help — Business Assistant (11)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 11,
+      "first_gen": null,
+      "service_summary": "Hospital Volunteering — Volunteer (11); Pharmacy Volunteering — Volunteer (11); Helped regularly at cousin’s pharmacy doing unpaid retail work: cashier, stocking inventory, and customer service."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biomedical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": 85.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. 8% acceptance rate engineering camp at Cornell for girls (it was awesome i wi",
+          "role": "",
+          "description": "1. 8% acceptance rate engineering camp at Cornell for girls (it was awesome i will elaborate on it)"
+        },
+        {
+          "name": "2. Hosted hackathon with 400+ worldwide participants. Had a speaker from Stanfor",
+          "role": "",
+          "description": "2. Hosted hackathon with 400+ worldwide participants. Had a speaker from Stanford because of course we did (worked on a team with all dudes lmao I did not host it all by myself)"
+        },
+        {
+          "name": "3. School MUN co-president for 2 years, event coordinator for 1",
+          "role": "",
+          "description": "3. School MUN co-president for 2 years, event coordinator for 1"
+        },
+        {
+          "name": "4. Student council 3 years (i made flyers and murals and stuff)",
+          "role": "",
+          "description": "4. Student council 3 years (i made flyers and murals and stuff)"
+        },
+        {
+          "name": "5. Zoom tutor for kids in poorer country (fair amount of time dedication)",
+          "role": "",
+          "description": "5. Zoom tutor for kids in poorer country (fair amount of time dedication)"
+        },
+        {
+          "name": "6. President and founder of school art club",
+          "role": "",
+          "description": "6. President and founder of school art club"
+        },
+        {
+          "name": "7. Art studio TA",
+          "role": "",
+          "description": "7. Art studio TA"
+        },
+        {
+          "name": "8. Summer at local hospital (uh had to interview to get in was cool)",
+          "role": "",
+          "description": "8. Summer at local hospital (uh had to interview to get in was cool)"
+        },
+        {
+          "name": "9. Art social media of cumulative 15kish followers, have hit 100k+ likes on post",
+          "role": "",
+          "description": "9. Art social media of cumulative 15kish followers, have hit 100k+ likes on posts before. I use my art platforms to do art commissions. Raised a few hundred, donated the profits before (these are the "
+        },
+        {
+          "name": "10. Other art (do you think i need to list more art activities)",
+          "role": "",
+          "description": "10. Other art (do you think i need to list more art activities)"
+        },
+        {
+          "name": "Wow the alternative title to this post should be “kid gets into STEM schools wit",
+          "role": "",
+          "description": "Wow the alternative title to this post should be “kid gets into STEM schools with more art ecs than stem”"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Scholastic Gold Key multiple times",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Other less notable but still big(ish) art awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP scholar with distinction 💀",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "PVSA gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Debate awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Me try to have awards impossible challenge",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. Zoom tutor for kids in poorer country (fair amount of time dedication)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "engineering or cs or art+cs, graphic design, situational by school"
+    },
+    "ESSAY_SCORE": null
+  }
+}

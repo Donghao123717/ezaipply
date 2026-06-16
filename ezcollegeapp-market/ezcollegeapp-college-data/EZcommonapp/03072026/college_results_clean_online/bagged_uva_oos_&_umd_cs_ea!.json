@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1520,
+      "act_composite": 13,
+      "class_rank_percentile": 92.5,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "CyberPatriot Linux Captain - Made platinum semifinals round this year. Received ",
+          "role": "",
+          "description": "CyberPatriot Linux Captain - Made platinum semifinals round this year. Received recognition from Board of Education. Tutored 3 other teams in Linux system hardening, which all reached the platinum div"
+        },
+        {
+          "name": "r/suggestapc Moderator and Head Advisor - Guided thousands of global users in ma",
+          "role": "",
+          "description": "r/suggestapc Moderator and Head Advisor - Guided thousands of global users in making purchasing decisions. Moderated a community of 49,000+ members. Chief Editor of the Prebuilt Spreadsheet."
+        },
+        {
+          "name": "Cashier at family restaurant - I work 10-15 hours weekly during the school year ",
+          "role": "",
+          "description": "Cashier at family restaurant - I work 10-15 hours weekly during the school year on weekends and 25-30 hours weekly during the summer."
+        },
+        {
+          "name": "Owner of online Discord community server with 90,000+ members",
+          "role": "",
+          "description": "Owner of online Discord community server with 90,000+ members"
+        },
+        {
+          "name": "Quiz Bowl Member",
+          "role": "",
+          "description": "Quiz Bowl Member"
+        },
+        {
+          "name": "Symphonic Band 2nd Chair Bb Clarinet - The band received 3 Superior ratings on a",
+          "role": "",
+          "description": "Symphonic Band 2nd Chair Bb Clarinet - The band received 3 Superior ratings on all 3 prepared pieces and a Superior rating on our sight reading piece at our local band festival."
+        },
+        {
+          "name": "National Technical Honor Society Member",
+          "role": "",
+          "description": "National Technical Honor Society Member"
+        },
+        {
+          "name": "BigFuture Ambassador",
+          "role": "",
+          "description": "BigFuture Ambassador"
+        },
+        {
+          "name": "SGA Member",
+          "role": "",
+          "description": "SGA Member"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "CompTIA Security+ Certified (Entry Level Professional Cybersecurity Certificatio",
+          "role": "",
+          "description": "CompTIA Security+ Certified (Entry Level Professional Cybersecurity Certification)"
+        },
+        {
+          "name": "Qualified for CyberPatriot Open Platinum Division Semifinals Round (top 7.5% of ",
+          "role": "",
+          "description": "Qualified for CyberPatriot Open Platinum Division Semifinals Round (top 7.5% of teams out of ~2,000 teams nationwide) (Placed ~90/162 teams this year during Semifinals)"
+        },
+        {
+          "name": "CyberPatriot Top 10 Open Gold Division Semifinals Round (Junior Year)",
+          "role": "",
+          "description": "CyberPatriot Top 10 Open Gold Division Semifinals Round (Junior Year)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CompTIA Security+ Certified (Entry Level Professional Cybersecurity Certification)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Qualified for CyberPatriot Open Platinum Division Semifinals Round (top 7.5% of teams out of ~2,000 ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CyberPatriot Top 10 Open Gold Division Semifinals Round (Junior Year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3rd Place at Regional College Level Cybersecurity Competition (Won $500 in a team of 3)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Commended Student",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Outstanding Student in Cybersecurity",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "U.S. Census Bureau Chief 8.5/10 - My CyberPatriot technical mentor, we have a good relationship and ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "r/suggestapc Moderator and Head Advisor - Guided thousands of global users in making purchasing decisions. Moderated a community of 49,000+ members. Chief Editor of the Prebuilt Spreadsheet.; Owner of online Discord community server with 90,000+ members"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

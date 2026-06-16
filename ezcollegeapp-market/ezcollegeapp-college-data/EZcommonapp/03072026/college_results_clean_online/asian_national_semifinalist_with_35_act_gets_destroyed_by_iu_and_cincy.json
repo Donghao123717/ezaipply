@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.7,
+      "sat_total": 1490,
+      "act_composite": 14,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founded a free AP/SAT platform, more than 100 lessons and unit guides over 10 cl",
+          "role": "",
+          "description": "Founded a free AP/SAT platform, more than 100 lessons and unit guides over 10 classes available on website with 700+ unique visitors"
+        },
+        {
+          "name": "DECA: researched aid gaps, launched a program with live FAFSA seminars with 150 ",
+          "role": "",
+          "description": "DECA: researched aid gaps, launched a program with live FAFSA seminars with 150 in person participants, 2nd at State DECA"
+        },
+        {
+          "name": "Varsity Tennis (2yrs): 3rd in conference",
+          "role": "",
+          "description": "Varsity Tennis (2yrs): 3rd in conference"
+        },
+        {
+          "name": "National top 50 for economic Olympiad",
+          "role": "",
+          "description": "National top 50 for economic Olympiad"
+        },
+        {
+          "name": "Lifeguarding",
+          "role": "",
+          "description": "Lifeguarding"
+        },
+        {
+          "name": "4 regional golds at science Olympiad",
+          "role": "",
+          "description": "4 regional golds at science Olympiad"
+        },
+        {
+          "name": "2 Top 10 finishes at State HOSA events",
+          "role": "",
+          "description": "2 Top 10 finishes at State HOSA events"
+        },
+        {
+          "name": "Tutored 6 students over SAT and AP classes",
+          "role": "",
+          "description": "Tutored 6 students over SAT and AP classes"
+        },
+        {
+          "name": "Two top 400 finishes in a mobile game with 1.5million players and 3 years beta t",
+          "role": "",
+          "description": "Two top 400 finishes in a mobile game with 1.5million players and 3 years beta testing"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National merit semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Summa cum laude",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP scholar with distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

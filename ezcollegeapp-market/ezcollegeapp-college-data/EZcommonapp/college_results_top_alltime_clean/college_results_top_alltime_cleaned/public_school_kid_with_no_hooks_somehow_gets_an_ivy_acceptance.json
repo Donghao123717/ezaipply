@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Boy Scouts (Senior Patrol Leader for my troop for 1 year, Assistant Senior Pa",
+          "role": "",
+          "description": "1. Boy Scouts (Senior Patrol Leader for my troop for 1 year, Assistant Senior Patrol Leader for 2 years)"
+        },
+        {
+          "name": "2. Track (4x Varsity, Boys Captain during Senior Year)",
+          "role": "",
+          "description": "2. Track (4x Varsity, Boys Captain during Senior Year)"
+        },
+        {
+          "name": "3. Cross Country (3x Varsity, Boys Captain during Senior Year)",
+          "role": "",
+          "description": "3. Cross Country (3x Varsity, Boys Captain during Senior Year)"
+        },
+        {
+          "name": "4. FBLA",
+          "role": "",
+          "description": "4. FBLA"
+        },
+        {
+          "name": "5. NHS",
+          "role": "",
+          "description": "5. NHS"
+        },
+        {
+          "name": "6. Lifeguarding",
+          "role": "",
+          "description": "6. Lifeguarding"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Eagle Scout",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Student of the Month",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Lockheed Martin CodeQuest winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. NHS",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "math (/computer science)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

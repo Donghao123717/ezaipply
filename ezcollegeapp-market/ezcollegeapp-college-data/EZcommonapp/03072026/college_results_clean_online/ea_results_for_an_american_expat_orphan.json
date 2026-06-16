@@ -1,0 +1,139 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "#1 Mathematical Developer, Wharton Global High School Data Science Competition —",
+          "role": "",
+          "description": "#1 Mathematical Developer, Wharton Global High School Data Science Competition — Built sports analytics models using large datasets (ELO + win probability); Global Semifinalist."
+        },
+        {
+          "name": "#2 Co-Founder & Data Analyst, school climate initiative  — Developed an open-sou",
+          "role": "",
+          "description": "#2 Co-Founder & Data Analyst, school climate initiative  — Developed an open-source dashboard analyzing campus carbon emissions and led sustainability competitions/drives."
+        },
+        {
+          "name": "#3 IB Math AI HL Teaching Assistant — Graded HL papers, created tutorial content",
+          "role": "",
+          "description": "#3 IB Math AI HL Teaching Assistant — Graded HL papers, created tutorial content, and mentored students, helping improve overall performance."
+        },
+        {
+          "name": "#4 Independent Developer (Arduino & Data Projects) — Created 10+ hardware and au",
+          "role": "",
+          "description": "#4 Independent Developer (Arduino & Data Projects) — Created 10+ hardware and automation projects (~3K+ lines of code) involving sensors, data modeling, and experimentation."
+        },
+        {
+          "name": "#5 Quantitative Research & Strategy Intern, geospatial/solar analytics startup —",
+          "role": "",
+          "description": "#5 Quantitative Research & Strategy Intern, geospatial/solar analytics startup — Conducted competitor research, built pricing strategy reports, and presented findings to leadership."
+        },
+        {
+          "name": "#6 Team Leader & Equity Researcher, Wharton Investment Competition — Led a 6-mem",
+          "role": "",
+          "description": "#6 Team Leader & Equity Researcher, Wharton Investment Competition — Led a 6-member team, built valuation models, and achieved ~16% portfolio return (Top ~2% globally)."
+        },
+        {
+          "name": "#7 Volunteer, weekly food distribution initiative — 80+ service hours helping di",
+          "role": "",
+          "description": "#7 Volunteer, weekly food distribution initiative — 80+ service hours helping distribute meals and expand outreach locations."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "Top 25 Global Semifinalist – Wharton High School Data Science Competition (Inter",
+          "role": "",
+          "description": "Top 25 Global Semifinalist – Wharton High School Data Science Competition (International)"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "Math Teacher (8.5/10): Bro's taught me for 3 years and I've always scored high +",
+          "role": "",
+          "description": "Math Teacher (8.5/10): Bro's taught me for 3 years and I've always scored high + had a great personal relationship with him so i'm assuming its quite good."
+        },
+        {
+          "name": "CS Teacher (8.5/10): Again i have a great personal relationship and shes also my",
+          "role": "",
+          "description": "CS Teacher (8.5/10): Again i have a great personal relationship and shes also my EE supervisor"
+        },
+        {
+          "name": "Essays",
+          "role": "",
+          "description": "Essays"
+        },
+        {
+          "name": "8.99/10. Spent hellaaaa time on this and i think its really good. I think i chos",
+          "role": "",
+          "description": "8.99/10. Spent hellaaaa time on this and i think its really good. I think i chose prompt 5 and talked about my hardship situation but in a very unique perspective/story."
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "role": "",
+          "description": "Decisions (indicate ED/EA/REA/SCEA/RD)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Top 25 Global Semifinalist – Wharton High School Data Science Competition (International)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Math Teacher (8.5/10): Bro's taught me for 3 years and I've always scored high + had a great persona",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CS Teacher (8.5/10): Again i have a great personal relationship and shes also my EE supervisor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "8.99/10. Spent hellaaaa time on this and i think its really good. I think i chose prompt 5 and talke",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "#7 Volunteer, weekly food distribution initiative — 80+ service hours helping distribute meals and expand outreach locations."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied mathematics / mathematics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

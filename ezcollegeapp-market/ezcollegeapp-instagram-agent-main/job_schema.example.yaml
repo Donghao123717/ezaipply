@@ -1,0 +1,50 @@
+# Job schema for: python main.py run-job --job-file job_schema.example.yaml --mode manual|llm
+mode: manual
+
+post:
+  enabled: false
+  media: ./assets/example.jpg
+  # manual mode
+  caption: "I wish I had this tool when I started applying."
+  # llm mode
+  post_format: story
+  extra_context: "Talk about reducing application busywork"
+
+dm:
+  enabled: false
+  extra_context: "Friendly and concise"
+  materials: "Student asked how to shortlist universities"
+  recipients:
+    - username: target_account_1
+      # manual mode
+      text: "Hey! If you want, I can share what helped me organize my college applications."
+      # llm mode (optional override)
+      materials: "Parent asked about counselor alternatives"
+
+comment:
+  enabled: false
+  post_url: https://www.instagram.com/p/ABC123/
+  # manual mode
+  text: "This is super relatable. Building my school list early helped a lot."
+  # llm mode
+  extra_context: "Keep tone peer-like"
+
+reply:
+  enabled: false
+  username: target_account_1
+  post_url: https://www.instagram.com/p/ABC123/
+  # manual mode: map specific comment IDs to exact replies
+  manual_replies:
+    - comment_id: "123456789"
+      text: "Totally agree. Keeping deadlines in one tracker saved me."
+  # llm mode
+  extra_context: "Focus on practical next steps"
+
+follow:
+  enabled: false
+  # Option A: inline list
+  accounts:
+    - target_account_1
+    - target_account_2
+  # Option B: external file (takes priority over inline accounts if set)
+  # accounts_file: ./accounts_to_follow.yaml

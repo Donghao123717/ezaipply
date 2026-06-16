@@ -1,0 +1,111 @@
+{
+  "post": {
+    "id": "t3_1qijo9o",
+    "title": "Did anyone get in for Data Science yet??",
+    "author": "No-Upstairs-1853",
+    "selftext": "A lot of my friends got in for other majors, or it says \"ready for decision\" but mine still says \"application received.\" My csu gpa is a 4.02",
+    "score": "0",
+    "url": "https://www.reddit.com/r/SJSU/comments/1qijo9o/did_anyone_get_in_for_data_science_yet/",
+    "created": "2026-01-21T01:07:17+00:00",
+    "num_comments": 4,
+    "subreddit": "SJSU"
+  },
+  "comments": [
+    {
+      "id": "t1_o0ruwvf",
+      "author": "AutoModerator",
+      "body": "Join the official /r/SJSU Discord and meet new spartans!\n\nI am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "score": "0",
+      "created": "2026-01-21T01:07:17+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0z1obb",
+      "author": "Ineedsleepfr12342",
+      "body": "No I didn’t either",
+      "score": "1 point",
+      "created": "2026-01-22T02:14:24+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o10ef7k",
+      "author": "Brilliant-Choice-758",
+      "body": "I got into SE, last week",
+      "score": "1 point",
+      "created": "2026-01-22T07:53:52+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o1ql4mg",
+      "author": "Garubiize",
+      "body": "I got DS in December, CSU gpa 4.35, with impaction from Santa Clara County, so they evaluated me with a 4.6 gpa",
+      "score": "1 point",
+      "created": "2026-01-26T01:45:34+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qijo9o",
+        "author": "No-Upstairs-1853",
+        "title": "Did anyone get in for Data Science yet??",
+        "body": "A lot of my friends got in for other majors, or it says \"ready for decision\" but mine still says \"application received.\" My csu gpa is a 4.02",
+        "full_text": "Did anyone get in for Data Science yet??\n\nA lot of my friends got in for other majors, or it says \"ready for decision\" but mine still says \"application received.\" My csu gpa is a 4.02"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o0ruwvf",
+          "author": "AutoModerator",
+          "body": "Join the official /r/SJSU Discord and meet new spartans!\n\nI am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "score": "0",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0z1obb",
+          "author": "Ineedsleepfr12342",
+          "body": "No I didn’t either",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o10ef7k",
+          "author": "Brilliant-Choice-758",
+          "body": "I got into SE, last week",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o1ql4mg",
+          "author": "Garubiize",
+          "body": "I got DS in December, CSU gpa 4.35, with impaction from Santa Clara County, so they evaluated me with a 4.6 gpa",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 4,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

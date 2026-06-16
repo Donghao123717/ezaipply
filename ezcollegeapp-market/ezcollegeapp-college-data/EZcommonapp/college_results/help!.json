@@ -1,0 +1,141 @@
+{
+  "post": {
+    "id": "t3_1prw7gt",
+    "title": "HELP!",
+    "author": "Sweet_Outcome1290",
+    "selftext": "I applied EA to a somewhat competitive college out of state and was deferred. To show additional interest would making an Instagram account dedicated to educating individuals of the college and its specific programs help get me in? I would mention this account in my letter of continued interest! Is this a good idea",
+    "score": "5",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1prw7gt/help/",
+    "created": "2025-12-21T03:10:47+00:00",
+    "num_comments": 4,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nv51x6u",
+      "author": "TrySouthern9542",
+      "body": "I can't tell if this is a shitpost or not and that scares me",
+      "score": "6 points",
+      "created": "2025-12-21T03:19:02+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nv53mx2",
+          "author": "Sweet_Outcome1290",
+          "body": "LMAO",
+          "score": "1 point",
+          "created": "2025-12-21T03:30:07+00:00",
+          "depth": 1,
+          "parent_id": "t1_nv51x6u",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_nv53534",
+      "author": "Dangerous-Advisor-31",
+      "body": "LMFAOOO",
+      "score": "2 points",
+      "created": "2025-12-21T03:26:52+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nv53nm8",
+          "author": "Sweet_Outcome1290",
+          "body": "I'm so funny",
+          "score": "1 point",
+          "created": "2025-12-21T03:30:14+00:00",
+          "depth": 1,
+          "parent_id": "t1_nv53534",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1prw7gt",
+        "author": "Sweet_Outcome1290",
+        "title": "HELP!",
+        "body": "I applied EA to a somewhat competitive college out of state and was deferred. To show additional interest would making an Instagram account dedicated to educating individuals of the college and its specific programs help get me in? I would mention this account in my letter of continued interest! Is this a good idea",
+        "full_text": "HELP!\n\nI applied EA to a somewhat competitive college out of state and was deferred. To show additional interest would making an Instagram account dedicated to educating individuals of the college and its specific programs help get me in? I would mention this account in my letter of continued interest! Is this a good idea"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nv51x6u",
+          "author": "TrySouthern9542",
+          "body": "I can't tell if this is a shitpost or not and that scares me",
+          "score": "6 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_nv53534",
+          "author": "Dangerous-Advisor-31",
+          "body": "LMFAOOO",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nv51x6u",
+        "author": "TrySouthern9542",
+        "body": "I can't tell if this is a shitpost or not and that scares me",
+        "score": "6 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nv53mx2",
+          "author": "Sweet_Outcome1290",
+          "body": "LMAO",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nv53534",
+        "author": "Dangerous-Advisor-31",
+        "body": "LMFAOOO",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nv53nm8",
+          "author": "Sweet_Outcome1290",
+          "body": "I'm so funny",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 2,
+    "total_qa_pairs": 3
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 620,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Founded a sports club chain serving unresourceful athletes; Grown to 18 clubs",
+          "role": "",
+          "description": "1. Founded a sports club chain serving unresourceful athletes; Grown to 18 clubs worldwide, trained 400+ athletes, 30 players selected for Regionals, &amp; 9 for Nationals."
+        },
+        {
+          "name": "2. Volleyball: Won district &amp; division level four times and cluster level tw",
+          "role": "",
+          "description": "2. Volleyball: Won district &amp; division level four times and cluster level two times; Best player in Clusters (2018). Represented our cluster in the Regionals (a group of 3 states)."
+        },
+        {
+          "name": "3. Vice-captain in Regional Science Congress Team (like a science fair): Researc",
+          "role": "",
+          "description": "3. Vice-captain in Regional Science Congress Team (like a science fair): Research on Personal Hygiene Awareness in the Town. Collected and analyzed the hygiene habit &amp; disease data in the local area; Presented in the"
+        },
+        {
+          "name": "4. Digital Marketing Intern at a consulting firm: Executed the most successful m",
+          "role": "",
+          "description": "4. Digital Marketing Intern at a consulting firm: Executed the most successful marketing campaign that brought 100+ clients and led a mock company of other interns to learn the basics of entrepreneurship practically."
+        },
+        {
+          "name": "5. Boy Scout (now Rover) at The Bharat Scouts and Guides: Represented the JNV in",
+          "role": "",
+          "description": "5. Boy Scout (now Rover) at The Bharat Scouts and Guides: Represented the JNV in the Pachmarhi Camp; acquired survival skills; led monthly social awareness campaigns."
+        },
+        {
+          "name": "6. Digital Content Intern at another consulting company: Reviewed research &amp;",
+          "role": "",
+          "description": "6. Digital Content Intern at another consulting company: Reviewed research &amp; surveys regarding access of education to the underprivileged students with the founder; Supervised senior engineers for the content on thei"
+        },
+        {
+          "name": "7. VFX and Video Editing at FXhome Limited: Visual Effects Artist in two short f",
+          "role": "",
+          "description": "7. VFX and Video Editing at FXhome Limited: Visual Effects Artist in two short films guided by the FXhome Team; learned Character Modelling, 3D animation, and VFX in Nuke, Blender, and HitFilm."
+        },
+        {
+          "name": "8. Volleyball Serve Technique Analysis in our sports club chain: Researched the ",
+          "role": "",
+          "description": "8. Volleyball Serve Technique Analysis in our sports club chain: Researched the relation of the ball's aerodynamics with hand's movement; found the three most effective techniques that raised the serve success rate by 40"
+        },
+        {
+          "name": "9. Assisted the architect in My Home's Construction: Learned AutoCAD, taught him",
+          "role": "",
+          "description": "9. Assisted the architect in My Home's Construction: Learned AutoCAD, taught him Blender and designed 3D home models, planned circuits &amp; pipelines, learned architectural concepts &amp; usage of traditional tools."
+        },
+        {
+          "name": "10. Class President at both my high schools: Elected by the class; represented o",
+          "role": "",
+          "description": "10. Class President at both my high schools: Elected by the class; represented our class in school events and teacher-student meetings; organized events and competitions; led the weekly class meetings."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. **Jawahar Navodaya Vidyalaya (JNV) Alumni Award** ([our school chain](https://en.wikipedia.org/wi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. **Regional Science Congress (Rank 3)**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State/Regional",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. **Tritiya Sopan (The Bharat Scouts and Guides)**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State/Regional",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. **Scholar of the Year**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. **Scholar of the Year (Physics)**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "In additional info, I mentioned my middle school awards:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. North South Foundation Math Bee II competition (state level)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " ece, me"
+    },
+    "ESSAY_SCORE": null
+  }
+}

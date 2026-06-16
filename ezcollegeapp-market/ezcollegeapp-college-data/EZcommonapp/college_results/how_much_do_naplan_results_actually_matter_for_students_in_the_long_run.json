@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1qgxsfz",
+    "title": "How much do NAPLAN results actually matter for students in the long run?",
+    "author": "SadPreference9970",
+    "selftext": "Naplan",
+    "score": "2",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1qgxsfz/how_much_do_naplan_results_actually_matter_for/",
+    "created": "2026-01-19T07:32:35+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o0fvg4d",
+      "author": "questioningmylife132",
+      "body": "for any university/college worldwide - none, bc it’s a y9 qualification",
+      "score": "1 point",
+      "created": "2026-01-19T07:41:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0gy1yr",
+      "author": "Rude-Astronomer115",
+      "body": "Actually, NAPLAN results don’t matter much in the long run. They’re mainly used as a snapshot of where a student is at in literacy and numeracy at that moment. They don’t affect university entry or career opportunities. What matters more over time is consistent learning, school grades, and developing strong study habits. NAPLAN is useful for feedback, but it doesn’t define a student’s future.",
+      "score": "1 point",
+      "created": "2026-01-19T13:13:00+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qgxsfz",
+        "author": "SadPreference9970",
+        "title": "How much do NAPLAN results actually matter for students in the long run?",
+        "body": "Naplan",
+        "full_text": "How much do NAPLAN results actually matter for students in the long run?\n\nNaplan"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o0fvg4d",
+          "author": "questioningmylife132",
+          "body": "for any university/college worldwide - none, bc it’s a y9 qualification",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0gy1yr",
+          "author": "Rude-Astronomer115",
+          "body": "Actually, NAPLAN results don’t matter much in the long run. They’re mainly used as a snapshot of where a student is at in literacy and numeracy at that moment. They don’t affect university entry or career opportunities. What matters more over time is consistent learning, school grades, and developing strong study habits. NAPLAN is useful for feedback, but it doesn’t define a student’s future.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

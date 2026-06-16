@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1310,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founder of an agriculture solution - 4 yrs",
+          "role": "",
+          "description": "Founder of an agriculture solution - 4 yrs"
+        },
+        {
+          "name": "TEDx Speaker - 1 yr",
+          "role": "",
+          "description": "TEDx Speaker - 1 yr"
+        },
+        {
+          "name": "Prestigious internship with my local forest - 1 yr",
+          "role": "",
+          "description": "Prestigious internship with my local forest - 1 yr"
+        },
+        {
+          "name": "Chapter leader and member of a global youth organization- 3 yrs",
+          "role": "",
+          "description": "Chapter leader and member of a global youth organization- 3 yrs"
+        },
+        {
+          "name": "Leadership in a youth-led non-profit focusing on food tech -1 yr",
+          "role": "",
+          "description": "Leadership in a youth-led non-profit focusing on food tech -1 yr"
+        },
+        {
+          "name": "Global teen accelerator program for emerging tech - 1 yr",
+          "role": "",
+          "description": "Global teen accelerator program for emerging tech - 1 yr"
+        },
+        {
+          "name": "Summer abroad program for sustainability (related to the award) - 1 yr",
+          "role": "",
+          "description": "Summer abroad program for sustainability (related to the award) - 1 yr"
+        },
+        {
+          "name": "Secretary of a school club - 2 yrs",
+          "role": "",
+          "description": "Secretary of a school club - 2 yrs"
+        },
+        {
+          "name": "Author in an anthology written by women - 1 yr",
+          "role": "",
+          "description": "Author in an anthology written by women - 1 yr"
+        },
+        {
+          "name": "Choir - 3 yrs",
+          "role": "",
+          "description": "Choir - 3 yrs"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Blue Ocean Student Entrepreneurship Competition Finalist (International/State and Regional)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "John Locke Institute Global Essay Prize Commendation (International)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National scholarship for a sustainability program, about 70% of tuition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Ambassador for a youth leadership program (International/National)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "College Board School Recognition Award (National)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "environmental studies/sciences (main), economics, entrepreneurship"
+    },
+    "ESSAY_SCORE": null
+  }
+}

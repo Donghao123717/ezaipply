@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 95.58,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Founded a mentorship club for young black girls*",
+          "role": "",
+          "description": "1. *Founded a mentorship club for young black girls*"
+        },
+        {
+          "name": "2. Social Media Manager of a Non Profit in New Jersey",
+          "role": "",
+          "description": "2. Social Media Manager of a Non Profit in New Jersey"
+        },
+        {
+          "name": "3. President of Spanish Honor Society",
+          "role": "",
+          "description": "3. President of Spanish Honor Society"
+        },
+        {
+          "name": "4. Counseling Advisory Board",
+          "role": "",
+          "description": "4. Counseling Advisory Board"
+        },
+        {
+          "name": "5. Treasurer of HOSA",
+          "role": "",
+          "description": "5. Treasurer of HOSA"
+        },
+        {
+          "name": "6. NHS",
+          "role": "",
+          "description": "6. NHS"
+        },
+        {
+          "name": "7. BETA",
+          "role": "",
+          "description": "7. BETA"
+        },
+        {
+          "name": "8. Teacher Assistant",
+          "role": "",
+          "description": "8. Teacher Assistant"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *Best overall student award for my school*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Community service award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 1,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "public policy/political science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

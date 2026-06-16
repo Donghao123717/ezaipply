@@ -1,0 +1,48 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.5,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "MUN: president",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "some local awards Paid Internship with small tech company misc community service NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Awards: these were so mid omg MUN Best Delegate 2x Debate best speaker (from school) student of the month AP scholar wit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Other: AP Gov teacher/debate and model un advisor (10/10) APUSH Teacher (6/10) Counselor (0/10): I had no re",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "misc community service"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Politics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

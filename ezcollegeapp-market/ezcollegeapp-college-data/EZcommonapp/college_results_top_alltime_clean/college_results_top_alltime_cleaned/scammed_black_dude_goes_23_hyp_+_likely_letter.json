@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1480,
+      "act_composite": null,
+      "class_rank_percentile": 97.54,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. NASA Research internship with research published and presented to scientists.",
+          "role": "",
+          "description": "1. NASA Research internship with research published and presented to scientists. Worked with other interns directly under a NASA team."
+        },
+        {
+          "name": "2. Regional/Multiple State leadership in massive nonprofit and doing funded lobb",
+          "role": "",
+          "description": "2. Regional/Multiple State leadership in massive nonprofit and doing funded lobbying in D.C. for a cause related to my major, organized events attended by thousands"
+        },
+        {
+          "name": "3. Statewide leadership in massive nonprofit, also related to my major, did more",
+          "role": "",
+          "description": "3. Statewide leadership in massive nonprofit, also related to my major, did more funded lobbying and organizing massive events"
+        },
+        {
+          "name": "4. Captain of technology club, helped the school by building infrastructure with",
+          "role": "",
+          "description": "4. Captain of technology club, helped the school by building infrastructure with staff for new classrooms and clubs"
+        },
+        {
+          "name": "Also co-founded a massive political account with 500,000+ followers across socia",
+          "role": "",
+          "description": "Also co-founded a massive political account with 500,000+ followers across social media."
+        },
+        {
+          "name": "9. Debate club captain, don’t know why I was voted captain. I kinda got cooked i",
+          "role": "",
+          "description": "9. Debate club captain, don’t know why I was voted captain. I kinda got cooked in our last match lol. Just had a lot of fun here."
+        },
+        {
+          "name": "10. Robotics club, competed in competitions but didn’t win anything. Was still r",
+          "role": "",
+          "description": "10. Robotics club, competed in competitions but didn’t win anything. Was still really fun."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Coca Cola Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National African American recognition scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Award for contributing to a major nonprofit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Awards for physics, technology, and engineering from school",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Award for major contributions to my school’s success and future",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " mechanical, environmental science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

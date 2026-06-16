@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc. I just copied most of it from right off my Common App"
+        },
+        {
+          "name": "Varsity Volleyball (Captain): Captained tournament victory. Created practice pla",
+          "role": "",
+          "description": "Varsity Volleyball (Captain): Captained tournament victory. Created practice plans and offseason training regiments. Coached new players at open gyms. All-Conference Selection (11) (4 yrs, 12 wks, 15hrs)"
+        },
+        {
+          "name": "Boy Scout (Patrol Leader, Quartermaster, Chaplain's Aid): Eagle Scout; 32 Merit ",
+          "role": "",
+          "description": "Boy Scout (Patrol Leader, Quartermaster, Chaplain's Aid): Eagle Scout; 32 Merit Badges; 70 nights camping; led patrol at camps; organized troop equipment as QM; led opening ceremonies as CA. (4yrs, 5hrs, 52 wks)"
+        },
+        {
+          "name": "Faith/Service Club (President): Led club of 80 in service; meets weekly; Raised ",
+          "role": "",
+          "description": "Faith/Service Club (President): Led club of 80 in service; meets weekly; Raised $3000 for hurricane relief, volunteers with elderly, cleaned up local school grounds, attend Mass. (4yrs, 35 wks, 3hrs)"
+        },
+        {
+          "name": "Local Parish Volunteer (Master Altar Server; Basketball Coach; Youth Group Leade",
+          "role": "",
+          "description": "Local Parish Volunteer (Master Altar Server; Basketball Coach; Youth Group Leader): Trained new servers, assigned roles, prepped and assisted in the Mass. Lead drills and helped develop skills for K-6 BBall games and practices. (4yrs, 52 wks, 4hrs)"
+        },
+        {
+          "name": "Work (Cider Bottler/ Player Service Associate/ Front Desk): Managed the cart sta",
+          "role": "",
+          "description": "Work (Cider Bottler/ Player Service Associate/ Front Desk): Managed the cart staging area, tending to the needs of golfers. Worked front desk processing customer payment; maintained facility. Bottled Cider. (4yrs, 20 wks, 12 hrs)"
+        },
+        {
+          "name": "Student Government (Treasurer): Elected to lead senior class. Chaired committees",
+          "role": "",
+          "description": "Student Government (Treasurer): Elected to lead senior class. Chaired committees for events, involving budgeting, organizing and executing for tournaments, dances and assemblies. (3yrs, 40 wks, 8hrs) Pro-Life Club (VP): Organized and led meetings to educate and raise awareness to pro-life cause; attend marches; assemble birth kits; assist pregnant mothers. (4yrs, 30 wks, 4hrs)"
+        },
+        {
+          "name": "Vending Machine Company (Co- Founder/ Owner-Operator): Built and manage a 4-mach",
+          "role": "",
+          "description": "Vending Machine Company (Co- Founder/ Owner-Operator): Built and manage a 4-machine vending enterprise; apply financial analysis to optimize product mix and profit margins. Grew social media presence. (3 yrs, 52 wks, 3 hrs)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Latin",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP CSP",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Ecumenism and Christian Vocation (last two are one semester each) Standardized Testing List the highest scores earned an",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 15,
+      "first_gen": true,
+      "service_summary": "Faith/Service Club (President): Led club of 80 in service; meets weekly; Raised $3000 for hurricane relief, volunteers with elderly, cleaned up local school grounds, attend Mass. (4yrs, 35 wks, 3hrs) Local Parish Volunteer (Master Altar Server; Basketball Coach; Youth Group Leader): Trained new servers, assigned roles, prepped and assisted in the Mass. Lead drills and helped develop skills for K-6"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

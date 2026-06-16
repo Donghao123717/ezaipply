@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.99,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. president of school's black student union -- also celebrated other cultures, ",
+          "role": "",
+          "description": "1. president of school's black student union -- also celebrated other cultures, raised money for different causes"
+        },
+        {
+          "name": "2. principal investigator of a study on healthcare stigma within hispanic commun",
+          "role": "",
+          "description": "2. principal investigator of a study on healthcare stigma within hispanic communities -- published paper and presented to different community leaders and hispanic researchers"
+        },
+        {
+          "name": "3. on the advisory board of a healthcare organization to promote them to advocat",
+          "role": "",
+          "description": "3. on the advisory board of a healthcare organization to promote them to advocate for change through legislation, understand masshealth coverage, and attempt to challenge language-access barriers"
+        },
+        {
+          "name": "4. tass-cbs",
+          "role": "",
+          "description": "4. tass-cbs"
+        },
+        {
+          "name": "5. editor-in-chief and founder of a marginalized-voices focused literary magazin",
+          "role": "",
+          "description": "5. editor-in-chief and founder of a marginalized-voices focused literary magazine -- amassing over 25,000+ readers"
+        },
+        {
+          "name": "6. intern for my state senagtor, focusing on incorporating lgbtq+ education into",
+          "role": "",
+          "description": "6. intern for my state senagtor, focusing on incorporating lgbtq+ education into public school curriculums and a debt-free education bill"
+        },
+        {
+          "name": "7. youth advisory board for my city",
+          "role": "",
+          "description": "7. youth advisory board for my city"
+        },
+        {
+          "name": "8. editor-in-chief of my school's newspaper",
+          "role": "",
+          "description": "8. editor-in-chief of my school's newspaper"
+        },
+        {
+          "name": "9. basketball (4 years)",
+          "role": "",
+          "description": "9. basketball (4 years)"
+        },
+        {
+          "name": "10. weekend co-shift leader at a small cafe in my town",
+          "role": "",
+          "description": "10. weekend co-shift leader at a small cafe in my town"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. multiple department awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. multiple book awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. collegeboard awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. nyt summer reading contest awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. publications for poetrys, essays, prose pieces",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. principal investigator of a study on healthcare stigma within hispanic communities -- published paper and presented to different community leaders and hispanic researchers"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "sociology, public health-like majors, biology, african american studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

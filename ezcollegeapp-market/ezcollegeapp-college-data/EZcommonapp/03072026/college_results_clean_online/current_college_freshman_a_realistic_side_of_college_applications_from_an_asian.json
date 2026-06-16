@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Varsity Cross Country, Indoor Track, Outdoor Track: Team Captain junior and s",
+          "role": "",
+          "description": "1. Varsity Cross Country, Indoor Track, Outdoor Track: Team Captain junior and senior year, 2x state qualifier in cross country, school record holder in the 4x800 and 3rd all-time 800m indoors and out"
+        },
+        {
+          "name": "2. Squirrel Robotics (FRC): Software captain for 2 years and wrote and developed",
+          "role": "",
+          "description": "2. Squirrel Robotics (FRC): Software captain for 2 years and wrote and developed the software of our robot"
+        },
+        {
+          "name": "3. Computer Science Club: Mentor in the club, helped plan hackathons and mentor ",
+          "role": "",
+          "description": "3. Computer Science Club: Mentor in the club, helped plan hackathons and mentor kids with their homework"
+        },
+        {
+          "name": "4. Boy Scouts: Achieved Eagle Scout midway through my senior year",
+          "role": "",
+          "description": "4. Boy Scouts: Achieved Eagle Scout midway through my senior year"
+        },
+        {
+          "name": "5. Local nonprofit: Chief of recruitment for a local non-profit to help smaller ",
+          "role": "",
+          "description": "5. Local nonprofit: Chief of recruitment for a local non-profit to help smaller non-profits, expanded membership by over 150% in a little over 6 months"
+        },
+        {
+          "name": "6. Busser at a restaurant: Only important because I detailed my essay about bein",
+          "role": "",
+          "description": "6. Busser at a restaurant: Only important because I detailed my essay about being a busser"
+        },
+        {
+          "name": "7. Freelance Writer for MileSplit (high school running site): Wrote multiple art",
+          "role": "",
+          "description": "7. Freelance Writer for MileSplit (high school running site): Wrote multiple articles, conducted interviews and attended and recorded meets as part of the social media team."
+        },
+        {
+          "name": "8. Piano: Played piano for 11 years of my life, wasn't that good but I would per",
+          "role": "",
+          "description": "8. Piano: Played piano for 11 years of my life, wasn't that good but I would perform in some competitions and also did recitals for the elderly"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction (2x)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Eagle Scout",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. PSAT National Merit Semi-finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. ACSL (American Computer Science League) national qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\*Didn't do any honor societies in high school\\*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

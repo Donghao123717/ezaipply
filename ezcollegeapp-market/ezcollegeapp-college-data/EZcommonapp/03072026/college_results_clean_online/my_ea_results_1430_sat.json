@@ -1,0 +1,149 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1430,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "3 really strong ones within politics and legislative branch",
+          "role": "",
+          "description": "3 really strong ones within politics and legislative branch"
+        },
+        {
+          "name": "2 really strong ones for service and volunteerism",
+          "role": "",
+          "description": "2 really strong ones for service and volunteerism"
+        },
+        {
+          "name": "450-hour apprenticeship with Board of Ed.",
+          "role": "",
+          "description": "450-hour apprenticeship with Board of Ed."
+        },
+        {
+          "name": "The rest are average for poli sci",
+          "role": "",
+          "description": "The rest are average for poli sci"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "Young Volunteer of the Year, awarded by my county",
+          "role": "",
+          "description": "Young Volunteer of the Year, awarded by my county"
+        },
+        {
+          "name": "Governors Citation",
+          "role": "",
+          "description": "Governors Citation"
+        },
+        {
+          "name": "Congressional Recognition",
+          "role": "",
+          "description": "Congressional Recognition"
+        },
+        {
+          "name": "Only High School Presenter at Nat.l PTA conference",
+          "role": "",
+          "description": "Only High School Presenter at Nat.l PTA conference"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "Euro and World teacher - 10/10 , took euro as the only sophomore in the class an",
+          "role": "",
+          "description": "Euro and World teacher - 10/10 , took euro as the only sophomore in the class and got a 5"
+        },
+        {
+          "name": "Lang - 8/10 , pretty good relationship",
+          "role": "",
+          "description": "Lang - 8/10 , pretty good relationship"
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "role": "",
+          "description": "Decisions (indicate ED/EA/REA/SCEA/RD)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Young Volunteer of the Year, awarded by my county",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Governors Citation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Congressional Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Only High School Presenter at Nat.l PTA conference",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Euro and World teacher - 10/10 , took euro as the only sophomore in the class and got a 5",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Lang - 8/10 , pretty good relationship",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 450,
+      "first_gen": null,
+      "service_summary": "2 really strong ones for service and volunteerism; Young Volunteer of the Year, awarded by my county"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science or public policy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": 33,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. on my city's math team for all four years- competed at various city, state, a",
+          "role": "",
+          "description": "1. on my city's math team for all four years- competed at various city, state, and national competitions. Team placed a few times but no notable individual awards"
+        },
+        {
+          "name": "2. on my school's math team for all four years- won a few individual awards at l",
+          "role": "",
+          "description": "2. on my school's math team for all four years- won a few individual awards at local/regional competitions"
+        },
+        {
+          "name": "3. was mentor/teacher for incoming students for my school's math team- led pract",
+          "role": "",
+          "description": "3. was mentor/teacher for incoming students for my school's math team- led practices, graded solutions, etc."
+        },
+        {
+          "name": "4. was teacher's assistant at an abacus academy during 9, 10, 11th grades. Clock",
+          "role": "",
+          "description": "4. was teacher's assistant at an abacus academy during 9, 10, 11th grades. Clocked 200+ hrs."
+        },
+        {
+          "name": "5. on my school's Red Cross all four years. Clocked 100+ hrs.",
+          "role": "",
+          "description": "5. on my school's Red Cross all four years. Clocked 100+ hrs."
+        },
+        {
+          "name": "6. in my school newspaper's editing department for 10, 11, 12th grades.",
+          "role": "",
+          "description": "6. in my school newspaper's editing department for 10, 11, 12th grades."
+        },
+        {
+          "name": "7. large-ish(?) social media presence- had titles of admin and treasurer during ",
+          "role": "",
+          "description": "7. large-ish(?) social media presence- had titles of admin and treasurer during 10, 11, 12th grades (175k+ followers)"
+        },
+        {
+          "name": "8. tutor for non-profit organization for 11th grade.",
+          "role": "",
+          "description": "8. tutor for non-profit organization for 11th grade."
+        },
+        {
+          "name": "9. *last two aren't too notable. one is abt math and the other abt writing*",
+          "role": "",
+          "description": "9. *last two aren't too notable. one is abt math and the other abt writing*"
+        },
+        {
+          "name": "10. \\--",
+          "role": "",
+          "description": "10. \\--"
+        },
+        {
+          "name": "As yall can see, not many leadership roles besides teaching ones. Not a lot of m",
+          "role": "",
+          "description": "As yall can see, not many leadership roles besides teaching ones. Not a lot of major achievements either- but I was very much honed on math for most of high school. I added a few other things like vol"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Qualified for ARML \\[redacted\\] City team / National / 9, 11",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AIME Qualifier / National / 11",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 3rd Place at \\[redacted\\] City History Day Competition / State/Regional / 11",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 3rd Place Pan-Asian Abacus and Mental Arithmetic Competition (PAMA) / Intl / 11",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *not notable-- abt publishing a few articles abt volunteering for a now obsolete newspaper*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "8. tutor for non-profit organization for 11th grade."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mathematical economics (if the school had it) / math + econ double major / econ"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 98.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "This was my favorite part of my application, and also doing ECs was the only thi",
+          "role": "",
+          "description": "This was my favorite part of my application, and also doing ECs was the only things over the past 4 years that gave me any semblance of dopamine lol. And yeah, I realize revealing all this is basicall"
+        },
+        {
+          "name": "1. Published Lexicographer - sole editor of Native American language dictionary",
+          "role": "",
+          "description": "1. Published Lexicographer - sole editor of Native American language dictionary"
+        },
+        {
+          "name": "2. Fully funded immersion at Native summer language program at \\[REDACTED\\] coll",
+          "role": "",
+          "description": "2. Fully funded immersion at Native summer language program at \\[REDACTED\\] college, moved virtual due to COVID."
+        },
+        {
+          "name": "3. Sole designer of Native American exhibits at my local museum dedicated to loc",
+          "role": "",
+          "description": "3. Sole designer of Native American exhibits at my local museum dedicated to local colonial history! And yes, I dressed up in da colonial drip for my work 😳🥶"
+        },
+        {
+          "name": "4. Taught Japanese to kids going on a foreign exchange program",
+          "role": "",
+          "description": "4. Taught Japanese to kids going on a foreign exchange program"
+        },
+        {
+          "name": "5. Took colleges classes since 8th grade for credit for Jazz Piano at local coll",
+          "role": "",
+          "description": "5. Took colleges classes since 8th grade for credit for Jazz Piano at local college"
+        },
+        {
+          "name": "6. Editor-in-chief of literary magazine for my school, member of school’s litera",
+          "role": "",
+          "description": "6. Editor-in-chief of literary magazine for my school, member of school’s literary club"
+        },
+        {
+          "name": "7. Janitorial work + culinary worker",
+          "role": "",
+          "description": "7. Janitorial work + culinary worker"
+        },
+        {
+          "name": "8. Restorative Justice circle leader",
+          "role": "",
+          "description": "8. Restorative Justice circle leader"
+        },
+        {
+          "name": "9. Member of Spanish club",
+          "role": "",
+          "description": "9. Member of Spanish club"
+        },
+        {
+          "name": "10. Participated in the North American Computational Linguistics Olympiad, won a",
+          "role": "",
+          "description": "10. Participated in the North American Computational Linguistics Olympiad, won absolutely nothing, and had a blast doing it!!"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Spanish National Language Exam — Silver Medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Scholastic Art &amp; Writing Award, Poetry — Honorable Mention",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Top Spanish student of the year (both 10th + 11th grade)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. NYSSMA Area-all state for Clarinet (10th + 11th grade)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Spanish Honors society + National Honors Society",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "linguistics as first choice everywhere that had it. put down anthropology/geogra"
+    },
+    "ESSAY_SCORE": null
+  }
+}

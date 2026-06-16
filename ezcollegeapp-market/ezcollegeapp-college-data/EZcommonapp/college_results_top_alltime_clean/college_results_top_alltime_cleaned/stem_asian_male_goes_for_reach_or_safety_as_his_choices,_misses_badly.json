@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.88,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": 85.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. AI Club President and Founder: I lead the meetings, taught lessons, and facil",
+          "role": "",
+          "description": "1. AI Club President and Founder: I lead the meetings, taught lessons, and facilitated competitions. I also held a fundraiser to donate to AI nonprofits"
+        },
+        {
+          "name": "2. Internship at a CS Non Profit - I had the Chief Technology Officer role, wher",
+          "role": "",
+          "description": "2. Internship at a CS Non Profit - I had the Chief Technology Officer role, where I worked on developing the company's website"
+        },
+        {
+          "name": "3. Internship at a CS Non Profits - I interned for a couple of CS Non Profits wi",
+          "role": "",
+          "description": "3. Internship at a CS Non Profits - I interned for a couple of CS Non Profits with tech intern roles working with HTML, CSS, JavaScript, and learned the Figma and Git workflow"
+        },
+        {
+          "name": "4. Future Problem Solving Competitor - I was part of my school's future problem ",
+          "role": "",
+          "description": "4. Future Problem Solving Competitor - I was part of my school's future problem solving team and got to states consistently and got to internationals once"
+        },
+        {
+          "name": "5. CS Non Profit Chapter - Planned an AI Boot Camp at my public library | Also w",
+          "role": "",
+          "description": "5. CS Non Profit Chapter - Planned an AI Boot Camp at my public library | Also was the recruiter where I recruited a web developer and social media manager to the organization"
+        },
+        {
+          "name": "6. Full Stack Dev Internship - I worked on building a web server for hosting web",
+          "role": "",
+          "description": "6. Full Stack Dev Internship - I worked on building a web server for hosting websites and a command line app"
+        },
+        {
+          "name": "7. Robotics - I was a varsity robotics member",
+          "role": "",
+          "description": "7. Robotics - I was a varsity robotics member"
+        },
+        {
+          "name": "8. MMA - I was a student in MMA and a frequent class volunteer instructor, also ",
+          "role": "",
+          "description": "8. MMA - I was a student in MMA and a frequent class volunteer instructor, also built a website for the class"
+        },
+        {
+          "name": "9. Fundraising - I marketed a fundraising initiative to donate around 400 dollar",
+          "role": "",
+          "description": "9. Fundraising - I marketed a fundraising initiative to donate around 400 dollars for educational expenses for impoverished Indian youth, contacted school, etc"
+        },
+        {
+          "name": "10. Band: I was a Varsity Marching Band Member, was Librarian for the Band",
+          "role": "",
+          "description": "10. Band: I was a Varsity Marching Band Member, was Librarian for the Band"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "I placed top 3 twice in states for the future problem solving competition and competed in internatio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Scholar Commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Robotics District Semifinalists",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Marching Band First and Second Places",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3rd Place AMC 10 Score in High School",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "8. MMA - I was a student in MMA and a frequent class volunteer instructor, also built a website for the class"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 800,
+      "act_composite": 36,
+      "class_rank_percentile": 80.0,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. State Champion and 2-Time State Runner-Up of [Redacted Organization from the #2 extracurricular]",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USA Computing Olympiad - Gold Level",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. President's Volunteer Service Award - Gold Level",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Most Dedicated State Member of [Redacted Organization from the #2 extracurricular] (among the 500",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Best-in-Category in [Research Competition, NOT related to Intel]",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "//old.reddit.com/r/collegeresults/comments/dang03/anyone_get_into_uiuc_csstats_l"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "post": {
+    "id": "t3_1pn7377",
+    "title": "It’s sad that only people who come on this sub",
+    "author": "Murky_Diver7988",
+    "selftext": "are people with 1400+ SAT.  That’s a narrow group of college results.",
+    "score": "15",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pn7377/its_sad_that_only_people_who_come_on_this_sub/",
+    "created": "2025-12-15T13:16:45+00:00",
+    "num_comments": 7,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nu954c3",
+      "author": "no_u_pasma",
+      "body": "it's not sad, it's literally just textbook selection bias. \n\nthose with higher scores are more likely to have put in more effort into studying, and thus care more about their scores. those who care more about their scores also probably care more about college admissions, which is why they would post more.\n\nalso, those with higher scores simply want to show them off more than those with lower scores.",
+      "score": "5 points",
+      "created": "2025-12-16T00:47:33+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nuiggix",
+      "author": "Current-South-8919",
+      "body": "So your problem is smart kids getting into top schools are a majority of this sub",
+      "score": "0 points",
+      "created": "2025-12-17T13:59:53+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nuihtzi",
+          "author": "Murky_Diver7988",
+          "body": "😂 Can you be anymore arrogant with that comment? My point was I’d like to see more students with 3.3 and 1300 sat participate in the sub.",
+          "score": "3 points",
+          "created": "2025-12-17T14:07:49+00:00",
+          "depth": 1,
+          "parent_id": "t1_nuiggix",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_nuiibnx",
+              "author": "Current-South-8919",
+              "body": "Bud I don't think those kids wanna show off their results.",
+              "score": "0 points",
+              "created": "2025-12-17T14:10:39+00:00",
+              "depth": 2,
+              "parent_id": "t1_nuihtzi",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_nuiiqji",
+                  "author": "Murky_Diver7988",
+                  "body": "You’re so classy.",
+                  "score": "3 points",
+                  "created": "2025-12-17T14:13:01+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_nuiibnx",
+                  "is_reply_to_post": false,
+                  "replies": [
+                    {
+                      "id": "t1_nuiixdg",
+                      "author": "Current-South-8919",
+                      "body": "Thank you!",
+                      "score": "1 point",
+                      "created": "2025-12-17T14:14:04+00:00",
+                      "depth": 4,
+                      "parent_id": "t1_nuiiqji",
+                      "is_reply_to_post": false,
+                      "replies": [
+                        {
+                          "id": "t1_nuij676",
+                          "author": "Murky_Diver7988",
+                          "body": "Read your other comments. Confirmed. 😂",
+                          "score": "2 points",
+                          "created": "2025-12-17T14:15:27+00:00",
+                          "depth": 5,
+                          "parent_id": "t1_nuiixdg",
+                          "is_reply_to_post": false,
+                          "replies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pn7377",
+        "author": "Murky_Diver7988",
+        "title": "It’s sad that only people who come on this sub",
+        "body": "are people with 1400+ SAT.  That’s a narrow group of college results.",
+        "full_text": "It’s sad that only people who come on this sub\n\nare people with 1400+ SAT.  That’s a narrow group of college results."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nu954c3",
+          "author": "no_u_pasma",
+          "body": "it's not sad, it's literally just textbook selection bias. \n\nthose with higher scores are more likely to have put in more effort into studying, and thus care more about their scores. those who care more about their scores also probably care more about college admissions, which is why they would post more.\n\nalso, those with higher scores simply want to show them off more than those with lower scores.",
+          "score": "5 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nuiggix",
+          "author": "Current-South-8919",
+          "body": "So your problem is smart kids getting into top schools are a majority of this sub",
+          "score": "0 points",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nuiggix",
+        "author": "Current-South-8919",
+        "body": "So your problem is smart kids getting into top schools are a majority of this sub",
+        "score": "0 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nuihtzi",
+          "author": "Murky_Diver7988",
+          "body": "😂 Can you be anymore arrogant with that comment? My point was I’d like to see more students with 3.3 and 1300 sat participate in the sub.",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nuihtzi",
+        "author": "Murky_Diver7988",
+        "body": "😂 Can you be anymore arrogant with that comment? My point was I’d like to see more students with 3.3 and 1300 sat participate in the sub.",
+        "score": "3 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nuiibnx",
+          "author": "Current-South-8919",
+          "body": "Bud I don't think those kids wanna show off their results.",
+          "score": "0 points",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nuiibnx",
+        "author": "Current-South-8919",
+        "body": "Bud I don't think those kids wanna show off their results.",
+        "score": "0 points",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nuiiqji",
+          "author": "Murky_Diver7988",
+          "body": "You’re so classy.",
+          "score": "3 points",
+          "depth": 3,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nuiiqji",
+        "author": "Murky_Diver7988",
+        "body": "You’re so classy.",
+        "score": "3 points",
+        "depth": 3,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nuiixdg",
+          "author": "Current-South-8919",
+          "body": "Thank you!",
+          "score": "1 point",
+          "depth": 4,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nuiixdg",
+        "author": "Current-South-8919",
+        "body": "Thank you!",
+        "score": "1 point",
+        "depth": 4,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nuij676",
+          "author": "Murky_Diver7988",
+          "body": "Read your other comments. Confirmed. 😂",
+          "score": "2 points",
+          "depth": 5,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 5,
+    "total_qa_pairs": 6
+  }
+}

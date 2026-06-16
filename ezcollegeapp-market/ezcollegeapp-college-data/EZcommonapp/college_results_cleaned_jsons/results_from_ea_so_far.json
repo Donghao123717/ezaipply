@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "President",
+          "role": "",
+          "description": "President"
+        },
+        {
+          "name": "Technology Student Association (TSA) Led a 30+ member chapter, mentored teammate",
+          "role": "",
+          "description": "Technology Student Association (TSA) Led a 30+ member chapter, mentored teammates, coordinated regional/state projects, and managed national submissions. Software / Tech Projects Telegram Betting Simulation Bot — deployed in a large MMA Telegram channel (~150k members); 10,000+ active users. Built balance systems, engagement logic, and anti-abuse features."
+        },
+        {
+          "name": "Had a real security failure (exposed API token → unauthorized ad injection), fix",
+          "role": "",
+          "description": "Had a real security failure (exposed API token → unauthorized ad injection), fixed it immediately, moved secrets to .env, and tightened security. This pushed me toward cybersecurity. UFC Management Game (Python/Kivy) — PPV simulation + fighter database; tested by 50+ users."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1st place Software Development (State TSA) — 9th & 10th 1st place Webmaster (State TSA) — 9th & 10th Top 10 Nationally —",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Community Service"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

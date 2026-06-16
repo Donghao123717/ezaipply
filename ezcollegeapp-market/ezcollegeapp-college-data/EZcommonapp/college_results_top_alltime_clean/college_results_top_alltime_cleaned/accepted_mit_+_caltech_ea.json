@@ -1,0 +1,63 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.87,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Sorry for putting these into the same section, it was just easier.",
+          "role": "",
+          "description": "Sorry for putting these into the same section, it was just easier."
+        },
+        {
+          "name": "1. Science Bowl - captain of A team since 10th grade, maybe 15h/week?, earned 2n",
+          "role": "",
+          "description": "1. Science Bowl - captain of A team since 10th grade, maybe 15h/week?, earned 2nd place during 10th and 11th grade at a really competitive regionals (1st place team went on to top 4 at Nationals both years)"
+        },
+        {
+          "name": "2. USAAAO (Astronomy Olympiad) - scored top 20 nationwide, 10h/week?",
+          "role": "",
+          "description": "2. USAAAO (Astronomy Olympiad) - scored top 20 nationwide, 10h/week?"
+        },
+        {
+          "name": "3. Science Olympiad - no super notable awards (nothing at State ever), a lot of ",
+          "role": "",
+          "description": "3. Science Olympiad - no super notable awards (nothing at State ever), a lot of individual medals at Regionals over the years though."
+        },
+        {
+          "name": "4. Summer Science Program - 60h/wk for 5 weeks over the summer! was super fun! e",
+          "role": "",
+          "description": "4. Summer Science Program - 60h/wk for 5 weeks over the summer! was super fun! earned a kind of major award (was chosen for it out of 36 students)"
+        },
+        {
+          "name": "5. Ran a volunteering club (President in 12th, member in 10th-11th) - 5h/wk",
+          "role": "",
+          "description": "5. Ran a volunteering club (President in 12th, member in 10th-11th) - 5h/wk"
+        },
+        {
+          "name": "6. Tutoring, started March 2020 to help with family expenses during covid - 10h/",
+          "role": "",
+          "description": "6. Tutoring, started March 2020 to help with family expenses during covid - 10h/wk"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "eecs when i applied; i'm actually thinking of doing physics research now, but i"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "post": {
+    "id": "t3_1pmqmth",
+    "title": "College decision anxiety",
+    "author": "Conscious-Reason-408",
+    "selftext": "How are people dealing with awaiting college results? I have been a walking anxiety ad for the past 3 months for chapel hills portal to change?",
+    "score": "10",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1pmqmth/college_decision_anxiety/",
+    "created": "2025-12-14T22:14:22+00:00",
+    "num_comments": 5,
+    "subreddit": "ApplyingToCollege"
+  },
+  "comments": [
+    {
+      "id": "t1_nu25yxq",
+      "author": "Revolutionary_Arm_54",
+      "body": "I'm in the same boat as you with Chapel Hill. Finding distractions like hanging out with friends and throwing myself into new hobbies has been helpful. Another thing that has helped is knowing that college is not the end all be all. Regardless if you get in or not, your future is yours to make.",
+      "score": "7 points",
+      "created": "2025-12-14T22:50:33+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nu2qdct",
+          "author": "Conscious-Reason-408",
+          "body": "Thank you, I appreciate it. I really hope we both get in, and can meet next year man :D",
+          "score": "5 points",
+          "created": "2025-12-15T00:42:21+00:00",
+          "depth": 1,
+          "parent_id": "t1_nu25yxq",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_nu46a8d",
+      "author": "Wonderful-Ad-211",
+      "body": "Dude me 2!!! Not having a set date and time of knowing when the decision will come out is killing me!!!",
+      "score": "1 point",
+      "created": "2025-12-15T06:29:39+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nubp14m",
+      "author": "Double_Accountant552",
+      "body": "has anyone received any updates oos? 😭",
+      "score": "1 point",
+      "created": "2025-12-16T12:45:22+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nue172g",
+          "author": "Conscious-Reason-408",
+          "body": "No I’m sorry I’m in state-",
+          "score": "1 point",
+          "created": "2025-12-16T19:57:25+00:00",
+          "depth": 1,
+          "parent_id": "t1_nubp14m",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pmqmth",
+        "author": "Conscious-Reason-408",
+        "title": "College decision anxiety",
+        "body": "How are people dealing with awaiting college results? I have been a walking anxiety ad for the past 3 months for chapel hills portal to change?",
+        "full_text": "College decision anxiety\n\nHow are people dealing with awaiting college results? I have been a walking anxiety ad for the past 3 months for chapel hills portal to change?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nu25yxq",
+          "author": "Revolutionary_Arm_54",
+          "body": "I'm in the same boat as you with Chapel Hill. Finding distractions like hanging out with friends and throwing myself into new hobbies has been helpful. Another thing that has helped is knowing that college is not the end all be all. Regardless if you get in or not, your future is yours to make.",
+          "score": "7 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_nu46a8d",
+          "author": "Wonderful-Ad-211",
+          "body": "Dude me 2!!! Not having a set date and time of knowing when the decision will come out is killing me!!!",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nubp14m",
+          "author": "Double_Accountant552",
+          "body": "has anyone received any updates oos? 😭",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nu25yxq",
+        "author": "Revolutionary_Arm_54",
+        "body": "I'm in the same boat as you with Chapel Hill. Finding distractions like hanging out with friends and throwing myself into new hobbies has been helpful. Another thing that has helped is knowing that college is not the end all be all. Regardless if you get in or not, your future is yours to make.",
+        "score": "7 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nu2qdct",
+          "author": "Conscious-Reason-408",
+          "body": "Thank you, I appreciate it. I really hope we both get in, and can meet next year man :D",
+          "score": "5 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nubp14m",
+        "author": "Double_Accountant552",
+        "body": "has anyone received any updates oos? 😭",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nue172g",
+          "author": "Conscious-Reason-408",
+          "body": "No I’m sorry I’m in state-",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 2,
+    "total_qa_pairs": 3
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.78,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Community Service: ~110 hours as an AV Assistant for my church live streams",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Awards: Alternate for AllState Choir (Junior and Senior Year) Outstanding Lawyer Team - Model UN International Court of ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Where I applied: Georgetown McCourt School of Public Policy (REA) Washington and Lee (RD) Colorado College (EA) Wake For",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews: URochester: 7/10: Interviewer liked me and encouraged me to interview any time I got the chance but I didn’t",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 110,
+      "first_gen": null,
+      "service_summary": "Community Service: ~110 hours as an AV Assistant for my church live streams"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Major in Political Science/Minor in Film and Media Studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

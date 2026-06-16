@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1180,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Graphic Design Intern for the summer at a well-known college in nyc - 11th gr",
+          "role": "",
+          "description": "1. Graphic Design Intern for the summer at a well-known college in nyc - 11th grade"
+        },
+        {
+          "name": "2. Waitress/Packer/Chef at a well-known wing shop for the summer - 11th grade",
+          "role": "",
+          "description": "2. Waitress/Packer/Chef at a well-known wing shop for the summer - 11th grade"
+        },
+        {
+          "name": "3. On LaX team in my school - 9-11th grade",
+          "role": "",
+          "description": "3. On LaX team in my school - 9-11th grade"
+        },
+        {
+          "name": "4. Tour Guide at my school - 10-12th grade",
+          "role": "",
+          "description": "4. Tour Guide at my school - 10-12th grade"
+        },
+        {
+          "name": "5. Participated in a special program offered at some schools in nyc that helps y",
+          "role": "",
+          "description": "5. Participated in a special program offered at some schools in nyc that helps you learn about lighting technology - 11-12th grade"
+        },
+        {
+          "name": "6. School News Anchor - 11-12th grade",
+          "role": "",
+          "description": "6. School News Anchor - 11-12th grade"
+        },
+        {
+          "name": "7. Caregiver to little sister - 9-12th grade",
+          "role": "",
+          "description": "7. Caregiver to little sister - 9-12th grade"
+        },
+        {
+          "name": "8. Sadie Nash sisterhood program - 9th, 10th, 12th grade",
+          "role": "",
+          "description": "8. Sadie Nash sisterhood program - 9th, 10th, 12th grade"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Honor Roll 9-12th grade",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "stem (computer science)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

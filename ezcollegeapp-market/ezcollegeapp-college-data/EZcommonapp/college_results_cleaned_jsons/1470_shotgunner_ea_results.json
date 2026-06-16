@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.93,
+      "sat_total": 1470,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Internship with my local district court, spent about 400 hours in court ass",
+          "role": "",
+          "description": "etc. Internship with my local district court, spent about 400 hours in court assisting clerks and shadowing judges Youth Outreach program ran thru church, ran volunteer events throughout community to get youth more involved in service, impact ~1000 every month"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Calc BC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APES",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Spanish 5 honors",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "TA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Ethics Standardized Testing List the highest scores earned and all scores that were reported. SAT I: 1470 (750RW, 720M)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 400,
+      "first_gen": true,
+      "service_summary": "Youth Outreach program ran thru church, ran volunteer events throughout community to get youth more involved in service, impact ~1000 every month Summer volunteer at environmental nonprofit, recycled over 500 lbs garbage into benches, tables, garden beds, and coasters"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Political Science/Foreign Affairs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

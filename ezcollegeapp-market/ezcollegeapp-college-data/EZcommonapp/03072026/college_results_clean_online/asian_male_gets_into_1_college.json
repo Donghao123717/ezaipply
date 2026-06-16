@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "#1 worked as an intern/employee at my dad's company of ~2000 persons, I learned ",
+          "role": "",
+          "description": "#1 worked as an intern/employee at my dad's company of ~2000 persons, I learned a lot about operating business, and concepts"
+        },
+        {
+          "name": "#2 worked as an assistant at my uncles clinic.",
+          "role": "",
+          "description": "#2 worked as an assistant at my uncles clinic."
+        },
+        {
+          "name": "#3 Leading a club related to finance at school using sponsored technologies from",
+          "role": "",
+          "description": "#3 Leading a club related to finance at school using sponsored technologies from ec 1"
+        },
+        {
+          "name": "#4 TSA teams - national qualifier",
+          "role": "",
+          "description": "#4 TSA teams - national qualifier"
+        },
+        {
+          "name": "#5 fbla - states, national",
+          "role": "",
+          "description": "#5 fbla - states, national"
+        },
+        {
+          "name": "#6 ..",
+          "role": "",
+          "description": "#6 .."
+        },
+        {
+          "name": "#7.....",
+          "role": "",
+          "description": "#7....."
+        },
+        {
+          "name": "#8.....",
+          "role": "",
+          "description": "#8....."
+        },
+        {
+          "name": "#9.....",
+          "role": "",
+          "description": "#9....."
+        },
+        {
+          "name": "#10...",
+          "role": "",
+          "description": "#10..."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "#1 award from teams",
+          "role": "",
+          "description": "#1 award from teams"
+        },
+        {
+          "name": "#2 fbla",
+          "role": "",
+          "description": "#2 fbla"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#1 award from teams",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#2 fbla",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#3....",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#4...",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#5....",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Calc teacher 10/10",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Lang teacher 9/10",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Executive office member at the company (10/10)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "business/medical"
+    },
+    "ESSAY_SCORE": null
+  }
+}

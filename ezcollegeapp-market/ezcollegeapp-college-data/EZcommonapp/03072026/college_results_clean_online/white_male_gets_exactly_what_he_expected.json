@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Perfect Score on Polish High school graduation exam",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Leader of Winning Team at Internationally Televised Oxford Debate on Bilingualism",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Statewide prefect of an international organization run by Oxford University in England",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "US Ambassador @ international conference with other youth from around the world (have to be super va",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "International Seal of Biliteracy Recipient in Polish",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "-finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

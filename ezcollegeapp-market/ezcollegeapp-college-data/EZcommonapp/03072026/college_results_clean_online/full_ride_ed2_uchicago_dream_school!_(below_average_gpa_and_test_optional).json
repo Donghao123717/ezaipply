@@ -1,0 +1,134 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 77.0,
+      "ap_ib_honors_count": 13
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Familial Responsibilities  -",
+          "role": "",
+          "description": "1. Familial Responsibilities  -"
+        },
+        {
+          "name": "Caretaker - Father and Special-Needs Sister (2008-Present) Change sister’s diape",
+          "role": "",
+          "description": "Caretaker - Father and Special-Needs Sister (2008-Present) Change sister’s diapers, cook and spoon-feed meals, drive her to therapy, interpret nonverbal communication, supervise both, provide financia"
+        },
+        {
+          "name": "2. Japanese Speech  -",
+          "role": "",
+          "description": "2. Japanese Speech  -"
+        },
+        {
+          "name": "High School Representative, Southern Nevada Japanese Teachers Association (2017-",
+          "role": "",
+          "description": "High School Representative, Southern Nevada Japanese Teachers Association (2017-Present) Compete on State/National level in Japanese Speech Contests, ranked #1 in the state, present to audiences/judge"
+        },
+        {
+          "name": "3. Academic Research  -",
+          "role": "",
+          "description": "3. Academic Research  -"
+        },
+        {
+          "name": "Student Researcher, Pioneer Academics (May 2020-September 2020)",
+          "role": "",
+          "description": "Student Researcher, Pioneer Academics (May 2020-September 2020)"
+        },
+        {
+          "name": "Analyzed 40+ class readings, discussed research content w/ other students, used ",
+          "role": "",
+          "description": "Analyzed 40+ class readings, discussed research content w/ other students, used the Writing Center to revise 15+ drafts, incorporated advice from UPenn Professor of Anthropology."
+        },
+        {
+          "name": "4. Language Tutor  -",
+          "role": "",
+          "description": "4. Language Tutor  -"
+        },
+        {
+          "name": "Japanese, Spanish, Tagalog (October 2017-Present)",
+          "role": "",
+          "description": "Japanese, Spanish, Tagalog (October 2017-Present)"
+        },
+        {
+          "name": "Instructed w/ physical &amp; online textbooks, used visual mnemonics for Kanji r",
+          "role": "",
+          "description": "Instructed w/ physical &amp; online textbooks, used visual mnemonics for Kanji review, assisted w/ language presentations, improved others' grades-D to B."
+        },
+        {
+          "name": "5. Founder of Low-Income Branch, Symposium Co-Host  - Pioneer Academics Youth Ad",
+          "role": "",
+          "description": "5. Founder of Low-Income Branch, Symposium Co-Host  - Pioneer Academics Youth Advisory Board (June 2020-Present)"
+        },
+        {
+          "name": "Mentored low-income students for undergraduate research &amp; college admissions",
+          "role": "",
+          "description": "Mentored low-income students for undergraduate research &amp; college admissions, co-hosted professor lectures &amp; research symposiums, organized spreadsheets/documents."
+        },
+        {
+          "name": "6. Academic Cultural Clubs  -",
+          "role": "",
+          "description": "6. Academic Cultural Clubs  -"
+        },
+        {
+          "name": "Japanese Club (2017), Arabic Club (2019), Filipino Club (2019), Global Glimpse C",
+          "role": "",
+          "description": "Japanese Club (2017), Arabic Club (2019), Filipino Club (2019), Global Glimpse Club (2020)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Certification of Recognition from Governor Steve Sisolak | State (March 2019 &amp; 2020)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2.  Dr. Fumiko Bichard Award (2020) | State/National",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. IACE Travel VISA Recipient ($300) | International - Japan (2019) - Only time this was ever won by",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 1st Place – Japanese II Division and Japanese III Division at 15th/16th Annual Japanese Speech Co",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Student of the Week (2x)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": true,
+      "service_summary": "4. Language Tutor  -"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "anthropology, linguistics, and ealc (east asian languages and civilizations)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

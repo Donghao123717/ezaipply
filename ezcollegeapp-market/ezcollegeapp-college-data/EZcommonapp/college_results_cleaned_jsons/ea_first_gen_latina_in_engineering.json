@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1340,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Mainly summer camps state sponsored program - online course centered around",
+          "role": "",
+          "description": "etc. Mainly summer camps state sponsored program - online course centered around space and mission design, successfully completed and was invited to selective summer camp at NASA same program but different course geared specifically towards aerospace, successfully completed but I had major junioritis so I wasn’t invited for NASA summer camp"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Years courseload: AP Physics C: E&M and Mech, AP Calc AB, AP Research, AP Latín, AP gov, DE Composition, Quantita",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT: 1340 super score (did not submit except for GA Tech)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "No ACT (never took it)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "was a volunteer camp counselor for a STEM camp for elementary aged kids for three summers"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Mechanical Engineering, Aerospace Engineering as second choice"
+    },
+    "ESSAY_SCORE": null
+  }
+}

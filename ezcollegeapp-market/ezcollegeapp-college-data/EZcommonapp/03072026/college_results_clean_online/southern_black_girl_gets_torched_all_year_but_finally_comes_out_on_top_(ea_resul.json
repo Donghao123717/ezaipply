@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Speech and Debate/Book Club - had a leadership position, a ton of regional award",
+          "role": "",
+          "description": "Speech and Debate/Book Club - had a leadership position, a ton of regional awards, 3 state awards, state qualifier in a few events. Pretty basic EC, but I dedicated the most time to it throughout hs a"
+        },
+        {
+          "name": "School Ambassadors - 9-12, VP + other previous leadership role, planned events a",
+          "role": "",
+          "description": "School Ambassadors - 9-12, VP + other previous leadership role, planned events and represented the school. Again, pretty basic but I spent a lot of time doing it"
+        },
+        {
+          "name": "Ambassador for global literacy nonprofit/ fellow for human rights nonprofit - ho",
+          "role": "",
+          "description": "Ambassador for global literacy nonprofit/ fellow for human rights nonprofit - hosted book drive and collected books for donation, work on an e-mag for a university"
+        },
+        {
+          "name": "Intern for a different literacy nonprofit - did social media work and grant rese",
+          "role": "",
+          "description": "Intern for a different literacy nonprofit - did social media work and grant research. Researched and planned over 60 posts for them abt literacy education"
+        },
+        {
+          "name": "Fellow at political advocacy nonprofits - drafted bill proposal on rent caps in ",
+          "role": "",
+          "description": "Fellow at political advocacy nonprofits - drafted bill proposal on rent caps in GA, canvassed for 2024 presidential election, phonebanked, created social media content"
+        },
+        {
+          "name": "GHP/YYGS - Top 1% of GA HS students chosen for GHP (free program), really just d",
+          "role": "",
+          "description": "GHP/YYGS - Top 1% of GA HS students chosen for GHP (free program), really just dived into literature and poetry for a month + performed my original poetry for like 200 people, did YYGS things at YYGS"
+        },
+        {
+          "name": "Local campaigns - Was on youth action committees for local campaigns, canvassed ",
+          "role": "",
+          "description": "Local campaigns - Was on youth action committees for local campaigns, canvassed with voters and planned voting initiatives"
+        },
+        {
+          "name": "Project Manager and Event committee for youth-led policy and writing orgs: Basic",
+          "role": "",
+          "description": "Project Manager and Event committee for youth-led policy and writing orgs: Basically helped create handbooks for policy org and worked on other projects and planned and hosted writing workshops for wr"
+        },
+        {
+          "name": "Summer camp counselor for school STEAM program and local park - I planned and le",
+          "role": "",
+          "description": "Summer camp counselor for school STEAM program and local park - I planned and led STEAM lessons for young kids for 1 year then I was a Lead Camp Counselor so I oversaw other counselors."
+        },
+        {
+          "name": "Tennis - played in school for all 4 years and out of school for 7?. We don’t hav",
+          "role": "",
+          "description": "Tennis - played in school for all 4 years and out of school for 7?. We don’t have captains or anything, but I played L1 singles and doubles and helped coach new players."
+        },
+        {
+          "name": "Also, in additional info section I talked abt joining math team and tutoring thr",
+          "role": "",
+          "description": "Also, in additional info section I talked abt joining math team and tutoring through my school"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "YYGS (PLE Attendee, 1/450 out of 3k+) & GHP (Comm Arts Finalist, 1/75 out of 500",
+          "role": "",
+          "description": "YYGS (PLE Attendee, 1/450 out of 3k+) & GHP (Comm Arts Finalist, 1/75 out of 500+)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "YYGS (PLE Attendee, 1/450 out of 3k+) & GHP (Comm Arts Finalist, 1/75 out of 500+)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Student of Remarkable Achievement (speech and debate): selected as 1 of 3 students w/ highest point ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2nd Place National Team in Gen. Sci, 3rd Place National Team in Chem & Bio - NSL Exams",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2x state champ in performance categories and 2nd runner up for spoken word poetry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "In additional info section I put that I qualified for a national speech and debate tourney but could",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Precalc/Stats Teacher/Math Team Coach (idk/10): We have a really good relationship even though they ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English Teacher/Speech & Debate Coach (idk/10): I’ve been in speech and debate all 4 years of HS so ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "public policy analysis or political science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

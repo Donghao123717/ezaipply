@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1510,
+      "act_composite": 33,
+      "class_rank_percentile": 85.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "national merit commended scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "silver key + honorable mention scholastic poetry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "placed in this random language exam my school does (not for a language i take lmao)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "national spanish honor society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "lor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "my 11th grade AP lang teacher, got a b+ in her class but i guess she liked me? i talked a lot about ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "honestly have no clue what she wrote about haha we werent particularly close but we used to talk abo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "commonapp essay was about my autism diagnosis and how its helped shape who i am despite increased st",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "all of my supps were aah though, i wrote them mostly day before/night of😭 lurked this sub + others a",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

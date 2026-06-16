@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1500,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Taught an extracurricular math class",
+          "role": "",
+          "description": "Taught an extracurricular math class"
+        },
+        {
+          "name": "Leader of volunteers at the place I volunteered",
+          "role": "",
+          "description": "Leader of volunteers at the place I volunteered"
+        },
+        {
+          "name": "Peer tutoring and elementary/middle school tutoring",
+          "role": "",
+          "description": "Peer tutoring and elementary/middle school tutoring"
+        },
+        {
+          "name": "Science Olympiad (Invitationals, Regionals, State)",
+          "role": "",
+          "description": "Science Olympiad (Invitationals, Regionals, State)"
+        },
+        {
+          "name": "Math Club (various competitions)",
+          "role": "",
+          "description": "Math Club (various competitions)"
+        },
+        {
+          "name": "Other random clubs",
+          "role": "",
+          "description": "Other random clubs"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "President's Volunteer Service Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Distinction Scholar?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Science Olympiad/Math competition medals",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied for mathematical economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

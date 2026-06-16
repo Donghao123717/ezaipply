@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Activity 1: statewide political committee (is legit) (3 years)",
+          "role": "",
+          "description": "Activity 1: statewide political committee (is legit) (3 years)"
+        },
+        {
+          "name": "had an accepted proposal and leadership on committee Activity 2: regional govern",
+          "role": "",
+          "description": "had an accepted proposal and leadership on committee Activity 2: regional government ( 4 years) -> idk how exactly to say this but its not an internship, im a formal representative for the region Activity 3: Cofounder of annual community cultural event (4 years)"
+        },
+        {
+          "name": "received a grant (small one), ~3000 attendees",
+          "role": "",
+          "description": "received a grant (small one), ~3000 attendees"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Awards/Honors List all awards and honors submitted on your application. girls nation senator national merit semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: Congratulations 🎊",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- congrats!! I was also admitted to the jppp under rea so feel free to hmu :)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Omg Hii! I’ll dm u",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- are you committed?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Nope lol it was only rea!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Congrats!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Congratulations! really hoping to get admitted to McCourt RD :)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- me too!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- wait omg we have super similar stats and ecs (literally same sat, psat, like 2 of the same awards and a bunch of super",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Activity 3: Cofounder of annual community cultural event (4 years) presidential volunteer service award gold"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "joint public policy program"
+    },
+    "ESSAY_SCORE": null
+  }
+}

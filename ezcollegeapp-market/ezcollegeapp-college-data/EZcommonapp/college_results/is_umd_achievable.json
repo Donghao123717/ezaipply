@@ -1,0 +1,54 @@
+{
+  "post": {
+    "id": "t3_1oz8pay",
+    "title": "Is UMD achievable",
+    "author": "Ok-Soil1355",
+    "selftext": "as a INSTATE eA application w/ a 3.53W 4.3W test optional psyc major",
+    "score": "0",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1oz8pay/is_umd_achievable/",
+    "created": "2025-11-17T06:03:21+00:00",
+    "num_comments": 1,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_npamcrj",
+      "author": "Visible_Stomach2149",
+      "body": "wrong sub\n\nuse r/chanceme",
+      "score": "2 points",
+      "created": "2025-11-17T10:14:11+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1oz8pay",
+        "author": "Ok-Soil1355",
+        "title": "Is UMD achievable",
+        "body": "as a INSTATE eA application w/ a 3.53W 4.3W test optional psyc major",
+        "full_text": "Is UMD achievable\n\nas a INSTATE eA application w/ a 3.53W 4.3W test optional psyc major"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_npamcrj",
+          "author": "Visible_Stomach2149",
+          "body": "wrong sub\n\nuse r/chanceme",
+          "score": "2 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. High school student gov president",
+          "role": "",
+          "description": "1. High school student gov president"
+        },
+        {
+          "name": "2. 100+ hrs of volunteering",
+          "role": "",
+          "description": "2. 100+ hrs of volunteering"
+        },
+        {
+          "name": "3. High school student gov member",
+          "role": "",
+          "description": "3. High school student gov member"
+        },
+        {
+          "name": "4. Local youth council member",
+          "role": "",
+          "description": "4. Local youth council member"
+        },
+        {
+          "name": "5. Started my own initiative (volunteering)",
+          "role": "",
+          "description": "5. Started my own initiative (volunteering)"
+        },
+        {
+          "name": "6. Marketing internship",
+          "role": "",
+          "description": "6. Marketing internship"
+        },
+        {
+          "name": "7. High school magazine editor",
+          "role": "",
+          "description": "7. High school magazine editor"
+        },
+        {
+          "name": "8. Design internship (used Adobe apps)",
+          "role": "",
+          "description": "8. Design internship (used Adobe apps)"
+        },
+        {
+          "name": "9. Table tennis (not competitively, but had a lot of hours)",
+          "role": "",
+          "description": "9. Table tennis (not competitively, but had a lot of hours)"
+        },
+        {
+          "name": "10. I don’t really remember what it was lmao",
+          "role": "",
+          "description": "10. I don’t really remember what it was lmao"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National level first place science",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Regional first place math",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Regional first place Bio+Chem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Local first place chem (2 years in a row)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Regional level first place business",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "+ a bunch of school level first places",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

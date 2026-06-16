@@ -1,0 +1,54 @@
+{
+  "post": {
+    "id": "",
+    "title": "Rec Letters",
+    "author": "[deleted]",
+    "selftext": "[deleted]",
+    "score": "1",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1q38ukg/rec_letters/",
+    "created": "2026-01-03T22:55:34+00:00",
+    "num_comments": 1,
+    "subreddit": "ApplyingToCollege"
+  },
+  "comments": [
+    {
+      "id": "t1_nxjgr1r",
+      "author": "Emergency_Poet9569",
+      "body": "Yeah it will because it's literally against their requirements",
+      "score": "1 point",
+      "created": "2026-01-04T00:46:56+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "",
+        "author": "[deleted]",
+        "title": "Rec Letters",
+        "body": "[deleted]",
+        "full_text": "Rec Letters\n\n[deleted]"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nxjgr1r",
+          "author": "Emergency_Poet9569",
+          "body": "Yeah it will because it's literally against their requirements",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

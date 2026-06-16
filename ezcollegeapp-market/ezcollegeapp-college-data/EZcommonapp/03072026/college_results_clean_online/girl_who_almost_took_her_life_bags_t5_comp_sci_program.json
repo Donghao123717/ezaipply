@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 98.59,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(these suck in comparison to other applicants I’ve seen on here)",
+          "role": "",
+          "description": "(these suck in comparison to other applicants I’ve seen on here)"
+        },
+        {
+          "name": "1. Part-time job since sophomore year that I use to help pay family essentials w",
+          "role": "",
+          "description": "1. Part-time job since sophomore year that I use to help pay family essentials with"
+        },
+        {
+          "name": "2. Berkeley National Laboratory Student Intern (worked with genome metadata)",
+          "role": "",
+          "description": "2. Berkeley National Laboratory Student Intern (worked with genome metadata)"
+        },
+        {
+          "name": "3. UCSB Summer Research Academies (received a scholarship to attend and did mari",
+          "role": "",
+          "description": "3. UCSB Summer Research Academies (received a scholarship to attend and did marine biology research with other 2 people)"
+        },
+        {
+          "name": "4. Peers (this is a student run program at my school who helps mediate conflicts",
+          "role": "",
+          "description": "4. Peers (this is a student run program at my school who helps mediate conflicts between students, speak one-on-one with them, mentor them as they come into high school, and do Peer Intervention Educa"
+        },
+        {
+          "name": "5. Stanford Student Intern, got recruited to help telecoach the PIE program Peer",
+          "role": "",
+          "description": "5. Stanford Student Intern, got recruited to help telecoach the PIE program Peers does"
+        },
+        {
+          "name": "6. MESA (no club positions) I’ve competed since last year for their Coding Solut",
+          "role": "",
+          "description": "6. MESA (no club positions) I’ve competed since last year for their Coding Solutions and some other miscellaneous competitions, but I’ve haven’t made it to regionals"
+        },
+        {
+          "name": "7. K-Pop Merch Group Order Manager (I order K-Pop merch from Korea or Japan in b",
+          "role": "",
+          "description": "7. K-Pop Merch Group Order Manager (I order K-Pop merch from Korea or Japan in bulk to help with shipping)"
+        },
+        {
+          "name": "8. Webpages (commission small info pages for K-Pop fans who have b/s/t accounts)",
+          "role": "",
+          "description": "8. Webpages (commission small info pages for K-Pop fans who have b/s/t accounts)"
+        },
+        {
+          "name": "9. Father’s Roofing (since my dad doesn’t speak English, I write, type, and send",
+          "role": "",
+          "description": "9. Father’s Roofing (since my dad doesn’t speak English, I write, type, and send out all his estimates, contracts, and invoices)"
+        },
+        {
+          "name": "10. Key Club (not holding any positions, but do volunteer work for them)",
+          "role": "",
+          "description": "10. Key Club (not holding any positions, but do volunteer work for them)"
+        },
+        {
+          "name": "11. Tutor students after school in mathematics (not an official setting, but I’l",
+          "role": "",
+          "description": "11. Tutor students after school in mathematics (not an official setting, but I’ll help as my teachers TA or other Calc 1 students outside of school hours)"
+        },
+        {
+          "name": "12. Translate assignments for teachers into Spanish (my school community has a l",
+          "role": "",
+          "description": "12. Translate assignments for teachers into Spanish (my school community has a lot of students who don’t speak English, so I’ve been translating assignments)"
+        },
+        {
+          "name": "13. FORGOT THIS BUT: Learned multiple coding languages on my own and even talked",
+          "role": "",
+          "description": "13. FORGOT THIS BUT: Learned multiple coding languages on my own and even talked about how I had to commute to my public library to be able to do so at the beginning!"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Honors Roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. BRAVO/ROP, given for Biotechnology since it’s a CTE class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Questbridge College Prep Scholar and Finalist (obviously didn’t match)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 11,
+      "first_gen": true,
+      "service_summary": "10. Key Club (not holding any positions, but do volunteer work for them); 11. Tutor students after school in mathematics (not an official setting, but I’ll help as my teachers TA or other Calc 1 students outside of school hours); 12. Translate assignments for teachers into Spanish (my school community has a lot of students who don’t speak English, so I’ve been translating assignments)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "1. computer science (1st choice major)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

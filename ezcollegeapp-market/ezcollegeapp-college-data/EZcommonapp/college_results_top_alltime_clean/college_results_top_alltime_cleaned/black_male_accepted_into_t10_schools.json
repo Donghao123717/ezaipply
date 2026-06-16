@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 23
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Peer Advisor",
+          "role": "",
+          "description": "1. Peer Advisor"
+        },
+        {
+          "name": "2. Competitive Pianist (Performed at Carnegie Hall)",
+          "role": "",
+          "description": "2. Competitive Pianist (Performed at Carnegie Hall)"
+        },
+        {
+          "name": "3. Editor in Chief of Magazine",
+          "role": "",
+          "description": "3. Editor in Chief of Magazine"
+        },
+        {
+          "name": "4. Conducted Research with T10 lab",
+          "role": "",
+          "description": "4. Conducted Research with T10 lab"
+        },
+        {
+          "name": "5. Managing Editor of Magazine",
+          "role": "",
+          "description": "5. Managing Editor of Magazine"
+        },
+        {
+          "name": "6. Volunteer at a Local Nonprofit (Efforts featured on ABC and in local newspape",
+          "role": "",
+          "description": "6. Volunteer at a Local Nonprofit (Efforts featured on ABC and in local newspaper)"
+        },
+        {
+          "name": "7. Varsity Tennis Captain (Won divisions in States and League)",
+          "role": "",
+          "description": "7. Varsity Tennis Captain (Won divisions in States and League)"
+        },
+        {
+          "name": "8. Co-President of Community Service Club (featured in local news sources)",
+          "role": "",
+          "description": "8. Co-President of Community Service Club (featured in local news sources)"
+        },
+        {
+          "name": "9. President of Sports Related Club",
+          "role": "",
+          "description": "9. President of Sports Related Club"
+        },
+        {
+          "name": "10. Participant in International Youth Social Justice Forum",
+          "role": "",
+          "description": "10. Participant in International Youth Social Justice Forum"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Yale Book Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. School Award for “unselfish leadership, kindness, and moral courage”",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 2 Scholastic Gold Keys for Poetry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Community Service Honor Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. League All Academic Teams in 2 Varsity Sports",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": true,
+      "service_summary": "6. Volunteer at a Local Nonprofit (Efforts featured on ABC and in local newspaper); 8. Co-President of Community Service Club (featured in local news sources)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "comparative literature"
+    },
+    "ESSAY_SCORE": null
+  }
+}

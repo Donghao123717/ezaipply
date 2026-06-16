@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Co-Founded a medium-scale non profit which raised ~$8,000 to provide sewing mach",
+          "role": "",
+          "description": "Co-Founded a medium-scale non profit which raised ~$8,000 to provide sewing machines and sewing classes to a rural community,"
+        },
+        {
+          "name": "Pokemon Showdown (Random Battles), Global top 100 (2300+ elo) for more than 3 mo",
+          "role": "",
+          "description": "Pokemon Showdown (Random Battles), Global top 100 (2300+ elo) for more than 3 months."
+        },
+        {
+          "name": "Co-Founded a Library On Wheels-like service for same underdeveloped community, l",
+          "role": "",
+          "description": "Co-Founded a Library On Wheels-like service for same underdeveloped community, later worked with Room To Read, Nepal, to expand the same,"
+        },
+        {
+          "name": "Tutored children of marginalized backgrounds with quantifiable results under loc",
+          "role": "",
+          "description": "Tutored children of marginalized backgrounds with quantifiable results under local non-profit ~300 hours,"
+        },
+        {
+          "name": "President (grade 10), Vice-president (grade 9) of a very niche (not even recognz",
+          "role": "",
+          "description": "President (grade 10), Vice-president (grade 9) of a very niche (not even recognzied by most) club that researches student behavior, led team in the International convetion twice, winning the highest i"
+        },
+        {
+          "name": "State/Regional level badminton, placed within  national top <60 for under 17 men",
+          "role": "",
+          "description": "State/Regional level badminton, placed within  national top <60 for under 17 men's single category consistently for 3 years,"
+        },
+        {
+          "name": "State/Regional level Tennis, no rank, qualified for nationals,",
+          "role": "",
+          "description": "State/Regional level Tennis, no rank, qualified for nationals,"
+        },
+        {
+          "name": "Mod Developer for Minecraft,",
+          "role": "",
+          "description": "Mod Developer for Minecraft,"
+        },
+        {
+          "name": "School Captain, (grades 9-10) pretty small school, just a filler.",
+          "role": "",
+          "description": "School Captain, (grades 9-10) pretty small school, just a filler."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "An International (mostly Asia tbh) level award for the aforementioned niche club,",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "that's literally it, I had no academic awards.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Co-Founded a medium-scale non profit which raised ~$8,000 to provide sewing machines and sewing classes to a rural community,; Co-Founded a Library On Wheels-like service for same underdeveloped community, later worked with Room To Read, Nepal, to expand the same,"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics for some colleges, mechanical engineering otherwise"
+    },
+    "ESSAY_SCORE": null
+  }
+}

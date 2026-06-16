@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "My ECs are by far the weakest part of my application; I basically started all my",
+          "role": "",
+          "description": "My ECs are by far the weakest part of my application; I basically started all my main extracurriculars in sophomore year and I regret it, not necessarily because of how it impacted my college apps but"
+        },
+        {
+          "name": "1. Tutoring math at after-school program (3hr/day, 15hr/week).",
+          "role": "",
+          "description": "1. Tutoring math at after-school program (3hr/day, 15hr/week)."
+        },
+        {
+          "name": "2. Teaching math classes at the same after-school program, started by popular de",
+          "role": "",
+          "description": "2. Teaching math classes at the same after-school program, started by popular demand. We have scheduled \"activity blocks\" and kids can sign up for whatever activity they want, and I went from having 1"
+        },
+        {
+          "name": "3. Co-captain of school's math team (3hr/week). I was on the team since freshman",
+          "role": "",
+          "description": "3. Co-captain of school's math team (3hr/week). I was on the team since freshman year but never showed up to practices and then had a major redemption arc in sophomore year, which is probably what got"
+        },
+        {
+          "name": "4. Started a school-wide Math + CS competition in collaboration with CS Club (11",
+          "role": "",
+          "description": "4. Started a school-wide Math + CS competition in collaboration with CS Club (11th grade, 2hr/week). We designed the problems so all of them could be solved by hand but participants were allowed to co"
+        },
+        {
+          "name": "5. Run an online math blog (technically started sophomore year, but worked on it",
+          "role": "",
+          "description": "5. Run an online math blog (technically started sophomore year, but worked on it a lot more as a junior, so it averages out to 3hr/week). I basically just ramble about math and the problems I find int"
+        },
+        {
+          "name": "6. Worked with friend on a visual novel about a girl who likes math but is intim",
+          "role": "",
+          "description": "6. Worked with friend on a visual novel about a girl who likes math but is intimidated by it - and learns to overcome her fear by joining math team and grows to love math. I did most of the writing wh"
+        },
+        {
+          "name": "I did not fill out any other activities. For MIT, I combined activity 1 and 2 si",
+          "role": "",
+          "description": "I did not fill out any other activities. For MIT, I combined activity 1 and 2 since they only have 4 slots, and wrote about the remaining in my supplementals. I also never applied to or attended any c"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. USAJMO Qualifier (10th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 4x AIME Qualifier (9th, 10th, 11th, 12th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Math Prize for Girls Qualifier (10th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Miscellaneous awards from smaller math competitions (think competitions organized by students at ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Same as above",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Scholarship for women in STEM ($5,000)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "For MIT's non-scholastic awards, I put my volunteering awards (PVSA Gold) and writing awards (2x Sch",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "math (1st choice), cs (2nd choice), math+cs for schools that offered it as a maj"
+    },
+    "ESSAY_SCORE": null
+  }
+}

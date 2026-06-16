@@ -1,0 +1,134 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. **Employed Student Researcher** @ Columbia University (grade 11-12). NanoCrys",
+          "role": "",
+          "description": "1. **Employed Student Researcher** @ Columbia University (grade 11-12). NanoCrystal Technology Research (Unpublished), N95 Mask Reuse Research (published actual scientific journal with upper/medium IF) - Was the first to"
+        },
+        {
+          "name": "2. **Research Intern for Graduate Research Program** @ Columbia University (grad",
+          "role": "",
+          "description": "2. **Research Intern for Graduate Research Program** @ Columbia University (grade 11-12). Developed passive solar panel trackers. Increased 60% efficiency etc. Working on paper."
+        },
+        {
+          "name": "3. **\\*Project Director, Board/Council member, Junior Researcher/Engineer** (gra",
+          "role": "",
+          "description": "3. **\\*Project Director, Board/Council member, Junior Researcher/Engineer** (grade 11-12). Was a researcher/engineer as part of a team that won $10,000, first place, at Mars Society/NASA competition. Presented to NASA sc"
+        },
+        {
+          "name": "4. **Founder/Chief Executive of a research/umbrella organization** (grade 11-12)",
+          "role": "",
+          "description": "4. **Founder/Chief Executive of a research/umbrella organization** (grade 11-12). 10,000+ Members across the board, with 20,000+ users on websites/newsletters. Has 15+ subsidiaries, including the largest student npo mark"
+        },
+        {
+          "name": "5. **President (2020-21), Mechanical Captain (2018-2020)** @ FIRST Robotics Comp",
+          "role": "",
+          "description": "5. **President (2020-21), Mechanical Captain (2018-2020)** @ FIRST Robotics Competition (grades 9-12). Put over 4,000 hours in mechanical engineering, and participated throughout all of high school. Since we were a rooki"
+        },
+        {
+          "name": "6. **Executive Vice President (Chapter), Internationals (2020, and 21), Finalist",
+          "role": "",
+          "description": "6. **Executive Vice President (Chapter), Internationals (2020, and 21), Finalist 2021 (Internationals) placed #6 in the world, and NY State 3rd (2020), 2nd (2021)** @ DECA (Grades 11-12). International Finalist this year"
+        },
+        {
+          "name": "7. **Junior Researcher** **and 1st place team leader** @ New York Academy Of Sci",
+          "role": "",
+          "description": "7. **Junior Researcher** **and 1st place team leader** @ New York Academy Of Science (grade 12). Led the team that **won 1st place** for the Telemedicine challenge. The acceptance rate is about 6% for the program itself."
+        },
+        {
+          "name": "8. **Design Engineer** @ Singapore Space Challenge (grades 11-12). **Won $1,000*",
+          "role": "",
+          "description": "8. **Design Engineer** @ Singapore Space Challenge (grades 11-12). **Won $1,000** for the Lunar Rover Design we made."
+        },
+        {
+          "name": "9. **Design Engineer, for a team that placed 3rd** (won $250) @ Moon Society Moo",
+          "role": "",
+          "description": "9. **Design Engineer, for a team that placed 3rd** (won $250) @ Moon Society Moon Base Design Competition (grades 11-12). Similar to the Mars Competition."
+        },
+        {
+          "name": "10. **Team Leader/Conrad Challenge Innovator 2021** @ Conrad Challenge (grades 1",
+          "role": "",
+          "description": "10. **Team Leader/Conrad Challenge Innovator 2021** @ Conrad Challenge (grades 11-12). in other words, a semifinalist."
+        },
+        {
+          "name": "11. **Team Leader** @ Wharton Investment Competition (grades 11-12). Haha. No. G",
+          "role": "",
+          "description": "11. **Team Leader** @ Wharton Investment Competition (grades 11-12). Haha. No. Got clapped xD. Participation yay!"
+        },
+        {
+          "name": "12. **Pianist (grades 2 - 12)**. Level 8 - ABRSM (Royal College Music Exam) (gra",
+          "role": "",
+          "description": "12. **Pianist (grades 2 - 12)**. Level 8 - ABRSM (Royal College Music Exam) (grade 9). NYSSMA Level 6 (grade 6). Volunteer Pianist for Church Choir (grades 10-12). Volunteer Pianist for a Veteran Senior Citizen Center (m"
+        },
+        {
+          "name": "\\*\\* For those asking, I wanted to compete in ISEF science fairs, but my school ",
+          "role": "",
+          "description": "\\*\\* For those asking, I wanted to compete in ISEF science fairs, but my school \"research\" teacher hated me insanely, and literally did whatever he could in his power to prevent the school from \"confirming my participati"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. First author of a peer-reviewed paper",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 1st place Team @ Mars Competition, $10,000.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Junior Researcher at New York Academy of Sciences Junior Academy.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. DECA NY States 3rd place - Internationals DECA Contender (I added finalist for waitlists, since i",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Associated Board of the Royal Schools of Music Level 8 Pianist. Accredited A-Level Pianist.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(If you read my Activities, you can see that I won alot more competitions later on. I added most of ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": null,
+      "service_summary": "12. **Pianist (grades 2 - 12)**. Level 8 - ABRSM (Royal College Music Exam) (grade 9). NYSSMA Level 6 (grade 6). Volunteer Pianist for Church Choir (grades 10-12). Volunteer Pianist for a Veteran Senior Citizen Center (m"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mechanical eng/aerospace"
+    },
+    "ESSAY_SCORE": null
+  }
+}

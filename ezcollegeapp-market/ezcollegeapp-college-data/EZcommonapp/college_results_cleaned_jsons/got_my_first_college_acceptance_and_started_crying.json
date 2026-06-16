@@ -1,0 +1,48 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Edit: It could be better but it could also be worse so ¯\\_(ツ)_/¯",
+          "role": "",
+          "description": "Edit: It could be better but it could also be worse so ¯\\_(ツ)_/¯"
+        },
+        {
+          "name": "- dang bro, i wish i was top 10 percent of my class, 3.9 is also decent. what wa",
+          "role": "",
+          "description": "- dang bro, i wish i was top 10 percent of my class, 3.9 is also decent. what was your sat score? like 1300s?"
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        },
+        {
+          "name": "Yeah, like mid 1300s. My school's a pretty standard public school so like, the t",
+          "role": "",
+          "description": "Yeah, like mid 1300s. My school's a pretty standard public school so like, the top 20% of students are like crazy competitive and then the rest are just floating by 😭 the difference is crazy"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.93,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Student w/ Local Coding Studio that's somewhat well known (i.e. has sent stud",
+          "role": "",
+          "description": "1. Student w/ Local Coding Studio that's somewhat well known (i.e. has sent students to Stanford/MIT/Harvard before but it's not known for that or anything). 9th, 10th, 11th, 12th. After School and summer programs. Pytho"
+        },
+        {
+          "name": "2. Independent Study of Urdu (South ٓAsian Language). My mom is half white/half ",
+          "role": "",
+          "description": "2. Independent Study of Urdu (South ٓAsian Language). My mom is half white/half south asian, I have a lot of south asian family members hence why I started learning it. Set up once a week lessons with local university pr"
+        },
+        {
+          "name": "3. Captain in school's outdoors program (12), participant (9,10,11). 6hrs per we",
+          "role": "",
+          "description": "3. Captain in school's outdoors program (12), participant (9,10,11). 6hrs per week 24 weeks per year"
+        },
+        {
+          "name": "4. Paid CS intern at local startup. Web Dev + Kotlin backend stuff. Started as s",
+          "role": "",
+          "description": "4. Paid CS intern at local startup. Web Dev + Kotlin backend stuff. Started as summer internship after 11th and was asked  to continue part time during 12th. 8 weeks, 35 hours per week in summer and all of 12th grade, 6 "
+        },
+        {
+          "name": "5. 3 week unpaid CS intern during summer after 10th grade with state democratic ",
+          "role": "",
+          "description": "5. 3 week unpaid CS intern during summer after 10th grade with state democratic party. Data Science work in Python. 35hrs per week for 3 weeks"
+        },
+        {
+          "name": "6. Violin for 8 years, private lessons and orchestra. Auditioned for and got a s",
+          "role": "",
+          "description": "6. Violin for 8 years, private lessons and orchestra. Auditioned for and got a seat in regional orchestra (11th, 12th), and state orchestra (12th). 6 hrs per week 48 weeks per year"
+        },
+        {
+          "name": "7. Piano for 6 years. Lessons at school. Auditioned and selected for a school re",
+          "role": "",
+          "description": "7. Piano for 6 years. Lessons at school. Auditioned and selected for a school recital that requires an audition. 5 hrs per week 36 weeks per year"
+        },
+        {
+          "name": "8. Paid Robotics Camp Counselor at school run camp summer after 9th grade. Teach",
+          "role": "",
+          "description": "8. Paid Robotics Camp Counselor at school run camp summer after 9th grade. Teach about arduinos, raspberry pi, some AI stuff and some electronics stuff. 25 hrs per week for 3 weeks"
+        },
+        {
+          "name": "9. Language Trips: School trip to Spain summer after 9th grade, Family trip to M",
+          "role": "",
+          "description": "9. Language Trips: School trip to Spain summer after 9th grade, Family trip to Mexico summer after 10th. Language classes both times, used it to skip a level in Spanish after 9th grade"
+        },
+        {
+          "name": "10. Model UN at school (head delegate) + at 3 day large MUN conference in town. ",
+          "role": "",
+          "description": "10. Model UN at school (head delegate) + at 3 day large MUN conference in town. Mostly South Asia related committees. 2 hrs per week 25 weeks per year."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Part of School's team for statewide math contest that's placed 3rd or 2nd in state every year I'v",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. School-level award for excellence in calc BC (given to one student in the class)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. School-level award for excellence in Spanish 5 (given to one student in the class)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Harvard Alumni Book Prize",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Also, 5th place in a different proof-based team math comp out of 45 teams that I mentioned on my St",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs, of course"
+    },
+    "ESSAY_SCORE": null
+  }
+}

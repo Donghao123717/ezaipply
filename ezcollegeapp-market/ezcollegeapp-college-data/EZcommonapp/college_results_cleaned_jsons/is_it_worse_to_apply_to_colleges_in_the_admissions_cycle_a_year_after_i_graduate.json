@@ -1,0 +1,33 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Agree that this is a better question for A2C.",
+          "role": "",
+          "description": "Agree that this is a better question for A2C."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Hi all, 2026 high school graduate here with a quick question. I'm possibly thinking about taking a gap year or community college classes after high school instead of applying to colleges during the 2026 admissions cycle. Am I less likely to get admitted into colleges as a first-year applicant if I don't apply in the 2026 admissions cycle that is aligned with my high school graduation year, and ins"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1390,
+      "act_composite": 31,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *#1* Chemistry Club Founder, Organizer, Captain (Run by said above chemistry ",
+          "role": "",
+          "description": "1. *#1* Chemistry Club Founder, Organizer, Captain (Run by said above chemistry teacher)"
+        },
+        {
+          "name": "2. \\#2 Volunteered for local farm",
+          "role": "",
+          "description": "2. \\#2 Volunteered for local farm"
+        },
+        {
+          "name": "3. \\#3 Worked at a local boba tea shop",
+          "role": "",
+          "description": "3. \\#3 Worked at a local boba tea shop"
+        },
+        {
+          "name": "4. \\#4 Frisbee club attendee, game every Sunday + practices",
+          "role": "",
+          "description": "4. \\#4 Frisbee club attendee, game every Sunday + practices"
+        },
+        {
+          "name": "5. \\#5 Robotics club attendee, we worked on weekends",
+          "role": "",
+          "description": "5. \\#5 Robotics club attendee, we worked on weekends"
+        },
+        {
+          "name": "6. \\#6 Summer program CIT, 4 weeks per summer",
+          "role": "",
+          "description": "6. \\#6 Summer program CIT, 4 weeks per summer"
+        },
+        {
+          "name": "7. \\#7 Babysat my little sister, 2x a week",
+          "role": "",
+          "description": "7. \\#7 Babysat my little sister, 2x a week"
+        },
+        {
+          "name": "8. \\#8 Researched a bit in chemical lab (no results though)",
+          "role": "",
+          "description": "8. \\#8 Researched a bit in chemical lab (no results though)"
+        },
+        {
+          "name": "9. \\#9 Chess: 1700 rating. Attended a chess tournament in middle school.",
+          "role": "",
+          "description": "9. \\#9 Chess: 1700 rating. Attended a chess tournament in middle school."
+        },
+        {
+          "name": "10. \\#10 Clash Royale: My highest number of trophies was 5629 and people would p",
+          "role": "",
+          "description": "10. \\#10 Clash Royale: My highest number of trophies was 5629 and people would pay me for advice and strategy."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 Honor Roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 PVSA Silver",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 USNCO Honors",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\#4 Some regional robotics prize",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5 PSAT Commended",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "chemical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

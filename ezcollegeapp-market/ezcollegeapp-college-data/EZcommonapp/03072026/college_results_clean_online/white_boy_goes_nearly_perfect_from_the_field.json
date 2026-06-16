@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc. I just copied most of it from right off my Common App"
+        },
+        {
+          "name": "Varsity Volleyball (Captain): Captained tournament victory. Created practice pla",
+          "role": "",
+          "description": "Varsity Volleyball (Captain): Captained tournament victory. Created practice plans and offseason training regiments. Coached new players at open gyms. All-Conference Selection (11) (4 yrs, 12 wks, 15h"
+        },
+        {
+          "name": "Boy Scout (Patrol Leader, Quartermaster, Chaplain's Aid): Eagle Scout; 32 Merit ",
+          "role": "",
+          "description": "Boy Scout (Patrol Leader, Quartermaster, Chaplain's Aid): Eagle Scout; 32 Merit Badges; 70 nights camping; led patrol at camps; organized troop equipment as QM; led opening ceremonies as CA. (4yrs, 5h"
+        },
+        {
+          "name": "Faith/Service Club (President): Led club of 80 in service; meets weekly; Raised ",
+          "role": "",
+          "description": "Faith/Service Club (President): Led club of 80 in service; meets weekly; Raised $3000 for hurricane relief, volunteers with elderly, cleaned up local school grounds, attend Mass. (4yrs, 35 wks, 3hrs)"
+        },
+        {
+          "name": "Local Parish Volunteer (Master Altar Server; Basketball Coach; Youth Group Leade",
+          "role": "",
+          "description": "Local Parish Volunteer (Master Altar Server; Basketball Coach; Youth Group Leader): Trained new servers, assigned roles, prepped and assisted in the Mass. Lead drills and helped develop skills for K-6"
+        },
+        {
+          "name": "Work (Cider Bottler/ Player Service Associate/ Front Desk): Managed the cart sta",
+          "role": "",
+          "description": "Work (Cider Bottler/ Player Service Associate/ Front Desk): Managed the cart staging area, tending to the needs of golfers. Worked front desk processing customer payment; maintained facility. Bottled "
+        },
+        {
+          "name": "Student Government (Treasurer): Elected to lead senior class. Chaired committees",
+          "role": "",
+          "description": "Student Government (Treasurer): Elected to lead senior class. Chaired committees for events, involving budgeting, organizing and executing for tournaments, dances and assemblies. (3yrs, 40 wks, 8hrs)"
+        },
+        {
+          "name": "Pro-Life Club (VP): Organized and led meetings to educate and raise awareness to",
+          "role": "",
+          "description": "Pro-Life Club (VP): Organized and led meetings to educate and raise awareness to pro-life cause; attend marches; assemble birth kits; assist pregnant mothers. (4yrs, 30 wks, 4hrs)"
+        },
+        {
+          "name": "Vending Machine Company (Co- Founder/ Owner-Operator): Built and manage a 4-mach",
+          "role": "",
+          "description": "Vending Machine Company (Co- Founder/ Owner-Operator): Built and manage a 4-machine vending enterprise; apply financial analysis to optimize product mix and profit margins. Grew social media presence."
+        },
+        {
+          "name": "Chemistry Club (Board Member): Helped to found and grow club. Designed education",
+          "role": "",
+          "description": "Chemistry Club (Board Member): Helped to found and grow club. Designed educational experiments. Working on Biodegradation of Plastics Research paper. (2yrs, 40 wks, 3hrs)"
+        },
+        {
+          "name": "Quiz Bowl- Competed in 2024 National Championship. Competed in 10+ tournaments. ",
+          "role": "",
+          "description": "Quiz Bowl- Competed in 2024 National Championship. Competed in 10+ tournaments. Helped to run tournaments and coach middle school players at summer camp."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "Scholastic All Catholic",
+          "role": "",
+          "description": "Scholastic All Catholic"
+        },
+        {
+          "name": "AP Scholar with Honor; School Recognition",
+          "role": "",
+          "description": "AP Scholar with Honor; School Recognition"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Scholastic All Catholic",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Honor; School Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School upper honor roll + 5 Class awards given to one student in each class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "HOSA Regional Finalist and State Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letter 1: This teacher had me for two years in math (As both years) and was able to watch me grow an",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letter 2: Honors English 1 and AP Lit teacher, as well as a moderator for two clubs I partake in (no",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Faith/Service Club (President): Led club of 80 in service; meets weekly; Raised $3000 for hurricane relief, volunteers with elderly, cleaned up local school grounds, attend Mass. (4yrs, 35 wks, 3hrs); Local Parish Volunteer (Master Altar Server; Basketball Coach; Youth Group Leader): Trained new servers, assigned roles, prepped and assisted in the Mass. Lead drills and helped develop skills for K-6; Work (Cider Bottler/ Player Service Associate/ Front Desk): Managed the cart staging area, tendin"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

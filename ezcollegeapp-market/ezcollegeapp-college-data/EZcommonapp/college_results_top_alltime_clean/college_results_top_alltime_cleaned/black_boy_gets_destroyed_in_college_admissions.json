@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.62,
+      "sat_total": null,
+      "act_composite": 29,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Not very impressive, I know.",
+          "role": "",
+          "description": "Not very impressive, I know."
+        },
+        {
+          "name": "1. Summer job at Burger King - Cashier, 10-15 hours a week (11th)",
+          "role": "",
+          "description": "1. Summer job at Burger King - Cashier, 10-15 hours a week (11th)"
+        },
+        {
+          "name": "2. Current job at my local deli - 16 hours a week (12th)",
+          "role": "",
+          "description": "2. Current job at my local deli - 16 hours a week (12th)"
+        },
+        {
+          "name": "3. Community service in a youth council - 20+ hours (12th)",
+          "role": "",
+          "description": "3. Community service in a youth council - 20+ hours (12th)"
+        },
+        {
+          "name": "4. Dad's \"assistant\" where I helped him set up poles and install meter bases (9t",
+          "role": "",
+          "description": "4. Dad's \"assistant\" where I helped him set up poles and install meter bases (9th to 12th)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Yes! This debt isn't worth it.; For the GPA and ACT and the very competitive field you applied for, you got great options. Try financial aid and see if they can offer more. Also I think your extra curricular of working so many hours is very cool.; [deleted]; What are you talking about; As others here have mentioned, if you can swing it, Id go for RIT.  If you want to try for SCU you need to be writing some love letters, but keep in mind they are pretty pricey.; You didn’t get destroyed, that sho"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer engineering, computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

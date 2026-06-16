@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.5,
+      "sat_total": 1270,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Research Internship with Federal Government",
+          "role": "",
+          "description": "Research Internship with Federal Government"
+        },
+        {
+          "name": "helped with environmental pollution remediation research.",
+          "role": "",
+          "description": "helped with environmental pollution remediation research."
+        },
+        {
+          "name": "NRA Marksmanship program -- Completed. This was my main sport in high school, bu",
+          "role": "",
+          "description": "NRA Marksmanship program -- Completed. This was my main sport in high school, but I also played baseball all four years, and competed in state championships all four years, with the best finish of 5th overall."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Chem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Stats",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Environmental Art",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Teaching Assistant APUSH. Standardized Testing List the highest scores earned and all scores that were reported. SAT: 12",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Personal statement -- Talked about farming and how that had been a good way for me to connect with my community because we sold food to them."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Finance & Political Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1340,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "8 APs (CSP",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CSA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APHUG",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APUSH",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APPC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc BC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Physics 1",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Spanish Lang) 1 Dual Enrollment (ENG 101/102)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "honors: Georgia Certificate of Merit (top 10% of state) National Spanish Exam Silver Medalist GHP Semifinalist (Spanish)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "essays: Wrote about personal trauma and how it helped me grow, not perfect but I think it was good. IDRK",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rec letters: Calc and Precalc teacher, probably good, not sure Spanish IV teacher, probably very good bc she nominated m",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Other: White female, middle income (~60-70k) From georgia Go to small private school ~70 students with less than 12 APs ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

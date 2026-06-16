@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1300,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Remote internship at local AI startup - focused on business stuff creating re",
+          "role": "",
+          "description": "1. Remote internship at local AI startup - focused on business stuff creating reports on other companies (8hr/w)"
+        },
+        {
+          "name": "2. Job - minimum wage retail, quit my job (I hate retail) (15hr/w 💀)",
+          "role": "",
+          "description": "2. Job - minimum wage retail, quit my job (I hate retail) (15hr/w 💀)"
+        },
+        {
+          "name": "3. Sports - Swimming - washed former competitve swimmer what can i say (5hr/w)",
+          "role": "",
+          "description": "3. Sports - Swimming - washed former competitve swimmer what can i say (5hr/w)"
+        },
+        {
+          "name": "4. Internship at some random indian guy's 1 person consulting service - might no",
+          "role": "",
+          "description": "4. Internship at some random indian guy's 1 person consulting service - might not look impressive to colleges but I learned a lot (5hr/w)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "N/A",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "4. Internship at some random indian guy's 1 person consulting service - might not look impressive to colleges but I learned a lot (5hr/w)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

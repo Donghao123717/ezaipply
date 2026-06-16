@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Founder and President of Youth Service Club at school for 3 years (fundraisin",
+          "role": "",
+          "description": "1. Founder and President of Youth Service Club at school for 3 years (fundraising for various causes, community cleaning, elderly/disability care, service seminars, guest speakers, etc.)"
+        },
+        {
+          "name": "2. Co-Founder and co-President of the Gay-Straight Alliance at school for 3 year",
+          "role": "",
+          "description": "2. Co-Founder and co-President of the Gay-Straight Alliance at school for 3 years"
+        },
+        {
+          "name": "3. School newspaper all 4 years (editor-in-chief last 2 years)",
+          "role": "",
+          "description": "3. School newspaper all 4 years (editor-in-chief last 2 years)"
+        },
+        {
+          "name": "4. Church volunteer + bible study all 4 years",
+          "role": "",
+          "description": "4. Church volunteer + bible study all 4 years"
+        },
+        {
+          "name": "5. Farm work all 4 years (variety of tasks, takes a lot of time especially on we",
+          "role": "",
+          "description": "5. Farm work all 4 years (variety of tasks, takes a lot of time especially on weekends with my mom and her boyfriend)"
+        },
+        {
+          "name": "6. Helping care for my younger brother and sister all 4 years (homework, cleanin",
+          "role": "",
+          "description": "6. Helping care for my younger brother and sister all 4 years (homework, cleaning, sometimes food, etc.)"
+        },
+        {
+          "name": "7. Waitress during summers",
+          "role": "",
+          "description": "7. Waitress during summers"
+        },
+        {
+          "name": "8. Baking for community events and fun (more of a hobby)",
+          "role": "",
+          "description": "8. Baking for community events and fun (more of a hobby)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National Merit Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Honor (at time of application)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Won several pageants (these are pretty popular in my town/area)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Won “student of the year” in my district",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Several baking awards at local fair (put this for fun and because I didn’t really have anything e",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": false,
+      "service_summary": "1. Founder and President of Youth Service Club at school for 3 years (fundraising for various causes, community cleaning, elderly/disability care, service seminars, guest speakers, etc.); 4. Church volunteer + bible study all 4 years; 8. Baking for community events and fun (more of a hobby)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " public policy, history"
+    },
+    "ESSAY_SCORE": null
+  }
+}

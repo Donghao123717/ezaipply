@@ -1,0 +1,88 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "lmfao",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. national french exam (3 years; gold, silver, silver)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. edit: scholastic writing (regional silver i literally wrote about needing to poop godspeed bro)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. [city] metro history day (got to state)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. national merit semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. iowa caucus debate tournament winner (u can tell im cooked bc im putting an award from an activit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "—————————",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "recommendations:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "basically just got banger rec from the community service site owner who happened to be a grad from a",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "my other two recommenders were very well-spoken and written people so i expect that they were very g",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "—————————",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "essays:",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.995,
+      "sat_total": 1470,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Speech and Debate, Team Captain, went to nationals(10-12)*",
+          "role": "",
+          "description": "1. *Speech and Debate, Team Captain, went to nationals(10-12)*"
+        },
+        {
+          "name": "2. *Violin, played in three ensembles and carneigie hall(9-12)*",
+          "role": "",
+          "description": "2. *Violin, played in three ensembles and carneigie hall(9-12)*"
+        },
+        {
+          "name": "3. *Volunteer at a nearby hospital, learnt more about nursing and hospital admin",
+          "role": "",
+          "description": "3. *Volunteer at a nearby hospital, learnt more about nursing and hospital administration(11-12)*"
+        },
+        {
+          "name": "4. *NHS, President senior year*",
+          "role": "",
+          "description": "4. *NHS, President senior year*"
+        },
+        {
+          "name": "5. Cornell Precollege Summer Course(11)- biology related",
+          "role": "",
+          "description": "5. Cornell Precollege Summer Course(11)- biology related"
+        },
+        {
+          "name": "6. Blog, have over 25000 readers over the span of 7 years but really spiked in H",
+          "role": "",
+          "description": "6. Blog, have over 25000 readers over the span of 7 years but really spiked in HS."
+        },
+        {
+          "name": "7. Lifeguard at a pool in Australia(summer before 10)",
+          "role": "",
+          "description": "7. Lifeguard at a pool in Australia(summer before 10)"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *National Merit Scholarship Semifinalist*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. President's Volunteer service award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Speech and debate awards I dont want to specify",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": "3. *Volunteer at a nearby hospital, learnt more about nursing and hospital administration(11-12)*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "nursing... yes, nursing"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.7,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founded a free AP/SAT platform",
+          "role": "",
+          "description": "Founded a free AP/SAT platform"
+        },
+        {
+          "name": "more than 100 lessons and unit guides over 10 classes available on website with ",
+          "role": "",
+          "description": "more than 100 lessons and unit guides over 10 classes available on website with 700+ unique visitors DECA: researched aid gaps, launched a program with live FAFSA seminars with 150 in person participants, 2nd at State DECA"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: 4 APs (Chem, CSA, Bio, Research) + 2 Dual Enrollment (Multivariable/Differential Eq.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Standardized Testing:**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "List the highest scores earned and all scores that were reported.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT/ACT/APs: 1490 SAT, 35 ACT. 5s on World History, APUSH, Stats, Micro, Macro, Calc BC, Lit, 4 on Physics 1",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "you're lucky you got into any of those schools instead of going to a community college (where you belong)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "** Economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

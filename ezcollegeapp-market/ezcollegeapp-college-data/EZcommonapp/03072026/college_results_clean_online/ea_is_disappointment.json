@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 99.9,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Academic",
+          "role": "",
+          "description": "Academic"
+        },
+        {
+          "name": "Grades 9–12",
+          "role": "",
+          "description": "Grades 9–12"
+        },
+        {
+          "name": "Qualified for USAMO, INPhO, INChO, RMO; top ranks in 30+ olympiads.",
+          "role": "",
+          "description": "Qualified for USAMO, INPhO, INChO, RMO; top ranks in 30+ olympiads."
+        },
+        {
+          "name": "Research & Innovation",
+          "role": "",
+          "description": "Research & Innovation"
+        },
+        {
+          "name": "Grades 11–12",
+          "role": "",
+          "description": "Grades 11–12"
+        },
+        {
+          "name": "Published 2 research; patent accepted and published",
+          "role": "",
+          "description": "Published 2 research; patent accepted and published"
+        },
+        {
+          "name": "Tennis (Club Level)",
+          "role": "",
+          "description": "Tennis (Club Level)"
+        },
+        {
+          "name": "Grades 9–12",
+          "role": "",
+          "description": "Grades 9–12"
+        },
+        {
+          "name": "National and state tournaments.",
+          "role": "",
+          "description": "National and state tournaments."
+        },
+        {
+          "name": "Computer Science & AI",
+          "role": "",
+          "description": "Computer Science & AI"
+        },
+        {
+          "name": "Grades 10–12",
+          "role": "",
+          "description": "Grades 10–12"
+        },
+        {
+          "name": "Completed CS50x and 15+ AI/CS courses; built academic web projects and website f",
+          "role": "",
+          "description": "Completed CS50x and 15+ AI/CS courses; built academic web projects and website for olympiad level physics solutions."
+        },
+        {
+          "name": "Internship – AI & Data Analytics",
+          "role": "",
+          "description": "Internship – AI & Data Analytics"
+        },
+        {
+          "name": "Grades 10–12",
+          "role": "",
+          "description": "Grades 10–12"
+        },
+        {
+          "name": "Applied ML, statistical analysis (Python), and data dashboards (Power BI).",
+          "role": "",
+          "description": "Applied ML, statistical analysis (Python), and data dashboards (Power BI)."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "USAMO Qualifier (AIME 14/15)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Indian National Physics Olympiad (INPhO) Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Indian National Chemistry Olympiad (INChO) Qualifier (Top ~10 nationally)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Regional Mathematics Olympiad (RMO) Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "John Locke Essay Competition – Commendation (Law)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Activities",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Academic",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Grades 9–12",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Qualified for USAMO, INPhO, INChO, RMO; top ranks in 30+ olympiads.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Research & Innovation",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": null,
+      "service_summary": "Grades 9–12; Taught 200+ underprivileged students; education-focused outreach.; Student Government & Clubs; Grades 9–12; Student body president; led math and physics clubs.; Writing & Publications"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

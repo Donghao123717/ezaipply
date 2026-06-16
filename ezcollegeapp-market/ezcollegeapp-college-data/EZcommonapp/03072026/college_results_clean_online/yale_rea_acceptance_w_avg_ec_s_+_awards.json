@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1370,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "vv scared of getting doxxed so sorry for how vague it is, but you can get the po",
+          "role": "",
+          "description": "vv scared of getting doxxed so sorry for how vague it is, but you can get the point that they weren't that significant"
+        },
+        {
+          "name": "1. student board member for my school district: literally had only been doing it",
+          "role": "",
+          "description": "1. student board member for my school district: literally had only been doing it for 2 weeks at the time of writing application, lightly spoke about it in one supplemental. 1st person to serve this ro"
+        },
+        {
+          "name": "2. internship at state capitol: actually did this for a big chunk of 2021, talke",
+          "role": "",
+          "description": "2. internship at state capitol: actually did this for a big chunk of 2021, talked about it a lot in essays"
+        },
+        {
+          "name": "3. student gov vice president: never touched on it outside of ec's section in co",
+          "role": "",
+          "description": "3. student gov vice president: never touched on it outside of ec's section in common app. i did stuff for it, but also never really learned much from it"
+        },
+        {
+          "name": "4. NHS pres: \\^",
+          "role": "",
+          "description": "4. NHS pres: \\^"
+        },
+        {
+          "name": "5. mathletes pres: \\^\\^ i am so bad at math lmfao this i will fully admit was a ",
+          "role": "",
+          "description": "5. mathletes pres: \\^\\^ i am so bad at math lmfao this i will fully admit was a filler ec. it was more of a social club than a serious math comp club"
+        },
+        {
+          "name": "6. tennis: only did frosh/soph, played varsity soph yr, was really bad, no team ",
+          "role": "",
+          "description": "6. tennis: only did frosh/soph, played varsity soph yr, was really bad, no team awards (mvp, captain) or actual competition wins lol"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "truly insignificant.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. state history day runner up",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. regional history day winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. ap scholar w/ distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. school honor roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "poli sci + econ &amp; math (no idea why i said econ &amp; math instead of just e"
+    },
+    "ESSAY_SCORE": null
+  }
+}

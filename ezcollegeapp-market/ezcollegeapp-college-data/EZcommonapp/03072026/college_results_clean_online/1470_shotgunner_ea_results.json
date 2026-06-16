@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1470,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Internship with my local district court, spent about 400 hours in court assistin",
+          "role": "",
+          "description": "Internship with my local district court, spent about 400 hours in court assisting clerks and shadowing judges"
+        },
+        {
+          "name": "Youth Outreach program ran thru church, ran volunteer events throughout communit",
+          "role": "",
+          "description": "Youth Outreach program ran thru church, ran volunteer events throughout community to get youth more involved in service, impact ~1000 every month"
+        },
+        {
+          "name": "Niche sport, can't get recruited but placed in national-level tournaments and vo",
+          "role": "",
+          "description": "Niche sport, can't get recruited but placed in national-level tournaments and volunteered as a coach as well"
+        },
+        {
+          "name": "Internship with large law firm in DC",
+          "role": "",
+          "description": "Internship with large law firm in DC"
+        },
+        {
+          "name": "Internship with smaller law firm in my area",
+          "role": "",
+          "description": "Internship with smaller law firm in my area"
+        },
+        {
+          "name": "Summer volunteer at environmental nonprofit, recycled over 500 lbs garbage into ",
+          "role": "",
+          "description": "Summer volunteer at environmental nonprofit, recycled over 500 lbs garbage into benches, tables, garden beds, and coasters"
+        },
+        {
+          "name": "Mission trip thru church",
+          "role": "",
+          "description": "Mission trip thru church"
+        },
+        {
+          "name": "Co-founder of foreign exchange club, took care of foreign students for a week",
+          "role": "",
+          "description": "Co-founder of foreign exchange club, took care of foreign students for a week"
+        },
+        {
+          "name": "Team Captain of school cross country team, contributed to championship victory m",
+          "role": "",
+          "description": "Team Captain of school cross country team, contributed to championship victory my sophomore and senior years"
+        },
+        {
+          "name": "ran a snowblowing business in my area, did about 5k in revenue throughout hs",
+          "role": "",
+          "description": "ran a snowblowing business in my area, did about 5k in revenue throughout hs"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "Sport Award - international level(EC #3)",
+          "role": "",
+          "description": "Sport Award - international level(EC #3)"
+        },
+        {
+          "name": "NHS - Chapter VP",
+          "role": "",
+          "description": "NHS - Chapter VP"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Sport Award - international level(EC #3)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS - Chapter VP",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Won a State-level Law review competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LOR #1 - 10/10 - I truly believe this was a great LOR, I had this teacher for AP Euro, Apush, AP Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Lor #2 - 8/10 - I had this teacher for AP Lang and AP Lit, was very involved in her class and spent ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 1000,
+      "first_gen": true,
+      "service_summary": "Youth Outreach program ran thru church, ran volunteer events throughout community to get youth more involved in service, impact ~1000 every month; Summer volunteer at environmental nonprofit, recycled over 500 lbs garbage into benches, tables, garden beds, and coasters"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science/foreign affairs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

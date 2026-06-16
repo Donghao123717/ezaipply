@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I work 35 hr-wk average to support myself (11-12)",
+          "role": "",
+          "description": "I work 35 hr-wk average to support myself (11-12)"
+        },
+        {
+          "name": "Varsity Debate all 4 years, this is my big ec, single most awarded person in sch",
+          "role": "",
+          "description": "Varsity Debate all 4 years, this is my big ec, single most awarded person in schools history"
+        },
+        {
+          "name": "Winterguard 5 years, competed at international level",
+          "role": "",
+          "description": "Winterguard 5 years, competed at international level"
+        },
+        {
+          "name": "Marching Band (colorguard) 2 years, second at state",
+          "role": "",
+          "description": "Marching Band (colorguard) 2 years, second at state"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "NSDA Academic American",
+          "role": "",
+          "description": "NSDA Academic American"
+        },
+        {
+          "name": "NSDA National Qualifier",
+          "role": "",
+          "description": "NSDA National Qualifier"
+        },
+        {
+          "name": "State Debate qualifier x4 and runner up",
+          "role": "",
+          "description": "State Debate qualifier x4 and runner up"
+        },
+        {
+          "name": "4.State Marching Band Championship x2",
+          "role": "",
+          "description": "4.State Marching Band Championship x2"
+        },
+        {
+          "name": "5.Distinguished Graduate, Character Council recognition",
+          "role": "",
+          "description": "5.Distinguished Graduate, Character Council recognition"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "3 Yr Calculus teacher- literally the best teacher at the school she’s my GOAT sh",
+          "role": "",
+          "description": "3 Yr Calculus teacher- literally the best teacher at the school she’s my GOAT she also has hella national recognition for being a goat. Prolly really high quality"
+        },
+        {
+          "name": "Debate Coach- really strong personal relationship, watched me from freshman novi",
+          "role": "",
+          "description": "Debate Coach- really strong personal relationship, watched me from freshman novice all the way to attending nationals very high quality"
+        },
+        {
+          "name": "Essays",
+          "role": "",
+          "description": "Essays"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NSDA Academic American",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NSDA National Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State Debate qualifier x4 and runner up",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4.State Marching Band Championship x2",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5.Distinguished Graduate, Character Council recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3 Yr Calculus teacher- literally the best teacher at the school she’s my GOAT she also has hella nat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Debate Coach- really strong personal relationship, watched me from freshman novice all the way to at",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mechanical engineering, systems engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

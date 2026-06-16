@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I don't want to be *too* easily identifiable, so I'll leave some of these very v",
+          "role": "",
+          "description": "I don't want to be *too* easily identifiable, so I'll leave some of these very vague or combined. Others are directly copied lmao"
+        },
+        {
+          "name": "1. Game jam! (lead host since 11th, 501(c)(3)): Negotiated sponsorships ($100,00",
+          "role": "",
+          "description": "1. Game jam! (lead host since 11th, 501(c)(3)): Negotiated sponsorships ($100,000+ in prizes), recruited 1500+ participants &amp; 30+ judges from 70+ countries, made websites, led team for 5 game jams"
+        },
+        {
+          "name": "2. School's game dev club :D (pres since 11th): increased member retention, made",
+          "role": "",
+          "description": "2. School's game dev club :D (pres since 11th): increased member retention, made lessons, etc."
+        },
+        {
+          "name": "3. Competitive programming (club (VP) &amp; my own stuff)",
+          "role": "",
+          "description": "3. Competitive programming (club (VP) &amp; my own stuff)"
+        },
+        {
+          "name": "4. Game developer (indie studio &amp; my own stuff)",
+          "role": "",
+          "description": "4. Game developer (indie studio &amp; my own stuff)"
+        },
+        {
+          "name": "5. Journalism (editor-in-chief in 12th)",
+          "role": "",
+          "description": "5. Journalism (editor-in-chief in 12th)"
+        },
+        {
+          "name": "6. Research (Junior -&gt; senior year summer. I barely did anything)",
+          "role": "",
+          "description": "6. Research (Junior -&gt; senior year summer. I barely did anything)"
+        },
+        {
+          "name": "7. COSMOS (game dev cluster in 10th)",
+          "role": "",
+          "description": "7. COSMOS (game dev cluster in 10th)"
+        },
+        {
+          "name": "8. Sports med (only submitted to MIT, as my 4th activity): interned under our at",
+          "role": "",
+          "description": "8. Sports med (only submitted to MIT, as my 4th activity): interned under our athletic trainer since 11th, helped act as her substitute in the beginning of 12th when we had no AT"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. PVSA Gold (this was won through the game jam stuff)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Scholastic Press Association 1st place (won't mention which category cuz that's too easi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. USACO gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. NSPA again! 3rd place this time",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. MVP/league award in volleyball",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science for all public schools + a few privates, interdisciplinary but"
+    },
+    "ESSAY_SCORE": null
+  }
+}

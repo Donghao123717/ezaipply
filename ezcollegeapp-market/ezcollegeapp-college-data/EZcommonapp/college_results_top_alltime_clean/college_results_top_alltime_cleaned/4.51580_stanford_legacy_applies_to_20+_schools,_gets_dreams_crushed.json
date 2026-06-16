@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Keeping these a little broad so I don't get doxxed.",
+          "role": "",
+          "description": "Keeping these a little broad so I don't get doxxed."
+        },
+        {
+          "name": "1. Founded a web collective to help developers, reached a few thousand people wi",
+          "role": "",
+          "description": "1. Founded a web collective to help developers, reached a few thousand people with my projects, helped enhance school computer science department (wrote some essays about it)."
+        },
+        {
+          "name": "2. Created and sold a niche game engine to a few hundred people, also used engin",
+          "role": "",
+          "description": "2. Created and sold a niche game engine to a few hundred people, also used engine in school to teach middle schoolers computer science."
+        },
+        {
+          "name": "3. Co-founded math and computer science tutoring business, tutor a few hours a w",
+          "role": "",
+          "description": "3. Co-founded math and computer science tutoring business, tutor a few hours a week."
+        },
+        {
+          "name": "4. Varsity on school cross country team for 4 years, team captain for 3 years, r",
+          "role": "",
+          "description": "4. Varsity on school cross country team for 4 years, team captain for 3 years, recognized state-wide (not recruited though)."
+        },
+        {
+          "name": "5. Part-time job coaching soccer to kids (20 hours/week over the summer, Saturda",
+          "role": "",
+          "description": "5. Part-time job coaching soccer to kids (20 hours/week over the summer, Saturdays during school year)."
+        },
+        {
+          "name": "6. Remote job as a technical reviewer for a computer science publishing company ",
+          "role": "",
+          "description": "6. Remote job as a technical reviewer for a computer science publishing company (flexible hours)."
+        },
+        {
+          "name": "7. Software freelancing (on and off, average just a few hours a week when I have",
+          "role": "",
+          "description": "7. Software freelancing (on and off, average just a few hours a week when I have time)."
+        },
+        {
+          "name": "8. School math team for 4 years, grade captain for 3 years.",
+          "role": "",
+          "description": "8. School math team for 4 years, grade captain for 3 years."
+        },
+        {
+          "name": "9. School computer science club for 4 years, leader for 2 years.",
+          "role": "",
+          "description": "9. School computer science club for 4 years, leader for 2 years."
+        },
+        {
+          "name": "10. Piano and music composition (mostly as a hobby).",
+          "role": "",
+          "description": "10. Piano and music composition (mostly as a hobby)."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Keeping these a little broad so I don't get doxxed.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Bronze medal in international CS competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Winner of national CS competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National Merit Scholarship Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Cum Laude award at school",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Also added some running awards for MIT's extended awards section.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "3. Co-founded math and computer science tutoring business, tutor a few hours a week."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science (of course)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

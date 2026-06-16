@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. \\[Instrument\\] Principal player in school's top band, all-city, and pit orche",
+          "role": "",
+          "description": "1. \\[Instrument\\] Principal player in school's top band, all-city, and pit orchestra for school musicals. State music festival level 6: A+; Play community concerts for the elderly. Some awards."
+        },
+        {
+          "name": "2. Composition: Composed pieces which have been played across the USA and Europe",
+          "role": "",
+          "description": "2. Composition: Composed pieces which have been played across the USA and Europe; 2020-2021 \\[Redacted\\] Fellow; Attended Prestigious music festivals w/ scholarships; scored award-winning films"
+        },
+        {
+          "name": "3. Founder of Film Production Company; Animation: Directed and animated multiple",
+          "role": "",
+          "description": "3. Founder of Film Production Company; Animation: Directed and animated multiple international + national award-winning short films; Invited to speak at Q&amp;A panels and filmmaker discussions. Curre"
+        },
+        {
+          "name": "4. \\[Nonprofit community work\\] Legal nonprofit top leadership position, Host/pl",
+          "role": "",
+          "description": "4. \\[Nonprofit community work\\] Legal nonprofit top leadership position, Host/plan workshops and masterclasses; Oversaw donations of PPEs and medical equipment; Coordinate logistics with Northeast cha"
+        },
+        {
+          "name": "5. \\[Instrument\\] Teaching; Teach 4 students \\[Instruments\\] during the school y",
+          "role": "",
+          "description": "5. \\[Instrument\\] Teaching; Teach 4 students \\[Instruments\\] during the school year, 2 students through \\[Music school name\\]; Teach classical technique and music theory"
+        },
+        {
+          "name": "6. Digital Media Coordinator: Large political organization, ran social media tea",
+          "role": "",
+          "description": "6. Digital Media Coordinator: Large political organization, ran social media teams/planned posts as well as organizing phone banking and text banking for various Democratic Campaigns including Bernie "
+        },
+        {
+          "name": "7. Choir; Sang in Lincoln Center performances, \\[Redacted\\] for \\[Major city fes",
+          "role": "",
+          "description": "7. Choir; Sang in Lincoln Center performances, \\[Redacted\\] for \\[Major city festival\\] Festival, soprano solo in Mozart's Requiem"
+        },
+        {
+          "name": "8. Public Relations Director/Data Analyst at Startup; Researched and inputted da",
+          "role": "",
+          "description": "8. Public Relations Director/Data Analyst at Startup; Researched and inputted data points; Oversee public relations(wrote press releases, created an outreach plan); product was on USA Today + NBC"
+        },
+        {
+          "name": "9. \\[Conducting\\] Conducted orchestra and choir at a European Music Festival; Pa",
+          "role": "",
+          "description": "9. \\[Conducting\\] Conducted orchestra and choir at a European Music Festival; Participated in masterclasses (one was where I worked 1-on-1 with a composer); Score study"
+        },
+        {
+          "name": "10. Co-President and Co-Founder of a School club: Founded an club with 50+ membe",
+          "role": "",
+          "description": "10. Co-President and Co-Founder of a School club: Founded an club with 50+ members; taught how to draw architectural drawings on autoCAD + scaled 3D models; managed and planned meetings"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National YoungArts Winner Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\[Redacted Music\\] Fellowship (very selective?)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AT&amp;T Film Awards(won 2 top awards)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. International Film Festival Official Selection(BAFTA qualifier)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. International Animation Film Festival Finalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "1. \\[Instrument\\] Principal player in school's top band, all-city, and pit orchestra for school musicals. State music festival level 6: A+; Play community concerts for the elderly. Some awards.; 4. \\[Nonprofit community work\\] Legal nonprofit top leadership position, Host/plan workshops and masterclasses; Oversaw donations of PPEs and medical equipment; Coordinate logistics with Northeast cha"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "music, film and media studies, and cognitive science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

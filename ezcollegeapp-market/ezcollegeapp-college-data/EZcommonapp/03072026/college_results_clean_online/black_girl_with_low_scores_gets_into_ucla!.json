@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.75,
+      "sat_total": 1360,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. president of bsu",
+          "role": "",
+          "description": "1. president of bsu"
+        },
+        {
+          "name": "2. worked a job (25 hours a week)",
+          "role": "",
+          "description": "2. worked a job (25 hours a week)"
+        },
+        {
+          "name": "3. family responsibility",
+          "role": "",
+          "description": "3. family responsibility"
+        },
+        {
+          "name": "4. did some writing for my schools newspaper",
+          "role": "",
+          "description": "4. did some writing for my schools newspaper"
+        },
+        {
+          "name": "5. environmental club",
+          "role": "",
+          "description": "5. environmental club"
+        },
+        {
+          "name": "6. social media manager for a tiktok",
+          "role": "",
+          "description": "6. social media manager for a tiktok"
+        },
+        {
+          "name": "7. job in 9th grade",
+          "role": "",
+          "description": "7. job in 9th grade"
+        },
+        {
+          "name": "8. 2nd job last summer",
+          "role": "",
+          "description": "8. 2nd job last summer"
+        },
+        {
+          "name": "9. none",
+          "role": "",
+          "description": "9. none"
+        },
+        {
+          "name": "10. none",
+          "role": "",
+          "description": "10. none"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. student award for ap us history",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. none",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. none",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. none",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. none",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "i couldn’t find any awards or things??”",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

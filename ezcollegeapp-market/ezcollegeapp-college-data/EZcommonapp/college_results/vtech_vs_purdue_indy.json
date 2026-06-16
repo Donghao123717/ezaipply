@@ -1,0 +1,141 @@
+{
+  "post": {
+    "id": "t3_1qslo36",
+    "title": "Vtech vs purdue indy",
+    "author": "Global-Argument-2050",
+    "selftext": "Hi, I got into purdue indy for data science and virginia tech for cdma. What school would you recommend? anything info about either school would be helpful I don't really know too much about how my life would be at either schools.",
+    "score": "1",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1qslo36/vtech_vs_purdue_indy/",
+    "created": "2026-02-01T02:14:36+00:00",
+    "num_comments": 4,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o2xapay",
+      "author": "Defiant-Acadia7053",
+      "body": "Id say VT. Only do Purdue if you think youd wanna transfer to main campus, even then thats a whole annoyance.",
+      "score": "5 points",
+      "created": "2026-02-01T05:44:00+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o322s5h",
+          "author": "Global-Argument-2050",
+          "body": "Do you know if transferring to WL is possible? I’ve heard it’s extremely difficult and the chances are close to 0",
+          "score": "1 point",
+          "created": "2026-02-01T23:01:53+00:00",
+          "depth": 1,
+          "parent_id": "t1_o2xapay",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o44uvv6",
+              "author": "Garubiize",
+              "body": "Just go Vtech mate its more stable than trying to transfer internal",
+              "score": "1 point",
+              "created": "2026-02-07T19:56:40+00:00",
+              "depth": 2,
+              "parent_id": "t1_o322s5h",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o3pke51",
+      "author": "chrissyduck2000",
+      "body": "Virginia Tech!!",
+      "score": "1 point",
+      "created": "2026-02-05T13:03:20+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qslo36",
+        "author": "Global-Argument-2050",
+        "title": "Vtech vs purdue indy",
+        "body": "Hi, I got into purdue indy for data science and virginia tech for cdma. What school would you recommend? anything info about either school would be helpful I don't really know too much about how my life would be at either schools.",
+        "full_text": "Vtech vs purdue indy\n\nHi, I got into purdue indy for data science and virginia tech for cdma. What school would you recommend? anything info about either school would be helpful I don't really know too much about how my life would be at either schools."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o2xapay",
+          "author": "Defiant-Acadia7053",
+          "body": "Id say VT. Only do Purdue if you think youd wanna transfer to main campus, even then thats a whole annoyance.",
+          "score": "5 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o3pke51",
+          "author": "chrissyduck2000",
+          "body": "Virginia Tech!!",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o2xapay",
+        "author": "Defiant-Acadia7053",
+        "body": "Id say VT. Only do Purdue if you think youd wanna transfer to main campus, even then thats a whole annoyance.",
+        "score": "5 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o322s5h",
+          "author": "Global-Argument-2050",
+          "body": "Do you know if transferring to WL is possible? I’ve heard it’s extremely difficult and the chances are close to 0",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o322s5h",
+        "author": "Global-Argument-2050",
+        "body": "Do you know if transferring to WL is possible? I’ve heard it’s extremely difficult and the chances are close to 0",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o44uvv6",
+          "author": "Garubiize",
+          "body": "Just go Vtech mate its more stable than trying to transfer internal",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 2,
+    "total_qa_pairs": 3
+  }
+}

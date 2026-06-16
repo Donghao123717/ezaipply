@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Internship at tech startup (40 hours a week over summer)",
+          "role": "",
+          "description": "1. Internship at tech startup (40 hours a week over summer)"
+        },
+        {
+          "name": "2. Captain of FTC Team",
+          "role": "",
+          "description": "2. Captain of FTC Team"
+        },
+        {
+          "name": "3. Class Council President from 9th-12th grade",
+          "role": "",
+          "description": "3. Class Council President from 9th-12th grade"
+        },
+        {
+          "name": "4. Math club president",
+          "role": "",
+          "description": "4. Math club president"
+        },
+        {
+          "name": "5. Programming club president",
+          "role": "",
+          "description": "5. Programming club president"
+        },
+        {
+          "name": "6. MUN Board member",
+          "role": "",
+          "description": "6. MUN Board member"
+        },
+        {
+          "name": "7. Research with professor at reputable school (not saying to avoid doxxing, thi",
+          "role": "",
+          "description": "7. Research with professor at reputable school (not saying to avoid doxxing, think top cs)"
+        },
+        {
+          "name": "8. Volunteer at local homeless shelter (10 hours per week, 40 weeks per year sin",
+          "role": "",
+          "description": "8. Volunteer at local homeless shelter (10 hours per week, 40 weeks per year since freshman year)"
+        },
+        {
+          "name": "9. Job at local supermarket (8 hours per week, 36 weeks per year)",
+          "role": "",
+          "description": "9. Job at local supermarket (8 hours per week, 36 weeks per year)"
+        },
+        {
+          "name": "10. Taught CS to underrepresented minorities through a workshop I founded, 100+ ",
+          "role": "",
+          "description": "10. Taught CS to underrepresented minorities through a workshop I founded, 100+ students"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. USACO Plat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USAMO Qual",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 3x AIME Qual",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Qualified for Worlds in FTC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Regeneron ISEF top 300 semi-finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Best delegate at multiple local/regional MUN conferences",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. National Merit Scholarship",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "8. Volunteer at local homeless shelter (10 hours per week, 40 weeks per year since freshman year)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

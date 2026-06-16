@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.75,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Debate - captain, mentorship lead: went to a few dozen tournaments, helped with ",
+          "role": "",
+          "description": "Debate - captain, mentorship lead: went to a few dozen tournaments, helped with orientation, coaching for summer camp and at a local middle school, novice training, mentor training. pretty big impact numbers since our club is massive so I could say things like \"200 people in orientation/judge training which I helped organize\" and \"led 30 members as captain\" (even though we have 70 kids on leadership and dozens of captains... not exaggerated) (12hrs/week)"
+        },
+        {
+          "name": "robotics - dropped this senior year. frc worlds. kind of bummed so i just wrote ",
+          "role": "",
+          "description": "robotics - dropped this senior year. frc worlds. kind of bummed so i just wrote stuff about how i helped program and build the robot. pretty generic but decent time commitment. (5hrs/week)"
+        },
+        {
+          "name": "4 - independent cs stuff: wrote about a few projects i've worked on. mostly wrot",
+          "role": "",
+          "description": "4 - independent cs stuff: wrote about a few projects i've worked on. mostly wrote about that i did this online course that was really beefy and took like 100 hours cuz it had 200 lessons and 30+ projects"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: multi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "linalg",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "discrete math",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ap gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ap chem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ap lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "advanced cs (data structures/algorithms)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ap econ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "physics c (both) Standardized Testing List the highest scores earned and all scores that were reported. SAT/ACT: 1540 AP",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 100,
+      "first_gen": null,
+      "service_summary": "tutoring immigrants in ESL/civics, peer tutor"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "CS, CS & Math (for UIUC; it has a bit higher acceptance rate than CS but they don't publish the exact number)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

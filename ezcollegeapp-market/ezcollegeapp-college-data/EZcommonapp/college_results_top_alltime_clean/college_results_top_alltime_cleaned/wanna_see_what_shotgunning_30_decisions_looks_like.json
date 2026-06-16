@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 800,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "It's been too long for me to remember the details of what I put.",
+          "role": "",
+          "description": "It's been too long for me to remember the details of what I put."
+        },
+        {
+          "name": "1. Quizbowl - Team captain and led team to 14th place at nationals; ranked top 1",
+          "role": "",
+          "description": "1. Quizbowl - Team captain and led team to 14th place at nationals; ranked top 10 in regular season; coached teams and players - even made youtube videos to help people study"
+        },
+        {
+          "name": "2. Academic Competition Federation - I wrote quizbowl questions for the main col",
+          "role": "",
+          "description": "2. Academic Competition Federation - I wrote quizbowl questions for the main college quizbowl organization (I am the first high school student to write for their Regional's tournament, which is the qualifying tournament "
+        },
+        {
+          "name": "3. Science Olympiad - Was on school's varsity Science Olympiad team. I coached t",
+          "role": "",
+          "description": "3. Science Olympiad - Was on school's varsity Science Olympiad team. I coached the event Astronomy where all 5 teams from my school swept the top 5 places at our regional's competition. Also qualified for State's but COV"
+        },
+        {
+          "name": "4. USAAAO - Qualified for the United States Astrophysics and Astronomy Olympiad!",
+          "role": "",
+          "description": "4. USAAAO - Qualified for the United States Astrophysics and Astronomy Olympiad!"
+        },
+        {
+          "name": "5. Taking care of brother - My brother has autism so I spend a lot of time each ",
+          "role": "",
+          "description": "5. Taking care of brother - My brother has autism so I spend a lot of time each day taking care of him"
+        },
+        {
+          "name": "6. Math club - Qualified for the American Invitational Mathematics Invitation",
+          "role": "",
+          "description": "6. Math club - Qualified for the American Invitational Mathematics Invitation"
+        },
+        {
+          "name": "7. Youth symphony - Principal trumpet in a major city's youth symphony",
+          "role": "",
+          "description": "7. Youth symphony - Principal trumpet in a major city's youth symphony"
+        },
+        {
+          "name": "8. Church - I am a student leader in my church and also a drummer!",
+          "role": "",
+          "description": "8. Church - I am a student leader in my church and also a drummer!"
+        },
+        {
+          "name": "9. There were some other ones that I think were important but I cannot remember ",
+          "role": "",
+          "description": "9. There were some other ones that I think were important but I cannot remember what they were. Maybe I included Ping Pong club or marching band? I can't remember"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \"Superior\" award at school's marching band's solo and ensemble competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. I really can't remember the other things I filled in. Maybe I put in my quizbowl placements (stat",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "this is going to get very complicated. i was basically undecided but i applied a"
+    },
+    "ESSAY_SCORE": null
+  }
+}

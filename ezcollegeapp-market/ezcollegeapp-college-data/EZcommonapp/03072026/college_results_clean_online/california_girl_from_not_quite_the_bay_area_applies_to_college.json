@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": 96.69,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Internship: Every high school summer, interned in Stanford hospital genomics and",
+          "role": "",
+          "description": "Internship: Every high school summer, interned in Stanford hospital genomics and oncological research labs. Last summer, attended virtual meetings with neuro-oncological researcher."
+        },
+        {
+          "name": "Note: was an idiot and wrote \"genetical\" research on my uchicago activities list",
+          "role": "",
+          "description": "Note: was an idiot and wrote \"genetical\" research on my uchicago activities list."
+        },
+        {
+          "name": "Music: Have played violin for 13 years, second chair in county youth symphony. P",
+          "role": "",
+          "description": "Music: Have played violin for 13 years, second chair in county youth symphony. Play piano and sing in choir."
+        },
+        {
+          "name": "Sports: Varsity Tennis - singles, Track and Field - sprinter.",
+          "role": "",
+          "description": "Sports: Varsity Tennis - singles, Track and Field - sprinter."
+        },
+        {
+          "name": "Clubs: VP of school JSU, Medical Club",
+          "role": "",
+          "description": "Clubs: VP of school JSU, Medical Club"
+        },
+        {
+          "name": "Work: Teacher at local Hebrew School",
+          "role": "",
+          "description": "Work: Teacher at local Hebrew School"
+        },
+        {
+          "name": "Volunteer: helped distribute materials to local residents recovering/evacuated f",
+          "role": "",
+          "description": "Volunteer: helped distribute materials to local residents recovering/evacuated from wildfires."
+        },
+        {
+          "name": "Art: painting classes since I was a kid.",
+          "role": "",
+          "description": "Art: painting classes since I was a kid."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "hahahaha* literally **none**",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Volunteer: helped distribute materials to local residents recovering/evacuated from wildfires."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology, biomed, molecular biology - depending on school."
+    },
+    "ESSAY_SCORE": null
+  }
+}

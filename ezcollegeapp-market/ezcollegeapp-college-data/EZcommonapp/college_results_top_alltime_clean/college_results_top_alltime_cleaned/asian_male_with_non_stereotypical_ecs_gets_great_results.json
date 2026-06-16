@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.74,
+      "sat_total": 1540,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Founder of sport jersey dropshipping business that operated since 9th grade. ",
+          "role": "",
+          "description": "1. Founder of sport jersey dropshipping business that operated since 9th grade. Made $55000 in income over 4 years"
+        },
+        {
+          "name": "2. Founder of tennis restringing business that has operated since 7th grade. Abo",
+          "role": "",
+          "description": "2. Founder of tennis restringing business that has operated since 7th grade. About $2000 in annual income at its peak"
+        },
+        {
+          "name": "3. 4 years on football team including 3 years on varsity. Named All-Division in ",
+          "role": "",
+          "description": "3. 4 years on football team including 3 years on varsity. Named All-Division in junior year. Named captain during senior year"
+        },
+        {
+          "name": "4. 4 years starting on varsity tennis team. Named All-Division in sophomore and ",
+          "role": "",
+          "description": "4. 4 years starting on varsity tennis team. Named All-Division in sophomore and junior year. Named captain during junior year and senior year"
+        },
+        {
+          "name": "5. 2 years on JV Wrestling team, switched to indoor T&amp;F starting in junior y",
+          "role": "",
+          "description": "5. 2 years on JV Wrestling team, switched to indoor T&amp;F starting in junior year. Varsity sprinter"
+        },
+        {
+          "name": "6. Class Vice President in 9th grade, Class President in 10th and 11th grade, St",
+          "role": "",
+          "description": "6. Class Vice President in 9th grade, Class President in 10th and 11th grade, Student Government Vice President in 12th grade"
+        },
+        {
+          "name": "7. Vice President of FBLA for 2 years",
+          "role": "",
+          "description": "7. Vice President of FBLA for 2 years"
+        },
+        {
+          "name": "8. Co-founder/President of school's Weightlifting and Bodybuilding Club for 3 ye",
+          "role": "",
+          "description": "8. Co-founder/President of school's Weightlifting and Bodybuilding Club for 3 years"
+        },
+        {
+          "name": "9. President of school's History Club for 2 years, Treasurer for 1 year",
+          "role": "",
+          "description": "9. President of school's History Club for 2 years, Treasurer for 1 year"
+        },
+        {
+          "name": "10. Treasurer of school's Chess Club for 1 year, Social Media Officer for 1 year",
+          "role": "",
+          "description": "10. Treasurer of school's Chess Club for 1 year, Social Media Officer for 1 year"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National Award for History Paper",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Captain of History team that went to nationals for a competition different than the one from my f",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Part of a team of 4 that advanced to the international round of 64 in a written political debate ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 2 State-Level First Place FBLA Awards in Business Law and HR Management, 6 more State-Level FBLA ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Qualified for AIME",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " business, undecided field (probably hr, supply chain, or management), intende"
+    },
+    "ESSAY_SCORE": null
+  }
+}

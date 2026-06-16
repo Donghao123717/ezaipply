@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Chair, Economics & Finance Committee (EcoFin), YMCA Model United Nations Selecte",
+          "role": "",
+          "description": "Chair, Economics & Finance Committee (EcoFin), YMCA Model United Nations Selected from 60+ delegates to lead committee sessions, set agendas, guide debate, mentor delegates, and oversee award selectio"
+        },
+        {
+          "name": "Model UN Delegate – Economics & Finance Committee (Represented Ghana) Authored m",
+          "role": "",
+          "description": "Model UN Delegate – Economics & Finance Committee (Represented Ghana) Authored multiple resolutions, including one passed unanimously; nominated for Best Diplomat (top 3 delegates) before selection as"
+        },
+        {
+          "name": "Programming Captain, FIRST Tech Challenge (FTC) Robotics Lead and mentor a progr",
+          "role": "",
+          "description": "Programming Captain, FIRST Tech Challenge (FTC) Robotics Lead and mentor a programming team of 10+ students; develop and test Java-based Mecanum drive, autonomous routines, and drivetrain control syst"
+        },
+        {
+          "name": "Frontend Developer, MIT Blueprint Hackathon Co-developed ScamLikely, a mobile ap",
+          "role": "",
+          "description": "Frontend Developer, MIT Blueprint Hackathon Co-developed ScamLikely, a mobile app protecting elderly users from scams; implemented frontend using React, React Native, and JavaScript with a focus on us"
+        },
+        {
+          "name": "Certified Programmer – Java (HackerRank) Earned Java (Basic) certification demon",
+          "role": "",
+          "description": "Certified Programmer – Java (HackerRank) Earned Java (Basic) certification demonstrating proficiency in core programming concepts and problem-solving skills. Also obtained the highest rank (Java 5 sta"
+        },
+        {
+          "name": "Chief Master Sergeant, Civil Air Patrol (U.S. Air Force Auxiliary) Senior cadet ",
+          "role": "",
+          "description": "Chief Master Sergeant, Civil Air Patrol (U.S. Air Force Auxiliary) Senior cadet leader; completed Phase II Leadership Program; led training, mentoring, and operational activities at the squadron level"
+        },
+        {
+          "name": "Civil Air Patrol Encampment Participant Completed an intensive multi-day leaders",
+          "role": "",
+          "description": "Civil Air Patrol Encampment Participant Completed an intensive multi-day leadership and discipline program at Joint Base McGuire–Dix–Lakehurst emphasizing teamwork and command structure."
+        },
+        {
+          "name": "Varsity Swimmer,  Junior Olympic qualifier; contributed 100+ career points; GMC ",
+          "role": "",
+          "description": "Varsity Swimmer,  Junior Olympic qualifier; contributed 100+ career points; GMC Championship 1st Place; member of the #2 ranked high school swim team in New Jersey."
+        },
+        {
+          "name": "Competitive Rower,  Rowing Bronze Medalist at Overpeck Classic Regatta; Top 7 at",
+          "role": "",
+          "description": "Competitive Rower,  Rowing Bronze Medalist at Overpeck Classic Regatta; Top 7 at Head of the Schuylkill; Top 12 at the Stotesbury Cup."
+        },
+        {
+          "name": "Awards / Honors",
+          "role": "",
+          "description": "Awards / Honors"
+        },
+        {
+          "name": "National Finalist, FBLA Marketing & Economics Challenge Placed 6th nationally af",
+          "role": "",
+          "description": "National Finalist, FBLA Marketing & Economics Challenge Placed 6th nationally after pitching an original product solution; conducted market research, competitive analysis, and developed a go-to-market"
+        },
+        {
+          "name": "Robert Frost Literary Competition – 2nd Place Awarded 2nd place out of 100+ stud",
+          "role": "",
+          "description": "Robert Frost Literary Competition – 2nd Place Awarded 2nd place out of 100+ students for an original poem on technology’s impact and adaptation in modern society."
+        },
+        {
+          "name": "SOOO..",
+          "role": "",
+          "description": "SOOO.."
+        },
+        {
+          "name": "If you guys have time can you help a brotha out and let me know if I'm on the ri",
+          "role": "",
+          "description": "If you guys have time can you help a brotha out and let me know if I'm on the right track?"
+        },
+        {
+          "name": "THANK YOU SO MUCH:)",
+          "role": "",
+          "description": "THANK YOU SO MUCH:)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National Finalist, FBLA Marketing & Economics Challenge Placed 6th nationally after pitching an orig",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Robert Frost Literary Competition – 2nd Place Awarded 2nd place out of 100+ students for an original",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SOOO..",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "If you guys have time can you help a brotha out and let me know if I'm on the right track?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "THANK YOU SO MUCH:)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "u shouldn’t share such specific information on the internet about yourself",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "crazy doxx lol",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "how's bro first gen and legacy",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "All that just to take Calc AB lol.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I don't know what you're clowning on. I took AB as a junior and BC as a senior. just got into gatech",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

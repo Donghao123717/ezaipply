@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1490,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "Physics Olympiad president - founded and organized everything. did bad on the ac",
+          "role": "",
+          "description": "Physics Olympiad president - founded and organized everything. did bad on the actual test but i talked a lot about how failing motivated me and how teaching others in the club was more valuable to me Yearbook Editor - connection between communication and physics was a big part of my app and activity supps"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Physics HL, math AA HL, French B HL, English langlit HL, Chem SL, Econ SL (yes ik it's awful)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Standardized Testing**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "List the highest scores earned and all scores that were reported.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT I: 1490 (750 RW, 740 M)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ACT: 34 (36 E, 35 M, 32 R, 34S)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP/IB: AP: 5, 5, school wouldn't let me see IB predicts",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Science museum volunteer - ton of hours and relation to major YAYYY THANK YOU!!! NCL is pretty useless i can't lie. I've done it since 7th grade and I definitely got more service and life skills out of scouting. it wasn't diverse at all and the private school girls would shun the public school girls 😭 i think it depends on your chapter and how involved they are yes it's like charity you have to pa"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

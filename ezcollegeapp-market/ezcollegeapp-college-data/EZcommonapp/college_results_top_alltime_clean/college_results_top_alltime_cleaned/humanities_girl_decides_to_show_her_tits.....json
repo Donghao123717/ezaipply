@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Butoh (aka ‘dark ballet’) dancer and choreographer (example: https://www.youtube",
+          "role": "",
+          "description": "Butoh (aka ‘dark ballet’) dancer and choreographer (example: https://www.youtube.com/watch?v=9ms7MGs2Nh8&amp;t=148s)"
+        },
+        {
+          "name": "Cultural ambassador, embassy program (toured internationally to dance)",
+          "role": "",
+          "description": "Cultural ambassador, embassy program (toured internationally to dance)"
+        },
+        {
+          "name": "Op-ed writer, two English-language newspapers (non-US)",
+          "role": "",
+          "description": "Op-ed writer, two English-language newspapers (non-US)"
+        },
+        {
+          "name": "Competitive calligrapher (Japanese and Arabic… but not great in Arabic)",
+          "role": "",
+          "description": "Competitive calligrapher (Japanese and Arabic… but not great in Arabic)"
+        },
+        {
+          "name": "Youth advisory council @ museum",
+          "role": "",
+          "description": "Youth advisory council @ museum"
+        },
+        {
+          "name": "Internships with (1) a Japanese megacorp, (2) art gallery, (3) archaeologist",
+          "role": "",
+          "description": "Internships with (1) a Japanese megacorp, (2) art gallery, (3) archaeologist"
+        },
+        {
+          "name": "Secretary, debate team",
+          "role": "",
+          "description": "Secretary, debate team"
+        },
+        {
+          "name": "MUN",
+          "role": "",
+          "description": "MUN"
+        },
+        {
+          "name": "Documentarian",
+          "role": "",
+          "description": "Documentarian"
+        },
+        {
+          "name": "Student government",
+          "role": "",
+          "description": "Student government"
+        },
+        {
+          "name": "Founder, Art Appreciation Club (lol this was a last-ditch effort at leadership)",
+          "role": "",
+          "description": "Founder, Art Appreciation Club (lol this was a last-ditch effort at leadership)"
+        },
+        {
+          "name": "Crossfit",
+          "role": "",
+          "description": "Crossfit"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Various awards, dance",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Various awards, calligraphy contests (JP, Canada, Malaysia)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Local award for documentary",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Competitive summer program at Ivy",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "  history of art + econ"
+    },
+    "ESSAY_SCORE": null
+  }
+}

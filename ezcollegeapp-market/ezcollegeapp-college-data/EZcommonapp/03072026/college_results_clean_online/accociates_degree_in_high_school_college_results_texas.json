@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 980,
+      "act_composite": null,
+      "class_rank_percentile": 89.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Microsoft Exel/ Word/ Powerpoint Certafications.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "College Board 1st Gen Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Scholarship to attend Rice Stem Camp",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1st Semester​ Transcript For Aplications",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.651/4.0 Unweighted",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.584/5.0 Weighted :",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4.0/4.0 Community College GPA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rank 55/553 Top 11% of Class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2nd semester Transcript for Mid year reports",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.674/4.0 gpa unweighted",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 150,
+      "first_gen": true,
+      "service_summary": "Major: Econ BA; Race: Hispanic; Gender: Male; Test Optional: Sat 980; First gen: Low income <50k; English 2nd Language"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "econ ba"
+    },
+    "ESSAY_SCORE": null
+  }
+}

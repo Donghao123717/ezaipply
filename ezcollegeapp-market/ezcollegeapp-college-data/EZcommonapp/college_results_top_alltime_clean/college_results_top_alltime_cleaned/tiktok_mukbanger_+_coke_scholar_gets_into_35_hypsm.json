@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 20
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1.\t⁠⁠⁠⁠⁠⁠⁠Taco Bell Ambition Accelerator Seed prize ($500 for consulting non profit)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2.\t⁠⁠⁠⁠⁠⁠⁠Notre Dame Leadership Seminars: Business",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.\t⁠⁠⁠⁠⁠⁠⁠Georgia Tech Statistics Competition Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4.\t⁠⁠⁠⁠⁠⁠⁠Local university startup competition 2nd place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5.\t⁠⁠⁠⁠⁠⁠⁠Special commendation by Congresswoman for non profit consulting work",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Updated schools on being a Coke Scholar and Forty Acres Scholar in an update in Feb.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "business analytics, data science, business"
+    },
+    "ESSAY_SCORE": null
+  }
+}

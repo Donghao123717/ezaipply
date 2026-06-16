@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Classical Piano (studying @ Music Prep School)",
+          "role": "",
+          "description": "1. Classical Piano (studying @ Music Prep School)"
+        },
+        {
+          "name": "2. Piano Accompanying (in-school, independent, regionally, etc…)",
+          "role": "",
+          "description": "2. Piano Accompanying (in-school, independent, regionally, etc…)"
+        },
+        {
+          "name": "3. Fencing Captain (regional involvement, promoting, team leadership / managemen",
+          "role": "",
+          "description": "3. Fencing Captain (regional involvement, promoting, team leadership / management, etc…)"
+        },
+        {
+          "name": "4. Science Fair Competitor (statewide stuff for computer vision research)",
+          "role": "",
+          "description": "4. Science Fair Competitor (statewide stuff for computer vision research)"
+        },
+        {
+          "name": "5. Digital Media Producer (Videography + Music Production, 40k+ streams on Sound",
+          "role": "",
+          "description": "5. Digital Media Producer (Videography + Music Production, 40k+ streams on SoundCloud)"
+        },
+        {
+          "name": "6. Marching Band (Captain, 11th grade, stopped in 12th)",
+          "role": "",
+          "description": "6. Marching Band (Captain, 11th grade, stopped in 12th)"
+        },
+        {
+          "name": "7. President of Environmental Club (weekly meetings, and organized large school-",
+          "role": "",
+          "description": "7. President of Environmental Club (weekly meetings, and organized large school-wide projects \\~every month)"
+        },
+        {
+          "name": "8. President of Asian Cultural Club (biweekly meetings, and organized large scho",
+          "role": "",
+          "description": "8. President of Asian Cultural Club (biweekly meetings, and organized large school-wide projects \\~every other month)"
+        },
+        {
+          "name": "9. Volunteer @ local community project (similar to YMCA, taught chess, helped me",
+          "role": "",
+          "description": "9. Volunteer @ local community project (similar to YMCA, taught chess, helped mentor kids)"
+        },
+        {
+          "name": "10. President of NHS (for 150 members or so, didn’t get to do much by the time c",
+          "role": "",
+          "description": "10. President of NHS (for 150 members or so, didn’t get to do much by the time college apps rolled around)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. INTL: Grand Prize + Carnegie Hall Invite from Piano Competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. INTL: 1st Place + Carnegie Hall Invite from Piano Competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. RGN/STATE: 1st Place, Perfect Score + University Award for Computing (Science Fair)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. RGN/STATE: 2nd Place, in science fair (step before ISEF)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. RGN/STATE: 4th Chair All-State Flutist in Concert Band",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "9. Volunteer @ local community project (similar to YMCA, taught chess, helped mentor kids)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

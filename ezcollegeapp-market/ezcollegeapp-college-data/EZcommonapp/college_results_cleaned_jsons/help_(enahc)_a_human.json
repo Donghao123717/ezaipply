@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founder & Co-CEO",
+          "role": "",
+          "description": "Founder & Co-CEO"
+        },
+        {
+          "name": "Neuroscience Society - built student research platform",
+          "role": "",
+          "description": "Neuroscience Society - built student research platform"
+        },
+        {
+          "name": "120+ members (HS/undergrad/PhD) etc etc Founder, Easy - free tutoring thing, pil",
+          "role": "",
+          "description": "120+ members (HS/undergrad/PhD) etc etc Founder, Easy - free tutoring thing, pilot had 20 kids improve grades 11.4% avg, partnered w/ Indian orphanages, scaling to 1000+(in process) Deputy Head Girl & Vice Captain - ran 20+ events (500+ ppl each), mentored 200+ students,"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Fellowship - 1 of 25 internationally (AI research) Students on Ice Arctic Expedition 2026 - Waiting for result Funded Tr",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Colleges: Beloit College- Rejected on my face (rejected me within 15 days of app submission) tysm!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "More Rejections to come: Claremont Mckenna College Grinnell College University of Notredame Swarthmore College NYUAD Duk",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS:",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "300+ volunteer hours - trees, blood camps, Zayed Humanitarian, designed event stuff, school mag editor Family duties - oldest of 4 (time to take credit), tutor siblings, translate, manage household chaos"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Neuroscience/Pre-Med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1270,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Research Internship with Federal Government, helped with environmental pollution",
+          "role": "",
+          "description": "Research Internship with Federal Government, helped with environmental pollution remediation research."
+        },
+        {
+          "name": "NRA Marksmanship program -- Completed. This was my main sport in high school, bu",
+          "role": "",
+          "description": "NRA Marksmanship program -- Completed. This was my main sport in high school, but I also played baseball all four years, and competed in state championships all four years, with the best finish of 5th"
+        },
+        {
+          "name": "Appointed official for my town -- organized Memorial Day ceremonies and flag pla",
+          "role": "",
+          "description": "Appointed official for my town -- organized Memorial Day ceremonies and flag placement + volunteered for town events and voting day."
+        },
+        {
+          "name": "Farming: raised my family's herd of beef cows and breeding bulls, main time comm",
+          "role": "",
+          "description": "Farming: raised my family's herd of beef cows and breeding bulls, main time commitment"
+        },
+        {
+          "name": "Worked as a property caretaker for an elderly Jewish couple since the 7th grade.",
+          "role": "",
+          "description": "Worked as a property caretaker for an elderly Jewish couple since the 7th grade."
+        },
+        {
+          "name": "Social Justice Alliance -- Treasurer, helped organize fundraising efforts and or",
+          "role": "",
+          "description": "Social Justice Alliance -- Treasurer, helped organize fundraising efforts and organized protests of the current Administration."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "NRA Youth Marksmanship Distinguished Expert Award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "finance & political science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

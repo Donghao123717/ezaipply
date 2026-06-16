@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.99,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "bakery creative writing, cookbook writing law-related, racial justice nonprofit ",
+          "role": "",
+          "description": "bakery creative writing, cookbook writing law-related, racial justice nonprofit service organization & blog paid law internship #1 paid law internship #2 student council piano a bunch of tutoring positions"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: just take rigorous classes that align w/ what you want to do. also i recommend dual enrollment ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "service organization & blog Senbonzakura fan spotted! I love how so many of your choices and multiple pieces of writing tie in to community help, especially your first and second fifty-word pieces. Honestly, I am a bit surprised at how informal(and even stylistically grammatically incorrect) your essays are, but they are really great. I need to learn how to write in a more friendly way myself."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Public Policy, CS, Creative Writing"
+    },
+    "ESSAY_SCORE": null
+  }
+}

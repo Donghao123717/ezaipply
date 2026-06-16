@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.65,
+      "sat_total": 1400,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "parli debate - ranked top 5 nationally, lots of tournaments, etc.",
+          "role": "",
+          "description": "parli debate - ranked top 5 nationally, lots of tournaments, etc."
+        },
+        {
+          "name": "district lead for an anti-racism campaign - basically worked w/ my district for ",
+          "role": "",
+          "description": "district lead for an anti-racism campaign - basically worked w/ my district for more poc written books and for ethnic studes courses to be implemented"
+        },
+        {
+          "name": "lab assistant at a hospital (volunteered there a ton, this is where pvsa gold ca",
+          "role": "",
+          "description": "lab assistant at a hospital (volunteered there a ton, this is where pvsa gold came from)"
+        },
+        {
+          "name": "stanford clinical summer internship",
+          "role": "",
+          "description": "stanford clinical summer internship"
+        },
+        {
+          "name": "program lead for a neurodiverse tutoring nonprofit",
+          "role": "",
+          "description": "program lead for a neurodiverse tutoring nonprofit"
+        },
+        {
+          "name": "private english tutor part-time",
+          "role": "",
+          "description": "private english tutor part-time"
+        },
+        {
+          "name": "interned for overseas bangladesh nonprofit",
+          "role": "",
+          "description": "interned for overseas bangladesh nonprofit"
+        },
+        {
+          "name": "co-director for an annual show at my school",
+          "role": "",
+          "description": "co-director for an annual show at my school"
+        },
+        {
+          "name": "music - played piano for 13+ years, composed music, performed at some convention",
+          "role": "",
+          "description": "music - played piano for 13+ years, composed music, performed at some conventions/concerts"
+        },
+        {
+          "name": "publicity director for my school's latinx cultural club",
+          "role": "",
+          "description": "publicity director for my school's latinx cultural club"
+        },
+        {
+          "name": "modeling/acting - nothing huge, i just added it bc i think it makes my app more ",
+          "role": "",
+          "description": "modeling/acting - nothing huge, i just added it bc i think it makes my app more unique"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "toc qualifier, 2x debate champion (although i wrote 1 in my app), a number of finalist awards (natio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2x us open music competition 3rd/4th place (national)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "local ptsa music composition competition finalist (regional)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "certificate of merit piano level 10 with honors (national i guess)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "gold pvsa (national)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ap scholar",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "private english tutor part-time"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

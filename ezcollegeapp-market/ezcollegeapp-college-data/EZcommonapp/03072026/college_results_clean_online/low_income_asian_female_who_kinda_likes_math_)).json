@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1390,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. \\#1 volunteer at my temple (9-11)- approx 228 hrs total, basically volunteere",
+          "role": "",
+          "description": "1. \\#1 volunteer at my temple (9-11)- approx 228 hrs total, basically volunteered 38 hrs during both winter &amp; summer breaks"
+        },
+        {
+          "name": "2. \\#2 treasurer of service club at school (11-12)- revitalized inactive club, r",
+          "role": "",
+          "description": "2. \\#2 treasurer of service club at school (11-12)- revitalized inactive club, raised a decent amount of money, organized fundraisers, basic treasurer stuff, etc."
+        },
+        {
+          "name": "3. \\#3 volunteer for key/ interact (10-12)- approx 180 hrs total",
+          "role": "",
+          "description": "3. \\#3 volunteer for key/ interact (10-12)- approx 180 hrs total"
+        },
+        {
+          "name": "4. \\#4 freshman leader (11-12)- freshman orientation, kept in contact with a coh",
+          "role": "",
+          "description": "4. \\#4 freshman leader (11-12)- freshman orientation, kept in contact with a cohort throughout the year"
+        },
+        {
+          "name": "5. \\#5 CSF (10-12)- tutored 12hrs a year, on track to lifetime membership",
+          "role": "",
+          "description": "5. \\#5 CSF (10-12)- tutored 12hrs a year, on track to lifetime membership"
+        },
+        {
+          "name": "6. \\#6 tutor for school's math club (12)",
+          "role": "",
+          "description": "6. \\#6 tutor for school's math club (12)"
+        },
+        {
+          "name": "7. \\#7 science fair (11)- approx 36 hrs total, was a part of a research class at",
+          "role": "",
+          "description": "7. \\#7 science fair (11)- approx 36 hrs total, was a part of a research class at school but not officially enrolled in it due to overlapping sched"
+        },
+        {
+          "name": "8. \\#8 went to after school talks where guest speakers talked about various STEM",
+          "role": "",
+          "description": "8. \\#8 went to after school talks where guest speakers talked about various STEM fields"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. \\#1 1st place at district science fair (qualified for regional)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2  leadership badge from service organization",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 nhs (just started this year at my school so we haven't really done anything)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": true,
+      "service_summary": "1. \\#1 volunteer at my temple (9-11)- approx 228 hrs total, basically volunteered 38 hrs during both winter &amp; summer breaks; 2. \\#2 treasurer of service club at school (11-12)- revitalized inactive club, raised a decent amount of money, organized fundraisers, basic treasurer stuff, etc.; 3. \\#3 volunteer for key/ interact (10-12)- approx 180 hrs total; 6. \\#6 tutor for school's math club (12)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied math, stats, or undeclared"
+    },
+    "ESSAY_SCORE": null
+  }
+}

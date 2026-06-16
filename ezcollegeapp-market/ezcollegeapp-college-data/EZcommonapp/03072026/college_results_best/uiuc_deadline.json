@@ -1,0 +1,54 @@
+{
+  "post": {
+    "id": "t3_1qdvlya",
+    "title": "UIUC deadline",
+    "author": "deeznuts199909",
+    "selftext": "I was unable to submit my UIUC app on Jan 5 due to bent unable to reach my counselor and questbridge was the reason why I was applying so late. Am I done for?",
+    "score": "2",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1qdvlya/uiuc_deadline/",
+    "created": "2026-01-15T20:58:51+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nzu9n4t",
+      "author": "WendyZhang2023",
+      "body": "Same here as a QuestBridge applicant. I’ve called their office and they told me to submit a late application petition.",
+      "score": "3 points",
+      "created": "2026-01-16T01:36:00+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qdvlya",
+        "author": "deeznuts199909",
+        "title": "UIUC deadline",
+        "body": "I was unable to submit my UIUC app on Jan 5 due to bent unable to reach my counselor and questbridge was the reason why I was applying so late. Am I done for?",
+        "full_text": "UIUC deadline\n\nI was unable to submit my UIUC app on Jan 5 due to bent unable to reach my counselor and questbridge was the reason why I was applying so late. Am I done for?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nzu9n4t",
+          "author": "WendyZhang2023",
+          "body": "Same here as a QuestBridge applicant. I’ve called their office and they told me to submit a late application petition.",
+          "score": "3 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. MUN club\\*-\\* President\\*-\\* Part of IPC-  Chair and Head of logistics at a f",
+          "role": "",
+          "description": "1. MUN club\\*-\\* President\\*-\\* Part of IPC-  Chair and Head of logistics at a few collegiate MUN's- Received a 20k INR scholarship in 10th grade as to sponsor my trips (9-12)"
+        },
+        {
+          "name": "2. Student Council Cultural Head- Helped organize school fests and competitions-",
+          "role": "",
+          "description": "2. Student Council Cultural Head- Helped organize school fests and competitions- Initiated a few school programs- Managed a few events on Annual day(11-12)"
+        },
+        {
+          "name": "3. Interned at a statistical analysis firm- shadowed an actuary for 4 months(11)",
+          "role": "",
+          "description": "3. Interned at a statistical analysis firm- shadowed an actuary for 4 months(11)"
+        },
+        {
+          "name": "4. Karate- Black belt (9)- Teaching beginners and intermediates- Qualified for S",
+          "role": "",
+          "description": "4. Karate- Black belt (9)- Teaching beginners and intermediates- Qualified for State freshman year(9-12)"
+        },
+        {
+          "name": "5. Volunteer at a girls orphanage- helped create website- raised 35-40k INR by f",
+          "role": "",
+          "description": "5. Volunteer at a girls orphanage- helped create website- raised 35-40k INR by fundraising at a fest- Sought out sponsors for education and food from a few big companies"
+        },
+        {
+          "name": "6. Women in STEM club- Co-founder- we hosted a lot of meeting and went to a lot ",
+          "role": "",
+          "description": "6. Women in STEM club- Co-founder- we hosted a lot of meeting and went to a lot of science fairs- got recognition at IIT for a science fest exhibition(youngest there)(10-12)"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Duke of Edinburgh Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Best Reporter at 2-3 Collegiate MUN's",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Scholar award-Given to two highest achieving student- contains  cash prize 500INR (9-12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Best Chair at a city wide online MUN-  I received this like 2 weeks after my application but I em",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. Volunteer at a girls orphanage- helped create website- raised 35-40k INR by fundraising at a fest- Sought out sponsors for education and food from a few big companies"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "math/economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1qwylqc",
+    "title": "[ Removed by moderator ]",
+    "author": "Editor700_lu",
+    "selftext": "",
+    "score": "0",
+    "url": "https://www.reddit.com/r/nyu/comments/1qwylqc/ed2_questions/",
+    "created": "2026-02-05T21:42:00+00:00",
+    "num_comments": 2,
+    "subreddit": "nyu"
+  },
+  "comments": [
+    {
+      "id": "t1_o3sk399",
+      "author": "jkoble",
+      "body": "No, if it is not main campus it is not binding.",
+      "score": "3 points",
+      "created": "2026-02-05T21:46:42+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o3skc16",
+      "author": "CarelessCollection82",
+      "body": "No. If you didn't get into your 1st choice of campus, it's not binding anymore.",
+      "score": "1 point",
+      "created": "2026-02-05T21:47:53+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qwylqc",
+        "author": "Editor700_lu",
+        "title": "[ Removed by moderator ]",
+        "body": "",
+        "full_text": "[ Removed by moderator ]"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o3sk399",
+          "author": "jkoble",
+          "body": "No, if it is not main campus it is not binding.",
+          "score": "3 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o3skc16",
+          "author": "CarelessCollection82",
+          "body": "No. If you didn't get into your 1st choice of campus, it's not binding anymore.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

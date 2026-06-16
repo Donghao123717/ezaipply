@@ -1,0 +1,285 @@
+{
+  "post": {
+    "id": "t3_1qrjgbq",
+    "title": "Did anyone get their umd admissions yet for 2026?",
+    "author": "Mjdalegend",
+    "selftext": "basically the title",
+    "score": "1",
+    "url": "https://www.reddit.com/r/UMD/comments/1qrjgbq/did_anyone_get_their_umd_admissions_yet_for_2026/",
+    "created": "2026-01-30T21:59:16+00:00",
+    "num_comments": 10,
+    "subreddit": "UMD"
+  },
+  "comments": [
+    {
+      "id": "t1_o2on3c5",
+      "author": "Gautamagarwal75",
+      "body": "Yes! I got it! I got in for CS",
+      "score": "1 point",
+      "created": "2026-01-30T21:59:47+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o2on90p",
+          "author": "Mjdalegend",
+          "body": "yoo congrats, what time did you get it?",
+          "score": "1 point",
+          "created": "2026-01-30T22:00:32+00:00",
+          "depth": 1,
+          "parent_id": "t1_o2on3c5",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o2onekr",
+              "author": "Gautamagarwal75",
+              "body": "i didn't get any email- i just randomly checked my portal around4:50ish",
+              "score": "1 point",
+              "created": "2026-01-30T22:01:17+00:00",
+              "depth": 2,
+              "parent_id": "t1_o2on90p",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "t1_o2pwbg8",
+          "author": "Competitive_Monk_488",
+          "body": "Is anyone else still waiting for the portal to change?  I am",
+          "score": "1 point",
+          "created": "2026-01-31T02:07:20+00:00",
+          "depth": 1,
+          "parent_id": "t1_o2on3c5",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o2on8ks",
+      "author": "whoslinn",
+      "body": "yes!!!",
+      "score": "1 point",
+      "created": "2026-01-30T22:00:29+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o2oodbp",
+      "author": "Subicar_Racer",
+      "body": "If YES, or even NO - can you share stats, major?",
+      "score": "1 point",
+      "created": "2026-01-30T22:05:59+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o2pf07a",
+      "author": "jumaru100",
+      "body": "Yes CS",
+      "score": "1 point",
+      "created": "2026-01-31T00:27:29+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o2pz57y",
+          "author": "Mjdalegend",
+          "body": "congrats!!",
+          "score": "1 point",
+          "created": "2026-01-31T02:24:03+00:00",
+          "depth": 1,
+          "parent_id": "t1_o2pf07a",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o2pmf9g",
+      "author": "LoquatNo9122",
+      "body": "yes but i got in for spring 2027",
+      "score": "1 point",
+      "created": "2026-01-31T01:08:59+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o2pz4m1",
+          "author": "Mjdalegend",
+          "body": "congrats!!",
+          "score": "1 point",
+          "created": "2026-01-31T02:23:57+00:00",
+          "depth": 1,
+          "parent_id": "t1_o2pmf9g",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qrjgbq",
+        "author": "Mjdalegend",
+        "title": "Did anyone get their umd admissions yet for 2026?",
+        "body": "basically the title",
+        "full_text": "Did anyone get their umd admissions yet for 2026?\n\nbasically the title"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o2on3c5",
+          "author": "Gautamagarwal75",
+          "body": "Yes! I got it! I got in for CS",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o2on8ks",
+          "author": "whoslinn",
+          "body": "yes!!!",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o2oodbp",
+          "author": "Subicar_Racer",
+          "body": "If YES, or even NO - can you share stats, major?",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o2pf07a",
+          "author": "jumaru100",
+          "body": "Yes CS",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o2pmf9g",
+          "author": "LoquatNo9122",
+          "body": "yes but i got in for spring 2027",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o2on3c5",
+        "author": "Gautamagarwal75",
+        "body": "Yes! I got it! I got in for CS",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o2on90p",
+          "author": "Mjdalegend",
+          "body": "yoo congrats, what time did you get it?",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o2pwbg8",
+          "author": "Competitive_Monk_488",
+          "body": "Is anyone else still waiting for the portal to change?  I am",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o2on90p",
+        "author": "Mjdalegend",
+        "body": "yoo congrats, what time did you get it?",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o2onekr",
+          "author": "Gautamagarwal75",
+          "body": "i didn't get any email- i just randomly checked my portal around4:50ish",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o2pf07a",
+        "author": "jumaru100",
+        "body": "Yes CS",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o2pz57y",
+          "author": "Mjdalegend",
+          "body": "congrats!!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o2pmf9g",
+        "author": "LoquatNo9122",
+        "body": "yes but i got in for spring 2027",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o2pz4m1",
+          "author": "Mjdalegend",
+          "body": "congrats!!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 5,
+    "total_nested_replies": 5,
+    "total_qa_pairs": 5
+  }
+}

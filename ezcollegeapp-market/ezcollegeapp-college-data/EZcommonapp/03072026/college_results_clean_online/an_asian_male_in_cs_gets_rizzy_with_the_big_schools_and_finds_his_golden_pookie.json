@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(vague for privacy reasons)*",
+          "role": "",
+          "description": "(vague for privacy reasons)*"
+        },
+        {
+          "name": "Working on app funded by a T10 School's initiative",
+          "role": "",
+          "description": "Working on app funded by a T10 School's initiative"
+        },
+        {
+          "name": "Hackathon Stuff",
+          "role": "",
+          "description": "Hackathon Stuff"
+        },
+        {
+          "name": "Model UN",
+          "role": "",
+          "description": "Model UN"
+        },
+        {
+          "name": "Freelancing",
+          "role": "",
+          "description": "Freelancing"
+        },
+        {
+          "name": "History Bee &amp; Bowl",
+          "role": "",
+          "description": "History Bee &amp; Bowl"
+        },
+        {
+          "name": "NHS",
+          "role": "",
+          "description": "NHS"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Multiple Hackathon Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Multiple History Bee &amp; Bowl Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Questbridge CPS and Finalist Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Model UN Awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " computer science (applied for business dual degrees at penn, washu, berkeley)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

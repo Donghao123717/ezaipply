@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1pooc5y",
+    "title": "deferred from Columbia ED",
+    "author": "SubjectCopy1972",
+    "selftext": "I genuinely have no idea where to go from here. I mean I expected in some sense but I still am completely lost right now.",
+    "score": "3",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pooc5y/deferred_from_columbia_ed/",
+    "created": "2025-12-17T05:21:03+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nuh171x",
+      "author": "Visible_Stomach2149",
+      "body": "it's all good. i got rejected",
+      "score": "1 point",
+      "created": "2025-12-17T06:52:34+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nv84be3",
+      "author": "Additional-Bad380",
+      "body": "yo I got a quick question can i pm u??",
+      "score": "1 point",
+      "created": "2025-12-21T17:11:51+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pooc5y",
+        "author": "SubjectCopy1972",
+        "title": "deferred from Columbia ED",
+        "body": "I genuinely have no idea where to go from here. I mean I expected in some sense but I still am completely lost right now.",
+        "full_text": "deferred from Columbia ED\n\nI genuinely have no idea where to go from here. I mean I expected in some sense but I still am completely lost right now."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nuh171x",
+          "author": "Visible_Stomach2149",
+          "body": "it's all good. i got rejected",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nv84be3",
+          "author": "Additional-Bad380",
+          "body": "yo I got a quick question can i pm u??",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

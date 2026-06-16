@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1580,
+      "act_composite": 35,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founder of a Tech Nonprofit: Developed an app to assist seniors with medication ",
+          "role": "",
+          "description": "Founder of a Tech Nonprofit: Developed an app to assist seniors with medication management; impacted over 10,000 users."
+        },
+        {
+          "name": "Research Internship: Conducted biomedical engineering research at a prestigious ",
+          "role": "",
+          "description": "Research Internship: Conducted biomedical engineering research at a prestigious university; published findings in a well-known journal."
+        },
+        {
+          "name": "President of the Science Olympiad Team: Led team to national championships; won ",
+          "role": "",
+          "description": "President of the Science Olympiad Team: Led team to national championships; won several individual medals."
+        },
+        {
+          "name": "Varsity Soccer Captain: Led team to state championships; recognized as an All-St",
+          "role": "",
+          "description": "Varsity Soccer Captain: Led team to state championships; recognized as an All-State player."
+        },
+        {
+          "name": "Student Government President: Spearheaded initiatives to improve school policies",
+          "role": "",
+          "description": "Student Government President: Spearheaded initiatives to improve school policies and student life."
+        },
+        {
+          "name": "Math Club Founder: Organized tutoring sessions and competitions; significantly i",
+          "role": "",
+          "description": "Math Club Founder: Organized tutoring sessions and competitions; significantly improved school's math contest rankings."
+        },
+        {
+          "name": "Volunteer at Local Hospital: Over 200 hours of service; initiated a program to p",
+          "role": "",
+          "description": "Volunteer at Local Hospital: Over 200 hours of service; initiated a program to provide patients with virtual reality experiences."
+        },
+        {
+          "name": "Intern at a Tech Startup: Developed machine learning models to predict consumer ",
+          "role": "",
+          "description": "Intern at a Tech Startup: Developed machine learning models to predict consumer behavior; contributed to a product that received substantial venture capital funding."
+        },
+        {
+          "name": "Musician: First chair violinist in the state youth orchestra; performed at Carne",
+          "role": "",
+          "description": "Musician: First chair violinist in the state youth orchestra; performed at Carnegie Hall."
+        },
+        {
+          "name": "Blogger: Writes about technology and science; has over 50,000 followers.",
+          "role": "",
+          "description": "Blogger: Writes about technology and science; has over 50,000 followers."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "Intel International Science and Engineering Fair (ISEF) Finalist",
+          "role": "",
+          "description": "Intel International Science and Engineering Fair (ISEF) Finalist"
+        },
+        {
+          "name": "Siemens Competition National Finalist",
+          "role": "",
+          "description": "Siemens Competition National Finalist"
+        },
+        {
+          "name": "National Merit Scholar",
+          "role": "",
+          "description": "National Merit Scholar"
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "role": "",
+          "description": "AP Scholar with Distinction"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Intel International Science and Engineering Fair (ISEF) Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Siemens Competition National Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "All-State Soccer Player",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Chemistry Teacher: Described as one of the most passionate and dedicated students; estimated rating:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Math Teacher: Highlighted exceptional problem-solving skills and leadership in class; estimated rati",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Research Mentor: Praised for groundbreaking research and work ethic; estimated rating: 10/10.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Reflective and engaging conversations with alumni interviewers; demonstrated deep interest in each s",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Intern at a Tech Startup: Developed machine learning models to predict consumer behavior; contributed to a product that received substantial venture capital funding.; Musician: First chair violinist in the state youth orchestra; performed at Carnegie Hall.; Blogger: Writes about technology and science; has over 50,000 followers.; Awards/Honors; Intel International Science and Engineering Fair (ISEF) Finalist; Siemens Competition National Finalist"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

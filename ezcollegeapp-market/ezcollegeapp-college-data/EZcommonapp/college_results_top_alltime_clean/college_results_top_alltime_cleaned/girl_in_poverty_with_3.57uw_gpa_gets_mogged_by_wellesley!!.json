@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.57,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. ***Interned at local city for 2 summers, full-time***",
+          "role": "",
+          "description": "1. ***Interned at local city for 2 summers, full-time***"
+        },
+        {
+          "name": "2. **Varsity captain in academic extracurricular, out of 18 students (won’t spec",
+          "role": "",
+          "description": "2. **Varsity captain in academic extracurricular, out of 18 students (won’t specify ‘cuz I don’t want to dox myself)**"
+        },
+        {
+          "name": "3. Caretaker for disabled autistic older brother",
+          "role": "",
+          "description": "3. Caretaker for disabled autistic older brother"
+        },
+        {
+          "name": "4. Internship at local community education accessibility organization",
+          "role": "",
+          "description": "4. Internship at local community education accessibility organization"
+        },
+        {
+          "name": "5. Sexual violence prevention certification + 2-day program",
+          "role": "",
+          "description": "5. Sexual violence prevention certification + 2-day program"
+        },
+        {
+          "name": "6. Digital art and character design, self-taught (200 pieces)",
+          "role": "",
+          "description": "6. Digital art and character design, self-taught (200 pieces)"
+        },
+        {
+          "name": "7. 2 weeks at WPI Frontiers program",
+          "role": "",
+          "description": "7. 2 weeks at WPI Frontiers program"
+        },
+        {
+          "name": "8. Massachusetts Commonwealth Seminar attendee, ⅛ in attendance",
+          "role": "",
+          "description": "8. Massachusetts Commonwealth Seminar attendee, ⅛ in attendance"
+        },
+        {
+          "name": "9. Governor’s Youth Summit/conference attendee",
+          "role": "",
+          "description": "9. Governor’s Youth Summit/conference attendee"
+        },
+        {
+          "name": "10. Attended local conference for social civic justice in high schools",
+          "role": "",
+          "description": "10. Attended local conference for social civic justice in high schools"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.* (I barely submitted any 😭, I have no idea",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Honor Roll (9th, 10th, 11th grade)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. High Honor Roll (9th grade)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Collegeboard National First-Generation Recognition Award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "4. Internship at local community education accessibility organization"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "\\[health sciences related\\] (i’m going to make my own major 😸), im not sure if i"
+    },
+    "ESSAY_SCORE": null
+  }
+}

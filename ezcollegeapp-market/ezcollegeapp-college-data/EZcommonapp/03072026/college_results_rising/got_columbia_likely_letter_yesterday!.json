@@ -1,0 +1,111 @@
+{
+  "post": {
+    "id": "t3_1rmre8b",
+    "title": "got Columbia likely letter yesterday!",
+    "author": "VegetableShot1192",
+    "selftext": "really happy!",
+    "score": "34",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1rmre8b/got_columbia_likely_letter_yesterday/",
+    "created": "",
+    "num_comments": 4,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o91lihv",
+      "author": "Lazy_Astronaut_9684",
+      "body": "sick...congrats!",
+      "score": "1",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o91moca",
+      "author": "Smooth_Beach_5860",
+      "body": "Congrats !!!! Yayy Roar Lions Roar !!!!! 🦁💙",
+      "score": "1",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o91xo0k",
+      "author": "kate_taylorsversion",
+      "body": "congratulations!! would u mind sharing some components of ur application/ecs?",
+      "score": "5",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o921ptr",
+      "author": "Commercial_Ad8072",
+      "body": "Deets please ",
+      "score": "2",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1rmre8b",
+        "author": "VegetableShot1192",
+        "title": "got Columbia likely letter yesterday!",
+        "body": "really happy!",
+        "full_text": "got Columbia likely letter yesterday!\n\nreally happy!"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o91lihv",
+          "author": "Lazy_Astronaut_9684",
+          "body": "sick...congrats!",
+          "score": "1",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o91moca",
+          "author": "Smooth_Beach_5860",
+          "body": "Congrats !!!! Yayy Roar Lions Roar !!!!! 🦁💙",
+          "score": "1",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o91xo0k",
+          "author": "kate_taylorsversion",
+          "body": "congratulations!! would u mind sharing some components of ur application/ecs?",
+          "score": "5",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o921ptr",
+          "author": "Commercial_Ad8072",
+          "body": "Deets please ",
+          "score": "2",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 4,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

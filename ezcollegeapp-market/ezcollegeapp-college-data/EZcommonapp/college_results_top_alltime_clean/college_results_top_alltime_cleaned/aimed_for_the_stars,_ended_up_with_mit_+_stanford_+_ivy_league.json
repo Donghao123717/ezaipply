@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1580,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 15
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Ran math classes to 1000+ students via math camps, math clubs, virtual learni",
+          "role": "",
+          "description": "1. Ran math classes to 1000+ students via math camps, math clubs, virtual learning labs. Raised \\~$10000 to underprivileged kids."
+        },
+        {
+          "name": "2. Created problems for large competition platform website, with over 30k partic",
+          "role": "",
+          "description": "2. Created problems for large competition platform website, with over 30k participants monthly."
+        },
+        {
+          "name": "3. Researched about linear algebra with UCLA prof (didn't end up publishing befo",
+          "role": "",
+          "description": "3. Researched about linear algebra with UCLA prof (didn't end up publishing before college apps...)"
+        },
+        {
+          "name": "4. Created online web game teaching math with over 10,000 views; ended up on lar",
+          "role": "",
+          "description": "4. Created online web game teaching math with over 10,000 views; ended up on largest math games website"
+        },
+        {
+          "name": "5. Self-published math book for students on Amazon, donated revenue to students ",
+          "role": "",
+          "description": "5. Self-published math book for students on Amazon, donated revenue to students in need."
+        },
+        {
+          "name": "6. Attended weekly math classes at UCLA for 10+ years, taught some classes mysel",
+          "role": "",
+          "description": "6. Attended weekly math classes at UCLA for 10+ years, taught some classes myself."
+        },
+        {
+          "name": "7. Participated in two Wolfram programs, published research on various CS/math t",
+          "role": "",
+          "description": "7. Participated in two Wolfram programs, published research on various CS/math topics."
+        },
+        {
+          "name": "8. Self-published board game about math.",
+          "role": "",
+          "description": "8. Self-published board game about math."
+        },
+        {
+          "name": "9. President of school wide math club, led various outings to local contests.",
+          "role": "",
+          "description": "9. President of school wide math club, led various outings to local contests."
+        },
+        {
+          "name": "10. Eagle Scout, Assistant Senior Patrol Leader for Troop of \\~60 Scouts.",
+          "role": "",
+          "description": "10. Eagle Scout, Assistant Senior Patrol Leader for Troop of \\~60 Scouts."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. I won't say which specifically, because it's possible to reverse-engineer my identity, but I was ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USAMO Qualifier, AIME 5x Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. USACO Gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Merit Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Math Kangaroo 1st place nationally for several years",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs (and yes, i actually put down cs in my applications 💀)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

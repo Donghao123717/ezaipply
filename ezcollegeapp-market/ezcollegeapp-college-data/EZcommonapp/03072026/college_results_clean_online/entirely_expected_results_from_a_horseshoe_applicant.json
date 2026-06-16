@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 16
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "I filled up all ten slots but I forget what they were so I'm just going to put t",
+          "role": "",
+          "description": "I filled up all ten slots but I forget what they were so I'm just going to put the ones that I can remember off the top of my head"
+        },
+        {
+          "name": "1. MUN USG - helped organize conferences, coordinated things with admin, taught ",
+          "role": "",
+          "description": "1. MUN USG - helped organize conferences, coordinated things with admin, taught lessons, etc. I've done MUN since freshman year and have multiple awards"
+        },
+        {
+          "name": "Time commitment: we had meetings three times a week so about 4 - 5 hours a week ",
+          "role": "",
+          "description": "Time commitment: we had meetings three times a week so about 4 - 5 hours a week not counting conferences which were usually 8 - 40 hours long"
+        },
+        {
+          "name": "2. Physics team captain - taught lessons, helped prepare for competitions. I've ",
+          "role": "",
+          "description": "2. Physics team captain - taught lessons, helped prepare for competitions. I've participated since sophomore year though not very actively, I just went to meetings and passively learned things"
+        },
+        {
+          "name": "Time commitment: I won't lie, I got pretty lazy with this after first semester s",
+          "role": "",
+          "description": "Time commitment: I won't lie, I got pretty lazy with this after first semester so probably 1 - 2 hours a week max + 3 competitions I did this year"
+        },
+        {
+          "name": "3. Physics internship as a research analyst - I went to Europe for two months in",
+          "role": "",
+          "description": "3. Physics internship as a research analyst - I went to Europe for two months in the summer of my junior year and did some grunt work for astrophysics. Probably one of the most interesting experiences"
+        },
+        {
+          "name": "Time commitment: 50 - 60 hours a week. I genuinely loved what I was doing and I ",
+          "role": "",
+          "description": "Time commitment: 50 - 60 hours a week. I genuinely loved what I was doing and I was always the first person at the lab and the last one to leave - this was work I was proud to do"
+        },
+        {
+          "name": "4. Math team - participated in competitions. I've been in math team since freshm",
+          "role": "",
+          "description": "4. Math team - participated in competitions. I've been in math team since freshman year"
+        },
+        {
+          "name": "Time commitment: 45 minutes a week and 3 - 4 competitions per year",
+          "role": "",
+          "description": "Time commitment: 45 minutes a week and 3 - 4 competitions per year"
+        },
+        {
+          "name": "5. STEM team organizer/founder - organized national travel, found and participat",
+          "role": "",
+          "description": "5. STEM team organizer/founder - organized national travel, found and participated in competitions, scheduled things"
+        },
+        {
+          "name": "Time commitment: probably like 100 hours once a month per year",
+          "role": "",
+          "description": "Time commitment: probably like 100 hours once a month per year"
+        },
+        {
+          "name": "Other things I put that I don't want to explain because I'm getting impatient wi",
+          "role": "",
+          "description": "Other things I put that I don't want to explain because I'm getting impatient with myself: tutoring job at Kumon, cheerleading, debate, teaching english in a foreign country, founder of particle physi"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. 1st place at international MUN competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 3rd place at international MUN competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 36th(?) place at international physics competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 1st place at regional MUN competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National merit commended scholar",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here) physics + math"
+    },
+    "ESSAY_SCORE": null
+  }
+}

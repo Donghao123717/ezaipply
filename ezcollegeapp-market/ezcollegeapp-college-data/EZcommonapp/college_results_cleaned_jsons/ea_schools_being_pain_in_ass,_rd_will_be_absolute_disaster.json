@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Academic Grades 9–12 Qualified for USAMO, INPhO, INChO, RMO; top ranks in 30+ ol",
+          "role": "",
+          "description": "Academic Grades 9–12 Qualified for USAMO, INPhO, INChO, RMO; top ranks in 30+ olympiads. Research & Innovation Grades 11–12 Published 2 research; patent accepted and published Tennis (Club Level) Grades 9–12"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "USAMO Qualifier (AIME 14/15) Indian National Physics Olympiad (INPhO) Qualifier Indian National Chemistry Olympiad (INCh",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Community Service – Education You're an Indian international male applying for CS. You'll be competing against not only other InChO and InPhO qualifiers but also those who made it beyond the qualifier and to the national training camp, and those who made it even beyond the training camp and were chosen to represent India at the IChO and IPhO. Their awards are undoubtedly of a higher prestige than "
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

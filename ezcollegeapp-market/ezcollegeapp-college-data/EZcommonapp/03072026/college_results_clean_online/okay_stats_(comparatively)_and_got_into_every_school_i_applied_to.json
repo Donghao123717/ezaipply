@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1400,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. I founded and lead a club about computers for a year and taught soldering, st",
+          "role": "",
+          "description": "1. I founded and lead a club about computers for a year and taught soldering, started a program to give away PCs to disadvantaged kids"
+        },
+        {
+          "name": "2. I joined Science Bowl this year but was not smart enough to participate",
+          "role": "",
+          "description": "2. I joined Science Bowl this year but was not smart enough to participate"
+        },
+        {
+          "name": "3. I was a Founding Executive of CS Honors Society",
+          "role": "",
+          "description": "3. I was a Founding Executive of CS Honors Society"
+        },
+        {
+          "name": "4. I helped text bank for a presidential campaign, and sent hundreds of texts to",
+          "role": "",
+          "description": "4. I helped text bank for a presidential campaign, and sent hundreds of texts to prospective voters."
+        },
+        {
+          "name": "5. I applied and was accepted to the Students for [insert politician] Winter Sch",
+          "role": "",
+          "description": "5. I applied and was accepted to the Students for [insert politician] Winter School, a program that teaches grassroots organizing etc."
+        },
+        {
+          "name": "6. I wrote a mod in my free time for Fallout 4 that got over 70,000 downloads on",
+          "role": "",
+          "description": "6. I wrote a mod in my free time for Fallout 4 that got over 70,000 downloads on PC and Xbox"
+        },
+        {
+          "name": "7. I moderated rounds for the 1st event of a state Science Bowl League. I was th",
+          "role": "",
+          "description": "7. I moderated rounds for the 1st event of a state Science Bowl League. I was the moderator for the semi and grand finals."
+        },
+        {
+          "name": "8. I helped set up and organize our school's 2019 Extra Life charity event",
+          "role": "",
+          "description": "8. I helped set up and organize our school's 2019 Extra Life charity event"
+        },
+        {
+          "name": "9. I've worked at a grocery store for a year and work about 10-14 hours a week c",
+          "role": "",
+          "description": "9. I've worked at a grocery store for a year and work about 10-14 hours a week cashiering/bagging. I got employee of the month out of 100+ other employees."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. None, unless you count basic high school honor roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied for polisci"
+    },
+    "ESSAY_SCORE": null
+  }
+}

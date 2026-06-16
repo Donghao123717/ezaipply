@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 64.2,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "JKCF Semi-Finalist Elks MVS Lodge deca state finalist selected to be deca state voting delegate national merit semifinal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "10 APS, 8 DES + 2 UG Electrical Engineering Courses, 11 Honors: AP Precalc (5), AP CSP (3 💀), AP CSA (4), APUSH (5), APH",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Acceptances: Umich IBE USC texas a&m",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Deferrals: MIT Georgia Tech UT Austin Northeastern",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rejections: UVA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "reflection:",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Schoolwide SAT Tutor (high impact, 75% of the people who attended class got a 1400+ and raised school avg by ~20 pts)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "ece + math/ ece + business or csba @ viterbi"
+    },
+    "ESSAY_SCORE": null
+  }
+}

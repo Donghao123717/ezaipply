@@ -1,0 +1,88 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "featured in the 2022 game awards (awards show watched by 85 million+)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "epic games affiliate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "distinguished honor role",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Pennsylvania certificate of merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays: imo my essays were very strong. All of them were reviewed by ex-admission officers",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Idk how to feel about this tbh. I was really expecting an acceptance today just based off the respon",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "[deleted]",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Yeah I’ve already filled out my apps for pretty much every Ivy + HYPSM",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I recommend taking another look at your essays 🤔",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Bro I promise you my essays were not the problem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "every other part of ur app is stellar. So not to be rude or anything because I think u deserve it bu",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "8× Gold Star Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honor Roll (3 years)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Harvey Medal — Top Mathematics Student",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Arnovitz Medal — Best Creative Writing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "“Most Accomplished Intern” (Ameriprise)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rec Letters",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1) Junior year math teacher: I think this one was good, and she also explained my jump from Algebra ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2) VF Military Academy Lead TAC Officer) Basically talking about my cadet leadership roles and ECs d",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Additional Information / Context",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

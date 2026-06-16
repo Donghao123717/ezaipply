@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1550,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Research Intern at prestigious research university: conducted an independent ",
+          "role": "",
+          "description": "1. Research Intern at prestigious research university: conducted an independent research project on stem cell research."
+        },
+        {
+          "name": "2. President of FBLA: two-year president of club with 50+ people",
+          "role": "",
+          "description": "2. President of FBLA: two-year president of club with 50+ people"
+        },
+        {
+          "name": "3. President of Chinese Student Association: founder and president",
+          "role": "",
+          "description": "3. President of Chinese Student Association: founder and president"
+        },
+        {
+          "name": "4. Research Intern: via competitive Simons Summer Research Fellowship",
+          "role": "",
+          "description": "4. Research Intern: via competitive Simons Summer Research Fellowship"
+        },
+        {
+          "name": "5. Intern and Contributor: worked for a nationally acclaimed multimedia publicat",
+          "role": "",
+          "description": "5. Intern and Contributor: worked for a nationally acclaimed multimedia publication, published several articles and interviews"
+        },
+        {
+          "name": "6. Piano: Completed highest level exams in music theory. Active in community ser",
+          "role": "",
+          "description": "6. Piano: Completed highest level exams in music theory. Active in community service, playing charity concerts statewide at nursing homes, museums, etc."
+        },
+        {
+          "name": "7. Lacrosse: 4-year varsity player and captain",
+          "role": "",
+          "description": "7. Lacrosse: 4-year varsity player and captain"
+        },
+        {
+          "name": "8. Peer tutor: tutored freshmen and sophomores in mathematics and biology",
+          "role": "",
+          "description": "8. Peer tutor: tutored freshmen and sophomores in mathematics and biology"
+        },
+        {
+          "name": "9. President of Model UN and Pod Leader",
+          "role": "",
+          "description": "9. President of Model UN and Pod Leader"
+        },
+        {
+          "name": "10. School peer advisor: assigned groups of new students to mentor",
+          "role": "",
+          "description": "10. School peer advisor: assigned groups of new students to mentor"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Merit Scholarship Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Model UN Best Delegate at a national conference",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. School Award for Excellence in Biology",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Piano Competition 1st Prize",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "6. Piano: Completed highest level exams in music theory. Active in community service, playing charity concerts statewide at nursing homes, museums, etc.; 8. Peer tutor: tutored freshmen and sophomores in mathematics and biology"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology (pre-med)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

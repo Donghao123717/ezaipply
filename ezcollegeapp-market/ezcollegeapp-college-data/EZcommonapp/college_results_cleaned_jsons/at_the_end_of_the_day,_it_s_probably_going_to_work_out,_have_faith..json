@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.85,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Cultural Music - Large part of my life, passionate about it, 10 hrs per wee",
+          "role": "",
+          "description": "etc. Cultural Music - Large part of my life, passionate about it, 10 hrs per week"
+        },
+        {
+          "name": "Robotics - Software co-lead for FRC team, developed a lot of auton tech, helped ",
+          "role": "",
+          "description": "Robotics - Software co-lead for FRC team, developed a lot of auton tech, helped the team through a major electrical change that drastically altered the reliability of the robot, 8 hrs per week Cultural Violin - same as music above. 6 hrs per week"
+        },
+        {
+          "name": "Robotics team mentoring - mentored 4 local robotics teams from the FLL to FRC le",
+          "role": "",
+          "description": "Robotics team mentoring - mentored 4 local robotics teams from the FLL to FRC level, helping a local FRC team get back from complete nonexistence into a semicompetitive team through code and build mentorship and helping a few FLL teams qualify for local regionals by teaching code and design principles"
+        },
+        {
+          "name": "Internship at a business firm - got an in with a mid sized firm that handles mer",
+          "role": "",
+          "description": "Internship at a business firm - got an in with a mid sized firm that handles mergers and acquisitions, shadowed a few high level employees, sat in on calls, helped them develop a data management system"
+        },
+        {
+          "name": "Academic League Co-Captain - super passionate about this one. qualified to nats ",
+          "role": "",
+          "description": "Academic League Co-Captain - super passionate about this one. qualified to nats 10, 11, 12, individual nats 11, 12 (didnt go :(), large part of our success and team's second highest scorer. NHS - community service, not much more."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Multivariable Calculus, AP Gov, AP Stats, Honors English 12, Engineering Honors, Organic Chemis",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": true,
+      "service_summary": "NHS - community service, not much more. Paid Work - worked as a kumon tutor, not much more."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Mechanical Engineering, Environmental Engineering (Northwestern)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

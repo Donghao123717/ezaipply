@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1220,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. \\#1 Lifeguarding job",
+          "role": "",
+          "description": "1. \\#1 Lifeguarding job"
+        },
+        {
+          "name": "2. \\#2 Varsity Swim",
+          "role": "",
+          "description": "2. \\#2 Varsity Swim"
+        },
+        {
+          "name": "3. \\#3 JV softball",
+          "role": "",
+          "description": "3. \\#3 JV softball"
+        },
+        {
+          "name": "4. \\#4  Club Swim",
+          "role": "",
+          "description": "4. \\#4  Club Swim"
+        },
+        {
+          "name": "5. \\#5 Girl scouts",
+          "role": "",
+          "description": "5. \\#5 Girl scouts"
+        },
+        {
+          "name": "6. \\#6 Made several computer programs to help my local middle school",
+          "role": "",
+          "description": "6. \\#6 Made several computer programs to help my local middle school"
+        },
+        {
+          "name": "7. \\#7 fluent in English and Spanish. Teaching myself dutch",
+          "role": "",
+          "description": "7. \\#7 fluent in English and Spanish. Teaching myself dutch"
+        },
+        {
+          "name": "8. \\#8 small business owner",
+          "role": "",
+          "description": "8. \\#8 small business owner"
+        },
+        {
+          "name": "9. \\#9 musician(ukulele)",
+          "role": "",
+          "description": "9. \\#9 musician(ukulele)"
+        },
+        {
+          "name": "10. \\#10 65 community service hours as a CIT",
+          "role": "",
+          "description": "10. \\#10 65 community service hours as a CIT"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 most improved on softball team.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "10. \\#10 65 community service hours as a CIT"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "geographic information sciences/history"
+    },
+    "ESSAY_SCORE": null
+  }
+}

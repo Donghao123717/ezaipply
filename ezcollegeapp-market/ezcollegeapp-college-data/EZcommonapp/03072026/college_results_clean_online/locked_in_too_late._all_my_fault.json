@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 670,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "N/A",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Teacher Rec- decent relationship. thinks i'm a brilliant kid who doesn't apply himself enough. i bel",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor Rec- quite a helpful person but did not think i was even going to get into college. unsure",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "spent 4 weeks on essay, wrote about death of grandma and how i overcame the family trauma, multiple ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "finance, philosophy, political science, politics/philosophy/economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

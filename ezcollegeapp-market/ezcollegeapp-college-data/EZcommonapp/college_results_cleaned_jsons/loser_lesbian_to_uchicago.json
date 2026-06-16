@@ -1,0 +1,73 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "ECs: Local government commissioner Library volunteer, teen advisory board member Key Club secretary Math and science tut",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Supplementals: generic \"Why UChicago?\" essay (classes, RSOs, internships, etc.). I chose an old prompt about making up y",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: Great result",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Girl I no universe are you a loser. Congratulations!! They’re saying this year was their most competitive ever",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Loved reading your post. Heartfelt congrats. Keep that sense of humor throughout your four years of “where fun goes to",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- i will try!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Congrats omg. Any advice on the SAT?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "khan academy!! totally free. and tbh i didn’t rlly chunk huge amounts of time to do it, i would just do like 5-10 min a ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Library volunteer, teen advisory board member Math and science tutor I guess my main through-lines are my interest in history and anthropology, my community service/teaching, and my passion for music. And high test scores haha."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "History and Anthropology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

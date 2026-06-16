@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Cofounder of an AI startup (12). I did this with a couple graduate students I",
+          "role": "",
+          "description": "1. Cofounder of an AI startup (12). I did this with a couple graduate students I knew and we've raised a decent amount in early funding. Dropped all other ECs senior year to focus on this."
+        },
+        {
+          "name": "2. AI research at a T5 over the summer (11). I was accepted into a very selectiv",
+          "role": "",
+          "description": "2. AI research at a T5 over the summer (11). I was accepted into a very selective program. Didn't publish anything but it was a good experience for college apps"
+        },
+        {
+          "name": "3. AI research at another T5 (10). Published a paper into a fairly reputable jou",
+          "role": "",
+          "description": "3. AI research at another T5 (10). Published a paper into a fairly reputable journal (not lead author though)"
+        },
+        {
+          "name": "4. CS research at my local college (9). Published paper as lead author, presente",
+          "role": "",
+          "description": "4. CS research at my local college (9). Published paper as lead author, presented at a conference"
+        },
+        {
+          "name": "5. President of my school's peer-tutoring program (Member 9, President 10-12). I",
+          "role": "",
+          "description": "5. President of my school's peer-tutoring program (Member 9, President 10-12). I mostly help with Math and Physics (about 2 hrs/week)"
+        },
+        {
+          "name": "6. President of my school's CS club (Member 9, President 10-12). tbh we never do",
+          "role": "",
+          "description": "6. President of my school's CS club (Member 9, President 10-12). tbh we never do anything so I can still join and focus on EC #1"
+        },
+        {
+          "name": "7. Physics club vice president (member 9-11, President 12). Also do pretty much ",
+          "role": "",
+          "description": "7. Physics club vice president (member 9-11, President 12). Also do pretty much nothing."
+        },
+        {
+          "name": "8. Volunteer at my local Buddhist temple (9-11). I work with new converts/people",
+          "role": "",
+          "description": "8. Volunteer at my local Buddhist temple (9-11). I work with new converts/people interested to help teach them more about the faith main Buddhist texts."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. 3x USACO plat (9,10,11) EDIT: For those curious about how 3x plat is possible, I qualified in 9th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Winner of a prestigious national coding comp (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Finalist in another prestigious tech comp (10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Merit Semifinalist (11)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "8. Volunteer at my local Buddhist temple (9-11). I work with new converts/people interested to help teach them more about the faith main Buddhist texts."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " cs (lol)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

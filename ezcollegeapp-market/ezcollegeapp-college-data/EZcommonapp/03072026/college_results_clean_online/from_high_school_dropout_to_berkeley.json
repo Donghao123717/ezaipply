@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Front desk supervisor at a hotel for 3-4 years.",
+          "role": "",
+          "description": "1. Front desk supervisor at a hotel for 3-4 years."
+        },
+        {
+          "name": "2. Math tutor at my CC for half a year.",
+          "role": "",
+          "description": "2. Math tutor at my CC for half a year."
+        },
+        {
+          "name": "3. I do minor auto repairs for friends, family, etc. (my \"volunteer\" work).",
+          "role": "",
+          "description": "3. I do minor auto repairs for friends, family, etc. (my \"volunteer\" work)."
+        },
+        {
+          "name": "4. Started a plant surveying club after our field botany class went online due t",
+          "role": "",
+          "description": "4. Started a plant surveying club after our field botany class went online due to the pandemic."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "None",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": null,
+      "service_summary": "If you're like me and will be 24 or older in the semester you transfer, then you will be considered an independent when you file your FAFSA ([source](https://studentaid.gov/sites/default/files/fafsa-d; One last point: I dropped out of high school for reasons unrelated to academics, but before I did I also had no idea what I wanted to major in if I were to attend college. It took me years to figure o; Time is valuable, but that doesn't mean you should rush through your education: I'm happy that I"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mathematics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

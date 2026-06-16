@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1460,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "being vague so that people don’t recognize me 🙂‍↕️🙂‍↕️🙂‍↔️😟😓🫠🫤",
+          "role": "",
+          "description": "being vague so that people don’t recognize me 🙂‍↕️🙂‍↕️🙂‍↔️😟😓🫠🫤"
+        },
+        {
+          "name": "1.Activism for Nonprofit (significant involvement)",
+          "role": "",
+          "description": "1.Activism for Nonprofit (significant involvement)"
+        },
+        {
+          "name": "Art Club (significant involvement, was involved in school wide art events, leade",
+          "role": "",
+          "description": "Art Club (significant involvement, was involved in school wide art events, leadership role, yada yada)"
+        },
+        {
+          "name": "Engineering Competition (ranked first in state!)",
+          "role": "",
+          "description": "Engineering Competition (ranked first in state!)"
+        },
+        {
+          "name": "Sustainability Club (relatively involved though no leadership role)",
+          "role": "",
+          "description": "Sustainability Club (relatively involved though no leadership role)"
+        },
+        {
+          "name": "Track and Field",
+          "role": "",
+          "description": "Track and Field"
+        },
+        {
+          "name": "Job",
+          "role": "",
+          "description": "Job"
+        },
+        {
+          "name": "Don’t remember what I put here though it must not have been important if I forgo",
+          "role": "",
+          "description": "Don’t remember what I put here though it must not have been important if I forgot"
+        },
+        {
+          "name": "Volunteer at Animal Shelter",
+          "role": "",
+          "description": "Volunteer at Animal Shelter"
+        },
+        {
+          "name": "Python/Arduino “passion” project",
+          "role": "",
+          "description": "Python/Arduino “passion” project"
+        },
+        {
+          "name": "Engineering club (literally just a member lol, I was scraping the bottom of the ",
+          "role": "",
+          "description": "Engineering club (literally just a member lol, I was scraping the bottom of the barrel here"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Award from nonprofit for involvement",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honor Roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS lol",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar lol",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "“Proficiency towards Spanish Biliteracy” basically took the test and got relatively decent scores (n",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Python/Arduino “passion” project; Engineering club (literally just a member lol, I was scraping the bottom of the barrel here"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering, biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

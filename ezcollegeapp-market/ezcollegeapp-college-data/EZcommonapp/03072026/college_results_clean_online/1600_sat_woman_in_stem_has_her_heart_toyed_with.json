@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1600,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. SSP (Summer Science Program) \\~8% acceptance rate astro",
+          "role": "",
+          "description": "1. SSP (Summer Science Program) \\~8% acceptance rate astro"
+        },
+        {
+          "name": "2. Women in Astrophysics nonprofit",
+          "role": "",
+          "description": "2. Women in Astrophysics nonprofit"
+        },
+        {
+          "name": "3. Sailing",
+          "role": "",
+          "description": "3. Sailing"
+        },
+        {
+          "name": "4. Raised $$$ for sailing nonprofit",
+          "role": "",
+          "description": "4. Raised $$$ for sailing nonprofit"
+        },
+        {
+          "name": "5. Astro Club Officer",
+          "role": "",
+          "description": "5. Astro Club Officer"
+        },
+        {
+          "name": "6. CS Club Officer",
+          "role": "",
+          "description": "6. CS Club Officer"
+        },
+        {
+          "name": "7. Top Local Symphony Orchestra (flutist)",
+          "role": "",
+          "description": "7. Top Local Symphony Orchestra (flutist)"
+        },
+        {
+          "name": "8. Camp counselor",
+          "role": "",
+          "description": "8. Camp counselor"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "astrophysics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

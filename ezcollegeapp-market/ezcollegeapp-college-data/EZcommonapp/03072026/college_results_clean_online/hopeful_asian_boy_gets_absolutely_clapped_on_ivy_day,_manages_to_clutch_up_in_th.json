@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Co-founded an organization during COVID. Received national attention. Am purp",
+          "role": "",
+          "description": "1. Co-founded an organization during COVID. Received national attention. Am purposefully redacting information to preserve privacy."
+        },
+        {
+          "name": "2. Internship on a Senate Campaign (11)",
+          "role": "",
+          "description": "2. Internship on a Senate Campaign (11)"
+        },
+        {
+          "name": "3. Field Manager for local soccer club -oversaw \\~1000 matches over a year and s",
+          "role": "",
+          "description": "3. Field Manager for local soccer club -oversaw \\~1000 matches over a year and supervised \\~25 refs (10/11)"
+        },
+        {
+          "name": "4. Teens Court Attorney - Worked with attorneys to defend real petty crime cases",
+          "role": "",
+          "description": "4. Teens Court Attorney - Worked with attorneys to defend real petty crime cases (vandalism/theft) of juveniles (9-12)"
+        },
+        {
+          "name": "5. Treasurer of math club (11-12)",
+          "role": "",
+          "description": "5. Treasurer of math club (11-12)"
+        },
+        {
+          "name": "6. Volunteer at my City Council handled phone calls/fundraising (10)",
+          "role": "",
+          "description": "6. Volunteer at my City Council handled phone calls/fundraising (10)"
+        },
+        {
+          "name": "7. Economics for Leaders at Rice - Learned and applied various economic &amp; le",
+          "role": "",
+          "description": "7. Economics for Leaders at Rice - Learned and applied various economic &amp; leadership concepts (12)"
+        },
+        {
+          "name": "8. Boys State (12)",
+          "role": "",
+          "description": "8. Boys State (12)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Congressional Award from U.S. Representative",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Feature on Various news channels.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. ALA Good Deeds Award, recognizing service during COVID (given to ~100 people per year across the ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Ranked Top 100 Chess Player U14 nationally",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": "6. Volunteer at my City Council handled phone calls/fundraising (10)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(public policy/pol science/history/classics)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

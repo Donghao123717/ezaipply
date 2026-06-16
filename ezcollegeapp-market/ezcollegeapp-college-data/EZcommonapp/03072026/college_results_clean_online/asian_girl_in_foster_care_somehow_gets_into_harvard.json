@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.7,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **MOSTEC / MITES** \\- I learned a lot about genomes!",
+          "role": "",
+          "description": "1. **MOSTEC / MITES** \\- I learned a lot about genomes!"
+        },
+        {
+          "name": "2. **Vice-Captain of Science Team** \\- Objectively speaking, my biggest achievem",
+          "role": "",
+          "description": "2. **Vice-Captain of Science Team** \\- Objectively speaking, my biggest achievement was probably breaking up a fistfight between two juniors who were both equally wrong about microbes."
+        },
+        {
+          "name": "3. **Founder and President of Literature Club** \\- Six people joined! We have bo",
+          "role": "",
+          "description": "3. **Founder and President of Literature Club** \\- Six people joined! We have book circles and write reviews for the school newspaper."
+        },
+        {
+          "name": "4. **Childcare** (36 hours/week) (64 hours/week during lockdown) I take care of ",
+          "role": "",
+          "description": "4. **Childcare** (36 hours/week) (64 hours/week during lockdown) I take care of my foster parents two biological children, a 12 years old girl and an 8 years old boy with low-functioning autism."
+        },
+        {
+          "name": "5. **Housework** (5 hours/week) I'm responsible for cleaning, doing the laundry ",
+          "role": "",
+          "description": "5. **Housework** (5 hours/week) I'm responsible for cleaning, doing the laundry and making breakfast."
+        },
+        {
+          "name": "6. **Writing poetry** \\- I wrote three poems every week for a year. Some of them",
+          "role": "",
+          "description": "6. **Writing poetry** \\- I wrote three poems every week for a year. Some of them were even decent! One got published in a very small magazine that nobody has heard of."
+        },
+        {
+          "name": "7. **Folding origami** \\- I can make dinosaurs, foxes, rabbits, elephants, frogs",
+          "role": "",
+          "description": "7. **Folding origami** \\- I can make dinosaurs, foxes, rabbits, elephants, frogs, cranes and butterflies. (I'm still not sure if this actually counts as an EC)"
+        },
+        {
+          "name": "Note:** I couldn't do a lot of extracurriculars since I wasn't allowed to partic",
+          "role": "",
+          "description": "Note:** I couldn't do a lot of extracurriculars since I wasn't allowed to participate in any activities outside home after school. (The science team and the literature club have meetings during lunch."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. **Scholastic Writing Awards** \\- Gold key for personal essay, bronze key for poetry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. **National Science Olympiad** \\- Some state silver medals",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. **AIME** \\- Qualifier",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology / psychology / social work"
+    },
+    "ESSAY_SCORE": null
+  }
+}

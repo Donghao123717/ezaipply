@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I'm just gonna copy paste the exact wording from common app lol minus some sensi",
+          "role": "",
+          "description": "I'm just gonna copy paste the exact wording from common app lol minus some sensitive info Key Advocate for state bill: Led 3-year campaign for [state bill] passage; designed campaign materials; lobbied; testified; canvassed; organized events; raised awareness"
+        },
+        {
+          "name": "Creative Director, School Merch Shop: Established and manage merch shop; lead st",
+          "role": "",
+          "description": "Creative Director, School Merch Shop: Established and manage merch shop; lead student designers; oversee product vision & execution for events/clubs; support sales; $1000+/year in revenue Team Member at fast food place: Provided excellent customer service and ensured smooth operations, gaining experience in teamwork and managing a fast-paced business."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Rank (or percentile): N/A, but according to my college counselor I was one of the top students but lowkey I think she wa",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I also did a semester school where I left my normal school for a semester to attend a different art school (I still took",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Paid Design Freelancer: Designed apps and graphics for nonprofits, businesses, and individuals; connected 500+ clients with designers through a thriving online community Team Member at fast food place: Provided excellent customer service and ensured smooth operations, gaining experience in teamwork and managing a fast-paced business. Art teacher from semester art school, 6.5/10. I mean we were fri"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Depends on school--Something related to either design or politics though"
+    },
+    "ESSAY_SCORE": null
+  }
+}

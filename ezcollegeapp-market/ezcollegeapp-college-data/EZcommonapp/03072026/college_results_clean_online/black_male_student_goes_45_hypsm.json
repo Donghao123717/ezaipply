@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1550,
+      "act_composite": 36,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. African American Literary Magazine- Started a literary magazine at my private",
+          "role": "",
+          "description": "1. African American Literary Magazine- Started a literary magazine at my private school to focus on the experiences and perspectives of African American and historically underrepresented students in p"
+        },
+        {
+          "name": "2. Novelist - Wrote and self-published 3 historical fiction novels inspired by A",
+          "role": "",
+          "description": "2. Novelist - Wrote and self-published 3 historical fiction novels inspired by African American folklores from the US south during the Reconstruction Era."
+        },
+        {
+          "name": "3. Service Work- Conducted a project on researching illiteracy rates in Black ne",
+          "role": "",
+          "description": "3. Service Work- Conducted a project on researching illiteracy rates in Black neighborhoods, how they correlate to future earnings, criminality, and career options. Increased literacy for 40 black chi"
+        },
+        {
+          "name": "4. Black Student Union- President of this club, which advocated for and supporte",
+          "role": "",
+          "description": "4. Black Student Union- President of this club, which advocated for and supported African American students. Held weekly meetings, hosted parties 3 times a semester, grew membership from 12 students t"
+        },
+        {
+          "name": "5. Podcast Host- Founded and hosted a bi-weekly podcast which focused on African",
+          "role": "",
+          "description": "5. Podcast Host- Founded and hosted a bi-weekly podcast which focused on African American folklores and how they relate to the broader narrative of African American history"
+        },
+        {
+          "name": "6. Research Project #2- Conducted a research project on African American folklor",
+          "role": "",
+          "description": "6. Research Project #2- Conducted a research project on African American folklores and mythology during the 1700s, how it has derived from the broader societal history of racial oppression."
+        },
+        {
+          "name": "7. 100 Black Men of America- Organization designed to promote leadership and adv",
+          "role": "",
+          "description": "7. 100 Black Men of America- Organization designed to promote leadership and advancement of black men"
+        },
+        {
+          "name": "8. Writers of Color - Member of largest people of color organization focused on ",
+          "role": "",
+          "description": "8. Writers of Color - Member of largest people of color organization focused on humanities"
+        },
+        {
+          "name": "9. Varsity Football 3 years",
+          "role": "",
+          "description": "9. Varsity Football 3 years"
+        },
+        {
+          "name": "10. Varsity Lacrosse 3 years",
+          "role": "",
+          "description": "10. Varsity Lacrosse 3 years"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Stanford Summer Humanities Institute - Studied revolutions",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2.  Kenyon Summer Writers Program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.  Kenyon Review - Published with 5% admit rate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Scholastic Arts Awards - 1 Gold Key, 2 Silver Keys",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Ron Brown Scholars",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Iowa Writers Summer Workshop (Remote)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. Service Work- Conducted a project on researching illiteracy rates in Black neighborhoods, how they correlate to future earnings, criminality, and career options. Increased literacy for 40 black chi"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "african american studies, linguistics. applied folklores &amp; mythology for har"
+    },
+    "ESSAY_SCORE": null
+  }
+}

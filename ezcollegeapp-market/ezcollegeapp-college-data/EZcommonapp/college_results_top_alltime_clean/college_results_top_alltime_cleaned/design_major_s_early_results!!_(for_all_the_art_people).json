@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Art Studio/Portfolio Class (6 hr/week) - we had classes with professors from ",
+          "role": "",
+          "description": "1. Art Studio/Portfolio Class (6 hr/week) - we had classes with professors from art schools so I mentioned that for some of my colleges"
+        },
+        {
+          "name": "2. Club President/Historian (3 hr/week) - a club I've been involved in since my ",
+          "role": "",
+          "description": "2. Club President/Historian (3 hr/week) - a club I've been involved in since my sophomore year, has to do with raising money for refugees"
+        },
+        {
+          "name": "3. NHS Historian (3 hr/week) - pretty self-explanatory",
+          "role": "",
+          "description": "3. NHS Historian (3 hr/week) - pretty self-explanatory"
+        },
+        {
+          "name": "4. NAHS President (2 hr/week) - NHS but for art",
+          "role": "",
+          "description": "4. NAHS President (2 hr/week) - NHS but for art"
+        },
+        {
+          "name": "5. Service Club Historian (2 hr/week) - basically organize community service opp",
+          "role": "",
+          "description": "5. Service Club Historian (2 hr/week) - basically organize community service opportunities for members"
+        },
+        {
+          "name": "6. Exchange Program (about three weeks) - went to school in (redacted) country &",
+          "role": "",
+          "description": "6. Exchange Program (about three weeks) - went to school in (redacted) country &amp; hosted two students at my school"
+        },
+        {
+          "name": "7. Assistant Teacher for (redacted language) School (summer break)",
+          "role": "",
+          "description": "7. Assistant Teacher for (redacted language) School (summer break)"
+        },
+        {
+          "name": "8. RISD CE Online Class (two weeks) - graphic design class",
+          "role": "",
+          "description": "8. RISD CE Online Class (two weeks) - graphic design class"
+        },
+        {
+          "name": "9. Member of FBLA (only mentioned because I got an award at a conference)",
+          "role": "",
+          "description": "9. Member of FBLA (only mentioned because I got an award at a conference)"
+        },
+        {
+          "name": "10. Library Volunteer (2 hr/week) - I only did this in ninth grade lol but I nee",
+          "role": "",
+          "description": "10. Library Volunteer (2 hr/week) - I only did this in ninth grade lol but I needed it to fill the space"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. State Governor's School Acceptance for Visual Art (pretty competitive)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Community Service related Award (180+ hours)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Regional Art Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Regional Art Award #2",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP Scholar w/ Distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": true,
+      "service_summary": "5. Service Club Historian (2 hr/week) - basically organize community service opportunities for members; 10. Library Volunteer (2 hr/week) - I only did this in ninth grade lol but I needed it to fill the space"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "design (graphic/communication design)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

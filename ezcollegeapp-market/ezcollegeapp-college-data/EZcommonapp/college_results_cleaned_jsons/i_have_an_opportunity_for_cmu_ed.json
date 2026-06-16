@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1460,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Co-founder",
+          "role": "",
+          "description": "Co-founder"
+        },
+        {
+          "name": "CEO",
+          "role": "",
+          "description": "CEO"
+        },
+        {
+          "name": "Lead Developer & Programmer | Productivity Non-profit (11th-Present) Productivit",
+          "role": "",
+          "description": "Lead Developer & Programmer | Productivity Non-profit (11th-Present) Productivity non-profit developing desktop/mobile apps and browser extension to fight procrastination using AI technology; 25+ interns, 700+ users."
+        },
+        {
+          "name": "CCIR: Researched real-time low-light image enhancement for robotics (Published i",
+          "role": "",
+          "description": "CCIR: Researched real-time low-light image enhancement for robotics (Published in NHSJS). BeyondAI: Researched and built a model for satellite trajectory prediction and collision detection. Team Lead | New York Academy of Sciences"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Create Apps Championship Finals - International Finalist (Top 12 out of 4",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "800+ teams) - International CBSE UAE U17 Chess Champion - Qualified for International Finals - International FIRST LEGO ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: your full pay will help you massively btw",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Almost all Intls who apply to cmu as full pay",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Really where are the stats?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- cmu do not give out aid for internationals",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- not the right place to ask this.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Cooked",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Led the development of an AI deepfake detection model; integrated community feedback to improve accuracy from 92% to 95%."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

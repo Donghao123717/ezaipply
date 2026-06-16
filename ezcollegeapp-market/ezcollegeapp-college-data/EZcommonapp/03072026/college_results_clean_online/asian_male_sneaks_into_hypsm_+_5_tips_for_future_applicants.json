@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 800,
+      "act_composite": 35,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Committee Chair and Clerk of YMCA Youth and Government (Vice President of sch",
+          "role": "",
+          "description": "1. Committee Chair and Clerk of YMCA Youth and Government (Vice President of school club)"
+        },
+        {
+          "name": "2. Founded a political club at school",
+          "role": "",
+          "description": "2. Founded a political club at school"
+        },
+        {
+          "name": "3. VP of Senior Class",
+          "role": "",
+          "description": "3. VP of Senior Class"
+        },
+        {
+          "name": "4. Academic Team",
+          "role": "",
+          "description": "4. Academic Team"
+        },
+        {
+          "name": "5. Founded a server dedicated to iPhone live trivia",
+          "role": "",
+          "description": "5. Founded a server dedicated to iPhone live trivia"
+        },
+        {
+          "name": "6. Violinist in the school orchestra (All-State 2018, 2020)",
+          "role": "",
+          "description": "6. Violinist in the school orchestra (All-State 2018, 2020)"
+        },
+        {
+          "name": "7. COO of a nonprofit",
+          "role": "",
+          "description": "7. COO of a nonprofit"
+        },
+        {
+          "name": "8. President of Spanish Honor Society",
+          "role": "",
+          "description": "8. President of Spanish Honor Society"
+        },
+        {
+          "name": "9. Volunteer supervisor at a summer camp",
+          "role": "",
+          "description": "9. Volunteer supervisor at a summer camp"
+        },
+        {
+          "name": "10. Part-time fast food worker",
+          "role": "",
+          "description": "10. Part-time fast food worker"
+        },
+        {
+          "name": "Basically my ECs show no real spike, they're all over the place.",
+          "role": "",
+          "description": "Basically my ECs show no real spike, they're all over the place."
+        },
+        {
+          "name": "Essays:** I'm confident that my Common App is what got me through the door for m",
+          "role": "",
+          "description": "Essays:** I'm confident that my Common App is what got me through the door for my reaches. Won't go into detail but it was something no other applicant could've written and was pretty personal. I'd de"
+        },
+        {
+          "name": "LORs:** Sent two, read one of them and it was super positive. I'm guessing 7/10?",
+          "role": "",
+          "description": "LORs:** Sent two, read one of them and it was super positive. I'm guessing 7/10?"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National Merit Semi-Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Ranked #1 in monetary earnings on an iPhone live trivia app with hundreds of earnings (half as po",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "9. Volunteer supervisor at a summer camp"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " history/international relations"
+    },
+    "ESSAY_SCORE": null
+  }
+}

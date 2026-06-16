@@ -1,0 +1,144 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.18,
+      "sat_total": 1360,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "2 Internships, IT Support Interns - 200 hours; Fixed and maintained hundreds of ",
+          "role": "",
+          "description": "2 Internships, IT Support Interns - 200 hours; Fixed and maintained hundreds of student Chromebooks; developed technical troubleshooting and teamwork skills in a professional IT setting."
+        },
+        {
+          "name": "CVTE Computer Science and Web Development Student - 4-yr vocational track; built",
+          "role": "",
+          "description": "CVTE Computer Science and Web Development Student - 4-yr vocational track; built websites; learned Python/HTML/CSS/JS/Java, affirmed completion with Capstone website related to school shooting anxiety"
+        },
+        {
+          "name": "Part-Time Customer Service Associate (4 years) - 25 hours/week; Assisted custome",
+          "role": "",
+          "description": "Part-Time Customer Service Associate (4 years) - 25 hours/week; Assisted customers, managed registers, stocked inventory, handled rushes; built adaptability, communication, and multitasking skills across roles."
+        },
+        {
+          "name": "Student Council, Council Member 9th/10th, Treasurer 11th/12th - 5 hours/week; Ov",
+          "role": "",
+          "description": "Student Council, Council Member 9th/10th, Treasurer 11th/12th - 5 hours/week; Oversaw social media; worked with the school committee to remove the imbalance between EC/AP credit policy; Boosted spirit in school w/ 2000 students"
+        },
+        {
+          "name": "Model UN (4 years), Social Media Head - 4 hours/week; Coached 35 middle schooler",
+          "role": "",
+          "description": "Model UN (4 years), Social Media Head - 4 hours/week; Coached 35 middle schoolers for a conference hosted by my high school (~100 students) while actively attending MUN conferences as a student delegate."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Assume all of my classes are honors unless stated otherwise. First gen student, super low income (I'd qualify for NYU Pr",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Responsibilities and Circumstances:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Assisting family or household members with tasks such as doctors’ appointments, bank visits, or visa interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interpreting or translating for family or household members",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Managing family or household finances, budget, or paying bills",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Taking care of sick, disabled, and/or elderly members of my family or household",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Taking care of younger family or household members",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Working at a paid job to contribute to my household’s income",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Commuting 60 minutes or more to and from school each day",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Experiencing homelessness or another unstable living situation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Intended Major: Electrical Engineering and Computer Engineering (for backups I put Electrical on its own, Computer on it",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Before I go into my academics, I want to talk about my essay because it sets the stage for my whole application. My essa",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "The NYU Bridge Builder Supplemental is about how I had to teach around 35 middle schoolers how to do Model UN and on top",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Finally, my additional info discusses how my grades don't represent me well as a student because starting off high schoo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Academics: GPA: applied with a 3.18UW :/, moved up to 3.21 after sem 1 Class Rank (weighted): 78/444 (not sure what it i",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Coursework: AP Euro (10th) APUSH (11th) AP Lit (Got a C in this class due to circumstances stated earlier)(11th) AP Semi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Math Pathway: Alg 1 (8th) Geometry + Alg 2 (9th) Pre-Calc (10th) Calc (Honors NOT AP, got a C+ in this class due to the ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 200,
+      "first_gen": true,
+      "service_summary": "Finally, my additional info discusses how my grades don't represent me well as a student because starting off high school, my parents were forcing me into community college and because of that and the ADHD diagnosis, I had no motivation whatsoever. My coursework was still rigorous though ofcourse, and I had A's all of high school in my programming/IT classes. Part-Time Customer Service Associate ("
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Electrical Engineering and Computer Engineering (for backups I put Electrical on its own, Computer on its own, Mech E, Civil Engineering)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

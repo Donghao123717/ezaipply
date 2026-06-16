@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.67,
+      "sat_total": 1580,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. FRC Robotics team at my school. Led the design of a bunch of subsystems over ",
+          "role": "",
+          "description": "1. FRC Robotics team at my school. Led the design of a bunch of subsystems over the years, and was a writer for all of our awards essays. Did promo for open house, also operated at events (not the dri"
+        },
+        {
+          "name": "2. BIG Physics Research Project, see awards for more details. Don’t wanna be spe",
+          "role": "",
+          "description": "2. BIG Physics Research Project, see awards for more details. Don’t wanna be specific but I started it around end of soph year and finished it in senior year. Worked with a prof, got it published, got"
+        },
+        {
+          "name": "3. NASA Internship during summer. Worked on a rover. Nuff said. It’s not as impo",
+          "role": "",
+          "description": "3. NASA Internship during summer. Worked on a rover. Nuff said. It’s not as impossible to get as you think actually, there’s a lot of internships specifically geared towards high school and college st"
+        },
+        {
+          "name": "4. Organized events and summer camps at local science museum, also did tours and",
+          "role": "",
+          "description": "4. Organized events and summer camps at local science museum, also did tours and volunteered there quite often. It was really fun. Museums r cool"
+        },
+        {
+          "name": "5. (Job) Worked as a social worker at refugee centers to help Ukranian refugees ",
+          "role": "",
+          "description": "5. (Job) Worked as a social worker at refugee centers to help Ukranian refugees adjust after arriving to US. I started doing this ever since the war started. Virginia isn’t a huge refugee hub but I di"
+        },
+        {
+          "name": "Ok this is getting kinda tedious to type out so",
+          "role": "",
+          "description": "Ok this is getting kinda tedious to type out so"
+        },
+        {
+          "name": "6. Partnered with local nonprofit to create educational events (connected them t",
+          "role": "",
+          "description": "6. Partnered with local nonprofit to create educational events (connected them to our school)"
+        },
+        {
+          "name": "7. Student Government",
+          "role": "",
+          "description": "7. Student Government"
+        },
+        {
+          "name": "8. Tutored underprivileged people for free on physics and math",
+          "role": "",
+          "description": "8. Tutored underprivileged people for free on physics and math"
+        },
+        {
+          "name": "9. Orchestra",
+          "role": "",
+          "description": "9. Orchestra"
+        },
+        {
+          "name": "10. Photography",
+          "role": "",
+          "description": "10. Photography"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Award for International Physics Research Conference/Competition (by far my biggest spike, there w",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. [Redacted] Science and Engineering Fair Finalist (think ISEF type of thing)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Scholastic National Creative Writing Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Dean’s List for my FRC team",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Semi-Finalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "physics, but applied for engineering (uh oh!!!!) in a few places"
+    },
+    "ESSAY_SCORE": null
+  }
+}

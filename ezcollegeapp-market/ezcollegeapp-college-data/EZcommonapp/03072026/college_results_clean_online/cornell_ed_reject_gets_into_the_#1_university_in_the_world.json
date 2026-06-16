@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 800,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Coauthor of Nature Accepted Research on modeling COVID don't want to disclose",
+          "role": "",
+          "description": "1. Coauthor of Nature Accepted Research on modeling COVID don't want to disclose too much for privacy"
+        },
+        {
+          "name": "2. Founder of LLC with health app(not disclosing) using math and computer vision",
+          "role": "",
+          "description": "2. Founder of LLC with health app(not disclosing) using math and computer vision."
+        },
+        {
+          "name": "3. Stanford Mathematics Camp (SUMaC): One of the best math programs for Hsers, s",
+          "role": "",
+          "description": "3. Stanford Mathematics Camp (SUMaC): One of the best math programs for Hsers, studied abstract algebra."
+        },
+        {
+          "name": "4. Internship under undisclosed state school using math to prevent road accident",
+          "role": "",
+          "description": "4. Internship under undisclosed state school using math to prevent road accidents live on several hundred highways in state."
+        },
+        {
+          "name": "5. Math team stuff, lots of team-based tourney awards",
+          "role": "",
+          "description": "5. Math team stuff, lots of team-based tourney awards"
+        },
+        {
+          "name": "6. Music related club co-founder",
+          "role": "",
+          "description": "6. Music related club co-founder"
+        },
+        {
+          "name": "7. Head math teacher at a non profit, taught over a hundred students, created cu",
+          "role": "",
+          "description": "7. Head math teacher at a non profit, taught over a hundred students, created curriculum, led TAs and ot her teachers, etc."
+        },
+        {
+          "name": "8. Medium blogger on interesting deep learning topics,",
+          "role": "",
+          "description": "8. Medium blogger on interesting deep learning topics,"
+        },
+        {
+          "name": "9. self study guitar",
+          "role": "",
+          "description": "9. self study guitar"
+        },
+        {
+          "name": "10. AwesomeMath summer program",
+          "role": "",
+          "description": "10. AwesomeMath summer program"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National Math Kangaroo Champion",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "USACO Gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5x AIME qual, (2x score of 11) on AIME (234.5, 236, 237.5, 239 Index) AMC DHR",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Nature accepted paper",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Several Math tournament (BMT, SMT, CMIMC) individual top 10s and tied first at Stanford math tournam",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/: essays : 7.5/10, LOR: 9/10 had a wonderful physics teacher, and got one from professor",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mathematics/computer science/artificial intelligence"
+    },
+    "ESSAY_SCORE": null
+  }
+}

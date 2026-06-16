@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.963,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Volleyball: *Varsity sophomore and junior year. 8 hours a week and helped tea",
+          "role": "",
+          "description": "1. Volleyball: *Varsity sophomore and junior year. 8 hours a week and helped team develop better back-row.*"
+        },
+        {
+          "name": "2. Robotics: *Got a varsity junior year(apparently we do that at our school). 14",
+          "role": "",
+          "description": "2. Robotics: *Got a varsity junior year(apparently we do that at our school). 14 hours a week (2 hour daily meetings during peak of season &amp; meetings over summer). Secured sponsors that have netted the team $8,000. P"
+        },
+        {
+          "name": "3. Family Responsibilities: *Manager for family restaurant. Manage online aspect",
+          "role": "",
+          "description": "3. Family Responsibilities: *Manager for family restaurant. Manage online aspects and competitor analysis (15% revenue increase). 16 hours a week because I work on fridays after school and on weekends and sporadically on"
+        },
+        {
+          "name": "4. Community Service (Volunteer): *Cook, package, and deliver 30 meals/wk to loc",
+          "role": "",
+          "description": "4. Community Service (Volunteer): *Cook, package, and deliver 30 meals/wk to local senior citizens center. 3 hours a week.*"
+        },
+        {
+          "name": "5. Badminton: *President in 11th and 12th grade (cancelled in 11th because covid",
+          "role": "",
+          "description": "5. Badminton: *President in 11th and 12th grade (cancelled in 11th because covid). About 3 hours a week.*"
+        },
+        {
+          "name": "6. Robotics Community Outreach Event: *ALS design challenge. Brainstormed and de",
+          "role": "",
+          "description": "6. Robotics Community Outreach Event: *ALS design challenge. Brainstormed and designed electromagnetic glove that improves QoL of ALS patients. One time thing.*"
+        },
+        {
+          "name": "7. Tutor: *Tutor my cousins who are 10 and 12 weekly in math concepts. Around 4 ",
+          "role": "",
+          "description": "7. Tutor: *Tutor my cousins who are 10 and 12 weekly in math concepts. Around 4 hours because their school system is very bad.*"
+        },
+        {
+          "name": "8. Piano: *Piano since 6. Practice (almost) daily and discovered love for music ",
+          "role": "",
+          "description": "8. Piano: *Piano since 6. Practice (almost) daily and discovered love for music production/composition. Chopin lover. 45 minutes a day.*"
+        },
+        {
+          "name": "9. Financial Manager: *Help my parents manage their IRA and stocks. Manage my ow",
+          "role": "",
+          "description": "9. Financial Manager: *Help my parents manage their IRA and stocks. Manage my own portfolio.*"
+        },
+        {
+          "name": "10. Discord Moderator: *Unironically wrote this (felt SUPER cringe to put this i",
+          "role": "",
+          "description": "10. Discord Moderator: *Unironically wrote this (felt SUPER cringe to put this in, but I wanted to limit test and it did consume most of my free time).*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. First Robotics District Chairman's Award *(kept vague so I don't get doxxed lol)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. French Honor Society",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": "4. Community Service (Volunteer): *Cook, package, and deliver 30 meals/wk to local senior citizens center. 3 hours a week.*; 6. Robotics Community Outreach Event: *ALS design challenge. Brainstormed and designed electromagnetic glove that improves QoL of ALS patients. One time thing.*; 7. Tutor: *Tutor my cousins who are 10 and 12 weekly in math concepts. Around 4 hours because their school system is very bad.*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics indicated on application; mentioned cs and econ join opportunities in"
+    },
+    "ESSAY_SCORE": null
+  }
+}

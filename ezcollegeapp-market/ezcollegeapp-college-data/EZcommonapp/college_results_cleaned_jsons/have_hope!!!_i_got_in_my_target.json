@@ -1,0 +1,73 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "2 internships at mutual funds 150 on my duolingo english test (8-8.5 ielts equivalent) these are my stats 9:25 PM Founde",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Awards: Distinction in LSE essay comp (top 2.73%) 1st rank in finance (international economics olympiad) Most Mathematic",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2 internships: at a mutual fund with 72 billion USD aum at a securities firm",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- No way that's sooooo good!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- That's awesome! What were your stats?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Congrats! HKUST is a great school",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Congrats! What major?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- For now business and management, after the first year ill go do bsc economics finance :)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- ahh nice!! me too! although, i am a local student; got rejected from GBUS and hoping to switch to GBUS in the second y",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Economics Tutor & Peer Mentor (helping igcse students in economics)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.89,
+      "sat_total": null,
+      "act_composite": 32,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Paid Student Researcher at Georgia Tech (biochemistry/breast cancer) Choreo",
+          "role": "",
+          "description": "etc. Paid Student Researcher at Georgia Tech (biochemistry/breast cancer) Choreographer for School Musical (2 years) Competitive Dancer (12 years) Science Olympiad (2 years, regional placements) Emory University Summer classes"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Anatomy",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APES",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP3D",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Stat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Bio Standardized Testing List the highest scores earned and all scores that were reported. SAT I: did not take ACT: 3",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Biology/Biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

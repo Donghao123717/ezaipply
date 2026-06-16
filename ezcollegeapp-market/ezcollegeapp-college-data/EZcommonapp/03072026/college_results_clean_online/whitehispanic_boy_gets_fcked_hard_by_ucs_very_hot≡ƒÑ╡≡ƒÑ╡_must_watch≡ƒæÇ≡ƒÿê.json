@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1470,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "^(it starts getting really bad here lol)",
+          "role": "",
+          "description": "^(it starts getting really bad here lol)"
+        },
+        {
+          "name": "1. Was the class secretary/treasurer in student government sophomore year and a ",
+          "role": "",
+          "description": "1. Was the class secretary/treasurer in student government sophomore year and a student senator junior and senior year"
+        },
+        {
+          "name": "2. Did mock trial freshman, sophomore, and senior year. Was recognized by the co",
+          "role": "",
+          "description": "2. Did mock trial freshman, sophomore, and senior year. Was recognized by the county judge for my opening argument sophomore year. Tried to start a club at my new school senior year but it failed afte"
+        },
+        {
+          "name": "3. Tutored math all four years",
+          "role": "",
+          "description": "3. Tutored math all four years"
+        },
+        {
+          "name": "4. Played football sophomore and junior year, sucked at it",
+          "role": "",
+          "description": "4. Played football sophomore and junior year, sucked at it"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Literally zero",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied as a chem or math major to us universities and the faculty of science fo"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1580,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Math Club President Science Club team captain Varsity Athlete (not recruite",
+          "role": "",
+          "description": "etc. Math Club President Science Club team captain Varsity Athlete (not recruited) Paid Academic Internship DECA ICDC qualifier Organized team for regional math competition As a hobby, independent mathematical modeling project"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Mech",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APUSH",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Spanish",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Linear Algebra",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ODEs",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Abstract Algebra Standardized Testing List the highest scores earned and all scores that were reported. SAT I: 1580 (780",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Not silly at all! This is the rural advantage, but at my school very few people (across many years) show interest in all of their classes, and word spreads fast among the teacher community about those that do (Also, I know there's FERPA and all, but two of them were genuinely proud of their letters and showed me after they submitted to common app)."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Mathematics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

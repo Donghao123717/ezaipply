@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "lifting",
+          "role": "",
+          "description": "lifting"
+        },
+        {
+          "name": "and being in-state does the rest. You're in a solid position. What major did you",
+          "role": "",
+          "description": "and being in-state does the rest. You're in a solid position. What major did you apply for?"
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        },
+        {
+          "name": "Ive seen it say in-state acceptance is higher than out-of-state but thats in per",
+          "role": "",
+          "description": "Ive seen it say in-state acceptance is higher than out-of-state but thats in percentage, percentage is higher bc much less number of students apply in-state (about to 1/4) vs out-of-state."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "GT isn't looking for that from in-state applicants the way a T10 might.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 40,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

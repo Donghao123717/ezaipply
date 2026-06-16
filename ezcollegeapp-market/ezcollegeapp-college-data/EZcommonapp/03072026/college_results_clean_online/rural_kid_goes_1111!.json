@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Viola - 11 years*",
+          "role": "",
+          "description": "1. *Viola - 11 years*"
+        },
+        {
+          "name": "2. *Internship at small company, worked in a lab and occasionally a clean room*",
+          "role": "",
+          "description": "2. *Internship at small company, worked in a lab and occasionally a clean room*"
+        },
+        {
+          "name": "3. *TSA*",
+          "role": "",
+          "description": "3. *TSA*"
+        },
+        {
+          "name": "4. *Cycling - I bike a bunch for fun, but don't race. 7-11 hours per week*",
+          "role": "",
+          "description": "4. *Cycling - I bike a bunch for fun, but don't race. 7-11 hours per week*"
+        },
+        {
+          "name": "5. *National Ocean Science Bowl - Ended up being team captain but didn't put tha",
+          "role": "",
+          "description": "5. *National Ocean Science Bowl - Ended up being team captain but didn't put that role on my app since it was after apps were due. Team ended up placing well at regionals, but again didn't make it on "
+        },
+        {
+          "name": "6. *Drone racing*",
+          "role": "",
+          "description": "6. *Drone racing*"
+        },
+        {
+          "name": "7. *NHS (lol)*",
+          "role": "",
+          "description": "7. *NHS (lol)*"
+        },
+        {
+          "name": "8. *Photography (hobby, no awards)*",
+          "role": "",
+          "description": "8. *Photography (hobby, no awards)*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *National Merit commended*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *AP Scholar w distinction*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Honor roll/other general school GPA awards*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *Solo and Ensemble I/superior 3 years in HS*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "aero/astro or meche"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,23 @@
+# Environment — contains API keys
+.env
+
+# Facebook browser session and runtime state
+# These are auto-created on first run — never commit cookies or personal data
+memory/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Assets (post images — usually large binaries)
+assets/

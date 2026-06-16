@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1390,
+      "act_composite": 36,
+      "class_rank_percentile": 80.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Internship, 12hr/week, 12 week/year, managed social media page, advertising, ",
+          "role": "",
+          "description": "1. Internship, 12hr/week, 12 week/year, managed social media page, advertising, etc for large Spanish news outlet. Travelled around local Spanish communities with president to help with news"
+        },
+        {
+          "name": "2. Community Service, 60hr/week, 2week/year, worked in foreign country to build ",
+          "role": "",
+          "description": "2. Community Service, 60hr/week, 2week/year, worked in foreign country to build a school with money I raised, install plumbing, water filters, etc, worked to give hygiene lessons and as a patient translator for a medical"
+        },
+        {
+          "name": "3. Spanish Club, 3hr/week, 40 week/year, founded school Spanish club as a sophom",
+          "role": "",
+          "description": "3. Spanish Club, 3hr/week, 40 week/year, founded school Spanish club as a sophomore, served as President ever since"
+        },
+        {
+          "name": "4. Publication, 1.5hr/week, 40 week/year, worked as editor for school newspaper",
+          "role": "",
+          "description": "4. Publication, 1.5hr/week, 40 week/year, worked as editor for school newspaper"
+        },
+        {
+          "name": "5. Another club (can't say name or I'll likely dox myself), 3hr/week, 40 week/ye",
+          "role": "",
+          "description": "5. Another club (can't say name or I'll likely dox myself), 3hr/week, 40 week/year, head of club for 2 years that brings in speakers on global political/social issues"
+        },
+        {
+          "name": "6. Volunteer/Internship, 5hr/week, 40 week/year, interned at gym/organization fo",
+          "role": "",
+          "description": "6. Volunteer/Internship, 5hr/week, 40 week/year, interned at gym/organization focused on helping at-risk youth become personal trainers"
+        },
+        {
+          "name": "7. Work(paid), 16hr/week, 12 week/year, worked as a water sport instructor over ",
+          "role": "",
+          "description": "7. Work(paid), 16hr/week, 12 week/year, worked as a water sport instructor over the summers"
+        },
+        {
+          "name": "8. Sport (can't dox myself again, pretty niche), 18hr/week, 20 week/year, medioc",
+          "role": "",
+          "description": "8. Sport (can't dox myself again, pretty niche), 18hr/week, 20 week/year, mediocre member of school varsity team, travel around New England to participate in competitions, won a few awards"
+        },
+        {
+          "name": "9. Chess, 2hr/week, 40 week/year, tutor elderly adults in chess and spend a ton ",
+          "role": "",
+          "description": "9. Chess, 2hr/week, 40 week/year, tutor elderly adults in chess and spend a ton of time online playing"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Literally none",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 60,
+      "first_gen": true,
+      "service_summary": "2. Community Service, 60hr/week, 2week/year, worked in foreign country to build a school with money I raised, install plumbing, water filters, etc, worked to give hygiene lessons and as a patient translator for a medical; 6. Volunteer/Internship, 5hr/week, 40 week/year, interned at gym/organization focused on helping at-risk youth become personal trainers; 9. Chess, 2hr/week, 40 week/year, tutor elderly adults in chess and spend a ton of time online playing"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "spanish, latin american studies, math &amp; philosophy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

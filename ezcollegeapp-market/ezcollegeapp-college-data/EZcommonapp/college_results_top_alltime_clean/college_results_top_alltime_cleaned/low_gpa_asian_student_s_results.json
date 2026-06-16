@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1400,
+      "act_composite": 30,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Attended a program for six years in row where I composed music for a group o",
+          "role": "",
+          "description": "1. *Attended a program for six years in row where I composed music for a group of professional chamber musicians for a public concert.*"
+        },
+        {
+          "name": "2. *Took part in my school's drama program for three years, including two main r",
+          "role": "",
+          "description": "2. *Took part in my school's drama program for three years, including two main roles.*"
+        },
+        {
+          "name": "3. *Played in the school's band and orchestra, and sang in the school choir*",
+          "role": "",
+          "description": "3. *Played in the school's band and orchestra, and sang in the school choir*"
+        },
+        {
+          "name": "4. *Went on a foreign exchange trip funded in part by the Tokyo Board of Educati",
+          "role": "",
+          "description": "4. *Went on a foreign exchange trip funded in part by the Tokyo Board of Education and attended a school in Japan for several weeks.*"
+        },
+        {
+          "name": "5. *Worked in several local food banks (including the OR Food Bank) sorting food",
+          "role": "",
+          "description": "5. *Worked in several local food banks (including the OR Food Bank) sorting food each summer.*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Nothing :(*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

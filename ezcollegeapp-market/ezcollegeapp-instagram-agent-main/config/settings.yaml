@@ -1,0 +1,17 @@
+rate_limits:
+  max_comments_per_day: 15
+  max_posts_per_day: 2
+  max_replies_per_run: 10
+  follow:
+    min_per_day: 20
+    max_per_day: 40
+    delay_seconds_min: 15   # seconds to wait between each follow
+    delay_seconds_max: 45
+    # active_hours: [8, 22] # optional: only follow between 8am–10pm local time
+
+llm:
+  provider: openai          # overridden by LLM_PROVIDER env var
+  openai_model: gpt-4o
+  gemini_model: gemini-1.5-pro
+
+dry_run: true               # overridden by DRY_RUN env var

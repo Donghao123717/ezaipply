@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 780,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(purposely vague to not reveal identity)",
+          "role": "",
+          "description": "(purposely vague to not reveal identity)"
+        },
+        {
+          "name": "1. Published research on American history in Concord Review, invited to speak at",
+          "role": "",
+          "description": "1. Published research on American history in Concord Review, invited to speak at small local conference, represented state"
+        },
+        {
+          "name": "2. Founder of Political YouTube channel, 500,000+ views in total, interviewed co",
+          "role": "",
+          "description": "2. Founder of Political YouTube channel, 500,000+ views in total, interviewed couple of political figures and polisci professors"
+        },
+        {
+          "name": "3. Christian Mission trip abroad in Ouagadougou, spent summer providing food, he",
+          "role": "",
+          "description": "3. Christian Mission trip abroad in Ouagadougou, spent summer providing food, helping baptize, teaching vocational skills to natives"
+        },
+        {
+          "name": "4. Varsity soccer, 3 years",
+          "role": "",
+          "description": "4. Varsity soccer, 3 years"
+        },
+        {
+          "name": "5. Political canvassing for younger conservative organization",
+          "role": "",
+          "description": "5. Political canvassing for younger conservative organization"
+        },
+        {
+          "name": "6. NHS, 300 hours of volunteering (earned awards)",
+          "role": "",
+          "description": "6. NHS, 300 hours of volunteering (earned awards)"
+        },
+        {
+          "name": "7. Journalism (big editing position in school newspaper, wrote for city newspape",
+          "role": "",
+          "description": "7. Journalism (big editing position in school newspaper, wrote for city newspaper, few awards)"
+        },
+        {
+          "name": "8. Published research on welfare state and its harmful effects on minorities' ec",
+          "role": "",
+          "description": "8. Published research on welfare state and its harmful effects on minorities' economic statuses"
+        },
+        {
+          "name": "9. Babysitting, local jobs, etc",
+          "role": "",
+          "description": "9. Babysitting, local jobs, etc"
+        },
+        {
+          "name": "10. Junior ROTC (vague to not get doxxed)",
+          "role": "",
+          "description": "10. Junior ROTC (vague to not get doxxed)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "\\- Recognition from local news stations (NewsMax, Epoch Times)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- APSWD",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Several local journalism awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Spanish Honor Society recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 7,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "poli sci"
+    },
+    "ESSAY_SCORE": null
+  }
+}

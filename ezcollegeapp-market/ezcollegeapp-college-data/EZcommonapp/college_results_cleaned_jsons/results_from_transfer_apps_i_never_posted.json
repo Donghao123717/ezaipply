@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "PSU: film org/project",
+          "role": "",
+          "description": "PSU: film org/project"
+        },
+        {
+          "name": "investment org",
+          "role": "",
+          "description": "investment org"
+        },
+        {
+          "name": "charity",
+          "role": "",
+          "description": "charity"
+        },
+        {
+          "name": "brand ambassador HS: FBLA VP, NHS, Spanish NHS, Boys State, exchange program",
+          "role": "",
+          "description": "brand ambassador HS: FBLA VP, NHS, Spanish NHS, Boys State, exchange program"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "2nd semester course load at PSU: Video Game Culture",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "fiction writing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "management",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "marketing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "intermediate microeconomics(Withdrawal)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Earth science Standardized Testing List the highest scores earned and all scores that were reported. SAT/ACT: 1490 super",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Finance and Economics (Intended majors at PSU before transfer)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

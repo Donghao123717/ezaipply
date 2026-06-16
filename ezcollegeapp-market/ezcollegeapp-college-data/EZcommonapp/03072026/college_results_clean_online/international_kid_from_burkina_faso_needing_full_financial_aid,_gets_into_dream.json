@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 33,
+      "class_rank_percentile": 97.5,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Association of International School of Africa, Award for Excellence (2021)**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "College Board National Recognition Program, African America Program winner (2020)**: Top 2.5% Africa",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Award with Honor (2020)**: Scored 5’s on four different AP exams",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Association of International School of Africa, Outstanding Service Project Award (2019)**: Co-create",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Full Scholarship to my current school (2017):** Selected for one of two scholarships for outstanding",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2019,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "i am interested in artificial intelligence, psychology, and economics. so, i wil"
+    },
+    "ESSAY_SCORE": null
+  }
+}

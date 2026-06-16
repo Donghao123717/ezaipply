@@ -1,0 +1,73 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1410,
+      "act_composite": 14,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Hospital volunteering",
+          "role": "",
+          "description": "Hospital volunteering"
+        },
+        {
+          "name": "Hospital internship",
+          "role": "",
+          "description": "Hospital internship"
+        },
+        {
+          "name": "Medical article author",
+          "role": "",
+          "description": "Medical article author"
+        },
+        {
+          "name": "Duke University Scientific Research",
+          "role": "",
+          "description": "Duke University Scientific Research"
+        },
+        {
+          "name": "Varsity Swimming",
+          "role": "",
+          "description": "Varsity Swimming"
+        },
+        {
+          "name": "Varsity Basketball (Captain)",
+          "role": "",
+          "description": "Varsity Basketball (Captain)"
+        },
+        {
+          "name": "Band",
+          "role": "",
+          "description": "Band"
+        },
+        {
+          "name": "Chamber Ensemble",
+          "role": "",
+          "description": "Chamber Ensemble"
+        },
+        {
+          "name": "Asian Culture Club",
+          "role": "",
+          "description": "Asian Culture Club"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

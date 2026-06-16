@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": 99.85,
+      "ap_ib_honors_count": 13
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(11-12) Research on Parkinson's",
+          "role": "",
+          "description": "(11-12) Research on Parkinson's"
+        },
+        {
+          "name": "which led to publication (10-12) Founder of my non-profit teaching over 100 kids",
+          "role": "",
+          "description": "which led to publication (10-12) Founder of my non-profit teaching over 100 kids about biology and public health by partnering with a public library and summer school. (9-12) Leadership position in BestBridge2Heart non-profit organization, organizing book drives, meal deliveries, and other outreach programs."
+        },
+        {
+          "name": "Personal statement: Wrote about losing weight at the end of my freshman year and",
+          "role": "",
+          "description": "Personal statement: Wrote about losing weight at the end of my freshman year and how learning more about muscle anatomy and nutrition guided me towards biology and medicine. (7/10) Supplementals: 8/10 I really liked them"
+        },
+        {
+          "name": "recs: Counselor: like 4/10. She only knows me decently cause I ask her so many q",
+          "role": "",
+          "description": "recs: Counselor: like 4/10. She only knows me decently cause I ask her so many questions in person and via email about school, but other than that, I don't really talk to her."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "USABO semifinalist BBO silver USMDO silver Solo and ensemble contest gold at the state level on flute Made all-region ba",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "(11-12) HOSA didn't really do much other than volunteer a lot hmm i think the kind of research i did, community service, and my art were pretty unique to my application"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Biology/Neuroscience for pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.47,
+      "sat_total": null,
+      "act_composite": 31,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Art teacher for grades 3-5  (Volunteer)",
+          "role": "",
+          "description": "Art teacher for grades 3-5  (Volunteer)"
+        },
+        {
+          "name": "Two clubs @ school: a science club and an art club",
+          "role": "",
+          "description": "Two clubs @ school: a science club and an art club"
+        },
+        {
+          "name": "Counselor @ summer camp  (volunteer)",
+          "role": "",
+          "description": "Counselor @ summer camp  (volunteer)"
+        },
+        {
+          "name": "Part-time job working about 25 hrs/week",
+          "role": "",
+          "description": "Part-time job working about 25 hrs/week"
+        },
+        {
+          "name": "30-mile bike rides 4 times a week (independent)",
+          "role": "",
+          "description": "30-mile bike rides 4 times a week (independent)"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        },
+        {
+          "name": "Awards/Honors:** (list here)",
+          "role": "",
+          "description": "Awards/Honors:** (list here)"
+        },
+        {
+          "name": "Book award",
+          "role": "",
+          "description": "Book award"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Art teacher for grades 3-5  (Volunteer); Counselor @ summer camp  (volunteer)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "philosophy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

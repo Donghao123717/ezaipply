@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2025-12-13T12:00:00",
+  "language": "en",
+  "purpose": "Seed FAQ questions for Common App applicants, organized by category. Intended for question generation/expansion workflows.",
+  "categories": [
+    {
+      "category_id": "account_login",
+      "title": "Account, Login, and Profile Basics",
+      "seed_questions": [
+        "Can I create a Common App account before senior year, and will it still work later?",
+        "I forgot my password—what is the quickest way to reset it?",
+        "Can I change the email address on my Common App account after I created it?",
+        "What should I do if I can’t access the email I used to sign up?",
+        "Why am I not receiving Common App verification or notification emails (including in spam/junk)?",
+        "Does Common App support multiple accounts for the same student, and what happens if I accidentally created two?",
+        "How do I update my legal name, preferred name, or date of birth if I entered it incorrectly?",
+        "Can I delete my Common App account, and what are the consequences for submitted applications?",
+        "Why does my account show the wrong application year or cycle?",
+        "Which browsers/devices are most reliable for completing and submitting the Common App?"
+      ]
+    },
+    {
+      "category_id": "rollover_cycle",
+      "title": "Account Rollover and Application-Year Transition",
+      "seed_questions": [
+        "What is 'account rollover' and when does it happen each year?",
+        "Which sections of my application carry over after rollover, and which sections reset?",
+        "If I started school-specific supplements before rollover, will I lose that work?",
+        "Do my invited recommenders carry over after rollover, or do I need to invite them again?",
+        "If I already wrote my Common App essay before rollover, will it remain saved?",
+        "Do my Activities entries and Profile information roll over automatically?",
+        "What should I export or copy before rollover to avoid losing progress?",
+        "How do I confirm I’m working in the correct (current) application cycle after rollover?",
+        "If I had colleges on my list before rollover, do they stay on my Dashboard afterward?",
+        "Can I submit applications before August 1 for the next cycle, or must I wait?"
+      ]
+    },
+    {
+      "category_id": "college_list_limits",
+      "title": "My Colleges, Dashboard, and the 20-College Limit",
+      "seed_questions": [
+        "How many colleges can I add to my Common App Dashboard at one time?",
+        "Can I apply to more than 20 colleges using Common App, and if so, how?",
+        "What happens if I reach the 20-college limit but still want to add more schools?",
+        "Can I remove a college from My Colleges before I submit, and will anything be deleted?",
+        "Can I remove a college from My Colleges after I submit my application to that college?",
+        "Does removing a college affect my recommenders, payments, or submitted materials?",
+        "If I remove a school and add it back later, will my supplemental answers still be there?",
+        "How do I organize my college list by deadlines, decision plans, or requirements?",
+        "Why does my Dashboard show 'incomplete' even though I finished the Common App sections?",
+        "What should I do if a college is not showing up in the search list or appears inactive?"
+      ]
+    },
+    {
+      "category_id": "submission_readiness",
+      "title": "Submission Readiness, Required Sections, and 'Why Can’t I Submit?'",
+      "seed_questions": [
+        "Why can’t I submit even though everything looks complete on my Dashboard?",
+        "How do start term and decision plan selections affect my ability to submit?",
+        "Do I need to complete Courses & Grades if the college does not require it?",
+        "What does 'Review and Submit' check, and what errors are most common there?",
+        "Why does the system keep saying I have missing fields when I don’t see any?",
+        "If the PDF preview generates successfully, does that mean I’m ready to submit?",
+        "How do I confirm my application is fully submitted (not just paid)?",
+        "What should I do if I get stuck on the submission spinner or an error page?",
+        "Can I submit on a mobile phone, and is it recommended near deadlines?",
+        "What if my school’s deadline is today and the Common App site is slow or down?"
+      ]
+    },
+    {
+      "category_id": "recommenders_ferpa",
+      "title": "Recommenders, FERPA, and Recommendation Assignment",
+      "seed_questions": [
+        "How do I invite a teacher recommender in the Recommenders & FERPA section?",
+        "What does it mean to 'assign' a recommender, and why is assignment required?",
+        "My recommender didn’t get the invitation email—what should I check first?",
+        "How do I resend a recommender invitation, and when does the resend option appear?",
+        "Can I assign different recommenders to different colleges on my list?",
+        "If a recommender submitted for one college, do they have to submit again for another college?",
+        "What happens if I waive (or do not waive) my FERPA rights in Common App?",
+        "How many teacher recommendations can I submit to one college through Common App?",
+        "Can an 'Other Recommender' (coach/employer/research mentor) submit through Common App?",
+        "What should I do if a recommender entered the wrong email or I need to replace them?"
+      ]
+    },
+    {
+      "category_id": "fees_waivers_payment",
+      "title": "Application Fees, Fee Waivers, and Payment Problems",
+      "seed_questions": [
+        "What is a Common App fee waiver, and who qualifies for it?",
+        "Does my school counselor have to confirm my Common App fee waiver?",
+        "Can I submit an application with a fee waiver before my counselor confirms it?",
+        "What is the difference between a Common App fee waiver and a college-specific fee waiver?",
+        "Why am I seeing a 'Payment Issue' message after I submitted my application?",
+        "I paid the fee but my application still shows as not submitted—what should I do?",
+        "What should I do if my payment failed or timed out during submission?",
+        "Can I change the payment method after a failed payment attempt?",
+        "How do refunds work if I withdraw an application after paying?",
+        "Where can I view receipts or proof of payment for each college submission?"
+      ]
+    },
+    {
+      "category_id": "testing_scores",
+      "title": "Testing Section and Score Reporting (SAT/ACT and Beyond)",
+      "seed_questions": [
+        "Can I self-report SAT/ACT scores in the Common App, and are they considered official?",
+        "If a college is test-optional, should I still enter my test scores in the Testing section?",
+        "If I enter test scores in Common App, will every college automatically see them?",
+        "How do I report superscores or multiple test dates correctly in Common App?",
+        "What do I do if my SAT/ACT score format doesn’t match the fields in Common App?",
+        "How do I report AP/IB/A-Level or other exam results if a college asks for them?",
+        "Do I need to send official test scores through the testing agency, and when?",
+        "How do I report English proficiency tests (TOEFL/IELTS/Duolingo) in Common App?",
+        "Can I update my test scores after submitting to some colleges and before submitting to others?",
+        "What is the best way to handle a new test score that arrives after I already submitted?"
+      ]
+    },
+    {
+      "category_id": "courses_grades",
+      "title": "Courses & Grades (C&G), Transcripts, and Self-Reported Academic Record",
+      "seed_questions": [
+        "What is the Courses & Grades section, and why do some colleges require it?",
+        "How do I know whether a specific college requires Courses & Grades?",
+        "If a college does not require Courses & Grades, can I still send it to them?",
+        "What should I do if my transcript uses a different grading scale than the C&G fields?",
+        "How do I enter semester vs. trimester vs. quarter grades correctly?",
+        "How do I report weighted vs. unweighted GPA in Common App?",
+        "What if my school doesn’t rank students—how should class rank be handled?",
+        "How do I enter repeated courses, pass/fail classes, or credit/no-credit grades?",
+        "If my counselor sends the transcript, why do I still need to fill out C&G?",
+        "What is the relationship between Common App C&G and SRAR (Self-Reported Academic Record)?"
+      ]
+    },
+    {
+      "category_id": "essays_writing",
+      "title": "Essays, Prompts, and Writing Requirements",
+      "seed_questions": [
+        "Where do I paste my Common App Personal Essay, and what is the word limit?",
+        "Why does the word count change after I paste my essay into the text box?",
+        "How do I preserve formatting (paragraph breaks, italics, em dashes) in the essay box?",
+        "Can I reuse the same essay across colleges that have similar supplemental prompts?",
+        "Do colleges see my essay draft history, or only the final submitted text?",
+        "If a college has no supplemental essay, is the Personal Essay still required?",
+        "How do I answer a short-answer prompt with a strict character limit?",
+        "Are bullet points allowed in supplemental short responses?",
+        "What should I do if a prompt changes after I started drafting my response?",
+        "Can I submit different versions of my Personal Essay to different colleges?"
+      ]
+    },
+    {
+      "category_id": "activities_honors",
+      "title": "Activities, Honors, and Character Limits",
+      "seed_questions": [
+        "How many activities can I list in the Activities section, and what are the limits?",
+        "What is the character limit for the activity description, and does it include spaces?",
+        "What counts as an 'activity'—can I include family responsibilities or part-time work?",
+        "How should I prioritize which activities to include if I have more than the maximum slots?",
+        "Should I list activities in order of importance, time commitment, or chronology?",
+        "What is the difference between 'Honors' and 'Activities,' and where do awards go?",
+        "Can I include research, publications, or internships as activities—and how should I describe impact?",
+        "How do I report leadership roles when the position title has a separate character limit?",
+        "What should I do if my activity doesn’t fit the available category options?",
+        "Can I update my Activities list after submitting to early colleges but before submitting to regular ones?"
+      ]
+    },
+    {
+      "category_id": "uploads_technical",
+      "title": "Uploads, PDF Preview, and Technical Glitches",
+      "seed_questions": [
+        "Why is my application PDF preview blank, white, or not generating correctly?",
+        "If the PDF preview is blank, will colleges receive a blank application?",
+        "What should I do if an upload fails with an 'empty file' or 'too small' error?",
+        "What file formats are accepted for uploads (PDF/DOC/DOCX), and are there size limits?",
+        "Why do my PDF uploads fail even though the file opens fine on my computer?",
+        "Do special characters in the filename cause upload errors, and how can I fix that?",
+        "What browser troubleshooting steps help most (cache, extensions, private window)?",
+        "How do I confirm an attachment uploaded successfully before I submit?",
+        "Can Common App support upload a file on my behalf if uploads keep failing?",
+        "What should I do if Common App pages won’t load or buttons are unresponsive near deadlines?"
+      ]
+    },
+    {
+      "category_id": "post_submission_changes_tracking",
+      "title": "After Submission: Changes, Status, and College Portals",
+      "seed_questions": [
+        "Can I edit my Common App answers after submitting to my first college?",
+        "If I change information after submitting to one college, will that college see the updated info?",
+        "How do I correct a mistake in a submitted application (name, course, testing date, etc.)?",
+        "Who should I contact if I need to update a submitted application—the college or Common App?",
+        "How do I know whether a college received my application and all supporting documents?",
+        "Where do I find each college’s applicant portal details after submission?",
+        "My status says 'downloaded' or 'received'—what do those statuses mean?",
+        "Can I withdraw an application through Common App, or must I do it through the college?",
+        "How can I reuse my Common App information for additional colleges after submitting to some?",
+        "If I need to apply to the same college for a different term, can I resubmit?"
+      ]
+    },
+    {
+      "category_id": "counselor_reports_transcripts",
+      "title": "Counselor Forms, School Reports, Mid-Year/Final Reports, and Transcripts",
+      "seed_questions": [
+        "What documents does my counselor have to submit through Common App?",
+        "What is the School Report, and when is it typically submitted?",
+        "What is the Mid-Year Report, and when should it be sent?",
+        "What information should be included in the Mid-Year Report?",
+        "What is the Final Report, and who needs it and when?",
+        "How do I check whether my transcript has been sent to each college?",
+        "Do counselors have to submit forms separately for every college, or are they reused?",
+        "If my school uses an external transcript service, how does that integrate with Common App?",
+        "What should I do if my counselor is new to Common App and doesn’t know the workflow?",
+        "Can I submit my application before my counselor uploads the School Report or transcript?"
+      ]
+    },
+    {
+      "category_id": "international_eligibility_language",
+      "title": "International Applicants, Eligibility, and English Proficiency",
+      "seed_questions": [
+        "How should international applicants enter school names and addresses if they don’t match U.S. formats?",
+        "If my grading scale is not A–F or percentage-based, how should I report grades and GPA?",
+        "Where do I report English proficiency exams, and which tests are supported?",
+        "How do I indicate my citizenship, visa status, or residency correctly in Common App?",
+        "How do I report national exam results or leaving certificates if my country requires them?",
+        "How do colleges handle transcripts in languages other than English—do I need translations?",
+        "What should I do if my school year calendar doesn’t match U.S. semesters (e.g., different term dates)?",
+        "How do I answer questions about race/ethnicity if my country uses different categories?",
+        "Do international students use the same fee waiver rules, and what documentation is needed?",
+        "How should I report my counselor if my school does not have a traditional U.S.-style counselor role?"
+      ]
+    }
+  ]
+}

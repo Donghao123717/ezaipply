@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1400,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc.",
+          "role": "",
+          "description": "etc."
+        },
+        {
+          "name": "Mechanical Engineering Club. Participated in weekly meetings, designed a prototy",
+          "role": "",
+          "description": "Mechanical Engineering Club. Participated in weekly meetings, designed a prototype for a low-cost water filtration system, reducing impurities by 60% based on lab tests, for potential use in developing communities."
+        },
+        {
+          "name": "Community Garden Initiative. Founded a community garden, cultivated over 50 lbs ",
+          "role": "",
+          "description": "Community Garden Initiative. Founded a community garden, cultivated over 50 lbs of fresh produce donated to a local food bank monthly, addressing food insecurity in the neighborhood. School Newspaper. Wrote articles and took photos for the school newspaper, increasing student engagement by 20% through compelling stories and visuals, published bi-weekly."
+        },
+        {
+          "name": "Local Library Volunteer. Assisted librarians with shelving books, organizing eve",
+          "role": "",
+          "description": "Local Library Volunteer. Assisted librarians with shelving books, organizing events, and helping patrons, contributing to a smoother library operation and serving 50+ patrons weekly."
+        },
+        {
+          "name": "Trinidad and Tobago Cultural Association. Organized events showcasing Trinidadia",
+          "role": "",
+          "description": "Trinidad and Tobago Cultural Association. Organized events showcasing Trinidadian culture, including dance, music, and food, fostering cultural understanding and raising $300 for local charities."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing List the highest scores earned and all scores that were reported. SAT: 1400 (only submitted to MIT)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Community Garden Initiative. Founded a community garden, cultivated over 50 lbs of fresh produce donated to a local food bank monthly, addressing food insecurity in the neighborhood. Local Library Volunteer. Assisted librarians with shelving books, organizing events, and helping patrons, contributing to a smoother library operation and serving 50+ patrons weekly."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mech eng"
+    },
+    "ESSAY_SCORE": null
+  }
+}

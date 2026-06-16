@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 760,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Exec board of public health coalition",
+          "role": "",
+          "description": "Exec board of public health coalition"
+        },
+        {
+          "name": "Server trainer at assisted living facility",
+          "role": "",
+          "description": "Server trainer at assisted living facility"
+        },
+        {
+          "name": "Mock trial officer",
+          "role": "",
+          "description": "Mock trial officer"
+        },
+        {
+          "name": "NEHS officer",
+          "role": "",
+          "description": "NEHS officer"
+        },
+        {
+          "name": "NAHS officer",
+          "role": "",
+          "description": "NAHS officer"
+        },
+        {
+          "name": "Math team",
+          "role": "",
+          "description": "Math team"
+        },
+        {
+          "name": "Soup kitchen volunteer",
+          "role": "",
+          "description": "Soup kitchen volunteer"
+        },
+        {
+          "name": "Varsity soccer",
+          "role": "",
+          "description": "Varsity soccer"
+        },
+        {
+          "name": "Club soccer",
+          "role": "",
+          "description": "Club soccer"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National Merit Commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP scholar with honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Published artist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Smith book award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Outstanding achievement in geometry and pre calculus",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Soup kitchen volunteer"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

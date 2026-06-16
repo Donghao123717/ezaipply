@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1300,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Vice President of Student Counsel (12)",
+          "role": "",
+          "description": "1. Vice President of Student Counsel (12)"
+        },
+        {
+          "name": "2. Freshman Representative (9)",
+          "role": "",
+          "description": "2. Freshman Representative (9)"
+        },
+        {
+          "name": "3. President and Founder of Jewelry Club (11, 12)",
+          "role": "",
+          "description": "3. President and Founder of Jewelry Club (11, 12)"
+        },
+        {
+          "name": "4. Food Drive (11)",
+          "role": "",
+          "description": "4. Food Drive (11)"
+        },
+        {
+          "name": "5. Accounting Intern (11, 12)",
+          "role": "",
+          "description": "5. Accounting Intern (11, 12)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "N/A",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "accounting, psychology, forensic psychology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

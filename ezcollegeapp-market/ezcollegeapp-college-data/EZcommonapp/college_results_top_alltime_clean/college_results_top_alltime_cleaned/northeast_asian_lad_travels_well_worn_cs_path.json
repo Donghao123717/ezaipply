@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Principal Cellist/ Pianist/Concerto winner- Youth Orchestra. We toured around",
+          "role": "",
+          "description": "1. Principal Cellist/ Pianist/Concerto winner- Youth Orchestra. We toured around the country a couple of times and played in some well-known venues."
+        },
+        {
+          "name": "2. Captain, Science Olympiad - a lot of regional medals and team regional wins a",
+          "role": "",
+          "description": "2. Captain, Science Olympiad - a lot of regional medals and team regional wins and some states placements."
+        },
+        {
+          "name": "3. President, FBLA - regional and state event winner and multiple-time national ",
+          "role": "",
+          "description": "3. President, FBLA - regional and state event winner and multiple-time national qualifier."
+        },
+        {
+          "name": "4. Captain - PF Debate - Regional first place team but we never broke at states ",
+          "role": "",
+          "description": "4. Captain - PF Debate - Regional first place team but we never broke at states or national tournaments"
+        },
+        {
+          "name": "5. Captain, Varsity Football - some regional recognition &amp;amp;amp;amp;amp; a",
+          "role": "",
+          "description": "5. Captain, Varsity Football - some regional recognition &amp;amp;amp;amp;amp; a recommended applicant at some D3 schools"
+        },
+        {
+          "name": "6. Captain, Varsity tennis - 1st singles &amp;amp;amp;amp;amp; all-region 1st te",
+          "role": "",
+          "description": "6. Captain, Varsity tennis - 1st singles &amp;amp;amp;amp;amp; all-region 1st team selection"
+        },
+        {
+          "name": "7. Piano - won a couple of state-wide competitions &amp;amp;amp;amp;amp; perform",
+          "role": "",
+          "description": "7. Piano - won a couple of state-wide competitions &amp;amp;amp;amp;amp; performed a concerto"
+        },
+        {
+          "name": "8. Founder - startup business. Created through the class YEA! About $1000 in pro",
+          "role": "",
+          "description": "8. Founder - startup business. Created through the class YEA! About $1000 in profit. Really just learned some networking and business-plan skills."
+        },
+        {
+          "name": "9. Founder - Volunteer Tutoring Service. Provided students in my community with ",
+          "role": "",
+          "description": "9. Founder - Volunteer Tutoring Service. Provided students in my community with free online tutoring during Covid"
+        },
+        {
+          "name": "10. Assistant developer - local university - worked with undergrads on their sum",
+          "role": "",
+          "description": "10. Assistant developer - local university - worked with undergrads on their summer research project"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Rensselaer Medal Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Cello - All-National audition, all-state selection",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Merit Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Local Chemistry Achievement award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "9. Founder - Volunteer Tutoring Service. Provided students in my community with free online tutoring during Covid"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

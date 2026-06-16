@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I applied mainly through the Coalition Application so I had higher word counts f",
+          "role": "",
+          "description": "I applied mainly through the Coalition Application so I had higher word counts for my activities. Coalition also allows you to give a range for hours per week."
+        },
+        {
+          "name": "1. *Martial Arts Competitor, Instructor, Judge (9-12, 6-20 hr/wk):* 10 years, 2n",
+          "role": "",
+          "description": "1. *Martial Arts Competitor, Instructor, Judge (9-12, 6-20 hr/wk):* 10 years, 2nd degree black belt, placed at international level open competition, state level medals"
+        },
+        {
+          "name": "2. *Cultural Music Performer (9-12, 8 hr/wk):* 12 years, over 50 performances ac",
+          "role": "",
+          "description": "2. *Cultural Music Performer (9-12, 8 hr/wk):* 12 years, over 50 performances across 3 US states, 3 countries, and 6 big cities, pursuing certification equivalent to a BA, some highlighted performances on TV and at prest"
+        },
+        {
+          "name": "3. *Independent Research (12, 5hr/wk):* Described the research plan and what sta",
+          "role": "",
+          "description": "3. *Independent Research (12, 5hr/wk):* Described the research plan and what stage I was in, applied for $7k grant."
+        },
+        {
+          "name": "4. *Peer Counseling Mental Health Line Founder (11-12, 4-14 hr/wk):* Helped teen",
+          "role": "",
+          "description": "4. *Peer Counseling Mental Health Line Founder (11-12, 4-14 hr/wk):* Helped teens across 5 countries with over 7 different issues, large amount of signatures on petition to UK parliament, interviewed for an undergraduate"
+        },
+        {
+          "name": "5. *High School STEM Club Founder (10-12, 4-18 hr/wk):* led book drive with hund",
+          "role": "",
+          "description": "5. *High School STEM Club Founder (10-12, 4-18 hr/wk):* led book drive with hundreds of books sent to NYC and developing nations, other miscellaneous community initiatives, associated first author poster and paper public"
+        },
+        {
+          "name": "6. *Oncology Research Intern (11, 20 hr/wk):* Described lab duties and projects,",
+          "role": "",
+          "description": "6. *Oncology Research Intern (11, 20 hr/wk):* Described lab duties and projects, associated publications (repeated in honors section)"
+        },
+        {
+          "name": "7. *$4k Community Service Grant Project (10-12, 1-4 hr/wk):* meeting basic needs",
+          "role": "",
+          "description": "7. *$4k Community Service Grant Project (10-12, 1-4 hr/wk):* meeting basic needs of rural citizens of a village in a developing country, presented project in an academic context at t20 graduate public health school."
+        },
+        {
+          "name": "8. *Physician Shadowing, Virtual Shadowing, Nursing Volunteering (11-12, 2-20 hr",
+          "role": "",
+          "description": "8. *Physician Shadowing, Virtual Shadowing, Nursing Volunteering (11-12, 2-20 hr/wk):* Pretty self-explanatory."
+        },
+        {
+          "name": "9. Coalition Only Allows 8 Activities | For Common app, I split up my shadowing ",
+          "role": "",
+          "description": "9. Coalition Only Allows 8 Activities | For Common app, I split up my shadowing and nursing volunteering"
+        },
+        {
+          "name": "10. Coalition Only Allows 8 Activities | For Common app, I added virtual medical",
+          "role": "",
+          "description": "10. Coalition Only Allows 8 Activities | For Common app, I added virtual medical research lecture series that I attended at two top medical centers over the summer"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *First Author Poster and Paper Conference Publication, Poster Awards*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *TEDx Event Licensee and Organizer*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Co-Author of Oncology Review Paper in a Respected International Journal*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *Co-Author of Oncology Poster in a National Conference*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *Columbia University SHP Program*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": true,
+      "service_summary": "5. *High School STEM Club Founder (10-12, 4-18 hr/wk):* led book drive with hundreds of books sent to NYC and developing nations, other miscellaneous community initiatives, associated first author poster and paper public; 7. *$4k Community Service Grant Project (10-12, 1-4 hr/wk):* meeting basic needs of rural citizens of a village in a developing country, presented project in an academic context at t20 graduate public health school."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " pre-medicine; if applying into a major, psychology or biology; if no restrict"
+    },
+    "ESSAY_SCORE": null
+  }
+}

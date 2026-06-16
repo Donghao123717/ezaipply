@@ -1,0 +1,63 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": null,
+      "act_composite": 33,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 15
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1.** National Merit Commended Scholar and National  Hispanic Recognition Program Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2.** Advanced International Certificate of Education (AICE) Diploma with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.** Hispanic Scholarship Fund Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4.** Boys State (Listed awards and positions held; vague so I don’t get doxxed)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5.** Quiz Bowl Team Regional Championship",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\*\\* Participated in Virtual Foreign Exchange Program (Mentioned in Additional Information)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science, public policy, or educational studies (i ultimately want to b"
+    },
+    "ESSAY_SCORE": null
+  }
+}

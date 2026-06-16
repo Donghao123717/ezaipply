@@ -1,0 +1,144 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.4,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Outdoor Track 9-12 (15hr/wk, 10wk/yr): Boys' Jumps Captain, recruited to some D3",
+          "role": "",
+          "description": "Outdoor Track 9-12 (15hr/wk, 10wk/yr): Boys' Jumps Captain, recruited to some D3/low-level D2 schools, State-level competitor"
+        },
+        {
+          "name": "Indoor Track 10-12 (15hr/wk, 10wk/yr): State-level competitor, same events, etc.",
+          "role": "",
+          "description": "Indoor Track 10-12 (15hr/wk, 10wk/yr): State-level competitor, same events, etc."
+        },
+        {
+          "name": "Theater/Drama 11-12 (6hr/wk, 28wk/yr): Male Ensemble actor (5-10 roles/show), St",
+          "role": "",
+          "description": "Theater/Drama 11-12 (6hr/wk, 28wk/yr): Male Ensemble actor (5-10 roles/show), Stage Manager, Head of Deck Crew"
+        },
+        {
+          "name": "Cultural 11-12 (2hr/wk, 36wk/yr): Member",
+          "role": "",
+          "description": "Cultural 11-12 (2hr/wk, 36wk/yr): Member"
+        },
+        {
+          "name": "Band 9-12 (5hr/wk 40wk/yr): Member (Drummer/Percussionist in Jazz, Symphonic, an",
+          "role": "",
+          "description": "Band 9-12 (5hr/wk 40wk/yr): Member (Drummer/Percussionist in Jazz, Symphonic, and Pep bands)"
+        },
+        {
+          "name": "Tri-M Honor Society 11-12 (2hr/wk 40wk/yr): Member",
+          "role": "",
+          "description": "Tri-M Honor Society 11-12 (2hr/wk 40wk/yr): Member"
+        },
+        {
+          "name": "Game Jam Club 11 (2hr/wk 16wk/yr): Founder & President, taught 8–10 peers to bui",
+          "role": "",
+          "description": "Game Jam Club 11 (2hr/wk 16wk/yr): Founder & President, taught 8–10 peers to build games in Godot. Each member made a small game. Organized meetings & created capstone project."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "College Board National First-Generation Recognition Award (2025) 12",
+          "role": "",
+          "description": "College Board National First-Generation Recognition Award (2025) 12"
+        },
+        {
+          "name": "Tri-M Honor Society 11-12",
+          "role": "",
+          "description": "Tri-M Honor Society 11-12"
+        },
+        {
+          "name": "Honor Roll 9-12",
+          "role": "",
+          "description": "Honor Roll 9-12"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "Technology Teacher (9/10): My favorite teacher at the school, took nearly every ",
+          "role": "",
+          "description": "Technology Teacher (9/10): My favorite teacher at the school, took nearly every class he offered, had him every semester until senior year. He submitted the letter like a month after I wanted it, but "
+        },
+        {
+          "name": "French Teacher (9/10): 2nd favorite teacher at the school, have had every year s",
+          "role": "",
+          "description": "French Teacher (9/10): 2nd favorite teacher at the school, have had every year since freshman year, went to Quebec on school field trip together. Submitted teacher evaluation (slightly different from "
+        },
+        {
+          "name": "Counselor (8/10): Really nice guy, HS recommends students get counselor LOR, som",
+          "role": "",
+          "description": "Counselor (8/10): Really nice guy, HS recommends students get counselor LOR, some schools required it."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "College Board National First-Generation Recognition Award (2025) 12",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Tri-M Honor Society 11-12",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honor Roll 9-12",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Technology Teacher (9/10): My favorite teacher at the school, took nearly every class he offered, ha",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "French Teacher (9/10): 2nd favorite teacher at the school, have had every year since freshman year, ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor (8/10): Really nice guy, HS recommends students get counselor LOR, some schools required i",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "game design, game development, etc."
+    },
+    "ESSAY_SCORE": null
+  }
+}

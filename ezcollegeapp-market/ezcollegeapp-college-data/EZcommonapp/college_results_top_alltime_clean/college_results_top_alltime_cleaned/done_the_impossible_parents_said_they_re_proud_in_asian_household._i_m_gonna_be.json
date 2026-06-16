@@ -1,0 +1,134 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Common App (No particular order, but I would move them depending on whether I wa",
+          "role": "",
+          "description": "Common App (No particular order, but I would move them depending on whether I was submitting for BSMD or regular school)*"
+        },
+        {
+          "name": "1. Therapy Assistant at organization that helps special needs/disabled children",
+          "role": "",
+          "description": "1. Therapy Assistant at organization that helps special needs/disabled children"
+        },
+        {
+          "name": "2. Research (Lab assistant for affiliated Cornell lab) - Neuroscience",
+          "role": "",
+          "description": "2. Research (Lab assistant for affiliated Cornell lab) - Neuroscience"
+        },
+        {
+          "name": "3. Theatre (actor for school productions)",
+          "role": "",
+          "description": "3. Theatre (actor for school productions)"
+        },
+        {
+          "name": "4. Local youth council (river sweeps, clothes drives)",
+          "role": "",
+          "description": "4. Local youth council (river sweeps, clothes drives)"
+        },
+        {
+          "name": "5. Head of MUN team",
+          "role": "",
+          "description": "5. Head of MUN team"
+        },
+        {
+          "name": "6. Research (Lab assistant at Cornell lab - lol I think this is why they like me",
+          "role": "",
+          "description": "6. Research (Lab assistant at Cornell lab - lol I think this is why they like me) - Cellular"
+        },
+        {
+          "name": "7. Founder of club tied to \\^ therapy organization - fundraisers like bakesales",
+          "role": "",
+          "description": "7. Founder of club tied to \\^ therapy organization - fundraisers like bakesales"
+        },
+        {
+          "name": "8. Science Fair Judge for middle and elementary school",
+          "role": "",
+          "description": "8. Science Fair Judge for middle and elementary school"
+        },
+        {
+          "name": "9. EMT",
+          "role": "",
+          "description": "9. EMT"
+        },
+        {
+          "name": "10. Shadowing (bout 40 hours with orthopedic surgeons - I got to see surgeries a",
+          "role": "",
+          "description": "10. Shadowing (bout 40 hours with orthopedic surgeons - I got to see surgeries and clinical rounds)"
+        },
+        {
+          "name": "Other (Included in Resume)*",
+          "role": "",
+          "description": "Other (Included in Resume)*"
+        },
+        {
+          "name": "Writing, Trivia, Origami clubs - member no leadership",
+          "role": "",
+          "description": "Writing, Trivia, Origami clubs - member no leadership"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Common App*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Regeneron Regional Science Fair Special Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Regional Science Fair 2nd Place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. State-Regional Science Fair Honorable Mention",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Scholastic Art &amp; Writing: Silver Key (1) and Honorable Mentions (5) Poetry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Other (Included in Resume)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Cum Laude, Regional Science Fair 1st Place (10th Grade was lesser level science fair/not as reputabl",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology, public health, pre-med related."
+    },
+    "ESSAY_SCORE": null
+  }
+}

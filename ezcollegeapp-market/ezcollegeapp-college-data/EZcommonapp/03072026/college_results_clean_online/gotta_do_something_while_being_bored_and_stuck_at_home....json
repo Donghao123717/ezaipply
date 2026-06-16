@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1600,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 16
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Science Bowl Pres",
+          "role": "",
+          "description": "1. Science Bowl Pres"
+        },
+        {
+          "name": "2. Fast food worker XD",
+          "role": "",
+          "description": "2. Fast food worker XD"
+        },
+        {
+          "name": "3. Founded own club: Trivia Club (I hold it very dear to my heart, the club memb",
+          "role": "",
+          "description": "3. Founded own club: Trivia Club (I hold it very dear to my heart, the club members are always so dedicated and the best to hang around)"
+        },
+        {
+          "name": "4. Played piano since I was little, I also write music and perform with a band I",
+          "role": "",
+          "description": "4. Played piano since I was little, I also write music and perform with a band I formed"
+        },
+        {
+          "name": "5. Mu Alpha Theta Pres (Math Club)",
+          "role": "",
+          "description": "5. Mu Alpha Theta Pres (Math Club)"
+        },
+        {
+          "name": "6. Tutoring for many years, started a small tutoring business",
+          "role": "",
+          "description": "6. Tutoring for many years, started a small tutoring business"
+        },
+        {
+          "name": "7. Varsity Tennis",
+          "role": "",
+          "description": "7. Varsity Tennis"
+        },
+        {
+          "name": "8. Researcher at local state university, published paper (although I didn't cont",
+          "role": "",
+          "description": "8. Researcher at local state university, published paper (although I didn't contribute as much as I should have...)"
+        },
+        {
+          "name": "9. Acapella Group",
+          "role": "",
+          "description": "9. Acapella Group"
+        },
+        {
+          "name": "10. Coding club (Random tack on, I didn't do much in this club)",
+          "role": "",
+          "description": "10. Coding club (Random tack on, I didn't do much in this club)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *USABO semifinalist/top 50*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *Science Bowl Regionals/Nationals*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Chemistry Olympiad Local Chapter winner*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *State math competition winner*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *Int Toronto Biology Olympiad 30th something place*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs/bio/business... i have no idea at the moment."
+    },
+    "ESSAY_SCORE": null
+  }
+}

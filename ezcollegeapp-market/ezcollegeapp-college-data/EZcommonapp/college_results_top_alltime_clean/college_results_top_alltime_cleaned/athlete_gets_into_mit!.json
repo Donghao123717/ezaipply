@@ -1,0 +1,44 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "President of Mock Trial, Secretary of Model UN, SciOly member (no awards tho lol",
+          "role": "",
+          "description": "President of Mock Trial, Secretary of Model UN, SciOly member (no awards tho lol), wholesome part time job (dont wanna dox myself), summer program at a courthouse, accepted into a not super prestigious program where i le"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "President of National Honors Society, in Spanish Honors Society, and received those AP exam awards (",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "physics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

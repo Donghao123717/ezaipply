@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "This isn't the exact order",
+          "role": "",
+          "description": "This isn't the exact order"
+        },
+        {
+          "name": "1. **Science Olympiad** \\- 11th-12th - Co-captain and co-founder of the club at ",
+          "role": "",
+          "description": "1. **Science Olympiad** \\- 11th-12th - Co-captain and co-founder of the club at my school. Started while online, qualified for the State tournament in our first year."
+        },
+        {
+          "name": "2. **Debate** \\- 9th-12th - Co-captain senior year, medalled a few times in loca",
+          "role": "",
+          "description": "2. **Debate** \\- 9th-12th - Co-captain senior year, medalled a few times in local tournaments, qualified for Metros (basically regionals? states? idk) 10th and 11th"
+        },
+        {
+          "name": "3. **Tennis** \\- 9th-11th - Starter, but I'm not very good. My school is just ba",
+          "role": "",
+          "description": "3. **Tennis** \\- 9th-11th - Starter, but I'm not very good. My school is just bad at tennis."
+        },
+        {
+          "name": "4. **Local govt. official internship** \\- 11th-12th - I canvassed and made calls",
+          "role": "",
+          "description": "4. **Local govt. official internship** \\- 11th-12th - I canvassed and made calls for the campaign, conducted a research project that involved talking to local community members, and sat through really technical zoom call"
+        },
+        {
+          "name": "5. **Tutor** \\- 9th-12th - I tutor(ed) people. About half were for free (volunte",
+          "role": "",
+          "description": "5. **Tutor** \\- 9th-12th - I tutor(ed) people. About half were for free (volunteer hours), and half were paid."
+        },
+        {
+          "name": "6. **Leader at tutoring organization** \\- 9th-12th- Wrote lesson plans for other",
+          "role": "",
+          "description": "6. **Leader at tutoring organization** \\- 9th-12th- Wrote lesson plans for other tutors and organized them, also don't remember if I had this separate from tutoring"
+        },
+        {
+          "name": "7. **NEHS** \\- 11th-12th - President",
+          "role": "",
+          "description": "7. **NEHS** \\- 11th-12th - President"
+        },
+        {
+          "name": "8. I don't remember, but I don't think these were important (just honor societie",
+          "role": "",
+          "description": "8. I don't remember, but I don't think these were important (just honor societies w/o leadership)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "I don't have many. I got a silver award on Reddit once!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. **Governor's Service Award** \\- in my state, there's a prestigious one that you have to be nomina",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. **President's Volunteer Service Award** \\- not sure of the exact name. Unfortunately, mine is sig",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. &amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. &amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. &amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "4. **Local govt. official internship** \\- 11th-12th - I canvassed and made calls for the campaign, conducted a research project that involved talking to local community members, and sat through really technical zoom call; 5. **Tutor** \\- 9th-12th - I tutor(ed) people. About half were for free (volunteer hours), and half were paid."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

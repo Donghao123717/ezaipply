@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.82,
+      "sat_total": 1310,
+      "act_composite": null,
+      "class_rank_percentile": 88.41,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "children's hospital volunteer (4 years + 185+ hrs + volunteer of the year)",
+          "role": "",
+          "description": "children's hospital volunteer (4 years + 185+ hrs + volunteer of the year)"
+        },
+        {
+          "name": "psychology club/psi alpha co-president (3 years + social media manager)",
+          "role": "",
+          "description": "psychology club/psi alpha co-president (3 years + social media manager)"
+        },
+        {
+          "name": "lead for leadership conference (4 years)",
+          "role": "",
+          "description": "lead for leadership conference (4 years)"
+        },
+        {
+          "name": "national honor society secretary (2 years)",
+          "role": "",
+          "description": "national honor society secretary (2 years)"
+        },
+        {
+          "name": "mathnasium instructor (1 year)",
+          "role": "",
+          "description": "mathnasium instructor (1 year)"
+        },
+        {
+          "name": "Student Council historian (3 years)",
+          "role": "",
+          "description": "Student Council historian (3 years)"
+        },
+        {
+          "name": "UIL Current Events member (3 years)",
+          "role": "",
+          "description": "UIL Current Events member (3 years)"
+        },
+        {
+          "name": "Hospital shadowing (pediatric emergency medicine)",
+          "role": "",
+          "description": "Hospital shadowing (pediatric emergency medicine)"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "role": "",
+          "description": "AP Scholar with Distinction"
+        },
+        {
+          "name": "Junior Volunteer of the Year",
+          "role": "",
+          "description": "Junior Volunteer of the Year"
+        },
+        {
+          "name": "National Honor Society",
+          "role": "",
+          "description": "National Honor Society"
+        },
+        {
+          "name": "Spanish National Honor Society",
+          "role": "",
+          "description": "Spanish National Honor Society"
+        },
+        {
+          "name": "College Board National Hispanic Recognition Program",
+          "role": "",
+          "description": "College Board National Hispanic Recognition Program"
+        },
+        {
+          "name": "Outstanding Senior of the Year (Class of 2026)",
+          "role": "",
+          "description": "Outstanding Senior of the Year (Class of 2026)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Bio, AP Statistics, AP English Lit, AP European History, AP US Gov, AP M",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Testing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT: 1310 (670RW, 640M)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4 APUSH, 4 AP Pre-Calc, 4 AP Psych, 4 AP Human Geo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3 AP Chem, 3 AP English Lang",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Extracurriculars/Activities",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "children's hospital volunteer (4 years + 185+ hrs + volunteer of the year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "psychology club/psi alpha co-president (3 years + social media manager)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "lead for leadership conference (4 years)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "national honor society secretary (2 years)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": null,
+      "service_summary": "children's hospital volunteer (4 years + 185+ hrs + volunteer of the year); Junior Volunteer of the Year"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cognitive science / psychology / chemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

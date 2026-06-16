@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Football: Team Captain, All-State HM, 3x All-Region, District Champs",
+          "role": "",
+          "description": "1. Football: Team Captain, All-State HM, 3x All-Region, District Champs"
+        },
+        {
+          "name": "2. Church: Usher, Worked Bible School, etc.",
+          "role": "",
+          "description": "2. Church: Usher, Worked Bible School, etc."
+        },
+        {
+          "name": "3. Drug Use Prevention Coalition: President, 3-Year Treasurer, presented at Nati",
+          "role": "",
+          "description": "3. Drug Use Prevention Coalition: President, 3-Year Treasurer, presented at National Conference"
+        },
+        {
+          "name": "4. Assistant in City Hall: Documented city cemeteries, helped with day to day ne",
+          "role": "",
+          "description": "4. Assistant in City Hall: Documented city cemeteries, helped with day to day needs"
+        },
+        {
+          "name": "5. Youth Sports Coach: Football and Basketball",
+          "role": "",
+          "description": "5. Youth Sports Coach: Football and Basketball"
+        },
+        {
+          "name": "6. Librarian: Worked in the Public Library after school",
+          "role": "",
+          "description": "6. Librarian: Worked in the Public Library after school"
+        },
+        {
+          "name": "7. Academic Team: First-Time Region Champs in History, Top competition in the st",
+          "role": "",
+          "description": "7. Academic Team: First-Time Region Champs in History, Top competition in the state in Arts and Humanities, 5th place at state"
+        },
+        {
+          "name": "8. Student Body President, Student Council President",
+          "role": "",
+          "description": "8. Student Body President, Student Council President"
+        },
+        {
+          "name": "9. Competitive Summer Residential Programs",
+          "role": "",
+          "description": "9. Competitive Summer Residential Programs"
+        },
+        {
+          "name": "10. Work: Worked in a factory that manufactured PPE during the COVID Pandemic",
+          "role": "",
+          "description": "10. Work: Worked in a factory that manufactured PPE during the COVID Pandemic"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "role": "",
+          "description": "List all awards and honors submitted on your application.*"
+        },
+        {
+          "name": "1. National Merit Scholar",
+          "role": "",
+          "description": "1. National Merit Scholar"
+        },
+        {
+          "name": "2. Competitive Residential Summer Programs",
+          "role": "",
+          "description": "2. Competitive Residential Summer Programs"
+        },
+        {
+          "name": "3. Student Government: Class and Student Body President",
+          "role": "",
+          "description": "3. Student Government: Class and Student Body President"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Merit Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Competitive Residential Summer Programs",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Student Government: Class and Student Body President",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Region Champ in Academic Team",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Anti Drug Coalition President",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English Teacher (10/10): He let me read it and it was incredible. He talked about me in a social lig",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Academic Team Coach (9/10): Less well written but way more personal. Helped build intellectual curio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Earth Science Professor (8/10): Family friend who got me engaged in the classroom for the first time",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "City Clerk (9/10): Very personal to the point that I don’t feel comfortable sharing, but she is some",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "architecture, urban studies, or something pre-law"
+    },
+    "ESSAY_SCORE": null
+  }
+}

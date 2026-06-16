@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founder & Co-CEO, Neuroscience Society - built student research platform, 120+ m",
+          "role": "",
+          "description": "Founder & Co-CEO, Neuroscience Society - built student research platform, 120+ members (HS/undergrad/PhD) etc etc"
+        },
+        {
+          "name": "Founder, Easy - free tutoring thing, pilot had 20 kids improve grades 11.4% avg,",
+          "role": "",
+          "description": "Founder, Easy - free tutoring thing, pilot had 20 kids improve grades 11.4% avg, partnered w/ Indian orphanages, scaling to 1000+(in process)"
+        },
+        {
+          "name": "Deputy Head Girl & Vice Captain - ran 20+ events (500+ ppl each), mentored 200+ ",
+          "role": "",
+          "description": "Deputy Head Girl & Vice Captain - ran 20+ events (500+ ppl each), mentored 200+ students,"
+        },
+        {
+          "name": "Research Coordinator, TESYouth - leading 3 units, mentor 30-50 researchers, supe",
+          "role": "",
+          "description": "Research Coordinator, TESYouth - leading 3 units, mentor 30-50 researchers, supervise 10+ projects"
+        },
+        {
+          "name": "Built Synaptica - proto-EEG headset so paralyzed ppl can communicate via gamma w",
+          "role": "",
+          "description": "Built Synaptica - proto-EEG headset so paralyzed ppl can communicate via gamma waves, won 10+ STEM comps, exhibited at Gulf Medical University, hit news,"
+        },
+        {
+          "name": "Built AquaGenesis - ocean monitoring vehicle for marine conservation,",
+          "role": "",
+          "description": "Built AquaGenesis - ocean monitoring vehicle for marine conservation,"
+        },
+        {
+          "name": "Research - 1 paper accepted, 1 under review (neuroscience) // self-corrected whe",
+          "role": "",
+          "description": "Research - 1 paper accepted, 1 under review (neuroscience) // self-corrected when i accidentally said \"published\" bc integrity (2 under process)"
+        },
+        {
+          "name": "300+ volunteer hours - trees, blood camps, Zayed Humanitarian, designed event st",
+          "role": "",
+          "description": "300+ volunteer hours - trees, blood camps, Zayed Humanitarian, designed event stuff, school mag editor"
+        },
+        {
+          "name": "Boxing - few months kickboxing, some marathons etc (drill stuff)",
+          "role": "",
+          "description": "Boxing - few months kickboxing, some marathons etc (drill stuff)"
+        },
+        {
+          "name": "Family duties - oldest of 4 (time to take credit), tutor siblings, translate, ma",
+          "role": "",
+          "description": "Family duties - oldest of 4 (time to take credit), tutor siblings, translate, manage household chaos"
+        },
+        {
+          "name": "some more in resume (some lame Resume Padding)",
+          "role": "",
+          "description": "some more in resume (some lame Resume Padding)"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "Fellowship - 1 of 25 internationally (AI research)",
+          "role": "",
+          "description": "Fellowship - 1 of 25 internationally (AI research)"
+        },
+        {
+          "name": "Students on Ice Arctic Expedition 2026 - Waiting for result",
+          "role": "",
+          "description": "Students on Ice Arctic Expedition 2026 - Waiting for result"
+        },
+        {
+          "name": "Funded Trip - 1 of 15 from 1500+ for funded India trip, met politicians",
+          "role": "",
+          "description": "Funded Trip - 1 of 15 from 1500+ for funded India trip, met politicians"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Fellowship - 1 of 25 internationally (AI research)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Students on Ice Arctic Expedition 2026 - Waiting for result",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Funded Trip - 1 of 15 from 1500+ for funded India trip, met politicians",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "GOALS Winner - 1st in SDG 14 (400+ students), regional news",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Sharjah Sustainability Award - 3rd place, AED 5K cash",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CBSE Topper - 98.6% Grade 10, first 100 in Social Science in school history",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Poetry Award - Pravasi Sahityam UAE",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Social Impact - 2nd place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "20+ STEM comp wins - ADNOC, SPEA, Ryan, etc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "PTBI Gold Coin",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "300+ volunteer hours - trees, blood camps, Zayed Humanitarian, designed event stuff, school mag editor; Family duties - oldest of 4 (time to take credit), tutor siblings, translate, manage household chaos"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "neuroscience/pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

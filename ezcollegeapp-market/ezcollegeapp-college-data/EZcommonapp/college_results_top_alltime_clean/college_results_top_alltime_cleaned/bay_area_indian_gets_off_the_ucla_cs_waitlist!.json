@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **School Schedule App (11th, 12th)** - Developed an iOS app for school schedu",
+          "role": "",
+          "description": "1. **School Schedule App (11th, 12th)** - Developed an iOS app for school schedules, reducing tardies and confusion for students/staff"
+        },
+        {
+          "name": "2. **AI Startup Internship (11th Summer)** - Worked on AI-based tools and data a",
+          "role": "",
+          "description": "2. **AI Startup Internship (11th Summer)** - Worked on AI-based tools and data analytics at a startup, enhancing Python skills"
+        },
+        {
+          "name": "3. **Summer Springboard CS Program (11th Summer)** - Learned Python, created gam",
+          "role": "",
+          "description": "3. **Summer Springboard CS Program (11th Summer)** - Learned Python, created games, and collaborated on a chatroom project"
+        },
+        {
+          "name": "4. **Github CS Portfolio (10th, 11th, 12th)** - Built a Github portfolio showcas",
+          "role": "",
+          "description": "4. **Github CS Portfolio (10th, 11th, 12th)** - Built a Github portfolio showcasing AP CS projects and personal projects"
+        },
+        {
+          "name": "5. **High School Red Cross Club - Secretary (9th, 10th, 11th, 12th)** - Improved",
+          "role": "",
+          "description": "5. **High School Red Cross Club - Secretary (9th, 10th, 11th, 12th)** - Improved club communication by making Youtube channel, website, and chatbot"
+        },
+        {
+          "name": "6. **Varsity Congressional Debater/Mentor (9th, 10th, 11th, 12th)** - Competed n",
+          "role": "",
+          "description": "6. **Varsity Congressional Debater/Mentor (9th, 10th, 11th, 12th)** - Competed nationally, placed Top 10 in a few tournaments, and mentored younger debaters"
+        },
+        {
+          "name": "7. **Flight Simulation Youtube/Instagram (10th, 11th, 12th)** - Posted flight si",
+          "role": "",
+          "description": "7. **Flight Simulation Youtube/Instagram (10th, 11th, 12th)** - Posted flight sim videos, joined contests, and improved editing skills"
+        },
+        {
+          "name": "8. **Photographer (10th, 11th, 12th)** - Created a website for landscape photos ",
+          "role": "",
+          "description": "8. **Photographer (10th, 11th, 12th)** - Created a website for landscape photos and published in local online news"
+        },
+        {
+          "name": "9. **Freelance Drone Pilot (10th, 11th, 12th)** - Filmed for real estate and eve",
+          "role": "",
+          "description": "9. **Freelance Drone Pilot (10th, 11th, 12th)** - Filmed for real estate and events, published work online, and edited videos"
+        },
+        {
+          "name": "10. **American Red Cross Internship (10th Summer)** - Researched program partner",
+          "role": "",
+          "description": "10. **American Red Cross Internship (10th Summer)** - Researched program partnerships, provided fire safety resources, and attended workshops"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National Merit Scholarship Commended Student (PSAT)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 3rd place at State Congressional Debate Tournament",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 11th place in finals round of out of state Congressional Debate Tournament",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

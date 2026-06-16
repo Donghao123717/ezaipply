@@ -1,0 +1,194 @@
+{
+  "post": {
+    "id": "t3_1qo20n0",
+    "title": "When is Harvard regular decision out",
+    "author": "coffeeinm",
+    "selftext": "When is Harvard regular decision out",
+    "score": "3",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1qo20n0/when_is_harvard_regular_decision_out/",
+    "created": "2026-01-27T03:07:07+00:00",
+    "num_comments": 6,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o1y70lv",
+      "author": "cr_36012",
+      "body": "I think it was 26th March. It was mentioned on the Yale portal. All the Ivies come together so yeah.",
+      "score": "6 points",
+      "created": "2026-01-27T03:14:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o1y6v6g",
+      "author": "[deleted]",
+      "body": "March 27th",
+      "score": "-3 points",
+      "created": "2026-01-27T03:13:12+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o1ye3hn",
+          "author": "Kind_Poet_3260",
+          "body": "Incorrect. It’s March 26.",
+          "score": "8 points",
+          "created": "2026-01-27T03:55:26+00:00",
+          "depth": 1,
+          "parent_id": "t1_o1y6v6g",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o1yxac1",
+              "author": "[deleted]",
+              "body": "Sibling got it 27th last time dk if it changes",
+              "score": "0 points",
+              "created": "2026-01-27T06:06:15+00:00",
+              "depth": 2,
+              "parent_id": "t1_o1ye3hn",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o1z0nt5",
+                  "author": "JuliusCheesy",
+                  "body": "It does",
+                  "score": "6 points",
+                  "created": "2026-01-27T06:33:03+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o1yxac1",
+                  "is_reply_to_post": false,
+                  "replies": []
+                },
+                {
+                  "id": "t1_o1zm6gi",
+                  "author": "Kind_Poet_3260",
+                  "body": "It’s typically the last Thursday in March. Yes, it changes every year. Just Google “Ivy Day.”",
+                  "score": "3 points",
+                  "created": "2026-01-27T09:45:26+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o1yxac1",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qo20n0",
+        "author": "coffeeinm",
+        "title": "When is Harvard regular decision out",
+        "body": "When is Harvard regular decision out",
+        "full_text": "When is Harvard regular decision out\n\nWhen is Harvard regular decision out"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o1y70lv",
+          "author": "cr_36012",
+          "body": "I think it was 26th March. It was mentioned on the Yale portal. All the Ivies come together so yeah.",
+          "score": "6 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o1y6v6g",
+          "author": "[deleted]",
+          "body": "March 27th",
+          "score": "-3 points",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o1y6v6g",
+        "author": "[deleted]",
+        "body": "March 27th",
+        "score": "-3 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1ye3hn",
+          "author": "Kind_Poet_3260",
+          "body": "Incorrect. It’s March 26.",
+          "score": "8 points",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o1ye3hn",
+        "author": "Kind_Poet_3260",
+        "body": "Incorrect. It’s March 26.",
+        "score": "8 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1yxac1",
+          "author": "[deleted]",
+          "body": "Sibling got it 27th last time dk if it changes",
+          "score": "0 points",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o1yxac1",
+        "author": "[deleted]",
+        "body": "Sibling got it 27th last time dk if it changes",
+        "score": "0 points",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1z0nt5",
+          "author": "JuliusCheesy",
+          "body": "It does",
+          "score": "6 points",
+          "depth": 3,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o1zm6gi",
+          "author": "Kind_Poet_3260",
+          "body": "It’s typically the last Thursday in March. Yes, it changes every year. Just Google “Ivy Day.”",
+          "score": "3 points",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 4,
+    "total_qa_pairs": 4
+  }
+}

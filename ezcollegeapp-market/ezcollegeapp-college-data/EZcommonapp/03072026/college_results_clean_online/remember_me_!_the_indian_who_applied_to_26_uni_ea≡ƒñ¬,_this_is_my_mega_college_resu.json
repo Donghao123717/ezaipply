@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1490,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *#Research Internship at IIT Madras, wrote a paper (unpublished)(2 years)*",
+          "role": "",
+          "description": "1. *#Research Internship at IIT Madras, wrote a paper (unpublished)(2 years)*"
+        },
+        {
+          "name": "2. \\#Competitive Math",
+          "role": "",
+          "description": "2. \\#Competitive Math"
+        },
+        {
+          "name": "3. \\#competitive Programming",
+          "role": "",
+          "description": "3. \\#competitive Programming"
+        },
+        {
+          "name": "4. \\#Founded a Start-up (2k revenue)",
+          "role": "",
+          "description": "4. \\#Founded a Start-up (2k revenue)"
+        },
+        {
+          "name": "5. \\# Animation and comic making",
+          "role": "",
+          "description": "5. \\# Animation and comic making"
+        },
+        {
+          "name": "6. \\# MUN",
+          "role": "",
+          "description": "6. \\# MUN"
+        },
+        {
+          "name": "7. \\#Theatre and Drama",
+          "role": "",
+          "description": "7. \\#Theatre and Drama"
+        },
+        {
+          "name": "8. \\# Writer for an academic journal",
+          "role": "",
+          "description": "8. \\# Writer for an academic journal"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\# Google Kickstart- Certificate of participation (Rank under 5000) (International)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\# National Talent Search Examination (NTSE) (National)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\# SOF National Science Olympiad regional Top 20 (District)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\# ANTHE - AIR (All India Rank) under 1000 (National)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\# FTRE - 50% scholarship (National)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(I also mentioned RMO/INMO and IMO (SOF) in my application )",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science/ computer engineering/ undecided  lol"
+    },
+    "ESSAY_SCORE": null
+  }
+}

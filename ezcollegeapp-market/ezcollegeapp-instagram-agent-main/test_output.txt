@@ -1,0 +1,47 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.7, pytest-9.0.2, pluggy-1.6.0
+rootdir: /home/myid/ps47974/ezcommon_market_agent/instagram_agent
+plugins: anyio-4.8.0, mock-3.15.1
+collected 39 items
+
+tests/test_dry_run.py::TestInstagramToolDryRun::test_dry_run_scan_hashtag_yields_nothing PASSED
+tests/test_dry_run.py::TestInstagramToolDryRun::test_dry_run_scan_mentions_yields_nothing PASSED
+tests/test_dry_run.py::TestInstagramToolDryRun::test_dry_run_post_comment_prints_and_returns_id PASSED
+tests/test_dry_run.py::TestInstagramToolDryRun::test_dry_run_publish_image_post_prints_and_returns_none PASSED
+tests/test_dry_run.py::TestInstagramToolDryRun::test_dry_run_does_not_write_review_queue PASSED
+tests/test_dry_run.py::TestInstagramToolDryRun::test_dry_run_get_own_media_comments_returns_empty PASSED
+tests/test_dry_run.py::TestInstagramToolReviewMode::test_review_mode_comment_writes_to_queue PASSED
+tests/test_dry_run.py::TestInstagramToolReviewMode::test_review_mode_post_writes_to_queue PASSED
+tests/test_dry_run.py::TestCommentAgentDryRun::test_comment_agent_calls_llm_and_dry_runs PASSED
+tests/test_dry_run.py::TestCommentAgentDryRun::test_comment_agent_marks_media_commented_in_dry_run PASSED
+tests/test_dry_run.py::TestCommentAgentDryRun::test_comment_agent_respects_daily_limit PASSED
+tests/test_dry_run.py::TestPostAgentDryRun::test_post_agent_generates_caption_and_dry_runs PASSED
+tests/test_dry_run.py::TestPostAgentDryRun::test_post_agent_respects_daily_limit PASSED
+tests/test_fixtures.py::TestMemoryTool::test_has_commented_false_initially PASSED
+tests/test_fixtures.py::TestMemoryTool::test_mark_commented_persists PASSED
+tests/test_fixtures.py::TestMemoryTool::test_daily_comment_counter_increments PASSED
+tests/test_fixtures.py::TestMemoryTool::test_daily_post_counter PASSED
+tests/test_fixtures.py::TestMemoryTool::test_comment_log_append PASSED
+tests/test_fixtures.py::TestMemoryTool::test_no_duplicate_media_ids_in_state PASSED
+tests/test_fixtures.py::TestMemoryTool::test_daily_counters_reset_on_new_day PASSED
+tests/test_fixtures.py::TestMonitorAgentKeywordFilter::test_relevant_media_passes_keyword_filter PASSED
+tests/test_fixtures.py::TestMonitorAgentKeywordFilter::test_irrelevant_media_fails_keyword_filter PASSED
+tests/test_fixtures.py::TestMonitorAgentKeywordFilter::test_already_commented_media_is_tracked PASSED
+tests/test_fixtures.py::TestMonitorAgentRelevanceClassification::test_is_relevant_returns_true PASSED
+tests/test_fixtures.py::TestMonitorAgentRelevanceClassification::test_is_relevant_returns_false PASSED
+tests/test_fixtures.py::TestMonitorAgentRelevanceClassification::test_malformed_json_defaults_to_not_relevant PASSED
+tests/test_fixtures.py::TestCommentAgentSelfCritique::test_self_critique_approves_good_comment PASSED
+tests/test_fixtures.py::TestCommentAgentSelfCritique::test_self_critique_rejects_spammy_comment PASSED
+tests/test_fixtures.py::TestCommentAgentSelfCritique::test_self_critique_bad_json_defaults_to_approve PASSED
+tests/test_fixtures.py::TestCommentAgentSelfCritique::test_rejected_comment_not_submitted_or_logged PASSED
+tests/test_fixtures.py::TestPostAgentCaptionParsing::test_parse_valid_caption_multiline PASSED
+tests/test_fixtures.py::TestPostAgentCaptionParsing::test_parse_caption_inline_value PASSED
+tests/test_fixtures.py::TestPostAgentCaptionParsing::test_parse_missing_caption_returns_none PASSED
+tests/test_fixtures.py::TestPostAgentCaptionParsing::test_invalid_format_raises PASSED
+tests/test_fixtures.py::TestLLMClientValidation::test_unsupported_provider_raises PASSED
+tests/test_fixtures.py::TestLLMClientValidation::test_missing_openai_key_raises PASSED
+tests/test_fixtures.py::TestLLMClientValidation::test_missing_gemini_key_raises PASSED
+tests/test_fixtures.py::TestIGMediaDataclass::test_to_dict_round_trips PASSED
+tests/test_fixtures.py::TestIGMediaDataclass::test_hashtags_default_to_empty_list PASSED
+
+============================== 39 passed in 0.93s ==============================

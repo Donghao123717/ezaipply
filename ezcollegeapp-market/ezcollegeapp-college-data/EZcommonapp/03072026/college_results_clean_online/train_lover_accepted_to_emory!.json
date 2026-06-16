@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Non Profit Exec (UN Recognized + Award Winning)",
+          "role": "",
+          "description": "Non Profit Exec (UN Recognized + Award Winning)"
+        },
+        {
+          "name": "Sponsorships Director @ Hackathon (made 3.2k out of 7k, 6xed sponsorships)",
+          "role": "",
+          "description": "Sponsorships Director @ Hackathon (made 3.2k out of 7k, 6xed sponsorships)"
+        },
+        {
+          "name": "School Trivia/QB Club Prez and Captain",
+          "role": "",
+          "description": "School Trivia/QB Club Prez and Captain"
+        },
+        {
+          "name": "AP Club Prez (increased membership by 5x, provide resources for 12 subjects & 20",
+          "role": "",
+          "description": "AP Club Prez (increased membership by 5x, provide resources for 12 subjects & 200+ students)"
+        },
+        {
+          "name": "Bio Club Co-Prez (Make labs and budget stuff)",
+          "role": "",
+          "description": "Bio Club Co-Prez (Make labs and budget stuff)"
+        },
+        {
+          "name": "Blog (350k reads, 7.5k Instagram Following)",
+          "role": "",
+          "description": "Blog (350k reads, 7.5k Instagram Following)"
+        },
+        {
+          "name": "Internship @ Hospital",
+          "role": "",
+          "description": "Internship @ Hospital"
+        },
+        {
+          "name": "Volunteering (400+ hours)",
+          "role": "",
+          "description": "Volunteering (400+ hours)"
+        },
+        {
+          "name": "Martial Arts (mentor 50+ kids, black belt)",
+          "role": "",
+          "description": "Martial Arts (mentor 50+ kids, black belt)"
+        },
+        {
+          "name": "Pokemon (ranked top 30 internationally in 3 formats)",
+          "role": "",
+          "description": "Pokemon (ranked top 30 internationally in 3 formats)"
+        },
+        {
+          "name": "HOSA (Trainer, Run medical trivia sessions, 60+ members) ADD'L INFO",
+          "role": "",
+          "description": "HOSA (Trainer, Run medical trivia sessions, 60+ members) ADD'L INFO"
+        },
+        {
+          "name": "Responsibilities @ Home (Cooking meals, taking sibling to extracurriculars becau",
+          "role": "",
+          "description": "Responsibilities @ Home (Cooking meals, taking sibling to extracurriculars because we dont have a car, cleaning the house cuz my mom's too busy) ADD'L INFO + CHALLENGES"
+        },
+        {
+          "name": "Awards",
+          "role": "",
+          "description": "Awards"
+        },
+        {
+          "name": "Silver on the Canadian Biology Olympiad (11)",
+          "role": "",
+          "description": "Silver on the Canadian Biology Olympiad (11)"
+        },
+        {
+          "name": "Top 5 at QB Nationals (11)",
+          "role": "",
+          "description": "Top 5 at QB Nationals (11)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Silver on the Canadian Biology Olympiad (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top 5 at QB Nationals (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top 30 Internationally for a few Pokemon Formats (9,10,11,12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar w/ Distinction (10, 11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "DECA Regionals Top 10 Exam",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Results",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "UChicago ED1 - Rejected",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Emory ED2 - Accepted!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Tips",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "dont listen to me i got lucky",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 400,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "public health/pure biology/biochem"
+    },
+    "ESSAY_SCORE": null
+  }
+}

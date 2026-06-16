@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": 35,
+      "class_rank_percentile": 99.75,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "&amp;nbsp;",
+          "role": "",
+          "description": "&amp;nbsp;"
+        },
+        {
+          "name": "Many many hours on independent research project (like 40 hours/week at a certain",
+          "role": "",
+          "description": "Many many hours on independent research project (like 40 hours/week at a certain point) (environmental nanotech)"
+        },
+        {
+          "name": "&amp;nbsp;",
+          "role": "",
+          "description": "&amp;nbsp;"
+        },
+        {
+          "name": "FBLA Treasurer",
+          "role": "",
+          "description": "FBLA Treasurer"
+        },
+        {
+          "name": "&amp;nbsp;",
+          "role": "",
+          "description": "&amp;nbsp;"
+        },
+        {
+          "name": "HOSA VP/secretary",
+          "role": "",
+          "description": "HOSA VP/secretary"
+        },
+        {
+          "name": "&amp;nbsp;",
+          "role": "",
+          "description": "&amp;nbsp;"
+        },
+        {
+          "name": "Environmental club (can't reveal name of organization for privacy)",
+          "role": "",
+          "description": "Environmental club (can't reveal name of organization for privacy)"
+        },
+        {
+          "name": "&amp;nbsp;",
+          "role": "",
+          "description": "&amp;nbsp;"
+        },
+        {
+          "name": "Swim (4x state qualifier), spent like 25 hrs/week training freshman/sophomore ye",
+          "role": "",
+          "description": "Swim (4x state qualifier), spent like 25 hrs/week training freshman/sophomore year before tapering off lol"
+        },
+        {
+          "name": "&amp;nbsp;",
+          "role": "",
+          "description": "&amp;nbsp;"
+        },
+        {
+          "name": "Others but I don't think they mattered much so I won't include them",
+          "role": "",
+          "description": "Others but I don't think they mattered much so I won't include them"
+        },
+        {
+          "name": "&amp;nbsp;",
+          "role": "",
+          "description": "&amp;nbsp;"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "&amp;nbsp;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Intel ISEF Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;nbsp;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Regeneron STS Top 300 Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;nbsp;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "FBLA Nationals 1st place winner, 3x national qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;nbsp;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2x HOSA International top 10 finalist, 5x international qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;nbsp;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Special awards for science fair",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;nbsp;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Not really an award, but was selected to talk at a TEDxYouth event. Didn’t make it on initial apps b",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " chem/cheme, environmental sciences"
+    },
+    "ESSAY_SCORE": null
+  }
+}

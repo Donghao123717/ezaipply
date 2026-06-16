@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Varsity Science Olympiad",
+          "role": "",
+          "description": "Varsity Science Olympiad"
+        },
+        {
+          "name": "1st and 3rd place medals at states",
+          "role": "",
+          "description": "1st and 3rd place medals at states"
+        },
+        {
+          "name": "1st",
+          "role": "",
+          "description": "1st"
+        },
+        {
+          "name": "2nd",
+          "role": "",
+          "description": "2nd"
+        },
+        {
+          "name": "3rd place medals at both regionals and invitationals. (3yrs) Model UN, I help yo",
+          "role": "",
+          "description": "3rd place medals at both regionals and invitationals. (3yrs) Model UN, I help younger members and have won Best Del, 2 Hon Mentions and Verbal Commendation. (3yrs) Astronomy Club Pres and Founder Leader of >40 member club, organize meetings, projects, lead USAAAO team, teach members about Astronomy topics."
+        },
+        {
+          "name": "Local Town Volunteering Group: I'm a Volunteer Lead and have volunteered with th",
+          "role": "",
+          "description": "Local Town Volunteering Group: I'm a Volunteer Lead and have volunteered with this organization for more than 5 yrs. I help coordinate with event managers, organize volunteers,ect."
+        },
+        {
+          "name": "Regional Orchestra(s): Basically our regional orchestra has like 3 levels, and I",
+          "role": "",
+          "description": "Regional Orchestra(s): Basically our regional orchestra has like 3 levels, and I've been in the 3rd level for 3 yrs and 2nd level for 3 yrs. I was Assistant Principal first violinist in the 3rd level orchestra. I've also volunteered w them at nursing homes"
+        },
+        {
+          "name": "School Play Orchestra/Onstage Musician: Was 1 of 2 violinists in our musical's o",
+          "role": "",
+          "description": "School Play Orchestra/Onstage Musician: Was 1 of 2 violinists in our musical's orchestra and we won a regional award for best high school musical orchestra. I also played onstage in productions and was a first violinist there."
+        },
+        {
+          "name": "Misc stuff: Didn't put ts stuff on my apps but its in my resume: spanish nationa",
+          "role": "",
+          "description": "Misc stuff: Didn't put ts stuff on my apps but its in my resume: spanish national honor society (i tutor), science national honor society, String players club, tsa (didn't do much tbh), dance(competed once freshman yr)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Scioly Medals (listed above) Model UN honors (above) National Collegeboard recognition stuff and AP award thingy, NMSQT ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Local Town Volunteering Group: I'm a Volunteer Lead and have volunteered with this organization for more than 5 yrs. I help coordinate with event managers, organize volunteers,ect. Misc stuff: Didn't put ts stuff on my apps but its in my resume: spanish national honor society (i tutor), science national honor society, String players club, tsa (didn't do much tbh), dance(competed once freshman yr)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

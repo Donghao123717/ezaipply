@@ -1,0 +1,122 @@
+{
+  "post": {
+    "id": "t3_1rna9ds",
+    "title": "Applied to 27 Schools —Update so far",
+    "author": "Succotash1148",
+    "selftext": "[removed]",
+    "score": "3",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1rna9ds/applied_to_27_schools_update_so_far/",
+    "created": "",
+    "num_comments": 3,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o9bgf05",
+      "author": "NewOrleansGirl13",
+      "body": "Aww I wanted to read that. Can you let me know if you repost it? Thank you!",
+      "score": "1",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o9bue66",
+          "author": "Succotash1148",
+          "body": "Heyy, I just reposted it",
+          "score": "1",
+          "created": "",
+          "depth": 1,
+          "parent_id": "t1_o9bgf05",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o9buhdg",
+              "author": "Succotash1148",
+              "body": "https://www.reddit.com/r/collegeresults/s/FQTcHCNdh5 ",
+              "score": "1",
+              "created": "",
+              "depth": 2,
+              "parent_id": "t1_o9bue66",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1rna9ds",
+        "author": "Succotash1148",
+        "title": "Applied to 27 Schools —Update so far",
+        "body": "[removed]",
+        "full_text": "Applied to 27 Schools —Update so far\n\n[removed]"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o9bgf05",
+          "author": "NewOrleansGirl13",
+          "body": "Aww I wanted to read that. Can you let me know if you repost it? Thank you!",
+          "score": "1",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o9bgf05",
+        "author": "NewOrleansGirl13",
+        "body": "Aww I wanted to read that. Can you let me know if you repost it? Thank you!",
+        "score": "1",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o9bue66",
+          "author": "Succotash1148",
+          "body": "Heyy, I just reposted it",
+          "score": "1",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o9bue66",
+        "author": "Succotash1148",
+        "body": "Heyy, I just reposted it",
+        "score": "1",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o9buhdg",
+          "author": "Succotash1148",
+          "body": "https://www.reddit.com/r/collegeresults/s/FQTcHCNdh5 ",
+          "score": "1",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 2,
+    "total_qa_pairs": 3
+  }
+}

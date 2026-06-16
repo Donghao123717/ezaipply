@@ -1,0 +1,103 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1580,
+      "act_composite": 15,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. FTC Robotics: Competed at state multiple years. Captain of programming. (9-12",
+          "role": "",
+          "description": "1. FTC Robotics: Competed at state multiple years. Captain of programming. (9-12)"
+        },
+        {
+          "name": "2. LLRISE summer program: Made and programmed radars at Lincoln Laboratory (11)",
+          "role": "",
+          "description": "2. LLRISE summer program: Made and programmed radars at Lincoln Laboratory (11)"
+        },
+        {
+          "name": "3. FTC League Host: Help host FTC league and run every league event. My team doe",
+          "role": "",
+          "description": "3. FTC League Host: Help host FTC league and run every league event. My team does this. (10-12)"
+        },
+        {
+          "name": "4. Arduino Charity Organization. Raised around $6000 of arduinos throughout 3 dr",
+          "role": "",
+          "description": "4. Arduino Charity Organization. Raised around $6000 of arduinos throughout 3 drives and gifted to low-income children. (11-12)"
+        },
+        {
+          "name": "5. Varsity Swim. 2 years on Varsity swim and 2 years on JV Swim (not good enough",
+          "role": "",
+          "description": "5. Varsity Swim. 2 years on Varsity swim and 2 years on JV Swim (not good enough to get recruited) (9-12)"
+        },
+        {
+          "name": "6. VEX IQ Robotics Competition Mentor: Taught and mentored an elementary school ",
+          "role": "",
+          "description": "6. VEX IQ Robotics Competition Mentor: Taught and mentored an elementary school Vex team that placed in state. (11-12)"
+        },
+        {
+          "name": "7. Competition Programming Club. Founded school’s competition programming club w",
+          "role": "",
+          "description": "7. Competition Programming Club. Founded school’s competition programming club where we prepare for USACO and codeforces (10-12)"
+        },
+        {
+          "name": "8. DECA: Participated in DECA event with others and got State Finalist",
+          "role": "",
+          "description": "8. DECA: Participated in DECA event with others and got State Finalist"
+        },
+        {
+          "name": "9. 2-week free AI summer program at local university (12)",
+          "role": "",
+          "description": "9. 2-week free AI summer program at local university (12)"
+        },
+        {
+          "name": "10. Computer Science UIL: competed on CS UIL team and made it to regionals (11-1",
+          "role": "",
+          "description": "10. Computer Science UIL: competed on CS UIL team and made it to regionals (11-12)"
+        },
+        {
+          "name": "Awards/Honors:** (list here)",
+          "role": "",
+          "description": "Awards/Honors:** (list here)"
+        },
+        {
+          "name": "1. USACO Gold",
+          "role": "",
+          "description": "1. USACO Gold"
+        },
+        {
+          "name": "2. National Merit Semi-Finalist",
+          "role": "",
+          "description": "2. National Merit Semi-Finalist"
+        },
+        {
+          "name": "3. DECA State Finalist",
+          "role": "",
+          "description": "3. DECA State Finalist"
+        },
+        {
+          "name": "4. 2x FTC Robotics State Advancement",
+          "role": "",
+          "description": "4. 2x FTC Robotics State Advancement"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science or computer engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

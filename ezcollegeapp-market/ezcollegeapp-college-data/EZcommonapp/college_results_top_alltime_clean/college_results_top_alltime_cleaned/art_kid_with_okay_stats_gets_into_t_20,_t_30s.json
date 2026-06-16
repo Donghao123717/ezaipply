@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1340,
+      "act_composite": 33,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Independent Art Study - Practice visual art in a multimedia sketchbook, ceram",
+          "role": "",
+          "description": "1. Independent Art Study - Practice visual art in a multimedia sketchbook, ceramics, fiber art, photography, drawing, painting, and printmaking; manage artist website."
+        },
+        {
+          "name": "2. Director of Social Media for a local activist group. I held this position sop",
+          "role": "",
+          "description": "2. Director of Social Media for a local activist group. I held this position sophomore through senior year and created graphics for the group and worked with the leadership team to organize and run monthly advocacy meeti"
+        },
+        {
+          "name": "3. Varsity Lacrosse - Co-Captain senior year, huge time commitment throughout th",
+          "role": "",
+          "description": "3. Varsity Lacrosse - Co-Captain senior year, huge time commitment throughout the year."
+        },
+        {
+          "name": "4. Vice President of an artist led environmental group. Didn't do much with it s",
+          "role": "",
+          "description": "4. Vice President of an artist led environmental group. Didn't do much with it senior year as we were very limited during Covid, but sophomore/junior year I participated in roadside trash clean-ups, planning a community "
+        },
+        {
+          "name": "5. Part-time job at a grocery store. 12 hrs a week during school and 20-30 durin",
+          "role": "",
+          "description": "5. Part-time job at a grocery store. 12 hrs a week during school and 20-30 during summers. I had this job sophomore-senior year and was promoted to a shift supervisor."
+        },
+        {
+          "name": "6. Student Council - no leadership but was part of it for my senior year.",
+          "role": "",
+          "description": "6. Student Council - no leadership but was part of it for my senior year."
+        },
+        {
+          "name": "7. National Art Honor Society",
+          "role": "",
+          "description": "7. National Art Honor Society"
+        },
+        {
+          "name": "8. Summer Art Programs - I kind of clumped together the various precollege or ex",
+          "role": "",
+          "description": "8. Summer Art Programs - I kind of clumped together the various precollege or extracurricular art activities I did in this slot."
+        },
+        {
+          "name": "9. Community Service Activities - I had a bunch of random community service thin",
+          "role": "",
+          "description": "9. Community Service Activities - I had a bunch of random community service things I had done throughout high school that were not part of another organization so I listed them here."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Best in Show, juried student show at magnet school.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Honor Roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Honor Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Regional art award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "4. Vice President of an artist led environmental group. Didn't do much with it senior year as we were very limited during Covid, but sophomore/junior year I participated in roadside trash clean-ups, planning a community ; 9. Community Service Activities - I had a bunch of random community service things I had done throughout high school that were not part of another organization so I listed them here."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here) fine art/studio art, design, arts management, undecided"
+    },
+    "ESSAY_SCORE": null
+  }
+}

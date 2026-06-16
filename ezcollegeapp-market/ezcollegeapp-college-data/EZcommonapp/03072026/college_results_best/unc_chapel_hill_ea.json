@@ -1,0 +1,88 @@
+{
+  "post": {
+    "id": "t3_1qkxqma",
+    "title": "[ Removed by moderator ]",
+    "author": "DeliveryCharming5311",
+    "selftext": "",
+    "score": "2",
+    "url": "https://www.reddit.com/r/college/comments/1qkxqma/unc_chapel_hill_ea/",
+    "created": "2026-01-23T17:52:49+00:00",
+    "num_comments": 2,
+    "subreddit": "college"
+  },
+  "comments": [
+    {
+      "id": "t1_o1a92y7",
+      "author": "Initial_Doughnut2858",
+      "body": "no clue i think there is a slight chance it may come out today?",
+      "score": "1 point",
+      "created": "2026-01-23T18:34:54+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o1adugd",
+          "author": "DeliveryCharming5311",
+          "body": "Yeah but do we know",
+          "score": "1 point",
+          "created": "2026-01-23T18:56:05+00:00",
+          "depth": 1,
+          "parent_id": "t1_o1a92y7",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qkxqma",
+        "author": "DeliveryCharming5311",
+        "title": "[ Removed by moderator ]",
+        "body": "",
+        "full_text": "[ Removed by moderator ]"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o1a92y7",
+          "author": "Initial_Doughnut2858",
+          "body": "no clue i think there is a slight chance it may come out today?",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o1a92y7",
+        "author": "Initial_Doughnut2858",
+        "body": "no clue i think there is a slight chance it may come out today?",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1adugd",
+          "author": "DeliveryCharming5311",
+          "body": "Yeah but do we know",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

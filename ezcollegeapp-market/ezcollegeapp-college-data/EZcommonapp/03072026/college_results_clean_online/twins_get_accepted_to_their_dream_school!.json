@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1250,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Gender-Sexuality Alliance (GSA)*: educational group that spreads information on ",
+          "role": "",
+          "description": "Gender-Sexuality Alliance (GSA)*: educational group that spreads information on LGBT issues + support group for LGBT students; co-presidents since sophomore year, members since freshman"
+        },
+        {
+          "name": "Jazz Band*: rhythm guitarists since freshman year",
+          "role": "",
+          "description": "Jazz Band*: rhythm guitarists since freshman year"
+        },
+        {
+          "name": "Multicultural Youth Council (MYC)*: group for members of any culture to celebrat",
+          "role": "",
+          "description": "Multicultural Youth Council (MYC)*: group for members of any culture to celebrate the diversity at our school; members since sophomore year (club was created in sophomore year, although not by us)"
+        },
+        {
+          "name": "Class of 2021 Meetings*: weekly meetings where students organize fundraisers to ",
+          "role": "",
+          "description": "Class of 2021 Meetings*: weekly meetings where students organize fundraisers to benefit the class' future endeavors such as prom and senior trip; we've been attending since sophomore year"
+        },
+        {
+          "name": "there are no more ❤️ rural school type beat 💯",
+          "role": "",
+          "description": "there are no more ❤️ rural school type beat 💯"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "QuestBridge National College Match Finalist - senior year",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "QuestBridge College Prep Scholars - junior year",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Most Outstanding Sophomore - sophomore year (me only)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top English Student - junior year (sister only)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top Science Students - freshman year (we were tied hehe)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top 10% - all four years",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "we were also nominated as Jack Kent Cooke semifinalists a couple of weeks ago, but this came well af",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "english w/creative writing concentration + premed track; psychology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

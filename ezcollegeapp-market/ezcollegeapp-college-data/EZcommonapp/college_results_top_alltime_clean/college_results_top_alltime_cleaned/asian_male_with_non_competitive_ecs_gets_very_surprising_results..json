@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1440,
+      "act_composite": 35,
+      "class_rank_percentile": 100.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "1) Science Olympiad - Member for 9 years; have accumulated 20+ medals from regio",
+          "role": "",
+          "description": "1) Science Olympiad - Member for 9 years; have accumulated 20+ medals from regional to national level, mostly in physics-based events."
+        },
+        {
+          "name": "2) Ensemble Musician and Multi-instrumentalist - I have played violin, electric ",
+          "role": "",
+          "description": "2) Ensemble Musician and Multi-instrumentalist - I have played violin, electric bass, double bass, ukulele, and percussion for orchestra, jazz band, choir, and percussion ensemble over 6 years."
+        },
+        {
+          "name": "3) Founder of Two Math and Physics-Based Forums - Founded forums (which are like",
+          "role": "",
+          "description": "3) Founder of Two Math and Physics-Based Forums - Founded forums (which are like group-study classes) with 10+ members each exploring concepts of advanced proof-based calculus and Hamiltonian, Lagrangian, and quantum mec"
+        },
+        {
+          "name": "4) Physics Club President - Organized competitions such as the F=ma and PhysicsB",
+          "role": "",
+          "description": "4) Physics Club President - Organized competitions such as the F=ma and PhysicsBowl, lab tours at state universities, and study sessions for 15+ classmates."
+        },
+        {
+          "name": "5) Physics Teaching Assistant - Was appointed physics teaching assistant by my s",
+          "role": "",
+          "description": "5) Physics Teaching Assistant - Was appointed physics teaching assistant by my school. Tutored my peers during free blocks by explaining concepts, doing example problems, and labs."
+        },
+        {
+          "name": "6) Flex Member of VEX Robotics Team - Was able to do appointed tasks for the rob",
+          "role": "",
+          "description": "6) Flex Member of VEX Robotics Team - Was able to do appointed tasks for the robotics team such as assisting with builds, sorting tools, and debugging code for our robot."
+        },
+        {
+          "name": "7) Math Club Member and Competitor - Participated in competitions such as the Du",
+          "role": "",
+          "description": "7) Math Club Member and Competitor - Participated in competitions such as the Duke Math Meet, AMC, and Integral Bee. I was able to learn a lot of tricks and improve my math skills. (I did not win any of these)"
+        },
+        {
+          "name": "8) YouTube - Uploading variety content like gaming, music, and math since 2016. ",
+          "role": "",
+          "description": "8) YouTube - Uploading variety content like gaming, music, and math since 2016. Improved editing, recording, and scripting skills."
+        },
+        {
+          "name": "9) Table Tennis - Hosted in-school tournaments with friends. Improved my game ov",
+          "role": "",
+          "description": "9) Table Tennis - Hosted in-school tournaments with friends. Improved my game over time. In process of building a website that tracks rankings within the school. (Did not end up happening, unfortunately because of my cla"
+        },
+        {
+          "name": "10) Food Pantry Organizer - Packed and sorted 1000s of lunch bags with other pee",
+          "role": "",
+          "description": "10) Food Pantry Organizer - Packed and sorted 1000s of lunch bags with other peers to be sent to different organizations that would donate them to underprivileged neighborhoods."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "1) The southeast has a thing called \"Math and Science Schools\" which are very se",
+          "role": "",
+          "description": "1) The southeast has a thing called \"Math and Science Schools\" which are very selective residential schools and have an application to accept people with a good background in STEM. I got accepted into this and put it as "
+        },
+        {
+          "name": "2) Science Olympiad States - 1st Place in an event.",
+          "role": "",
+          "description": "2) Science Olympiad States - 1st Place in an event."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1) The southeast has a thing called \"Math and Science Schools\" which are very selective residential ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2) Science Olympiad States - 1st Place in an event.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3) VEX Robotics States - Runner-ups in bracket",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4) Science Olympiad States - 6th Place in 2 other events.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5) AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Physics teacher - 10/10, knew me very well, also sponsored the club I was in. We got along really ni",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Music teacher - 8/10, he knew I was hard-working and passionate about things I set my mind to. I sta",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English teacher - ?/10, he knew me but not to the level of the other two. I don't know his opinions ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "MIT Interview - 2/10: my interviewer had the exact same background in what all my ECs were (like eve",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied electrical engineering everywhere but am currently in the process of swi"
+    },
+    "ESSAY_SCORE": null
+  }
+}

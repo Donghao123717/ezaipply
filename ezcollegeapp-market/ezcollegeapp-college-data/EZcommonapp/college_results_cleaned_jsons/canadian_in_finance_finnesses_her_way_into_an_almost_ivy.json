@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.01,
+      "sat_total": 1550,
+      "act_composite": 31,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc.",
+          "role": "",
+          "description": "etc."
+        },
+        {
+          "name": "Northern Lights Gaming Community. Created and manage an online gaming community ",
+          "role": "",
+          "description": "Northern Lights Gaming Community. Created and manage an online gaming community connecting 200+ isolated teens across Northwest Territories. Organize weekly virtual tournaments, moderate discord channels, and coordinate mental health support resources. Grew membership by 150% in two years."
+        },
+        {
+          "name": "Youth Swim Academy. Provide swimming instruction to 30+ students weekly, includi",
+          "role": "",
+          "description": "Youth Swim Academy. Provide swimming instruction to 30+ students weekly, including specialized lessons for children with disabilities. Developed modified teaching techniques for differently-abled learners. Certified in Water Safety Instruction and First Aid."
+        },
+        {
+          "name": "Frost & Finance Student Initiative. Founded peer-led financial literacy program ",
+          "role": "",
+          "description": "Frost & Finance Student Initiative. Founded peer-led financial literacy program combining accounting principles with real-world applications. Led bi-weekly workshops for 25 high school students, teaching budgeting, basic accounting, and investment strategies adapted for Northern Canadian context."
+        },
+        {
+          "name": "Arctic Threads Collective. Established student-run sewing group creating winter ",
+          "role": "",
+          "description": "Arctic Threads Collective. Established student-run sewing group creating winter clothing for local homeless shelter. Coordinated 15 members, organized monthly workshops, and produced 100+ items annually. Secured fabric donations from local businesses to maintain cost-effectiveness."
+        },
+        {
+          "name": "Territorial Student Mental Health Alliance. Trained and certified peer counselor",
+          "role": "",
+          "description": "Territorial Student Mental Health Alliance. Trained and certified peer counselor supporting students with anxiety and stress management. Facilitated weekly support groups reaching 40+ students. Developed innovative coping strategies combining physical activity and mindfulness techniques."
+        },
+        {
+          "name": "Yellowknife Food Bank Youth Division. Lead weekly baking program producing fresh",
+          "role": "",
+          "description": "Yellowknife Food Bank Youth Division. Lead weekly baking program producing fresh bread and pastries for local food bank. Manage team of 8 volunteers, coordinate ingredient donations, and implement cost-effective recipes. Increased weekly output from 50 to 200 servings."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing List the highest scores earned and all scores that were reported. SAT: 1550 ACT: 31",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Northern Lights Gaming Community. Created and manage an online gaming community connecting 200+ isolated teens across Northwest Territories. Organize weekly virtual tournaments, moderate discord channels, and coordinate mental health support resources. Grew membership by 150% in two years. Arctic Youth Leadership & Innovation Award for Gaming Community Initiative Yellowknife Community Service Exce"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

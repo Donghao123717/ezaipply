@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.75,
+      "sat_total": 1540,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Debate - captain, mentorship lead: went to a few dozen tournaments, helped with ",
+          "role": "",
+          "description": "Debate - captain, mentorship lead: went to a few dozen tournaments, helped with orientation, coaching for summer camp and at a local middle school, novice training, mentor training. pretty big impact "
+        },
+        {
+          "name": "cs club - small club, built a few projects like a club catalog for students, cus",
+          "role": "",
+          "description": "cs club - small club, built a few projects like a club catalog for students, custom websites for clubs, digital student IDs (3hrs/week)"
+        },
+        {
+          "name": "robotics - dropped this senior year. frc worlds. kind of bummed so i just wrote ",
+          "role": "",
+          "description": "robotics - dropped this senior year. frc worlds. kind of bummed so i just wrote stuff about how i helped program and build the robot. pretty generic but decent time commitment. (5hrs/week)"
+        },
+        {
+          "name": "4 - independent cs stuff: wrote about a few projects i've worked on. mostly wrot",
+          "role": "",
+          "description": "4 - independent cs stuff: wrote about a few projects i've worked on. mostly wrote about that i did this online course that was really beefy and took like 100 hours cuz it had 200 lessons and 30+ proje"
+        },
+        {
+          "name": "mock trial",
+          "role": "",
+          "description": "mock trial"
+        },
+        {
+          "name": "tutoring job (summer job)",
+          "role": "",
+          "description": "tutoring job (summer job)"
+        },
+        {
+          "name": "tutoring immigrants in ESL/civics, peer tutor",
+          "role": "",
+          "description": "tutoring immigrants in ESL/civics, peer tutor"
+        },
+        {
+          "name": "cross country varsity (varsity by technicality since all seniors are varsity)",
+          "role": "",
+          "description": "cross country varsity (varsity by technicality since all seniors are varsity)"
+        },
+        {
+          "name": "theater: stage manager",
+          "role": "",
+          "description": "theater: stage manager"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "top 50 LD debate in Calif (NSDA)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "top 50 circuit LD debate nationally (smaller pool than California, maybe ~5000ish people have compet",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "nsda academic all american (1000/140k --> 0.7% of debaters).",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "usaco silver",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "OSHA certified ( i had nothing else )",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "tutoring immigrants in ESL/civics, peer tutor"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs, cs & math (for uiuc; it has a bit higher acceptance rate than cs but they do"
+    },
+    "ESSAY_SCORE": null
+  }
+}

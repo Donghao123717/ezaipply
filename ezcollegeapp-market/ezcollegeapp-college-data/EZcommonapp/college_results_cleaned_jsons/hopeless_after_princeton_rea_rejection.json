@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "- i think test optional was what made you rejected",
+          "role": "",
+          "description": "- i think test optional was what made you rejected"
+        },
+        {
+          "name": "- Maybee. Do i have a shot at other unis with financial aid tho?",
+          "role": "",
+          "description": "- Maybee. Do i have a shot at other unis with financial aid tho?"
+        },
+        {
+          "name": "- If u dont mind saying which country r u from, that could make a difference wit",
+          "role": "",
+          "description": "- If u dont mind saying which country r u from, that could make a difference with ur intl, test optional, need based and also an engineering major"
+        },
+        {
+          "name": "- Well india. Ikik given the current scenario in US for intl indian students thi",
+          "role": "",
+          "description": "- Well india. Ikik given the current scenario in US for intl indian students this was sorta expected"
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "- i think test optional was what made you rejected",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Maybee. Do i have a shot at other unis with financial aid tho?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- If u dont mind saying which country r u from, that could make a difference with ur intl, test optional, need based and",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Well india. Ikik given the current scenario in US for intl indian students this was sorta expected",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "--"
+    },
+    "ESSAY_SCORE": null
+  }
+}

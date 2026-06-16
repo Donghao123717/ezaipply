@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.86,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founded global youth AI network w/ schools in 7+ countries; built 501(c)(3) pare",
+          "role": "",
+          "description": "Founded global youth AI network w/ schools in 7+ countries; built 501(c)(3) parent foundation structure as well."
+        },
+        {
+          "name": "Researched sleep deprivation (neuro/med anthro/BME/design) w/ Northwestern prof;",
+          "role": "",
+          "description": "Researched sleep deprivation (neuro/med anthro/BME/design) w/ Northwestern prof; school-nominated; UNC–Chapel Hill credit."
+        },
+        {
+          "name": "MUN Head Delegate; Best/Outstanding/HM + research commendations; mentored crisis",
+          "role": "",
+          "description": "MUN Head Delegate; Best/Outstanding/HM + research commendations; mentored crisis; chaired/planned EAGLEMUNC committees."
+        },
+        {
+          "name": "Pursuing Linear Algebra online after exhausting courses offered at school (matri",
+          "role": "",
+          "description": "Pursuing Linear Algebra online after exhausting courses offered at school (matrices, vector spaces, etc.)."
+        },
+        {
+          "name": "Self-studying AP Physics C: E&M (circuits, EM fields, induction, Maxwell’s equat",
+          "role": "",
+          "description": "Self-studying AP Physics C: E&M (circuits, EM fields, induction, Maxwell’s equations) + additional advanced algebra topics."
+        },
+        {
+          "name": "Varsity water polo goalie (multi-year); led practices/cohesion; 2× CIF playoffs ",
+          "role": "",
+          "description": "Varsity water polo goalie (multi-year); led practices/cohesion; 2× CIF playoffs (D3/D4 QF); gold/bronze medals across 11+ non-club tournaments."
+        },
+        {
+          "name": "Club water polo (6 yrs); 2× Junior Olympian; bronze/silver medals @ 11+ regional",
+          "role": "",
+          "description": "Club water polo (6 yrs); 2× Junior Olympian; bronze/silver medals @ 11+ regional tourneys; 7th @ Futures League SuperFinals."
+        },
+        {
+          "name": "Taught 100+ peers in P2P/group/class settings; Silver Service Honors; co-founded",
+          "role": "",
+          "description": "Taught 100+ peers in P2P/group/class settings; Silver Service Honors; co-founded Math Tutorial program + expanded to SAT Math."
+        },
+        {
+          "name": "Admissions ambassador site/team leader; trained guides; coordinated events; MC/p",
+          "role": "",
+          "description": "Admissions ambassador site/team leader; trained guides; coordinated events; MC/panelist; guided families incl. Korean/Spanish."
+        },
+        {
+          "name": "4-year Honors Jazz Band; 1st Chair Keyboard; led combos; performed at jazz club ",
+          "role": "",
+          "description": "4-year Honors Jazz Band; 1st Chair Keyboard; led combos; performed at jazz club + veteran/school events."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "YMUN (2024) — Best International Delegate (National, 10th)",
+          "role": "",
+          "description": "YMUN (2024) — Best International Delegate (National, 10th)"
+        },
+        {
+          "name": "AIME Qualifier (National, 10th)",
+          "role": "",
+          "description": "AIME Qualifier (National, 10th)"
+        },
+        {
+          "name": "USAWP Outstanding Academic All-American (National, 9th & 11th) + Academic All-Am",
+          "role": "",
+          "description": "USAWP Outstanding Academic All-American (National, 9th & 11th) + Academic All-American (10th)"
+        },
+        {
+          "name": "Scholastic Art & Writing — Gold Key (Digital Art) (State/Regional, 11th)",
+          "role": "",
+          "description": "Scholastic Art & Writing — Gold Key (Digital Art) (State/Regional, 11th)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP CSA, AP Bio, AP Chem, AP Physics C: E&M (self-study), Honors Advanced Ja",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Standardized Testing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT: 1560 (760RW, 800M)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APs: Calc BC 5, Physics C Mech 4, Macro 5, Micro 5, Spanish Lang 4, Stats 4",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Other: AIME Qualifier (10th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Extracurriculars/Activities (lightly de-identified)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Founded global youth AI network w/ schools in 7+ countries; built 501(c)(3) parent foundation struct",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Researched sleep deprivation (neuro/med anthro/BME/design) w/ Northwestern prof; school-nominated; U",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "MUN Head Delegate; Best/Outstanding/HM + research commendations; mentored crisis; chaired/planned EA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Pursuing Linear Algebra online after exhausting courses offered at school (matrices, vector spaces, ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Taught 100+ peers in P2P/group/class settings; Silver Service Honors; co-founded Math Tutorial program + expanded to SAT Math."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied mathematics, public policy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

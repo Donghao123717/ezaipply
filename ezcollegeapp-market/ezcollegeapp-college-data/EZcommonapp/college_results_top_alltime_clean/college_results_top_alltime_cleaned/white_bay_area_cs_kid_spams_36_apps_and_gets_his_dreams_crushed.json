@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Founder/Developer, Small Startup",
+          "role": "",
+          "description": "1. Founder/Developer, Small Startup"
+        },
+        {
+          "name": "Spent 2 years building an end-to-end IoT platform from scratch. created smart ga",
+          "role": "",
+          "description": "Spent 2 years building an end-to-end IoT platform from scratch. created smart garage door opener RPi device + mobile app."
+        },
+        {
+          "name": "2. Co-President &amp; Co-Founder, Coding Club",
+          "role": "",
+          "description": "2. Co-President &amp; Co-Founder, Coding Club"
+        },
+        {
+          "name": "Taught beginners how to code Java/Python junior year, taught Algorithms senior y",
+          "role": "",
+          "description": "Taught beginners how to code Java/Python junior year, taught Algorithms senior year. Built club website and went to Hackathons/competitions"
+        },
+        {
+          "name": "3. Film contributor through coding",
+          "role": "",
+          "description": "3. Film contributor through coding"
+        },
+        {
+          "name": "Created animation in Java for award-winning novelist and Berkeley professor, par",
+          "role": "",
+          "description": "Created animation in Java for award-winning novelist and Berkeley professor, part of an Austrian government-funded short film about spreading positivity and hope during the pandemic"
+        },
+        {
+          "name": "4. School Website Developer",
+          "role": "",
+          "description": "4. School Website Developer"
+        },
+        {
+          "name": "Helped create school clubs' website",
+          "role": "",
+          "description": "Helped create school clubs' website"
+        },
+        {
+          "name": "5. Vice President, Leo's Club (school subset of Lions Club International)",
+          "role": "",
+          "description": "5. Vice President, Leo's Club (school subset of Lions Club International)"
+        },
+        {
+          "name": "lead meetings, organized events, and promoted community service and school. ex o",
+          "role": "",
+          "description": "lead meetings, organized events, and promoted community service and school. ex of volunteering: teaching local seniors how to use technology"
+        },
+        {
+          "name": "6. Co-President and Tutor, Homework Help Club",
+          "role": "",
+          "description": "6. Co-President and Tutor, Homework Help Club"
+        },
+        {
+          "name": "helped mentor and tutor struggling students, hosted weekly peer-to-peer tutoring",
+          "role": "",
+          "description": "helped mentor and tutor struggling students, hosted weekly peer-to-peer tutoring sessions"
+        },
+        {
+          "name": "7. Secretary/Lecturer, Math Club",
+          "role": "",
+          "description": "7. Secretary/Lecturer, Math Club"
+        },
+        {
+          "name": "frequently lectured on math and its applications in physics/computer science. or",
+          "role": "",
+          "description": "frequently lectured on math and its applications in physics/computer science. organized meetings, and communicated"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *Spanish Scholar Award*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *AP Scholar Award*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(I had other awards but wasn't sure if they fit the category on the application...)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "lead meetings, organized events, and promoted community service and school. ex of volunteering: teaching local seniors how to use technology; 6. Co-President and Tutor, Homework Help Club; helped mentor and tutor struggling students, hosted weekly peer-to-peer tutoring sessions"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

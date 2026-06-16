@@ -1,0 +1,175 @@
+{
+  "post": {
+    "id": "t3_1r7g80p",
+    "title": "Building an AI study app that shows what you ACTUALLY know - first 50 users FREE",
+    "author": "RideAppropriate1150",
+    "selftext": "Based on feedback here, I'm building a study app that:\n\n- Uploads your notes/PDFs/lectures  \n\n- Quizzes you and shows exactly where you're weak\n\n- AI podcast explains your notes in audio (study while walking/commuting)\n\n- Focuses practice on YOUR gaps\n\nFirst 50 users get 1 month COMPLETELY free.\n\nComment or DM if interested 👇\n\nLaunching in 3-4 weeks.",
+    "score": "1",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1r7g80p/building_an_ai_study_app_that_shows_what_you/",
+    "created": "2026-02-17T19:34:33+00:00",
+    "num_comments": 5,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o67bgx5",
+      "author": "LangCreator",
+      "body": "Wait don’t we have like 40 different such platforms? I swear I saw so many Asians advertising this on Insta",
+      "score": "1 point",
+      "created": "2026-02-19T07:05:02+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6a4c7t",
+          "author": "RideAppropriate1150",
+          "body": "ye mines is different and also doing 1 month free for new users",
+          "score": "1 point",
+          "created": "2026-02-19T18:08:25+00:00",
+          "depth": 1,
+          "parent_id": "t1_o67bgx5",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o71qyra",
+              "author": "Upset_Ad9661",
+              "body": "How is it different?",
+              "score": "1 point",
+              "created": "2026-02-24T00:12:15+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6a4c7t",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o72hct4",
+                  "author": "RideAppropriate1150",
+                  "body": "so basically all in one and where we stand out is we see your Knowledge gap and AI will recommend where to work and how to get better at that",
+                  "score": "1 point",
+                  "created": "2026-02-24T02:43:23+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o71qyra",
+                  "is_reply_to_post": false,
+                  "replies": []
+                },
+                {
+                  "id": "t1_o72hrjs",
+                  "author": "RideAppropriate1150",
+                  "body": "There is still few spots left, you can join here https://docs.google.com/forms/d/e/1FAIpQLSdFeZx_ctRl3XduEEK4LJWG-rqk_QU5kOcsCZyFf-mDuWnUEA/viewform",
+                  "score": "1 point",
+                  "created": "2026-02-24T02:45:42+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o71qyra",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1r7g80p",
+        "author": "RideAppropriate1150",
+        "title": "Building an AI study app that shows what you ACTUALLY know - first 50 users FREE",
+        "body": "Based on feedback here, I'm building a study app that:\n\n- Uploads your notes/PDFs/lectures  \n\n- Quizzes you and shows exactly where you're weak\n\n- AI podcast explains your notes in audio (study while walking/commuting)\n\n- Focuses practice on YOUR gaps\n\nFirst 50 users get 1 month COMPLETELY free.\n\nComment or DM if interested 👇\n\nLaunching in 3-4 weeks.",
+        "full_text": "Building an AI study app that shows what you ACTUALLY know - first 50 users FREE\n\nBased on feedback here, I'm building a study app that:\n\n- Uploads your notes/PDFs/lectures  \n\n- Quizzes you and shows exactly where you're weak\n\n- AI podcast explains your notes in audio (study while walking/commuting)\n\n- Focuses practice on YOUR gaps\n\nFirst 50 users get 1 month COMPLETELY free.\n\nComment or DM if interested 👇\n\nLaunching in 3-4 weeks."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o67bgx5",
+          "author": "LangCreator",
+          "body": "Wait don’t we have like 40 different such platforms? I swear I saw so many Asians advertising this on Insta",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o67bgx5",
+        "author": "LangCreator",
+        "body": "Wait don’t we have like 40 different such platforms? I swear I saw so many Asians advertising this on Insta",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6a4c7t",
+          "author": "RideAppropriate1150",
+          "body": "ye mines is different and also doing 1 month free for new users",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6a4c7t",
+        "author": "RideAppropriate1150",
+        "body": "ye mines is different and also doing 1 month free for new users",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o71qyra",
+          "author": "Upset_Ad9661",
+          "body": "How is it different?",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o71qyra",
+        "author": "Upset_Ad9661",
+        "body": "How is it different?",
+        "score": "1 point",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o72hct4",
+          "author": "RideAppropriate1150",
+          "body": "so basically all in one and where we stand out is we see your Knowledge gap and AI will recommend where to work and how to get better at that",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o72hrjs",
+          "author": "RideAppropriate1150",
+          "body": "There is still few spots left, you can join here https://docs.google.com/forms/d/e/1FAIpQLSdFeZx_ctRl3XduEEK4LJWG-rqk_QU5kOcsCZyFf-mDuWnUEA/viewform",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 4,
+    "total_qa_pairs": 4
+  }
+}

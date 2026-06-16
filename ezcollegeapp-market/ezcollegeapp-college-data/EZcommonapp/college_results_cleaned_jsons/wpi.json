@@ -1,0 +1,98 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1360,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Biology Merit Award, Physics Merit Award, High Honors Achievement award (All 4 years)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ECs:**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Musician and record label owner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Wrestling Captain",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Track and field Captain",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "President of Bowling Club",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Volunteering helping elderly with solar panels",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Restoration work of a corvette",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Class Clown",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I had some other less significant ones like working and other volunteering",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LORs:**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Physics Teacher: 10/10, One of the greatest people I have ever met in my whole life. He really made me love physics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor: 10/10, We talked all the time about music throughout my whole high school career",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays:** Talking about how I restored my neighbors corvette that was sitting outside his house because he had cancer, i",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "** Mechanical Engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

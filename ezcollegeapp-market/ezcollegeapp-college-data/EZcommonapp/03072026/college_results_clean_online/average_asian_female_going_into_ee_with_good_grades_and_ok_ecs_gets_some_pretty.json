@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1470,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Most of my extracurriculars were related to music, it’s definitely one of my gre",
+          "role": "",
+          "description": "Most of my extracurriculars were related to music, it’s definitely one of my greatest passions. I should have and would have done more engineering related ECs, but I honestly didn’t know I was going t"
+        },
+        {
+          "name": "1. **Volunteer at a hospital for children with special needs \\~ 2 years**I basic",
+          "role": "",
+          "description": "1. **Volunteer at a hospital for children with special needs \\~ 2 years**I basically hung out with the patients, who were all kids with disabilities. Came up with some pretty basic activities, reading"
+        },
+        {
+          "name": "2. **Piano teacher \\~ 1.5 years**I was a volunteer on an online organization tha",
+          "role": "",
+          "description": "2. **Piano teacher \\~ 1.5 years**I was a volunteer on an online organization that provided free education to children around the world. This one was pretty chill, I had to get creative on how to teach"
+        },
+        {
+          "name": "3. **Founded a small organization that teaches music for free \\~ 1 year**This wa",
+          "role": "",
+          "description": "3. **Founded a small organization that teaches music for free \\~ 1 year**This was just something I decided to do because I figured I was already teaching piano, I might as well expand into music appre"
+        },
+        {
+          "name": "4. **Music in general**I play like 4 instruments. I’ve been in quite a few piano",
+          "role": "",
+          "description": "4. **Music in general**I play like 4 instruments. I’ve been in quite a few piano/cello recitals, which is pretty standard. I also did the US Open Music competition once for piano (though I didn't plac"
+        },
+        {
+          "name": "5. **Was an election poll worker**It was just a little summer job type of thing,",
+          "role": "",
+          "description": "5. **Was an election poll worker**It was just a little summer job type of thing, show up for three days and work the entire day. It was honestly just a customer service job, but having experience with"
+        },
+        {
+          "name": "6. **Church involvement**I’m pretty involved in my church. I’m the pianist, do a",
+          "role": "",
+          "description": "6. **Church involvement**I’m pretty involved in my church. I’m the pianist, do a bit of hymn leading, participate in choir, lead arts and crafts activities and a bit of teaching there too."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "UC ELC thing, top %9 of classPresidential Volunteer Award but my dumbass forgot to put it down. That",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "1. **Volunteer at a hospital for children with special needs \\~ 2 years**I basically hung out with the patients, who were all kids with disabilities. Came up with some pretty basic activities, reading; 2. **Piano teacher \\~ 1.5 years**I was a volunteer on an online organization that provided free education to children around the world. This one was pretty chill, I had to get creative on how to teach; 5. **Was an election poll worker**It was just a little summer job type of thing, show up for thr"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

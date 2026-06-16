@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.6,
+      "sat_total": null,
+      "act_composite": 26,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Courtesy Clerk at QFC for over 6 months now.",
+          "role": "",
+          "description": "1. Courtesy Clerk at QFC for over 6 months now."
+        },
+        {
+          "name": "2. Prepared weekly breakfast and lunch and did occasional food drives for food s",
+          "role": "",
+          "description": "2. Prepared weekly breakfast and lunch and did occasional food drives for food shelters."
+        },
+        {
+          "name": "3. A small summer job for a month at a small Indian grocery store as an inventor",
+          "role": "",
+          "description": "3. A small summer job for a month at a small Indian grocery store as an inventory manager"
+        },
+        {
+          "name": "4. A small YouTube channel for two years where I posted Fortnite montages.",
+          "role": "",
+          "description": "4. A small YouTube channel for two years where I posted Fortnite montages."
+        },
+        {
+          "name": "5. A two-week T-shirt campaign where I designed and sold T-shirts and hoodies an",
+          "role": "",
+          "description": "5. A two-week T-shirt campaign where I designed and sold T-shirts and hoodies and online and raised money for food drives"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Golden PVSA",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "marketing"
+    },
+    "ESSAY_SCORE": null
+  }
+}

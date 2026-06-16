@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 2.79,
+      "sat_total": null,
+      "act_composite": 27,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "\\#1 Working with my dad during the summer every year. Didn't do anything else.",
+          "role": "",
+          "description": "\\#1 Working with my dad during the summer every year. Didn't do anything else."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "None",
+          "role": "",
+          "description": "None"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "role": "",
+          "description": "(Briefly describe relationships with your recommenders and estimated rating.)"
+        },
+        {
+          "name": "English Teacher 10/10 I had a very strong relationship with him. He was also Mex",
+          "role": "",
+          "description": "English Teacher 10/10 I had a very strong relationship with him. He was also Mexican and we share a very special relationship due to that. I think that he believes that I am a good kid and student and don't care to show "
+        },
+        {
+          "name": "​Counselor 3/10 Never really spoke to her outside of what was needed.",
+          "role": "",
+          "description": "​Counselor 3/10 Never really spoke to her outside of what was needed."
+        },
+        {
+          "name": "Interviews",
+          "role": "",
+          "description": "Interviews"
+        },
+        {
+          "name": "(Briefly reflect on interview experiences, if applicable.)",
+          "role": "",
+          "description": "(Briefly reflect on interview experiences, if applicable.)"
+        },
+        {
+          "name": "No interviews didnt know this was a thing until I came on reddit. May have one w",
+          "role": "",
+          "description": "No interviews didnt know this was a thing until I came on reddit. May have one with Drexel but improbable."
+        },
+        {
+          "name": "Essays",
+          "role": "",
+          "description": "Essays"
+        },
+        {
+          "name": "CommonApp Essay 7/10 : had my English teacher look over it, wrote about my exper",
+          "role": "",
+          "description": "CommonApp Essay 7/10 : had my English teacher look over it, wrote about my experience as a Mexican American and the strength of the relationships my mom has with her siblings and how it inspires me and teaches me to have"
+        },
+        {
+          "name": "Drexel Liberty Scholars: Had to write about a social justice subject I wanted to",
+          "role": "",
+          "description": "Drexel Liberty Scholars: Had to write about a social justice subject I wanted to fight about. Wrote about immigrant workers and how their rights and contributions to the US are overlooked. My English teacher had his mom "
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "None",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English Teacher 10/10 I had a very strong relationship with him. He was also Mexican and we share a ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "​Counselor 3/10 Never really spoke to her outside of what was needed.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly reflect on interview experiences, if applicable.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "No interviews didnt know this was a thing until I came on reddit. May have one with Drexel but impro",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CommonApp Essay 7/10 : had my English teacher look over it, wrote about my experience as a Mexican A",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Drexel Liberty Scholars: Had to write about a social justice subject I wanted to fight about. Wrote ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here) undecided/poli sci/criminology/legal studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. **Researcher** under the mentorship of a local professor. I did a lot of grun",
+          "role": "",
+          "description": "1. **Researcher** under the mentorship of a local professor. I did a lot of grunt work integration and produced a list of solutions of an integral transform. I submitted my solutions and my mentor's L"
+        },
+        {
+          "name": "2. **Team Lead** at a fast food place. I work as a cashier, barista, janitor, em",
+          "role": "",
+          "description": "2. **Team Lead** at a fast food place. I work as a cashier, barista, janitor, employee trainer. 10-12."
+        },
+        {
+          "name": "3. **Research intern** at a local research hospital. Coded a ML profile for cell",
+          "role": "",
+          "description": "3. **Research intern** at a local research hospital. Coded a ML profile for cell type classification. Not a hugely impactful activity on my part, but I got paid like a lot and it was a cool experience"
+        },
+        {
+          "name": "4. **Co-founder and President** of a STEM club at my school. I started an after ",
+          "role": "",
+          "description": "4. **Co-founder and President** of a STEM club at my school. I started an after school event in nearby elementary schools with fun science activities to encourage interest in STEM. 10-12."
+        },
+        {
+          "name": "5. **Co-captain** of my school's lacrosse team. I lead practices and games. Co-c",
+          "role": "",
+          "description": "5. **Co-captain** of my school's lacrosse team. I lead practices and games. Co-captain since 11, on the team 9-12."
+        },
+        {
+          "name": "6. **Vocal captain** for musical theater at school. I helped my theater director",
+          "role": "",
+          "description": "6. **Vocal captain** for musical theater at school. I helped my theater director and music director make tracks, run rehearsals, and accompany on piano, aside from being an actress. 9-11."
+        },
+        {
+          "name": "7. **Student Gov't.** I helped plan student life activities. I also coded a prog",
+          "role": "",
+          "description": "7. **Student Gov't.** I helped plan student life activities. I also coded a program to help my school track participation data to award points in our Harry Potter-style House competition. 12."
+        },
+        {
+          "name": "8. **Choir VP.** All-region alto and section leader, also I run rehearsals and a",
+          "role": "",
+          "description": "8. **Choir VP.** All-region alto and section leader, also I run rehearsals and accompany on piano when the director is out. 10-12."
+        },
+        {
+          "name": "9. **Youth-in-charge** of a youth retreat through my church. I organize and lead",
+          "role": "",
+          "description": "9. **Youth-in-charge** of a youth retreat through my church. I organize and lead youth staff. 11-12."
+        },
+        {
+          "name": "10. **Soccer.** Not a captain, just have fun. 9-12.",
+          "role": "",
+          "description": "10. **Soccer.** Not a captain, just have fun. 9-12."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. **Achievement award:** highest overall class award as voted by faculty (9, 11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. **Honor societies:** NHS, Cum Laude, NLHS, Mu Alpha Theta, NHSS, SNHS, NEHS, ITS (11-12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. **National Latin Exam:** Maxima cum laude (9) and magna cum laude (10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. **Writing competition** through a local university, 1st place in 400 word (10), 1st in 120 word (",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. **Language fair** through the same university, 1st place in 3D arts and crafts for Latin (10)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "math, linguistics, physics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

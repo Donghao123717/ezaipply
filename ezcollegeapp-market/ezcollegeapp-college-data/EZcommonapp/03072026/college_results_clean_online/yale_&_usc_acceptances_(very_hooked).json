@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.903,
+      "sat_total": null,
+      "act_composite": 29,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "A little vague so I keep my identity hidden LOL",
+          "role": "",
+          "description": "A little vague so I keep my identity hidden LOL"
+        },
+        {
+          "name": "1. Yearbook — EIC",
+          "role": "",
+          "description": "1. Yearbook — EIC"
+        },
+        {
+          "name": "2. Student Council — President",
+          "role": "",
+          "description": "2. Student Council — President"
+        },
+        {
+          "name": "3. Native American Heritage Club — Founder &amp; President",
+          "role": "",
+          "description": "3. Native American Heritage Club — Founder &amp; President"
+        },
+        {
+          "name": "4. Science Club — President",
+          "role": "",
+          "description": "4. Science Club — President"
+        },
+        {
+          "name": "5. Photography Business — Owner",
+          "role": "",
+          "description": "5. Photography Business — Owner"
+        },
+        {
+          "name": "6. ~Prestigious~ Journalism Program",
+          "role": "",
+          "description": "6. ~Prestigious~ Journalism Program"
+        },
+        {
+          "name": "7. Political Canvasser — Local &amp; National level",
+          "role": "",
+          "description": "7. Political Canvasser — Local &amp; National level"
+        },
+        {
+          "name": "8. Intern for State Capitol",
+          "role": "",
+          "description": "8. Intern for State Capitol"
+        },
+        {
+          "name": "9. Summer Job for family support",
+          "role": "",
+          "description": "9. Summer Job for family support"
+        },
+        {
+          "name": "10. Family Responsibilities (yes I actually listed this)",
+          "role": "",
+          "description": "10. Family Responsibilities (yes I actually listed this)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Yale Young Global Scholars — YL scholarship",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Student of Today",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Questbridge CPS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Native American Quiz Bowl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. School wide student of the month senior year",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science, urban studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

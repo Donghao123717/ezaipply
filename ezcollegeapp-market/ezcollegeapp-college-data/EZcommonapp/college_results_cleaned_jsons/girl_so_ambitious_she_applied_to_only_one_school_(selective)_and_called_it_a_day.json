@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.93,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Key Club volunteering + nominated officer this year BETA Club volunteering Youth",
+          "role": "",
+          "description": "Key Club volunteering + nominated officer this year BETA Club volunteering Youth volunteering Family responsibilities (Babysitting) Electric guitar Writing"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load (I finished all of my hs classes in junior year",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "so these are DE): English",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Spanish",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Drama",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Communications",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Business Standardized Testing List the highest scores earned and all scores that were reported. ACT: Test optional, had ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Congratulations but I do want to warn you that UNC is like the whitest school i’ve ever visited. I was just visiting a friend who goes there for a week as a hispanic and felt insanely out of place! My friend told me the college was built by slaves and there were many racist remnants on campus which added to the uncomfortable vibe for me 😭. I hope you can find your community and thrive"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "I didn’t know exactly what major at the time I applied, just an idea of what I want to do with my life. Hoping for business now."
+    },
+    "ESSAY_SCORE": null
+  }
+}

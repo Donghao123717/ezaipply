@@ -1,0 +1,126 @@
+{
+  "post": {
+    "id": "t3_1pur83x",
+    "title": "Where should I go",
+    "author": "CommunicationNice437",
+    "selftext": "Rutgers or Ohio state? Got an offer from Rutgers- Camden",
+    "score": "5",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pur83x/where_should_i_go/",
+    "created": "2025-12-24T16:26:38+00:00",
+    "num_comments": 4,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nvsh7ip",
+      "author": "antifascist1233",
+      "body": "OSU if financially feasible. Both good schools but OSU is really coming up in the world and for good reason. Plus Columbus is a really great city and booming.",
+      "score": "1 point",
+      "created": "2025-12-24T22:59:10+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nw04g69",
+      "author": "Supercam235",
+      "body": "Depends on what you want; there isn't a clear answer. Choose Ohio State if you want the massive, high-energy, Big 10 sports experience, and cost is not a major concern. Pick Rutgers if you want save money (assuming in-state though I don't have enough context), you prefer small class sizes, want to be close to Philly, and are studying Nursing and/or Business.",
+      "score": "1 point",
+      "created": "2025-12-26T10:01:46+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nw0wep6",
+      "author": "Miserable-Cookie5903",
+      "body": "The wealthiest guy I know went to Rutgers- Camden. He started his own business. \n\nGo where you want- have fun and have a bias for action and you will do great.",
+      "score": "1 point",
+      "created": "2025-12-26T14:03:02+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nw3bwm4",
+          "author": "CommunicationNice437",
+          "body": "Who is he?",
+          "score": "1 point",
+          "created": "2025-12-26T22:02:08+00:00",
+          "depth": 1,
+          "parent_id": "t1_nw0wep6",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pur83x",
+        "author": "CommunicationNice437",
+        "title": "Where should I go",
+        "body": "Rutgers or Ohio state? Got an offer from Rutgers- Camden",
+        "full_text": "Where should I go\n\nRutgers or Ohio state? Got an offer from Rutgers- Camden"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nvsh7ip",
+          "author": "antifascist1233",
+          "body": "OSU if financially feasible. Both good schools but OSU is really coming up in the world and for good reason. Plus Columbus is a really great city and booming.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nw04g69",
+          "author": "Supercam235",
+          "body": "Depends on what you want; there isn't a clear answer. Choose Ohio State if you want the massive, high-energy, Big 10 sports experience, and cost is not a major concern. Pick Rutgers if you want save money (assuming in-state though I don't have enough context), you prefer small class sizes, want to be close to Philly, and are studying Nursing and/or Business.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nw0wep6",
+          "author": "Miserable-Cookie5903",
+          "body": "The wealthiest guy I know went to Rutgers- Camden. He started his own business. \n\nGo where you want- have fun and have a bias for action and you will do great.",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nw0wep6",
+        "author": "Miserable-Cookie5903",
+        "body": "The wealthiest guy I know went to Rutgers- Camden. He started his own business. \n\nGo where you want- have fun and have a bias for action and you will do great.",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nw3bwm4",
+          "author": "CommunicationNice437",
+          "body": "Who is he?",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

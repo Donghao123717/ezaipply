@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.45,
+      "sat_total": 1510,
+      "act_composite": 34,
+      "class_rank_percentile": 40.0,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Represented USA at [INTERNATIONAL OLYMPIAD] Published Researcher in [MULTIPLE AC",
+          "role": "",
+          "description": "Represented USA at [INTERNATIONAL OLYMPIAD] Published Researcher in [MULTIPLE ACADEMIC SUBJECTS] Indian Classical (Carnatic) Violinist Developer of [ML MODEL] and did research on an applied subject Founder of [REDACTED], a storytelling blog"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Worldwide 8th Place Overall Finish at [INTERNATIONAL OLYMPIAD] International Research Finalist, Paper on [ACADEMIC TOPIC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LETTERS OF RECOMMENDATION: AP ENVIRONMENTAL SCIENCE TEACHER - 9/10 AP COMPUTER SCIENCE A TEACHER - 8/10 OLYMPIAD MENTOR ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ESSAYS: PERSONAL STATEMENT: 8/10 SUPPLEMENTALS: 8/10 INTENDED MAJOR: COMPUTER SCIENCE, DATA SCIENCE, STATISTICS, APPLIED",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "COMPUTER SCIENCE, DATA SCIENCE, STATISTICS, APPLIED MATHEMATICS"
+    },
+    "ESSAY_SCORE": null
+  }
+}

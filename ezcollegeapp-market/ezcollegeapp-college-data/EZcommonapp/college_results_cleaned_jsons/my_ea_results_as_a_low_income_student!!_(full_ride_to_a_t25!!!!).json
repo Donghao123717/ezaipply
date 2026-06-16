@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.87,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "⁠2 Jobs at local hockey rink (12-16 hours/week at concessions stand, 8-12 hours/",
+          "role": "",
+          "description": "⁠2 Jobs at local hockey rink (12-16 hours/week at concessions stand, 8-12 hours/week at bar and grill.) Implemented new kiosk system, surveyed to improve customer satisfaction by 53%. 11/12"
+        },
+        {
+          "name": "⁠~80 volunteering hours at 3 clinical facilities (assisted living home, school n",
+          "role": "",
+          "description": "⁠~80 volunteering hours at 3 clinical facilities (assisted living home, school nurse's office, disability rehab facility). Earned CPR, BLS, and StB certifications. 11"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "DECA State Officer Candidate (Campaign speech to 5",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "000 but lost",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠3x DECA State Champion (MTDM 10th, BTDM/Merit Awards 11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠HOSA State 6th Place in Extemporaneous Writing - Health Policy (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠Local Community Impact Award (10th, 11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠AP Scholar with Honor (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠School Representative at County-wide Student Leadership Conference (11th)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 16,
+      "first_gen": true,
+      "service_summary": "• ⁠Local Community Impact Award (10th, 11th)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Public Health, if not an option, Public Policy with Health Administration minor"
+    },
+    "ESSAY_SCORE": null
+  }
+}

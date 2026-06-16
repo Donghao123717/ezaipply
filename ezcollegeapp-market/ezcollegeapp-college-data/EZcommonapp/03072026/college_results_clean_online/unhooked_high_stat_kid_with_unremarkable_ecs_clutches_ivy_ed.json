@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Captain of school forensics (public speaking) team",
+          "role": "",
+          "description": "1. Captain of school forensics (public speaking) team"
+        },
+        {
+          "name": "2. Lead Actor in school plays every year",
+          "role": "",
+          "description": "2. Lead Actor in school plays every year"
+        },
+        {
+          "name": "3. student leader of a local history research project",
+          "role": "",
+          "description": "3. student leader of a local history research project"
+        },
+        {
+          "name": "4. summer intern for congressional campaign",
+          "role": "",
+          "description": "4. summer intern for congressional campaign"
+        },
+        {
+          "name": "5. captain of quiz bowl team",
+          "role": "",
+          "description": "5. captain of quiz bowl team"
+        },
+        {
+          "name": "6. random one-off social-justice oriented project",
+          "role": "",
+          "description": "6. random one-off social-justice oriented project"
+        },
+        {
+          "name": "7. my EE that I wrote on ballot mechanics in an election",
+          "role": "",
+          "description": "7. my EE that I wrote on ballot mechanics in an election"
+        },
+        {
+          "name": "8. summer job at a biotech lab",
+          "role": "",
+          "description": "8. summer job at a biotech lab"
+        },
+        {
+          "name": "9. summer pre-college program",
+          "role": "",
+          "description": "9. summer pre-college program"
+        },
+        {
+          "name": "10. amateur instrument playing at home",
+          "role": "",
+          "description": "10. amateur instrument playing at home"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National merit semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. high school award for critical thinking",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 2nd in state for a speech event",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. high school award for good gpa",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

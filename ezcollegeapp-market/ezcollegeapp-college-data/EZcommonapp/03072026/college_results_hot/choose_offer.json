@@ -1,0 +1,92 @@
+{
+  "post": {
+    "id": "t3_1rcc646",
+    "title": "Choose offer",
+    "author": "Dongkun_Liu",
+    "selftext": "Which is better for undergraduates, Toronto University ee or nyu tandon ece?\n\nThe University of Toronto has strong engineering but high pressure. Nyu has a good geographical location, but Tandon's reputation is not as good as the University of Toronto.",
+    "score": "1",
+    "url": "https://www.reddit.com/r/University/comments/1rcc646/choose_offer/",
+    "created": "2026-02-23T08:40:05+00:00",
+    "num_comments": 4,
+    "subreddit": "University"
+  },
+  "comments": [
+    {
+      "id": "t1_o73p6kc",
+      "author": "Plane-League-3726",
+      "body": "UofT",
+      "score": "1 point",
+      "created": "2026-02-24T08:12:26+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o74orzl",
+      "author": "One-String5342",
+      "body": "Nyu",
+      "score": "1 point",
+      "created": "2026-02-24T13:09:35+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o8h0agv",
+      "author": "AdEqual1199",
+      "body": "NYU, 100%",
+      "score": "1 point",
+      "created": "2026-03-03T20:21:51+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1rcc646",
+        "author": "Dongkun_Liu",
+        "title": "Choose offer",
+        "body": "Which is better for undergraduates, Toronto University ee or nyu tandon ece?\n\nThe University of Toronto has strong engineering but high pressure. Nyu has a good geographical location, but Tandon's reputation is not as good as the University of Toronto.",
+        "full_text": "Choose offer\n\nWhich is better for undergraduates, Toronto University ee or nyu tandon ece?\n\nThe University of Toronto has strong engineering but high pressure. Nyu has a good geographical location, but Tandon's reputation is not as good as the University of Toronto."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o73p6kc",
+          "author": "Plane-League-3726",
+          "body": "UofT",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o74orzl",
+          "author": "One-String5342",
+          "body": "Nyu",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o8h0agv",
+          "author": "AdEqual1199",
+          "body": "NYU, 100%",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

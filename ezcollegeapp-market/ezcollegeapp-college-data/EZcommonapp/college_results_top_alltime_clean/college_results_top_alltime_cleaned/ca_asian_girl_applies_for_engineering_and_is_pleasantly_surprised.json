@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(Keeping it vague because I'm not trying to get doxxed)",
+          "role": "",
+          "description": "(Keeping it vague because I'm not trying to get doxxed)"
+        },
+        {
+          "name": "1. Editor-in-Chief for a school publication (think yearbook or newspaper)",
+          "role": "",
+          "description": "1. Editor-in-Chief for a school publication (think yearbook or newspaper)"
+        },
+        {
+          "name": "2. Team Captain for a varsity sport",
+          "role": "",
+          "description": "2. Team Captain for a varsity sport"
+        },
+        {
+          "name": "3. Vice President for a STEM competition club",
+          "role": "",
+          "description": "3. Vice President for a STEM competition club"
+        },
+        {
+          "name": "4. Worked part-time in fast food for 2 years",
+          "role": "",
+          "description": "4. Worked part-time in fast food for 2 years"
+        },
+        {
+          "name": "5. Volunteered for a tutoring center for kids K-8",
+          "role": "",
+          "description": "5. Volunteered for a tutoring center for kids K-8"
+        },
+        {
+          "name": "6. Family responsibilities",
+          "role": "",
+          "description": "6. Family responsibilities"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. PSAT Commended Student",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(I know this was the weakest part of my app 💀)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "civil engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

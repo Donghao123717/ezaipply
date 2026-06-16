@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Math club president and math team captain, helped many students excel in co",
+          "role": "",
+          "description": "etc. Math club president and math team captain, helped many students excel in competitions, led team to second in state Internship at a very large hospital (1 of 6 chosen), shadowed physicians and received specific hands-on training"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "10 APs (calc bc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "stats",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "lang",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "apush",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "physics 1",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "chem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "spanish lang",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "psych) Standardized Testing List the highest scores earned and all scores that were reported. ACT : 1580 superscore (780",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 200,
+      "first_gen": null,
+      "service_summary": "Great to see how UChicago students act when given anonymity. I'm sure you'll be a positive addition to their community."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Biology/Chemistry (premed)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

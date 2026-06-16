@@ -1,0 +1,33 @@
+{
+  "post": {
+    "id": "t3_1qt5f1y",
+    "title": "Fin Aid",
+    "author": "Wonyoungs_berry",
+    "selftext": "The website where my fin aid is stated is not opening. Is the server low? Or is it some kind of technical issue only with me?",
+    "score": "8",
+    "url": "https://www.reddit.com/r/baylor/comments/1qt5f1y/fin_aid/",
+    "created": "2026-02-01T17:55:37+00:00",
+    "num_comments": 0,
+    "subreddit": "baylor"
+  },
+  "comments": [],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qt5f1y",
+        "author": "Wonyoungs_berry",
+        "title": "Fin Aid",
+        "body": "The website where my fin aid is stated is not opening. Is the server low? Or is it some kind of technical issue only with me?",
+        "full_text": "Fin Aid\n\nThe website where my fin aid is stated is not opening. Is the server low? Or is it some kind of technical issue only with me?"
+      },
+      "direct_responses": []
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 0,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

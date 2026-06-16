@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Music composition - this is definitely the \"spike\" in my application; I've been ",
+          "role": "",
+          "description": "Music composition - this is definitely the \"spike\" in my application; I've been composing music since 7th grade and have devoted a lot of time to it. I scored a film that my friend directed and was cu"
+        },
+        {
+          "name": "Head of music club",
+          "role": "",
+          "description": "Head of music club"
+        },
+        {
+          "name": "Choir (grade 11-12) - we won superior rating at 3 choral festivals last year and",
+          "role": "",
+          "description": "Choir (grade 11-12) - we won superior rating at 3 choral festivals last year and will be going on tour in Europe this year"
+        },
+        {
+          "name": "Musical - not a major EC; landed several support roles in various shows across a",
+          "role": "",
+          "description": "Musical - not a major EC; landed several support roles in various shows across all 4 years"
+        },
+        {
+          "name": "Piano - been playing since age 5, but didn't do much with it",
+          "role": "",
+          "description": "Piano - been playing since age 5, but didn't do much with it"
+        },
+        {
+          "name": "Internship at a major film composer's studio for 2 summers",
+          "role": "",
+          "description": "Internship at a major film composer's studio for 2 summers"
+        },
+        {
+          "name": "Took a course at Stanford Summer Arts Institute related to music and technology",
+          "role": "",
+          "description": "Took a course at Stanford Summer Arts Institute related to music and technology"
+        },
+        {
+          "name": "Tutoring - been a math tutor since freshman year and volunteered to be a chemist",
+          "role": "",
+          "description": "Tutoring - been a math tutor since freshman year and volunteered to be a chemistry tutor junior year, also selected by the language department to be a Spanish tutor junior year"
+        },
+        {
+          "name": "Various senior leadership positions for which we had to submit an application ju",
+          "role": "",
+          "description": "Various senior leadership positions for which we had to submit an application junior year:"
+        },
+        {
+          "name": "Head of math club",
+          "role": "",
+          "description": "Head of math club"
+        },
+        {
+          "name": "Head of a committee that organizes weekly school events for the student body",
+          "role": "",
+          "description": "Head of a committee that organizes weekly school events for the student body"
+        },
+        {
+          "name": "Head of fitness center",
+          "role": "",
+          "description": "Head of fitness center"
+        },
+        {
+          "name": "Varsity baseball (left field)",
+          "role": "",
+          "description": "Varsity baseball (left field)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Scored a film that won \"Best Music Score” at a Chinese film festival and \"Best Film Overall\" at an i",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Cum laude society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Qualified for US National Chemistry Olympiad",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Gold Award for National Spanish Exam (only took the level 2 exam)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Several school awards in math, Spanish, physics, and music",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Tutoring - been a math tutor since freshman year and volunteered to be a chemistry tutor junior year, also selected by the language department to be a Spanish tutor junior year"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

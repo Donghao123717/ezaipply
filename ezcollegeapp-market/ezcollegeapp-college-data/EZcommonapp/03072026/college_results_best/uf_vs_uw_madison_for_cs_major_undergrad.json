@@ -1,0 +1,160 @@
+{
+  "post": {
+    "id": "t3_1rjnklv",
+    "title": "UF vs Uw madison for CS major undergrad",
+    "author": "Ok_Strawberry_2505",
+    "selftext": "UF vs uw madison as a cs major n intl student (india).",
+    "score": "1",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1rjnklv/uf_vs_uw_madison_for_cs_major_undergrad/",
+    "created": "2026-03-03T12:04:44+00:00",
+    "num_comments": 5,
+    "subreddit": "ApplyingToCollege"
+  },
+  "comments": [
+    {
+      "id": "t1_o8egbow",
+      "author": "Visible_Stomach2149",
+      "body": "uw madison",
+      "score": "1 point",
+      "created": "2026-03-03T12:41:49+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o8epe3w",
+      "author": "Ok_Experience_5151",
+      "body": "Not a big difference career wise. Different environments, climate and political.  How much does each cost? If Florida is much less expensive then I might pick Florida. If cost is similar then probably Wisconsin.",
+      "score": "1 point",
+      "created": "2026-03-03T13:38:21+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o8eq1to",
+          "author": "Ok_Strawberry_2505",
+          "body": "Uf is cheaper. but many students from uf told us that they're having a hard time getting internships.\nand UF for some reason isnt as known as uw madions cs programm",
+          "score": "3 points",
+          "created": "2026-03-03T13:42:05+00:00",
+          "depth": 1,
+          "parent_id": "t1_o8epe3w",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o8eqmzt",
+              "author": "Ok_Experience_5151",
+              "body": "Internships have likely become more rare everywhere- do you have any data that indicates Wisconsin students are having an easier time of it?\n\nFlorida isn’t as well known as Wisconsin for CS because, from an academic research perspective, its CS faculty is less productive than Wisconsin’s.",
+              "score": "1 point",
+              "created": "2026-03-03T13:45:26+00:00",
+              "depth": 2,
+              "parent_id": "t1_o8eq1to",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o8exr1g",
+      "author": "VA_Network_Nerd",
+      "body": "CS hiring is in very bad shape almost globally.  \n\nhttps://www.latimes.com/business/story/2025-12-19/they-graduated-from-stanford-due-to-ai-they-cant-find-job  \n\nhttps://futurism.com/future-society/software-developers-ai-jobs  \n\nBetter internship options is a good thing, but I wouldn't take on significantly more debt for it.",
+      "score": "1 point",
+      "created": "2026-03-03T14:24:54+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1rjnklv",
+        "author": "Ok_Strawberry_2505",
+        "title": "UF vs Uw madison for CS major undergrad",
+        "body": "UF vs uw madison as a cs major n intl student (india).",
+        "full_text": "UF vs Uw madison for CS major undergrad\n\nUF vs uw madison as a cs major n intl student (india)."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o8egbow",
+          "author": "Visible_Stomach2149",
+          "body": "uw madison",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o8epe3w",
+          "author": "Ok_Experience_5151",
+          "body": "Not a big difference career wise. Different environments, climate and political.  How much does each cost? If Florida is much less expensive then I might pick Florida. If cost is similar then probably Wisconsin.",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o8exr1g",
+          "author": "VA_Network_Nerd",
+          "body": "CS hiring is in very bad shape almost globally.  \n\nhttps://www.latimes.com/business/story/2025-12-19/they-graduated-from-stanford-due-to-ai-they-cant-find-job  \n\nhttps://futurism.com/future-society/software-developers-ai-jobs  \n\nBetter internship options is a good thing, but I wouldn't take on significantly more debt for it.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o8epe3w",
+        "author": "Ok_Experience_5151",
+        "body": "Not a big difference career wise. Different environments, climate and political.  How much does each cost? If Florida is much less expensive then I might pick Florida. If cost is similar then probably Wisconsin.",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o8eq1to",
+          "author": "Ok_Strawberry_2505",
+          "body": "Uf is cheaper. but many students from uf told us that they're having a hard time getting internships.\nand UF for some reason isnt as known as uw madions cs programm",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o8eq1to",
+        "author": "Ok_Strawberry_2505",
+        "body": "Uf is cheaper. but many students from uf told us that they're having a hard time getting internships.\nand UF for some reason isnt as known as uw madions cs programm",
+        "score": "3 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o8eqmzt",
+          "author": "Ok_Experience_5151",
+          "body": "Internships have likely become more rare everywhere- do you have any data that indicates Wisconsin students are having an easier time of it?\n\nFlorida isn’t as well known as Wisconsin for CS because, from an academic research perspective, its CS faculty is less productive than Wisconsin’s.",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 2,
+    "total_qa_pairs": 3
+  }
+}

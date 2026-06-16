@@ -1,0 +1,149 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Not gonna go super into detail for privacy reasons, but I was in band, JV XC/Tra",
+          "role": "",
+          "description": "Not gonna go super into detail for privacy reasons, but I was in band, JV XC/Track, district honors jazz band, I am a part of a student led jazz combo, Volunteering at church, playing worship guitar a"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "second place at a regional physics competition",
+          "role": "",
+          "description": "second place at a regional physics competition"
+        },
+        {
+          "name": "Honor roll",
+          "role": "",
+          "description": "Honor roll"
+        },
+        {
+          "name": "NHS inductee",
+          "role": "",
+          "description": "NHS inductee"
+        },
+        {
+          "name": "I probably put something else but i forgot, my awards weren't that outstanding",
+          "role": "",
+          "description": "I probably put something else but i forgot, my awards weren't that outstanding"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "English teacher 11/10. I read it, she described my genuine love for learning and",
+          "role": "",
+          "description": "English teacher 11/10. I read it, she described my genuine love for learning and how much I light up the classroom"
+        },
+        {
+          "name": "Science Teacher: 1/10: He asked me to fill out a form for the rec letter, despit",
+          "role": "",
+          "description": "Science Teacher: 1/10: He asked me to fill out a form for the rec letter, despite literally having me as a student for 4 years, and my friend who also got a rec from him told me AFTER I SUBMITTED APPS"
+        },
+        {
+          "name": "Band Director: 6/10: he had really nice things to say, but it wasn't unique at a",
+          "role": "",
+          "description": "Band Director: 6/10: he had really nice things to say, but it wasn't unique at all, and I think the things he said could be applied to just about anyone who is pretty committed to band.  Also it was j"
+        },
+        {
+          "name": "Essays",
+          "role": "",
+          "description": "Essays"
+        },
+        {
+          "name": "Wrote an essay about teaching myself russian, I thought it was a pretty decent p",
+          "role": "",
+          "description": "Wrote an essay about teaching myself russian, I thought it was a pretty decent personal statement, and it showed my curiosity and passion. Probably 7.5/10, it was pretty short (~480/650 words)"
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "role": "",
+          "description": "Decisions (indicate ED/EA/REA/SCEA/RD)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Physics 2",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc AB",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Chem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Comp Sci A",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Spanish",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Jazz Ensemble (honors)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Also I'm taking some other AP tests.  Physics C:mech and E&M, and also Comp sci principles (took ove",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Also I'm taking some other AP tests.  Physics C:mech and E&M, and also Comp sci principles (took ove",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Physics 2",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

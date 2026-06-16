@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. hospital volunteer (9/10/11/12)",
+          "role": "",
+          "description": "1. hospital volunteer (9/10/11/12)"
+        },
+        {
+          "name": "2. political internship (9/11/12)",
+          "role": "",
+          "description": "2. political internship (9/11/12)"
+        },
+        {
+          "name": "3. covid support blog + non profit (10/11/12)",
+          "role": "",
+          "description": "3. covid support blog + non profit (10/11/12)"
+        },
+        {
+          "name": "4. deca / debate / mock trial (9/10/11/12)",
+          "role": "",
+          "description": "4. deca / debate / mock trial (9/10/11/12)"
+        },
+        {
+          "name": "5. environmental clubs + organization founder (10/11/12)",
+          "role": "",
+          "description": "5. environmental clubs + organization founder (10/11/12)"
+        },
+        {
+          "name": "6. research with biochem lab (11/12)",
+          "role": "",
+          "description": "6. research with biochem lab (11/12)"
+        },
+        {
+          "name": "7. 400+ volunteer hours + listed organizations (9/10/11/12)",
+          "role": "",
+          "description": "7. 400+ volunteer hours + listed organizations (9/10/11/12)"
+        },
+        {
+          "name": "8. taught animal science to elementary school (11/12)",
+          "role": "",
+          "description": "8. taught animal science to elementary school (11/12)"
+        },
+        {
+          "name": "9. self taught latin and have a certificate of bilingual (9/10/11)",
+          "role": "",
+          "description": "9. self taught latin and have a certificate of bilingual (9/10/11)"
+        },
+        {
+          "name": "10. involved in poetry + writing clubs at school (9/10)",
+          "role": "",
+          "description": "10. involved in poetry + writing clubs at school (9/10)"
+        },
+        {
+          "name": "(the last two i thought were fillers)",
+          "role": "",
+          "description": "(the last two i thought were fillers)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. ap scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. deca awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": null,
+      "service_summary": "1. hospital volunteer (9/10/11/12); 7. 400+ volunteer hours + listed organizations (9/10/11/12)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochem"
+    },
+    "ESSAY_SCORE": null
+  }
+}

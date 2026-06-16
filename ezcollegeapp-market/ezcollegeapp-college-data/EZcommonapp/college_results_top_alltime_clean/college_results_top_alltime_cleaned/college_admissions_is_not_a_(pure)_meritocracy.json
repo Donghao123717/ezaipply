@@ -1,0 +1,129 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "Like many of the posts on this subreddit, this is kept intentionally vague in or",
+          "role": "",
+          "description": "Like many of the posts on this subreddit, this is kept intentionally vague in order to hopefully prevent any potential doxxing."
+        },
+        {
+          "name": "1. President of CS Club",
+          "role": "",
+          "description": "1. President of CS Club"
+        },
+        {
+          "name": "2. President of Physics Club",
+          "role": "",
+          "description": "2. President of Physics Club"
+        },
+        {
+          "name": "3. Secretary of Honors Society",
+          "role": "",
+          "description": "3. Secretary of Honors Society"
+        },
+        {
+          "name": "4. Part of a team of developers with friends. We got over 400K downloads.",
+          "role": "",
+          "description": "4. Part of a team of developers with friends. We got over 400K downloads."
+        },
+        {
+          "name": "5. Interned as a software engineer at small startup",
+          "role": "",
+          "description": "5. Interned as a software engineer at small startup"
+        },
+        {
+          "name": "6. Sports Team",
+          "role": "",
+          "description": "6. Sports Team"
+        },
+        {
+          "name": "7. Volunteer for Food Kitchen",
+          "role": "",
+          "description": "7. Volunteer for Food Kitchen"
+        },
+        {
+          "name": "8. Volunteer Tutoring",
+          "role": "",
+          "description": "8. Volunteer Tutoring"
+        },
+        {
+          "name": "The last two I didn’t really emphasize in my app. I did them because I liked doi",
+          "role": "",
+          "description": "The last two I didn’t really emphasize in my app. I did them because I liked doing them and listed them in activities."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AIME Qualification",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Two non-important or prestigious awards that I won’t list as they’re too specific.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. PVSA Gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation** I’m totally guessing about these ratings. I was close with my US History",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Calculus Teacher: 7.5/10",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "US History Teacher: 9/10",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Supplemental Pastor Recommendation: 9/10",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 8,
+      "first_gen": true,
+      "service_summary": "7. Volunteer for Food Kitchen; 8. Volunteer Tutoring"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "math or computer science, depending on the school."
+    },
+    "ESSAY_SCORE": null
+  }
+}

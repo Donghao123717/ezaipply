@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.8,
+      "sat_total": 1440,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 17
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\- FRC (Robotics); held leadership position",
+          "role": "",
+          "description": "\\- FRC (Robotics); held leadership position"
+        },
+        {
+          "name": "\\- Involved several research group projects",
+          "role": "",
+          "description": "\\- Involved several research group projects"
+        },
+        {
+          "name": "\\- \\~200 Volunteering hours",
+          "role": "",
+          "description": "\\- \\~200 Volunteering hours"
+        },
+        {
+          "name": "\\- Co-founded a STEM related club",
+          "role": "",
+          "description": "\\- Co-founded a STEM related club"
+        },
+        {
+          "name": "\\- Treasurer and editor of school publication",
+          "role": "",
+          "description": "\\- Treasurer and editor of school publication"
+        },
+        {
+          "name": "\\- Science Fair, multiple years",
+          "role": "",
+          "description": "\\- Science Fair, multiple years"
+        },
+        {
+          "name": "\\- Selective mentorship program",
+          "role": "",
+          "description": "\\- Selective mentorship program"
+        },
+        {
+          "name": "\\- NHS and MHS",
+          "role": "",
+          "description": "\\- NHS and MHS"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "\\- Governor's School acceptance",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Regional mentorship program selectee",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- AP Capstone Diploma",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Volunteering Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- NHS",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

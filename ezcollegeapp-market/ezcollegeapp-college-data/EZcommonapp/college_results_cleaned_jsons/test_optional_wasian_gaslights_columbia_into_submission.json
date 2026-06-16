@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc.",
+          "role": "",
+          "description": "etc."
+        },
+        {
+          "name": "Brain-Computer Interface Research Assistant. Assisted senior researchers in deve",
+          "role": "",
+          "description": "Brain-Computer Interface Research Assistant. Assisted senior researchers in developing and testing a novel brain-computer interface. Conducted literature reviews, analyzed EEG data, and presented findings at a regional neuroscience conference, contributing to a 15% improvement in the interface's accuracy."
+        },
+        {
+          "name": "Multicultural Food Festival Organizer. Spearheaded a school-wide multicultural f",
+          "role": "",
+          "description": "Multicultural Food Festival Organizer. Spearheaded a school-wide multicultural food festival showcasing diverse cuisines. Recruited 20+ student chefs, managed logistics, and raised $500 for the local food bank, fostering cross-cultural understanding among 300+ attendees."
+        },
+        {
+          "name": "Mental Health Awareness Club President. Founded and led a mental health awarenes",
+          "role": "",
+          "description": "Mental Health Awareness Club President. Founded and led a mental health awareness club, organizing weekly support group meetings and monthly workshops on stress management. Increased student participation by 40% and successfully advocated for the inclusion of mental health resources in the school's curriculum."
+        },
+        {
+          "name": "Community Translator. Volunteered as a translator at a local community center, a",
+          "role": "",
+          "description": "Community Translator. Volunteered as a translator at a local community center, assisting recent immigrants with document translation and communication. Supported over 50 families in accessing essential services, improving their integration into the community."
+        },
+        {
+          "name": "Watercolor Painting for Mental Health Charity. Created and sold watercolor paint",
+          "role": "",
+          "description": "Watercolor Painting for Mental Health Charity. Created and sold watercolor paintings at local galleries, donating all proceeds to a mental health charity. Raised $1,000 and increased awareness of mental health issues within the community through art."
+        },
+        {
+          "name": "Debate Club Member. Actively participated in the debate club, honing critical th",
+          "role": "",
+          "description": "Debate Club Member. Actively participated in the debate club, honing critical thinking and public speaking skills. Researched and presented arguments on various topics, including bioethics and technology policy, winning second place in a regional debate competition."
+        },
+        {
+          "name": "Science Olympiad Participant. Participated in Science Olympiad, specializing in ",
+          "role": "",
+          "description": "Science Olympiad Participant. Participated in Science Olympiad, specializing in biology and biotechnology events. Collaborated with teammates to design experiments and solve scientific problems, achieving a top-five finish in the regional competition."
+        },
+        {
+          "name": "Hospital Volunteer. Volunteered at a local hospital, assisting nurses and provid",
+          "role": "",
+          "description": "Hospital Volunteer. Volunteered at a local hospital, assisting nurses and providing comfort to patients. Gained firsthand experience in the healthcare field, improved patient satisfaction scores, and learned about medical procedures."
+        },
+        {
+          "name": "Biotechnology Summer Program. Attended a competitive biotechnology summer progra",
+          "role": "",
+          "description": "Biotechnology Summer Program. Attended a competitive biotechnology summer program at a local university. Conducted hands-on research in a lab, learned about genetic engineering techniques, and presented a research project on CRISPR technology, further solidifying research skills."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing List the highest scores earned and all scores that were reported. Test optional (last cycle)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Community Translator. Volunteered as a translator at a local community center, assisting recent immigrants with document translation and communication. Supported over 50 families in accessing essential services, improving their integration into the community. Watercolor Painting for Mental Health Charity. Created and sold watercolor paintings at local galleries, donating all proceeds to a mental h"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

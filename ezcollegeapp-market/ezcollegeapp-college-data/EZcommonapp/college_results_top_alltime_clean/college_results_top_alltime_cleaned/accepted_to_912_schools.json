@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 4,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Honors: National Merit Finalist; National Honor Society; Recognized with Honors ",
+          "role": "",
+          "description": "Honors: National Merit Finalist; National Honor Society; Recognized with Honors for Piano"
+        },
+        {
+          "name": "LOR: Haven’t seen them, but my teachers both liked me a lot and had written well",
+          "role": "",
+          "description": "LOR: Haven’t seen them, but my teachers both liked me a lot and had written well of me in other circumstances."
+        },
+        {
+          "name": "Essays: My biggest takeaway here was to have fun. I was personal, tried to be fu",
+          "role": "",
+          "description": "Essays: My biggest takeaway here was to have fun. I was personal, tried to be funny, and show vulnerability. I somewhat focused on leadership and identity in my essays. But really, I just tried to have a lot of fun while"
+        },
+        {
+          "name": "Interviews: All were very casual and went very well. I had nice conversations wi",
+          "role": "",
+          "description": "Interviews: All were very casual and went very well. I had nice conversations with all of them about the school and they all said I interviewed well (don’t think that means too much though). I tried to show I knew specif"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "LOR: Haven’t seen them, but my teachers both liked me a lot and had written well of me in other circ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays: My biggest takeaway here was to have fun. I was personal, tried to be funny, and show vulner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews: All were very casual and went very well. I had nice conversations with all of them about",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science/economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

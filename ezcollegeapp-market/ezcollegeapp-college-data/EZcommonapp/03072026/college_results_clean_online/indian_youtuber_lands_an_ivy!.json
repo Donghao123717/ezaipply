@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 720,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Semi-finalist (top 400/20k+) at Climate Science Olympiad: Invited as panellist on World Environme",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Best Delegate (2x) at IIMUN (Indian Int'l Model UN)- India's Biggest MUN that includes intl stude",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Best debater (#1/3000+) at the World Scholar's Cup: Included the finest debaters in India and abr",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Best quizzer at the Indian Public Schools' (IPSC) I.T Fest: India's largest technology quiz (Nati",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Principal's list for \"Best in Academics\" and \"Best in ECs\": Awarded to 5 out of 1200 high schoole",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " law/business/english"
+    },
+    "ESSAY_SCORE": null
+  }
+}

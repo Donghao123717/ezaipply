@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 80.95,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. 250 hours of volunteering at local animal shelter 30+ of those hours shadow",
+          "role": "",
+          "description": "etc. 250 hours of volunteering at local animal shelter 30+ of those hours shadowing under a veterinarian at the shelter Horseback riding once a week, ~3 hours a week Media Team at every home football game + a volleyball game"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Biology",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Chemistry I (retake from my sophomore year to earn a better grade)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Spanish III",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "college statistics Standardized Testing List the highest scores earned and all scores that were reported. ACT Attempt I:",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 250,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Animal Science, but for several schools I applied for Veterinary Technology. For UPitt and Marshall, I applied for social work."
+    },
+    "ESSAY_SCORE": null
+  }
+}

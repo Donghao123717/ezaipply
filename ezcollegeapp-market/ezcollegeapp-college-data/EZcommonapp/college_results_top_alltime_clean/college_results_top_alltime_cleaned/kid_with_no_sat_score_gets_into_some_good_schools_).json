@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Science League (President):* by far my #1 club, we helped make science fun f",
+          "role": "",
+          "description": "1. *Science League (President):* by far my #1 club, we helped make science fun for all kids by having HS students perform science demos to local elementary and middle school kids; once wrote and acted an entire play to i"
+        },
+        {
+          "name": "2. *Knowledge Bowl*: it's QuizBowl, but it's countywide; was pretty fun being th",
+          "role": "",
+          "description": "2. *Knowledge Bowl*: it's QuizBowl, but it's countywide; was pretty fun being the youngest member on the team; 3 years"
+        },
+        {
+          "name": "3. *School Site Council:* 3 student members, voted on important school matters, ",
+          "role": "",
+          "description": "3. *School Site Council:* 3 student members, voted on important school matters, advocated for a 7-period day at school but to no success :( ; 2 years"
+        },
+        {
+          "name": "4. *Black Student Union (Treasurer):* Opened dialogue about racial issues and pr",
+          "role": "",
+          "description": "4. *Black Student Union (Treasurer):* Opened dialogue about racial issues and promoted Black culture through door contests &amp; videos; 3 years"
+        },
+        {
+          "name": "5. *Academic Decathlon (Vice President)*:  Fought to keep club alive by asking c",
+          "role": "",
+          "description": "5. *Academic Decathlon (Vice President)*:  Fought to keep club alive by asking classmates to join. Motivated teammates when we had test fatigue. Won silver in social science and best in team"
+        },
+        {
+          "name": "6. *Hospital Volunteer (CCU):* kinda canceled because of covid but...cleaned des",
+          "role": "",
+          "description": "6. *Hospital Volunteer (CCU):* kinda canceled because of covid but...cleaned desks, sanitize equipment and break room, followed emergency requests done by nurses; 3 weeks!!"
+        },
+        {
+          "name": "7. *Key Club (Secretary)*: I hated Key Club, I didn't really do anything other t",
+          "role": "",
+          "description": "7. *Key Club (Secretary)*: I hated Key Club, I didn't really do anything other than my tasks as Secretary, and attend division events...; 3 years"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *CollegeBoard National Hispanic Scholar*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *Boys State Delegate (School)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *2nd Place County Competition in Knowledge Bowl*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *Member of the Month Key Club*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "6. *Hospital Volunteer (CCU):* kinda canceled because of covid but...cleaned desks, sanitize equipment and break room, followed emergency requests done by nurses; 3 weeks!!"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "chemistry (boom boom!)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

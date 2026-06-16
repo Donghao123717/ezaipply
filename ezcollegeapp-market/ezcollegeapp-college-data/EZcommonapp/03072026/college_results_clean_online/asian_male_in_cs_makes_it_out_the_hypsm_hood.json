@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1580,
+      "act_composite": 36,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Going to be a little vague here bc I don’t wanna get doxxed",
+          "role": "",
+          "description": "Going to be a little vague here bc I don’t wanna get doxxed"
+        },
+        {
+          "name": "1. Computational Bio Research with prof - three years, found through cold emaili",
+          "role": "",
+          "description": "1. Computational Bio Research with prof - three years, found through cold emailing, published in a reputed journal as second author, presented at 2 international conferences, high impact + glowing let"
+        },
+        {
+          "name": "2. Nonprofit helping underprivileged kids in STEM across three countries-super h",
+          "role": "",
+          "description": "2. Nonprofit helping underprivileged kids in STEM across three countries-super high impact, multiple national awards, newspaper article, state senator recognition. Didn’t do this for the app, started "
+        },
+        {
+          "name": "3. Research summer program - super competitive, no cost, didn’t publish but led ",
+          "role": "",
+          "description": "3. Research summer program - super competitive, no cost, didn’t publish but led to my next EC. Probably got in based on my math teacher’s rec and EC#1"
+        },
+        {
+          "name": "4. Self conducted math research - two years, discovered an interesting pattern i",
+          "role": "",
+          "description": "4. Self conducted math research - two years, discovered an interesting pattern in number theory, published in legitimate math journal, presented at T50 university with professors"
+        },
+        {
+          "name": "5. CS internship - 2 years (return offer), paid, building AI models for social c",
+          "role": "",
+          "description": "5. CS internship - 2 years (return offer), paid, building AI models for social causes with a huge nonprofit, showed real impact over two years in the sector of the community I was targeting, essay top"
+        },
+        {
+          "name": "6. Medical device research - self designed and created prototype for medical dev",
+          "role": "",
+          "description": "6. Medical device research - self designed and created prototype for medical device for administering medicines to elderly people (can’t go into too much detail or I’ll get doxxed), filed for a patent"
+        },
+        {
+          "name": "7. Congressional intern - I noticed a policy negatively impacting underprivilege",
+          "role": "",
+          "description": "7. Congressional intern - I noticed a policy negatively impacting underprivileged children’s STEM education in my area during my nonprofit work, interned with a congresswoman and lobbied for state leg"
+        },
+        {
+          "name": "8. Athlete - Played varsity basketball (9th and 10th grade) for the school team,",
+          "role": "",
+          "description": "8. Athlete - Played varsity basketball (9th and 10th grade) for the school team, won best teammate award from my team and athlete of the year award from my school in sophomore year"
+        },
+        {
+          "name": "9. Math club - president of school’s math club, organized school competitions + ",
+          "role": "",
+          "description": "9. Math club - president of school’s math club, organized school competitions + Olympiads, taught members Olympiad topics. Relatively low time commitment"
+        },
+        {
+          "name": "10. Homeless shelter volunteer - I was just a regular volunteer but this EC was ",
+          "role": "",
+          "description": "10. Homeless shelter volunteer - I was just a regular volunteer but this EC was very impactful to me"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "1. 2 well known national awards for my nonprofit",
+          "role": "",
+          "description": "1. 2 well known national awards for my nonprofit"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. 2 well known national awards for my nonprofit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USAMO (2x), USAJMO (1x), USAPHO (2x) qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 1st place state science fair + ISEF (no grand awards at ISEF)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 3 state level + 1 national hackathon winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Best student researcher (high school + UG) awarded by the bio department of the university I inte",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Research mentor - glowing, showed me her letter, said I was her best student in 25 years and highlig",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Math teacher - similar to research mentor, highlighted the time I dedicated to helping other student",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English teacher - 9/10 probably, very very positive letter and called me the best in my year but not",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": "5. CS internship - 2 years (return offer), paid, building AI models for social causes with a huge nonprofit, showed real impact over two years in the sector of the community I was targeting, essay top; 10. Homeless shelter volunteer - I was just a regular volunteer but this EC was very impactful to me"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science, biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

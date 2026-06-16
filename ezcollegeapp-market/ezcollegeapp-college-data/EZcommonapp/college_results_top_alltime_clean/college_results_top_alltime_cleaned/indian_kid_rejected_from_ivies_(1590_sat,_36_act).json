@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": 1590,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\#1 AIME Qualifier: I messed up on AMC but somehow made it to AIME and scored a ",
+          "role": "",
+          "description": "\\#1 AIME Qualifier: I messed up on AMC but somehow made it to AIME and scored a 5 (12th grade, also qualified in 11th grade). Co-captain of Math League team as well (did PUMaC and other math olympiad competitions as well"
+        },
+        {
+          "name": "\\#2 USABO Semifinalist: Qualified for semis with a 32 and then got t225 (Certifi",
+          "role": "",
+          "description": "\\#2 USABO Semifinalist: Qualified for semis with a 32 and then got t225 (Certificate of Merit) in 12th grade"
+        },
+        {
+          "name": "\\#3 USNCO National Qualifier: 11th and 12th grade - Top 3 in the state in 11th g",
+          "role": "",
+          "description": "\\#3 USNCO National Qualifier: 11th and 12th grade - Top 3 in the state in 11th grade and then threw in 12th so I got 5th in the state senior year"
+        },
+        {
+          "name": "\\#4 Multiple smaller competitions (Environmental competitions, Delaware Launch 1",
+          "role": "",
+          "description": "\\#4 Multiple smaller competitions (Environmental competitions, Delaware Launch 1st place, HOSA 2nd place states (Chemistry),"
+        },
+        {
+          "name": "\\#5 Medical Club President (Cofounder): Spent quite a while on this and helped e",
+          "role": "",
+          "description": "\\#5 Medical Club President (Cofounder): Spent quite a while on this and helped establish the club (11th and 12th)"
+        },
+        {
+          "name": "\\#6 Aerospace Club Cofounder and Vice President (11th and 12th): Won NASA TechRi",
+          "role": "",
+          "description": "\\#6 Aerospace Club Cofounder and Vice President (11th and 12th): Won NASA TechRise and submitted our design to NASA this year."
+        },
+        {
+          "name": "\\#7 Chemistry Club Co-president: Helped multiple students with additional tutori",
+          "role": "",
+          "description": "\\#7 Chemistry Club Co-president: Helped multiple students with additional tutoring and did laboratory experiments outside of school; Helped students prepare for the USNCO as well (11th and 12th)"
+        },
+        {
+          "name": "\\#8 Chess Club President and Cofounder: Got half the school hooked onto Chess (n",
+          "role": "",
+          "description": "\\#8 Chess Club President and Cofounder: Got half the school hooked onto Chess (not just because of me) and established the biggest club in the school (literally the room was completely packed for club meetings) (11th and"
+        },
+        {
+          "name": "\\#9 Temple - I'm super religious and I go to the temple every week and sing and ",
+          "role": "",
+          "description": "\\#9 Temple - I'm super religious and I go to the temple every week and sing and serve a lot there. Probably takes the most time of any activity I do"
+        },
+        {
+          "name": "\\#10 Science Fair 2nd place in state: Microbiology Research - Bacteriophages",
+          "role": "",
+          "description": "\\#10 Science Fair 2nd place in state: Microbiology Research - Bacteriophages"
+        },
+        {
+          "name": "\\#11 Volunteer Teacher for Hindi and Bhagavad Gita - related to my temple activi",
+          "role": "",
+          "description": "\\#11 Volunteer Teacher for Hindi and Bhagavad Gita - related to my temple activities but different"
+        },
+        {
+          "name": "\\#12 Schoolhouse.World SAT Volunteer Tutor - Got invited by Collegeboard to tuto",
+          "role": "",
+          "description": "\\#12 Schoolhouse.World SAT Volunteer Tutor - Got invited by Collegeboard to tutor for the SAT"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "\\#1 USNCO Top 200 - National Qualifier",
+          "role": "",
+          "description": "\\#1 USNCO Top 200 - National Qualifier"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#1 USNCO Top 200 - National Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#2 Gold Presidential Volunteer Service Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#3 USABO Semifinalist + Certificate of Merit (Top 225)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#4 AIME Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#5 Science Fair 2nd place Regional",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#6 AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "My biology teacher and my APUSH teacher. Both of them loved me a lot and I tried a lot in both class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "MIT, Princeton",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "They went pretty well, and the interviewers liked me quite a lot.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": "\\#11 Volunteer Teacher for Hindi and Bhagavad Gita - related to my temple activities but different; \\#12 Schoolhouse.World SAT Volunteer Tutor - Got invited by Collegeboard to tutor for the SAT"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "neuroscience (biology pre-med), computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

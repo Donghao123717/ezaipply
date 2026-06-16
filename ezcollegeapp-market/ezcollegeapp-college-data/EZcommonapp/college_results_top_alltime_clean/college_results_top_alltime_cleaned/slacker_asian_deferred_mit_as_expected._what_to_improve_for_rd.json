@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.94,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": 99.31,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. isef qualified (maybe doesnt mean anything in uncompetitive state?)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. science bowl national qualified",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. USACO silver",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. national merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. random model un awards (small conferences)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " math+cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

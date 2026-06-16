@@ -1,0 +1,92 @@
+{
+  "post": {
+    "id": "t3_1pg8wxv",
+    "title": "Columbia ED Acceptance Rate",
+    "author": "This-Cat-6780",
+    "selftext": "What do we think the Columbia ED acceptance rate this year will be?",
+    "score": "1",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pg8wxv/columbia_ed_acceptance_rate/",
+    "created": "2025-12-07T04:07:59+00:00",
+    "num_comments": 3,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nspnz7v",
+      "author": "Ok_Conversation_30",
+      "body": "11%",
+      "score": "1 point",
+      "created": "2025-12-07T04:45:39+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nsw9gnu",
+      "author": "PaleontologistAny153",
+      "body": "6-7%",
+      "score": "3 points",
+      "created": "2025-12-08T06:16:38+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nspk3d3",
+      "author": "Sufficient-Oven5240",
+      "body": "Might be between 10-12%",
+      "score": "1 point",
+      "created": "2025-12-07T04:19:01+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pg8wxv",
+        "author": "This-Cat-6780",
+        "title": "Columbia ED Acceptance Rate",
+        "body": "What do we think the Columbia ED acceptance rate this year will be?",
+        "full_text": "Columbia ED Acceptance Rate\n\nWhat do we think the Columbia ED acceptance rate this year will be?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nspnz7v",
+          "author": "Ok_Conversation_30",
+          "body": "11%",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nsw9gnu",
+          "author": "PaleontologistAny153",
+          "body": "6-7%",
+          "score": "3 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nspk3d3",
+          "author": "Sufficient-Oven5240",
+          "body": "Might be between 10-12%",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

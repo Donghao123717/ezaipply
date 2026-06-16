@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. Engineering Intern, TubeWriter Inc Lab Assistant / Student Researcher, High",
+          "role": "",
+          "description": "etc. Engineering Intern, TubeWriter Inc Lab Assistant / Student Researcher, High School Research Academy at UT Founder & President, Hearts for Hope charity club thing Project Leader, Greater Austin Regional Science Fair"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application. National Merit Commended Scholar College Board National Recogn",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Volunteer Guitar Player, Senior Homes Community Service Leader, homeless feeding operation"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "EECS"
+    },
+    "ESSAY_SCORE": null
+  }
+}

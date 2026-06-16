@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. (11-12) doing logistics/hr for an amazon sub-contractor in my area",
+          "role": "",
+          "description": "1. (11-12) doing logistics/hr for an amazon sub-contractor in my area"
+        },
+        {
+          "name": "2. (9-10) founded a public awareness campaign for acute aortic dissection affili",
+          "role": "",
+          "description": "2. (9-10) founded a public awareness campaign for acute aortic dissection affiliated with umichican and washu schools of public health (via GENTAC alliance and the marfans foundation)"
+        },
+        {
+          "name": "3. (12) student body pres",
+          "role": "",
+          "description": "3. (12) student body pres"
+        },
+        {
+          "name": "4. (10-12) officer/president of community service fundraising club",
+          "role": "",
+          "description": "4. (10-12) officer/president of community service fundraising club"
+        },
+        {
+          "name": "5. (10-12) percussion section leader/musician; Celtic Harp, 6 years; Piano, 11 y",
+          "role": "",
+          "description": "5. (10-12) percussion section leader/musician; Celtic Harp, 6 years; Piano, 11 years; Percussion (mallet and auxiliary), 4 years. Emphasis on Timpani and Harp."
+        },
+        {
+          "name": "6. (11-12) co-president of black student union",
+          "role": "",
+          "description": "6. (11-12) co-president of black student union"
+        },
+        {
+          "name": "7. (12) varsity diving captain",
+          "role": "",
+          "description": "7. (12) varsity diving captain"
+        },
+        {
+          "name": "8. (12) prefect (sort of like a student dorm mom or resident assistant)",
+          "role": "",
+          "description": "8. (12) prefect (sort of like a student dorm mom or resident assistant)"
+        },
+        {
+          "name": "9. (9-12) i said language enthusiast here...... this is so embarrassing i dont k",
+          "role": "",
+          "description": "9. (9-12) i said language enthusiast here...... this is so embarrassing i dont know what i was thinking here. didn't even think i sent this oh well"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "not that interesting but i fluffed the shit out of this!!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. highest honors all 4 yrs. school-wide",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. won local, district, and state history contest. got national commendation later. national (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. national merit commendation (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. college board nrp scholar. national (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. award for excellence in science. national (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": true,
+      "service_summary": "4. (10-12) officer/president of community service fundraising club"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics, business, biomedical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

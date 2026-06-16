@@ -1,0 +1,129 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Programmer & Producer (11): 6 week top game design summer program, developed 3 g",
+          "role": "",
+          "description": "Programmer & Producer (11): 6 week top game design summer program, developed 3 games, advanced programming track, team leader/producer for 1/2 team games"
+        },
+        {
+          "name": "Competitor, TSA (11–12): Competed in 2 catagories, worked w/ partner dedicating ",
+          "role": "",
+          "description": "Competitor, TSA (11–12): Competed in 2 catagories, worked w/ partner dedicating 30+ hours a week on project"
+        },
+        {
+          "name": "Lead Programmer/Designer, Game Jam(10–12): worked with peers to coordinate & did",
+          "role": "",
+          "description": "Lead Programmer/Designer, Game Jam(10–12): worked with peers to coordinate & did majority of programing in a variety of online game jams, placed a few times."
+        },
+        {
+          "name": "Mentor, Traffic Court (10-12): Sat on a panel of peers, adjudicated 40+ cases wi",
+          "role": "",
+          "description": "Mentor, Traffic Court (10-12): Sat on a panel of peers, adjudicated 40+ cases with peers, and personally mentored 3 students for 6 months e/"
+        },
+        {
+          "name": "Ski Instructor, Ski place (11,12): Teaches all day on weekends, 2 classes of 6-8",
+          "role": "",
+          "description": "Ski Instructor, Ski place (11,12): Teaches all day on weekends, 2 classes of 6-8 children on fundamentals & developing parallel skiing"
+        },
+        {
+          "name": "Volunteer Ski Instructor, Other ski place(10): Assisted 5–6 kids weekly; persona",
+          "role": "",
+          "description": "Volunteer Ski Instructor, Other ski place(10): Assisted 5–6 kids weekly; personalized instruction and reinforced lessons to improve balance, turning, and confidence on the slopes."
+        },
+        {
+          "name": "Varsity Witness & Baliff, Mock Trial (Across 2 diff schools) (9-11): Varsity wit",
+          "role": "",
+          "description": "Varsity Witness & Baliff, Mock Trial (Across 2 diff schools) (9-11): Varsity witness for school 1, became baliff for school 2 when I transferred, but still helped out due to other time commitments"
+        },
+        {
+          "name": "Internship, Enviromental Org (10): Led project promoting bus ridership; collecte",
+          "role": "",
+          "description": "Internship, Enviromental Org (10): Led project promoting bus ridership; collected and analyzed commuting data, designing community outreach strategies for sustainable transit."
+        },
+        {
+          "name": "Student Mentor, Mentorship program(9–10): Mentored 3–4 students yearly, supporti",
+          "role": "",
+          "description": "Student Mentor, Mentorship program(9–10): Mentored 3–4 students yearly, supporting academic/social transition; helped organize 4-5 schoolwide events promoting inclusion."
+        },
+        {
+          "name": "Competitor, DECA (11,12): Placed 6th regionals, analyzing local shelters intake ",
+          "role": "",
+          "description": "Competitor, DECA (11,12): Placed 6th regionals, analyzing local shelters intake & flow, coded website"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "TSA Nationals event 1st Place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "TSA States 1st Place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "TSA regionals first place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ACSL finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Extracurriculars(paraphrased LOL):",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Programmer & Producer (11): 6 week top game design summer program, developed 3 games, advanced progr",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Competitor, TSA (11–12): Competed in 2 catagories, worked w/ partner dedicating 30+ hours a week on ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Lead Programmer/Designer, Game Jam(10–12): worked with peers to coordinate & did majority of program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Mentor, Traffic Court (10-12): Sat on a panel of peers, adjudicated 40+ cases with peers, and person",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Varsity Witness & Baliff, Mock Trial (Across 2 diff schools) (9-11): Varsity witness for school 1, became baliff for school 2 when I transferred, but still helped out due to other time commitments; Internship, Enviromental Org (10): Led project promoting bus ridership; collected and analyzed commuting data, designing community outreach strategies for sustainable transit.; Student Mentor, Mentorship program(9–10): Mentored 3–4 students yearly, supporting academic/social transition; helped organiz"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "game design/cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

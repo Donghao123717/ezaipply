@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": 1430,
+      "act_composite": 31,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. “Varsity” (lol) robotics all four years – participated in FRC as a programmer",
+          "role": "",
+          "description": "1. “Varsity” (lol) robotics all four years – participated in FRC as a programmer and builder; senior year I was also a co-captain"
+        },
+        {
+          "name": "2. Programming/game design – I simply enjoy programming in many languages and de",
+          "role": "",
+          "description": "2. Programming/game design – I simply enjoy programming in many languages and designing basic video games using C# in Unity"
+        },
+        {
+          "name": "3. Violin – tbh I have no clue why I put this, I began learning at the end of my",
+          "role": "",
+          "description": "3. Violin – tbh I have no clue why I put this, I began learning at the end of my junior year as a hobby because I liked orchestral music"
+        },
+        {
+          "name": "4. Service hours – I’ve completed over 130 service hours throughout my time in h",
+          "role": "",
+          "description": "4. Service hours – I’ve completed over 130 service hours throughout my time in high school, including religious service, service to the poor, and service to the community"
+        },
+        {
+          "name": "5. School house leader – attended a school leadership camp in the summer of 2021",
+          "role": "",
+          "description": "5. School house leader – attended a school leadership camp in the summer of 2021 (going into my junior year) and then served as a leader and the communications coordinator for my house during my junior year (for houses, "
+        },
+        {
+          "name": "6. National Math Honor Society/Mu Alpha Theta – participated in Catholic Math Le",
+          "role": "",
+          "description": "6. National Math Honor Society/Mu Alpha Theta – participated in Catholic Math League and AMC math test competitions, but nothing serious (we just kinda did no practice and took the tests when the days came lol)"
+        },
+        {
+          "name": "7. Danger of A.I. research paper – wrote a 37-page research paper discussing A.I",
+          "role": "",
+          "description": "7. Danger of A.I. research paper – wrote a 37-page research paper discussing A.I. and its potential and interviewed a tech professional for my Honors Focus Research course"
+        },
+        {
+          "name": "8. National Honor Society – pretty self-explanatory (only allowed to join junior",
+          "role": "",
+          "description": "8. National Honor Society – pretty self-explanatory (only allowed to join junior or senior year, so I did this for two years); requires 5 tutoring hours each semester"
+        },
+        {
+          "name": "9. Tutoring – basically tutored kids in math and computer science a lot, especia",
+          "role": "",
+          "description": "9. Tutoring – basically tutored kids in math and computer science a lot, especially this one kid in cs basically every week during my junior year"
+        },
+        {
+          "name": "10. Senior GOYA (Greek Orthodox Youth of America) community member – basically a",
+          "role": "",
+          "description": "10. Senior GOYA (Greek Orthodox Youth of America) community member – basically a member of my Greek Orthodox Church’s youth group and met for activities (liturgical/worship services and discussions/fun activities) a few "
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Mathematics department award (sophomore year) – given to one student per grade",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Principal’s list every semester (4.0 weighed or above) – a quarter of my grade was on this last y",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. School scholars program – about 10% of my grade is in this, requires certain courses to be taken ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Graduated summa cum laude – obtained by maintaining a 4.0 weighted and taking extra courses (such",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National STEM Honor Society – member since sophomore year and also school president",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": true,
+      "service_summary": "4. Service hours – I’ve completed over 130 service hours throughout my time in high school, including religious service, service to the poor, and service to the community; 10. Senior GOYA (Greek Orthodox Youth of America) community member – basically a member of my Greek Orthodox Church’s youth group and met for activities (liturgical/worship services and discussions/fun activities) a few "
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

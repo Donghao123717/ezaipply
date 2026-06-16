@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "1. i worked for 3 years as a lead instructor at mathnasium (i was the youngest e",
+          "role": "",
+          "description": "1. i worked for 3 years as a lead instructor at mathnasium (i was the youngest employee my boss had/ promoted so her rec was prolly good) for ab 16 hours/week. 1.  i helped create a pro bono out reach"
+        },
+        {
+          "name": "2. i am president of my schools jewish student union.",
+          "role": "",
+          "description": "2. i am president of my schools jewish student union."
+        },
+        {
+          "name": "3.  founder/pres of my school’s mu alpha theta (math team) which is now our larg",
+          "role": "",
+          "description": "3.  founder/pres of my school’s mu alpha theta (math team) which is now our largest student organization."
+        },
+        {
+          "name": "4.  i also tutor sat bootcamp and ap calc on schoolhouse world, am a moderator a",
+          "role": "",
+          "description": "4.  i also tutor sat bootcamp and ap calc on schoolhouse world, am a moderator and on the operations, ai, and outreach teams there."
+        },
+        {
+          "name": "5.  i did genocide awareness/racial theory research.",
+          "role": "",
+          "description": "5.  i did genocide awareness/racial theory research."
+        },
+        {
+          "name": "6.  my junior year, i spent ab 20 hours/week taking care of my grandparents in a",
+          "role": "",
+          "description": "6.  my junior year, i spent ab 20 hours/week taking care of my grandparents in addition to working."
+        },
+        {
+          "name": "7. Assisted school librarian in tasks such as preparing for the new school year ",
+          "role": "",
+          "description": "7. Assisted school librarian in tasks such as preparing for the new school year and shelving books."
+        },
+        {
+          "name": "8. Welcome new parents and students back to school, answering any questions they",
+          "role": "",
+          "description": "8. Welcome new parents and students back to school, answering any questions they may have. Lead prospective family tours."
+        },
+        {
+          "name": "9. Lead initiatives to preserve the environment including beach clean-ups and im",
+          "role": "",
+          "description": "9. Lead initiatives to preserve the environment including beach clean-ups and implementing a school recycling program."
+        },
+        {
+          "name": "10. Connect with other members of my school’s queer community and discuss and ce",
+          "role": "",
+          "description": "10. Connect with other members of my school’s queer community and discuss and celebrate LGBT history."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "\\#1 College Board AP Scholar with Distinction",
+          "role": "",
+          "description": "\\#1 College Board AP Scholar with Distinction"
+        },
+        {
+          "name": "\\#2 College Board PSAT Commended Scholar",
+          "role": "",
+          "description": "\\#2 College Board PSAT Commended Scholar"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#1 College Board AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#2 College Board PSAT Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#3 Nominated for regional Mathematics Award (results not out yet)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#4 1x AIME qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.).",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. 11th Grade English Teacher 8/10: I knew her pretty well. I'm not the best academic writer, but fo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 11th/12th grade math teacher/ Mu Alpha Theta Advisor 10/10: This man loves me. We are very close,",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Counselor 15/10: She also loves me. She knows me more personally than my teachers and more about ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "4.  i also tutor sat bootcamp and ap calc on schoolhouse world, am a moderator and on the operations, ai, and outreach teams there.; 10. Connect with other members of my school’s queer community and discuss and celebrate LGBT history."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical or computer engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

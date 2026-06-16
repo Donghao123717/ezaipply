@@ -1,0 +1,149 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1450,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "#1 Track and Field",
+          "role": "",
+          "description": "#1 Track and Field"
+        },
+        {
+          "name": "Joined in 10th grade because my friends did it, ended up really enjoying it.",
+          "role": "",
+          "description": "Joined in 10th grade because my friends did it, ended up really enjoying it."
+        },
+        {
+          "name": "#2 Hiking PE TA",
+          "role": "",
+          "description": "#2 Hiking PE TA"
+        },
+        {
+          "name": "Help lead hikes after school on local trails 2x per week.",
+          "role": "",
+          "description": "Help lead hikes after school on local trails 2x per week."
+        },
+        {
+          "name": "#3 Food Bank Volunteer",
+          "role": "",
+          "description": "#3 Food Bank Volunteer"
+        },
+        {
+          "name": "Average Foob Bank stuff, 20 hours total.",
+          "role": "",
+          "description": "Average Foob Bank stuff, 20 hours total."
+        },
+        {
+          "name": "#4 Historical Society Volunteer",
+          "role": "",
+          "description": "#4 Historical Society Volunteer"
+        },
+        {
+          "name": "Help them catalog and digitize old records, basically just typing thingsinto an ",
+          "role": "",
+          "description": "Help them catalog and digitize old records, basically just typing thingsinto an Excel sheet, 30 hours."
+        },
+        {
+          "name": "#5 Jazz Band",
+          "role": "",
+          "description": "#5 Jazz Band"
+        },
+        {
+          "name": "Generic School instrumental ensemble.",
+          "role": "",
+          "description": "Generic School instrumental ensemble."
+        },
+        {
+          "name": "#6 Skateboarding Club",
+          "role": "",
+          "description": "#6 Skateboarding Club"
+        },
+        {
+          "name": "Started with my friends junior year, we have like 15 people.",
+          "role": "",
+          "description": "Started with my friends junior year, we have like 15 people."
+        },
+        {
+          "name": "#7 Election Day Poll Worker",
+          "role": "",
+          "description": "#7 Election Day Poll Worker"
+        },
+        {
+          "name": "Poll Worker at my local polling place on election day 2024.",
+          "role": "",
+          "description": "Poll Worker at my local polling place on election day 2024."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "None",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor Rec: I have a really good relationship with my counselor, even though I've been pretty ter",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Teacher Rec 1 (History/Humanities Teacher 10th + 11th): Super duper amazing relationship with my his",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Teacher Rec 2 (Chemistry Teacher 10th): I was pretty good in her class but I had a dearth of STEM te",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I procrastinated on my essay and didn't have a first draft until literally the week of EA deadlines.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "#3 Food Bank Volunteer; #4 Historical Society Volunteer"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "internation relations"
+    },
+    "ESSAY_SCORE": null
+  }
+}

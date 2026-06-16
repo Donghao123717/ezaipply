@@ -1,0 +1,83 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.99,
+      "sat_total": 1560,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "2x AIME &amp; AMC 12 Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "USNCO Nationals",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Scholastic Gold/Silver Key",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4th place nationally math madness",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Purple comet math meet 1st in TX",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "9th internationally in CodeQuest",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1st place nationwide in All-American High School Film Festival as score writer",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rensselaer Medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "PVSA Gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Questbridge Finalist (Matched)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochemistry/molecular biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

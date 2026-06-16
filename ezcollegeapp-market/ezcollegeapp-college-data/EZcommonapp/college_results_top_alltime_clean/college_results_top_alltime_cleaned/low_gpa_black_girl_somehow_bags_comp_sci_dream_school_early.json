@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.32,
+      "sat_total": 1490,
+      "act_composite": null,
+      "class_rank_percentile": 60.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I'm gonna have to keep this VERY vague, apologies! TLDR: coding",
+          "role": "",
+          "description": "I'm gonna have to keep this VERY vague, apologies! TLDR: coding"
+        },
+        {
+          "name": "1. student portal \"passion project\" site (started in 8th grade + launched in jun",
+          "role": "",
+          "description": "1. student portal \"passion project\" site (started in 8th grade + launched in junior year, endorsed by admin - my school is fairly big, \\~300ish per grade so i emphasized that while describing it)"
+        },
+        {
+          "name": "2. paid software dev at local nonprofit of \\~200 employees (&amp; member of hiri",
+          "role": "",
+          "description": "2. paid software dev at local nonprofit of \\~200 employees (&amp; member of hiring/interview team)"
+        },
+        {
+          "name": "3. out-of-state paid internship @ international coding nonprofit",
+          "role": "",
+          "description": "3. out-of-state paid internship @ international coding nonprofit"
+        },
+        {
+          "name": "4. choir for a decade, eventually became (co) president",
+          "role": "",
+          "description": "4. choir for a decade, eventually became (co) president"
+        },
+        {
+          "name": "5. president of school coding club, ran city-based hackathons",
+          "role": "",
+          "description": "5. president of school coding club, ran city-based hackathons"
+        },
+        {
+          "name": "6. taught coding to local elementary schoolers on zoom",
+          "role": "",
+          "description": "6. taught coding to local elementary schoolers on zoom"
+        },
+        {
+          "name": "7. school newspaper site manager",
+          "role": "",
+          "description": "7. school newspaper site manager"
+        },
+        {
+          "name": "8. volunteer tour guide/representative for my school",
+          "role": "",
+          "description": "8. volunteer tour guide/representative for my school"
+        },
+        {
+          "name": "9. comp sci college prep summer program at northeastern after 9th grade (residen",
+          "role": "",
+          "description": "9. comp sci college prep summer program at northeastern after 9th grade (residential but not the paid pre-college one)"
+        },
+        {
+          "name": "10. *+ paid internship at northeastern but didn't mention this for any school*",
+          "role": "",
+          "description": "10. *+ paid internship at northeastern but didn't mention this for any school*"
+        },
+        {
+          "name": "never mentioned anywhere on my app but 286 community service hours from #1 and #",
+          "role": "",
+          "description": "never mentioned anywhere on my app but 286 community service hours from #1 and #6 + national honor society too i guess…*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. national data science competition (best presentation)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. national african american recognition (Collegeboard)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. school district STEM pitch contest (1st place)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *didn't mention it cuz I forgot woops, AP Scholar with Honor*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 1,
+      "first_gen": true,
+      "service_summary": "8. volunteer tour guide/representative for my school; never mentioned anywhere on my app but 286 community service hours from #1 and #6 + national honor society too i guess…*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "comp sci + linguistics, comp sci, applied math (if comp sci wasnt an option)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

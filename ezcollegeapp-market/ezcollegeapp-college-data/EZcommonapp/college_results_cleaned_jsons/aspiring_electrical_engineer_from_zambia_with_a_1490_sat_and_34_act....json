@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.77,
+      "sat_total": 1490,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc.",
+          "role": "",
+          "description": "etc."
+        },
+        {
+          "name": "STEM Society of Zambia. Led a team of 20 students to organize STEM workshops for",
+          "role": "",
+          "description": "STEM Society of Zambia. Led a team of 20 students to organize STEM workshops for 100+ underprivileged students in Lusaka, increasing their interest in science and technology. Secured $500 in funding through grant writing."
+        },
+        {
+          "name": "Cognitive Science Research Assistant. Assisted a professor at the University of ",
+          "role": "",
+          "description": "Cognitive Science Research Assistant. Assisted a professor at the University of Zambia in a study on cognitive development in bilingual children. Collected and analyzed data from 50 participants, contributing to a published research paper."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing List the highest scores earned and all scores that were reported. SAT: 1490 ACT: 34",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Math Tutor for Underprivileged Students. Provided free math tutoring to 20+ underprivileged students, improving their grades by an average of 15%. Developed personalized learning plans to cater to individual needs. Environmental Conservation Club. Organized community clean-up events and educated students on environmental conservation. Led a campaign that resulted in a 30% reduction in plastic wast"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

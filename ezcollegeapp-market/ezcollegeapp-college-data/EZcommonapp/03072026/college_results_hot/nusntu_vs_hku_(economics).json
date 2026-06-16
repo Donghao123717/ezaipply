@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1r03ahe",
+    "title": "NUS/NTU vs HKU (economics)",
+    "author": "One-String5342",
+    "selftext": "I got into HKU, probably high chance for NUS and NTU need some pros and cons of studying at either if possible.",
+    "score": "11",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1r03ahe/nusntu_vs_hku_economics/",
+    "created": "2026-02-09T12:47:10+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o4sn7fk",
+      "author": "Apprehensive-Run586",
+      "body": "NUS is my reco. Best recognised and rigorous education!",
+      "score": "1 point",
+      "created": "2026-02-11T13:26:46+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o4xwm7g",
+      "author": "Dismal_Ingenuity_679",
+      "body": "nus is great! i think ntu would also be amazing but for economics, i’d recommend nus all the way :)",
+      "score": "1 point",
+      "created": "2026-02-12T06:50:30+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1r03ahe",
+        "author": "One-String5342",
+        "title": "NUS/NTU vs HKU (economics)",
+        "body": "I got into HKU, probably high chance for NUS and NTU need some pros and cons of studying at either if possible.",
+        "full_text": "NUS/NTU vs HKU (economics)\n\nI got into HKU, probably high chance for NUS and NTU need some pros and cons of studying at either if possible."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o4sn7fk",
+          "author": "Apprehensive-Run586",
+          "body": "NUS is my reco. Best recognised and rigorous education!",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o4xwm7g",
+          "author": "Dismal_Ingenuity_679",
+          "body": "nus is great! i think ntu would also be amazing but for economics, i’d recommend nus all the way :)",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

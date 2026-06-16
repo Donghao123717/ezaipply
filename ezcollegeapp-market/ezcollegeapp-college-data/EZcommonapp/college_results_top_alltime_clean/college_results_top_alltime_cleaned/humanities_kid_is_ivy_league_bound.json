@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Religious Tutoring Program - 4 Hrs/Week: (10,11,12) Created a tutoring progra",
+          "role": "",
+          "description": "1. Religious Tutoring Program - 4 Hrs/Week: (10,11,12) Created a tutoring program with the local mosque engaging over twenty-five students and fifteen high school tutors."
+        },
+        {
+          "name": "2. Religious Volunteer - 2 Hrs/Week: (9,10,11,12) Led multiple youth programs (G",
+          "role": "",
+          "description": "2. Religious Volunteer - 2 Hrs/Week: (9,10,11,12) Led multiple youth programs (Girls Basketball, Babysitting Services, Talent Show, Game Nights) throughout the years."
+        },
+        {
+          "name": "3. Board Member of School Religious Club - 2 Hrs/Week: Organized religious activ",
+          "role": "",
+          "description": "3. Board Member of School Religious Club - 2 Hrs/Week: Organized religious activities for the club, specializing in increasing involvement from women."
+        },
+        {
+          "name": "4. Cashier - 20 Hrs/Week: (11,12) Trained other cashiers, made energetic storewi",
+          "role": "",
+          "description": "4. Cashier - 20 Hrs/Week: (11,12) Trained other cashiers, made energetic storewide announcements, and aided customers in providing a positive store experience."
+        },
+        {
+          "name": "5. School Anthology - 2 Hrs/Week: (11,12) Writer for a published book through th",
+          "role": "",
+          "description": "5. School Anthology - 2 Hrs/Week: (11,12) Writer for a published book through the school, engaging in the writing, editing, and publishing process."
+        },
+        {
+          "name": "6. Section Editor - 1 Hrs/Week: (11,12) Reviewed over fifteen pieces, wrote my o",
+          "role": "",
+          "description": "6. Section Editor - 1 Hrs/Week: (11,12) Reviewed over fifteen pieces, wrote my own pieces, started a culture podcast, and mentored five section writers for the school newspaper."
+        },
+        {
+          "name": "7. Girl Scouts - 2 Hrs/Week: (9,10,11,12) Organized and participated in communit",
+          "role": "",
+          "description": "7. Girl Scouts - 2 Hrs/Week: (9,10,11,12) Organized and participated in community service events (American Red Cross Blood Drive, food pantries, food packaging vans, refugee meet-ups)."
+        },
+        {
+          "name": "8. Babysitter - 15 hrs/ week: (9,10,11,12) Took care of my two younger siblings ",
+          "role": "",
+          "description": "8. Babysitter - 15 hrs/ week: (9,10,11,12) Took care of my two younger siblings (picked them up after school, helped with their homework, made them lunch and dinner, cleaned house)."
+        },
+        {
+          "name": "9. Campaign Intern for Local Campaign - 3 Hrs/Week: (Summer of 11) Lead virtual ",
+          "role": "",
+          "description": "9. Campaign Intern for Local Campaign - 3 Hrs/Week: (Summer of 11) Lead virtual phone banks of up to forty participants, while virtually canvassing myself. Organized and planned canvassing routes for other members"
+        },
+        {
+          "name": "10. Reading - 4 Hrs/Week: (9,10,11,12) I like to read and journal about it. It’s",
+          "role": "",
+          "description": "10. Reading - 4 Hrs/Week: (9,10,11,12) I like to read and journal about it. It’s therapeutic."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Merit Scholarship Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Interstate First Place in Essay Competition (Religous)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Local Youth Award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": true,
+      "service_summary": "2. Religious Volunteer - 2 Hrs/Week: (9,10,11,12) Led multiple youth programs (Girls Basketball, Babysitting Services, Talent Show, Game Nights) throughout the years.; 7. Girl Scouts - 2 Hrs/Week: (9,10,11,12) Organized and participated in community service events (American Red Cross Blood Drive, food pantries, food packaging vans, refugee meet-ups)."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "english + religion"
+    },
+    "ESSAY_SCORE": null
+  }
+}

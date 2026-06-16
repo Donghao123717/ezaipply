@@ -1,0 +1,54 @@
+{
+  "post": {
+    "id": "t3_1p3hlmu",
+    "title": "Deferred from my dream school",
+    "author": "True-Boysenberry225",
+    "selftext": "Got deferred from UGA today, but for some reason I feel more hopeful than sad. Let’s pray that I’ll get in towards the regular round.",
+    "score": "21",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1p3hlmu/deferred_from_my_dream_school/",
+    "created": "2025-11-22T02:20:22+00:00",
+    "num_comments": 1,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nq595dh",
+      "author": "theBotKilla",
+      "body": "Yes, you have pretty good chance.  Data shows 50% deferred EA got accepted.",
+      "score": "7 points",
+      "created": "2025-11-22T05:01:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1p3hlmu",
+        "author": "True-Boysenberry225",
+        "title": "Deferred from my dream school",
+        "body": "Got deferred from UGA today, but for some reason I feel more hopeful than sad. Let’s pray that I’ll get in towards the regular round.",
+        "full_text": "Deferred from my dream school\n\nGot deferred from UGA today, but for some reason I feel more hopeful than sad. Let’s pray that I’ll get in towards the regular round."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nq595dh",
+          "author": "theBotKilla",
+          "body": "Yes, you have pretty good chance.  Data shows 50% deferred EA got accepted.",
+          "score": "7 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

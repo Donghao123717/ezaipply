@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.89,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. I was in a couple of STEM clubs where I competed at the regional level (pur",
+          "role": "",
+          "description": "etc. I was in a couple of STEM clubs where I competed at the regional level (purposely being vague). I founded my own club that sought to bring inclusivity to Latinx students at my school. I was very active in a volunteering program that had similar goals to what I listed above. ^"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Spanish Lang",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Psych",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc AB",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP US Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Macro",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Chemistry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Poli Sci Standardized Testing List the highest scores earned and all scores that were reported. Applied T/O everywhere I",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "You are welcome. I was a high school and college counselor for a very long time. QuestBridge is one of the best programs out there. Take advantage of everything they have to offer. Do the same with all the service available to you as a student. This isn't a journey you want to take alone. Good luck and have fun!"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Political Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

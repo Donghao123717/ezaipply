@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.8,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": 98.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "FIRST Robotics Competition, Software Lead(9,10, 11,12), lead the software team, ",
+          "role": "",
+          "description": "FIRST Robotics Competition, Software Lead(9,10, 11,12), lead the software team, program the robot to play the game, top 15 placement at World Championships out of hundreds of competitors"
+        },
+        {
+          "name": "Marching Band, Saxophone Section Leader(9, 10, 11, 12), greatly improved the sax",
+          "role": "",
+          "description": "Marching Band, Saxophone Section Leader(9, 10, 11, 12), greatly improved the saxophone section, led warmups and mentored the underclassmen"
+        },
+        {
+          "name": "Band, Wind Ensemble First Chair(9-12), audition only band at my school, practice",
+          "role": "",
+          "description": "Band, Wind Ensemble First Chair(9-12), audition only band at my school, practice  challenging pieces and played them on tour at Europe and at Carnegie Hall"
+        },
+        {
+          "name": "Creator of Game on the App Store(11-12), 50k downloads, $7000 revenue, manage a ",
+          "role": "",
+          "description": "Creator of Game on the App Store(11-12), 50k downloads, $7000 revenue, manage a team of eight people, fix bugs, manage marketing, lead team meetings"
+        },
+        {
+          "name": "Physics Club President(9-12), create engaging meeting content, manage the other ",
+          "role": "",
+          "description": "Physics Club President(9-12), create engaging meeting content, manage the other club officers, oversee all club logistics"
+        },
+        {
+          "name": "Computer Science Club President(9-12), taught fascinating computer science topic",
+          "role": "",
+          "description": "Computer Science Club President(9-12), taught fascinating computer science topics such as algorithms and web development, manage club logistics"
+        },
+        {
+          "name": "Volunteer Teaching Assistant for a C++ class(11-12), help beginners become comfo",
+          "role": "",
+          "description": "Volunteer Teaching Assistant for a C++ class(11-12), help beginners become comfortable at programming C++, answer questions in a clear way, guide students’ paths to doing well in competitive programming"
+        },
+        {
+          "name": "Varsity Badminton Co-Captain(9-12), lead the team, won 2nd place in league",
+          "role": "",
+          "description": "Varsity Badminton Co-Captain(9-12), lead the team, won 2nd place in league"
+        },
+        {
+          "name": "Saxophone Group Founder(11-12), leader of a small group of saxophones who play i",
+          "role": "",
+          "description": "Saxophone Group Founder(11-12), leader of a small group of saxophones who play in school sporting events, rallies, and more"
+        },
+        {
+          "name": "Stanford Pre-Collegiate Summer Institute(12), Machine Learning and AI Course, le",
+          "role": "",
+          "description": "Stanford Pre-Collegiate Summer Institute(12), Machine Learning and AI Course, learned many advanced topics"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "USACO Platinum Division: highest division, top 2% of competitors",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "California All State Band: competed with saxophone players throughout the state for a seat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1st place in a statewide woodwind concerto competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "UCLA Hackathon Top 10 placement out of hundreds of competitors",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Google Code Jam Round 3, top 5% of competitors",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AIME Qualification, score of 9",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Varsity Badminton Co-Captain(9-12), lead the team, won 2nd place in league; Saxophone Group Founder(11-12), leader of a small group of saxophones who play in school sporting events, rallies, and more; Stanford Pre-Collegiate Summer Institute(12), Machine Learning and AI Course, learned many advanced topics"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

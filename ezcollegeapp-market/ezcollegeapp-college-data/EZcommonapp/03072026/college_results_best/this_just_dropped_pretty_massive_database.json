@@ -1,0 +1,145 @@
+{
+  "post": {
+    "id": "t3_1qeolns",
+    "title": "This just dropped - pretty massive database",
+    "author": "grandidieri",
+    "selftext": "https://collegedive.org",
+    "score": "0",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1qeolns/this_just_dropped_pretty_massive_database/",
+    "created": "2026-01-16T18:49:59+00:00",
+    "num_comments": 5,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nzz2b4h",
+      "author": "TrueCommunication440",
+      "body": "So terrible it is comical. 30 seconds of my life I can never get back.",
+      "score": "10 points",
+      "created": "2026-01-16T19:10:00+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nzz9h8y",
+      "author": "TrySouthern9542",
+      "body": "god this might be the worst website i've ever seen in my life thanks for the laugh tho",
+      "score": "4 points",
+      "created": "2026-01-16T19:43:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o002awa",
+      "author": "Live_Trade_4014",
+      "body": "I asked for prestige and high earnings.  It gave me a list of seminaries.",
+      "score": "2 points",
+      "created": "2026-01-16T21:58:35+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0093u2",
+          "author": "MooreMetrics",
+          "body": "Maximizing prestige and earnings will get you this (if you ignore all other characteristics):\n\n\nHarvard University (Cambridge, MA)\nYale University (New Haven, CT)\nJohns Hopkins University (Baltimore, MD)\nMassachusetts Institute of Technology (Cambridge, MA)\nColumbia University in the City of New York (New York, NY)\nUniversity of Chicago (Chicago, IL)\nUniversity of Pennsylvania (Philadelphia, PA)\nPrinceton University (Princeton, NJ)\nBrown University (Providence, RI)\nDuke University (Durham, NC)\nVanderbilt University (Nashville, TN)\nCornell University (Ithaca, NY)\nCarnegie Mellon University (Pittsburgh, PA)\nNew York University (New York, NY)\nNorthwestern University (Evanston, IL)\nStanford University (Stanford, CA)\nDartmouth College (Hanover, NH)\nTufts University (Medford, MA)\nWashington University in St Louis (St. Louis, MO)\nEmory University (Atlanta, GA)",
+          "score": "1 point",
+          "created": "2026-01-16T22:32:08+00:00",
+          "depth": 1,
+          "parent_id": "t1_o002awa",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o032nhv",
+      "author": "Sad-Animator6846",
+      "body": "why is every random college a 3.6+ out of 4 on prestige. this isn't meant to be a grade inflated hs gpa.....",
+      "score": "1 point",
+      "created": "2026-01-17T10:38:57+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qeolns",
+        "author": "grandidieri",
+        "title": "This just dropped - pretty massive database",
+        "body": "https://collegedive.org",
+        "full_text": "This just dropped - pretty massive database\n\nhttps://collegedive.org"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nzz2b4h",
+          "author": "TrueCommunication440",
+          "body": "So terrible it is comical. 30 seconds of my life I can never get back.",
+          "score": "10 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nzz9h8y",
+          "author": "TrySouthern9542",
+          "body": "god this might be the worst website i've ever seen in my life thanks for the laugh tho",
+          "score": "4 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o002awa",
+          "author": "Live_Trade_4014",
+          "body": "I asked for prestige and high earnings.  It gave me a list of seminaries.",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o032nhv",
+          "author": "Sad-Animator6846",
+          "body": "why is every random college a 3.6+ out of 4 on prestige. this isn't meant to be a grade inflated hs gpa.....",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o002awa",
+        "author": "Live_Trade_4014",
+        "body": "I asked for prestige and high earnings.  It gave me a list of seminaries.",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0093u2",
+          "author": "MooreMetrics",
+          "body": "Maximizing prestige and earnings will get you this (if you ignore all other characteristics):\n\n\nHarvard University (Cambridge, MA)\nYale University (New Haven, CT)\nJohns Hopkins University (Baltimore, MD)\nMassachusetts Institute of Technology (Cambridge, MA)\nColumbia University in the City of New York (New York, NY)\nUniversity of Chicago (Chicago, IL)\nUniversity of Pennsylvania (Philadelphia, PA)\nPrinceton University (Princeton, NJ)\nBrown University (Providence, RI)\nDuke University (Durham, NC)\nVanderbilt University (Nashville, TN)\nCornell University (Ithaca, NY)\nCarnegie Mellon University (Pittsburgh, PA)\nNew York University (New York, NY)\nNorthwestern University (Evanston, IL)\nStanford University (Stanford, CA)\nDartmouth College (Hanover, NH)\nTufts University (Medford, MA)\nWashington University in St Louis (St. Louis, MO)\nEmory University (Atlanta, GA)",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 4,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

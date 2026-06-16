@@ -1,0 +1,63 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "- If you are international it's a little hard to get in but if you are domestic ",
+          "role": "",
+          "description": "- If you are international it's a little hard to get in but if you are domestic then I think you have a good shot at other places"
+        },
+        {
+          "name": "- i was rejected too, expected deferral as well",
+          "role": "",
+          "description": "- i was rejected too, expected deferral as well"
+        },
+        {
+          "name": "- Holy shit I’m so cooked for RD how didn’t you get in?!?",
+          "role": "",
+          "description": "- Holy shit I’m so cooked for RD how didn’t you get in?!?"
+        },
+        {
+          "name": "- Good luck man I'm cheering for you.",
+          "role": "",
+          "description": "- Good luck man I'm cheering for you."
+        },
+        {
+          "name": "- Rejected too was expecting a deferral",
+          "role": "",
+          "description": "- Rejected too was expecting a deferral"
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        },
+        {
+          "name": "You probably had a 20% chance of getting in so this isn't a surprise. I looked a",
+          "role": "",
+          "description": "You probably had a 20% chance of getting in so this isn't a surprise. I looked at the rest of your list and you will definitely end up going to a great school, even if that isn't Princeton. With your profile, you have a great shot at both Caltech and MIT."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

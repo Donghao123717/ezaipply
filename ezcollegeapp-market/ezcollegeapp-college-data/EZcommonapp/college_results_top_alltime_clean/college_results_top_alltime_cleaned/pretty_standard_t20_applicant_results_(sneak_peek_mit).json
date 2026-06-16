@@ -1,0 +1,83 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "State medals for the organization that I was state officer for (6 of them)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Other school awards lol 💀",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "EC’s (Pretty general for privacy)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Fundraiser for a cause I believed in, raised a little over $10000",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. State Officer for an organization",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Regional Officer for the same cause I believed in",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Regional Officer for a kindness organization",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Independent Research project",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Hospital internships (throughout senior year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. Work (family’s business)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "8-10. School clubs (all leadership positions)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

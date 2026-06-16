@@ -1,0 +1,48 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Some state &amp; national level debate awards.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Won a few essay competitions relating to philosophy, economics, and politics.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Boys State &amp; Boys Nation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Co-authored a research paper with a philosophy prof",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

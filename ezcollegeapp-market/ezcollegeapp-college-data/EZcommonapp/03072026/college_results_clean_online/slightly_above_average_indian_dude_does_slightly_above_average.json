@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "gonna keep these pretty quick*",
+          "role": "",
+          "description": "gonna keep these pretty quick*"
+        },
+        {
+          "name": "1. Synagogue Youth Group President",
+          "role": "",
+          "description": "1. Synagogue Youth Group President"
+        },
+        {
+          "name": "2. Founded teaching program to give young and starting piano players virtual jaz",
+          "role": "",
+          "description": "2. Founded teaching program to give young and starting piano players virtual jazz piano lessons for free during COVID quarantine"
+        },
+        {
+          "name": "3. Jewish Student Union President at my school's chapter",
+          "role": "",
+          "description": "3. Jewish Student Union President at my school's chapter"
+        },
+        {
+          "name": "4. Professional Ice Cream Scooper",
+          "role": "",
+          "description": "4. Professional Ice Cream Scooper"
+        },
+        {
+          "name": "5. Pianist for teen jazz ensemble at local music college",
+          "role": "",
+          "description": "5. Pianist for teen jazz ensemble at local music college"
+        },
+        {
+          "name": "6. Track and Field (shot and discus, I was pretty mid at these I'm ngl)",
+          "role": "",
+          "description": "6. Track and Field (shot and discus, I was pretty mid at these I'm ngl)"
+        },
+        {
+          "name": "7. Intern at computer hardware company",
+          "role": "",
+          "description": "7. Intern at computer hardware company"
+        },
+        {
+          "name": "8. Headed lobbying delegation on a trip to D.C.",
+          "role": "",
+          "description": "8. Headed lobbying delegation on a trip to D.C."
+        },
+        {
+          "name": "9. Special Needs Camp Counselor",
+          "role": "",
+          "description": "9. Special Needs Camp Counselor"
+        },
+        {
+          "name": "10. Teaching Assistant at my synagogue's Sunday school",
+          "role": "",
+          "description": "10. Teaching Assistant at my synagogue's Sunday school"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "probably one of my weak spots*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. President's Volunteer Service Award (3 years)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar w/ Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. that's it lol",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. &amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. &amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science or international business (i'm indecisive)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

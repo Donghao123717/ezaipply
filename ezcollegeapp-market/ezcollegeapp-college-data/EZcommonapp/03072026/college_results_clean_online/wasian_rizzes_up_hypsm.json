@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1580,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. co-founder, computer science startup",
+          "role": "",
+          "description": "1. co-founder, computer science startup"
+        },
+        {
+          "name": "400K+ in investment/funding",
+          "role": "",
+          "description": "400K+ in investment/funding"
+        },
+        {
+          "name": "2. co-founder, saas",
+          "role": "",
+          "description": "2. co-founder, saas"
+        },
+        {
+          "name": "only teenager on a project of established professionals in the field  - left due",
+          "role": "",
+          "description": "only teenager on a project of established professionals in the field  - left due to mistreatment, unfair hours due to my age"
+        },
+        {
+          "name": "3. prosthetics project receiving 100K+ in funding (501c(3) status) - used lab at",
+          "role": "",
+          "description": "3. prosthetics project receiving 100K+ in funding (501c(3) status) - used lab at a t10"
+        },
+        {
+          "name": "4. co-founder, startup to help women develop their own businesses in the tech in",
+          "role": "",
+          "description": "4. co-founder, startup to help women develop their own businesses in the tech industry (six figures impact)"
+        },
+        {
+          "name": "5. developed environmental science game with 500K+ plays as part of my npo",
+          "role": "",
+          "description": "5. developed environmental science game with 500K+ plays as part of my npo"
+        },
+        {
+          "name": "6. neurochemistry research with multiple phd students, sole first-author. publis",
+          "role": "",
+          "description": "6. neurochemistry research with multiple phd students, sole first-author. published in prestigious journal"
+        },
+        {
+          "name": "7. co-founder, sustainable fashion brand. in stores like urban outfitters",
+          "role": "",
+          "description": "7. co-founder, sustainable fashion brand. in stores like urban outfitters"
+        },
+        {
+          "name": "8. co-founder, small etsy business selling stickers on climate change (25K)",
+          "role": "",
+          "description": "8. co-founder, small etsy business selling stickers on climate change (25K)"
+        },
+        {
+          "name": "9. first-author, finance paper on esg practices. published in prestigious journa",
+          "role": "",
+          "description": "9. first-author, finance paper on esg practices. published in prestigious journal"
+        },
+        {
+          "name": "10. first-author, bioengineering research",
+          "role": "",
+          "description": "10. first-author, bioengineering research"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. International Research Publication",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. patent-pending devices with international recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 1st place, National - brain bee competition ($1000 prize)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 1st place, National - computer science competitive ($1000 prize)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. six figures in grants",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " environmental engineering, bioengineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

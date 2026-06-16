@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.6,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Writing - Self Initiative - wrote + edited articles for school newspaper; wro",
+          "role": "",
+          "description": "1. Writing - Self Initiative - wrote + edited articles for school newspaper; wrote &gt;100 short stories, poetry, and novellas; incoming novel from \\[redacted\\] Press."
+        },
+        {
+          "name": "2. Intern at finance division, at \\[redacted\\] Mall - worked primarily with exce",
+          "role": "",
+          "description": "2. Intern at finance division, at \\[redacted\\] Mall - worked primarily with excel to construct cash flow forecasts, profit and loss accounts, general budgeting, and projected revenues."
+        },
+        {
+          "name": "3. Swim, Team member, \\[redacted\\] Sporting Club - improved physical health; imp",
+          "role": "",
+          "description": "3. Swim, Team member, \\[redacted\\] Sporting Club - improved physical health; improved swimming speed and skill; participated in regional events"
+        },
+        {
+          "name": "4. Founder, Investment Club - prepared + presented presentations on topics relat",
+          "role": "",
+          "description": "4. Founder, Investment Club - prepared + presented presentations on topics related to finance; hosted discussions and local businessmen; organized activities to engage participants"
+        },
+        {
+          "name": "5. Self Initiative, Dropshipping business - set up multi-product website using s",
+          "role": "",
+          "description": "5. Self Initiative, Dropshipping business - set up multi-product website using shopify; contracted with suppliers on Alibaba; created advertisements and promoted them online; sold over 400 units"
+        },
+        {
+          "name": "6. Co-founder, Social Enterprise Academy - participated in 2 yr long entrepreneu",
+          "role": "",
+          "description": "6. Co-founder, Social Enterprise Academy - participated in 2 yr long entrepreneurship course; co-founded non-profit selling pet food to fund solutions for surplus of strays; 16k EGP in revenue"
+        },
+        {
+          "name": "7. Delegate (2 yrs) and President of ECOSOC (1 yr), Model United Nations - prepa",
+          "role": "",
+          "description": "7. Delegate (2 yrs) and President of ECOSOC (1 yr), Model United Nations - prepared + debated resolutions as delegate in HRC and general assembly both internationally and nationally; hosted and promoted conferences"
+        },
+        {
+          "name": "8. Self initiative, Investing - invested in crypto with a &gt;120% return; resea",
+          "role": "",
+          "description": "8. Self initiative, Investing - invested in crypto with a &gt;120% return; researched various coins to alter personal portfolio; mined Ethereum with GPU"
+        },
+        {
+          "name": "9. Volunteer, Welcoming Committee - welcomed new students to HS + introduced the",
+          "role": "",
+          "description": "9. Volunteer, Welcoming Committee - welcomed new students to HS + introduced them to existing students; gave tours; assisted w/navigation; addressed parental concerns; advised on courses"
+        },
+        {
+          "name": "10. Volunteer, Food Drive - collected and stored food and donations for blue col",
+          "role": "",
+          "description": "10. Volunteer, Food Drive - collected and stored food and donations for blue collar workers; encouraging donations by creating campaigns and posters; assisted in division of food"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. A writing competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Boxing tournament win",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Another boxing tournament win",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. MUN award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. High honors academic award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "9. Volunteer, Welcoming Committee - welcomed new students to HS + introduced them to existing students; gave tours; assisted w/navigation; addressed parental concerns; advised on courses; 10. Volunteer, Food Drive - collected and stored food and donations for blue collar workers; encouraging donations by creating campaigns and posters; assisted in division of food"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "econ (in canadian and american unis), law (in uk unis)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

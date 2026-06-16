@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 800,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *debate (toc bid, nsda nats and had a good amt pts to be ranked top 30, did g",
+          "role": "",
+          "description": "1. *debate (toc bid, nsda nats and had a good amt pts to be ranked top 30, did good at some nat circuit tourneys)*"
+        },
+        {
+          "name": "2. *research (presented at conference, currently publishing in a magazine, histo",
+          "role": "",
+          "description": "2. *research (presented at conference, currently publishing in a magazine, history related)*"
+        },
+        {
+          "name": "3. boys state",
+          "role": "",
+          "description": "3. boys state"
+        },
+        {
+          "name": "4. key club",
+          "role": "",
+          "description": "4. key club"
+        },
+        {
+          "name": "5. fbla",
+          "role": "",
+          "description": "5. fbla"
+        },
+        {
+          "name": "6. scioly",
+          "role": "",
+          "description": "6. scioly"
+        },
+        {
+          "name": "7. volunteering at a Chinese center",
+          "role": "",
+          "description": "7. volunteering at a Chinese center"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. natnl merit semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. natnl ap scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. some other school level awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "humanities/polysci"
+    },
+    "ESSAY_SCORE": null
+  }
+}

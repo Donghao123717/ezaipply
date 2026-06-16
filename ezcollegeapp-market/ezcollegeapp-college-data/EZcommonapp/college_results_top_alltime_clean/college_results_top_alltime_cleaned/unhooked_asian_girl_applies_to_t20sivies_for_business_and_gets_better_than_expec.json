@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.03,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **Founder of an international student mental health organization** **(11, 12)",
+          "role": "",
+          "description": "1. **Founder of an international student mental health organization** **(11, 12):** Our work was recognized by several well-known activists and the national organization for our cause."
+        },
+        {
+          "name": "2. **Supervisor at a volunteer-run cafe (9, 10, 11):** Another kinda business-re",
+          "role": "",
+          "description": "2. **Supervisor at a volunteer-run cafe (9, 10, 11):** Another kinda business-related EC?"
+        },
+        {
+          "name": "3. **Market research intern for a mental health startup (12):** This startup has",
+          "role": "",
+          "description": "3. **Market research intern for a mental health startup (12):** This startup has connections to St. Anford. I was one of the only high school interns."
+        },
+        {
+          "name": "4. **Communications/Marketing intern at local church (11, 12)**",
+          "role": "",
+          "description": "4. **Communications/Marketing intern at local church (11, 12)**"
+        },
+        {
+          "name": "5. **New Student Mentor/Social Media Manager (9, 10, 11, 12):** I became a recru",
+          "role": "",
+          "description": "5. **New Student Mentor/Social Media Manager (9, 10, 11, 12):** I became a recruiter for other  tour guides and also organized a separate info session for new students."
+        },
+        {
+          "name": "Plus several other visual and performance arts-oriented volunteer positions + sc",
+          "role": "",
+          "description": "Plus several other visual and performance arts-oriented volunteer positions + school clubs.** Not original/significant, and I can't list them because I don't wanna doxx myself :'))"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National Merit Finalist (earned full score on PSAT)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Honor Roll (9, 10, 11, 12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. A few other local awards/scholarships based on standardized testing, nothing super special.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": null,
+      "service_summary": "2. **Supervisor at a volunteer-run cafe (9, 10, 11):** Another kinda business-related EC?; Plus several other visual and performance arts-oriented volunteer positions + school clubs.** Not original/significant, and I can't list them because I don't wanna doxx myself :'))"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "business (social entrepreneurship + marketing)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

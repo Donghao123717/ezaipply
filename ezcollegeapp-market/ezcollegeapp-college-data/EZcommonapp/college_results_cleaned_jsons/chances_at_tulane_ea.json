@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.86,
+      "sat_total": null,
+      "act_composite": 9,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "if you need anymore info i can give it. what would be my chances to get into tul",
+          "role": "",
+          "description": "if you need anymore info i can give it. what would be my chances to get into tulane? edit: deferred lol"
+        },
+        {
+          "name": "COMMENTS: nobody knows! but probably somewhere between 10-30% (which is the spec",
+          "role": "",
+          "description": "COMMENTS: nobody knows! but probably somewhere between 10-30% (which is the speculated EA acceptance). there's cognitive dissonance in chanceme bc everybody knows that \"chancing\" doesn't work, but nobody wants to stop doing it."
+        },
+        {
+          "name": "- i’m sorry!! i think it’s just my nerves and i feel like i need to do everythin",
+          "role": "",
+          "description": "- i’m sorry!! i think it’s just my nerves and i feel like i need to do everything in my power possible to see if i can get in. it shouldn’t really matter though. thank you so much"
+        },
+        {
+          "name": "- Wait do u when it’s coning out?",
+          "role": "",
+          "description": "- Wait do u when it’s coning out?"
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "- Did you get in ?",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

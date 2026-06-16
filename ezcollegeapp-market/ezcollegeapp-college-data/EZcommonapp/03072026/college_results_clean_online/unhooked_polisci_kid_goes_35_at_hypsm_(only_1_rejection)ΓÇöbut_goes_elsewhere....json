@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1600,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Research @ Local State School on Greed Tendencies in Humans. Designed experim",
+          "role": "",
+          "description": "1. Research @ Local State School on Greed Tendencies in Humans. Designed experiments and tested different age groups to test if greed was conditioned or natural to humans. Published research paper (su"
+        },
+        {
+          "name": "2. Writing Internship @ Very Popular/\"Prestigious\" Newspaper Company. Wrote tons",
+          "role": "",
+          "description": "2. Writing Internship @ Very Popular/\"Prestigious\" Newspaper Company. Wrote tons of articles. Only high school intern (11, 12)."
+        },
+        {
+          "name": "3. Local Youth Political Action Committee Head. Discussed potential policy solut",
+          "role": "",
+          "description": "3. Local Youth Political Action Committee Head. Discussed potential policy solutions to local issues and presented solutions to local gov officials. Featured on news twice (10, 11, 12)."
+        },
+        {
+          "name": "4. Local Leftist Teens (Not Actual Name) Founder. Group for local high school ac",
+          "role": "",
+          "description": "4. Local Leftist Teens (Not Actual Name) Founder. Group for local high school activists/passionate leftists to come together and discuss how we can promote leftist ideas to the general public/get real"
+        },
+        {
+          "name": "5. Job @ Restaurant. Weekends during school year. Worked 30 hrs/wk during summer",
+          "role": "",
+          "description": "5. Job @ Restaurant. Weekends during school year. Worked 30 hrs/wk during summers (9, 10, 11, 12)."
+        },
+        {
+          "name": "6. School+Club Soccer Team Captain (9, 10, 11, 12).",
+          "role": "",
+          "description": "6. School+Club Soccer Team Captain (9, 10, 11, 12)."
+        },
+        {
+          "name": "7. Knowledge Bowl Team President. Grew club from \\~5 before I was pres to \\~30 a",
+          "role": "",
+          "description": "7. Knowledge Bowl Team President. Grew club from \\~5 before I was pres to \\~30 after I was pres. Regional+state champ (9, 10, 11, 12)."
+        },
+        {
+          "name": "8. School Debate Team Captain. Placed individually in nationals. Headed fundrais",
+          "role": "",
+          "description": "8. School Debate Team Captain. Placed individually in nationals. Headed fundraisers and meetings with local college debate team to practice against higher level competition (9, 10, 11, 12)."
+        },
+        {
+          "name": "9. Informal Debate Club Founder. Name too unique so not naming here. We just mee",
+          "role": "",
+          "description": "9. Informal Debate Club Founder. Name too unique so not naming here. We just meet weekly and debate politics. That's literally what happens and that's exactly what I said in my description on the Comm"
+        },
+        {
+          "name": "10. Philosophy Club Founder. We talk about philosophy and stuff. Lots of religio",
+          "role": "",
+          "description": "10. Philosophy Club Founder. We talk about philosophy and stuff. Lots of religious debate. Initiated altruistic fundraiser along with the help of local college philosophy department (11, 12)."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Essay on anticapitalism published in very notable journal (not a high-schooler-publishing-type jo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Debate individual nationals placements (11, 12).",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. State knowledge bowl tournament first place solo, regional first place, youngest individual state",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Featured on national news for activist efforts/got to talk about youth activism (12).",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Research award (11).",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " political science/public policy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

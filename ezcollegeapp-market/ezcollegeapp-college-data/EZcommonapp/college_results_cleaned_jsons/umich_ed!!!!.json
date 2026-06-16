@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "⁠NHS- General member of NHS and I contributed around 100 hours toward service pr",
+          "role": "",
+          "description": "⁠NHS- General member of NHS and I contributed around 100 hours toward service projects. Most notably for organizations oriented at helping youth and an organization that acts as a support network for those with Down syndrome."
+        },
+        {
+          "name": ". Big Brothers Big Sisters- Have been working weekly with an upper elementary ag",
+          "role": "",
+          "description": ". Big Brothers Big Sisters- Have been working weekly with an upper elementary aged student while helping him grow socially."
+        },
+        {
+          "name": ". Peer Mentoring- Have tutored various students weekly in my school’s library du",
+          "role": "",
+          "description": ". Peer Mentoring- Have tutored various students weekly in my school’s library during my free hour. Topics have ranged from personal finance, math, english, and chemistry."
+        },
+        {
+          "name": "Work- Have worked as a dishwasher and busser at a local pub on the weekends sinc",
+          "role": "",
+          "description": "Work- Have worked as a dishwasher and busser at a local pub on the weekends since before the start of sophomore year. Usually work between 12-15 hours per week."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠SAT: Went test-optional but had a 1310",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠APs: Gov 5, Precalc 5",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 100,
+      "first_gen": true,
+      "service_summary": "• ⁠NHS- General member of NHS and I contributed around 100 hours toward service projects. Most notably for organizations oriented at helping youth and an organization that acts as a support network for those with Down syndrome. • ⁠Track- Competed for the throwing team for my schools track and field. Earned a varsity letter. •   ⁠Trivia- Help run and write questions for a community driven weekly tr"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "LSA- Biochemistry or Neuroscience on a Pre Med track"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "I do not require any financial aid. I also applied to Georgia Tech (legacy), UC Berkeley, Northwestern (legacy), UCLA, S",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Chemistry olympiad selected, 300+hrs of community service to build a school in india and helped (leadership role) raise 400k+ $ for that, engineering internship, regional competition that I won with the team of my school for important causes in my region, concert pianist with international competitions won, high level alpine skier. Sorry I wrote almost all of them but I didn’t know how to rank the"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

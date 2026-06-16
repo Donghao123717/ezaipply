@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1600,
+      "act_composite": 16,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Statistics Research with T10 Professor",
+          "role": "",
+          "description": "1. Statistics Research with T10 Professor"
+        },
+        {
+          "name": "2. Nationally ranked in math modeling contest  + social fundraising impact in lo",
+          "role": "",
+          "description": "2. Nationally ranked in math modeling contest  + social fundraising impact in local community - won’t leak for privacy reasons"
+        },
+        {
+          "name": "3. Math Nonprofit with 1300+ reach, taught a class, wrote competitions, and outr",
+          "role": "",
+          "description": "3. Math Nonprofit with 1300+ reach, taught a class, wrote competitions, and outreached for Jane Street, Desmos, Wolfram Alpha sponsorships"
+        },
+        {
+          "name": "4. Independent ML Research, pending publishment in journal and 1st place awards ",
+          "role": "",
+          "description": "4. Independent ML Research, pending publishment in journal and 1st place awards at state science fair"
+        },
+        {
+          "name": "5. Varsity Captain of School Sport - won’t go into detail, but it’s a team sport",
+          "role": "",
+          "description": "5. Varsity Captain of School Sport - won’t go into detail, but it’s a team sport and pretty unique, and also coached middle schoolers in this sport. Made a statistics dashboard, officially adopted by "
+        },
+        {
+          "name": "6. STEM Internship with Congressman - selective congressional program (\\~30 ppl ",
+          "role": "",
+          "description": "6. STEM Internship with Congressman - selective congressional program (\\~30 ppl per district) where I shadowed STEM businesses and gave them recommendations on business/engineering models"
+        },
+        {
+          "name": "7. Math Club President - held events with 2000+ kids and community service/led m",
+          "role": "",
+          "description": "7. Math Club President - held events with 2000+ kids and community service/led meetings"
+        },
+        {
+          "name": "8. Community service for statistical organization - created front page actuarial",
+          "role": "",
+          "description": "8. Community service for statistical organization - created front page actuarial blogs, posts &amp; videos  for 850+, praised by their board of directors"
+        },
+        {
+          "name": "9. Debate Team Co-Captain - leads meetings and team research",
+          "role": "",
+          "description": "9. Debate Team Co-Captain - leads meetings and team research"
+        },
+        {
+          "name": "10. Stacked a few smaller school leadership roles and STEM tutoring job here",
+          "role": "",
+          "description": "10. Stacked a few smaller school leadership roles and STEM tutoring job here"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. USAMO Qualifier (no medals)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USAPhO Qualifier (no medals)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Nationally ranked math modeling contest - won’t leak for privacy reasons",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Finalist at prestigious debate competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Stacked some state and regional 1st place math awards here",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 8,
+      "first_gen": null,
+      "service_summary": "2. Nationally ranked in math modeling contest  + social fundraising impact in local community - won’t leak for privacy reasons; 7. Math Club President - held events with 2000+ kids and community service/led meetings; 8. Community service for statistical organization - created front page actuarial blogs, posts &amp; videos  for 850+, praised by their board of directors"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " statistics/math/cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

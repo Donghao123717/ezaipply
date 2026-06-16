@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Work (Paid)* Editor-In-Chief of a Teen Magazine (12th)",
+          "role": "",
+          "description": "1. *Work (Paid)* Editor-In-Chief of a Teen Magazine (12th)"
+        },
+        {
+          "name": "2. Girl Scout (9-12th)",
+          "role": "",
+          "description": "2. Girl Scout (9-12th)"
+        },
+        {
+          "name": "3. President of a cultural service organization (11-12th), Vice President (9-10t",
+          "role": "",
+          "description": "3. President of a cultural service organization (11-12th), Vice President (9-10th)"
+        },
+        {
+          "name": "4. Founder &amp; President of my school's Black student organization (11-12th)",
+          "role": "",
+          "description": "4. Founder &amp; President of my school's Black student organization (11-12th)"
+        },
+        {
+          "name": "5. President of Mock Trial (12th), Vice President (11th) *(initiated debate club",
+          "role": "",
+          "description": "5. President of Mock Trial (12th), Vice President (11th) *(initiated debate club in substitute of Mock Trial during COVID-19)*"
+        },
+        {
+          "name": "6. Editor-In-Chief of School Newspaper (12th), Writer(9-11th)",
+          "role": "",
+          "description": "6. Editor-In-Chief of School Newspaper (12th), Writer(9-11th)"
+        },
+        {
+          "name": "7. Film Program (create weekly short films, filmed a documentary on Black adoles",
+          "role": "",
+          "description": "7. Film Program (create weekly short films, filmed a documentary on Black adolescent mental health, invited to speak to minority foster kids on mental health) (11-12th)"
+        },
+        {
+          "name": "8. Political Intern *(1 of 4 high school students to help campaign for NYC's sec",
+          "role": "",
+          "description": "8. Political Intern *(1 of 4 high school students to help campaign for NYC's second Black mayor, campaigned for a local judge and councilwoman)* (11-12th)"
+        },
+        {
+          "name": "9. Columbia University High School Law Institue *(learned criminal and constitut",
+          "role": "",
+          "description": "9. Columbia University High School Law Institue *(learned criminal and constitutional law from Columbia Law students)* (11-12th)"
+        },
+        {
+          "name": "10. Published Writer *(wrote articles that were published in local NYC newspaper",
+          "role": "",
+          "description": "10. Published Writer *(wrote articles that were published in local NYC newspaper on community and national  injustices)* (10-11th)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Girl Scout Gold Award, 11th, (National)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Leadership Impact Award, 1st, 11th, (National)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Extremely prestigious Girl Scout Award-1 Girl Scout is awarded this honor annually, 12th, (State/",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Academic Scholarships- 1st Place, 11th, (*Wrote poems and a short story on environmental poverty)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Bureau Chief Award *(Winner of essay contest based on improving religious relations in NYC),* 10t",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 11,
+      "first_gen": true,
+      "service_summary": "3. President of a cultural service organization (11-12th), Vice President (9-10th); 10. Published Writer *(wrote articles that were published in local NYC newspaper on community and national  injustices)* (10-11th)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science, human rights"
+    },
+    "ESSAY_SCORE": null
+  }
+}

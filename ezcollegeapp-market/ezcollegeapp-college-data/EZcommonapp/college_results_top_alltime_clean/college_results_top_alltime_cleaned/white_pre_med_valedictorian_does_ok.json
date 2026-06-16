@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": 33,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Model UN prez",
+          "role": "",
+          "description": "1. Model UN prez"
+        },
+        {
+          "name": "2. Trivia Team prez",
+          "role": "",
+          "description": "2. Trivia Team prez"
+        },
+        {
+          "name": "3. Pre-med summer program @ Brown",
+          "role": "",
+          "description": "3. Pre-med summer program @ Brown"
+        },
+        {
+          "name": "4. Math and science tutoring",
+          "role": "",
+          "description": "4. Math and science tutoring"
+        },
+        {
+          "name": "5. Student rep to school board abt covid-related changes to curriculum",
+          "role": "",
+          "description": "5. Student rep to school board abt covid-related changes to curriculum"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Bausch and Lomb Honorary Science Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Merit Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Scholar w distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology, chemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

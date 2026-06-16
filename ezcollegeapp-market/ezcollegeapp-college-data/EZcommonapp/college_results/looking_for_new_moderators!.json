@@ -1,0 +1,107 @@
+{
+  "post": {
+    "id": "t3_1hid9k9",
+    "title": "Looking for new moderators!",
+    "author": "CasusBellum",
+    "selftext": "Hi all,\n\nWe are looking for new moderators for r/collegeresults!  Please send mod mail message if interested - we are prioritizing those with an active history of moderation experience, active contributions, and activity among A2C and this sub.\n\nA bit of history - we were the repository sister sub of A2C for collegeresults posts back in the day where A2C was run by its initial consultant team.  Since then, the consultants have moved on from Reddit (from a myriad of retirements and small scandals) and the mod team was taken over by A2C grads who have since graduated.  This sub will continue to be a repository sub (database of admitted profiles) while driving active discussion posts to A2C.\n\nHappy to answer questions about the subreddit and history!  I will be retiring from Reddit soon as well.",
+    "score": "20",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1hid9k9/looking_for_new_moderators/",
+    "created": "2024-12-20T05:54:58+00:00",
+    "num_comments": 4,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_m3gsbxt",
+      "author": "Scypher_Tzu",
+      "body": "sent a modmail!.. When can we expect a verdict :D",
+      "score": "5 points",
+      "created": "2024-12-23T17:38:44+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_m5pphsb",
+      "author": "OhioDeez44",
+      "body": "I'll volunteer. First time moderating but I'm chronically online enough💀.",
+      "score": "1 point",
+      "created": "2025-01-06T16:06:29+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_mh0pwdr",
+          "author": "PolyglotMouse",
+          "body": "HS Freshman vro...",
+          "score": "2 points",
+          "created": "2025-03-10T13:36:20+00:00",
+          "depth": 1,
+          "parent_id": "t1_m5pphsb",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1hid9k9",
+        "author": "CasusBellum",
+        "title": "Looking for new moderators!",
+        "body": "Hi all,\n\nWe are looking for new moderators for r/collegeresults!  Please send mod mail message if interested - we are prioritizing those with an active history of moderation experience, active contributions, and activity among A2C and this sub.\n\nA bit of history - we were the repository sister sub of A2C for collegeresults posts back in the day where A2C was run by its initial consultant team.  Since then, the consultants have moved on from Reddit (from a myriad of retirements and small scandals) and the mod team was taken over by A2C grads who have since graduated.  This sub will continue to be a repository sub (database of admitted profiles) while driving active discussion posts to A2C.\n\nHappy to answer questions about the subreddit and history!  I will be retiring from Reddit soon as well.",
+        "full_text": "Looking for new moderators!\n\nHi all,\n\nWe are looking for new moderators for r/collegeresults!  Please send mod mail message if interested - we are prioritizing those with an active history of moderation experience, active contributions, and activity among A2C and this sub.\n\nA bit of history - we were the repository sister sub of A2C for collegeresults posts back in the day where A2C was run by its initial consultant team.  Since then, the consultants have moved on from Reddit (from a myriad of retirements and small scandals) and the mod team was taken over by A2C grads who have since graduated.  This sub will continue to be a repository sub (database of admitted profiles) while driving active discussion posts to A2C.\n\nHappy to answer questions about the subreddit and history!  I will be retiring from Reddit soon as well."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_m3gsbxt",
+          "author": "Scypher_Tzu",
+          "body": "sent a modmail!.. When can we expect a verdict :D",
+          "score": "5 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_m5pphsb",
+          "author": "OhioDeez44",
+          "body": "I'll volunteer. First time moderating but I'm chronically online enough💀.",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_m5pphsb",
+        "author": "OhioDeez44",
+        "body": "I'll volunteer. First time moderating but I'm chronically online enough💀.",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_mh0pwdr",
+          "author": "PolyglotMouse",
+          "body": "HS Freshman vro...",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

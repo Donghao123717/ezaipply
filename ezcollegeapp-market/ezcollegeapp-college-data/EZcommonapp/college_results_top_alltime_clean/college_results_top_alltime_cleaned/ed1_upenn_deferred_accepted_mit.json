@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1590,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "keeping broad and not listing specific names for privacy :)",
+          "role": "",
+          "description": "keeping broad and not listing specific names for privacy :)"
+        },
+        {
+          "name": "1. intern at a large tech company (9,10,11,12)",
+          "role": "",
+          "description": "1. intern at a large tech company (9,10,11,12)"
+        },
+        {
+          "name": "2. intern at another tech company (11,12)",
+          "role": "",
+          "description": "2. intern at another tech company (11,12)"
+        },
+        {
+          "name": "3. started my own business (9,10,11,12)",
+          "role": "",
+          "description": "3. started my own business (9,10,11,12)"
+        },
+        {
+          "name": "4. charity for political fundraising (10,11,12)",
+          "role": "",
+          "description": "4. charity for political fundraising (10,11,12)"
+        },
+        {
+          "name": "5. president / founder of a club with 50+ members (10,11,12)",
+          "role": "",
+          "description": "5. president / founder of a club with 50+ members (10,11,12)"
+        },
+        {
+          "name": "6. deca social media club / vp (11,12)",
+          "role": "",
+          "description": "6. deca social media club / vp (11,12)"
+        },
+        {
+          "name": "7. fashion research (10,11)",
+          "role": "",
+          "description": "7. fashion research (10,11)"
+        },
+        {
+          "name": "8. intern at a financial company (11)",
+          "role": "",
+          "description": "8. intern at a financial company (11)"
+        },
+        {
+          "name": "9. varsity cheer (10,11,12) jv cheer (9)",
+          "role": "",
+          "description": "9. varsity cheer (10,11,12) jv cheer (9)"
+        },
+        {
+          "name": "10. business intern?? (kinda) (11)",
+          "role": "",
+          "description": "10. business intern?? (kinda) (11)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. intern excellence certificate at #1 ec",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. ap scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. volunteer of the year at #4",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. honored student in my physics ap class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. deca state finalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "business"
+    },
+    "ESSAY_SCORE": null
+  }
+}

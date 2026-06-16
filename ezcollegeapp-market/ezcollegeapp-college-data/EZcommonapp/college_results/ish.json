@@ -1,0 +1,54 @@
+{
+  "post": {
+    "id": "t3_1q4mbwv",
+    "title": "Help",
+    "author": "RiverThink514",
+    "selftext": "I’m super anxious about my application. I’m an international double minority from a very small town in conservative Pakistan and I’m applying low income to bates ed 2. My gpa isn’t the best but I have pretty good ecs. Would someone want to review my application? I’m so so clueless please help :(",
+    "score": "4",
+    "url": "https://www.reddit.com/r/batescollege/comments/1q4mbwv/help/",
+    "created": "2026-01-05T13:57:13+00:00",
+    "num_comments": 1,
+    "subreddit": "batescollege"
+  },
+  "comments": [
+    {
+      "id": "t1_nxui6fv",
+      "author": "Severe-Bite9313",
+      "body": "Yeah",
+      "score": "1 point",
+      "created": "2026-01-05T17:07:14+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1q4mbwv",
+        "author": "RiverThink514",
+        "title": "Help",
+        "body": "I’m super anxious about my application. I’m an international double minority from a very small town in conservative Pakistan and I’m applying low income to bates ed 2. My gpa isn’t the best but I have pretty good ecs. Would someone want to review my application? I’m so so clueless please help :(",
+        "full_text": "Help\n\nI’m super anxious about my application. I’m an international double minority from a very small town in conservative Pakistan and I’m applying low income to bates ed 2. My gpa isn’t the best but I have pretty good ecs. Would someone want to review my application? I’m so so clueless please help :("
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nxui6fv",
+          "author": "Severe-Bite9313",
+          "body": "Yeah",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

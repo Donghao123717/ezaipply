@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 98.89,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Odyssey of the Mind: 10-12",
+          "role": "",
+          "description": "Odyssey of the Mind: 10-12"
+        },
+        {
+          "name": "Rho Kappa: 11-12, President 12",
+          "role": "",
+          "description": "Rho Kappa: 11-12, President 12"
+        },
+        {
+          "name": "NHS: 11–12, VP 12",
+          "role": "",
+          "description": "NHS: 11–12, VP 12"
+        },
+        {
+          "name": "Varsity XC: 10-12",
+          "role": "",
+          "description": "Varsity XC: 10-12"
+        },
+        {
+          "name": "StuCo: 10-12",
+          "role": "",
+          "description": "StuCo: 10-12"
+        },
+        {
+          "name": "Busser (Job): 8-12",
+          "role": "",
+          "description": "Busser (Job): 8-12"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "ap scores: 4- AP Gov (self study freshman year) 5- AP World 5- AP Stats AP Chem - 5 AP Lang - 5 AP Comp Gov - 4 APES - 5",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "awards: Rural/Small Town Recognition (College Board) AP Scholar with Distinction Bausch+Lomb Honorary Science Award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 20,
+      "first_gen": null,
+      "service_summary": "You are a true fit for Hopkins!  Hard working, gifted, and community orientated."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biomedical engineering or chemical and biomolecular engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

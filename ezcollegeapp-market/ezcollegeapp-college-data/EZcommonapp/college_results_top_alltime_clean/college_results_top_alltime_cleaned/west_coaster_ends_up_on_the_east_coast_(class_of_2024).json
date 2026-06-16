@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Gonna be sort of vague for doxxing purposes",
+          "role": "",
+          "description": "Gonna be sort of vague for doxxing purposes"
+        },
+        {
+          "name": "1. Attended a highly selective (\\~3% acceptance rate) summer program in the huma",
+          "role": "",
+          "description": "1. Attended a highly selective (\\~3% acceptance rate) summer program in the humanities"
+        },
+        {
+          "name": "2. Co-founded/wrote for a youth-led social justice oriented online newspaper",
+          "role": "",
+          "description": "2. Co-founded/wrote for a youth-led social justice oriented online newspaper"
+        },
+        {
+          "name": "3. President of school's Black Student Union",
+          "role": "",
+          "description": "3. President of school's Black Student Union"
+        },
+        {
+          "name": "4. Class President",
+          "role": "",
+          "description": "4. Class President"
+        },
+        {
+          "name": "5. Student representative on school board",
+          "role": "",
+          "description": "5. Student representative on school board"
+        },
+        {
+          "name": "6. Created March for Our Lives chapter at my school, led a major rally in my tow",
+          "role": "",
+          "description": "6. Created March for Our Lives chapter at my school, led a major rally in my town (1000+ attendees)"
+        },
+        {
+          "name": "7. Regular community service to a shelter for at-risk/homeless women &amp; child",
+          "role": "",
+          "description": "7. Regular community service to a shelter for at-risk/homeless women &amp; children"
+        },
+        {
+          "name": "8. Created a Diversity Task Force at my school to promote cultural awareness and",
+          "role": "",
+          "description": "8. Created a Diversity Task Force at my school to promote cultural awareness and address discrimination"
+        },
+        {
+          "name": "9. Worked part-time at local board game store (honestly didn't do a whole lot ju",
+          "role": "",
+          "description": "9. Worked part-time at local board game store (honestly didn't do a whole lot just kinda fucked around or did my homework, but the owner was a great guy)"
+        },
+        {
+          "name": "10. Cello (1st chair cello in my school orchestra but no awards or anything outs",
+          "role": "",
+          "description": "10. Cello (1st chair cello in my school orchestra but no awards or anything outside of school)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Semifinalist for a major speech contest (top 12 out of several hundred participants, won $5,000 s",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Scholastic Art &amp; Writing Awards-Gold Key for Poetry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Superintendent's recognition award (given to 1 junior in the school district each year for academ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Commended",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": true,
+      "service_summary": "7. Regular community service to a shelter for at-risk/homeless women &amp; children"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "african-american studies + english, occasionally global affairs/international re"
+    },
+    "ESSAY_SCORE": null
+  }
+}

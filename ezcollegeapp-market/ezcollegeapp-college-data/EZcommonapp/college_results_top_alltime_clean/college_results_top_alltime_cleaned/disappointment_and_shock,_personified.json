@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. climate stem research at t20 university. published in moderately prestigious ",
+          "role": "",
+          "description": "1. climate stem research at t20 university. published in moderately prestigious journal. presented at 2 international conferences"
+        },
+        {
+          "name": "2. another climate stem research internship through pre-college program at a tec",
+          "role": "",
+          "description": "2. another climate stem research internship through pre-college program at a tech university. presented at 2 local conferences"
+        },
+        {
+          "name": "3. yet another stem virtual research internship (lol) with local governmental or",
+          "role": "",
+          "description": "3. yet another stem virtual research internship (lol) with local governmental organization working closely with EPA. did a bunch of data analysis for them. yes, this is how i spent my summers"
+        },
+        {
+          "name": "4. stringed instrument player, orchestral player (part of two regional reputed o",
+          "role": "",
+          "description": "4. stringed instrument player, orchestral player (part of two regional reputed orchestras). did the whole certification testing until level 10"
+        },
+        {
+          "name": "5. robotics (lead position), MUN, environmental science club (founded, leader), ",
+          "role": "",
+          "description": "5. robotics (lead position), MUN, environmental science club (founded, leader), debate club (leader), asian student union, gsa (founded, leader). went to competitions, conferences, held major district-wide events, the wh"
+        },
+        {
+          "name": "6. small business owner in some artsy and sewing stuff, moderately successful as",
+          "role": "",
+          "description": "6. small business owner in some artsy and sewing stuff, moderately successful as i was able to make considerable money to be taxed on it"
+        },
+        {
+          "name": "7. local jazz singer, did a bunch of workshops and small events where i was able",
+          "role": "",
+          "description": "7. local jazz singer, did a bunch of workshops and small events where i was able to make a little money too"
+        },
+        {
+          "name": "8. varsity swimming, ranked #4 on team",
+          "role": "",
+          "description": "8. varsity swimming, ranked #4 on team"
+        },
+        {
+          "name": "9. founded non-profit related to major, raised over 50k over several years with ",
+          "role": "",
+          "description": "9. founded non-profit related to major, raised over 50k over several years with involvement/ active engagement from over 200 people"
+        },
+        {
+          "name": "10. tutored at school-wide organization targeted at mentoring underprivileged ki",
+          "role": "",
+          "description": "10. tutored at school-wide organization targeted at mentoring underprivileged kids"
+        },
+        {
+          "name": "11. guzheng, got awards from national cultural organization",
+          "role": "",
+          "description": "11. guzheng, got awards from national cultural organization"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "\\- 2x isef stuff (not giving out more info on this). couldn't go one time i was nominated because my",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- recognition in work from lgbtq organization in city",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- 3x state-level science fair awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- research-related grants",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- aforementioned publication",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- awards at intl. conference competition",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "environmental science (not engineering!)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

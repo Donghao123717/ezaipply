@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1200,
+      "act_composite": 36,
+      "class_rank_percentile": 95.31,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **Lead Developer (11–12):** Created a Discord game bot, used in 50+ servers w",
+          "role": "",
+          "description": "1. **Lead Developer (11–12):** Created a Discord game bot, used in 50+ servers with 12k+ users."
+        },
+        {
+          "name": "2. **Founder, Book Club (11–12):** Founded school’s book club; organized a readi",
+          "role": "",
+          "description": "2. **Founder, Book Club (11–12):** Founded school’s book club; organized a reading event for 50+ students at a Title I elementary school."
+        },
+        {
+          "name": "3. **Student Leader, Church (10–12):** Led and taught sunday school lessons for ",
+          "role": "",
+          "description": "3. **Student Leader, Church (10–12):** Led and taught sunday school lessons for \\~30 kids weekly alongside a small team."
+        },
+        {
+          "name": "4. **Lead Planner, Robotics Outreach (12):** Collaborating with district teacher",
+          "role": "",
+          "description": "4. **Lead Planner, Robotics Outreach (12):** Collaborating with district teachers to teach robotics to Title I elementary students (\\~30 reached so far)."
+        },
+        {
+          "name": "5. **Team Leader, Tech Internship (11):** Led team of 3 to design and present a ",
+          "role": "",
+          "description": "5. **Team Leader, Tech Internship (11):** Led team of 3 to design and present a business solution to a local tech company CEO; solution implemented."
+        },
+        {
+          "name": "6. **Crew Trainer, McDonald’s (10–12):** Promoted twice; trained new employees a",
+          "role": "",
+          "description": "6. **Crew Trainer, McDonald’s (10–12):** Promoted twice; trained new employees and managed customer service issues."
+        },
+        {
+          "name": "7. **Intern, Esports Academy (10):** Helped lead game-based STEM workshops for 4",
+          "role": "",
+          "description": "7. **Intern, Esports Academy (10):** Helped lead game-based STEM workshops for 40+ students; worked under a Forbes 30 Under 30 founder."
+        },
+        {
+          "name": "8. **Independent Researcher (11):** Conducted research on instrumentation in mus",
+          "role": "",
+          "description": "8. **Independent Researcher (11):** Conducted research on instrumentation in music; published in *Curieux Academic Journal.*"
+        },
+        {
+          "name": "9. **Digital Artist (9–12):** Self-taught artist; created digital artwork and po",
+          "role": "",
+          "description": "9. **Digital Artist (9–12):** Self-taught artist; created digital artwork and posted online."
+        },
+        {
+          "name": "10. **Creative Writer (12):** Wrote 20k+ words of fiction online, gaining \\~2k i",
+          "role": "",
+          "description": "10. **Creative Writer (12):** Wrote 20k+ words of fiction online, gaining \\~2k impressions and \\~200 likes."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "TechGirls U.S. Finalist (1 of 13 selected nationally)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Academic Excellence Award (school award)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Employee of the Month (McDonald’s)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 7,
+      "first_gen": null,
+      "service_summary": "6. **Crew Trainer, McDonald’s (10–12):** Promoted twice; trained new employees and managed customer service issues."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

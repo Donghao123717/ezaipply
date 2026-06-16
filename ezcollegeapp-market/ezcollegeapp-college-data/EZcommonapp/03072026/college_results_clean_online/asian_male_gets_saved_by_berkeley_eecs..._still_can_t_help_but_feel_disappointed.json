@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.94,
+      "sat_total": 1600,
+      "act_composite": 11,
+      "class_rank_percentile": 99.99,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. [Pokétwo](https://poketwo.net/) — Sole creator &amp; developer of Pokémon Dis",
+          "role": "",
+          "description": "1. [Pokétwo](https://poketwo.net/) — Sole creator &amp; developer of Pokémon Discord Bot w/ 3.6 million registered users across 950,000+ communities. Originally made for my friends to replace the defu"
+        },
+        {
+          "name": "2. UCSB Research Mentorship Program — Attended summer program after junior year,",
+          "role": "",
+          "description": "2. UCSB Research Mentorship Program — Attended summer program after junior year, produced novel deep learning research “Unsupervised Loss Modeling for Noise-Robust Multimodal Networks.” 12% accuracy i"
+        },
+        {
+          "name": "3. [ContestDojo](https://contestdojo.com/) — Developed a math competition platfo",
+          "role": "",
+          "description": "3. [ContestDojo](https://contestdojo.com/) — Developed a math competition platform from scratch to be used by the Stanford Math Tournament and the Berkeley Math Tournament. Expanded to 4 other tournam"
+        },
+        {
+          "name": "4. Mobile App for my high school — Founded &amp; leading team to develop app, wh",
+          "role": "",
+          "description": "4. Mobile App for my high school — Founded &amp; leading team to develop app, which is actively used in cooperation with ASB. Kept students engaged during the pandemic through online events. \\~2 hrs/w"
+        },
+        {
+          "name": "5. [Project Code Foundation](https://project-code.org/) — Founded 501(c)(3) orga",
+          "role": "",
+          "description": "5. [Project Code Foundation](https://project-code.org/) — Founded 501(c)(3) organization in 8th grade to teach classes to the community. Taught 1,000+ youth total. Recently directed our 3-day workshop"
+        },
+        {
+          "name": "6. [NanoMath](https://nanomath.org/) — Founding member of this organization, we ",
+          "role": "",
+          "description": "6. [NanoMath](https://nanomath.org/) — Founding member of this organization, we run online math competitions for middle schoolers. Our focus is on making contest math more accessible. 700+ total parti"
+        },
+        {
+          "name": "7. FBLA — Placed 9th nationally in E-business in 9th grade, 10th nationally (and",
+          "role": "",
+          "description": "7. FBLA — Placed 9th nationally in E-business in 9th grade, 10th nationally (and State Champion) in Computer Game &amp; Simulation Programming in 11th grade, State Champion in Networking Infrastructur"
+        },
+        {
+          "name": "8. Science Olympiad — Member of my school's Team A team. Most of my medals are t",
+          "role": "",
+          "description": "8. Science Olympiad — Member of my school's Team A team. Most of my medals are this year, *after* college applications, but I did place 1st at GGSO in 2020, beating the national champion team. (It's f"
+        },
+        {
+          "name": "9. Anime Club — Vice President. Fun thing that I enjoy. Not sure what to say her",
+          "role": "",
+          "description": "9. Anime Club — Vice President. Fun thing that I enjoy. Not sure what to say here. I did write some custom software over quarantine to handle simultaneously streaming to all club members. Not very sig"
+        },
+        {
+          "name": "10. Boy Scouts of America — Life Rank during college apps (Eagle now). Served as",
+          "role": "",
+          "description": "10. Boy Scouts of America — Life Rank during college apps (Eagle now). Served as Senior Patrol Leader during the start of the pandemic and had to quickly adapt our activities for over 60+ scouts. Deve"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. USAPhO Semifinalist (top 400 in nation)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USACO Platinum Contestant",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 3x AIME Qualifier (rank 300 in 2021 AMC 12B)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Ranked #34 globally out of 150,000+ people in [Advent of Code 2020](https://adventofcode.com/2020",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Pokétwo voted [#4 Discord bot worldwide on Top.gg](https://top.gg/) with 3M+ users",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. [Project Code Foundation](https://project-code.org/) — Founded 501(c)(3) organization in 8th grade to teach classes to the community. Taught 1,000+ youth total. Recently directed our 3-day workshop"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

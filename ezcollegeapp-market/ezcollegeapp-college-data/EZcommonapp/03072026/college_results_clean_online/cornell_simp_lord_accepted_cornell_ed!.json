@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1480,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **National Youth Director for a presidential campaign**",
+          "role": "",
+          "description": "1. **National Youth Director for a presidential campaign**"
+        },
+        {
+          "name": "2. **Cofounder/Political Director for a registered 501(c)(3) organization, engag",
+          "role": "",
+          "description": "2. **Cofounder/Political Director for a registered 501(c)(3) organization, engaging youth in politics and promoting unity and bipartisanship**"
+        },
+        {
+          "name": "3. **Field Director for a state rep campaign**",
+          "role": "",
+          "description": "3. **Field Director for a state rep campaign**"
+        },
+        {
+          "name": "4. Board Member and Communications Team Lead for 501(c)(3) local climate change ",
+          "role": "",
+          "description": "4. Board Member and Communications Team Lead for 501(c)(3) local climate change organization"
+        },
+        {
+          "name": "5. Board Member and Team Lead for state rep's youth advisory commission",
+          "role": "",
+          "description": "5. Board Member and Team Lead for state rep's youth advisory commission"
+        },
+        {
+          "name": "6. Lead Organizer, Guest Speaker, &amp; Logistics Manager for local youth climat",
+          "role": "",
+          "description": "6. Lead Organizer, Guest Speaker, &amp; Logistics Manager for local youth climate action summit"
+        },
+        {
+          "name": "7. Founder and President of school Politics Club",
+          "role": "",
+          "description": "7. Founder and President of school Politics Club"
+        },
+        {
+          "name": "8. Third Chair at All State, Principal Chair at Senior Districts and in local yo",
+          "role": "",
+          "description": "8. Third Chair at All State, Principal Chair at Senior Districts and in local youth orchestra, Cello"
+        },
+        {
+          "name": "9. Student Ambassador and Advisory Leader for school advisory program",
+          "role": "",
+          "description": "9. Student Ambassador and Advisory Leader for school advisory program"
+        },
+        {
+          "name": "10. Swim on local club team, decent swimmer but not good enough to be recruited.",
+          "role": "",
+          "description": "10. Swim on local club team, decent swimmer but not good enough to be recruited."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. MIT Book Award (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. HL Bio Academic Achievement Award (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Music Academic Achievement Award (10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Merit Scholar Commended (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Latin Exam Gold Medal (10), Silver Medal (9)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "healthcare policy + pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

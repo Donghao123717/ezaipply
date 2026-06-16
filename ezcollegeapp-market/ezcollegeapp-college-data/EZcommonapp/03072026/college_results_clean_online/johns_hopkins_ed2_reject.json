@@ -1,0 +1,48 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 97.45,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1st Place — TSA Software Development (State) — 9th & 10th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1st Place — TSA Webmaster (State) — 9th & 10th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top 10 Nationally — TSA Software Development",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar Award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Tutored Turkmen students in English; Volunteered at the Embassy of Turkmenistan; Leadership / Mentorship; Helped with embassy outreach; Mentored peers in programming and software development"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science (cybersecurity focus)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

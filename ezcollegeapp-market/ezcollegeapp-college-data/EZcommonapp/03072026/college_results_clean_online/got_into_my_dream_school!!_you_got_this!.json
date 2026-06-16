@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1540,
+      "act_composite": 15,
+      "class_rank_percentile": 94.9,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "definitely not a strong point :(",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top 6 State History Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top 10 State German Contest Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2nd in multiple local coding comps (really convenient for combining them)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National German Exam Silver",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Harp - 3x gold for solo and ensemble, performed at events w/ 200 people, composed music, played at 10+ concerts overall; Science National Honor Society Officer - initiated volunteer activities for members, brought guest speakers, managed social media; Volunteer Coding Teacher - taught middle schoolers java, led classes during summer camps; Knitting Club Officer - taught members, initiated community service project; Research workshop at local university - participated in comp bio projects + labs;"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

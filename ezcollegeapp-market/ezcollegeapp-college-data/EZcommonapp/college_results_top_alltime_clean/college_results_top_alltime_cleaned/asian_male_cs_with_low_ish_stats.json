@@ -1,0 +1,134 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1440,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *#1 Participant at a bunch of College Hackathons*",
+          "role": "",
+          "description": "1. *#1 Participant at a bunch of College Hackathons*"
+        },
+        {
+          "name": "2. \\#2 Class Leader and Black belt in Taekwondo",
+          "role": "",
+          "description": "2. \\#2 Class Leader and Black belt in Taekwondo"
+        },
+        {
+          "name": "3. \\#3 Head Developer/Founder of an app that I built for my school community and",
+          "role": "",
+          "description": "3. \\#3 Head Developer/Founder of an app that I built for my school community and administration"
+        },
+        {
+          "name": "4. \\#4 Head Organizer/Founder of a 12 hr hackathon; raised $13,000 in sponsorshi",
+          "role": "",
+          "description": "4. \\#4 Head Organizer/Founder of a 12 hr hackathon; raised $13,000 in sponsorships; found a venue; marketed and promoted the event; etc."
+        },
+        {
+          "name": "5. \\#5 Head Organizer/Founder of another 48 hr online hackathon (due to COVID); ",
+          "role": "",
+          "description": "5. \\#5 Head Organizer/Founder of another 48 hr online hackathon (due to COVID); built out a whole online platform and was in contact with sponsors by the time I applied."
+        },
+        {
+          "name": "6. \\#6 President of Comp Sci Club; Developed a yr-curriculum to teach members th",
+          "role": "",
+          "description": "6. \\#6 President of Comp Sci Club; Developed a yr-curriculum to teach members the fundamentals of python."
+        },
+        {
+          "name": "7. \\#7 Captain of an Academic Bowl Team; Competitive club-team. Led team meeting",
+          "role": "",
+          "description": "7. \\#7 Captain of an Academic Bowl Team; Competitive club-team. Led team meetings. Taught topics in Math, Science, and English. Top three in the NorthEast region for 3 consecutive years."
+        },
+        {
+          "name": "8. \\#8 Varsity Sport (vague to prevent doxxing myself); Fastest to qualify for V",
+          "role": "",
+          "description": "8. \\#8 Varsity Sport (vague to prevent doxxing myself); Fastest to qualify for Varsity in school history; Contributed second highest score to help bring my team to Nationals."
+        },
+        {
+          "name": "9. \\#9 Founder/President of Robotics Club;",
+          "role": "",
+          "description": "9. \\#9 Founder/President of Robotics Club;"
+        },
+        {
+          "name": "10. \\#10 Community Service; a little over 200 hours",
+          "role": "",
+          "description": "10. \\#10 Community Service; a little over 200 hours"
+        },
+        {
+          "name": "Included in Additional Information Section of Common App:",
+          "role": "",
+          "description": "Included in Additional Information Section of Common App:"
+        },
+        {
+          "name": "1. Talked very specifically about my personal CS projects.",
+          "role": "",
+          "description": "1. Talked very specifically about my personal CS projects."
+        },
+        {
+          "name": "1. VR Game developed for climate change - using leapmotion, google cardboard sdk",
+          "role": "",
+          "description": "1. VR Game developed for climate change - using leapmotion, google cardboard sdk, C#, and Unity. Developed during the climate change protests happening around the country."
+        },
+        {
+          "name": "2. Facial recognition program to tackle racial bias in tech - used python with O",
+          "role": "",
+          "description": "2. Facial recognition program to tackle racial bias in tech - used python with OpenCV and StyleGAN models. Developed during the BLM movements."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 Hackathon Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 Personal CS Project Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 Harvard CS50 edX",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\#4 JROTC Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5 NHS",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 200,
+      "first_gen": true,
+      "service_summary": "3. \\#3 Head Developer/Founder of an app that I built for my school community and administration; 10. \\#10 Community Service; a little over 200 hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(computer science)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

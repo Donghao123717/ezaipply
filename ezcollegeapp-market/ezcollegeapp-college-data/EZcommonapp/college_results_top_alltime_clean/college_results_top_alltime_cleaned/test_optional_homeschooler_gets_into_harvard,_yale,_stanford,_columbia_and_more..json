@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **Scientific Research &amp; Product Development-** Developed cure for disease",
+          "role": "",
+          "description": "1. **Scientific Research &amp; Product Development-** Developed cure for disease in agricultural industry, decreasing antibiotic resistance. Marketing and selling internationally awarded product."
+        },
+        {
+          "name": "2. **State Department of Education Student Cabinet-** Represented 3,500+ student",
+          "role": "",
+          "description": "2. **State Department of Education Student Cabinet-** Represented 3,500+ students. Provided input on board policies, enforced COVID-19 safety protocols through televised PSA."
+        },
+        {
+          "name": "3. **Biden/Harris Youth Presidential Transition team-** Met with POTUS team. Pro",
+          "role": "",
+          "description": "3. **Biden/Harris Youth Presidential Transition team-** Met with POTUS team. Provided input on decisions re: education from the perspective of teens in a rural community"
+        },
+        {
+          "name": "4. **Laboratory Student Researcher/Intern-** Independently increasing the effect",
+          "role": "",
+          "description": "4. **Laboratory Student Researcher/Intern-** Independently increasing the effectiveness of first generation antibiotics in vitro. Engineering a wound dressing to deliver treatment."
+        },
+        {
+          "name": "5. **Tufts School of Medicine Inside Medicine Program-** Mentored \\~80 highschoo",
+          "role": "",
+          "description": "5. **Tufts School of Medicine Inside Medicine Program-** Mentored \\~80 highschoolers with interests in medicine."
+        },
+        {
+          "name": "6. **Junior and Senior Class Vice President-**  Advocated for free period produc",
+          "role": "",
+          "description": "6. **Junior and Senior Class Vice President-**  Advocated for free period products in school bathrooms.Worked with State Representative."
+        },
+        {
+          "name": "7. **Perry Initiative Outreach Program-** 1 of 40 students. Mentored by female o",
+          "role": "",
+          "description": "7. **Perry Initiative Outreach Program-** 1 of 40 students. Mentored by female orthopedic surgeons. Performed mock surgeries, casted, and sutured."
+        },
+        {
+          "name": "8. **National Honor Society-** Volunteered at food pantry. Managed and cleared p",
+          "role": "",
+          "description": "8. **National Honor Society-** Volunteered at food pantry. Managed and cleared paths of 6 local nature preserves."
+        },
+        {
+          "name": "9. **Girls Varsity Cross Cross Country Team Captain Local School-** Ran in local",
+          "role": "",
+          "description": "9. **Girls Varsity Cross Cross Country Team Captain Local School-** Ran in local and regional competitions. Qualified for states."
+        },
+        {
+          "name": "10. **Archeology Internship at local Museum-** Helped design and implement free ",
+          "role": "",
+          "description": "10. **Archeology Internship at local Museum-** Helped design and implement free “Archeology Clubs” in local schools. Researched, dated and cataloged artifacts for museum."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. 2nd Place Grand Award in Category Regeneron ISEF",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 1st place grand award winner at state science fair",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 1st place microbiology at state science fair",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 2nd place oral presenter at Regional Junior Science and Humanities symposium (JSHS)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. 2x JSHS National finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. 1st Place Regional JSHS Poster Presenter",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. Recognized by state senate and house of representatives for scientific research",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "8. AP Scholar",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. **Biden/Harris Youth Presidential Transition team-** Met with POTUS team. Provided input on decisions re: education from the perspective of teens in a rural community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "public health/ cellular and molecular biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

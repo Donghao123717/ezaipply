@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. President of a cultural club since 11th grade, PR in 10th",
+          "role": "",
+          "description": "1. President of a cultural club since 11th grade, PR in 10th"
+        },
+        {
+          "name": "2. Board member of a club promoting women in STEM since 11th grade",
+          "role": "",
+          "description": "2. Board member of a club promoting women in STEM since 11th grade"
+        },
+        {
+          "name": "3. Youth ministry leader in 11th grade",
+          "role": "",
+          "description": "3. Youth ministry leader in 11th grade"
+        },
+        {
+          "name": "4. Student of a seniors-only internship class",
+          "role": "",
+          "description": "4. Student of a seniors-only internship class"
+        },
+        {
+          "name": "5. Current Communications and Technologies intern",
+          "role": "",
+          "description": "5. Current Communications and Technologies intern"
+        },
+        {
+          "name": "6. Traditional folk dance team member in 11th grade",
+          "role": "",
+          "description": "6. Traditional folk dance team member in 11th grade"
+        },
+        {
+          "name": "7. Starting JV Catcher in 9th grade",
+          "role": "",
+          "description": "7. Starting JV Catcher in 9th grade"
+        },
+        {
+          "name": "8. Current restaurant worker",
+          "role": "",
+          "description": "8. Current restaurant worker"
+        },
+        {
+          "name": "9. MOOC Participant (took two courses that relate to my passions)",
+          "role": "",
+          "description": "9. MOOC Participant (took two courses that relate to my passions)"
+        },
+        {
+          "name": "10. One-time volunteer opportunity directly related to my #2 EC",
+          "role": "",
+          "description": "10. One-time volunteer opportunity directly related to my #2 EC"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. State Seal of Biliteracy in 12th grade",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National French Contest Silver Medalist in 9th grade",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Blah Blah Blah Student-Athlete in 9th grade",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "10. One-time volunteer opportunity directly related to my #2 EC"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer or mechanical engineering (most schools) &amp; cogsci (uc berkeley)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

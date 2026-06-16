@@ -1,0 +1,139 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1570,
+      "act_composite": 36,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. ***Debate*** (handful of awards listed in awards/honors section, taught bunch",
+          "role": "",
+          "description": "1. ***Debate*** (handful of awards listed in awards/honors section, taught bunch of students debate, youngest were like 9 and oldest were HS freshman. couple students broke at national tourneys)"
+        },
+        {
+          "name": "2. ***Business*** (founded + filed. content production + digital strategy compan",
+          "role": "",
+          "description": "2. ***Business*** (founded + filed. content production + digital strategy company. we actually ended up LOSING money (as of right now) b/c all services became free after COVID started, which is when c"
+        },
+        {
+          "name": "3. ***Music Production*** (classical composer + music producer. started composin",
+          "role": "",
+          "description": "3. ***Music Production*** (classical composer + music producer. started composing at 9 because I guess I have bad muscle memory, kept messing up on piano &amp; violin. Got tired and decided to make my"
+        },
+        {
+          "name": "4. ***NPO*** (going to be very vague but served in an executive role for a large",
+          "role": "",
+          "description": "4. ***NPO*** (going to be very vague but served in an executive role for a large-ish student run NPO. Org had real impact (viral content, successful petitions, phonebanking, real legislation passed, e"
+        },
+        {
+          "name": "5. ***FBLA*** (no position, was on a special committee for promotion/marketing f",
+          "role": "",
+          "description": "5. ***FBLA*** (no position, was on a special committee for promotion/marketing fbla to student body + community. did volunteer work)."
+        },
+        {
+          "name": "6. ***Student Council*** (had a lower position (not pres / vp), focused on recru",
+          "role": "",
+          "description": "6. ***Student Council*** (had a lower position (not pres / vp), focused on recruitment and stuco admissions. was a 4-year representative, which is fairly rare at my HS)."
+        },
+        {
+          "name": "7. ***Research*** (published math research in 2019 in low impact-factor journal ",
+          "role": "",
+          "description": "7. ***Research*** (published math research in 2019 in low impact-factor journal as second author. completed a separate research internship with state school a summer ago)."
+        },
+        {
+          "name": "8. ***Orchestra*** (concertmaster for 2 years, orchestra management leadership p",
+          "role": "",
+          "description": "8. ***Orchestra*** (concertmaster for 2 years, orchestra management leadership position 1 yr. composed works for orch, managed orch promotion and social media accounts, played in orch competitions wit"
+        },
+        {
+          "name": "9. ***NSHS*** (lower position (not pres / vp), focused on managing members and k",
+          "role": "",
+          "description": "9. ***NSHS*** (lower position (not pres / vp), focused on managing members and keeping track of logged hours. did not do anything besides that, this was a rlly low commitment EC)"
+        },
+        {
+          "name": "10. ***Martial Arts*** (4th degree black belt, took 10+ years of training. Did m",
+          "role": "",
+          "description": "10. ***Martial Arts*** (4th degree black belt, took 10+ years of training. Did my 4th degree test in late 2019. coached younger students in breaking &amp; sparring)."
+        },
+        {
+          "name": "I did more ECs than the 10 I listed above, but most of them were short-lived sti",
+          "role": "",
+          "description": "I did more ECs than the 10 I listed above, but most of them were short-lived stints (failed startup, library tutoring, etc) that I either a.) wasn't passionate about or b.) didn't have the time for. O"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Going to be very vague here because I've had doxxing issues in the past, if you PM me I'd be very ve",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Grouped 4 international forensics competition awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Grouped 3 FBLA awards (nats, state. did not include regional awards)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Grouped 2 debate awards (VPF @ nat'l tourney)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Grouped like 4 state music composition awards from 2 different competitions",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. 2x Gold Presidential Volunteer Service Award (250+ hours for each)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "In additional info, I included the below. I also swapped order of the awards and which awards I incl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. HYP Book Award (only submitted to that specific school)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Coke Semifinalist (only submitted to RD schools)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 6,
+      "first_gen": true,
+      "service_summary": "5. ***FBLA*** (no position, was on a special committee for promotion/marketing fbla to student body + community. did volunteer work)."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "econ + music composition (indicated dual degree interest)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

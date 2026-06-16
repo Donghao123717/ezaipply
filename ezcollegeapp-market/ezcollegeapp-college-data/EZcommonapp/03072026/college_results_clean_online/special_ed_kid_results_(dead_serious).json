@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 10,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Employee of the month March ‘17",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Employee of the month March ‘19",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Mixed bag. My Cornell one was *amazing* (like 3 hours, me and the interviewer really clicked), Brown",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/General thoughts",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Coming from a special ed school, I kinda knew I had to go wild on my essays to get anywhere, and tha",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "TLDR: Special Ed kid somehow makes it to the Ivy League",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Dude— this isn’t “somehow” in any way. You are remarkably qualified and talented!! Congrats on getti",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Wow man!!! Congratulations, you definitely deserve it.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

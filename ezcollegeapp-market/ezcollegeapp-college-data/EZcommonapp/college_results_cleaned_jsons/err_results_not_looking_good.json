@@ -1,0 +1,43 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Tutoring Website — Founder (10",
+          "role": "",
+          "description": "Tutoring Website — Founder (10"
+        },
+        {
+          "name": "11",
+          "role": "",
+          "description": "11"
+        },
+        {
+          "name": "12) Self-taught coding and managed tutoring site for K-12/test prep; guided 300+",
+          "role": "",
+          "description": "12) Self-taught coding and managed tutoring site for K-12/test prep; guided 300+ students to top SAT/SHSAT/Regents scores. Microbiology Lab Research — Student Researcher (10–12) Performed wet lab analysis on bacterial growth; analyzed data and presented findings at Bronx STEM Exposition at Yankee Stadium."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Hospital Volunteering — Volunteer (11) Pharmacy Volunteering — Volunteer (11) Helped regularly at cousin’s pharmacy doing unpaid retail work: cashier, stocking inventory, and customer service."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Biomedical Engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

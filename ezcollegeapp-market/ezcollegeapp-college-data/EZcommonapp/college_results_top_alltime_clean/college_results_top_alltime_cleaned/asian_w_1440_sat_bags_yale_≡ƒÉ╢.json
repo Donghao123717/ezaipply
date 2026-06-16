@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1440,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Founder/President of AAPI health equity org: engaged 1,400+ participants, 2k+",
+          "role": "",
+          "description": "1. Founder/President of AAPI health equity org: engaged 1,400+ participants, 2k+ families, hundreds of volunteers, $7k in grants *(9th-12th)*"
+        },
+        {
+          "name": "2. Research assistant and co-author for community psych paper at a local univers",
+          "role": "",
+          "description": "2. Research assistant and co-author for community psych paper at a local university, where I did qualitative data analysis on interview transcripts *(10th-12th)*"
+        },
+        {
+          "name": "3. Research assistant for community mental health research program for high scho",
+          "role": "",
+          "description": "3. Research assistant for community mental health research program for high schoolers; helped conduct literature reviews and create program plans with graduate students *(11th-12th)*"
+        },
+        {
+          "name": "4. Captain of varsity team *(11th-12th)*",
+          "role": "",
+          "description": "4. Captain of varsity team *(11th-12th)*"
+        },
+        {
+          "name": "5. President of Psych Club *(11th-12th)*",
+          "role": "",
+          "description": "5. President of Psych Club *(11th-12th)*"
+        },
+        {
+          "name": "6. Secretary of Asian Club *(11th-12th)*",
+          "role": "",
+          "description": "6. Secretary of Asian Club *(11th-12th)*"
+        },
+        {
+          "name": "7. Caretaking responsibilities for grandparents; directly tied to passion for AA",
+          "role": "",
+          "description": "7. Caretaking responsibilities for grandparents; directly tied to passion for AAPI health equity *(9th-12th)*"
+        },
+        {
+          "name": "8. Apprentice at Northwestern Medicine, where I attended monthly STEM/medical ex",
+          "role": "",
+          "description": "8. Apprentice at Northwestern Medicine, where I attended monthly STEM/medical exposure events *(10th-11th)*"
+        },
+        {
+          "name": "9. Full-time summer intern at Northwestern Medicine *(summer before senior year)",
+          "role": "",
+          "description": "9. Full-time summer intern at Northwestern Medicine *(summer before senior year)*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Highly competitive international 1-year fellowship program chosen for community leadership/impact",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National community service award for health equity org",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Regional/National community service award for health equity org",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 7,
+      "first_gen": null,
+      "service_summary": "2. Research assistant and co-author for community psych paper at a local university, where I did qualitative data analysis on interview transcripts *(10th-12th)*; 3. Research assistant for community mental health research program for high schoolers; helped conduct literature reviews and create program plans with graduate students *(11th-12th)*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "history of science, medicine, and public health + molecular bio on pre-med track"
+    },
+    "ESSAY_SCORE": null
+  }
+}

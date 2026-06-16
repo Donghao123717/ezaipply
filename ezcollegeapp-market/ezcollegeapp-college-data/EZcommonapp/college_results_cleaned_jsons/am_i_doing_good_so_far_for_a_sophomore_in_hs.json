@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Chair, Economics & Finance Committee (EcoFin), YMCA Model United Nations Selecte",
+          "role": "",
+          "description": "Chair, Economics & Finance Committee (EcoFin), YMCA Model United Nations Selected from 60+ delegates to lead committee sessions, set agendas, guide debate, mentor delegates, and oversee award selections."
+        },
+        {
+          "name": "Model UN Delegate – Economics & Finance Committee (Represented Ghana) Authored m",
+          "role": "",
+          "description": "Model UN Delegate – Economics & Finance Committee (Represented Ghana) Authored multiple resolutions, including one passed unanimously; nominated for Best Diplomat (top 3 delegates) before selection as Committee Chair."
+        },
+        {
+          "name": "Programming Captain, FIRST Tech Challenge (FTC) Robotics Lead and mentor a progr",
+          "role": "",
+          "description": "Programming Captain, FIRST Tech Challenge (FTC) Robotics Lead and mentor a programming team of 10+ students; develop and test Java-based Mecanum drive, autonomous routines, and drivetrain control systems."
+        },
+        {
+          "name": "Frontend Developer, MIT Blueprint Hackathon Co-developed ScamLikely, a mobile ap",
+          "role": "",
+          "description": "Frontend Developer, MIT Blueprint Hackathon Co-developed ScamLikely, a mobile app protecting elderly users from scams; implemented frontend using React, React Native, and JavaScript with a focus on usability and accessibility."
+        },
+        {
+          "name": "Certified Programmer – Java (HackerRank) Earned Java (Basic) certification demon",
+          "role": "",
+          "description": "Certified Programmer – Java (HackerRank) Earned Java (Basic) certification demonstrating proficiency in core programming concepts and problem-solving skills. Also obtained the highest rank (Java 5 star GOLD BADGE!!!)"
+        },
+        {
+          "name": "Chief Master Sergeant, Civil Air Patrol (U.S. Air Force Auxiliary) Senior cadet ",
+          "role": "",
+          "description": "Chief Master Sergeant, Civil Air Patrol (U.S. Air Force Auxiliary) Senior cadet leader; completed Phase II Leadership Program; led training, mentoring, and operational activities at the squadron level."
+        },
+        {
+          "name": "Civil Air Patrol Encampment Participant Completed an intensive multi-day leaders",
+          "role": "",
+          "description": "Civil Air Patrol Encampment Participant Completed an intensive multi-day leadership and discipline program at Joint Base McGuire–Dix–Lakehurst emphasizing teamwork and command structure. Varsity Swimmer, Junior Olympic qualifier; contributed 100+ career points; GMC Championship 1st Place; member of the #2 ranked high school swim team in New Jersey."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "President's Honor Roll 3x",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Principal's Honor Roll 2x Currently self studying AP CSP (school doesn't offer APs till Junior Year) Junior Year Course ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "You're doing great - I'd say for sure ivies+. Only thing here which feels a bit missing is more of a volunteer centric EC"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

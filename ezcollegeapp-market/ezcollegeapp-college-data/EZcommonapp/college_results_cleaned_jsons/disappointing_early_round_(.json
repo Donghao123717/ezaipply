@@ -1,0 +1,88 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Awards: AP Scholar w/ Honors",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Honor Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Science National Honor Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Mu Alpha Theta",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "a ton of swim awards I won't bother with",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ECs: Competitive Club Swimming - National level swimmer, team captain, committed to over a decade of competitive swimmin",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Research w/ Endocrinologist - Researcher for thyroid disease and hormone anatomy, wrote thyroid/research FAQs on these s",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "VP of Medical Science Competition Club - Created slides and infographics on various topics in psychology and biology, we",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "VP of Sports Medicine Club - Teamed up with local PT office and clinic to put up flyers about arthritis and sports injur",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Mandarin Chinese and ELA Tutor - Tutored middle school kids in Mandarin Chinese and ELA, helped out with homework, and g",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Work (Paid) Swim instructor - Taught kids ages 6-11 how to swim, tread, as well basic water skills, and taught them more",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LORs: AP Precalc 11th/AP Stat 12th: 10/10, I am really close with her and I think she wrote me a really good rec Adv Eng",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 20,
+      "first_gen": null,
+      "service_summary": "Mandarin Chinese and ELA Tutor - Tutored middle school kids in Mandarin Chinese and ELA, helped out with homework, and gave resources for the students to understand concepts better (around 20 hours)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

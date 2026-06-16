@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.5,
+      "sat_total": 1410,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I didn't use all ten slots; however, I think it was a good idea because I was ab",
+          "role": "",
+          "description": "I didn't use all ten slots; however, I think it was a good idea because I was able to focus my energy into a clearer narrative for the admissions officers. Any other clubs/extracurriculars I pursued had little to no impact in my eyes. Eventually, I'd shorten these descriptions to fit the Common App, but here's the full range of accomplishments. Some information I redacted cause it would give away where I live."
+        },
+        {
+          "name": "⁠Research (Head designer for Mars Rover wheel) - Missouri ASM Exploring Material",
+          "role": "",
+          "description": "⁠Research (Head designer for Mars Rover wheel) - Missouri ASM Exploring Materials in Your World (5-day camp): Conducted alloy & ceramic research under Dr. Uwanyuze; designed rover wheel fit for Mars' conditions, earned 1st in Design under Missouri S&T faculty."
+        },
+        {
+          "name": "⁠Community Service, Volunteer (Adoptee of 2 streets) - [SCHOOL]'s Adopt-A-Street",
+          "role": "",
+          "description": "⁠Community Service, Volunteer (Adoptee of 2 streets) - [SCHOOL]'s Adopt-A-Street Initiative: Managed weekly 5-mile trash pickup; presented keynotes for advocacy of local household recycling in [MY COUNTY], 2 streets dedicated under me."
+        },
+        {
+          "name": "⁠Other Club/Activity (Patrol Leader and Den Chief) - Boy Scouts of America: Taug",
+          "role": "",
+          "description": "⁠Other Club/Activity (Patrol Leader and Den Chief) - Boy Scouts of America: Taught 80 Scouts outdoor/leadership skills; coordinated school supply drive for needy students, coached Scouts toward achieving Eagle Scout rank."
+        },
+        {
+          "name": "⁠Paid Work (Daycare Assistant) - [COMPANY] (part-time): Babysat 40+ children (Pr",
+          "role": "",
+          "description": "⁠Paid Work (Daycare Assistant) - [COMPANY] (part-time): Babysat 40+ children (PreK-5); planned various seasonal activities, organized aesthetic projects to beautify campus, earned Rising Employee (Summer)."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "⁠Senior Year Course Load: 2 APs, 5 Regular Standardized Testing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠SAT: 1410 (700RW, 710M)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠APs: Chemistry (3), English Language and Composition (3), College Physics I (taking), Calculus BC (taking)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "⁠Community Service, Volunteer (Adoptee of 2 streets) - [SCHOOL]'s Adopt-A-Street Initiative: Managed weekly 5-mile trash pickup; presented keynotes for advocacy of local household recycling in [MY COUNTY], 2 streets dedicated under me. ⁠Presidential Volunteer Service Award Gold (9/10/11, National)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Chemical Engineering w/ Jazz Studies minor"
+    },
+    "ESSAY_SCORE": null
+  }
+}

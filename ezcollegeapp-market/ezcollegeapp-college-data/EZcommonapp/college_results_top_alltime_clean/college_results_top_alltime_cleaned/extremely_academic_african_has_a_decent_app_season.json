@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1550,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "definitely the weakest part of my app",
+          "role": "",
+          "description": "definitely the weakest part of my app"
+        },
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *#1: track and field (4 years, ran varsity)*",
+          "role": "",
+          "description": "1. *#1: track and field (4 years, ran varsity)*"
+        },
+        {
+          "name": "2. \\#2: French National Honor Society Officer",
+          "role": "",
+          "description": "2. \\#2: French National Honor Society Officer"
+        },
+        {
+          "name": "3. \\#3: African American Cultural Association Secretary",
+          "role": "",
+          "description": "3. \\#3: African American Cultural Association Secretary"
+        },
+        {
+          "name": "4. \\#4: Part Time Fast Food Job",
+          "role": "",
+          "description": "4. \\#4: Part Time Fast Food Job"
+        },
+        {
+          "name": "5. \\#5: a bunch of other clubs I won't even bother listing",
+          "role": "",
+          "description": "5. \\#5: a bunch of other clubs I won't even bother listing"
+        },
+        {
+          "name": "6. \\#6",
+          "role": "",
+          "description": "6. \\#6"
+        },
+        {
+          "name": "7. \\#7",
+          "role": "",
+          "description": "7. \\#7"
+        },
+        {
+          "name": "8. \\#8",
+          "role": "",
+          "description": "8. \\#8"
+        },
+        {
+          "name": "9. \\#9",
+          "role": "",
+          "description": "9. \\#9"
+        },
+        {
+          "name": "10. \\#10",
+          "role": "",
+          "description": "10. \\#10"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "also pretty bad",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1: AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2: Honor Roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3: GA Certificate of Merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\#4: GHP Nominee",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5: Junior Marshal",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

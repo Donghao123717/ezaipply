@@ -1,0 +1,43 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Scores: Test Optional",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Awards: Junior year 2nd honors",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of rec: math &amp; guidance counselor",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "early ed/elem. ed"
+    },
+    "ESSAY_SCORE": null
+  }
+}

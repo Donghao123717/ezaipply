@@ -1,0 +1,63 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.8,
+      "sat_total": null,
+      "act_composite": 26,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Boy Scouts: Eagle Scout",
+          "role": "",
+          "description": "Boy Scouts: Eagle Scout"
+        },
+        {
+          "name": "SPL",
+          "role": "",
+          "description": "SPL"
+        },
+        {
+          "name": "Camp Counselor",
+          "role": "",
+          "description": "Camp Counselor"
+        },
+        {
+          "name": "Merit Badge Instructor USNSCC: Petty Officer 3rd Class, Unit LPO, various other ",
+          "role": "",
+          "description": "Merit Badge Instructor USNSCC: Petty Officer 3rd Class, Unit LPO, various other leadership positions NHS: Member (for some reason our school doesn't elect officers) Student Government Varsity Football: 3 years"
+        },
+        {
+          "name": "Scholarships: Army ROTC: full tuition or room and board Navy ROTC: full tuition ",
+          "role": "",
+          "description": "Scholarships: Army ROTC: full tuition or room and board Navy ROTC: full tuition or room and board"
+        },
+        {
+          "name": "Essays:",
+          "role": "",
+          "description": "Essays:"
+        },
+        {
+          "name": "Common App essay: I wrote mainly about how it's been my life's dream to grow up ",
+          "role": "",
+          "description": "Common App essay: I wrote mainly about how it's been my life's dream to grow up and join the military (hence the ROTC scholarships). But I kinda tied in how my extensive leadership and passion has lead me to pursue a rigorous academic career and a difficult major. Pretty basic ngl, kinda mid essay."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Over 120 community service hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Aerospace Engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "okay this is where i am lacking very extremely.",
+          "role": "",
+          "description": "okay this is where i am lacking very extremely."
+        },
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "(this isn’t in order btw)",
+          "role": "",
+          "description": "(this isn’t in order btw)"
+        },
+        {
+          "name": "1. worked at baskin robbins 20 hours a week for about 8 months from sophomore-ju",
+          "role": "",
+          "description": "1. worked at baskin robbins 20 hours a week for about 8 months from sophomore-junior year"
+        },
+        {
+          "name": "2. national art honors society since beginning of senior year",
+          "role": "",
+          "description": "2. national art honors society since beginning of senior year"
+        },
+        {
+          "name": "3. been playing piano since i was six, i’ve played in a few recitals and nursing",
+          "role": "",
+          "description": "3. been playing piano since i was six, i’ve played in a few recitals and nursing homes and stuff, including this little music festival"
+        },
+        {
+          "name": "4. my mom runs her own business so i help her with that, includes stuff in desig",
+          "role": "",
+          "description": "4. my mom runs her own business so i help her with that, includes stuff in design and customer service, have been doing it since like 7th grade"
+        },
+        {
+          "name": "5. academic school trip to europe summer after sophomore year, went to several d",
+          "role": "",
+          "description": "5. academic school trip to europe summer after sophomore year, went to several different countries over a span of two weeks"
+        },
+        {
+          "name": "6. was going to be a face painter for this one business but i got hired right be",
+          "role": "",
+          "description": "6. was going to be a face painter for this one business but i got hired right before corona so. that didn’t really end up happenjng"
+        },
+        {
+          "name": "7. was going to be a volunteer tutor for this tutoring program to help kids, cor",
+          "role": "",
+          "description": "7. was going to be a volunteer tutor for this tutoring program to help kids, corona cut this short"
+        },
+        {
+          "name": "8. tutoring for my school",
+          "role": "",
+          "description": "8. tutoring for my school"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. ap scholar award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. national merit commended scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. rural and small town recognition thing (i literally don’t remember the name of it exactly rn  i’m",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "4. my mom runs her own business so i help her with that, includes stuff in design and customer service, have been doing it since like 7th grade; 7. was going to be a volunteer tutor for this tutoring program to help kids, corona cut this short"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "industrial design, mathematics, mechanical engineering, idm (for nyu)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

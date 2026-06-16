@@ -1,0 +1,44 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Independent Study-Explored higher-level math (college prep) through reading (Cal",
+          "role": "",
+          "description": "Independent Study-Explored higher-level math (college prep) through reading (Calculus"
+        },
+        {
+          "name": "Stewart et al.; IIT prep) and online resources and classes produced 4 multi-lang",
+          "role": "",
+          "description": "Stewart et al.; IIT prep) and online resources and classes produced 4 multi-language (English/French/Latin/Chinese) covers on YouTube and live; scientifically documented artistic process through written reflection"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Standardized Testing SAT I: 1510 (720RW, 790M) AP/IB: Calc BC (5), Psych (5), APES (4)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Community Service - Volunteer at orphanages and old-age homes my community essay was about my housemaid and how I had a change of mindset after seeing her condition Sorry about Brown, but honest advice, before you submit anywhere else, I would change your essays, they scream red flags. From your perspective it may seem compassionate, but talking about your housemaid as something you learned and be"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Undecided (but also Applied Math)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

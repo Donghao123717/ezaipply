@@ -1,0 +1,88 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.7,
+      "sat_total": 1440,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Aime qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "science bowl nat qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Varsity letter",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Gates Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Coca Cola semifinalist (updated for both)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Im looking at MIT , JHU , and Cmu right now. I’ll probably",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "commit to stanford unless i get into mit.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "If you have any questions dm me, admissions is a legit crapshoot. I thought my gpa was too low, but ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Congratulations on Stanford!  They are lucky to have you, and I hope you have a great time there.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Have a nice day!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Imagine having Stanford as a backup school lmfaooooo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Congrats man, you deserve it!",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

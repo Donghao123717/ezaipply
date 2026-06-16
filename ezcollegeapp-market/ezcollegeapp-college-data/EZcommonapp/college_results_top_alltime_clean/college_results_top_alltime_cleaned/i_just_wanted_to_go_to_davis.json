@@ -1,0 +1,103 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.78,
+      "sat_total": 1350,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. work experience (lifeguard)",
+          "role": "",
+          "description": "1. work experience (lifeguard)"
+        },
+        {
+          "name": "2. work experience (bus monitor)",
+          "role": "",
+          "description": "2. work experience (bus monitor)"
+        },
+        {
+          "name": "3. work experience (babysitting)",
+          "role": "",
+          "description": "3. work experience (babysitting)"
+        },
+        {
+          "name": "4. Other coursework (fine arts 2) — course that I couldn’t submit bc it was pass",
+          "role": "",
+          "description": "4. Other coursework (fine arts 2) — course that I couldn’t submit bc it was pass/fail"
+        },
+        {
+          "name": "5. Extracurricular Activity (Aquatic sports, water polo + swim)",
+          "role": "",
+          "description": "5. Extracurricular Activity (Aquatic sports, water polo + swim)"
+        },
+        {
+          "name": "6. Extracurricular Activity (Art club leader)",
+          "role": "",
+          "description": "6. Extracurricular Activity (Art club leader)"
+        },
+        {
+          "name": "7. Extracurricular Activity (Hobby Art)",
+          "role": "",
+          "description": "7. Extracurricular Activity (Hobby Art)"
+        },
+        {
+          "name": "8. Extracurricular Activity (animal husbandry)",
+          "role": "",
+          "description": "8. Extracurricular Activity (animal husbandry)"
+        },
+        {
+          "name": "9. Extracurricular Activity (international travel)",
+          "role": "",
+          "description": "9. Extracurricular Activity (international travel)"
+        },
+        {
+          "name": "10. Extracurricular Activity (tokyo exploration) — I spent a lot of time at muse",
+          "role": "",
+          "description": "10. Extracurricular Activity (tokyo exploration) — I spent a lot of time at museums and nature preserves lol"
+        },
+        {
+          "name": "11. Volunteer/community service (various organized protests)",
+          "role": "",
+          "description": "11. Volunteer/community service (various organized protests)"
+        },
+        {
+          "name": "12. Extracurricular Activity (sakura medal book club)",
+          "role": "",
+          "description": "12. Extracurricular Activity (sakura medal book club)"
+        },
+        {
+          "name": "13. Extracurricular activity (art club, non-leader)",
+          "role": "",
+          "description": "13. Extracurricular activity (art club, non-leader)"
+        },
+        {
+          "name": "14. Extracurricular Activity (school trips) —I just wanted to get to talk about ",
+          "role": "",
+          "description": "14. Extracurricular Activity (school trips) —I just wanted to get to talk about that time my class got to have a discussion with Shinjiro Koizumi lol"
+        },
+        {
+          "name": "Awards/Honors:** did not include any in my app, don't think I stayed in one plac",
+          "role": "",
+          "description": "Awards/Honors:** did not include any in my app, don't think I stayed in one place long enough to receive any"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "11. Volunteer/community service (various organized protests)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "animal science, zoology, ecology &amp; evolution, often put art as a backup majo"
+    },
+    "ESSAY_SCORE": null
+  }
+}

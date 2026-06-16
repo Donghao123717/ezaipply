@@ -1,0 +1,88 @@
+{
+  "post": {
+    "id": "t3_1pk9szz",
+    "title": "Ea Umass Lowell Nursing",
+    "author": "Far-Panic-6357",
+    "selftext": "just got in!! did anyone else get innfor honors college",
+    "score": "5",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pk9szz/ea_umass_lowell_nursing/",
+    "created": "2025-12-11T21:38:40+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_ntks1mp",
+      "author": "Alone_Weight5342",
+      "body": "What were your stats?",
+      "score": "1 point",
+      "created": "2025-12-12T02:34:12+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_ntkuv0f",
+          "author": "Far-Panic-6357",
+          "body": "the flair is very close to my stats!",
+          "score": "1 point",
+          "created": "2025-12-12T02:50:40+00:00",
+          "depth": 1,
+          "parent_id": "t1_ntks1mp",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pk9szz",
+        "author": "Far-Panic-6357",
+        "title": "Ea Umass Lowell Nursing",
+        "body": "just got in!! did anyone else get innfor honors college",
+        "full_text": "Ea Umass Lowell Nursing\n\njust got in!! did anyone else get innfor honors college"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_ntks1mp",
+          "author": "Alone_Weight5342",
+          "body": "What were your stats?",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_ntks1mp",
+        "author": "Alone_Weight5342",
+        "body": "What were your stats?",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_ntkuv0f",
+          "author": "Far-Panic-6357",
+          "body": "the flair is very close to my stats!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

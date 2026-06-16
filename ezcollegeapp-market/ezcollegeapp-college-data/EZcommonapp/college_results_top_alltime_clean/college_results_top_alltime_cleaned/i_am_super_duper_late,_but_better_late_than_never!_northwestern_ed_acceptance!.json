@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Principal (1st chair) Bassist in orchestra: my family was never able to affor",
+          "role": "",
+          "description": "1. Principal (1st chair) Bassist in orchestra: my family was never able to afford lessons, so I had to work very hard to get to this point. I help the people in my section with music, and I lead the section in songs. In "
+        },
+        {
+          "name": "2. Practitioner of Brazilian Jiu-Jitsu: this is a grappling martial art like wre",
+          "role": "",
+          "description": "2. Practitioner of Brazilian Jiu-Jitsu: this is a grappling martial art like wrestling or Judo. I achieved blue belt at 16, which is the youngest age that a person can become a blue belt--progression is very slow in this"
+        },
+        {
+          "name": "3. Principal Bassist in Chamber Orchestra: this is basically the more advanced v",
+          "role": "",
+          "description": "3. Principal Bassist in Chamber Orchestra: this is basically the more advanced version of the regular orchestra. 4hr/wk during school year."
+        },
+        {
+          "name": "4. Bassist for Jazz band. 5hr/wk during school year.",
+          "role": "",
+          "description": "4. Bassist for Jazz band. 5hr/wk during school year."
+        },
+        {
+          "name": "5. I have my own rock band that I organize practices for, and we find events to ",
+          "role": "",
+          "description": "5. I have my own rock band that I organize practices for, and we find events to play at. 6hr/wk, 20wk/yr."
+        },
+        {
+          "name": "6. I played with professional musicians at a large rock concert. I was the princ",
+          "role": "",
+          "description": "6. I played with professional musicians at a large rock concert. I was the principal of the bass section. 9hr/wk, 10wk/yr."
+        },
+        {
+          "name": "7. Bass soloist at a music competition competition: I got the highest rating in ",
+          "role": "",
+          "description": "7. Bass soloist at a music competition competition: I got the highest rating in the hardest class of music. 8hr/wk, 10wk/yr."
+        },
+        {
+          "name": "8. Interned with the owner of an IT company. 7hr/wk,12wk/yr.",
+          "role": "",
+          "description": "8. Interned with the owner of an IT company. 7hr/wk,12wk/yr."
+        },
+        {
+          "name": "9. Lots of family responsibilities: I would rather not share.",
+          "role": "",
+          "description": "9. Lots of family responsibilities: I would rather not share."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Director's award for exhibiting excellent leadership in the orchestra and a high-level of playing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. NHS",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics and possibly industrial engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

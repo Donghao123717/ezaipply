@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(This is probably not in the order I used in my application. I will not go into ",
+          "role": "",
+          "description": "(This is probably not in the order I used in my application. I will not go into too much detail)"
+        },
+        {
+          "name": "1. Easily googlable so I will not get into details, but I cofounded an associati",
+          "role": "",
+          "description": "1. Easily googlable so I will not get into details, but I cofounded an association which impacted thousands of students in my country, and helped raised $120k+. Went live on national TV and on the news multiple times. 5-"
+        },
+        {
+          "name": "2. Summer Science Program. Astro.  40+ hrs / week for 5 weeks",
+          "role": "",
+          "description": "2. Summer Science Program. Astro.  40+ hrs / week for 5 weeks"
+        },
+        {
+          "name": "3. Paid IT Assistant / Library Assistant at my school. Coded a few small website",
+          "role": "",
+          "description": "3. Paid IT Assistant / Library Assistant at my school. Coded a few small websites for events / snack shack, etc and was in charge of some recurring IT processes (inventory, updates, etc.). 2 hrs / week"
+        },
+        {
+          "name": "4. Did some paid math/science tutoring throughout high school. Probably 2-5 hrs ",
+          "role": "",
+          "description": "4. Did some paid math/science tutoring throughout high school. Probably 2-5 hrs / week"
+        },
+        {
+          "name": "5. Math Club and Competitive Programming Club. Founded and presided with the hel",
+          "role": "",
+          "description": "5. Math Club and Competitive Programming Club. Founded and presided with the help of 2 teachers (had to fight for this because my school is not very STEMy lol). Around 15 participants each. Maybe 3-5 hrs / week during sc"
+        },
+        {
+          "name": "6. Canada/USA Mathcamp. Very cool experience! I definitely recomment it for all ",
+          "role": "",
+          "description": "6. Canada/USA Mathcamp. Very cool experience! I definitely recomment it for all math lovers. Attended in 9th and 10th grade. 40 hrs / week for 5 weeks"
+        },
+        {
+          "name": "7. Track and field. Basically prepared for an annual 10k run in my city. 2-5 hrs",
+          "role": "",
+          "description": "7. Track and field. Basically prepared for an annual 10k run in my city. 2-5 hrs / week during school months"
+        },
+        {
+          "name": "8. Yale Young African Scholar. Was pretty mid to be honest. Was probabily a few ",
+          "role": "",
+          "description": "8. Yale Young African Scholar. Was pretty mid to be honest. Was probabily a few hours a day for a week or something"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Rise for the World Global Winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Atlas Fellow",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Recepient of one of two full scholarships at my current high school, after ranking 11th/300,000+ ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 2 others that can easily be traced back to me so I will not detail to avoid being doxxed",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mathematics and computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.44,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "These are summary",
+          "role": "",
+          "description": "These are summary"
+        },
+        {
+          "name": "Latin club/ junior classical league: I became interested in Latin in sophomore y",
+          "role": "",
+          "description": "Latin club/ junior classical league: I became interested in Latin in sophomore year and decided to learn it on my own cuz they don't offer it at my school. I was able to administer the national Latin exam and was eventually able to set up a junior classical league chapter and go to conventions."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Rank (or percentile): High school doesn't rank # of Honors/AP/IB/Dual Enrollment/etc.: 5 honors, 12 APs. two DEs. Senior",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "I tutor various subjects and I am on of the coaches and moderators on the platform Library volunteer"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Electrical Engineering, Physics, classics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1590,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Dual Enrollment classes - Took these at a nearby college, they were: Multivar",
+          "role": "",
+          "description": "1. Dual Enrollment classes - Took these at a nearby college, they were: Multivariable Calculus, Statistical Physics, Fluid Dynamics, Organic Chemistry"
+        },
+        {
+          "name": "2. STEM Outreach Club (10-12) - Founder, President, affected 10,000+ underprivil",
+          "role": "",
+          "description": "2. STEM Outreach Club (10-12) - Founder, President, affected 10,000+ underprivileged students across the country, provided instructional mathematics and science training to inner cities"
+        },
+        {
+          "name": "3. Science Olympiad (9-12) - President, placed in T10 in national competitions, ",
+          "role": "",
+          "description": "3. Science Olympiad (9-12) - President, placed in T10 in national competitions, vague to avoid being doxxed"
+        },
+        {
+          "name": "4. Research (9-12) - Performed research at a local college with a professor, inv",
+          "role": "",
+          "description": "4. Research (9-12) - Performed research at a local college with a professor, involved algorithms and various mathematical principles, published in state publication"
+        },
+        {
+          "name": "5. Neuroscience self-research (9-12), won a neuroscience competition in my regio",
+          "role": "",
+          "description": "5. Neuroscience self-research (9-12), won a neuroscience competition in my region"
+        },
+        {
+          "name": "6. Figure Skating (9-12) - Varsity, Captain, led teammates in winning a regional",
+          "role": "",
+          "description": "6. Figure Skating (9-12) - Varsity, Captain, led teammates in winning a regional competition while improving my own skills"
+        },
+        {
+          "name": "7. A major national STEM program (ex. TASP, YYGS) - vague to avoid doxxing",
+          "role": "",
+          "description": "7. A major national STEM program (ex. TASP, YYGS) - vague to avoid doxxing"
+        },
+        {
+          "name": "8. Volunteering efforts in Central America, President of a regional initiative",
+          "role": "",
+          "description": "8. Volunteering efforts in Central America, President of a regional initiative"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Science Olympiad national award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Neuroscience award (explained in EC’s)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Figure Skating Regional Winner (first place)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. State Award for Excellence in STEM",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

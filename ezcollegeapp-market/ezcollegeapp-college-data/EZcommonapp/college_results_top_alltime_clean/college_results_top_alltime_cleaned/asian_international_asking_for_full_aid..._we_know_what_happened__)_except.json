@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Dance (9-12 co-leader)",
+          "role": "",
+          "description": "1. Dance (9-12 co-leader)"
+        },
+        {
+          "name": "2. Varsity track (10-12) - got some medals and broke school record in one event",
+          "role": "",
+          "description": "2. Varsity track (10-12) - got some medals and broke school record in one event"
+        },
+        {
+          "name": "3. Research in the Pioneer Program (11) - about environmental chem, paper nomina",
+          "role": "",
+          "description": "3. Research in the Pioneer Program (11) - about environmental chem, paper nominated for publication"
+        },
+        {
+          "name": "4. Environmental club (9-11) - lead some projects like research, petitions, wate",
+          "role": "",
+          "description": "4. Environmental club (9-11) - lead some projects like research, petitions, water purification, etc."
+        },
+        {
+          "name": "5. Founded service club (12) - fundraised for and partner with local NPOs",
+          "role": "",
+          "description": "5. Founded service club (12) - fundraised for and partner with local NPOs"
+        },
+        {
+          "name": "6. Translated for Khan Academy (11-12) - bless Sal",
+          "role": "",
+          "description": "6. Translated for Khan Academy (11-12) - bless Sal"
+        },
+        {
+          "name": "7. Tutor (9-12) - everywhere, all the time",
+          "role": "",
+          "description": "7. Tutor (9-12) - everywhere, all the time"
+        },
+        {
+          "name": "8. Student government (11) - executive stuff, also help run class store as finan",
+          "role": "",
+          "description": "8. Student government (11) - executive stuff, also help run class store as finance manager"
+        },
+        {
+          "name": "9. Speech/Debate (11) - ranked in some southeast asian conferences",
+          "role": "",
+          "description": "9. Speech/Debate (11) - ranked in some southeast asian conferences"
+        },
+        {
+          "name": "10. Hobbies - personal blog and social media dance account",
+          "role": "",
+          "description": "10. Hobbies - personal blog and social media dance account"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National earth science olympiad silver",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Hackathon 2nd place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National math competition silver",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Regional History Bowl medals",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. School-wide course awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 12,
+      "first_gen": null,
+      "service_summary": "5. Founded service club (12) - fundraised for and partner with local NPOs; 7. Tutor (9-12) - everywhere, all the time"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "environmental science, chem/bio eng, public health"
+    },
+    "ESSAY_SCORE": null
+  }
+}

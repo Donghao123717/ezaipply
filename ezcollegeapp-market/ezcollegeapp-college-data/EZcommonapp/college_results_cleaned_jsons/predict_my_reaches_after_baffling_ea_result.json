@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 99.01,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\- Math Team Captain - good district/región placement \\- Engineering research (L",
+          "role": "",
+          "description": "\\- Math Team Captain - good district/región placement \\- Engineering research (Local College) - worked with Fusion 360 on research project"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Awards: College Board Small Town Recognition College Board High School Recognition NHS Distinguished Academics Award (Du",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 58,
+      "first_gen": null,
+      "service_summary": "\\- Library Club - Acted as librarian 120+ volunteer hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Mechanical Engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Small app with 200,000+ users for fun",
+          "role": "",
+          "description": "1. Small app with 200,000+ users for fun"
+        },
+        {
+          "name": "2. Internship at small, international law firm",
+          "role": "",
+          "description": "2. Internship at small, international law firm"
+        },
+        {
+          "name": "3. County student council / student government (countywide)",
+          "role": "",
+          "description": "3. County student council / student government (countywide)"
+        },
+        {
+          "name": "4. Started a donation drive at my school to raise money for a charity and we rai",
+          "role": "",
+          "description": "4. Started a donation drive at my school to raise money for a charity and we raised $50k+"
+        },
+        {
+          "name": "EDIT: I have additional activities these were just the 4 I feel were the most im",
+          "role": "",
+          "description": "EDIT: I have additional activities these were just the 4 I feel were the most impressive and stood out the rest were pretty standard."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Coca Cola scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Some presidential award and governors award and principal's award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Service award for having 500+ student service hours",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Joined like every honor society at my school",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 500,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

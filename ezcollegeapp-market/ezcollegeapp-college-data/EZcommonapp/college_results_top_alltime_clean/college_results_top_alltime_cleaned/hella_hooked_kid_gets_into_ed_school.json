@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Debate: Team Captain, NSDA National Qualifier in World Schools, lots of leade",
+          "role": "",
+          "description": "1. Debate: Team Captain, NSDA National Qualifier in World Schools, lots of leadership and competition hours. Definitely my most time-intensive EC. Emphasized how I coach novices"
+        },
+        {
+          "name": "2. Teaching Assistant: I worked and fully taught (math, English, Social Emotiona",
+          "role": "",
+          "description": "2. Teaching Assistant: I worked and fully taught (math, English, Social Emotional Learning) over my junior summer with Middle Schoolers from the inner-city.  Definitely, an insane experience, and I wrote about it in my C"
+        },
+        {
+          "name": "3. Research Assistant: I did some research on Black Workforce trends for the sam",
+          "role": "",
+          "description": "3. Research Assistant: I did some research on Black Workforce trends for the same organization that gave me the TA position"
+        },
+        {
+          "name": "4. Principal's Committee on Equity: I was selected by my principal to work with ",
+          "role": "",
+          "description": "4. Principal's Committee on Equity: I was selected by my principal to work with some of my classmates to make our curriculum and school environment more equitable to various communities."
+        },
+        {
+          "name": "5. Marching Band: Massive time commitment: Small leadership Role",
+          "role": "",
+          "description": "5. Marching Band: Massive time commitment: Small leadership Role"
+        },
+        {
+          "name": "6. Varsity/JV Baseball: We love being ✨well-rounded✨ (I did not start tho 😭)",
+          "role": "",
+          "description": "6. Varsity/JV Baseball: We love being ✨well-rounded✨ (I did not start tho 😭)"
+        },
+        {
+          "name": "7. Club with some of my church buddies where we reached out to surrounding schoo",
+          "role": "",
+          "description": "7. Club with some of my church buddies where we reached out to surrounding schools to do a presentation on cultural sensitivity"
+        },
+        {
+          "name": "8. Coached at a Summer Baseball Camp - emphasized being able to teach the next g",
+          "role": "",
+          "description": "8. Coached at a Summer Baseball Camp - emphasized being able to teach the next generation of baseball players"
+        },
+        {
+          "name": "9. Summer Church Camp (LOVE those kids - why I want to work in education)",
+          "role": "",
+          "description": "9. Summer Church Camp (LOVE those kids - why I want to work in education)"
+        },
+        {
+          "name": "10. Econ camp for a week cuz I'm a nerd - shoutout out EFL",
+          "role": "",
+          "description": "10. Econ camp for a week cuz I'm a nerd - shoutout out EFL"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *NSDA Nationals*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *National Honor Society (President)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Other Honor Societies (President of the music one)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *National African American Recognition Scholar*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *AP Scholar*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "urban studies, education"
+    },
+    "ESSAY_SCORE": null
+  }
+}

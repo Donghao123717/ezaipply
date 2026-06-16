@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Science Olympiad: participated all four years, Outreach Manager, 21 medals (incl",
+          "role": "",
+          "description": "Science Olympiad: participated all four years, Outreach Manager, 21 medals (including 2 at state)"
+        },
+        {
+          "name": "NHS: Co-President, planned a bunch of events",
+          "role": "",
+          "description": "NHS: Co-President, planned a bunch of events"
+        },
+        {
+          "name": "Spanish NHS: President, planned cultural events and tutoring",
+          "role": "",
+          "description": "Spanish NHS: President, planned cultural events and tutoring"
+        },
+        {
+          "name": "Math Club: member since 9th grade, Secretary, 3rd place team country math comp",
+          "role": "",
+          "description": "Math Club: member since 9th grade, Secretary, 3rd place team country math comp"
+        },
+        {
+          "name": "Swimming: swam for an off-campus team from 8th until 11th grade, went to a few m",
+          "role": "",
+          "description": "Swimming: swam for an off-campus team from 8th until 11th grade, went to a few meets with average results, I only included it cuz it’s my only sport lol"
+        },
+        {
+          "name": "I’ll stop here since the other ones aren’t as notable (no officer positions)",
+          "role": "",
+          "description": "I’ll stop here since the other ones aren’t as notable (no officer positions)"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "21 SciOly medals (incl. 2nd + 4th place at state)",
+          "role": "",
+          "description": "21 SciOly medals (incl. 2nd + 4th place at state)"
+        },
+        {
+          "name": "NMSQT Commended Scholar",
+          "role": "",
+          "description": "NMSQT Commended Scholar"
+        },
+        {
+          "name": "3rd Place Riverside County Math Comp",
+          "role": "",
+          "description": "3rd Place Riverside County Math Comp"
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "role": "",
+          "description": "AP Scholar with Distinction"
+        },
+        {
+          "name": "AP International Diploma",
+          "role": "",
+          "description": "AP International Diploma"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "11th grade IB HOTA (History) teacher, didn’t ask to read it, but I did read the ",
+          "role": "",
+          "description": "11th grade IB HOTA (History) teacher, didn’t ask to read it, but I did read the rec letter she wrote me when I was running for student school board member and it was outstanding. Included how excited "
+        },
+        {
+          "name": "11th grade IB Spanish teacher, again didn’t ask to read it but she liked me a lo",
+          "role": "",
+          "description": "11th grade IB Spanish teacher, again didn’t ask to read it but she liked me a lot so I think it should be good."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "21 SciOly medals (incl. 2nd + 4th place at state)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NMSQT Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3rd Place Riverside County Math Comp",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP International Diploma",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "11th grade IB HOTA (History) teacher, didn’t ask to read it, but I did read the rec letter she wrote",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "11th grade IB Spanish teacher, again didn’t ask to read it but she liked me a lot so I think it shou",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Wrote about how moving to the US at age 9 profoundly affected my identity and how I went from thinki",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "asian american studies/urban studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.86,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Violinist in a highly selective orchestra in Northeast (don't want to name fo",
+          "role": "",
+          "description": "1. Violinist in a highly selective orchestra in Northeast (don't want to name for privacy's sake)"
+        },
+        {
+          "name": "2. Part of a highly selective local research program for astrophysics (don't wan",
+          "role": "",
+          "description": "2. Part of a highly selective local research program for astrophysics (don't want to name for privacy's sake)"
+        },
+        {
+          "name": "3. Questbridge Finalist/Scholar",
+          "role": "",
+          "description": "3. Questbridge Finalist/Scholar"
+        },
+        {
+          "name": "4. Manager of two separate tutoring programs",
+          "role": "",
+          "description": "4. Manager of two separate tutoring programs"
+        },
+        {
+          "name": "5. Tutored Math, Science, and Violin",
+          "role": "",
+          "description": "5. Tutored Math, Science, and Violin"
+        },
+        {
+          "name": "6. Science Bowl (Captain of one of the low-level teams)",
+          "role": "",
+          "description": "6. Science Bowl (Captain of one of the low-level teams)"
+        },
+        {
+          "name": "7. A couple of other chamber groups and orchestras (All States for both Choir an",
+          "role": "",
+          "description": "7. A couple of other chamber groups and orchestras (All States for both Choir and Orchestra)"
+        },
+        {
+          "name": "8. Brazilian Jiu-Jitsu and TKD practitioner",
+          "role": "",
+          "description": "8. Brazilian Jiu-Jitsu and TKD practitioner"
+        },
+        {
+          "name": "9. A bunch of community service stuff",
+          "role": "",
+          "description": "9. A bunch of community service stuff"
+        },
+        {
+          "name": "10. NHS",
+          "role": "",
+          "description": "10. NHS"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. US Earth Science Olympiad Camp Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Two-time AIME Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Scholastic Flash Fiction Honorable Mention",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Honor Roll I guess",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": true,
+      "service_summary": "9. A bunch of community service stuff"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mech/aerospace engineering, math/phys"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Exactly as listed and described on application:",
+          "role": "",
+          "description": "Exactly as listed and described on application:"
+        },
+        {
+          "name": "1. **Robotics Team:** won some regional competitions",
+          "role": "",
+          "description": "1. **Robotics Team:** won some regional competitions"
+        },
+        {
+          "name": "2. **Wrote articles for youth magazine: 18 published and editor senior year**",
+          "role": "",
+          "description": "2. **Wrote articles for youth magazine: 18 published and editor senior year**"
+        },
+        {
+          "name": "3. **Trip to Laos to help build village**",
+          "role": "",
+          "description": "3. **Trip to Laos to help build village**"
+        },
+        {
+          "name": "4. **Stanford summer program**",
+          "role": "",
+          "description": "4. **Stanford summer program**"
+        },
+        {
+          "name": "5. **Intern at local tech start up:** got coffee basically lol but great letter ",
+          "role": "",
+          "description": "5. **Intern at local tech start up:** got coffee basically lol but great letter of rec"
+        },
+        {
+          "name": "6. **Vice President of School:**",
+          "role": "",
+          "description": "6. **Vice President of School:**"
+        },
+        {
+          "name": "had a few more but these were main",
+          "role": "",
+          "description": "had a few more but these were main"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Won regional robotics competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Spanish Exam gold award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Won school wide award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Best intern at tech start up",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Science Olympiad (Biggest commitment as president for 3 years. I organized d",
+          "role": "",
+          "description": "1. *Science Olympiad (Biggest commitment as president for 3 years. I organized district-wide competition events and lead mentorship programs for middle school teams.)*"
+        },
+        {
+          "name": "2. UIL academics (Also a large commitment as a captain for several events)",
+          "role": "",
+          "description": "2. UIL academics (Also a large commitment as a captain for several events)"
+        },
+        {
+          "name": "3. Research at SSP (probably my biggest hook imo. I basically did biochem resear",
+          "role": "",
+          "description": "3. Research at SSP (probably my biggest hook imo. I basically did biochem research to find a novel inhibitor to combat a fungal disease in date plants. It was a pretty cool summer program since I got to talk to MIT, Calt"
+        },
+        {
+          "name": "4. NASA high school program",
+          "role": "",
+          "description": "4. NASA high school program"
+        },
+        {
+          "name": "5. School Ambassador (lead student orientations, organized student events, did t",
+          "role": "",
+          "description": "5. School Ambassador (lead student orientations, organized student events, did tours, etc.)"
+        },
+        {
+          "name": "6. Co founded SAT tutoring (increased the average SAT score of my school by 75+ ",
+          "role": "",
+          "description": "6. Co founded SAT tutoring (increased the average SAT score of my school by 75+ points)"
+        },
+        {
+          "name": "7. USABO/USNCO",
+          "role": "",
+          "description": "7. USABO/USNCO"
+        },
+        {
+          "name": "8. Journalism fellowship",
+          "role": "",
+          "description": "8. Journalism fellowship"
+        },
+        {
+          "name": "9. National History Day",
+          "role": "",
+          "description": "9. National History Day"
+        },
+        {
+          "name": "10. Summer jobs stuff",
+          "role": "",
+          "description": "10. Summer jobs stuff"
+        },
+        {
+          "name": "11. Rocketry/Aerospace stuff",
+          "role": "",
+          "description": "11. Rocketry/Aerospace stuff"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Multiple state and regional Science Olympiad Medals (ranging from 1st to 3rd)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Multiple UIL Science/Math/Social Studies/Computer Science Medals",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. NYAS Challenges International Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. USNCO National Exam Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National History Day 1st place @ Regionals and State Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Gates Scholarship Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. Jack Kent Cooke Semifinalist and Elks Quarterfinalist (updated RD schools)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "8. Questbridge National Match Finalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biomedical engineering / biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

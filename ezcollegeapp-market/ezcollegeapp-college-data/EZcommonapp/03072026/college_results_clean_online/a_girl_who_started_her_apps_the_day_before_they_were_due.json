@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. student council rep",
+          "role": "",
+          "description": "1. student council rep"
+        },
+        {
+          "name": "2. marketing intern",
+          "role": "",
+          "description": "2. marketing intern"
+        },
+        {
+          "name": "3. international volunteer tutor",
+          "role": "",
+          "description": "3. international volunteer tutor"
+        },
+        {
+          "name": "4. civic engagement intern",
+          "role": "",
+          "description": "4. civic engagement intern"
+        },
+        {
+          "name": "5. community service intern (city-wide)",
+          "role": "",
+          "description": "5. community service intern (city-wide)"
+        },
+        {
+          "name": "6. digital passion project",
+          "role": "",
+          "description": "6. digital passion project"
+        },
+        {
+          "name": "7. dance clubs choreographer",
+          "role": "",
+          "description": "7. dance clubs choreographer"
+        },
+        {
+          "name": "8. varsity sport",
+          "role": "",
+          "description": "8. varsity sport"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": null,
+      "service_summary": "3. international volunteer tutor; 5. community service intern (city-wide)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "business or econ or any pre-law track they offer"
+    },
+    "ESSAY_SCORE": null
+  }
+}

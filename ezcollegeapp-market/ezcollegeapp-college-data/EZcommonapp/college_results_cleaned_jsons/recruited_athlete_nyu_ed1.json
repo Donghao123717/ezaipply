@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Sport (4 year Varsity Letterman",
+          "role": "",
+          "description": "Sport (4 year Varsity Letterman"
+        },
+        {
+          "name": "Club",
+          "role": "",
+          "description": "Club"
+        },
+        {
+          "name": "Captain",
+          "role": "",
+          "description": "Captain"
+        },
+        {
+          "name": "Senior Year) Volunteer at Food Bank NHS Student Council Secretary Volunteer Coac",
+          "role": "",
+          "description": "Senior Year) Volunteer at Food Bank NHS Student Council Secretary Volunteer Coach Paid Coach Peer Tutor Volunteer Lab Assistant Volunteer Summer Research Assistant (Contributed to published journal abstract)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Psych",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc BC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Stats",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Physics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Organic Chemistry Standardized Testing ACT: 34 (35E, 34M, 35R, 32S) AP: US History (4), Chemistry (5) , Biology (5), Mic",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Volunteer at Food Bank Volunteer Coach Peer Tutor"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Global Public Health/Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

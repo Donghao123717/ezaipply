@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. President of a chapter of a national community health organization that broug",
+          "role": "",
+          "description": "1. President of a chapter of a national community health organization that brought students, doctors, nurses, and emt's to Mexico to run free clinics"
+        },
+        {
+          "name": "2. Vice president of school's prelaw society",
+          "role": "",
+          "description": "2. Vice president of school's prelaw society"
+        },
+        {
+          "name": "3. Theater coursework and productions",
+          "role": "",
+          "description": "3. Theater coursework and productions"
+        },
+        {
+          "name": "4. Completed pathway to law school (basically California LAW has a thing at comm",
+          "role": "",
+          "description": "4. Completed pathway to law school (basically California LAW has a thing at community colleges where if you complete a pathway of coursework you get priority admissions to law schools in California)"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "1. Completed Honors Program",
+          "role": "",
+          "description": "1. Completed Honors Program"
+        },
+        {
+          "name": "2. Recieved Multiple Associates degrees in Political Science, Social and Behavio",
+          "role": "",
+          "description": "2. Recieved Multiple Associates degrees in Political Science, Social and Behavioral Sciences, Liberal Studies, and Natural Sciences"
+        },
+        {
+          "name": "3. Scholarship",
+          "role": "",
+          "description": "3. Scholarship"
+        },
+        {
+          "name": "4. Research conference prize",
+          "role": "",
+          "description": "4. Research conference prize"
+        },
+        {
+          "name": "5. Stanford research conference acceptance",
+          "role": "",
+          "description": "5. Stanford research conference acceptance"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "I had two professors who I was close with write my letters of reccomendation. Bo",
+          "role": "",
+          "description": "I had two professors who I was close with write my letters of reccomendation. Both of which were phD holders."
+        },
+        {
+          "name": "Interviews",
+          "role": "",
+          "description": "Interviews"
+        },
+        {
+          "name": "Never was called for any.",
+          "role": "",
+          "description": "Never was called for any."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Completed Honors Program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Recieved Multiple Associates degrees in Political Science, Social and Behavioral Sciences, Libera",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Scholarship",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Research conference prize",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Stanford research conference acceptance",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I had two professors who I was close with write my letters of reccomendation. Both of which were phD",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Never was called for any.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "1. President of a chapter of a national community health organization that brought students, doctors, nurses, and emt's to Mexico to run free clinics; 4. Completed pathway to law school (basically California LAW has a thing at community colleges where if you complete a pathway of coursework you get priority admissions to law schools in California)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "public health (or anything with a similar curriculum) doubling in theater and pe"
+    },
+    "ESSAY_SCORE": null
+  }
+}

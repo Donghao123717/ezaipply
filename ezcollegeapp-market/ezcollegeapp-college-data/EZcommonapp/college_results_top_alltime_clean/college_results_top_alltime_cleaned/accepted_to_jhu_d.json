@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "I'm just gonna copy and paste exactly how I wrote them on my common app since th",
+          "role": "",
+          "description": "I'm just gonna copy and paste exactly how I wrote them on my common app since that's the only info AOs saw anyway"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        },
+        {
+          "name": "1. Math Team Captain, A-team(top 6 people) since 9th grade, \\[redacted :P\\] Coun",
+          "role": "",
+          "description": "1. Math Team Captain, A-team(top 6 people) since 9th grade, \\[redacted :P\\] County Math League, lead weekly practices for competition, introduce number theory topics to team, one-on-one math tutoring, promote team in sch"
+        },
+        {
+          "name": "2. Lead Programmer, Outreach Coordinator, FTC FIRST Robotics, Team \\[redacted\\],",
+          "role": "",
+          "description": "2. Lead Programmer, Outreach Coordinator, FTC FIRST Robotics, Team \\[redacted\\], collaborate with hardware team to implement autonomous path generation and localization algorithms, organize coding classes for young local"
+        },
+        {
+          "name": "3. Clarinet Player, \\[redacted\\] High School Marching Band,  perform memorized d",
+          "role": "",
+          "description": "3. Clarinet Player, \\[redacted\\] High School Marching Band,  perform memorized drill and music in weekly shows, do physical marching and technique training, ranked nationally, qualified for clarinet quartet, 20 hr/wk, 16"
+        },
+        {
+          "name": "4. Model Congress Executive Board Member, \\[redacted\\] High School Model Congres",
+          "role": "",
+          "description": "4. Model Congress Executive Board Member, \\[redacted\\] High School Model Congress,  participate in conferences debating, writing and amending resolutions, organize workshops to teach new members about bills, procedures, "
+        },
+        {
+          "name": "5. Clarinet Player, \\[redacted\\] Concert Band,  rehearse weekly, perform for fre",
+          "role": "",
+          "description": "5. Clarinet Player, \\[redacted\\] Concert Band,  rehearse weekly, perform for free at winter, spring, summer concerts, senior centers, beaches, performing patriotic and pop music for the community, 2 hr/wk, 40 wk/yr, 9, 1"
+        },
+        {
+          "name": "6. Staff Member, Kumon Center, tutor students in math and reading, from counting",
+          "role": "",
+          "description": "6. Staff Member, Kumon Center, tutor students in math and reading, from counting and the alphabet up to Calc 2 and Shakespeare, oversee 20+ students at a time, improve test scores, 6 hr/wk, 35 wk/yr, 9-12"
+        },
+        {
+          "name": "7. French Honors Society Treasurer, Honors Societies Activities and Tutoring, me",
+          "role": "",
+          "description": "7. French Honors Society Treasurer, Honors Societies Activities and Tutoring, member of Math, History, English, Music, and French Honors societies, volunteer 8-20 hours for each society, one-on-one tutoring and fundraise"
+        },
+        {
+          "name": "8. Tutor, \\[redacted\\] Tutors, member of student-led organization that tutors st",
+          "role": "",
+          "description": "8. Tutor, \\[redacted\\] Tutors, member of student-led organization that tutors students across country via Zoom, provide free, one-on-one AP, SAT, ACT, core subject, homework help, 6 hr/wk, 35 wk/yr, 10-12"
+        },
+        {
+          "name": "9. Gender-Sexuality Alliance, discuss historical and contemporary LGBT issues an",
+          "role": "",
+          "description": "9. Gender-Sexuality Alliance, discuss historical and contemporary LGBT issues and applications, fundraise for LGBT charities over the year, 1 hr/wk, 30 wk/yr, 9-10"
+        },
+        {
+          "name": "10. Link Crew Leader, Link Crew organize freshman orientation program, introduci",
+          "role": "",
+          "description": "10. Link Crew Leader, Link Crew organize freshman orientation program, introducing new students to classrooms, teachers, schedules and periods, provide support to freshmen in school, 1 hr/wk, 30 wk/yr, 12"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. FTC FIRST Robotics World Championship participant",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AMC12 Honors with Distinction/AIME Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Official CT ARML team (qualified for state math team, 15/140ish ppl)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\[redacted\\] County Math League Top Scorer/Perfect Scorer (regional comp)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 8,
+      "first_gen": null,
+      "service_summary": "5. Clarinet Player, \\[redacted\\] Concert Band,  rehearse weekly, perform for free at winter, spring, summer concerts, senior centers, beaches, performing patriotic and pop music for the community, 2 hr/wk, 40 wk/yr, 9, 1; 6. Staff Member, Kumon Center, tutor students in math and reading, from counting and the alphabet up to Calc 2 and Shakespeare, oversee 20+ students at a time, improve test scores, 6 hr/wk, 35 wk/yr, 9-12; 7. French Honors Society Treasurer, Honors Societies Activities and Tuto"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering, applied math and statistics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc.",
+          "role": "",
+          "description": "etc."
+        },
+        {
+          "name": "Biomedical Engineering Research Assistant. Assisted a professor at a local unive",
+          "role": "",
+          "description": "Biomedical Engineering Research Assistant. Assisted a professor at a local university (remotely if needed) in researching novel biomaterials for prosthetics. Conducted literature reviews, assisted with experiments, and analyzed data, contributing to a publication on advanced prosthetic limb design, which improved the quality of life of the patients."
+        },
+        {
+          "name": "Biology Olympiad Team Member. Participated in the International Biology Olympiad",
+          "role": "",
+          "description": "Biology Olympiad Team Member. Participated in the International Biology Olympiad, dedicating 10 hours weekly to studying advanced biological concepts, practicing problem-solving, and collaborating with teammates. Achieved a top score on the national qualifying exam."
+        },
+        {
+          "name": "Science Club Founder and President. Founded a Science Club at school, organizing",
+          "role": "",
+          "description": "Science Club Founder and President. Founded a Science Club at school, organizing weekly meetings, inviting guest speakers from STEM fields, and leading hands-on science experiments. Increased student participation in science-related activities by 40% in the first year."
+        },
+        {
+          "name": "Hospital Volunteer. Volunteered at a local hospital, assisting nurses with patie",
+          "role": "",
+          "description": "Hospital Volunteer. Volunteered at a local hospital, assisting nurses with patient care, translating for Vietnamese-speaking patients, and providing emotional support to families. Contributed over 200 hours, improving patient comfort and satisfaction."
+        },
+        {
+          "name": "Mental Health Awareness Advocate. Organized workshops and campaigns to raise awa",
+          "role": "",
+          "description": "Mental Health Awareness Advocate. Organized workshops and campaigns to raise awareness about mental health issues among teenagers. Created a peer support group at school, providing a safe space for students to discuss their struggles. Reduced stigma surrounding mental health by 25%."
+        },
+        {
+          "name": "Water Filtration System Designer. Led a team in designing and building a low-cos",
+          "role": "",
+          "description": "Water Filtration System Designer. Led a team in designing and building a low-cost water filtration system for rural communities in Vietnam. Secured a grant of $500 from a local organization, which was used to implement the project in one community."
+        },
+        {
+          "name": "School Choir Member and Section Leader. Participated in the school choir, perfor",
+          "role": "",
+          "description": "School Choir Member and Section Leader. Participated in the school choir, performing at school events and community concerts. As a section leader, led rehearsals, mentored new members, and contributed to award-winning performances at regional competitions."
+        },
+        {
+          "name": "Vietnamese Cultural Club President. Led the Vietnamese Cultural Club at school, ",
+          "role": "",
+          "description": "Vietnamese Cultural Club President. Led the Vietnamese Cultural Club at school, organizing cultural events, language classes, and celebrations of Vietnamese holidays. Increased club membership by 60% and promoted cultural understanding within the school community."
+        },
+        {
+          "name": "Debate Club Member. Participated in the debate club, honing critical thinking, p",
+          "role": "",
+          "description": "Debate Club Member. Participated in the debate club, honing critical thinking, public speaking, and argumentation skills. Competed in regional debate tournaments, arguing complex topics related to science, technology, and social policy."
+        },
+        {
+          "name": "Movie Review Blogger. Authored a movie review blog, analyzing films from various",
+          "role": "",
+          "description": "Movie Review Blogger. Authored a movie review blog, analyzing films from various genres and cultures, focusing on themes of resilience, cultural identity, and the human condition. Published over 50 reviews, attracting a readership of 500+ followers."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing List the highest scores earned and all scores that were reported. SAT: 1520",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 200,
+      "first_gen": null,
+      "service_summary": "Hospital Volunteer. Volunteered at a local hospital, assisting nurses with patient care, translating for Vietnamese-speaking patients, and providing emotional support to families. Contributed over 200 hours, improving patient comfort and satisfaction. Water Filtration System Designer. Led a team in designing and building a low-cost water filtration system for rural communities in Vietnam. Secured "
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biomedical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

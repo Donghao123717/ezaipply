@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1430,
+      "act_composite": 32,
+      "class_rank_percentile": 80.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I will keep these relatively vague and brief for privacy's sake.",
+          "role": "",
+          "description": "I will keep these relatively vague and brief for privacy's sake."
+        },
+        {
+          "name": "1. Home care for a grandparent who has Parkinson's Disease, diabetes, and hypert",
+          "role": "",
+          "description": "1. Home care for a grandparent who has Parkinson's Disease, diabetes, and hypertension"
+        },
+        {
+          "name": "2. Member of a 501(c)(3) nonprofit organization dedicated to advancing education",
+          "role": "",
+          "description": "2. Member of a 501(c)(3) nonprofit organization dedicated to advancing educational opportunities for the youth in my area"
+        },
+        {
+          "name": "3. President of Student Council",
+          "role": "",
+          "description": "3. President of Student Council"
+        },
+        {
+          "name": "4. Varsity basketball",
+          "role": "",
+          "description": "4. Varsity basketball"
+        },
+        {
+          "name": "5. Key Club",
+          "role": "",
+          "description": "5. Key Club"
+        },
+        {
+          "name": "6. Vice President of the National Honor Society",
+          "role": "",
+          "description": "6. Vice President of the National Honor Society"
+        },
+        {
+          "name": "7. Varsity track and field",
+          "role": "",
+          "description": "7. Varsity track and field"
+        },
+        {
+          "name": "8. Captain of Science Team",
+          "role": "",
+          "description": "8. Captain of Science Team"
+        },
+        {
+          "name": "9. School Newspaper",
+          "role": "",
+          "description": "9. School Newspaper"
+        },
+        {
+          "name": "10. Member of a district-wide School Spirit program",
+          "role": "",
+          "description": "10. Member of a district-wide School Spirit program"
+        },
+        {
+          "name": "Just do things you enjoy and try to have leadership positions in them.",
+          "role": "",
+          "description": "Just do things you enjoy and try to have leadership positions in them."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Finished in the top 20% in the 2020 Breakthrough Junior Challenge",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. High Honor Roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Basketball varsity letter",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Boys State",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Unless you're a Regeneron winner, medalist on the international Olympiad level (i.e. USAMO), RSI par",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " **economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

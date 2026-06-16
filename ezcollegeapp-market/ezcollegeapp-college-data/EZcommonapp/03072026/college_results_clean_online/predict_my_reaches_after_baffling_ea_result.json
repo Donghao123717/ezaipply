@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 99.01,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\- Math Team Captain - good district/región placement",
+          "role": "",
+          "description": "\\- Math Team Captain - good district/región placement"
+        },
+        {
+          "name": "\\- Engineering research (Local College) - worked with Fusion 360 on research pro",
+          "role": "",
+          "description": "\\- Engineering research (Local College) - worked with Fusion 360 on research project"
+        },
+        {
+          "name": "\\- Marching band - Leadership, region, state awards, soloist",
+          "role": "",
+          "description": "\\- Marching band - Leadership, region, state awards, soloist"
+        },
+        {
+          "name": "\\- Mariachi band- Región awards, soloist",
+          "role": "",
+          "description": "\\- Mariachi band- Región awards, soloist"
+        },
+        {
+          "name": "\\- Jazz band - Soloist",
+          "role": "",
+          "description": "\\- Jazz band - Soloist"
+        },
+        {
+          "name": "\\- Library Club - Acted as librarian 120+ volunteer hours",
+          "role": "",
+          "description": "\\- Library Club - Acted as librarian 120+ volunteer hours"
+        },
+        {
+          "name": "\\- Speech and debate team - Speaking Captain + district/región placement",
+          "role": "",
+          "description": "\\- Speech and debate team - Speaking Captain + district/región placement"
+        },
+        {
+          "name": "\\- Student council representative",
+          "role": "",
+          "description": "\\- Student council representative"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "College Board Small Town Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "College Board High School Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Distinguished Academics Award (Dual enrollment)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Various math, speaking, and music awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "\\- Library Club - Acted as librarian 120+ volunteer hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mechanical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

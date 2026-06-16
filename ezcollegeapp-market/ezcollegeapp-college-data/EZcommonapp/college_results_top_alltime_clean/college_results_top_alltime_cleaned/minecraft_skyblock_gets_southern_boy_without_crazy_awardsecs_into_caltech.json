@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1340,
+      "act_composite": 29,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Colorguard (3 years): This is the Marching Band colorguard btw. I participate",
+          "role": "",
+          "description": "1. Colorguard (3 years): This is the Marching Band colorguard btw. I participated in this all 3 years of high school during the fall, and it is a major time commitment, as in some weeks upwards of 50 hours."
+        },
+        {
+          "name": "2. Winterguard (3 Years, 2 at time of app): This is roughly the same as Colorgua",
+          "role": "",
+          "description": "2. Winterguard (3 Years, 2 at time of app): This is roughly the same as Colorguard, but in the Winter/Spring and an even more extreme time commitment."
+        },
+        {
+          "name": "3. Working out (4 years): I put this down just because it has been extremely imp",
+          "role": "",
+          "description": "3. Working out (4 years): I put this down just because it has been extremely important to me (I submitted supps about this), and I on average spend from 6-12 hours per week in the gym, and learned how to structure progra"
+        },
+        {
+          "name": "4. NHS: This one is a bit of a stretch, but I really don't have much to work wit",
+          "role": "",
+          "description": "4. NHS: This one is a bit of a stretch, but I really don't have much to work with where I live and through my volunteering have learned valuable life lessons that have helped shape who I am."
+        },
+        {
+          "name": "5. STEM club: This is one of the handful of extracurriculars I could have had to",
+          "role": "",
+          "description": "5. STEM club: This is one of the handful of extracurriculars I could have had to demonstrate interest in STEM, and I ended up joining because this club goes to elementary schools to introduce science to the kids there wh"
+        },
+        {
+          "name": "6. Band (?): I didn't list this directly, but I have been in band for 6 years an",
+          "role": "",
+          "description": "6. Band (?): I didn't list this directly, but I have been in band for 6 years and play the saxophone and oboe which was mentioned in other areas."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "1. A Honor roll for 2 years",
+          "role": "",
+          "description": "1. A Honor roll for 2 years"
+        },
+        {
+          "name": "2. All region band for 2 years on oboe",
+          "role": "",
+          "description": "2. All region band for 2 years on oboe"
+        },
+        {
+          "name": "3. AP Scholar with Honor",
+          "role": "",
+          "description": "3. AP Scholar with Honor"
+        },
+        {
+          "name": "4. National Hispanic Recognition Award",
+          "role": "",
+          "description": "4. National Hispanic Recognition Award"
+        },
+        {
+          "name": "5. Some guard awards that would doxx me",
+          "role": "",
+          "description": "5. Some guard awards that would doxx me"
+        },
+        {
+          "name": "6. Questbridge CPS and NCM finalist",
+          "role": "",
+          "description": "6. Questbridge CPS and NCM finalist"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. A Honor roll for 2 years",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. All region band for 2 years on oboe",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Hispanic Recognition Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Some guard awards that would doxx me",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Questbridge CPS and NCM finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(From this point on I get pretty lengthy, so feel free to skim, but I hope you enjoy whatever I wrot",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Language and Composition Teacher: 8/10- I have not read my rec, but I think this one must have be",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honors Chemistry Teacher: 7/10- Haven't read this either, but I am really unsure about this rec. We ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "physics or chemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

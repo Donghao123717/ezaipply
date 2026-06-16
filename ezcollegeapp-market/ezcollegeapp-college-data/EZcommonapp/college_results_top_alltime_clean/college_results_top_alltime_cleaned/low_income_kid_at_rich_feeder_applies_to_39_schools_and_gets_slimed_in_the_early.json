@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.6,
+      "sat_total": null,
+      "act_composite": 5,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. family responsibilities - filling out government paperwork, translating, chor",
+          "role": "",
+          "description": "1. family responsibilities - filling out government paperwork, translating, chores, grocery shopping, etc."
+        },
+        {
+          "name": "2. very competitive local research internship for my major",
+          "role": "",
+          "description": "2. very competitive local research internship for my major"
+        },
+        {
+          "name": "3. part-time job",
+          "role": "",
+          "description": "3. part-time job"
+        },
+        {
+          "name": "4. part-time job but diff role",
+          "role": "",
+          "description": "4. part-time job but diff role"
+        },
+        {
+          "name": "5. hospital volunteer - wrote some interesting stories abt this one",
+          "role": "",
+          "description": "5. hospital volunteer - wrote some interesting stories abt this one"
+        },
+        {
+          "name": "6. some leadership thing school related",
+          "role": "",
+          "description": "6. some leadership thing school related"
+        },
+        {
+          "name": "7. school club leadership",
+          "role": "",
+          "description": "7. school club leadership"
+        },
+        {
+          "name": "8. school club leadership",
+          "role": "",
+          "description": "8. school club leadership"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. national merit commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. ap scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. pvsa bronze",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. **2/1/2026:** I notified all my remaining colleges that I was a Hagan Scholarship Finalist!",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. hospital volunteer - wrote some interesting stories abt this one"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied chem, bio, biochem, cell bio depending on school"
+    },
+    "ESSAY_SCORE": null
+  }
+}

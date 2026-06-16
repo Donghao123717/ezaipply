@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1pwmgvq",
+    "title": "Since RD is due soon I made a discord for yall to share essays/get feedback.",
+    "author": "Electrical-Pitch7017",
+    "selftext": "Take precaution and redact personal info for obvious reasons.\n\nhttps://discord.gg/YVwU6rv3tn",
+    "score": "1",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pwmgvq/since_rd_is_due_soon_i_made_a_discord_for_yall_to/",
+    "created": "2025-12-27T02:39:38+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nw4ndr2",
+      "author": "Electrical-Pitch7017",
+      "body": "Added a verification page so random people can’t access the essays. Only those currently applying and current college students will be able to view the channels.",
+      "score": "1 point",
+      "created": "2025-12-27T02:50:26+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nw9qfl4",
+      "author": "Electrical-Pitch7017",
+      "body": "Currently a Yale student and Cornell student available to help!",
+      "score": "1 point",
+      "created": "2025-12-27T23:06:30+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pwmgvq",
+        "author": "Electrical-Pitch7017",
+        "title": "Since RD is due soon I made a discord for yall to share essays/get feedback.",
+        "body": "Take precaution and redact personal info for obvious reasons.\n\nhttps://discord.gg/YVwU6rv3tn",
+        "full_text": "Since RD is due soon I made a discord for yall to share essays/get feedback.\n\nTake precaution and redact personal info for obvious reasons.\n\nhttps://discord.gg/YVwU6rv3tn"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nw4ndr2",
+          "author": "Electrical-Pitch7017",
+          "body": "Added a verification page so random people can’t access the essays. Only those currently applying and current college students will be able to view the channels.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nw9qfl4",
+          "author": "Electrical-Pitch7017",
+          "body": "Currently a Yale student and Cornell student available to help!",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

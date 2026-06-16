@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 13
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Chem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Research",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Eng Lit Standardized Testing SAT/ACT: 1510 SAT (790 Math, 720EBRW)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 365,
+      "first_gen": null,
+      "service_summary": "Nobody in the real world succeeds by just doing the hardest math problems. Even if they're a researcher, they still need to leverage social skills to get things done in their community. That's exactly what you did."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Neuroscience, or Biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

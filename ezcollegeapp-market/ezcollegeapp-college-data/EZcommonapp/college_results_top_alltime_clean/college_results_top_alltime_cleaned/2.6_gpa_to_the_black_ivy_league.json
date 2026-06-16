@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 2.6,
+      "sat_total": 1120,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **Speech and Debate Team** Competed at the state championship on three separa",
+          "role": "",
+          "description": "1. **Speech and Debate Team** Competed at the state championship on three separate occasions between the two sports (my team is too poor to do any national stuff so states is as far as we go), served as team captain for "
+        },
+        {
+          "name": "2. **Literary Magazine** Helped to found my school’s literary magazine, which ha",
+          "role": "",
+          "description": "2. **Literary Magazine** Helped to found my school’s literary magazine, which has received city-wide awards, hosts contests for students, and helps students to have a creative outlet. (2019-)"
+        },
+        {
+          "name": "3. **Student Council Association** Plan dances and other events for the school, ",
+          "role": "",
+          "description": "3. **Student Council Association** Plan dances and other events for the school, along with advocating on behalf of the student body (2019-)"
+        },
+        {
+          "name": "4. **Model UN** Compete at conferences as a delegate for an assigned country (20",
+          "role": "",
+          "description": "4. **Model UN** Compete at conferences as a delegate for an assigned country (2022-)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. 4th place for Congressional Debate at the 2022 Debate State Championships",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Elected to serve as the Secretary for my school’s Student Council Association (2022)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Won a writing contest for Hollins University, in which they offered me $20,000 over the course of",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "english, with a concentration in pre-law. possible double major in philosophy or"
+    },
+    "ESSAY_SCORE": null
+  }
+}

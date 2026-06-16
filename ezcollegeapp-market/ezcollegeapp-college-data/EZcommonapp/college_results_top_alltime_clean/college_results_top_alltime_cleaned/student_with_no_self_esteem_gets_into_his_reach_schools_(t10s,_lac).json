@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1360,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Greenhouse - Member - 3 years",
+          "role": "",
+          "description": "1. Greenhouse - Member - 3 years"
+        },
+        {
+          "name": "2. Saturday Academy at Museum - Participant - 6 weeks",
+          "role": "",
+          "description": "2. Saturday Academy at Museum - Participant - 6 weeks"
+        },
+        {
+          "name": "3. Kpop Club - Member - 2 years",
+          "role": "",
+          "description": "3. Kpop Club - Member - 2 years"
+        },
+        {
+          "name": "4. Discussions Club - Member - 1 year (Virtual Club)",
+          "role": "",
+          "description": "4. Discussions Club - Member - 1 year (Virtual Club)"
+        },
+        {
+          "name": "5. Medical/Biotechnology Research Program - Class President - 2 years",
+          "role": "",
+          "description": "5. Medical/Biotechnology Research Program - Class President - 2 years"
+        },
+        {
+          "name": "6. TV Show Club - Member - 1/2 year (Virtual Club)",
+          "role": "",
+          "description": "6. TV Show Club - Member - 1/2 year (Virtual Club)"
+        },
+        {
+          "name": "7. College Program (It wasn't something like SEO but more like just advising on ",
+          "role": "",
+          "description": "7. College Program (It wasn't something like SEO but more like just advising on financial aid, scholarships, and life skills to learn for college—wait is that just SEO?) - Member - 1 year"
+        },
+        {
+          "name": "8. UNICEF Club - Member - 1 year",
+          "role": "",
+          "description": "8. UNICEF Club - Member - 1 year"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Cert. from Biotechnology/Medical Research Program for Year 1",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Cert. from Biotechnology/Medical Research Program for Year 2",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Cert. from Academy from Museum",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Honor Roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biological sciences/pre-med track"
+    },
+    "ESSAY_SCORE": null
+  }
+}

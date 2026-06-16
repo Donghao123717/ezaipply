@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "National Lab - Cybersecurity research intern",
+          "role": "",
+          "description": "National Lab - Cybersecurity research intern"
+        },
+        {
+          "name": "2 summers Cybersecurity Club - President (10-12) Robotics Club - VP (10-12) Scie",
+          "role": "",
+          "description": "2 summers Cybersecurity Club - President (10-12) Robotics Club - VP (10-12) Science Olympiad - Co-President (11-12) Key Club - 140+ volunteer hours Work - Chick-fil-A, 16-20 hrs/week (only 1 year) CompTIA certifications (A+, Network+, Security+)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Calc AB/BC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lang",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Macro/Micro",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Psych",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Stats",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Enviro Sci",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "WBL Cybersecurity Standardized Testing ACT: 35 (36E, 36R, 33M, 33S) AP: Human Geo (4), Gov (4), Eng Lit (4), US History ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 20,
+      "first_gen": true,
+      "service_summary": "Key Club - 140+ volunteer hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

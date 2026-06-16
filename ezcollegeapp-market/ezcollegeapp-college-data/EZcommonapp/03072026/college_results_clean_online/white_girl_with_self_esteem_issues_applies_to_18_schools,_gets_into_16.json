@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1300,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. \\#1 Quizbowl Captain",
+          "role": "",
+          "description": "1. \\#1 Quizbowl Captain"
+        },
+        {
+          "name": "2. \\#2 Varsity Girl's Golf Co-Captain",
+          "role": "",
+          "description": "2. \\#2 Varsity Girl's Golf Co-Captain"
+        },
+        {
+          "name": "3. \\#3 Volunteer work at library, Program Coordinator, 50+ hours at time of appl",
+          "role": "",
+          "description": "3. \\#3 Volunteer work at library, Program Coordinator, 50+ hours at time of application"
+        },
+        {
+          "name": "4. \\#4 NHS 11th grade, Historian.  Lowkey fake EC though",
+          "role": "",
+          "description": "4. \\#4 NHS 11th grade, Historian.  Lowkey fake EC though"
+        },
+        {
+          "name": "5. \\#5 Drama Club Costumer and Choreographer.",
+          "role": "",
+          "description": "5. \\#5 Drama Club Costumer and Choreographer."
+        },
+        {
+          "name": "6. \\#6 City Historical Society junior member, my biggest thing there was getting",
+          "role": "",
+          "description": "6. \\#6 City Historical Society junior member, my biggest thing there was getting them to work with the drama club for an interactive theater experience about my city's history"
+        },
+        {
+          "name": "7. \\#7 ESL Conversation Partner",
+          "role": "",
+          "description": "7. \\#7 ESL Conversation Partner"
+        },
+        {
+          "name": "8. \\#8 Link Crew Leader 11th grade lowkey fake EC though",
+          "role": "",
+          "description": "8. \\#8 Link Crew Leader 11th grade lowkey fake EC though"
+        },
+        {
+          "name": "9. \\#9 Art, created a memorial for a teacher in my district who passed away",
+          "role": "",
+          "description": "9. \\#9 Art, created a memorial for a teacher in my district who passed away"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. \\#3 Volunteer work at library, Program Coordinator, 50+ hours at time of application"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "i was indecisive and was between neuroscience and linguistics.  landed on neuros"
+    },
+    "ESSAY_SCORE": null
+  }
+}

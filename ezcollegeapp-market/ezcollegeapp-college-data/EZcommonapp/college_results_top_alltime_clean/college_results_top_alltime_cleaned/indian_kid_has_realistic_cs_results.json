@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Research at Local University:* Conducted robotics research at a local univer",
+          "role": "",
+          "description": "1. *Research at Local University:* Conducted robotics research at a local university where I worked on computer vision"
+        },
+        {
+          "name": "2. *Youth Group:* President and responsible for organizing fundraisers and volun",
+          "role": "",
+          "description": "2. *Youth Group:* President and responsible for organizing fundraisers and volunteering events, culturally related"
+        },
+        {
+          "name": "3. *Mock Trial:* President and organized case materials and theory for the schoo",
+          "role": "",
+          "description": "3. *Mock Trial:* President and organized case materials and theory for the school team as well as competing"
+        },
+        {
+          "name": "4. *Coding Club:* Founded schools coding club and worked with Hack Club to organ",
+          "role": "",
+          "description": "4. *Coding Club:* Founded schools coding club and worked with Hack Club to organize events and tutorials with students."
+        },
+        {
+          "name": "5. *National Honors Society:* President and led volunteering and fundraising opp",
+          "role": "",
+          "description": "5. *National Honors Society:* President and led volunteering and fundraising opportunities with NHS club"
+        },
+        {
+          "name": "6. *Webmaster for School Newspaper*: Worked with my school's journalism club to ",
+          "role": "",
+          "description": "6. *Webmaster for School Newspaper*: Worked with my school's journalism club to create a website for their newspaper"
+        },
+        {
+          "name": "7. *Science Fair:* Conducted research in the computer science field on my own",
+          "role": "",
+          "description": "7. *Science Fair:* Conducted research in the computer science field on my own"
+        },
+        {
+          "name": "8. *Medically Related Club:* President and founder, organized field trips and ta",
+          "role": "",
+          "description": "8. *Medically Related Club:* President and founder, organized field trips and talks with career professionals"
+        },
+        {
+          "name": "9. *Freshman Advisory*: Was in a club that encouraged school spirit and helped f",
+          "role": "",
+          "description": "9. *Freshman Advisory*: Was in a club that encouraged school spirit and helped freshman get accommodated to high school"
+        },
+        {
+          "name": "10. *Principle Advisory*: Organization I worked with where we would talk with ou",
+          "role": "",
+          "description": "10. *Principle Advisory*: Organization I worked with where we would talk with our school principal about advising and high school lab and recommendations. Created AP review book library through the program"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *2nd Place In Category Event for T5 University's Hackathon*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *National Merit Commended Scholar*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Congressional App Challenge winner for my district*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *Won Local District Speech Contest*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *Won First Place in Regional Science Fair in the Computer Science Category*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

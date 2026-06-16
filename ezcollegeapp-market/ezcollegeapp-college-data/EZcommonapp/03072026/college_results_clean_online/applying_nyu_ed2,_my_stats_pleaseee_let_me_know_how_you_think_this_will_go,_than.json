@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.18,
+      "sat_total": 1360,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "2 Internships, IT Support Interns - 200 hours; Fixed and maintained hundreds of ",
+          "role": "",
+          "description": "2 Internships, IT Support Interns - 200 hours; Fixed and maintained hundreds of student Chromebooks; developed technical troubleshooting and teamwork skills in a professional IT setting."
+        },
+        {
+          "name": "CVTE Computer Science and Web Development Student - 4-yr vocational track; built",
+          "role": "",
+          "description": "CVTE Computer Science and Web Development Student - 4-yr vocational track; built websites; learned Python/HTML/CSS/JS/Java, affirmed completion with Capstone website related to school shooting anxiety"
+        },
+        {
+          "name": "Part-Time Customer Service Associate (4 years) - 25 hours/week; Assisted custome",
+          "role": "",
+          "description": "Part-Time Customer Service Associate (4 years) - 25 hours/week; Assisted customers, managed registers, stocked inventory, handled rushes; built adaptability, communication, and multitasking skills acr"
+        },
+        {
+          "name": "Student Council, Council Member 9th/10th, Treasurer 11th/12th - 5 hours/week; Ov",
+          "role": "",
+          "description": "Student Council, Council Member 9th/10th, Treasurer 11th/12th - 5 hours/week; Oversaw social media; worked with the school committee to remove the imbalance between EC/AP credit policy; Boosted spirit"
+        },
+        {
+          "name": "Model UN (4 years),  Social Media Head - 4 hours/week; Coached 35 middle schoole",
+          "role": "",
+          "description": "Model UN (4 years),  Social Media Head - 4 hours/week; Coached 35 middle schoolers for a conference hosted by my high school (~100 students) while actively attending MUN conferences as a student deleg"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Assume all of my classes are honors unless stated otherwise.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "First gen student, super low income (I'd qualify for NYU Promise)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Responsibilities and Circumstances:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Assisting family or household members with tasks such as doctors’ appointments, bank visits, or visa",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interpreting or translating for family or household members",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Managing family or household finances, budget, or paying bills",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Taking care of sick, disabled, and/or elderly members of my family or household",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Taking care of younger family or household members",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Working at a paid job to contribute to my household’s income",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Commuting 60 minutes or more to and from school each day",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": true,
+      "service_summary": "Part-Time Customer Service Associate (4 years) - 25 hours/week; Assisted customers, managed registers, stocked inventory, handled rushes; built adaptability, communication, and multitasking skills acr"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering and computer engineering (for backups i put electrical on"
+    },
+    "ESSAY_SCORE": null
+  }
+}

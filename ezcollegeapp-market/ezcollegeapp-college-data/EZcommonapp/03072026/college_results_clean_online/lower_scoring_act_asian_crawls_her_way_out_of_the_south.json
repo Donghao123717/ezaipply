@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 32,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "NOTE: all my extracurriculars no matter what they were related to medicine/healt",
+          "role": "",
+          "description": "NOTE: all my extracurriculars no matter what they were related to medicine/health. My intended major is global health/pre med. i may have a lot of extracurriculars that are kinda not related to each o"
+        },
+        {
+          "name": "1. Health website educating women in the south after roe v wade (5hr/week; 2 yea",
+          "role": "",
+          "description": "1. Health website educating women in the south after roe v wade (5hr/week; 2 years)"
+        },
+        {
+          "name": "2.shadowed an ER doctor at local hospital, researched with a local doctor, and i",
+          "role": "",
+          "description": "2.shadowed an ER doctor at local hospital, researched with a local doctor, and interned at another local hospital. (4 hrs/week; 3 years)"
+        },
+        {
+          "name": "3. YMCA YAG state health officer and national youth advocate (2 years)",
+          "role": "",
+          "description": "3. YMCA YAG state health officer and national youth advocate (2 years)"
+        },
+        {
+          "name": "4. Track and Cross country: team captain (14 hrs week/ all 4 years)",
+          "role": "",
+          "description": "4. Track and Cross country: team captain (14 hrs week/ all 4 years)"
+        },
+        {
+          "name": "5. Principal cellist in local orchestra (4 hrs week/4 years)",
+          "role": "",
+          "description": "5. Principal cellist in local orchestra (4 hrs week/4 years)"
+        },
+        {
+          "name": "6. Social justice local movement (2ish hrs week/4 years)",
+          "role": "",
+          "description": "6. Social justice local movement (2ish hrs week/4 years)"
+        },
+        {
+          "name": "7. Miss America pageant; local titleholder; founded an organization to teach kid",
+          "role": "",
+          "description": "7. Miss America pageant; local titleholder; founded an organization to teach kids about self care and confidence (2 years)"
+        },
+        {
+          "name": "8. Theatre (4 years)",
+          "role": "",
+          "description": "8. Theatre (4 years)"
+        },
+        {
+          "name": "9. Freelance writer for a state wide newspaper; wrote about the state of Mississ",
+          "role": "",
+          "description": "9. Freelance writer for a state wide newspaper; wrote about the state of Mississippi after roe and how it affected MS harder than other states."
+        },
+        {
+          "name": "10. Canvassed and campaigned for a local man running for representative of the s",
+          "role": "",
+          "description": "10. Canvassed and campaigned for a local man running for representative of the state."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Gates semi finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Congressional silver medal (over 200+ service hours)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Bausch &amp; Lomb Honorary Science Award from University of Rochester",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State wide strings competition winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Many sports awards and small school awards for highest grade",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied global health or pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

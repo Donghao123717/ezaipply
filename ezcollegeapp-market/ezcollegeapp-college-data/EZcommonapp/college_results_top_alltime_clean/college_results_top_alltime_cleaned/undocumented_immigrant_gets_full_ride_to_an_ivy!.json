@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Scholar athlete of the year 2x",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I chose two coaches which I think was pretty risky. My head football coach has seen me grow up into ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "My second was my offensive lineman coach who I am extremely close to. He’s a pain in the butt but ma",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I had two interviews one with UPenn the other with Wesleyan.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "UPenn: was an immigrant just like me so I  think we bonded over that but looking back it doesn’t see",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Wesleyan: she was a lot more matter of fact so my attempts to make the conversation more fun fell fl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly reflect on the quality of your writing, time spent, and topic of main personal statement.)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "at time of application was latinx studies, will likely change to econ."
+    },
+    "ESSAY_SCORE": null
+  }
+}

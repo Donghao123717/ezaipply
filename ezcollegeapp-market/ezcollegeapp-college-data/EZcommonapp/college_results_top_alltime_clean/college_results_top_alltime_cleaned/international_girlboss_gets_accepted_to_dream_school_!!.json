@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1460,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Worked at a cancer therapy after-care centre- basically an assistant to the T",
+          "role": "",
+          "description": "1. Worked at a cancer therapy after-care centre- basically an assistant to the Therapist present- I mostly worked with children between 6 and 11- engaging in child therapy, attending to anything the therapist needs, etce"
+        },
+        {
+          "name": "2. Founder/President of Robotics Club- we didn't exactly make any \"life changing",
+          "role": "",
+          "description": "2. Founder/President of Robotics Club- we didn't exactly make any \"life changing robotic innovations\" or anything but we sure did make the best of the club! Loads of events and we even went to some city wide competitions"
+        },
+        {
+          "name": "3. Trauma centre for Woman- Summer Volunteer- I spent all my summers after fresh",
+          "role": "",
+          "description": "3. Trauma centre for Woman- Summer Volunteer- I spent all my summers after freshman year here, helped rehabilitate woman from abusive households, those without homes, et"
+        },
+        {
+          "name": "4. Participated in a lot of Hackathons and cybersec competitions(10-12)",
+          "role": "",
+          "description": "4. Participated in a lot of Hackathons and cybersec competitions(10-12)"
+        },
+        {
+          "name": "5. School Track team- not good enough to be recruited or something- ran pretty d",
+          "role": "",
+          "description": "5. School Track team- not good enough to be recruited or something- ran pretty decently- qualified for regionals(9-12)"
+        },
+        {
+          "name": "6. Marathon runner- participated in a hella lot of marathons, won a few medals a",
+          "role": "",
+          "description": "6. Marathon runner- participated in a hella lot of marathons, won a few medals at a few of them(9-12)"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Cybersec comp awards(don't wanna put names as you can then find me online)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Got the Gold Scholar Badge (given to 3-4 high achieving students) all four years",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. Trauma centre for Woman- Summer Volunteer- I spent all my summers after freshman year here, helped rehabilitate woman from abusive households, those without homes, et"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs with a minor in sociology/social work"
+    },
+    "ESSAY_SCORE": null
+  }
+}

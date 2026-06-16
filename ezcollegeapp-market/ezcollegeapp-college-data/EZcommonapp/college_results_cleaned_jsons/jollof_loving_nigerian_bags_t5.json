@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Interned/research at biomedical engineering lab Interned/research at human desig",
+          "role": "",
+          "description": "Interned/research at biomedical engineering lab Interned/research at human design engineering lab School district's student advisor Head Youth Leader at church Club exec Peer tutor"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing List the highest scores earned and all scores that were reported. SAT/ACT: 1570 (770 R&W + 800 Math",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Peer tutor Volunteer award from regional non-profit"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "either mechanical or electrical engineering for all"
+    },
+    "ESSAY_SCORE": null
+  }
+}

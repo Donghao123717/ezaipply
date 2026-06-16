@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 760,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. marching band all 4 years, section leader (9,10,11,12)",
+          "role": "",
+          "description": "1. marching band all 4 years, section leader (9,10,11,12)"
+        },
+        {
+          "name": "2. manager at grocery store, in a role that often requires an associates degree ",
+          "role": "",
+          "description": "2. manager at grocery store, in a role that often requires an associates degree at minimum (11,12,PG)"
+        },
+        {
+          "name": "3. intern at local nonprofit dedicated to learning, traveling, and improving our",
+          "role": "",
+          "description": "3. intern at local nonprofit dedicated to learning, traveling, and improving our local community (11,12,PG)"
+        },
+        {
+          "name": "4. ambassador for school for national environmental/STEM program... started recy",
+          "role": "",
+          "description": "4. ambassador for school for national environmental/STEM program... started recycling program at school (10,11,12)"
+        },
+        {
+          "name": "5. ambassador for earth club, organized fundraising (9,10,11,12)",
+          "role": "",
+          "description": "5. ambassador for earth club, organized fundraising (9,10,11,12)"
+        },
+        {
+          "name": "6. science NHS VP (11,12)",
+          "role": "",
+          "description": "6. science NHS VP (11,12)"
+        },
+        {
+          "name": "7. service project for special needs students (12)",
+          "role": "",
+          "description": "7. service project for special needs students (12)"
+        },
+        {
+          "name": "8. volunteer in service club for cancer patients at school (10,11,12)",
+          "role": "",
+          "description": "8. volunteer in service club for cancer patients at school (10,11,12)"
+        },
+        {
+          "name": "9. volunteer in local food bank (9,10,11,12)",
+          "role": "",
+          "description": "9. volunteer in local food bank (9,10,11,12)"
+        },
+        {
+          "name": "10. member of science bowl (10,11,12)",
+          "role": "",
+          "description": "10. member of science bowl (10,11,12)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. scholarship for environmental stem program in ECs, national (10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. national merit commended scholar, national (12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. national Latin exam summa cum laude/gold medal levels 1 and 2, national (9,10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. AP scholar w/ distinction, national (12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. regional Latin awards, state qualified, state (9,10)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. intern at local nonprofit dedicated to learning, traveling, and improving our local community (11,12,PG); 7. service project for special needs students (12); 8. volunteer in service club for cancer patients at school (10,11,12); 9. volunteer in local food bank (9,10,11,12)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied eco for most, neuro as second choice when possible"
+    },
+    "ESSAY_SCORE": null
+  }
+}

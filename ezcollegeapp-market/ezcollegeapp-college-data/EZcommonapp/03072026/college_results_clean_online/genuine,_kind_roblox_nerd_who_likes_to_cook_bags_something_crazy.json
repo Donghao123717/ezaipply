@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. nurse assistant at an assisted living facility",
+          "role": "",
+          "description": "1. nurse assistant at an assisted living facility"
+        },
+        {
+          "name": "2. clinical externships through my school (vo-tech school!!)",
+          "role": "",
+          "description": "2. clinical externships through my school (vo-tech school!!)"
+        },
+        {
+          "name": "3. research intern at local community college (i literally just walked in bc i h",
+          "role": "",
+          "description": "3. research intern at local community college (i literally just walked in bc i had a friend there)"
+        },
+        {
+          "name": "4. community service club and local food pantry volunteer",
+          "role": "",
+          "description": "4. community service club and local food pantry volunteer"
+        },
+        {
+          "name": "5. dietary food service worker at 500 bed hospital",
+          "role": "",
+          "description": "5. dietary food service worker at 500 bed hospital"
+        },
+        {
+          "name": "6.student council instagram manager",
+          "role": "",
+          "description": "6.student council instagram manager"
+        },
+        {
+          "name": "7.math team participant and co-captain (they literally gave me a label for no re",
+          "role": "",
+          "description": "7.math team participant and co-captain (they literally gave me a label for no reason)"
+        },
+        {
+          "name": "8.SkillsUSA (competition program for vocational schools) medical terminology com",
+          "role": "",
+          "description": "8.SkillsUSA (competition program for vocational schools) medical terminology competitor and treasurer for my local chapter"
+        },
+        {
+          "name": "9.Massachusetts boys state leadership (everything was fictional but here I was a",
+          "role": "",
+          "description": "9.Massachusetts boys state leadership (everything was fictional but here I was a judge, city council and house of representatives member)"
+        },
+        {
+          "name": "10.COOKING CLUB (ONE OF MY FAV ECs)",
+          "role": "",
+          "description": "10.COOKING CLUB (ONE OF MY FAV ECs)"
+        },
+        {
+          "name": "(in my additional info, I included currently working as a dietary aide, newspape",
+          "role": "",
+          "description": "(in my additional info, I included currently working as a dietary aide, newspaper club, and my YT channel where I play roblox :))"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Nurse assistant certification",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. SkillsUSA Medical Terminology Competition - 1st Place Regional; 2nd Place District; States Qualif",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 3rd place in local science fair, qualified and attended regionals",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National African American Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Honor Society",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": true,
+      "service_summary": "3. research intern at local community college (i literally just walked in bc i had a friend there); 4. community service club and local food pantry volunteer; 5. dietary food service worker at 500 bed hospital"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochemistry/molecular biology/biomedical sciences/molecular biophysics and bioc"
+    },
+    "ESSAY_SCORE": null
+  }
+}

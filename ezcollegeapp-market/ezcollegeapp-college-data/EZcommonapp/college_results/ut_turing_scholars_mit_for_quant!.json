@@ -1,0 +1,1997 @@
+{
+  "post": {
+    "id": "t3_1qiety4",
+    "title": "UT Turing Scholars > MIT for Quant!?",
+    "author": "quickpenguin123",
+    "selftext": "Hey so I am currently a senior in high school, I got into MIT and UT Turing Scholars. I am still deciding what schools I am choosing because not all of my college results are out yet. I want to go into Quant but idk which I should choose. I heard that like UT Turing was this super underground way of getting into quant but I never see it on the top lists. Why is this? Also, are there some other underground colleges for quant that are on par with MIT and such? I feel like everybody just mentions like MIT, Harvard, Princeton, UChicago and all the IVY+ and HYPSM sorta thing for Quant but not UT Turing Scholars.\nWhere would turing scholars place on this list?\n\n\nMIT\nUChicago\nHarvard\nPrinceton\nStanford\nColumbia\nUIUC\nUC Berkeley\nCMU\nNorthwestern\nYale\nPeking University\nNYU\nUniversity of Michigan",
+    "score": "43",
+    "url": "https://www.reddit.com/r/quantfinance/comments/1qiety4/ut_turing_scholars_mit_for_quant/",
+    "created": "2026-01-20T21:54:13+00:00",
+    "num_comments": 78,
+    "subreddit": "quantfinance"
+  },
+  "comments": [
+    {
+      "id": "t1_o0r01zu",
+      "author": "Profitzzzz",
+      "body": "While a ranking is hard because Turing only takes like 50 kids a year, MIT is MIT. \n\nWhile Turing absolutely gets u anywhere in SWE, for Quant in general it is physically impossible to get better than MIT/UChicago/Harvard/Princeton\n\nIt’s ridiculous. At Uchicago, there are literally too many Quant/banking recruitment events happening to count. Citadel sponsors the goddam poker club. MIT will be exactly like this. \n\nIf you want to be a quant, go MIT. It’s in the holy grail tier.\n\nTuring is something serious no doubt, one of my best friends is a Turing Scholar. But we’re talking about MIT.",
+      "score": "69 points",
+      "created": "2026-01-20T22:21:09+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0r0cg3",
+          "author": "Profitzzzz",
+          "body": "Talked to my friend, Turing is cracked asf. You honestly can’t go wrong, you’ll def be able to get Quant with Turing.\n\nPick whichever you like more.",
+          "score": "26 points",
+          "created": "2026-01-20T22:22:37+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r01zu",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0r6rzd",
+              "author": "quickpenguin123",
+              "body": "Oh alr thx!",
+              "score": "5 points",
+              "created": "2026-01-20T22:55:37+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0r0cg3",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o1kylqx",
+                  "author": "Tisastrous",
+                  "body": "Some quant places only recruit from top tier universities.",
+                  "score": "1 point",
+                  "created": "2026-01-25T07:44:20+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o0r6rzd",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t1_o0rnzzr",
+          "author": "privateack",
+          "body": "Don’t forget the sig and imc also sponsor that poker club lol",
+          "score": "6 points",
+          "created": "2026-01-21T00:28:51+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r01zu",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o1ikk81",
+              "author": "Delicious_Ad_7804",
+              "body": "They sponsor Turing too, and I have friends in both",
+              "score": "1 point",
+              "created": "2026-01-24T23:02:10+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0rnzzr",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "t1_o0s67j7",
+          "author": "Ancient-Way-1682",
+          "body": "I’m assuming you’re a college student in their first or second year the way you’re talking",
+          "score": "3 points",
+          "created": "2026-01-21T02:11:58+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r01zu",
+          "is_reply_to_post": false,
+          "replies": []
+        },
+        {
+          "id": "t1_o13lyov",
+          "author": "bob_shoeman",
+          "body": "While Turing absolutely gets u anywhere in SWE\n\n\nYeah, probably not. With only a few exceptions, recruiters generally sort by overall school/department reputation, not by membership in small honors programs recruited during undergrad admissions. Not to mention, the days where companies hired by brand name are long gone and aren't coming back. Don't get me wrong, there is without a doubt an advantage in having graduated from a 'brand name' school relative to having done so from a lower ranking school, but it's not going to get you through the door, especially when companies are moving away from the paradigm of junior SWE's as apprentices and more towards one in which SWE's are expected to have immediate functional net value. In other words, companies when hiring have moved away from signs of general intelligence/potential to those of demonstrated ability to hit the ground running as an active contributor. This is simply the natural consequence of the tech labor surplus and the massive expansion of SWE productivity enabled by LLM's.\n\nI went the PhD route instead of quant, but I have several recently-defended peers who did otherwise, mostly for research roles. From what I've heard from their experiences, quant firms still hire very holistically, interviewing with respect to mathematical and/or abstract problem solving ability rather than topically relevant expertise. In fact, none of the aforementioned had any background in finance, and I would characterize them as very mathematically inclined individuals who had come to become disillusioned/disinterested in their PhD research directions rather than finance yuppie types who had angled for the job from the start. In this sense, it would indicate that quant firms are still looking for 'general smarts' with nurturing potential as opposed to immediate utility (as is increasingly the case with SWE).",
+          "score": "3 points",
+          "created": "2026-01-22T19:14:41+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r01zu",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o16cgu5",
+              "author": "NotYetPerfect",
+              "body": "Ut has many turing exclusive job fairs. The benefit of turing isn't the name on the resume but the connections and opportunities. I'm not sure about quant placement, but faang placement is quite high.",
+              "score": "1 point",
+              "created": "2026-01-23T03:43:53+00:00",
+              "depth": 2,
+              "parent_id": "t1_o13lyov",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "t1_o0tahdz",
+          "author": "Mammoth_Wishbone_807",
+          "body": "Bro snuck in UChicago",
+          "score": "3 points",
+          "created": "2026-01-21T06:40:56+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r01zu",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0zdl2m",
+              "author": "Careful_Fold_7637",
+              "body": "uchicago is elite for math",
+              "score": "0 points",
+              "created": "2026-01-22T03:21:56+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0tahdz",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "t1_o0w497c",
+          "author": "MysteriousMystery09",
+          "body": "question I had about Chicago, is this for CS or math majors there? Because I've word while the math major is phenomenally strong, the CS major is in comparison far weaker",
+          "score": "1 point",
+          "created": "2026-01-21T17:40:21+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r01zu",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0x7hek",
+              "author": "Profitzzzz",
+              "body": "Both. In truth, if you have the skill + target school, the difference between CS and math wont matter THAT much for Dev vs QT roles, as long as you yourself prep for the role you want. UChicago offers the CAAM degree which combines Math, Stats, and CS and is the major for all quant so it will not make or break your chances at all.",
+              "score": "1 point",
+              "created": "2026-01-21T20:35:11+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0w497c",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "t1_o141vm7",
+          "author": "jd192739",
+          "body": "Citadel comes to our poker club at waterloo too haha",
+          "score": "1 point",
+          "created": "2026-01-22T20:27:41+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r01zu",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0rep93",
+      "author": "MrChrisRodriguez",
+      "body": "IMO MIT has more brand recognition and more competitive recruiting (more companies going to it) because it’s a larger talent pool. \n\nCompanies have all kinds of keyword-based filters and while an in-the-know top-tier recruiter will know UT Turing, it’s such a small program that almost no company will include it in their resume screening filters so you’ll have to hope a human reviewer got to your resume and is knowledgeable. \n\nUnless you have a very good reason I think MIT is the better choice, esp since you can’t be certain you’ll want to do quant in four years. MIT is more optionality",
+      "score": "29 points",
+      "created": "2026-01-20T23:38:14+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0rmdq6",
+          "author": "[deleted]",
+          "body": "this is the best reasoning. think about the hiring process! MIT is the way to go.",
+          "score": "3 points",
+          "created": "2026-01-21T00:20:05+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0rep93",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0rk0oh",
+      "author": "Fzzy_dude",
+      "body": "MIT and it’s not even close. While Turing is prestigious and places well in quant (mostly in quant dev or SWE), MIT opens a lot more doors. Even for SWE placements, which is Turing’s top strength, MIT beats Turing.",
+      "score": "18 points",
+      "created": "2026-01-21T00:07:15+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0rkmct",
+      "author": "losingmyshirt",
+      "body": "as a uchicago grad, pick MIT. you don’t want to spend the rest of your life being like “no no UT Turing is actually a really good program i swear im as smart as the ivies” just go to MIT LMFAO",
+      "score": "31 points",
+      "created": "2026-01-21T00:10:31+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0rlmlk",
+          "author": "quickpenguin123",
+          "body": "Haha lol",
+          "score": "5 points",
+          "created": "2026-01-21T00:16:00+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0rkmct",
+          "is_reply_to_post": false,
+          "replies": []
+        },
+        {
+          "id": "t1_o0sufcg",
+          "author": "Aggressive-Camp9328",
+          "body": "If you're constantly aware/bothered by the ranking of your college then that's just pathetic",
+          "score": "4 points",
+          "created": "2026-01-21T04:38:53+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0rkmct",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0qx8hv",
+      "author": "[deleted]",
+      "body": "i was going to drop some advice like check linkedin or something then it hit me if what youre saying is true youre so much smarter than me youre basically a different breed of human, after a linkedin search UT Turing scholars are crazy strong, good luck with whatever you choose",
+      "score": "9 points",
+      "created": "2026-01-20T22:07:16+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0qxe8u",
+          "author": "quickpenguin123",
+          "body": "thanks!",
+          "score": "1 point",
+          "created": "2026-01-20T22:08:02+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0qx8hv",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0ryoxy",
+              "author": "Famous-Cheetah4766",
+              "body": "Yo I’m a junior currently, would I be able to dm u",
+              "score": "0 points",
+              "created": "2026-01-21T01:28:54+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0qxe8u",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o0ropl2",
+      "author": "Legitimate-Bee8637",
+      "body": "I work at one of {Citadel,JS,HRT,Jump} and have numerous connections at the others. I guarantee you that recruiters at all of those firms have heard of and think highly of Turing scholars. They host Turing-exclusive networking events every year, and double digit number of Turing grads intern and join full time every year. I don't have exact numbers but I wouldn't be surprised if Turing sends a higher proportion of its graduating class to quant than MIT.\n\nThis is not to undermine the quality or prestige of MIT; both are phenomenal programs that will set you up for success. But don't sleep on Turing",
+      "score": "10 points",
+      "created": "2026-01-21T00:32:42+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0sev1t",
+          "author": "bobot05",
+          "body": "I think you’re missing the question at hand. No one is sleeping on Turing. It’s asking if they should pick it over MIT for quant. High proportion from anecdotal evidence is quite a poor reason",
+          "score": "3 points",
+          "created": "2026-01-21T03:01:13+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0ropl2",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0sikcx",
+              "author": "Legitimate-Bee8637",
+              "body": "I doubt anyone in this thread has concrete numbers or is at liberty to post them here. I'm providing anecdotal evidence that Turing is highly sought after by quant recruiters to counterbalance the other unsubstantiated claims in this thread that nobody's heard of Turing, MIT is hands down better, etc. \n\nSo to directly answer the question at hand, yes, I think Turing is at the very least on par with MIT for getting a job in quant. Although I should clarify that I'm referring to SWE at quant firms; I know way fewer Turing Quant Researchers/Traders and your odds are probably better at MIT for those roles.",
+              "score": "7 points",
+              "created": "2026-01-21T03:23:17+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0sev1t",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": "t1_o0rp6lm",
+          "author": "quickpenguin123",
+          "body": "oh ok",
+          "score": "1 point",
+          "created": "2026-01-21T00:35:16+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0ropl2",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0rm8gh",
+      "author": "AioliTop2420",
+      "body": "As a recruiter in the space, I 100% have done searches for Turing grads specifically. I have a client that asks for them directly and will pay us extra if they get first dibs on them",
+      "score": "9 points",
+      "created": "2026-01-21T00:19:17+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0rmula",
+          "author": "quickpenguin123",
+          "body": "Would you say better than MIT?",
+          "score": "1 point",
+          "created": "2026-01-21T00:22:36+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0rm8gh",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0ropf6",
+              "author": "AioliTop2420",
+              "body": "So here’s my full take and you can take it however you’d like.\n\nThere are more MIT grads in quant and I can find a bunch of em, Turing on the other hand is relatively niche and carries with it a significant amount of prestige. \n\nI don’t get asked for MIT people (because it’s assumed), but will happily talk to any of them and submit them. I get asked for Turing folks specifically.\n\nI think if it reallllllly doesn’t matter on location and cost, MIT covers more fields and probably gets you more generic opportunities. I think Turing gets you more specific ones and if you want to be at UT Austin, it’s a legit competitor.",
+              "score": "5 points",
+              "created": "2026-01-21T00:32:40+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0rmula",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o0rd6m2",
+      "author": "igetlotsofupvotes",
+      "body": "I’ve never heard of Turing (maybe my fault) but any recruiter is more likely going to recognize mit over this program. Plus it doesn’t have a name on it like Penn m&t. Not telling you that you should def go mit but from a recruiting perspective that’s how I feel. Given that, I’m sure your profile will strong no matter where you go",
+      "score": "15 points",
+      "created": "2026-01-20T23:29:52+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0rmfnh",
+          "author": "AioliTop2420",
+          "body": "This is not 100% true. I’m a recruiter and have clients that ask specifically for Turing grads. I didn’t know about it until they mentioned it, but now I go out of my way to convince any Turing grads to talk",
+          "score": "6 points",
+          "created": "2026-01-21T00:20:22+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0rd6m2",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0r6inm",
+      "author": "Fun-Passenger430",
+      "body": "still MIT imho",
+      "score": "3 points",
+      "created": "2026-01-20T22:54:16+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0r6vk4",
+          "author": "quickpenguin123",
+          "body": "alr",
+          "score": "0 points",
+          "created": "2026-01-20T22:56:08+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r6inm",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0ri2vw",
+      "author": "CompIEOR",
+      "body": "Not > but likely = \n\nMIT is the safer bet but frankly i don’t think it’s going to be down to the program.",
+      "score": "3 points",
+      "created": "2026-01-20T23:56:43+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0qysyj",
+      "author": "Nervous_Impact3637",
+      "body": "Holy shit this guy is cracked",
+      "score": "2 points",
+      "created": "2026-01-20T22:14:55+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0r6ux7",
+          "author": "quickpenguin123",
+          "body": "thx bro!",
+          "score": "2 points",
+          "created": "2026-01-20T22:56:02+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0qysyj",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0rnpna",
+      "author": "DesperateDecision616",
+      "body": "I go to UT - Turing is cracked…but unless ur like in state I don’t see a reason not to go to MIT for the same price. Only thing I can think of is that UT is a really really fun school, imo the best balance of social life and academics out here. I would most likely say the placement is equal, Turing is absolutely a target for quant",
+      "score": "2 points",
+      "created": "2026-01-21T00:27:18+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0rnwe8",
+          "author": "quickpenguin123",
+          "body": "oh alr",
+          "score": "1 point",
+          "created": "2026-01-21T00:28:18+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0rnpna",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0rod7g",
+              "author": "DesperateDecision616",
+              "body": "And to be clear I see some comments here talking abt firms sponsoring clubs and stuff, Jane street HRT virtu and others sponsor the quant finance club at UT sponsors aren’t anything crazy/meaningful",
+              "score": "1 point",
+              "created": "2026-01-21T00:30:51+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0rnwe8",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o0tjs6w",
+      "author": "VictoryLazy7258",
+      "body": "It is interesting how people who have an amazing profile make it to MIT, only to focus on getting a quant job. Yes, you will make a lot of money, but I feel like research opportunities and network at MIT could take you so much far than just becoming a quant. Maybe creating a startup or doing world class research? Why settle for quant? Like I just don’t get why so many smart people are dying to join a zero sum game of finance.",
+      "score": "4 points",
+      "created": "2026-01-21T08:04:34+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o1f0ym5",
+          "author": "Its_Raining_Indoors",
+          "body": "Yep. I agree. I think of my friends is going to go get his PhD after his quant internship. Glad he’s using his insane brain for the good of humanity",
+          "score": "1 point",
+          "created": "2026-01-24T12:44:18+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0tjs6w",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0qyms0",
+      "author": "Unfair_Albatross_437",
+      "body": "how did you get into turing scholars when honors results haven't even dropped yet?",
+      "score": "1 point",
+      "created": "2026-01-20T22:14:04+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0qzmx7",
+          "author": "quickpenguin123",
+          "body": "I applied early",
+          "score": "1 point",
+          "created": "2026-01-20T22:19:04+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0qyms0",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0r131y",
+              "author": "Unfair_Albatross_437",
+              "body": "yeah but even for early action honors results don't go out until like february",
+              "score": "1 point",
+              "created": "2026-01-20T22:26:19+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0qzmx7",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o0r2yst",
+                  "author": "Unfair_Albatross_437",
+                  "body": "actually, honors in general doesn't come out until february b/c they don't release honors till after rd",
+                  "score": "1 point",
+                  "created": "2026-01-20T22:35:54+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o0r131y",
+                  "is_reply_to_post": false,
+                  "replies": []
+                },
+                {
+                  "id": "t1_o0r6tjf",
+                  "author": "quickpenguin123",
+                  "body": "bro what wait can i pm u",
+                  "score": "1 point",
+                  "created": "2026-01-20T22:55:50+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o0r131y",
+                  "is_reply_to_post": false,
+                  "replies": [
+                    {
+                      "id": "t1_o0rb6dv",
+                      "author": "Unfair_Albatross_437",
+                      "body": "yeah sure",
+                      "score": "1 point",
+                      "created": "2026-01-20T23:18:58+00:00",
+                      "depth": 4,
+                      "parent_id": "t1_o0r6tjf",
+                      "is_reply_to_post": false,
+                      "replies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o0r1i2t",
+      "author": "imdealhunter",
+      "body": "Is UT Turing out ? I thought the first wave comes in early Feb.",
+      "score": "1 point",
+      "created": "2026-01-20T22:28:24+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0r6yev",
+          "author": "quickpenguin123",
+          "body": "I mean I got mine but apparentally other ppl are also saying it comes out in feb",
+          "score": "2 points",
+          "created": "2026-01-20T22:56:33+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r1i2t",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0r7tog",
+              "author": "imdealhunter",
+              "body": "Cool. Congratulations,  you rock ! Good luck to you. I am sure you will do great at either place.",
+              "score": "1 point",
+              "created": "2026-01-20T23:01:03+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0r6yev",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o0r83yo",
+                  "author": "quickpenguin123",
+                  "body": "Thx bro!",
+                  "score": "1 point",
+                  "created": "2026-01-20T23:02:36+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o0r7tog",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t1_o0sk6rh",
+          "author": "Warcart15",
+          "body": "it comes in waves based on geographic location i believe",
+          "score": "1 point",
+          "created": "2026-01-21T03:33:08+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0r1i2t",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0rgs3r",
+      "author": "rsha256",
+      "body": "If you want to go for a directly attributable to pnl role like QR/QT/QD and not just SWE at a Quant firm then definitely MIT, I have never heard of someone breaking into quant from UT (I'm sure someone has, but I am saying it is a rare occurrence) but many do so from MIT every year. If you want to be a SWE then UT can work but I would still place the university name below all the others in your list (it does not make sense to compare a specific program to general universities when other universities also have special programs like UC Berkeley's MET program, so I am just comparing UT Austin vs the others), and there are still more from the other universities before even normalizing by size.\n\nI looked up internally how many Turing Scholar's are at the firm I work at, and there are none. UT just does not feed into quant unless the firm has a Texas office, in which case they are usually kept there probably without the ability to transfer. Meanwhile I looked up MIT from my firm and saw a never ending list... and even NYU feeds more into NY quant firms while being easy to get into so I would expect UT to do more considering many quant firms have offices in the same state...",
+      "score": "1 point",
+      "created": "2026-01-20T23:49:42+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0rjwus",
+          "author": "squashed_mosquitoes",
+          "body": "Knew two in Turing that graduated spring 2025, they interned and accepted FT offers @ Jane street & Hudson River , neither office being in TX",
+          "score": "4 points",
+          "created": "2026-01-21T00:06:40+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0rgs3r",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o0rmjpx",
+              "author": "AioliTop2420",
+              "body": "This",
+              "score": "2 points",
+              "created": "2026-01-21T00:20:58+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0rjwus",
+              "is_reply_to_post": false,
+              "replies": []
+            },
+            {
+              "id": "t1_o0siska",
+              "author": "rsha256",
+              "body": "That’s great for those two but my point was that I’d have expected UT to feed a lot more into firms that have Texas offices. And ideally like to see more QR roles vs how I’ve only seen SWEs, and not because that’s what they wanted to do. Even in the firms you mentioned, MIT places more and with more automatic screening, it’s possible that such a small elite program such as Turing is just not on a quant firm’s radar while mit always will be. It’s very clearly possible to still get into quant from almost any university since it’s one of the more meritocratic industries",
+              "score": "1 point",
+              "created": "2026-01-21T03:24:39+00:00",
+              "depth": 2,
+              "parent_id": "t1_o0rjwus",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o0sc39t",
+      "author": "Ok_Meat2222",
+      "body": "Miiiiiiiiiiiitttttttt",
+      "score": "1 point",
+      "created": "2026-01-21T02:45:19+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0sc5zs",
+      "author": "FizixPhun",
+      "body": "I've never heard of Turing but admit I'm biased because I went to MIT. The hedge fund I'm at (small shop that seems well regarded on this subreddit) has tons of MIT grads.\n\nIf you go to MIT, you will have instant name recognition for your school. You will learn as much from working with your peers as from your professors. You will have incredible research opportunities with world leading professors.  However, you will be a small fish in a very big pond. I suspect in a small program, which it sounds like Turing is, you will get much more one on one attention.  As a last point, you're still so young and who knows what you will want to do when you graduate. I entered school wanting to do MechE or EE and ended up as a physicist who turned quant. MIT gives you a wide variety of strong programs.\n\nMy take is that anyone on here telling you one way or the other can't give you a good answer. We don't know you.  You need to go to the environment where you will be most able to succeed and that requires you to introspect about yourself. I've seen MIT chew people up and spit them out. They were smart but it can be an intense environment. You should try to visit both schools before making your decision. You can't really know what its like until you visit. This is possibly one of the biggest decisions of your life so paying for some flights to get to both is an investment that you should absolutely talk to your parents about.\n\nIf you want to chat, feel free to DM me.",
+      "score": "1 point",
+      "created": "2026-01-21T02:45:44+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0sjxio",
+      "author": "Warcart15",
+      "body": "hey! i’m actually in the quant club at UT, where there are a ton of Turing kids as you might expect. at all the top quant firms they are definitely recruited heavily and a lot of the firms sponsor the program itself, so Turing does really well in quant recruiting. with that said, MIT is unquestionably better and you shouldn’t overthink it lmao",
+      "score": "1 point",
+      "created": "2026-01-21T03:31:33+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0slb6s",
+      "author": "Guilty_Ad_9476",
+      "body": "I'd go with MIT, cus the brand is domain agnostic",
+      "score": "1 point",
+      "created": "2026-01-21T03:39:57+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0sm1fx",
+      "author": "MaizeMedical4486",
+      "body": "go to mit. will be exposed to more engineering research and coursework at the cutting edge. Ut turing will not provide anything near afaik.",
+      "score": "1 point",
+      "created": "2026-01-21T03:44:24+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0suqy0",
+      "author": "Aggressive-Camp9328",
+      "body": "Depends, how much do you have to pay for MIT? Is Turing free?",
+      "score": "1 point",
+      "created": "2026-01-21T04:41:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0t97nq",
+      "author": "Beautiful_Ad_1719",
+      "body": "Last year 13 Turing graduates went to Jane street",
+      "score": "1 point",
+      "created": "2026-01-21T06:30:06+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0te6aa",
+      "author": "_Tyronefr",
+      "body": "How are you a senior now if 5 months ago you posted that you are a rising sophomore?",
+      "score": "1 point",
+      "created": "2026-01-21T07:13:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0x6pbl",
+          "author": "quickpenguin123",
+          "body": "huh?",
+          "score": "1 point",
+          "created": "2026-01-21T20:31:37+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0te6aa",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0tyjhb",
+      "author": "Infinite_Click8296",
+      "body": "Pick MIT, you won’t have to be worried about recognition in that case. Everyone knows MIT in recruiting, the same might not be true for Turing.",
+      "score": "1 point",
+      "created": "2026-01-21T10:25:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0w2yh5",
+      "author": "DaKingVic",
+      "body": "Never heard of UT Turing before…",
+      "score": "1 point",
+      "created": "2026-01-21T17:34:34+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0xz2k0",
+      "author": "Arbitrary_User_4H",
+      "body": "MIT. If you change your mind about what you want to do then MIT will be better for you. You’re 18 chances are you’ll change your mind about something",
+      "score": "1 point",
+      "created": "2026-01-21T22:43:34+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o0zercy",
+      "author": "CI0N3",
+      "body": "turing or mit will not make a difference for your likelihood to get a job at a trading firm.",
+      "score": "1 point",
+      "created": "2026-01-22T03:28:56+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o12xcel",
+      "author": "FlowerPositive",
+      "body": "Turing is elite for sure and has in the past had disproportionate presence at firms like JS even compared to Harvard/MIT. Wouldn’t say it’s better than MIT though.",
+      "score": "1 point",
+      "created": "2026-01-22T17:25:24+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o130lcc",
+      "author": "Exact_Entertainer707",
+      "body": "Top schools? watch this before you apply. Really helped me a lot: https://youtu.be/q8HaHf5yeLY?si=lo8hylXdAdU9Ylwz",
+      "score": "1 point",
+      "created": "2026-01-22T17:40:11+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o156620",
+      "author": "Turbulent_Entrance54",
+      "body": "I go to harvard and know people at Turing & MIT. I think you should pick MIT.",
+      "score": "1 point",
+      "created": "2026-01-22T23:50:11+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o1f0gkm",
+      "author": "Its_Raining_Indoors",
+      "body": "As a MIT senior… we got so many people going quant that I’ve lost count. All the quant firms come and sponsor the most random events. I think half my wardrobe is just free stuff I’ve gotten from quant firms. I imagine they do this at other schools but my point is if you want to go quant, are smart, then MIT might be the best place to go. Idk anyone at UT Turing and I imagine it’s pretty good but MIT the expectation atp is literally quant or AI startup tbh. Happy to answer questions",
+      "score": "1 point",
+      "created": "2026-01-24T12:40:38+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o1f9kc1",
+          "author": "quickpenguin123",
+          "body": "Oh dang, alr thx",
+          "score": "1 point",
+          "created": "2026-01-24T13:40:45+00:00",
+          "depth": 1,
+          "parent_id": "t1_o1f0gkm",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o1g06wk",
+      "author": "euphoria_23",
+      "body": "You’re in high school: are you so sure Quant is your ride-or-die? I by no means am discouraging you, btw! But I hope that you make your college decision with the context of all possibilities.",
+      "score": "1 point",
+      "created": "2026-01-24T16:01:00+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o1kduz6",
+      "author": "ConsiderationLife673",
+      "body": "MIT bc you’ll live w that prestige for the rest of ur life",
+      "score": "1 point",
+      "created": "2026-01-25T05:07:07+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o1thlzy",
+      "author": "matthew6645",
+      "body": "If cost is not a factor, MIT 1000%. If you have to take significant loans for MIT, I would go to UT especially if you’re in-state.",
+      "score": "1 point",
+      "created": "2026-01-26T13:59:01+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qiety4",
+        "author": "quickpenguin123",
+        "title": "UT Turing Scholars > MIT for Quant!?",
+        "body": "Hey so I am currently a senior in high school, I got into MIT and UT Turing Scholars. I am still deciding what schools I am choosing because not all of my college results are out yet. I want to go into Quant but idk which I should choose. I heard that like UT Turing was this super underground way of getting into quant but I never see it on the top lists. Why is this? Also, are there some other underground colleges for quant that are on par with MIT and such? I feel like everybody just mentions like MIT, Harvard, Princeton, UChicago and all the IVY+ and HYPSM sorta thing for Quant but not UT Turing Scholars.\nWhere would turing scholars place on this list?\n\n\nMIT\nUChicago\nHarvard\nPrinceton\nStanford\nColumbia\nUIUC\nUC Berkeley\nCMU\nNorthwestern\nYale\nPeking University\nNYU\nUniversity of Michigan",
+        "full_text": "UT Turing Scholars > MIT for Quant!?\n\nHey so I am currently a senior in high school, I got into MIT and UT Turing Scholars. I am still deciding what schools I am choosing because not all of my college results are out yet. I want to go into Quant but idk which I should choose. I heard that like UT Turing was this super underground way of getting into quant but I never see it on the top lists. Why is this? Also, are there some other underground colleges for quant that are on par with MIT and such? I feel like everybody just mentions like MIT, Harvard, Princeton, UChicago and all the IVY+ and HYPSM sorta thing for Quant but not UT Turing Scholars.\nWhere would turing scholars place on this list?\n\n\nMIT\nUChicago\nHarvard\nPrinceton\nStanford\nColumbia\nUIUC\nUC Berkeley\nCMU\nNorthwestern\nYale\nPeking University\nNYU\nUniversity of Michigan"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o0r01zu",
+          "author": "Profitzzzz",
+          "body": "While a ranking is hard because Turing only takes like 50 kids a year, MIT is MIT. \n\nWhile Turing absolutely gets u anywhere in SWE, for Quant in general it is physically impossible to get better than MIT/UChicago/Harvard/Princeton\n\nIt’s ridiculous. At Uchicago, there are literally too many Quant/banking recruitment events happening to count. Citadel sponsors the goddam poker club. MIT will be exactly like this. \n\nIf you want to be a quant, go MIT. It’s in the holy grail tier.\n\nTuring is something serious no doubt, one of my best friends is a Turing Scholar. But we’re talking about MIT.",
+          "score": "69 points",
+          "has_replies": true,
+          "num_replies": 7
+        },
+        {
+          "id": "t1_o0rep93",
+          "author": "MrChrisRodriguez",
+          "body": "IMO MIT has more brand recognition and more competitive recruiting (more companies going to it) because it’s a larger talent pool. \n\nCompanies have all kinds of keyword-based filters and while an in-the-know top-tier recruiter will know UT Turing, it’s such a small program that almost no company will include it in their resume screening filters so you’ll have to hope a human reviewer got to your resume and is knowledgeable. \n\nUnless you have a very good reason I think MIT is the better choice, esp since you can’t be certain you’ll want to do quant in four years. MIT is more optionality",
+          "score": "29 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0rk0oh",
+          "author": "Fzzy_dude",
+          "body": "MIT and it’s not even close. While Turing is prestigious and places well in quant (mostly in quant dev or SWE), MIT opens a lot more doors. Even for SWE placements, which is Turing’s top strength, MIT beats Turing.",
+          "score": "18 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0rkmct",
+          "author": "losingmyshirt",
+          "body": "as a uchicago grad, pick MIT. you don’t want to spend the rest of your life being like “no no UT Turing is actually a really good program i swear im as smart as the ivies” just go to MIT LMFAO",
+          "score": "31 points",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o0qx8hv",
+          "author": "[deleted]",
+          "body": "i was going to drop some advice like check linkedin or something then it hit me if what youre saying is true youre so much smarter than me youre basically a different breed of human, after a linkedin search UT Turing scholars are crazy strong, good luck with whatever you choose",
+          "score": "9 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0ropl2",
+          "author": "Legitimate-Bee8637",
+          "body": "I work at one of {Citadel,JS,HRT,Jump} and have numerous connections at the others. I guarantee you that recruiters at all of those firms have heard of and think highly of Turing scholars. They host Turing-exclusive networking events every year, and double digit number of Turing grads intern and join full time every year. I don't have exact numbers but I wouldn't be surprised if Turing sends a higher proportion of its graduating class to quant than MIT.\n\nThis is not to undermine the quality or prestige of MIT; both are phenomenal programs that will set you up for success. But don't sleep on Turing",
+          "score": "10 points",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o0rm8gh",
+          "author": "AioliTop2420",
+          "body": "As a recruiter in the space, I 100% have done searches for Turing grads specifically. I have a client that asks for them directly and will pay us extra if they get first dibs on them",
+          "score": "9 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0rd6m2",
+          "author": "igetlotsofupvotes",
+          "body": "I’ve never heard of Turing (maybe my fault) but any recruiter is more likely going to recognize mit over this program. Plus it doesn’t have a name on it like Penn m&t. Not telling you that you should def go mit but from a recruiting perspective that’s how I feel. Given that, I’m sure your profile will strong no matter where you go",
+          "score": "15 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0r6inm",
+          "author": "Fun-Passenger430",
+          "body": "still MIT imho",
+          "score": "3 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0ri2vw",
+          "author": "CompIEOR",
+          "body": "Not > but likely = \n\nMIT is the safer bet but frankly i don’t think it’s going to be down to the program.",
+          "score": "3 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0qysyj",
+          "author": "Nervous_Impact3637",
+          "body": "Holy shit this guy is cracked",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0rnpna",
+          "author": "DesperateDecision616",
+          "body": "I go to UT - Turing is cracked…but unless ur like in state I don’t see a reason not to go to MIT for the same price. Only thing I can think of is that UT is a really really fun school, imo the best balance of social life and academics out here. I would most likely say the placement is equal, Turing is absolutely a target for quant",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0tjs6w",
+          "author": "VictoryLazy7258",
+          "body": "It is interesting how people who have an amazing profile make it to MIT, only to focus on getting a quant job. Yes, you will make a lot of money, but I feel like research opportunities and network at MIT could take you so much far than just becoming a quant. Maybe creating a startup or doing world class research? Why settle for quant? Like I just don’t get why so many smart people are dying to join a zero sum game of finance.",
+          "score": "4 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0qyms0",
+          "author": "Unfair_Albatross_437",
+          "body": "how did you get into turing scholars when honors results haven't even dropped yet?",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0r1i2t",
+          "author": "imdealhunter",
+          "body": "Is UT Turing out ? I thought the first wave comes in early Feb.",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o0rgs3r",
+          "author": "rsha256",
+          "body": "If you want to go for a directly attributable to pnl role like QR/QT/QD and not just SWE at a Quant firm then definitely MIT, I have never heard of someone breaking into quant from UT (I'm sure someone has, but I am saying it is a rare occurrence) but many do so from MIT every year. If you want to be a SWE then UT can work but I would still place the university name below all the others in your list (it does not make sense to compare a specific program to general universities when other universities also have special programs like UC Berkeley's MET program, so I am just comparing UT Austin vs the others), and there are still more from the other universities before even normalizing by size.\n\nI looked up internally how many Turing Scholar's are at the firm I work at, and there are none. UT just does not feed into quant unless the firm has a Texas office, in which case they are usually kept there probably without the ability to transfer. Meanwhile I looked up MIT from my firm and saw a never ending list... and even NYU feeds more into NY quant firms while being easy to get into so I would expect UT to do more considering many quant firms have offices in the same state...",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0sc39t",
+          "author": "Ok_Meat2222",
+          "body": "Miiiiiiiiiiiitttttttt",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0sc5zs",
+          "author": "FizixPhun",
+          "body": "I've never heard of Turing but admit I'm biased because I went to MIT. The hedge fund I'm at (small shop that seems well regarded on this subreddit) has tons of MIT grads.\n\nIf you go to MIT, you will have instant name recognition for your school. You will learn as much from working with your peers as from your professors. You will have incredible research opportunities with world leading professors.  However, you will be a small fish in a very big pond. I suspect in a small program, which it sounds like Turing is, you will get much more one on one attention.  As a last point, you're still so young and who knows what you will want to do when you graduate. I entered school wanting to do MechE or EE and ended up as a physicist who turned quant. MIT gives you a wide variety of strong programs.\n\nMy take is that anyone on here telling you one way or the other can't give you a good answer. We don't know you.  You need to go to the environment where you will be most able to succeed and that requires you to introspect about yourself. I've seen MIT chew people up and spit them out. They were smart but it can be an intense environment. You should try to visit both schools before making your decision. You can't really know what its like until you visit. This is possibly one of the biggest decisions of your life so paying for some flights to get to both is an investment that you should absolutely talk to your parents about.\n\nIf you want to chat, feel free to DM me.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0sjxio",
+          "author": "Warcart15",
+          "body": "hey! i’m actually in the quant club at UT, where there are a ton of Turing kids as you might expect. at all the top quant firms they are definitely recruited heavily and a lot of the firms sponsor the program itself, so Turing does really well in quant recruiting. with that said, MIT is unquestionably better and you shouldn’t overthink it lmao",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0slb6s",
+          "author": "Guilty_Ad_9476",
+          "body": "I'd go with MIT, cus the brand is domain agnostic",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0sm1fx",
+          "author": "MaizeMedical4486",
+          "body": "go to mit. will be exposed to more engineering research and coursework at the cutting edge. Ut turing will not provide anything near afaik.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0suqy0",
+          "author": "Aggressive-Camp9328",
+          "body": "Depends, how much do you have to pay for MIT? Is Turing free?",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0t97nq",
+          "author": "Beautiful_Ad_1719",
+          "body": "Last year 13 Turing graduates went to Jane street",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0te6aa",
+          "author": "_Tyronefr",
+          "body": "How are you a senior now if 5 months ago you posted that you are a rising sophomore?",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0tyjhb",
+          "author": "Infinite_Click8296",
+          "body": "Pick MIT, you won’t have to be worried about recognition in that case. Everyone knows MIT in recruiting, the same might not be true for Turing.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0w2yh5",
+          "author": "DaKingVic",
+          "body": "Never heard of UT Turing before…",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0xz2k0",
+          "author": "Arbitrary_User_4H",
+          "body": "MIT. If you change your mind about what you want to do then MIT will be better for you. You’re 18 chances are you’ll change your mind about something",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o0zercy",
+          "author": "CI0N3",
+          "body": "turing or mit will not make a difference for your likelihood to get a job at a trading firm.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o12xcel",
+          "author": "FlowerPositive",
+          "body": "Turing is elite for sure and has in the past had disproportionate presence at firms like JS even compared to Harvard/MIT. Wouldn’t say it’s better than MIT though.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o130lcc",
+          "author": "Exact_Entertainer707",
+          "body": "Top schools? watch this before you apply. Really helped me a lot: https://youtu.be/q8HaHf5yeLY?si=lo8hylXdAdU9Ylwz",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o156620",
+          "author": "Turbulent_Entrance54",
+          "body": "I go to harvard and know people at Turing & MIT. I think you should pick MIT.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o1f0gkm",
+          "author": "Its_Raining_Indoors",
+          "body": "As a MIT senior… we got so many people going quant that I’ve lost count. All the quant firms come and sponsor the most random events. I think half my wardrobe is just free stuff I’ve gotten from quant firms. I imagine they do this at other schools but my point is if you want to go quant, are smart, then MIT might be the best place to go. Idk anyone at UT Turing and I imagine it’s pretty good but MIT the expectation atp is literally quant or AI startup tbh. Happy to answer questions",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o1g06wk",
+          "author": "euphoria_23",
+          "body": "You’re in high school: are you so sure Quant is your ride-or-die? I by no means am discouraging you, btw! But I hope that you make your college decision with the context of all possibilities.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o1kduz6",
+          "author": "ConsiderationLife673",
+          "body": "MIT bc you’ll live w that prestige for the rest of ur life",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o1thlzy",
+          "author": "matthew6645",
+          "body": "If cost is not a factor, MIT 1000%. If you have to take significant loans for MIT, I would go to UT especially if you’re in-state.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r01zu",
+        "author": "Profitzzzz",
+        "body": "While a ranking is hard because Turing only takes like 50 kids a year, MIT is MIT. \n\nWhile Turing absolutely gets u anywhere in SWE, for Quant in general it is physically impossible to get better than MIT/UChicago/Harvard/Princeton\n\nIt’s ridiculous. At Uchicago, there are literally too many Quant/banking recruitment events happening to count. Citadel sponsors the goddam poker club. MIT will be exactly like this. \n\nIf you want to be a quant, go MIT. It’s in the holy grail tier.\n\nTuring is something serious no doubt, one of my best friends is a Turing Scholar. But we’re talking about MIT.",
+        "score": "69 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r0cg3",
+          "author": "Profitzzzz",
+          "body": "Talked to my friend, Turing is cracked asf. You honestly can’t go wrong, you’ll def be able to get Quant with Turing.\n\nPick whichever you like more.",
+          "score": "26 points",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o0rnzzr",
+          "author": "privateack",
+          "body": "Don’t forget the sig and imc also sponsor that poker club lol",
+          "score": "6 points",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o0s67j7",
+          "author": "Ancient-Way-1682",
+          "body": "I’m assuming you’re a college student in their first or second year the way you’re talking",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o13lyov",
+          "author": "bob_shoeman",
+          "body": "While Turing absolutely gets u anywhere in SWE\n\n\nYeah, probably not. With only a few exceptions, recruiters generally sort by overall school/department reputation, not by membership in small honors programs recruited during undergrad admissions. Not to mention, the days where companies hired by brand name are long gone and aren't coming back. Don't get me wrong, there is without a doubt an advantage in having graduated from a 'brand name' school relative to having done so from a lower ranking school, but it's not going to get you through the door, especially when companies are moving away from the paradigm of junior SWE's as apprentices and more towards one in which SWE's are expected to have immediate functional net value. In other words, companies when hiring have moved away from signs of general intelligence/potential to those of demonstrated ability to hit the ground running as an active contributor. This is simply the natural consequence of the tech labor surplus and the massive expansion of SWE productivity enabled by LLM's.\n\nI went the PhD route instead of quant, but I have several recently-defended peers who did otherwise, mostly for research roles. From what I've heard from their experiences, quant firms still hire very holistically, interviewing with respect to mathematical and/or abstract problem solving ability rather than topically relevant expertise. In fact, none of the aforementioned had any background in finance, and I would characterize them as very mathematically inclined individuals who had come to become disillusioned/disinterested in their PhD research directions rather than finance yuppie types who had angled for the job from the start. In this sense, it would indicate that quant firms are still looking for 'general smarts' with nurturing potential as opposed to immediate utility (as is increasingly the case with SWE).",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o0tahdz",
+          "author": "Mammoth_Wishbone_807",
+          "body": "Bro snuck in UChicago",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o0w497c",
+          "author": "MysteriousMystery09",
+          "body": "question I had about Chicago, is this for CS or math majors there? Because I've word while the math major is phenomenally strong, the CS major is in comparison far weaker",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o141vm7",
+          "author": "jd192739",
+          "body": "Citadel comes to our poker club at waterloo too haha",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r0cg3",
+        "author": "Profitzzzz",
+        "body": "Talked to my friend, Turing is cracked asf. You honestly can’t go wrong, you’ll def be able to get Quant with Turing.\n\nPick whichever you like more.",
+        "score": "26 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r6rzd",
+          "author": "quickpenguin123",
+          "body": "Oh alr thx!",
+          "score": "5 points",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r6rzd",
+        "author": "quickpenguin123",
+        "body": "Oh alr thx!",
+        "score": "5 points",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1kylqx",
+          "author": "Tisastrous",
+          "body": "Some quant places only recruit from top tier universities.",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rnzzr",
+        "author": "privateack",
+        "body": "Don’t forget the sig and imc also sponsor that poker club lol",
+        "score": "6 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1ikk81",
+          "author": "Delicious_Ad_7804",
+          "body": "They sponsor Turing too, and I have friends in both",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o13lyov",
+        "author": "bob_shoeman",
+        "body": "While Turing absolutely gets u anywhere in SWE\n\n\nYeah, probably not. With only a few exceptions, recruiters generally sort by overall school/department reputation, not by membership in small honors programs recruited during undergrad admissions. Not to mention, the days where companies hired by brand name are long gone and aren't coming back. Don't get me wrong, there is without a doubt an advantage in having graduated from a 'brand name' school relative to having done so from a lower ranking school, but it's not going to get you through the door, especially when companies are moving away from the paradigm of junior SWE's as apprentices and more towards one in which SWE's are expected to have immediate functional net value. In other words, companies when hiring have moved away from signs of general intelligence/potential to those of demonstrated ability to hit the ground running as an active contributor. This is simply the natural consequence of the tech labor surplus and the massive expansion of SWE productivity enabled by LLM's.\n\nI went the PhD route instead of quant, but I have several recently-defended peers who did otherwise, mostly for research roles. From what I've heard from their experiences, quant firms still hire very holistically, interviewing with respect to mathematical and/or abstract problem solving ability rather than topically relevant expertise. In fact, none of the aforementioned had any background in finance, and I would characterize them as very mathematically inclined individuals who had come to become disillusioned/disinterested in their PhD research directions rather than finance yuppie types who had angled for the job from the start. In this sense, it would indicate that quant firms are still looking for 'general smarts' with nurturing potential as opposed to immediate utility (as is increasingly the case with SWE).",
+        "score": "3 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o16cgu5",
+          "author": "NotYetPerfect",
+          "body": "Ut has many turing exclusive job fairs. The benefit of turing isn't the name on the resume but the connections and opportunities. I'm not sure about quant placement, but faang placement is quite high.",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0tahdz",
+        "author": "Mammoth_Wishbone_807",
+        "body": "Bro snuck in UChicago",
+        "score": "3 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0zdl2m",
+          "author": "Careful_Fold_7637",
+          "body": "uchicago is elite for math",
+          "score": "0 points",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0w497c",
+        "author": "MysteriousMystery09",
+        "body": "question I had about Chicago, is this for CS or math majors there? Because I've word while the math major is phenomenally strong, the CS major is in comparison far weaker",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0x7hek",
+          "author": "Profitzzzz",
+          "body": "Both. In truth, if you have the skill + target school, the difference between CS and math wont matter THAT much for Dev vs QT roles, as long as you yourself prep for the role you want. UChicago offers the CAAM degree which combines Math, Stats, and CS and is the major for all quant so it will not make or break your chances at all.",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rep93",
+        "author": "MrChrisRodriguez",
+        "body": "IMO MIT has more brand recognition and more competitive recruiting (more companies going to it) because it’s a larger talent pool. \n\nCompanies have all kinds of keyword-based filters and while an in-the-know top-tier recruiter will know UT Turing, it’s such a small program that almost no company will include it in their resume screening filters so you’ll have to hope a human reviewer got to your resume and is knowledgeable. \n\nUnless you have a very good reason I think MIT is the better choice, esp since you can’t be certain you’ll want to do quant in four years. MIT is more optionality",
+        "score": "29 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rmdq6",
+          "author": "[deleted]",
+          "body": "this is the best reasoning. think about the hiring process! MIT is the way to go.",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rkmct",
+        "author": "losingmyshirt",
+        "body": "as a uchicago grad, pick MIT. you don’t want to spend the rest of your life being like “no no UT Turing is actually a really good program i swear im as smart as the ivies” just go to MIT LMFAO",
+        "score": "31 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rlmlk",
+          "author": "quickpenguin123",
+          "body": "Haha lol",
+          "score": "5 points",
+          "depth": 1,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o0sufcg",
+          "author": "Aggressive-Camp9328",
+          "body": "If you're constantly aware/bothered by the ranking of your college then that's just pathetic",
+          "score": "4 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0qx8hv",
+        "author": "[deleted]",
+        "body": "i was going to drop some advice like check linkedin or something then it hit me if what youre saying is true youre so much smarter than me youre basically a different breed of human, after a linkedin search UT Turing scholars are crazy strong, good luck with whatever you choose",
+        "score": "9 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0qxe8u",
+          "author": "quickpenguin123",
+          "body": "thanks!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0qxe8u",
+        "author": "quickpenguin123",
+        "body": "thanks!",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0ryoxy",
+          "author": "Famous-Cheetah4766",
+          "body": "Yo I’m a junior currently, would I be able to dm u",
+          "score": "0 points",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0ropl2",
+        "author": "Legitimate-Bee8637",
+        "body": "I work at one of {Citadel,JS,HRT,Jump} and have numerous connections at the others. I guarantee you that recruiters at all of those firms have heard of and think highly of Turing scholars. They host Turing-exclusive networking events every year, and double digit number of Turing grads intern and join full time every year. I don't have exact numbers but I wouldn't be surprised if Turing sends a higher proportion of its graduating class to quant than MIT.\n\nThis is not to undermine the quality or prestige of MIT; both are phenomenal programs that will set you up for success. But don't sleep on Turing",
+        "score": "10 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0sev1t",
+          "author": "bobot05",
+          "body": "I think you’re missing the question at hand. No one is sleeping on Turing. It’s asking if they should pick it over MIT for quant. High proportion from anecdotal evidence is quite a poor reason",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o0rp6lm",
+          "author": "quickpenguin123",
+          "body": "oh ok",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0sev1t",
+        "author": "bobot05",
+        "body": "I think you’re missing the question at hand. No one is sleeping on Turing. It’s asking if they should pick it over MIT for quant. High proportion from anecdotal evidence is quite a poor reason",
+        "score": "3 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0sikcx",
+          "author": "Legitimate-Bee8637",
+          "body": "I doubt anyone in this thread has concrete numbers or is at liberty to post them here. I'm providing anecdotal evidence that Turing is highly sought after by quant recruiters to counterbalance the other unsubstantiated claims in this thread that nobody's heard of Turing, MIT is hands down better, etc. \n\nSo to directly answer the question at hand, yes, I think Turing is at the very least on par with MIT for getting a job in quant. Although I should clarify that I'm referring to SWE at quant firms; I know way fewer Turing Quant Researchers/Traders and your odds are probably better at MIT for those roles.",
+          "score": "7 points",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rm8gh",
+        "author": "AioliTop2420",
+        "body": "As a recruiter in the space, I 100% have done searches for Turing grads specifically. I have a client that asks for them directly and will pay us extra if they get first dibs on them",
+        "score": "9 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rmula",
+          "author": "quickpenguin123",
+          "body": "Would you say better than MIT?",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rmula",
+        "author": "quickpenguin123",
+        "body": "Would you say better than MIT?",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0ropf6",
+          "author": "AioliTop2420",
+          "body": "So here’s my full take and you can take it however you’d like.\n\nThere are more MIT grads in quant and I can find a bunch of em, Turing on the other hand is relatively niche and carries with it a significant amount of prestige. \n\nI don’t get asked for MIT people (because it’s assumed), but will happily talk to any of them and submit them. I get asked for Turing folks specifically.\n\nI think if it reallllllly doesn’t matter on location and cost, MIT covers more fields and probably gets you more generic opportunities. I think Turing gets you more specific ones and if you want to be at UT Austin, it’s a legit competitor.",
+          "score": "5 points",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rd6m2",
+        "author": "igetlotsofupvotes",
+        "body": "I’ve never heard of Turing (maybe my fault) but any recruiter is more likely going to recognize mit over this program. Plus it doesn’t have a name on it like Penn m&t. Not telling you that you should def go mit but from a recruiting perspective that’s how I feel. Given that, I’m sure your profile will strong no matter where you go",
+        "score": "15 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rmfnh",
+          "author": "AioliTop2420",
+          "body": "This is not 100% true. I’m a recruiter and have clients that ask specifically for Turing grads. I didn’t know about it until they mentioned it, but now I go out of my way to convince any Turing grads to talk",
+          "score": "6 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r6inm",
+        "author": "Fun-Passenger430",
+        "body": "still MIT imho",
+        "score": "3 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r6vk4",
+          "author": "quickpenguin123",
+          "body": "alr",
+          "score": "0 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0qysyj",
+        "author": "Nervous_Impact3637",
+        "body": "Holy shit this guy is cracked",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r6ux7",
+          "author": "quickpenguin123",
+          "body": "thx bro!",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rnpna",
+        "author": "DesperateDecision616",
+        "body": "I go to UT - Turing is cracked…but unless ur like in state I don’t see a reason not to go to MIT for the same price. Only thing I can think of is that UT is a really really fun school, imo the best balance of social life and academics out here. I would most likely say the placement is equal, Turing is absolutely a target for quant",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rnwe8",
+          "author": "quickpenguin123",
+          "body": "oh alr",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rnwe8",
+        "author": "quickpenguin123",
+        "body": "oh alr",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rod7g",
+          "author": "DesperateDecision616",
+          "body": "And to be clear I see some comments here talking abt firms sponsoring clubs and stuff, Jane street HRT virtu and others sponsor the quant finance club at UT sponsors aren’t anything crazy/meaningful",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0tjs6w",
+        "author": "VictoryLazy7258",
+        "body": "It is interesting how people who have an amazing profile make it to MIT, only to focus on getting a quant job. Yes, you will make a lot of money, but I feel like research opportunities and network at MIT could take you so much far than just becoming a quant. Maybe creating a startup or doing world class research? Why settle for quant? Like I just don’t get why so many smart people are dying to join a zero sum game of finance.",
+        "score": "4 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1f0ym5",
+          "author": "Its_Raining_Indoors",
+          "body": "Yep. I agree. I think of my friends is going to go get his PhD after his quant internship. Glad he’s using his insane brain for the good of humanity",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0qyms0",
+        "author": "Unfair_Albatross_437",
+        "body": "how did you get into turing scholars when honors results haven't even dropped yet?",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0qzmx7",
+          "author": "quickpenguin123",
+          "body": "I applied early",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0qzmx7",
+        "author": "quickpenguin123",
+        "body": "I applied early",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r131y",
+          "author": "Unfair_Albatross_437",
+          "body": "yeah but even for early action honors results don't go out until like february",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r131y",
+        "author": "Unfair_Albatross_437",
+        "body": "yeah but even for early action honors results don't go out until like february",
+        "score": "1 point",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r2yst",
+          "author": "Unfair_Albatross_437",
+          "body": "actually, honors in general doesn't come out until february b/c they don't release honors till after rd",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o0r6tjf",
+          "author": "quickpenguin123",
+          "body": "bro what wait can i pm u",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r6tjf",
+        "author": "quickpenguin123",
+        "body": "bro what wait can i pm u",
+        "score": "1 point",
+        "depth": 3,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rb6dv",
+          "author": "Unfair_Albatross_437",
+          "body": "yeah sure",
+          "score": "1 point",
+          "depth": 4,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r1i2t",
+        "author": "imdealhunter",
+        "body": "Is UT Turing out ? I thought the first wave comes in early Feb.",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r6yev",
+          "author": "quickpenguin123",
+          "body": "I mean I got mine but apparentally other ppl are also saying it comes out in feb",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o0sk6rh",
+          "author": "Warcart15",
+          "body": "it comes in waves based on geographic location i believe",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r6yev",
+        "author": "quickpenguin123",
+        "body": "I mean I got mine but apparentally other ppl are also saying it comes out in feb",
+        "score": "2 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r7tog",
+          "author": "imdealhunter",
+          "body": "Cool. Congratulations,  you rock ! Good luck to you. I am sure you will do great at either place.",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0r7tog",
+        "author": "imdealhunter",
+        "body": "Cool. Congratulations,  you rock ! Good luck to you. I am sure you will do great at either place.",
+        "score": "1 point",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0r83yo",
+          "author": "quickpenguin123",
+          "body": "Thx bro!",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rgs3r",
+        "author": "rsha256",
+        "body": "If you want to go for a directly attributable to pnl role like QR/QT/QD and not just SWE at a Quant firm then definitely MIT, I have never heard of someone breaking into quant from UT (I'm sure someone has, but I am saying it is a rare occurrence) but many do so from MIT every year. If you want to be a SWE then UT can work but I would still place the university name below all the others in your list (it does not make sense to compare a specific program to general universities when other universities also have special programs like UC Berkeley's MET program, so I am just comparing UT Austin vs the others), and there are still more from the other universities before even normalizing by size.\n\nI looked up internally how many Turing Scholar's are at the firm I work at, and there are none. UT just does not feed into quant unless the firm has a Texas office, in which case they are usually kept there probably without the ability to transfer. Meanwhile I looked up MIT from my firm and saw a never ending list... and even NYU feeds more into NY quant firms while being easy to get into so I would expect UT to do more considering many quant firms have offices in the same state...",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rjwus",
+          "author": "squashed_mosquitoes",
+          "body": "Knew two in Turing that graduated spring 2025, they interned and accepted FT offers @ Jane street & Hudson River , neither office being in TX",
+          "score": "4 points",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0rjwus",
+        "author": "squashed_mosquitoes",
+        "body": "Knew two in Turing that graduated spring 2025, they interned and accepted FT offers @ Jane street & Hudson River , neither office being in TX",
+        "score": "4 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0rmjpx",
+          "author": "AioliTop2420",
+          "body": "This",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o0siska",
+          "author": "rsha256",
+          "body": "That’s great for those two but my point was that I’d have expected UT to feed a lot more into firms that have Texas offices. And ideally like to see more QR roles vs how I’ve only seen SWEs, and not because that’s what they wanted to do. Even in the firms you mentioned, MIT places more and with more automatic screening, it’s possible that such a small elite program such as Turing is just not on a quant firm’s radar while mit always will be. It’s very clearly possible to still get into quant from almost any university since it’s one of the more meritocratic industries",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0te6aa",
+        "author": "_Tyronefr",
+        "body": "How are you a senior now if 5 months ago you posted that you are a rising sophomore?",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0x6pbl",
+          "author": "quickpenguin123",
+          "body": "huh?",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o1f0gkm",
+        "author": "Its_Raining_Indoors",
+        "body": "As a MIT senior… we got so many people going quant that I’ve lost count. All the quant firms come and sponsor the most random events. I think half my wardrobe is just free stuff I’ve gotten from quant firms. I imagine they do this at other schools but my point is if you want to go quant, are smart, then MIT might be the best place to go. Idk anyone at UT Turing and I imagine it’s pretty good but MIT the expectation atp is literally quant or AI startup tbh. Happy to answer questions",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1f9kc1",
+          "author": "quickpenguin123",
+          "body": "Oh dang, alr thx",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 35,
+    "total_nested_replies": 43,
+    "total_qa_pairs": 33
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "BIGGEST THING: I graduated in 3 years of american high school so that I could do",
+          "role": "",
+          "description": "BIGGEST THING: I graduated in 3 years of american high school so that I could do the CBYX program and do 1 year of high school in Germany. I lived with a host family, did not see my real family or U.S. friends for 10 months, and by the end could speak German fairly fluently. I did not receive any high school credit for the classes I took in Germany. I did freshman and sophomore year in the U.S., went to Germany my junior year, did one more year of american high school in my senior year(when I applied to colleges)"
+        },
+        {
+          "name": "Very involved in theater, avg 4 productions/year plus volunteering for more",
+          "role": "",
+          "description": "Very involved in theater, avg 4 productions/year plus volunteering for more"
+        },
+        {
+          "name": "Student Government (class treasurer)",
+          "role": "",
+          "description": "Student Government (class treasurer)"
+        },
+        {
+          "name": "FBLA",
+          "role": "",
+          "description": "FBLA"
+        },
+        {
+          "name": "Key Club",
+          "role": "",
+          "description": "Key Club"
+        },
+        {
+          "name": "National Honor Society",
+          "role": "",
+          "description": "National Honor Society"
+        },
+        {
+          "name": "English Honor Society",
+          "role": "",
+          "description": "English Honor Society"
+        },
+        {
+          "name": "Math Honor Society",
+          "role": "",
+          "description": "Math Honor Society"
+        },
+        {
+          "name": "Spanish Language Team (captain)",
+          "role": "",
+          "description": "Spanish Language Team (captain)"
+        },
+        {
+          "name": "Worked at summer camps and chipotle",
+          "role": "",
+          "description": "Worked at summer camps and chipotle"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Calc AB",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Psych",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP World",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP US Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APUSH",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Stat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Physics 1",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "IB Chem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "DE Eng 101 & 102 (online asynchronous my junior year and summer before senior year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Senior Year Course Load:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc AB + required seminar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "H Spanish 4",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Gym/Health",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Standardized Testing*\\*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT: 1510",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP/IB:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc AB(4)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit(4)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Psych(4)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

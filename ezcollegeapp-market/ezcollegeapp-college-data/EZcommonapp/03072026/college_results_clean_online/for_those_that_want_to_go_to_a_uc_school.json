@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.7,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Track (captain)",
+          "role": "",
+          "description": "1. Track (captain)"
+        },
+        {
+          "name": "2. Swimming (state athlete)",
+          "role": "",
+          "description": "2. Swimming (state athlete)"
+        },
+        {
+          "name": "3. Drama / Theatre (lead actor)",
+          "role": "",
+          "description": "3. Drama / Theatre (lead actor)"
+        },
+        {
+          "name": "4. Job #1",
+          "role": "",
+          "description": "4. Job #1"
+        },
+        {
+          "name": "5. Job #2",
+          "role": "",
+          "description": "5. Job #2"
+        },
+        {
+          "name": "6. A week's worth of volunteer service at a local church",
+          "role": "",
+          "description": "6. A week's worth of volunteer service at a local church"
+        },
+        {
+          "name": "7. Key Club (I was in this club for a week and had like 12 hours of community se",
+          "role": "",
+          "description": "7. Key Club (I was in this club for a week and had like 12 hours of community service total)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Track Captain",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Track MVP",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Swimming MVP",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Swimming  Captain",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 7,
+      "first_gen": true,
+      "service_summary": "6. A week's worth of volunteer service at a local church; 7. Key Club (I was in this club for a week and had like 12 hours of community service total)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "media studies / mass media / communications / journalism"
+    },
+    "ESSAY_SCORE": null
+  }
+}

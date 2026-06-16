@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 95
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Finance / Business Internships – Financial Systems & Analytics Intern (11–12) An",
+          "role": "",
+          "description": "Finance / Business Internships – Financial Systems & Analytics Intern (11–12) Analyzed $800K+ payment data Built dashboard cutting reporting time 15% Mentored 10 interns – Finance & Operations Intern (11–12)"
+        },
+        {
+          "name": "Battalion Sergeant Major — VF Military Academy 3rd highest rank in school Led al",
+          "role": "",
+          "description": "Battalion Sergeant Major — VF Military Academy 3rd highest rank in school Led all cadet operations and discipline Vice President — Student Council (VFMA) Vice President & Quartermaster — Marksmanship Club (VFMA)"
+        },
+        {
+          "name": "Founder & President — VFMA Finance Club",
+          "role": "",
+          "description": "Founder & President — VFMA Finance Club"
+        },
+        {
+          "name": "Vice President — Nationwide Finance Club (200+ members)",
+          "role": "",
+          "description": "Vice President — Nationwide Finance Club (200+ members)"
+        },
+        {
+          "name": "Founder — Financial Content Platform (1,500+ audience) Research",
+          "role": "",
+          "description": "Founder — Financial Content Platform (1,500+ audience) Research"
+        },
+        {
+          "name": "Economic Policy Researcher",
+          "role": "",
+          "description": "Economic Policy Researcher"
+        },
+        {
+          "name": "Wrote policy brief on tariffs & immigration",
+          "role": "",
+          "description": "Wrote policy brief on tariffs & immigration"
+        },
+        {
+          "name": "1,000+ reads",
+          "role": "",
+          "description": "1,000+ reads"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "CS Honors 95 AP Lang 91 APUSH 91 chem 93 Spanish III 92",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Took Honors Pre Calc over the summer to get into AP Calc BC senior year",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Academic Progression: Transferred from military academy due to school closure and pursuit of stronger academics",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

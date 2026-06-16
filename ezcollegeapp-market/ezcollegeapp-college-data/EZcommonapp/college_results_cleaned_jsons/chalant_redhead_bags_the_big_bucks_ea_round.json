@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.87,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(NOT super specific for privacy reasons!!) Prestigious opera program - 3yrs Colo",
+          "role": "",
+          "description": "(NOT super specific for privacy reasons!!) Prestigious opera program - 3yrs Color Guard - 4 yrs, 3 yrs captain, multiple state titles Choir - 4yrs, 3yrs section leader, 2 yrs student conductor, 4 yrs all-state"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Choir",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Art History",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APES",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Psych",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Stats",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "DE writing class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "DE seminar/religion class (looking at a 3.96 this semester) Standardized Testing SAT: 1500 (750RW/750M) APs: (5): AP Wor",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Varsity letter in Community Service (sophomore/jr year, my school gives these for 100+ hrs of service a year)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Sociology/Psychology w music minor, pre-law track"
+    },
+    "ESSAY_SCORE": null
+  }
+}

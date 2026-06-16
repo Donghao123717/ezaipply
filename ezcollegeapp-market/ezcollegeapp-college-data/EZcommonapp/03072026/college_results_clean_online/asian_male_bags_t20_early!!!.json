@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Robotics - State level",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "FBLA T10",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "local STEM Competition 1st Place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "local fundraising award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Social Studies: 8/10 - a lot to fill in with brag sheet he gave",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Chemistry: 6/10 - said he talked a lot about academics, not actually really good in class, but he kn",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Robotics: 7-9/10 - definitely wrote the most concretely and had most to say, don't know writing qual",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here): engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

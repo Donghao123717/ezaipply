@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Captain of varsity swim team, state finalist, made All-State team",
+          "role": "",
+          "description": "Captain of varsity swim team, state finalist, made All-State team"
+        },
+        {
+          "name": "Editor of school newspaper",
+          "role": "",
+          "description": "Editor of school newspaper"
+        },
+        {
+          "name": "Captain of local club \\[redacted uncommon sport\\] team. Founder, captain(briefly",
+          "role": "",
+          "description": "Captain of local club \\[redacted uncommon sport\\] team. Founder, captain(briefly) of school team"
+        },
+        {
+          "name": "Volunteer coach for local org that provides free/reduced-cost swim lessons for f",
+          "role": "",
+          "description": "Volunteer coach for local org that provides free/reduced-cost swim lessons for foster children and kids with disabilities"
+        },
+        {
+          "name": "Interned for fintech firm reviewing PPP loan applications. Sounds cooler than it",
+          "role": "",
+          "description": "Interned for fintech firm reviewing PPP loan applications. Sounds cooler than it was, but I did get to put the dollar amount of loans approved on my app which was nice."
+        },
+        {
+          "name": "Attended state Governor's Honors Program",
+          "role": "",
+          "description": "Attended state Governor's Honors Program"
+        },
+        {
+          "name": "Eagle Scout, troop outdoor ethics guide",
+          "role": "",
+          "description": "Eagle Scout, troop outdoor ethics guide"
+        },
+        {
+          "name": "Captain of school academic team, won JV State Championship in sophomore year",
+          "role": "",
+          "description": "Captain of school academic team, won JV State Championship in sophomore year"
+        },
+        {
+          "name": "Vice President and founding member of school Model UN club.",
+          "role": "",
+          "description": "Vice President and founding member of school Model UN club."
+        },
+        {
+          "name": "Other volunteer swim coaching stuff I just lumped into my 10th EC",
+          "role": "",
+          "description": "Other volunteer swim coaching stuff I just lumped into my 10th EC"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Only thing I actually submitted here was my AP Scholar thing lol",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Volunteer coach for local org that provides free/reduced-cost swim lessons for foster children and kids with disabilities; Other volunteer swim coaching stuff I just lumped into my 10th EC"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " public policy/government/econ/journalism, depending on the school. listed bel"
+    },
+    "ESSAY_SCORE": null
+  }
+}

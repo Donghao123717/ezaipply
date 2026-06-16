@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "You'll have to be the judge on which side of the line this person falls on.",
+          "role": "",
+          "description": "You'll have to be the judge on which side of the line this person falls on."
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Yale has dirt on their face from admitting the completely fake female student who was kicked out and walked off universi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Unfortunately, it is true. I can send your her info or essays if you’d like. She has shown her letter on her socials s",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I fully believe you. It is a shame. Control what you can and focus on your process. The admissions cycle is mentally and",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- I read those essays. I can see why she got in.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Why would someone who got into Yale then post their essays on TikTok.. and why, would you believe them?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- because a lot of admitted students post their essays on tiktok or reddit etc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- I deleted TikTok but I have not seen any admitted student essays on Reddit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- It happens on TikTok, Reddit not so much",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- essays arent everything, she probably has insane stats",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

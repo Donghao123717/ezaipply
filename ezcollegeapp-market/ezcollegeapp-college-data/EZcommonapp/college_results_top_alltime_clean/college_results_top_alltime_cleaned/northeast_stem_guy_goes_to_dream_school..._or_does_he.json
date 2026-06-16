@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1500,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. *#1* Volunteer at local science museum: led tours, taught classes, and conduc",
+          "role": "",
+          "description": "1. *#1* Volunteer at local science museum: led tours, taught classes, and conducted research"
+        },
+        {
+          "name": "2. \\#2 Research Assistant at local university: wrote a research paper and helped",
+          "role": "",
+          "description": "2. \\#2 Research Assistant at local university: wrote a research paper and helped my mentor"
+        },
+        {
+          "name": "3. \\#3 Intern at local start-up: used my design and coding skills to assist them",
+          "role": "",
+          "description": "3. \\#3 Intern at local start-up: used my design and coding skills to assist them"
+        },
+        {
+          "name": "4. \\#4 Design and developer: lots of design and coding projects",
+          "role": "",
+          "description": "4. \\#4 Design and developer: lots of design and coding projects"
+        },
+        {
+          "name": "5. \\#5 YYGS and LaunchX Participant",
+          "role": "",
+          "description": "5. \\#5 YYGS and LaunchX Participant"
+        },
+        {
+          "name": "6. \\#6 President at school's coding club",
+          "role": "",
+          "description": "6. \\#6 President at school's coding club"
+        },
+        {
+          "name": "7. \\#7 Treasurer at school's community service club",
+          "role": "",
+          "description": "7. \\#7 Treasurer at school's community service club"
+        },
+        {
+          "name": "8. \\#8 Varsity Crew, Varsity Skiing, Varsity outdoor Track and Field",
+          "role": "",
+          "description": "8. \\#8 Varsity Crew, Varsity Skiing, Varsity outdoor Track and Field"
+        },
+        {
+          "name": "9. \\#9 Intern at local university: helped with chem engineering projects",
+          "role": "",
+          "description": "9. \\#9 Intern at local university: helped with chem engineering projects"
+        },
+        {
+          "name": "10. \\#10 Intern at local university: helped with BME projects and researched ene",
+          "role": "",
+          "description": "10. \\#10 Intern at local university: helped with BME projects and researched energy"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. \\#1 Presidential Volunteer Service Gold Award (x4)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 AP Scholar/National Merit Semi Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\#4 USACO Silver",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5 USABO Semis",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 8,
+      "first_gen": true,
+      "service_summary": "1. *#1* Volunteer at local science museum: led tours, taught classes, and conducted research; 7. \\#7 Treasurer at school's community service club"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "bioengineering/bme, chemical engineering, environmental engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

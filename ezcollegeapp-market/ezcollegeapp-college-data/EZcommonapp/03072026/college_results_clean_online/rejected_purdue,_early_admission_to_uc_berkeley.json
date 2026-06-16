@@ -1,0 +1,139 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "These are summary",
+          "role": "",
+          "description": "These are summary"
+        },
+        {
+          "name": "Latin club/ junior classical league: I became interested in Latin in sophomore y",
+          "role": "",
+          "description": "Latin club/ junior classical league: I became interested in Latin in sophomore year and decided to learn it on my own cuz they don't offer it at my school. I was able to administer the national Latin "
+        },
+        {
+          "name": "Schoolhouse. world",
+          "role": "",
+          "description": "Schoolhouse. world"
+        },
+        {
+          "name": "I tutor various subjects and I am on of the coaches and moderators on the platfo",
+          "role": "",
+          "description": "I tutor various subjects and I am on of the coaches and moderators on the platform"
+        },
+        {
+          "name": "MUN chair/delegate",
+          "role": "",
+          "description": "MUN chair/delegate"
+        },
+        {
+          "name": "Student forum member(an extended ASB)",
+          "role": "",
+          "description": "Student forum member(an extended ASB)"
+        },
+        {
+          "name": "Help set up a National Chinese Honor society chapter as Mandarin Student Associa",
+          "role": "",
+          "description": "Help set up a National Chinese Honor society chapter as Mandarin Student Association vp"
+        },
+        {
+          "name": "Library volunteer",
+          "role": "",
+          "description": "Library volunteer"
+        },
+        {
+          "name": "COSMOS @ UCD",
+          "role": "",
+          "description": "COSMOS @ UCD"
+        },
+        {
+          "name": "Swim & Water Polo",
+          "role": "",
+          "description": "Swim & Water Polo"
+        },
+        {
+          "name": "National History day treasurer",
+          "role": "",
+          "description": "National History day treasurer"
+        },
+        {
+          "name": "Science Olympiad",
+          "role": "",
+          "description": "Science Olympiad"
+        },
+        {
+          "name": "Awards/Honors(nothing really)",
+          "role": "",
+          "description": "Awards/Honors(nothing really)"
+        },
+        {
+          "name": "National Latin Exam, summa cum laude for intermediate reading comprehension",
+          "role": "",
+          "description": "National Latin Exam, summa cum laude for intermediate reading comprehension"
+        },
+        {
+          "name": "National merit commended",
+          "role": "",
+          "description": "National merit commended"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National Latin Exam, summa cum laude for intermediate reading comprehension",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National merit commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CA seal of civic engagement",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School subject awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "all the schools that accepted me don't read LoRs (UIUC& Berkeley)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (I applied to all for Electrical engineering/ECE)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "I tutor various subjects and I am on of the coaches and moderators on the platform; Library volunteer"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical engineering, physics, classics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

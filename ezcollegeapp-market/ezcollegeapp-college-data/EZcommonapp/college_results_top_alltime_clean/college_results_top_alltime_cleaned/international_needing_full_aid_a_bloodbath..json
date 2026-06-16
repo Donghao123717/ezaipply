@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 92.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "High Distinction for Chem Olympiad",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Hackathon",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Excellence in CS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Excellence in Math award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ASSET Talent Search High Distinction (qualified for a few summer programs, but couldn't go)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs with a focus on data science and cybersecurity"
+    },
+    "ESSAY_SCORE": null
+  }
+}

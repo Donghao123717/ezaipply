@@ -1,0 +1,83 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1600,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Competitive sport, all four years, 18 hours a week, ranked top ten nationally",
+          "role": "",
+          "description": "1. Competitive sport, all four years, 18 hours a week, ranked top ten nationally (not a varsity sport, I'll be competing club in college)"
+        },
+        {
+          "name": "2. Started two clubs at my school relating to activism and STEM",
+          "role": "",
+          "description": "2. Started two clubs at my school relating to activism and STEM"
+        },
+        {
+          "name": "3. Math club leader",
+          "role": "",
+          "description": "3. Math club leader"
+        },
+        {
+          "name": "4. Play two instruments and started my school's jazz club",
+          "role": "",
+          "description": "4. Play two instruments and started my school's jazz club"
+        },
+        {
+          "name": "5. I work 25 hrs/wk in the summer in a tech job and led it this past summer",
+          "role": "",
+          "description": "5. I work 25 hrs/wk in the summer in a tech job and led it this past summer"
+        },
+        {
+          "name": "6. I also started and run the childcare at a local synagogue",
+          "role": "",
+          "description": "6. I also started and run the childcare at a local synagogue"
+        },
+        {
+          "name": "7. I've done a lot of work around body positivity and started a program around t",
+          "role": "",
+          "description": "7. I've done a lot of work around body positivity and started a program around that which many of my essays touched on"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "role": "",
+          "description": "List all awards and honors submitted on your application.*"
+        },
+        {
+          "name": "1. National Merit Finalist",
+          "role": "",
+          "description": "1. National Merit Finalist"
+        },
+        {
+          "name": "2. Presidential Scholar's Candidate",
+          "role": "",
+          "description": "2. Presidential Scholar's Candidate"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "math/philosophy, pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

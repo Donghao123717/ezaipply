@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "A science program I did over the summer (not RSI but I’m keeping it a bit vague ",
+          "role": "",
+          "description": "A science program I did over the summer (not RSI but I’m keeping it a bit vague so as not to get doxed lol) - it was a really good experience and I enjoyed the way it was structured, did my main astronomical research her"
+        },
+        {
+          "name": "School’s Research Program, co-President - completed two other physics projects t",
+          "role": "",
+          "description": "School’s Research Program, co-President - completed two other physics projects through this program. Also conducted research in the field of stellar astronomy under a professor at a local university (not entirely related"
+        },
+        {
+          "name": "Math Circle - outside of school over one summer, wrote some fat mathematical pro",
+          "role": "",
+          "description": "Math Circle - outside of school over one summer, wrote some fat mathematical proofs and a math paper"
+        },
+        {
+          "name": "Math Club, President",
+          "role": "",
+          "description": "Math Club, President"
+        },
+        {
+          "name": "Computer science club, co-founder/co-president - organized club meetings, helped",
+          "role": "",
+          "description": "Computer science club, co-founder/co-president - organized club meetings, helped peers learn ab comp sci, participating in upcoming coding competitions (just got off the ground so no awards sadly), was helping to organiz"
+        },
+        {
+          "name": "Cross country, captain",
+          "role": "",
+          "description": "Cross country, captain"
+        },
+        {
+          "name": "Track, captain",
+          "role": "",
+          "description": "Track, captain"
+        },
+        {
+          "name": "Columbia Science Honors Progrom",
+          "role": "",
+          "description": "Columbia Science Honors Progrom"
+        },
+        {
+          "name": "Coached track kids - was fun, helped kids get better, wrote one of the essays ab",
+          "role": "",
+          "description": "Coached track kids - was fun, helped kids get better, wrote one of the essays about this"
+        },
+        {
+          "name": "Science Olympiad, secretary",
+          "role": "",
+          "description": "Science Olympiad, secretary"
+        },
+        {
+          "name": "Work, about 9 hours a week",
+          "role": "",
+          "description": "Work, about 9 hours a week"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Fellowship - was part of the program I mentioned earlier, awarded stipend",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Listed a few regional science awards for research",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Commendation for PSAT, AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School award for track",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Additional Stuff: submitted my research paper and a creative writing supplement (why I did this, idk",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I’m really happy with the results I’ve had. I hope this helps some of y’all! Go tigers!!😎🐯",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "astrophysical sciences/physics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

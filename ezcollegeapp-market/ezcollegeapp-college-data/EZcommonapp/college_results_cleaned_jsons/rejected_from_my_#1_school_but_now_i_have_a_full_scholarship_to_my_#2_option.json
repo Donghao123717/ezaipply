@@ -1,0 +1,38 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Honors: 8 AP Physics 2 AP Calc AB AP Lit AP Chem AP Comp Sci A AP Spanish Jazz Ensemble (honors) Also I'm taking some ot",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Senior Year Course Load: AP Physics 2 AP Calc AB AP Lit AP Chem AP Comp Sci A AP Spanish Jazz Ensemble (honors) Also I'm",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Electrical Engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

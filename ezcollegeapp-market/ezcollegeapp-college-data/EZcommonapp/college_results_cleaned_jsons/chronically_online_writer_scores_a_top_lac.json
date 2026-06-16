@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.03,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. (Keeping this vague so I don’t get doxxed) Writing— Main hook, was heavily ",
+          "role": "",
+          "description": "etc. (Keeping this vague so I don’t get doxxed) Writing— Main hook, was heavily involved with creative writing throughout high school"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AB Calc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Psych",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP US Gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Macro",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English elective Standardized Testing List the highest scores earned and all scores that were reported.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT I: 1530 (800RW, 730M) AP/IB: All 5s (Spanish Lang, English Lang, Human Geo, APUSH)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Volunteer Online Archivist"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Political Science, Pre-Law"
+    },
+    "ESSAY_SCORE": null
+  }
+}

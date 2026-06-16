@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Research Internship (11th &amp; 12th) - Worked at NIST since last summer (Nat",
+          "role": "",
+          "description": "1. Research Internship (11th &amp; 12th) - Worked at NIST since last summer (National Institute of Standards and Technology) to create an augmented reality training simulator for a nuclear reactor usi"
+        },
+        {
+          "name": "2. School Club Founder (11th &amp; 12th) - Started Game design club of over 30 t",
+          "role": "",
+          "description": "2. School Club Founder (11th &amp; 12th) - Started Game design club of over 30 to teach &amp; use game design to create multiple projects on PC and mobile. One app is in development to be put on the P"
+        },
+        {
+          "name": "3. Art (10th, 11th, &amp; 12th) - Worked on a personal art portfolio of digital ",
+          "role": "",
+          "description": "3. Art (10th, 11th, &amp; 12th) - Worked on a personal art portfolio of digital 2D and 3D pieces (including animations) made in a variety of software. I submitted many of these pieces as a portfolio c"
+        },
+        {
+          "name": "4. Engineering Competition (11th) - Worked in a team of 3 for the Source America",
+          "role": "",
+          "description": "4. Engineering Competition (11th) - Worked in a team of 3 for the Source America Design Challenge where we pitched, developed, and engineered an iOS mobile app in a team of 3 to help a person with aut"
+        },
+        {
+          "name": "5. Robotics Club (9th, 10th, 11th, and 12th) - Was a member of our school/local ",
+          "role": "",
+          "description": "5. Robotics Club (9th, 10th, 11th, and 12th) - Was a member of our school/local FRC and FTC team to organize, direct, and make videos and animations for various competitions and outreach events. Won a"
+        },
+        {
+          "name": "6. Volunteering (10th and 11th) - Worked hundreds of hours as a donation collect",
+          "role": "",
+          "description": "6. Volunteering (10th and 11th) - Worked hundreds of hours as a donation collector for a local food drive. I set up and managed the donation stands at local markets and events as well as approached an"
+        },
+        {
+          "name": "7. Tutoring (12th) - I work as a private computer science tutor for middle schoo",
+          "role": "",
+          "description": "7. Tutoring (12th) - I work as a private computer science tutor for middle school students. I explain concepts for Python, Java, and C++."
+        },
+        {
+          "name": "8. Foreign Language (10th, 11th, and 12th) - I self-taught and practiced Korean ",
+          "role": "",
+          "description": "8. Foreign Language (10th, 11th, and 12th) - I self-taught and practiced Korean by reading writing and speaking as a hobby. I have no Korean heritage or family, I just did it for fun."
+        },
+        {
+          "name": "9. Science Olympiad (11th and 12th) - Participated in Engineering events at our ",
+          "role": "",
+          "description": "9. Science Olympiad (11th and 12th) - Participated in Engineering events at our regional science olympiad. Never placed high enough to go to States."
+        },
+        {
+          "name": "10. Sports (10th and 11th) - I was a JV runner for 800m and 1600m races in Track",
+          "role": "",
+          "description": "10. Sports (10th and 11th) - I was a JV runner for 800m and 1600m races in Track and Field. Practiced and ran the usual amount of meets in the season."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AP Scholar with Distinction (11th &amp; 12th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Judge's Pick FRC Digital Animation Award 2019 (10th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Best In Show Codeday DC (1st place two years in a row at Local Game Jam/Hackathon, 10th &amp; 11t",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Honor Society (11th &amp; 12th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Mu Alpha Theta (Math Honor Society) 12th",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": true,
+      "service_summary": "7. Tutoring (12th) - I work as a private computer science tutor for middle school students. I explain concepts for Python, Java, and C++."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "game design/development, interactive media design, digital media design (comp sc"
+    },
+    "ESSAY_SCORE": null
+  }
+}

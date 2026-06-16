@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Co-Founder of VDOE-recognized 501(c)(3)",
+          "role": "",
+          "description": "Co-Founder of VDOE-recognized 501(c)(3)"
+        },
+        {
+          "name": "11-12th grade",
+          "role": "",
+          "description": "11-12th grade"
+        },
+        {
+          "name": "7 national chapters promoting project based learning STEM to 700+ students; buil",
+          "role": "",
+          "description": "7 national chapters promoting project based learning STEM to 700+ students; built AI mentor app; 2.5 k for scholarship fund; 10 K grant; 21 k in total raised; feat. in several press; working w/ MTSI rn"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National Merit Commended $10k Innovation Grant for Non-Profit (could be sub for IB MYP Certificate) Regional Science Fai",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "IB Lang/Lit teacher: teared at my pers statement/really good class/prolly best teacher ive had.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Algebra 2 HN teacher: good class/was pretty involved in her class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "IB HOA teacher: loved me/prolly second best teacher ive had/spent so many classes debating music like kendrick and drake",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "counselor: really good communication between us, likes me Interview Had one interview for Rice went well, lowkey cooked ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Personally think really great essays (prolly strongest point of app). Went the narrative route while incorporating schoo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Additional info:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Parents split lead to coming to the U.S., younger brother has cerebral palsy, also younger sister, single-mother. Had to",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "SAT Tutor for Schoolhouse.world"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

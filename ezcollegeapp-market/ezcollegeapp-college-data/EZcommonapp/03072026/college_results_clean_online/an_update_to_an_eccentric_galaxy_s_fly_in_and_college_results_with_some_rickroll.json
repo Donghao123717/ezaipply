@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.77,
+      "sat_total": 1460,
+      "act_composite": 32,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I’m gonna be a little ambiguous because some of them can make me very identifiab",
+          "role": "",
+          "description": "I’m gonna be a little ambiguous because some of them can make me very identifiable, so I apologize if anything is confusing.  Please let me know if you would like to me talk about anything!"
+        },
+        {
+          "name": "1. Talked about my passion for writing during my free time",
+          "role": "",
+          "description": "1. Talked about my passion for writing during my free time"
+        },
+        {
+          "name": "2. Student Council/Government/Class of 2020 Board (5th grade-present)",
+          "role": "",
+          "description": "2. Student Council/Government/Class of 2020 Board (5th grade-present)"
+        },
+        {
+          "name": "3. Summer Community Swim Team (2008-present except for one summer I could not sw",
+          "role": "",
+          "description": "3. Summer Community Swim Team (2008-present except for one summer I could not swim for medical reasons)"
+        },
+        {
+          "name": "4. High School Varsity Swim Team (9th grade-11th grade)",
+          "role": "",
+          "description": "4. High School Varsity Swim Team (9th grade-11th grade)"
+        },
+        {
+          "name": "5. High School Film Club (10th-12th)",
+          "role": "",
+          "description": "5. High School Film Club (10th-12th)"
+        },
+        {
+          "name": "6. Speech/Forensics (10th-12th): Impromptu Speech.",
+          "role": "",
+          "description": "6. Speech/Forensics (10th-12th): Impromptu Speech."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *Randolph College Book Award (11th)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *Scholastic Writing Silver Key (11th) and Honorable Mention (12th)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *PTSA Reflections District Award for Literature (11th)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *Current Affairs Course Award (10th)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *National AP Scholar (12th)*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. Summer Community Swim Team (2008-present except for one summer I could not swim for medical reasons)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "literary arts/creative writing/english and philosophy (i put film as my third in"
+    },
+    "ESSAY_SCORE": null
+  }
+}

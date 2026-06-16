@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.44,
+      "sat_total": 1450,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. 1 Track and Field Joined in 10th grade because my friends did it, ended up ",
+          "role": "",
+          "description": "etc. 1 Track and Field Joined in 10th grade because my friends did it, ended up really enjoying it. 2 Hiking PE TA Help lead hikes after school on local trails 2x per week. 3 Food Bank Volunteer Average Foob Bank stuff, 20 hours total."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Semester-Long: Asian American Lit (H), Buddhist Thought (H), International Relations (H), Macro",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 30,
+      "first_gen": true,
+      "service_summary": "3 Food Bank Volunteer 4 Historical Society Volunteer"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Internation Relations"
+    },
+    "ESSAY_SCORE": null
+  }
+}

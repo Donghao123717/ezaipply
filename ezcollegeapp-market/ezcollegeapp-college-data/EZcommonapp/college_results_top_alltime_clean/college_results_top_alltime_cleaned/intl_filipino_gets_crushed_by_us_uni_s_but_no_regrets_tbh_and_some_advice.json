@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(11-12) Founded an org that deals with Health and Chemistry",
+          "role": "",
+          "description": "(11-12) Founded an org that deals with Health and Chemistry"
+        },
+        {
+          "name": "To be honest, this is one of the main activities that I tried to showcase in my ",
+          "role": "",
+          "description": "To be honest, this is one of the main activities that I tried to showcase in my application."
+        },
+        {
+          "name": "(12) This is weird but heads the STEM organizations in our school (there are 3).",
+          "role": "",
+          "description": "(12) This is weird but heads the STEM organizations in our school (there are 3). I  basically help those orgs to get their projects approved by the higher-ups in our school and acts as their representative in the student"
+        },
+        {
+          "name": "(12) Researched how the economic status of a country \"relates\" to COVID-19 incid",
+          "role": "",
+          "description": "(12) Researched how the economic status of a country \"relates\" to COVID-19 incidence and mortality rates. It got put on WHO's database of COVID-19 research. It's just a preprint."
+        },
+        {
+          "name": "(12) Tutored for 5 students in math and science",
+          "role": "",
+          "description": "(12) Tutored for 5 students in math and science"
+        },
+        {
+          "name": "(11-12) Assistant VP for Academics and Bioeducation for our school's Biology Org",
+          "role": "",
+          "description": "(11-12) Assistant VP for Academics and Bioeducation for our school's Biology Org"
+        },
+        {
+          "name": "(10-12) Online courses",
+          "role": "",
+          "description": "(10-12) Online courses"
+        },
+        {
+          "name": "Stanford - Writing in the Sciences",
+          "role": "",
+          "description": "Stanford - Writing in the Sciences"
+        },
+        {
+          "name": "JHU - Introduction to the Biology of Cancer; Chemicals and Health",
+          "role": "",
+          "description": "JHU - Introduction to the Biology of Cancer; Chemicals and Health"
+        },
+        {
+          "name": "FreeCodeCamp - Data Science with Python",
+          "role": "",
+          "description": "FreeCodeCamp - Data Science with Python"
+        },
+        {
+          "name": "Yale - Essentials of Global Health (I'm still finishing this one up 💀 Hopefully ",
+          "role": "",
+          "description": "Yale - Essentials of Global Health (I'm still finishing this one up 💀 Hopefully I can finish this by next month. I really enjoy the readings even though they are really long (and yes I don't skim 'em because I don't have"
+        },
+        {
+          "name": "(11) Model United Nations",
+          "role": "",
+          "description": "(11) Model United Nations"
+        },
+        {
+          "name": "(11) Programming - certified by Hackerrank in python",
+          "role": "",
+          "description": "(11) Programming - certified by Hackerrank in python"
+        },
+        {
+          "name": "To be honest, I don't know why I put this in my application, it's because it's l",
+          "role": "",
+          "description": "To be honest, I don't know why I put this in my application, it's because it's literally just a quiz, juniors don't fall into the trap that you must fill all 10 extracurriculars 💀💀💀"
+        },
+        {
+          "name": "(9-10) Science Organization Member",
+          "role": "",
+          "description": "(9-10) Science Organization Member"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "(9-10) With Honors",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochem/biophysics/bioengineering/biology with a minor for public health (depend"
+    },
+    "ESSAY_SCORE": null
+  }
+}

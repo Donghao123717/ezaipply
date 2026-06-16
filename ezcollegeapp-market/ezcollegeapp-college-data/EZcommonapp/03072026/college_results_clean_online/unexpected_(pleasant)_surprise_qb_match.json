@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 33,
+      "class_rank_percentile": 99.36,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "These are what I listed in my QuestBridge application in no particular order.",
+          "role": "",
+          "description": "These are what I listed in my QuestBridge application in no particular order."
+        },
+        {
+          "name": "1. Model United Nations - I was Vice President my junior year and Underclassmen ",
+          "role": "",
+          "description": "1. Model United Nations - I was Vice President my junior year and Underclassmen Youth Secretariat my sophomore year. I discussed how I routinely led conferences, trained our delegation, and prepared m"
+        },
+        {
+          "name": "2. Transcriber for Smithsonian Digital Volunteers - In my spare time, I do trans",
+          "role": "",
+          "description": "2. Transcriber for Smithsonian Digital Volunteers - In my spare time, I do transcription work for various Smithsonian Archives Civil War projects."
+        },
+        {
+          "name": "3. English Tutoring and Mentorship - I am paired with Ukrainian students to help",
+          "role": "",
+          "description": "3. English Tutoring and Mentorship - I am paired with Ukrainian students to help them improve their conversational English abilities; I also mentor new tutors for their first three months."
+        },
+        {
+          "name": "4. Fellowship - I participated in an international relations/business fellowship",
+          "role": "",
+          "description": "4. Fellowship - I participated in an international relations/business fellowship, which involved monthly meetings and culminated in a service project."
+        },
+        {
+          "name": "5. Public Library Volunteer - I was on two iterations of my public library syste",
+          "role": "",
+          "description": "5. Public Library Volunteer - I was on two iterations of my public library system's Teen Advisory Board and assisted in the planning and execution of major service projects within the library."
+        },
+        {
+          "name": "My extracurriculars were honestly not good. Because of my family problems (inclu",
+          "role": "",
+          "description": "My extracurriculars were honestly not good. Because of my family problems (including frequent hospitalizations for my mother), I was unable to participate in ECs as fully as I'd like. Furthermore, one"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. AP Scholar with Distinction (2022, 2023)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Fellowship (2022)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. QuestBridge College Prep Scholar (2023)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Inducted into National Honor Society (2023)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Inducted into Spanish National Honor Society (2023)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Inducted in Rho Kappa (2023)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. Fellowship title (2022)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": null,
+      "service_summary": "4. Fellowship - I participated in an international relations/business fellowship, which involved monthly meetings and culminated in a service project.; 5. Public Library Volunteer - I was on two iterations of my public library system's Teen Advisory Board and assisted in the planning and execution of major service projects within the library."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " political science and/or history"
+    },
+    "ESSAY_SCORE": null
+  }
+}

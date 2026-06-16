@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Big Company Internship (high school program) Startup Internship (cold email) Loc",
+          "role": "",
+          "description": "Big Company Internship (high school program) Startup Internship (cold email) Local company Internship (high school program) Wrote academic blog on school/programming Competed in some programming contests"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: 2 dual enrollment/5 AP Standardized Testing SAT I: 1520 (720RW, 800M) AP/IB: 10 5's; 1 4; 1 3",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "I think I had a pretty focused profile and worked really hard on my essays. My gpa took a beating senior year fall because I neglected all my classes and only focused on essays. My list looks off because I was set on going to community college and transferring if I didn't get one of these schools but lowkey I shouldn't have even applied to half of these because of location and price. Some advice I"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "CS/Statistics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Honestly not many. john locke institute commendation, academic scholarship, school-wide awards. etc.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Interviews:** (briefly reflect/rate)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Not sure how to rate essays. I've been told I'm a good writer and I tried my best to convey my best ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LORs - good but not sure how good. I like my teachers but haven't known them all that long. Got a LO",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews for Stanford and yale. Both went well I honestly cant remember them. I think the Stanford",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "poli sci"
+    },
+    "ESSAY_SCORE": null
+  }
+}

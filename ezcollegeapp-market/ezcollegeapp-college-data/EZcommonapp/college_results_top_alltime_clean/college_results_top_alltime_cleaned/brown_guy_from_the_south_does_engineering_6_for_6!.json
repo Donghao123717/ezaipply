@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Literally gonna copy and paste what I put on my CommonApp/CoalitionApp:",
+          "role": "",
+          "description": "Literally gonna copy and paste what I put on my CommonApp/CoalitionApp:"
+        },
+        {
+          "name": "1. J.R.O.T.C. Command and Staff (Executive Officer \\[XO\\]) - 2nd in command of 1",
+          "role": "",
+          "description": "1. J.R.O.T.C. Command and Staff (Executive Officer \\[XO\\]) - 2nd in command of 156 cadets. Create long term plans and events. Supervise/delegate work to all members of Battalion Staff. Lead weekly Staff meetings (12th gr"
+        },
+        {
+          "name": "2. J.R.O.T.C. 10-11 (Squad Leader and Platoon Leader): Led 10 cadets as Squad Le",
+          "role": "",
+          "description": "2. J.R.O.T.C. 10-11 (Squad Leader and Platoon Leader): Led 10 cadets as Squad Leader in 10th. Led 47 cadets and conducted training, uniform inspections, service projects as Platoon Leader in 11th. (9th-11th grade; 5hrs p"
+        },
+        {
+          "name": "3. \\[School Name\\] J.R.O.T.C. Air Rifle Team (Shooter, JV Captain): Participated",
+          "role": "",
+          "description": "3. \\[School Name\\] J.R.O.T.C. Air Rifle Team (Shooter, JV Captain): Participated on the team since grade 9. JV Captain in 11th, Varsity in 12th. Compete in multiple district matches, earning the top Expert Award. (9th-12"
+        },
+        {
+          "name": "4. \\[School Name\\] Robotics Team (Lead Driver, Lead Builder): Collaborate with t",
+          "role": "",
+          "description": "4. \\[School Name\\] Robotics Team (Lead Driver, Lead Builder): Collaborate with teammates to create a VEX robot for competition. Lead driver in 10th. Plan robot construction as Lead Builder in 11th/12th. (10th-12th grade;"
+        },
+        {
+          "name": "5. Science National Honors Society (Vice President): Attend lectures from local ",
+          "role": "",
+          "description": "5. Science National Honors Society (Vice President): Attend lectures from local leaders in the STEM field. Edit the By-Laws/application and work with lecturers to organize meetings as VP. (11th-12th grade; 2hrs per week,"
+        },
+        {
+          "name": "6. Mental Health Awareness Club (Treasurer): Work to promote mental health throu",
+          "role": "",
+          "description": "6. Mental Health Awareness Club (Treasurer): Work to promote mental health through informational meetings and community events in school. Work with a non-profit to manage budgeting as Treasurer. (11th-12th grade; 2hrs pe"
+        },
+        {
+          "name": "7. Publix Supermarkets (Front Service Clerk): Efficiently organized groceries in",
+          "role": "",
+          "description": "7. Publix Supermarkets (Front Service Clerk): Efficiently organized groceries into bags and worked with customers to meet their needs. Discontinued due to ongoing health complications. (10th-11th grade; 8hrs per week, 46"
+        },
+        {
+          "name": "8. Science Olympiad (Contestant): Worked with teammates to research, create devi",
+          "role": "",
+          "description": "8. Science Olympiad (Contestant): Worked with teammates to research, create devices, and compete in different STEM related events. Won second place for an event at the district level. (11th-12th grade; 3.5hrs per week, 8"
+        },
+        {
+          "name": "9. \\[Library Name\\] Volunteering (Shelver): Volunteer by reshelving children’s b",
+          "role": "",
+          "description": "9. \\[Library Name\\] Volunteering (Shelver): Volunteer by reshelving children’s books, DVDs, and audiobooks that have been returned. Assist visitors locate items and answer questions. (11th-12th grade; 2hrs per week, 45 w"
+        },
+        {
+          "name": "10. Middle/High School Tutor (Tutor): Work as a math, science, and history tutor",
+          "role": "",
+          "description": "10. Middle/High School Tutor (Tutor): Work as a math, science, and history tutor helping middle and high school students struggling with adjusting to an online learning environment. (12th grade; 4.5hrs per week, 28 weeks"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. JROTC Excellence in Leadership Award (10th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. United States Army Recruiting Command Award for JROTC (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Scholar with Honor (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Summa Cum Laude (12th)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "2. J.R.O.T.C. 10-11 (Squad Leader and Platoon Leader): Led 10 cadets as Squad Leader in 10th. Led 47 cadets and conducted training, uniform inspections, service projects as Platoon Leader in 11th. (9th-11th grade; 5hrs p; 6. Mental Health Awareness Club (Treasurer): Work to promote mental health through informational meetings and community events in school. Work with a non-profit to manage budgeting as Treasurer. (11th-12th grade; 2hrs pe; 7. Publix Supermarkets (Front Service Clerk): Efficientl"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mainly electrical engineering, but computer engineering/ece for a couple"
+    },
+    "ESSAY_SCORE": null
+  }
+}

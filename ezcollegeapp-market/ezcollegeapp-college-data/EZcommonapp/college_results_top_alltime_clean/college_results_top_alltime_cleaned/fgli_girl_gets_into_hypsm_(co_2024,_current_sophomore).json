@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "edit: i feel like i should have mentioned this, my total community service hours",
+          "role": "",
+          "description": "edit: i feel like i should have mentioned this, my total community service hours totaled over 999 hours. district system can’t log any more than this amount lol."
+        },
+        {
+          "name": "1. MITES at mit. got an electronics award at the end.",
+          "role": "",
+          "description": "1. MITES at mit. got an electronics award at the end."
+        },
+        {
+          "name": "2. volunteer at learning program in city. tutored and also managed the cafeteria",
+          "role": "",
+          "description": "2. volunteer at learning program in city. tutored and also managed the cafeteria"
+        },
+        {
+          "name": "3. City health program. Led classroom discussions focused on critical health iss",
+          "role": "",
+          "description": "3. City health program. Led classroom discussions focused on critical health issues such as suicide, anxiety, and obesity."
+        },
+        {
+          "name": "4. webmaster for community service club. made videos and graphics for clubs all ",
+          "role": "",
+          "description": "4. webmaster for community service club. made videos and graphics for clubs all over the state"
+        },
+        {
+          "name": "5. Create promotional material for different organizations often free of charge.",
+          "role": "",
+          "description": "5. Create promotional material for different organizations often free of charge. Graphics Team Director of a back then well known climate org."
+        },
+        {
+          "name": "6. robotics team secretary",
+          "role": "",
+          "description": "6. robotics team secretary"
+        },
+        {
+          "name": "7. president of CS honor society",
+          "role": "",
+          "description": "7. president of CS honor society"
+        },
+        {
+          "name": "8. Babysat my cousin since I was 12. huge weekend and summer responsibility",
+          "role": "",
+          "description": "8. Babysat my cousin since I was 12. huge weekend and summer responsibility"
+        },
+        {
+          "name": "9. co-founded and co-led spirit committee. organize school wide activities like ",
+          "role": "",
+          "description": "9. co-founded and co-led spirit committee. organize school wide activities like field days, formals, &amp; presentations to improve school spirit."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National AP Scholar (12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. English Student of the Year (10, 11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National Merit Commended Student (12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. The Gates Scholarship Semi-Finalist (12) (I did end up getting it)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Most Spirited of Electronics 2019 @ Minority Introduction to Engineering and Science (MITES) (12)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 999,
+      "first_gen": true,
+      "service_summary": "edit: i feel like i should have mentioned this, my total community service hours totaled over 999 hours. district system can’t log any more than this amount lol.; 2. volunteer at learning program in city. tutored and also managed the cafeteria; 4. webmaster for community service club. made videos and graphics for clubs all over the state"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

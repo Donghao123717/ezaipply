@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Research internships (bioinformatics / cancer data)",
+          "role": "",
+          "description": "Research internships (bioinformatics / cancer data)"
+        },
+        {
+          "name": "STEM projects and engineering builds",
+          "role": "",
+          "description": "STEM projects and engineering builds"
+        },
+        {
+          "name": "Tutoring (SAT)",
+          "role": "",
+          "description": "Tutoring (SAT)"
+        },
+        {
+          "name": "Art awards and painting (National Scholastic Silver Medal)",
+          "role": "",
+          "description": "Art awards and painting (National Scholastic Silver Medal)"
+        },
+        {
+          "name": "Some volunteering",
+          "role": "",
+          "description": "Some volunteering"
+        },
+        {
+          "name": "Nothing insanely crazy compared to some people here, but things I genuinely enjo",
+          "role": "",
+          "description": "Nothing insanely crazy compared to some people here, but things I genuinely enjoyed."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

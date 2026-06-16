@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.85,
+      "sat_total": 1470,
+      "act_composite": 33,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Paid IT systems internship at large local company, also worked on company’s web ",
+          "role": "",
+          "description": "Paid IT systems internship at large local company, also worked on company’s web development team"
+        },
+        {
+          "name": "2021 MIT MOSTEC, took classes in applied mathematics and science writing",
+          "role": "",
+          "description": "2021 MIT MOSTEC, took classes in applied mathematics and science writing"
+        },
+        {
+          "name": "Co-captain of FRC team, part of presentation group, initiate outreach and all th",
+          "role": "",
+          "description": "Co-captain of FRC team, part of presentation group, initiate outreach and all that for the team"
+        },
+        {
+          "name": "Founder and president of computer hardware club, host lecture series at local li",
+          "role": "",
+          "description": "Founder and president of computer hardware club, host lecture series at local library teaching seniors about technology"
+        },
+        {
+          "name": "President of community service club, facilitate roughly 10 projects with ~300 me",
+          "role": "",
+          "description": "President of community service club, facilitate roughly 10 projects with ~300 members"
+        },
+        {
+          "name": "Vice/co-president of girls’ coding club, host affinity spaces as well as outreac",
+          "role": "",
+          "description": "Vice/co-president of girls’ coding club, host affinity spaces as well as outreach events at local library teaching girls about topics in STEM"
+        },
+        {
+          "name": "Vice captain of debate team, host weekly sessions for team members to practice a",
+          "role": "",
+          "description": "Vice captain of debate team, host weekly sessions for team members to practice and learn debate. Also chair of school debate tournament (with 200+ participants) helping with tournament logistics"
+        },
+        {
+          "name": "Elected senior representative on school’s judicial board, reviewing honor code v",
+          "role": "",
+          "description": "Elected senior representative on school’s judicial board, reviewing honor code violations and voting on disciplinary responses. Also a dormitory prefect, ensuring safety and wellness of 25 girls."
+        },
+        {
+          "name": "Research in VR at a local university, self-guided exploration of the application",
+          "role": "",
+          "description": "Research in VR at a local university, self-guided exploration of the applications of VR in behavioral therapy. No papers or anything like that."
+        },
+        {
+          "name": "Playwright for and executive board member of school theater/performing arts fest",
+          "role": "",
+          "description": "Playwright for and executive board member of school theater/performing arts festival. Perform stand-up comedy at same festival. Also act in school productions and student-directed plays."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Questbridge College Prep Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2020 CMU SAMS Scholar (accepted into and enrolled in the program but was cancelled due to COVID-19)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Coding prizes (vague for anonymity, but 29th/20k+, 19th/900+, 70th/1k+, 90th/4k+)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Debate awards (top overall speaker at one tournament, numerous 2nd and 3rd placings at others)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School prizes (sophomore prize for academic and extracurricular dedication, junior prize for academi",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "President of community service club, facilitate roughly 10 projects with ~300 members"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science, applied mathematics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

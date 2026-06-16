@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": 93.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Featured in the 2022 game awards - watched by upwords of 80 million people anually",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "epic games affiliate - partner status with Epic Games",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "distinguished honor role",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Pennsylvania certificate of merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top 8 score for my school in the Atlantic pacific math competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays (All essays were reviwed by an ex AO, my english tutor, and a current princeton student. Over",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "princeton (10/10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Harvard (9/10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "cornell (9/10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "UPenn (8/10)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5000,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

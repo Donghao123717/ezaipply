@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": 99.99,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "#1 Debate and public speaking, Mentor role for kids in my hometown",
+          "role": "",
+          "description": "#1 Debate and public speaking, Mentor role for kids in my hometown"
+        },
+        {
+          "name": "#2 Organised regular clean-ups at my area",
+          "role": "",
+          "description": "#2 Organised regular clean-ups at my area"
+        },
+        {
+          "name": "#3 Helped my grandmother to sell food and tidbits at her stall",
+          "role": "",
+          "description": "#3 Helped my grandmother to sell food and tidbits at her stall"
+        },
+        {
+          "name": "#4 Part time small business of fixing sewing machines",
+          "role": "",
+          "description": "#4 Part time small business of fixing sewing machines"
+        },
+        {
+          "name": "#5 Environment Club, President, Advocacy for sustainability within my community",
+          "role": "",
+          "description": "#5 Environment Club, President, Advocacy for sustainability within my community"
+        },
+        {
+          "name": "#6 Engineering Club, Secretary, Spaghetti Bridge Competition",
+          "role": "",
+          "description": "#6 Engineering Club, Secretary, Spaghetti Bridge Competition"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "#1 Top 0.01% of candidates in national high school exam",
+          "role": "",
+          "description": "#1 Top 0.01% of candidates in national high school exam"
+        },
+        {
+          "name": "#2 One out of 8000 selected for full-ride scholarship in undergraduate studies",
+          "role": "",
+          "description": "#2 One out of 8000 selected for full-ride scholarship in undergraduate studies"
+        },
+        {
+          "name": "#3 Debate Awards (local)",
+          "role": "",
+          "description": "#3 Debate Awards (local)"
+        },
+        {
+          "name": "#4 Spaghetti Bridge (local)",
+          "role": "",
+          "description": "#4 Spaghetti Bridge (local)"
+        },
+        {
+          "name": "#5",
+          "role": "",
+          "description": "#5"
+        },
+        {
+          "name": "Letters of recommendations",
+          "role": "",
+          "description": "Letters of recommendations"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#1 Top 0.01% of candidates in national high school exam",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#2 One out of 8000 selected for full-ride scholarship in undergraduate studies",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#3 Debate Awards (local)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#4 Spaghetti Bridge (local)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "#5",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of recommendations",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Biology and English teachers. Same teachers who helped me get the scholarship.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Learned biology in my native language, so I had to ask her to translate the letter used for my schol",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English teacher helped me a lot with my debate career. Really close with her.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "​",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "#5 Environment Club, President, Advocacy for sustainability within my community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

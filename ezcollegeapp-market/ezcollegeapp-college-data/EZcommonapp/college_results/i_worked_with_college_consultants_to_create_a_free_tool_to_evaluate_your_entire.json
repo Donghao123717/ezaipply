@@ -1,0 +1,54 @@
+{
+  "post": {
+    "id": "t3_1p02d4a",
+    "title": "I worked with college consultants to create a free tool to evaluate your entire profile. Let me know if you're interested!",
+    "author": "illustrator101",
+    "selftext": "https://imgur.com/a/vvHiz2n\n\nIt has college application profile analysis, essay tools, and more! I'm a college student myself and this is something that would've helped me in high school.",
+    "score": "0",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1p02d4a/i_worked_with_college_consultants_to_create_a/",
+    "created": "2025-11-18T04:17:10+00:00",
+    "num_comments": 1,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nusxc8m",
+      "author": "Fun-Succotash-7160",
+      "body": "me!",
+      "score": "1 point",
+      "created": "2025-12-19T03:41:12+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1p02d4a",
+        "author": "illustrator101",
+        "title": "I worked with college consultants to create a free tool to evaluate your entire profile. Let me know if you're interested!",
+        "body": "https://imgur.com/a/vvHiz2n\n\nIt has college application profile analysis, essay tools, and more! I'm a college student myself and this is something that would've helped me in high school.",
+        "full_text": "I worked with college consultants to create a free tool to evaluate your entire profile. Let me know if you're interested!\n\nhttps://imgur.com/a/vvHiz2n\n\nIt has college application profile analysis, essay tools, and more! I'm a college student myself and this is something that would've helped me in high school."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nusxc8m",
+          "author": "Fun-Succotash-7160",
+          "body": "me!",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

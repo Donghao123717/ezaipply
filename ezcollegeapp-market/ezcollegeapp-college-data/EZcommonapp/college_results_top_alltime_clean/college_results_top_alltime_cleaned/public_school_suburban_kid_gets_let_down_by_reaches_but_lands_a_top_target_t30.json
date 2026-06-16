@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Class Treasurer (11th, 12th): Raised \\~$40,000 Junior Year",
+          "role": "",
+          "description": "1. Class Treasurer (11th, 12th): Raised \\~$40,000 Junior Year"
+        },
+        {
+          "name": "2. Student Senate Representative (10th) and VP (11th, 12th)",
+          "role": "",
+          "description": "2. Student Senate Representative (10th) and VP (11th, 12th)"
+        },
+        {
+          "name": "3. Varsity Lacrosse (9th-12th): Started Junior and Senior year, 2x League Champs",
+          "role": "",
+          "description": "3. Varsity Lacrosse (9th-12th): Started Junior and Senior year, 2x League Champs"
+        },
+        {
+          "name": "4. Varsity Football (10th-12th): Started Junior and Senior year",
+          "role": "",
+          "description": "4. Varsity Football (10th-12th): Started Junior and Senior year"
+        },
+        {
+          "name": "5. National Honor Society President (11th, 12th)",
+          "role": "",
+          "description": "5. National Honor Society President (11th, 12th)"
+        },
+        {
+          "name": "6. Student Athlete Cabinet (10th-12th): Founding member, emcee for pep rallies",
+          "role": "",
+          "description": "6. Student Athlete Cabinet (10th-12th): Founding member, emcee for pep rallies"
+        },
+        {
+          "name": "7. Mu Alpha Theta (10th-12th)",
+          "role": "",
+          "description": "7. Mu Alpha Theta (10th-12th)"
+        },
+        {
+          "name": "8. Italian Club (11th-12th): Very active in the community, supported local busin",
+          "role": "",
+          "description": "8. Italian Club (11th-12th): Very active in the community, supported local businesses"
+        },
+        {
+          "name": "9. Work (10th-12th): Beach boy for one year at a local shore club, then switched",
+          "role": "",
+          "description": "9. Work (10th-12th): Beach boy for one year at a local shore club, then switched to working in their office year-round for two years"
+        },
+        {
+          "name": "10. 150+ Hours of Community service for various organizations",
+          "role": "",
+          "description": "10. 150+ Hours of Community service for various organizations"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National Merit Scholarship Commended Student for PSAT score",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AATI National Italian Honor Society award recipient (selected by teachers in the county)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. WCIAO Certificate of Merit, Ace Endico Scholarship Recipient (nominated by my Italian teacher, se",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. High Honor Roll/Athletic Director's Honor Roll (Our school uses a quarter system, was on it for e",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "8. Italian Club (11th-12th): Very active in the community, supported local businesses; 10. 150+ Hours of Community service for various organizations"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "undecided"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1600,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Was selected for student research internship in country's space agency. Only awarded to the top maths and science students in the country."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "undecided, probably maths or chemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

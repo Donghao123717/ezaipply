@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.86,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "im interested in pursuing a career in international relations or marketing, or e",
+          "role": "",
+          "description": "im interested in pursuing a career in international relations or marketing, or even a mix of both. my ecs currently reflect that i think? aiming for not necessarily a t25 but a top university - however i dont have universities or majors in mind yet."
+        },
+        {
+          "name": "- some stats below demographics gender: female race/ethnicity: asian region: nor",
+          "role": "",
+          "description": "- some stats below demographics gender: female race/ethnicity: asian region: northeast income bracket: middle hooks: first-gen and low income (ish)"
+        },
+        {
+          "name": "additional info: fuzhounese restaurant kid so therefore parents are never super ",
+          "role": "",
+          "description": "additional info: fuzhounese restaurant kid so therefore parents are never super available so i cant do any sports or many activities and such outside of school. if not at said restaurant, im home alone taking care of my younger sister and theres much i can do with that either."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "im interested in pursuing a career in international relations or marketing, or even a mix of both. my ecs currently refl",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- some stats below demographics gender: female race/ethnicity: asian region: northeast income bracket: middle hooks: fir",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "community college (not dual enrollment): intro to criminal justice, intro to philo, public speaking (mostly taking to fulfill requirements in college) math tutor online"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

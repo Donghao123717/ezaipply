@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I work 35 hr-wk average to support myself (11-12)",
+          "role": "",
+          "description": "I work 35 hr-wk average to support myself (11-12)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Calc 3, AP Art, AP World, Varsity Debate, AP Psych, Math teaching position Standardized Testing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT I：never took",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "АСТ: 33 (30E, 32M, 33R, 34S)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT II: n/a",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP/IB: chem 4 precalc 4 APUSH 4",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Other (ex. IELTS, TOEFL, etc.): n/a",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Mechanical Engineering, Systems Engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

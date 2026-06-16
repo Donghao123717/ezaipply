@@ -1,0 +1,134 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": 36,
+      "class_rank_percentile": 98.0,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Research Internship**",
+          "role": "",
+          "description": "Research Internship**"
+        },
+        {
+          "name": "Research at a T5 university (mentored by 3 grad/P.H.D level computational biolog",
+          "role": "",
+          "description": "Research at a T5 university (mentored by 3 grad/P.H.D level computational biologists and bioinformaticians) on COVID-19 variants/genomes, published a paper (first author) in a high school journal."
+        },
+        {
+          "name": "Data Science Internship at \\[REDACTED\\]**",
+          "role": "",
+          "description": "Data Science Internship at \\[REDACTED\\]**"
+        },
+        {
+          "name": "Interned at a startup over the summer between sophomore and junior year. Basical",
+          "role": "",
+          "description": "Interned at a startup over the summer between sophomore and junior year. Basically worked on back-end stuff/database administration using Python and MySQL. Also automated some other processes that were previously done ma"
+        },
+        {
+          "name": "VEX Robotics**",
+          "role": "",
+          "description": "VEX Robotics**"
+        },
+        {
+          "name": "Lead programmer (programmed the robot itself using RobotC, VEX Python, PROS, and",
+          "role": "",
+          "description": "Lead programmer (programmed the robot itself using RobotC, VEX Python, PROS, and programmed a simulation of the actual game using a Java-based game development software \\[Unity\\]). 3x worlds qualifier, 4x state qualifier"
+        },
+        {
+          "name": "Cybersecurity**",
+          "role": "",
+          "description": "Cybersecurity**"
+        },
+        {
+          "name": "Team captain of an AFA CyberPatriot team, also secretary of Cybersecurity club a",
+          "role": "",
+          "description": "Team captain of an AFA CyberPatriot team, also secretary of Cybersecurity club at school. Achieved Platinum division all 4 years of high school. Programmed bash and shell scripts to automate the resolution of vulnerabili"
+        },
+        {
+          "name": "Science Olympiad**",
+          "role": "",
+          "description": "Science Olympiad**"
+        },
+        {
+          "name": "No officer positions, but participated in engineering/STEM events and won a few ",
+          "role": "",
+          "description": "No officer positions, but participated in engineering/STEM events and won a few medals at invitational/regional tournaments. 1x state qualifier but it was cancelled :("
+        },
+        {
+          "name": "President at \\[Tech Volunteering Non-profit\\]**",
+          "role": "",
+          "description": "President at \\[Tech Volunteering Non-profit\\]**"
+        },
+        {
+          "name": "Didn't found/create this organization, but started off as a mentor in topics inc",
+          "role": "",
+          "description": "Didn't found/create this organization, but started off as a mentor in topics including Python, Web development, and cybersecurity. Later created a teen leadership council with some of my friends in order to have a larger"
+        },
+        {
+          "name": "Organized Hackathon(s)**",
+          "role": "",
+          "description": "Organized Hackathon(s)**"
+        },
+        {
+          "name": "Participated at this local hackathon organized by some people at my high school,",
+          "role": "",
+          "description": "Participated at this local hackathon organized by some people at my high school, then joined their team to help organize the same annual hackathon the next year. Hackathon has occurred for past 3 years, I helped get spon"
+        },
+        {
+          "name": "Piano**",
+          "role": "",
+          "description": "Piano**"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. **Presidential Volunteer Service Award (Bronze)**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. **National AP Scholar**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. **1st Place at local hackathon**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. **Science Olympiad Regionals (top 3)**",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. **School academic award**",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

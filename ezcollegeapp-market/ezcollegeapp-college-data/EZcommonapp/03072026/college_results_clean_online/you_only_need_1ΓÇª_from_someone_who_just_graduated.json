@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1470,
+      "act_composite": null,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Art, won some awards along the way",
+          "role": "",
+          "description": "Art, won some awards along the way"
+        },
+        {
+          "name": "NAHS, President",
+          "role": "",
+          "description": "NAHS, President"
+        },
+        {
+          "name": "NHS, President",
+          "role": "",
+          "description": "NHS, President"
+        },
+        {
+          "name": "Graphic Design internship",
+          "role": "",
+          "description": "Graphic Design internship"
+        },
+        {
+          "name": "Mathnasium tutor, did calc series and pre calc",
+          "role": "",
+          "description": "Mathnasium tutor, did calc series and pre calc"
+        },
+        {
+          "name": "drafting projects in local community",
+          "role": "",
+          "description": "drafting projects in local community"
+        },
+        {
+          "name": "robotics club competitor, fairly successful",
+          "role": "",
+          "description": "robotics club competitor, fairly successful"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "Science fair award",
+          "role": "",
+          "description": "Science fair award"
+        },
+        {
+          "name": "Research award",
+          "role": "",
+          "description": "Research award"
+        },
+        {
+          "name": "robotics award",
+          "role": "",
+          "description": "robotics award"
+        },
+        {
+          "name": "AP scholar with distinction",
+          "role": "",
+          "description": "AP scholar with distinction"
+        },
+        {
+          "name": "AP Art Perfect Score",
+          "role": "",
+          "description": "AP Art Perfect Score"
+        },
+        {
+          "name": "Results",
+          "role": "",
+          "description": "Results"
+        },
+        {
+          "name": "Rejections",
+          "role": "",
+          "description": "Rejections"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Science fair award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Research award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "robotics award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Art Perfect Score",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Results",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rejections",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "MIT",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rice",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "WashU",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Mathnasium tutor, did calc series and pre calc; drafting projects in local community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "architecture"
+    },
+    "ESSAY_SCORE": null
+  }
+}

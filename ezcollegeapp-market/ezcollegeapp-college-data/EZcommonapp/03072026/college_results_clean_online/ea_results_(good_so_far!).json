@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": 15,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "honestly not incredibly cracked, no state leadership or published research or an",
+          "role": "",
+          "description": "honestly not incredibly cracked, no state leadership or published research or anything, had some basic activities on there (piano lol), but i feel like I had a cohesive-ish narrative. i used the idea "
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "not cracked tbh, for my \"competitive\" activities i legit didn't put any super cracked awards, what I",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "socstud + humanities intersection (always applied with interest in both fields i"
+    },
+    "ESSAY_SCORE": null
+  }
+}

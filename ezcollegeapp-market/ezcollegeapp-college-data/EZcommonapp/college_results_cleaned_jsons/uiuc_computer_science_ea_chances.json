@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.7,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "- Thanks. Reading was 740, Math 780.",
+          "role": "",
+          "description": "- Thanks. Reading was 740, Math 780."
+        },
+        {
+          "name": "He too AP Computer Science and AP Statistics in his Junior year. He doesn’t have",
+          "role": "",
+          "description": "He too AP Computer Science and AP Statistics in his Junior year. He doesn’t have a lot of extracurricular activities, but was in his school Basketball Team. Member of National Honor Society, Honor student throughout school."
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

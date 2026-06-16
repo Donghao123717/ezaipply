@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "honestly not incredibly cracked, no state leadership or published research or an",
+          "role": "",
+          "description": "honestly not incredibly cracked, no state leadership or published research or anything, had some basic activities on there (piano lol), but i feel like I had a cohesive-ish narrative. i used the idea of storytelling a lot in my essays through my activities (dance, research, music, psychology, speech, etc.) so i think that helped bring my activities together, even if they seemed kinda sporadic."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: 5 APs",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "post-BC DE math Standardized Testing List the highest scores earned and all scores that were reported. SAT/ACT: 1560 (78",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT II: AP/IB: 5s on all",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Other (ex. IELTS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "TOEFL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "etc.):",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "socstud + humanities intersection (always applied with interest in both fields if possible, e.g. psychology & anthropology double major)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

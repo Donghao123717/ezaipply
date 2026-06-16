@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": 1430,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc.",
+          "role": "",
+          "description": "etc."
+        },
+        {
+          "name": "3 really strong ones within politics and legislative branch",
+          "role": "",
+          "description": "3 really strong ones within politics and legislative branch"
+        },
+        {
+          "name": "2 really strong ones for service and volunteerism",
+          "role": "",
+          "description": "2 really strong ones for service and volunteerism"
+        },
+        {
+          "name": "450-hour apprenticeship with Board of Ed.",
+          "role": "",
+          "description": "450-hour apprenticeship with Board of Ed."
+        },
+        {
+          "name": "The rest are average for poli sci",
+          "role": "",
+          "description": "The rest are average for poli sci"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: half schedule with 4 classes (all APs)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "450-hour apprenticeship at counties BOEd. Standardized Testing SAT - 1430 Superscore ERW - 710 Math - 720",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "- 2 really strong ones for service and volunteerism Young Volunteer of the Year, awarded by my county"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science or public policy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

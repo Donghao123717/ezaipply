@@ -1,0 +1,122 @@
+{
+  "post": {
+    "id": "t3_1qkq9hc",
+    "title": "W&L University ED2 decisions (Fall 2026-27)",
+    "author": "Parvina_N",
+    "selftext": "Anyone got accepted under ED2?",
+    "score": "3",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1qkq9hc/wl_university_ed2_decisions_fall_202627/",
+    "created": "2026-01-23T13:04:28+00:00",
+    "num_comments": 4,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o1atpib",
+      "author": "Certain_Drama_5148",
+      "body": "I am getting my result in 5 hours for W&L ED2, I will upd",
+      "score": "1 point",
+      "created": "2026-01-23T20:10:13+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o1cnjff",
+          "author": "Certain_Drama_5148",
+          "body": "I got rejected. Test-optional 4.1 GPA, had insane ec's + great personal essay. Recommendation letters were okayish, prolly my supplementals were not the best and my test scores were not a lot of 5's. Got into Rutgers NB Though OOS!",
+          "score": "2 points",
+          "created": "2026-01-24T01:47:47+00:00",
+          "depth": 1,
+          "parent_id": "t1_o1atpib",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o1n0iuf",
+              "author": "[deleted]",
+              "body": "eh bs school anyway, u'll get in somewhere much better",
+              "score": "1 point",
+              "created": "2026-01-25T16:11:00+00:00",
+              "depth": 2,
+              "parent_id": "t1_o1cnjff",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qkq9hc",
+        "author": "Parvina_N",
+        "title": "W&L University ED2 decisions (Fall 2026-27)",
+        "body": "Anyone got accepted under ED2?",
+        "full_text": "W&L University ED2 decisions (Fall 2026-27)\n\nAnyone got accepted under ED2?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o1atpib",
+          "author": "Certain_Drama_5148",
+          "body": "I am getting my result in 5 hours for W&L ED2, I will upd",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o1atpib",
+        "author": "Certain_Drama_5148",
+        "body": "I am getting my result in 5 hours for W&L ED2, I will upd",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1cnjff",
+          "author": "Certain_Drama_5148",
+          "body": "I got rejected. Test-optional 4.1 GPA, had insane ec's + great personal essay. Recommendation letters were okayish, prolly my supplementals were not the best and my test scores were not a lot of 5's. Got into Rutgers NB Though OOS!",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o1cnjff",
+        "author": "Certain_Drama_5148",
+        "body": "I got rejected. Test-optional 4.1 GPA, had insane ec's + great personal essay. Recommendation letters were okayish, prolly my supplementals were not the best and my test scores were not a lot of 5's. Got into Rutgers NB Though OOS!",
+        "score": "2 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o1n0iuf",
+          "author": "[deleted]",
+          "body": "eh bs school anyway, u'll get in somewhere much better",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 2,
+    "total_qa_pairs": 3
+  }
+}

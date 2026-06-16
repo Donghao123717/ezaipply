@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": 1490,
+      "act_composite": null,
+      "class_rank_percentile": 88.0,
+      "ap_ib_honors_count": 0
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Varsity Soccer: Team Captain junior and senior year, won state titles 2 years",
+          "role": "",
+          "description": "1. Varsity Soccer: Team Captain junior and senior year, won state titles 2 years in a row, did for all 4 years"
+        },
+        {
+          "name": "2. Math and Science UIL: Placed 3rd in district for both, did for all 4 years",
+          "role": "",
+          "description": "2. Math and Science UIL: Placed 3rd in district for both, did for all 4 years"
+        },
+        {
+          "name": "3. Entrepreneurship/Investment Club: Served as the treasurer and organized club ",
+          "role": "",
+          "description": "3. Entrepreneurship/Investment Club: Served as the treasurer and organized club events, did junior and senior year"
+        },
+        {
+          "name": "4. Student Council: Class Vice President in senior year",
+          "role": "",
+          "description": "4. Student Council: Class Vice President in senior year"
+        },
+        {
+          "name": "5. Robotics: Team member and we placed 2nd in our region, did for all 4 years",
+          "role": "",
+          "description": "5. Robotics: Team member and we placed 2nd in our region, did for all 4 years"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Math UIL Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Science UIL Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Robotics Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Soccer Awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "chemical engineering, biomedical engineering, or biochemistry (depending on the"
+    },
+    "ESSAY_SCORE": null
+  }
+}

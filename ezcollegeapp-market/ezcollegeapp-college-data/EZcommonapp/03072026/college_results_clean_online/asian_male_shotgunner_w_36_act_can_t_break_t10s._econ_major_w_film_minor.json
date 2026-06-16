@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 10,
+      "class_rank_percentile": 97.0,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1.\tEconomics Club (President)",
+          "role": "",
+          "description": "1.\tEconomics Club (President)"
+        },
+        {
+          "name": "2.\tSchool Newspaper (Photo Editor)",
+          "role": "",
+          "description": "2.\tSchool Newspaper (Photo Editor)"
+        },
+        {
+          "name": "3.\tDECA (Design Team)",
+          "role": "",
+          "description": "3.\tDECA (Design Team)"
+        },
+        {
+          "name": "4.\tEntrepreneurship Club (Vice President)",
+          "role": "",
+          "description": "4.\tEntrepreneurship Club (Vice President)"
+        },
+        {
+          "name": "5.\tLocal newspaper intern (Photographer/Reporter)",
+          "role": "",
+          "description": "5.\tLocal newspaper intern (Photographer/Reporter)"
+        },
+        {
+          "name": "6.\tCommunity church youth leader",
+          "role": "",
+          "description": "6.\tCommunity church youth leader"
+        },
+        {
+          "name": "7.\tAsian American Alliance club (Marketing Manager)",
+          "role": "",
+          "description": "7.\tAsian American Alliance club (Marketing Manager)"
+        },
+        {
+          "name": "8.\tSummer film camp at Northwestern University",
+          "role": "",
+          "description": "8.\tSummer film camp at Northwestern University"
+        },
+        {
+          "name": "9.\tBoys Tennis Freshman/JV teams",
+          "role": "",
+          "description": "9.\tBoys Tennis Freshman/JV teams"
+        },
+        {
+          "name": "10. Personal photography business (basically just a portfolio for my hobby work)",
+          "role": "",
+          "description": "10. Personal photography business (basically just a portfolio for my hobby work)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1.\t7th place team for National Economics Challenge",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2.\t2nd in state for DECA paper",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.\tWinner of semi-prestigious international high school film festival",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4.\tScholastic Gold Key in region for film",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5.\t1st place in state for National History Day documentary",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "6.\tCommunity church youth leader"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics/finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

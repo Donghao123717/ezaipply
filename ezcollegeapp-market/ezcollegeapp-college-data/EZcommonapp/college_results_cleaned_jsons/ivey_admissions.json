@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "COMMENTS:",
+          "role": "",
+          "description": "COMMENTS:"
+        },
+        {
+          "name": "I wanna say I'm in a similar boat. My class size is only 200 and the students he",
+          "role": "",
+          "description": "I wanna say I'm in a similar boat. My class size is only 200 and the students here are also not really motivated. I can't speak for how it's going to work out for the ivies because I didn't apply, but I did get into a college with an 11% acceptance rate, so I think as long as you be your best self, you have a good shot at it! Good luck to you!"
+        },
+        {
+          "name": "- [deleted]",
+          "role": "",
+          "description": "- [deleted]"
+        },
+        {
+          "name": "- Considering my states average class size is 300+, 200 is comparatively small.",
+          "role": "",
+          "description": "- Considering my states average class size is 300+, 200 is comparatively small."
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": 5,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. National leadership position at biggest learning disability nonprofit in US (",
+          "role": "",
+          "description": "1. National leadership position at biggest learning disability nonprofit in US (youngest person + first Asian-American ever to lead a top disability nonprofit, lobbied politicians to pass the RISE Act, $5 mil in annual d"
+        },
+        {
+          "name": "2. National Officer at student-run nonprofit focusing on preparing students for ",
+          "role": "",
+          "description": "2. National Officer at student-run nonprofit focusing on preparing students for science fair competitions (sponsored by AOPS, wolfram alpha, etc. with around $100k net assets total)"
+        },
+        {
+          "name": "3. Research at Northeastern, local university (two papers published, gave a pres",
+          "role": "",
+          "description": "3. Research at Northeastern, local university (two papers published, gave a presentation at international research conference)"
+        },
+        {
+          "name": "4. Ran a small backyard farm, sold produce at the local farmer's market (which n",
+          "role": "",
+          "description": "4. Ran a small backyard farm, sold produce at the local farmer's market (which nobody bought so I ended up eating it all but ignore that)"
+        },
+        {
+          "name": "5. President of local speaking club (25 members??)",
+          "role": "",
+          "description": "5. President of local speaking club (25 members??)"
+        },
+        {
+          "name": "6. Community project where I put tape on the stairs of local businesses to help ",
+          "role": "",
+          "description": "6. Community project where I put tape on the stairs of local businesses to help people with vision disabilities to see better"
+        },
+        {
+          "name": "7. Volunteered at other big learning disability nonprofits",
+          "role": "",
+          "description": "7. Volunteered at other big learning disability nonprofits"
+        },
+        {
+          "name": "8. FFA member (made state)",
+          "role": "",
+          "description": "8. FFA member (made state)"
+        },
+        {
+          "name": "9. 4-H Club volunteer",
+          "role": "",
+          "description": "9. 4-H Club volunteer"
+        },
+        {
+          "name": "10. Grassroots environmental education nonprofit volunteer",
+          "role": "",
+          "description": "10. Grassroots environmental education nonprofit volunteer"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. World Food Prize GYI Delegate (most prestigious agricultural competition for high school students",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 2022 Borlaug Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. state science fair 2nd and 3rd",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. PTA Reflections national winner x2",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": null,
+      "service_summary": "6. Community project where I put tape on the stairs of local businesses to help people with vision disabilities to see better; 9. 4-H Club volunteer; 10. Grassroots environmental education nonprofit volunteer"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "agricultural sciences"
+    },
+    "ESSAY_SCORE": null
+  }
+}

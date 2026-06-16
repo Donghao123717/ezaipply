@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "In school extracurriculars:",
+          "role": "",
+          "description": "In school extracurriculars:"
+        },
+        {
+          "name": "Treasurer of my school’s Ambassador’s club since Sophomore year (it’s a newer cl",
+          "role": "",
+          "description": "Treasurer of my school’s Ambassador’s club since Sophomore year (it’s a newer club at my school that works with students with disabilities, which I’ve done/will do for grades 10-12) Student council member (10-12)"
+        },
+        {
+          "name": "Outside of school extracurriculars: Martial arts: (9-11th) Genealogy (9-12)-I ac",
+          "role": "",
+          "description": "Outside of school extracurriculars: Martial arts: (9-11th) Genealogy (9-12)-I actually started summer before 9th grade and traced some of my ancestors to as far BC times since then, and discovered some interesting family secrets, too."
+        },
+        {
+          "name": "Colleges I’ve been accepted to so far: Hofstra University (EA, $31,500 scholarsh",
+          "role": "",
+          "description": "Colleges I’ve been accepted to so far: Hofstra University (EA, $31,500 scholarship) Ithaca College (EA, 27k scholarship) Loyola Marymount University (EA, verto study abroad first year) SUNY Old Westbury (EA)"
+        },
+        {
+          "name": "Colleges deferred from: Stony Brook University",
+          "role": "",
+          "description": "Colleges deferred from: Stony Brook University"
+        },
+        {
+          "name": "Waitlisted from: Franklin and Marshall College",
+          "role": "",
+          "description": "Waitlisted from: Franklin and Marshall College"
+        },
+        {
+          "name": "Colleges rejected from: Binghamton University",
+          "role": "",
+          "description": "Colleges rejected from: Binghamton University"
+        },
+        {
+          "name": "Colleges still waiting on: Bates College Bowdoin College Colorado College Carlet",
+          "role": "",
+          "description": "Colleges still waiting on: Bates College Bowdoin College Colorado College Carleton College Colby College College of the holy cross Columbia University Dartmouth College Denison University Harvard University (Lol)"
+        },
+        {
+          "name": "COMMENTS:",
+          "role": "",
+          "description": "COMMENTS:"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "While I don’t have any national awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I’ve been nominated for student of the month in 9th grade",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "and I’ve also consistently made honor roll each year.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "English, creative writing, film studies, communications"
+    },
+    "ESSAY_SCORE": null
+  }
+}

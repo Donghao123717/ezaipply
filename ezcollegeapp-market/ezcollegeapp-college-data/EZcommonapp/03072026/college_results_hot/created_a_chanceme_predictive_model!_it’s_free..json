@@ -1,0 +1,2294 @@
+{
+  "post": {
+    "id": "t3_1rac5e9",
+    "title": "[ Removed by moderator ]",
+    "author": "Adorable_Bee_6299",
+    "selftext": "",
+    "score": "26",
+    "url": "https://www.reddit.com/r/chanceme/comments/1rac5e9/create_a_chanceme_predictive_model/",
+    "created": "2026-02-21T00:10:30+00:00",
+    "num_comments": 82,
+    "subreddit": "chanceme"
+  },
+  "comments": [
+    {
+      "id": "t1_o6irip7",
+      "author": "Mezyi",
+      "body": "How’d you get the training data for this? Isn’t just a GPT wrapper because LLMs aren’t this fast.",
+      "score": "5 points",
+      "created": "2026-02-21T00:25:51+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6irmxl",
+          "author": "Adorable_Bee_6299",
+          "body": "Created my own data set",
+          "score": "3 points",
+          "created": "2026-02-21T00:26:32+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6irip7",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6k2orc",
+              "author": "Traditional_Yam9806",
+              "body": "How? From where? (I study data a lot at my college and for a lot of our classes) How is the data collected? Where are you getting so much data from. Did you account for kids who have 4.0+1600 SAT and insane ecxtraculatculars easily getting in to many good colleges while kids who are more meh have a solid shot (I don't think I phrased that well).\n\nAlso, how are you able to adapt the data for different schools GPAs. I know high schools where most MIT kids (there's like 1-3 a year) have like 3.8-3.95 GPAs (unweighted) and other schools I know have 4.0 kids who often go to Purdue or Virginia Tech. It really depends. Also, you should have an option for acronyms, like CMU (Carnegie Mellon; my college).",
+              "score": "6 points",
+              "created": "2026-02-21T05:39:55+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6irmxl",
+              "is_reply_to_post": false,
+              "replies": []
+            },
+            {
+              "id": "t1_o6it8bi",
+              "author": "Mezyi",
+              "body": "Oh, that’s pretty cool. I’m assuming you probably need more data long term tho, right?",
+              "score": "2 points",
+              "created": "2026-02-21T00:35:43+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6irmxl",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o6itbe7",
+                  "author": "Adorable_Bee_6299",
+                  "body": "In what sense? But the answer is yes regardless",
+                  "score": "2 points",
+                  "created": "2026-02-21T00:36:13+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o6it8bi",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t1_o6it4iz",
+          "author": "Adorable_Bee_6299",
+          "body": "Was it accurate for you? Do u have any things you wish were included etc.",
+          "score": "2 points",
+          "created": "2026-02-21T00:35:06+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6irip7",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6itf9n",
+              "author": "Mezyi",
+              "body": "I’m still a sophomore so we’ll see. I just put some projected stats in there. Maybe you could put the option to input AP scores, along with more detail about your extracurriculars (something like collegevine). Pretty good for a new website though.",
+              "score": "2 points",
+              "created": "2026-02-21T00:36:50+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6it4iz",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o6itk8n",
+                  "author": "Adorable_Bee_6299",
+                  "body": "Good idea. Will add in now.",
+                  "score": "1 point",
+                  "created": "2026-02-21T00:37:38+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o6itf9n",
+                  "is_reply_to_post": false,
+                  "replies": [
+                    {
+                      "id": "t1_o6itupz",
+                      "author": "Mezyi",
+                      "body": "Oh, and maybe some abbreviations of the school names. E.g Carnegie Mellon —> CMU, Massachusetts institute of technology —> MIT, Georgia Tech etc.",
+                      "score": "1 point",
+                      "created": "2026-02-21T00:39:18+00:00",
+                      "depth": 4,
+                      "parent_id": "t1_o6itk8n",
+                      "is_reply_to_post": false,
+                      "replies": [
+                        {
+                          "id": "t1_o6iuajq",
+                          "author": "Adorable_Bee_6299",
+                          "body": "Good idea. Not sure if I’ll go with it tho. I think full name keeps pretty clear and like for example I didn’t even know CMU was Carnegie Mellon specifically.",
+                          "score": "1 point",
+                          "created": "2026-02-21T00:41:49+00:00",
+                          "depth": 5,
+                          "parent_id": "t1_o6itupz",
+                          "is_reply_to_post": false,
+                          "replies": [
+                            {
+                              "id": "t1_o6iuhdl",
+                              "author": "Mezyi",
+                              "body": "Oh, I usually use CollegeVine and I’m just saying what they do. They put (full name) | (abbreviation)",
+                              "score": "3 points",
+                              "created": "2026-02-21T00:42:56+00:00",
+                              "depth": 6,
+                              "parent_id": "t1_o6iuajq",
+                              "is_reply_to_post": false,
+                              "replies": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o6itjks",
+      "author": "LessBat6111",
+      "body": "on laptop i cant put in a number for gpa, js 4 or 3",
+      "score": "3 points",
+      "created": "2026-02-21T00:37:31+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6iuutg",
+          "author": "Adorable_Bee_6299",
+          "body": "Fixed. Let me know how accurate it is for you if you already are in college or if not what features you’d appreciate .",
+          "score": "1 point",
+          "created": "2026-02-21T00:45:08+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6itjks",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6j0rca",
+      "author": "MedicalInternet6740",
+      "body": "Cool!! I'm a sophomore and having something like this to organize college app plans/ecs/classes etc would be helpful but I haven't taken that many Aps and like haven't taken the SAT, only the PSAT, so making more accessible to people who maybe aren't currently (or will be in the very near future) in the process of applying to college? If your focus is only on that though then nvm lol. Also, could you add more colleges to the legacy section? My mom went to Williams but I had to leave that section blank because it wasn't on there. Also just add more schools to the list section? I wanted to add Amherst college but the only option was UMass which is NOT the same lol.. 😔thank you!!",
+      "score": "3 points",
+      "created": "2026-02-21T01:21:13+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6j10e6",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes, I will work on adding new colleges asap! Trying to fix the little glitches first that some people are reporting. For the SAT section, I would say put your target score or PSAT score? I will definitely look into options for those who haven’t taken yet. Great feedback.",
+          "score": "2 points",
+          "created": "2026-02-21T01:22:49+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6j0rca",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6j29c2",
+              "author": "MedicalInternet6740",
+              "body": "Awesome!! I finished my profile and I'm looking at all the reccomendations and it's really helpful to get personal feedback rather than just random yt videos so I really appreciate this project!!",
+              "score": "2 points",
+              "created": "2026-02-21T01:30:44+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6j10e6",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o6j2g0s",
+                  "author": "Adorable_Bee_6299",
+                  "body": "Yes, I totally get it. I once was applying to colleges too. That’s why I made it Lol. Best of luck to you, I will be updating the site pretty nonstop for a while if you want to check back in whenever.",
+                  "score": "1 point",
+                  "created": "2026-02-21T01:31:55+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o6j29c2",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o6j6uya",
+      "author": "Expensive_Honey_7093",
+      "body": "Gng I hope ur model is right 🥀. Out of all the ivies I applied to + MIT, I’m estimated to get into exactly 1….",
+      "score": "3 points",
+      "created": "2026-02-21T01:59:43+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6j72we",
+          "author": "Adorable_Bee_6299",
+          "body": "Hahaha I hope it’s right too. For both of our sakes. Jokes aside it’s not the end of the world regardless, my undergrad wasn’t an Ivy but it got me into one for postgrad. There are so many paths!!!",
+          "score": "1 point",
+          "created": "2026-02-21T02:01:06+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6j6uya",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6mgpju",
+      "author": "Temporary_Molasses41",
+      "body": "Would recommend you add dual enrollment also you can take individual IB classes, but the only option is IB DP. Plus I think for SAT you should make users input math and rw score aswell.",
+      "score": "3 points",
+      "created": "2026-02-21T16:36:45+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6mlxxf",
+          "author": "Adorable_Bee_6299",
+          "body": "Good point. The SAT feature will take a lot longer to add since I’d have to edit my data set. But that’s great feedback, ty",
+          "score": "1 point",
+          "created": "2026-02-21T17:02:40+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6mgpju",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6ircrl",
+      "author": "LegalLog3683",
+      "body": "On my phone the GPA scales aren’t working. I can’t put 4.6 for weighted. Same with GPA.\n\nAlso, activity level differs a lot based on the activity. National sometimes doesn’t mean too much.",
+      "score": "4 points",
+      "created": "2026-02-21T00:24:54+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6irql6",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, thank you for lmk. Just fixed. Let me know what else u catch.",
+          "score": "2 points",
+          "created": "2026-02-21T00:27:08+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6ircrl",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6iuaw7",
+              "author": "NeighborhoodOdd7864",
+              "body": "Tried it just now - was not fixed. Couldn’t put in “x.5” only the first number",
+              "score": "1 point",
+              "created": "2026-02-21T00:41:53+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6irql6",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o6iuqmf",
+                  "author": "Adorable_Bee_6299",
+                  "body": "Your right. Fixed now. Just tried it myself. Thx for heads up",
+                  "score": "2 points",
+                  "created": "2026-02-21T00:44:27+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o6iuaw7",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t1_o6j6qbo",
+          "author": "Adorable_Bee_6299",
+          "body": "Hey, I fixed the activity level tiers. Great suggestion",
+          "score": "1 point",
+          "created": "2026-02-21T01:58:55+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6ircrl",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6ixj94",
+      "author": "Maleficent-One-3469",
+      "body": "i respect the commitment but your site js looks obviously ai/base44",
+      "score": "4 points",
+      "created": "2026-02-21T01:01:16+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6iy2ci",
+          "author": "Adorable_Bee_6299",
+          "body": "Okay, I’m happy to field feedback. I’m fine with it looking like vibe coding, but did anything functionally seem like it wasn’t working ? I’m not necessarily trying to act like an expert, it’s more so a resource for those especially those stressing about colleges.",
+          "score": "0 points",
+          "created": "2026-02-21T01:04:32+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6ixj94",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6j9c3j",
+      "author": "Rayney-Days",
+      "body": "It works! I wish there could be stuff about extracurriculars, additional info and abbreviations like UCLA or UChicago for example instead of having to scroll but I still rlly like it. Tysm!",
+      "score": "2 points",
+      "created": "2026-02-21T02:15:10+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6j9plw",
+          "author": "Adorable_Bee_6299",
+          "body": "I’m glad it works for you. I’lol work on more extracurricular info stuff coming soon! I thought abbreviations might seem unprofessional- I’ll do a little research and get back to you on that part. I appreciate your feedback!",
+          "score": "2 points",
+          "created": "2026-02-21T02:17:30+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6j9c3j",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6jaci5",
+              "author": "Rayney-Days",
+              "body": "Tysm!! Have a nice day/night!",
+              "score": "2 points",
+              "created": "2026-02-21T02:21:27+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6j9plw",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o6k33lc",
+      "author": "Sandrokorkelia",
+      "body": "In the beginning I cant say im an international",
+      "score": "2 points",
+      "created": "2026-02-21T05:43:17+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6oyb0s",
+          "author": "Adorable_Bee_6299",
+          "body": "In progress - good suggestion",
+          "score": "1 point",
+          "created": "2026-02-22T00:35:08+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6k33lc",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6kbpu8",
+      "author": "Classic-Direction930",
+      "body": "I am a int there should be option for them too dude",
+      "score": "2 points",
+      "created": "2026-02-21T06:59:02+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6oya3l",
+          "author": "Adorable_Bee_6299",
+          "body": "Working on that now . Good idea",
+          "score": "1 point",
+          "created": "2026-02-22T00:34:59+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6kbpu8",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6pfo25",
+              "author": "Classic-Direction930",
+              "body": "🙏🙏",
+              "score": "1 point",
+              "created": "2026-02-22T02:25:47+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6oya3l",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o6klkvz",
+      "author": "ArchiPlaysOfficial",
+      "body": "It looks pretty good. Could you please make it more accessible for international students, as well as making it possible to include awards and other things? I feel like the 4 tiers of extracurriculars are too broad.",
+      "score": "2 points",
+      "created": "2026-02-21T08:34:09+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6oycnn",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes. I will totally work on that. Thank you for your feedback!",
+          "score": "1 point",
+          "created": "2026-02-22T00:35:25+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6klkvz",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6luxzg",
+      "author": "Then_Wheel_5184",
+      "body": "Could you add an option for students living abroad?",
+      "score": "2 points",
+      "created": "2026-02-21T14:44:06+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6oye9m",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes, as in international? I’m going to work on that asap. Good idea",
+          "score": "1 point",
+          "created": "2026-02-22T00:35:42+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6luxzg",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6lxb8m",
+      "author": "Hammad28011",
+      "body": "I would like to give you some suggestions:\n1) Add international as an option\n2) Add other courses as options e.g igcse, alevels\n3) Extend the activities and honors section to 10 and 5 accordingly.",
+      "score": "2 points",
+      "created": "2026-02-21T14:57:26+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6mg7xv",
+          "author": "Adorable_Bee_6299",
+          "body": "Will work on soon! Good ideas.",
+          "score": "1 point",
+          "created": "2026-02-21T16:34:18+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6lxb8m",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6q5wjy",
+              "author": "DarkBlade457",
+              "body": "Might just be me but I fill everything for the profile out and then it just won’t save",
+              "score": "1 point",
+              "created": "2026-02-22T05:32:11+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6mg7xv",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o6q69ii",
+                  "author": "Adorable_Bee_6299",
+                  "body": "Working on a fix for bugs now, version 1.2 will be out later tonight!! Give it about an hour id say.",
+                  "score": "1 point",
+                  "created": "2026-02-22T05:35:08+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o6q5wjy",
+                  "is_reply_to_post": false,
+                  "replies": [
+                    {
+                      "id": "t1_o6q6ce6",
+                      "author": "DarkBlade457",
+                      "body": "To specify it would work when signed out but not when signed in",
+                      "score": "1 point",
+                      "created": "2026-02-22T05:35:49+00:00",
+                      "depth": 4,
+                      "parent_id": "t1_o6q69ii",
+                      "is_reply_to_post": false,
+                      "replies": [
+                        {
+                          "id": "t1_o6q6rws",
+                          "author": "Adorable_Bee_6299",
+                          "body": "Good to know. Thank you!",
+                          "score": "1 point",
+                          "created": "2026-02-22T05:39:24+00:00",
+                          "depth": 5,
+                          "parent_id": "t1_o6q6ce6",
+                          "is_reply_to_post": false,
+                          "replies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o6ly6c7",
+      "author": "Then_Wheel_5184",
+      "body": "Small error in the website btw, it says the acceptance rates wrong, instead of saying 7.8%, it says 0.078%",
+      "score": "2 points",
+      "created": "2026-02-21T15:02:13+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6oyf40",
+          "author": "Adorable_Bee_6299",
+          "body": "Good catch. Should be fixed",
+          "score": "1 point",
+          "created": "2026-02-22T00:35:50+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6ly6c7",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6ivxfo",
+      "author": "strawberrilulu",
+      "body": "This is super cool!\nI can't enter a number for SAT score though :(",
+      "score": "1 point",
+      "created": "2026-02-21T00:51:30+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6iz4jz",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, should be fixed. Let me know how it goes !!",
+          "score": "1 point",
+          "created": "2026-02-21T01:11:06+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6ivxfo",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6j17g4",
+      "author": "Negative_Mirror3355",
+      "body": "The app does not allow me to not select a state if I am an intl applicant",
+      "score": "1 point",
+      "created": "2026-02-21T01:24:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6j1ct2",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, I haven’t added an international feature yet. But that’s a really good idea. Thank you!!",
+          "score": "1 point",
+          "created": "2026-02-21T01:25:00+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6j17g4",
+          "is_reply_to_post": false,
+          "replies": []
+        },
+        {
+          "id": "t1_o6udo4h",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, international features are added!",
+          "score": "1 point",
+          "created": "2026-02-22T21:27:54+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6j17g4",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6j66wm",
+      "author": "Loud_Opposite374",
+      "body": "Does this work for transfers too or just straight out of high school",
+      "score": "1 point",
+      "created": "2026-02-21T01:55:31+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6j6a7d",
+          "author": "Adorable_Bee_6299",
+          "body": "At the moment definitely just high school. That’s a great idea for expansion though.",
+          "score": "1 point",
+          "created": "2026-02-21T01:56:06+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6j66wm",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6jczaj",
+              "author": "Loud_Opposite374",
+              "body": "Great project, gonna tell my brothers to try it out",
+              "score": "2 points",
+              "created": "2026-02-21T02:38:08+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6j6a7d",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o6jdp0i",
+                  "author": "Adorable_Bee_6299",
+                  "body": "Thank you!!! Let me know what they think",
+                  "score": "1 point",
+                  "created": "2026-02-21T02:42:38+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o6jczaj",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o6jegho",
+      "author": "ApprehensiveAd9392",
+      "body": "... it says my 12 APs is low rigor for many schools. Maybe bc my school offers 30 ?",
+      "score": "1 point",
+      "created": "2026-02-21T02:47:28+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6jeoje",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes, that’s in the methodology. The class rigor is calculated as a fraction of total available APs.",
+          "score": "1 point",
+          "created": "2026-02-21T02:48:50+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6jegho",
+          "is_reply_to_post": false,
+          "replies": []
+        },
+        {
+          "id": "t1_o6jesbq",
+          "author": "Adorable_Bee_6299",
+          "body": "If you think this is inaccurate , I’d encourage you to lower your total APs available to around 20 or so and reshoot your odds. Overall, it has limited effect on prediction model as a whole but still a nice data point",
+          "score": "1 point",
+          "created": "2026-02-21T02:49:30+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6jegho",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6jgl0b",
+              "author": "ApprehensiveAd9392",
+              "body": "Good call! I'll let you know what changes...my 12 APs have made me feel like i'm drowning in rigor lol",
+              "score": "1 point",
+              "created": "2026-02-21T03:00:56+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6jesbq",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o6jgn2j",
+                  "author": "Adorable_Bee_6299",
+                  "body": "Im sure they have. It will be worth it!!",
+                  "score": "1 point",
+                  "created": "2026-02-21T03:01:19+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o6jgl0b",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o6jqd9r",
+      "author": "MizuWaterHydros",
+      "body": "Yo could you add international section? i.e country, city of residence, passport type",
+      "score": "1 point",
+      "created": "2026-02-21T04:06:49+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6jrjdg",
+          "author": "Adorable_Bee_6299",
+          "body": "Currently working on it now! Good idea.",
+          "score": "1 point",
+          "created": "2026-02-21T04:15:10+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6jqd9r",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6jrsvw",
+      "author": "Accomplished-Car4994",
+      "body": "the class rank percentile will only let me put a single number, not multiple (e.g only inputs 3 when i want 3.4)",
+      "score": "1 point",
+      "created": "2026-02-21T04:17:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6jrvxw",
+          "author": "Adorable_Bee_6299",
+          "body": "Got ya. Will fix that tonight. Good catch",
+          "score": "2 points",
+          "created": "2026-02-21T04:17:41+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6jrsvw",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6js643",
+      "author": "Confident-Orange-475",
+      "body": "can you create a community college transfer option pls?:)",
+      "score": "1 point",
+      "created": "2026-02-21T04:19:39+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6js8w9",
+          "author": "Adorable_Bee_6299",
+          "body": "That’s a great suggestion. Definitely gonna be hard. I’ll put it as a  long term objective. Great idea",
+          "score": "2 points",
+          "created": "2026-02-21T04:20:12+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6js643",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6jsq2m",
+      "author": "Accomplished-Car4994",
+      "body": "Also, is there anyway you can integrate beyond AP classes (Calc3, etc) because technically i am taking way less aps than my school offers because im in a lot of those beyond AP classes and id recommend a transcript reader or a way to input the exact AP classes because a person with like 3 ap courses but those being APES,APHG, psych is weighed the same as someone who took 3 but they are chem, physics , calc or smt like that",
+      "score": "1 point",
+      "created": "2026-02-21T04:23:40+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6jsvzg",
+          "author": "Adorable_Bee_6299",
+          "body": "That’s a good suggestion. Thank you.",
+          "score": "1 point",
+          "created": "2026-02-21T04:24:51+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6jsq2m",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6oxt5y",
+      "author": "FastSituation3664",
+      "body": "Can we add multiple activities? And How about an option for internationals?",
+      "score": "1 point",
+      "created": "2026-02-22T00:32:07+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6oygcd",
+          "author": "Adorable_Bee_6299",
+          "body": "Working on that now for both. Good feedback!",
+          "score": "2 points",
+          "created": "2026-02-22T00:36:03+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6oxt5y",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6qnmv4",
+      "author": "King_Ian09",
+      "body": "I checked on my chances again after I inputted my stats and made my list yesterday, and the format totally changed. There are now a lot less majors to choose from, no clarity on how many AP courses were available, no mention of leadership positions or hours, and no option for legacy. Nearly every school on my list got knocked down around 5% chance of admission, and I’m just wondering why you moved away from the old format? I feel like it offered a lot more clarity on an application, and this new update stripped away a lot of aspects of that application. On a more positive note, I really like how the update brought along the ability to input an essay grade. I totally understand if you had a reason for this update, I would just like to know!",
+      "score": "1 point",
+      "created": "2026-02-22T08:12:34+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6sw98h",
+          "author": "Adorable_Bee_6299",
+          "body": "this is fantastic feedback. thank you. i just published with updates addressing each of your concerns. let me know what you think.",
+          "score": "1 point",
+          "created": "2026-02-22T17:10:12+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6qnmv4",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o6uatl4",
+              "author": "King_Ian09",
+              "body": "Thanks a lot! The updates are great.",
+              "score": "2 points",
+              "created": "2026-02-22T21:13:44+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6sw98h",
+              "is_reply_to_post": false,
+              "replies": []
+            },
+            {
+              "id": "t1_o6ucxe5",
+              "author": "King_Ian09",
+              "body": "I just noticed one new bug. Whenever I update the stats in my profile, the chances change as they should in the “Explore” tab but they remain the same in the “My List” tab. Also one little thing, I noticed some colleges such as Wake Forest are missing since the update. Thanks again for taking feedback!",
+              "score": "2 points",
+              "created": "2026-02-22T21:24:12+00:00",
+              "depth": 2,
+              "parent_id": "t1_o6sw98h",
+              "is_reply_to_post": false,
+              "replies": [
+                {
+                  "id": "t1_o6ud2j9",
+                  "author": "Adorable_Bee_6299",
+                  "body": "Great feedback again. I will check this over tonight (exam season balancing lol). Thank you so much!!",
+                  "score": "2 points",
+                  "created": "2026-02-22T21:24:54+00:00",
+                  "depth": 3,
+                  "parent_id": "t1_o6ucxe5",
+                  "is_reply_to_post": false,
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1_o6ivx4z",
+      "author": "No-Wrongdoer1409",
+      "body": "\"im an ivy league student\" which one?\nur vibe coded website has a lot of errors\nLACs are not in the list",
+      "score": "1 point",
+      "created": "2026-02-21T00:51:27+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o6ixml3",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, I go to Cornell. I added that for credibility - both for my college app experience but also because people are pretty hesitant to just trust a random creator. I’m not claiming to be an expert. But if you have suggestions I’d love to work on them. As I said - it’s a work in process, and I’m just trying to help people through the process. I’ll work on incorporating the LACs now. Are there any errors specifically you noticed ?",
+          "score": "2 points",
+          "created": "2026-02-21T01:01:51+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6ivx4z",
+          "is_reply_to_post": false,
+          "replies": []
+        },
+        {
+          "id": "t1_o6mkmgc",
+          "author": "Southern_Drop3749",
+          "body": "Average passive aggressive reddit mod",
+          "score": "0 points",
+          "created": "2026-02-21T16:56:12+00:00",
+          "depth": 1,
+          "parent_id": "t1_o6ivx4z",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o6l4wkk",
+      "author": "Lonely-Poem807",
+      "body": "Bs",
+      "score": "-1 points",
+      "created": "2026-02-21T11:42:17+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1rac5e9",
+        "author": "Adorable_Bee_6299",
+        "title": "[ Removed by moderator ]",
+        "body": "",
+        "full_text": "[ Removed by moderator ]"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o6irip7",
+          "author": "Mezyi",
+          "body": "How’d you get the training data for this? Isn’t just a GPT wrapper because LLMs aren’t this fast.",
+          "score": "5 points",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o6itjks",
+          "author": "LessBat6111",
+          "body": "on laptop i cant put in a number for gpa, js 4 or 3",
+          "score": "3 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6j0rca",
+          "author": "MedicalInternet6740",
+          "body": "Cool!! I'm a sophomore and having something like this to organize college app plans/ecs/classes etc would be helpful but I haven't taken that many Aps and like haven't taken the SAT, only the PSAT, so making more accessible to people who maybe aren't currently (or will be in the very near future) in the process of applying to college? If your focus is only on that though then nvm lol. Also, could you add more colleges to the legacy section? My mom went to Williams but I had to leave that section blank because it wasn't on there. Also just add more schools to the list section? I wanted to add Amherst college but the only option was UMass which is NOT the same lol.. 😔thank you!!",
+          "score": "3 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6j6uya",
+          "author": "Expensive_Honey_7093",
+          "body": "Gng I hope ur model is right 🥀. Out of all the ivies I applied to + MIT, I’m estimated to get into exactly 1….",
+          "score": "3 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6mgpju",
+          "author": "Temporary_Molasses41",
+          "body": "Would recommend you add dual enrollment also you can take individual IB classes, but the only option is IB DP. Plus I think for SAT you should make users input math and rw score aswell.",
+          "score": "3 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6ircrl",
+          "author": "LegalLog3683",
+          "body": "On my phone the GPA scales aren’t working. I can’t put 4.6 for weighted. Same with GPA.\n\nAlso, activity level differs a lot based on the activity. National sometimes doesn’t mean too much.",
+          "score": "4 points",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o6ixj94",
+          "author": "Maleficent-One-3469",
+          "body": "i respect the commitment but your site js looks obviously ai/base44",
+          "score": "4 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6j9c3j",
+          "author": "Rayney-Days",
+          "body": "It works! I wish there could be stuff about extracurriculars, additional info and abbreviations like UCLA or UChicago for example instead of having to scroll but I still rlly like it. Tysm!",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6k33lc",
+          "author": "Sandrokorkelia",
+          "body": "In the beginning I cant say im an international",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6kbpu8",
+          "author": "Classic-Direction930",
+          "body": "I am a int there should be option for them too dude",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6klkvz",
+          "author": "ArchiPlaysOfficial",
+          "body": "It looks pretty good. Could you please make it more accessible for international students, as well as making it possible to include awards and other things? I feel like the 4 tiers of extracurriculars are too broad.",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6luxzg",
+          "author": "Then_Wheel_5184",
+          "body": "Could you add an option for students living abroad?",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6lxb8m",
+          "author": "Hammad28011",
+          "body": "I would like to give you some suggestions:\n1) Add international as an option\n2) Add other courses as options e.g igcse, alevels\n3) Extend the activities and honors section to 10 and 5 accordingly.",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6ly6c7",
+          "author": "Then_Wheel_5184",
+          "body": "Small error in the website btw, it says the acceptance rates wrong, instead of saying 7.8%, it says 0.078%",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6ivxfo",
+          "author": "strawberrilulu",
+          "body": "This is super cool!\nI can't enter a number for SAT score though :(",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6j17g4",
+          "author": "Negative_Mirror3355",
+          "body": "The app does not allow me to not select a state if I am an intl applicant",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o6j66wm",
+          "author": "Loud_Opposite374",
+          "body": "Does this work for transfers too or just straight out of high school",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6jegho",
+          "author": "ApprehensiveAd9392",
+          "body": "... it says my 12 APs is low rigor for many schools. Maybe bc my school offers 30 ?",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o6jqd9r",
+          "author": "MizuWaterHydros",
+          "body": "Yo could you add international section? i.e country, city of residence, passport type",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6jrsvw",
+          "author": "Accomplished-Car4994",
+          "body": "the class rank percentile will only let me put a single number, not multiple (e.g only inputs 3 when i want 3.4)",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6js643",
+          "author": "Confident-Orange-475",
+          "body": "can you create a community college transfer option pls?:)",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6jsq2m",
+          "author": "Accomplished-Car4994",
+          "body": "Also, is there anyway you can integrate beyond AP classes (Calc3, etc) because technically i am taking way less aps than my school offers because im in a lot of those beyond AP classes and id recommend a transcript reader or a way to input the exact AP classes because a person with like 3 ap courses but those being APES,APHG, psych is weighed the same as someone who took 3 but they are chem, physics , calc or smt like that",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6oxt5y",
+          "author": "FastSituation3664",
+          "body": "Can we add multiple activities? And How about an option for internationals?",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6qnmv4",
+          "author": "King_Ian09",
+          "body": "I checked on my chances again after I inputted my stats and made my list yesterday, and the format totally changed. There are now a lot less majors to choose from, no clarity on how many AP courses were available, no mention of leadership positions or hours, and no option for legacy. Nearly every school on my list got knocked down around 5% chance of admission, and I’m just wondering why you moved away from the old format? I feel like it offered a lot more clarity on an application, and this new update stripped away a lot of aspects of that application. On a more positive note, I really like how the update brought along the ability to input an essay grade. I totally understand if you had a reason for this update, I would just like to know!",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o6ivx4z",
+          "author": "No-Wrongdoer1409",
+          "body": "\"im an ivy league student\" which one?\nur vibe coded website has a lot of errors\nLACs are not in the list",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 2
+        },
+        {
+          "id": "t1_o6l4wkk",
+          "author": "Lonely-Poem807",
+          "body": "Bs",
+          "score": "-1 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6irip7",
+        "author": "Mezyi",
+        "body": "How’d you get the training data for this? Isn’t just a GPT wrapper because LLMs aren’t this fast.",
+        "score": "5 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6irmxl",
+          "author": "Adorable_Bee_6299",
+          "body": "Created my own data set",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o6it4iz",
+          "author": "Adorable_Bee_6299",
+          "body": "Was it accurate for you? Do u have any things you wish were included etc.",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6irmxl",
+        "author": "Adorable_Bee_6299",
+        "body": "Created my own data set",
+        "score": "3 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6k2orc",
+          "author": "Traditional_Yam9806",
+          "body": "How? From where? (I study data a lot at my college and for a lot of our classes) How is the data collected? Where are you getting so much data from. Did you account for kids who have 4.0+1600 SAT and insane ecxtraculatculars easily getting in to many good colleges while kids who are more meh have a solid shot (I don't think I phrased that well).\n\nAlso, how are you able to adapt the data for different schools GPAs. I know high schools where most MIT kids (there's like 1-3 a year) have like 3.8-3.95 GPAs (unweighted) and other schools I know have 4.0 kids who often go to Purdue or Virginia Tech. It really depends. Also, you should have an option for acronyms, like CMU (Carnegie Mellon; my college).",
+          "score": "6 points",
+          "depth": 2,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o6it8bi",
+          "author": "Mezyi",
+          "body": "Oh, that’s pretty cool. I’m assuming you probably need more data long term tho, right?",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6it8bi",
+        "author": "Mezyi",
+        "body": "Oh, that’s pretty cool. I’m assuming you probably need more data long term tho, right?",
+        "score": "2 points",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6itbe7",
+          "author": "Adorable_Bee_6299",
+          "body": "In what sense? But the answer is yes regardless",
+          "score": "2 points",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6it4iz",
+        "author": "Adorable_Bee_6299",
+        "body": "Was it accurate for you? Do u have any things you wish were included etc.",
+        "score": "2 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6itf9n",
+          "author": "Mezyi",
+          "body": "I’m still a sophomore so we’ll see. I just put some projected stats in there. Maybe you could put the option to input AP scores, along with more detail about your extracurriculars (something like collegevine). Pretty good for a new website though.",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6itf9n",
+        "author": "Mezyi",
+        "body": "I’m still a sophomore so we’ll see. I just put some projected stats in there. Maybe you could put the option to input AP scores, along with more detail about your extracurriculars (something like collegevine). Pretty good for a new website though.",
+        "score": "2 points",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6itk8n",
+          "author": "Adorable_Bee_6299",
+          "body": "Good idea. Will add in now.",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6itk8n",
+        "author": "Adorable_Bee_6299",
+        "body": "Good idea. Will add in now.",
+        "score": "1 point",
+        "depth": 3,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6itupz",
+          "author": "Mezyi",
+          "body": "Oh, and maybe some abbreviations of the school names. E.g Carnegie Mellon —> CMU, Massachusetts institute of technology —> MIT, Georgia Tech etc.",
+          "score": "1 point",
+          "depth": 4,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6itupz",
+        "author": "Mezyi",
+        "body": "Oh, and maybe some abbreviations of the school names. E.g Carnegie Mellon —> CMU, Massachusetts institute of technology —> MIT, Georgia Tech etc.",
+        "score": "1 point",
+        "depth": 4,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6iuajq",
+          "author": "Adorable_Bee_6299",
+          "body": "Good idea. Not sure if I’ll go with it tho. I think full name keeps pretty clear and like for example I didn’t even know CMU was Carnegie Mellon specifically.",
+          "score": "1 point",
+          "depth": 5,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6iuajq",
+        "author": "Adorable_Bee_6299",
+        "body": "Good idea. Not sure if I’ll go with it tho. I think full name keeps pretty clear and like for example I didn’t even know CMU was Carnegie Mellon specifically.",
+        "score": "1 point",
+        "depth": 5,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6iuhdl",
+          "author": "Mezyi",
+          "body": "Oh, I usually use CollegeVine and I’m just saying what they do. They put (full name) | (abbreviation)",
+          "score": "3 points",
+          "depth": 6,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6itjks",
+        "author": "LessBat6111",
+        "body": "on laptop i cant put in a number for gpa, js 4 or 3",
+        "score": "3 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6iuutg",
+          "author": "Adorable_Bee_6299",
+          "body": "Fixed. Let me know how accurate it is for you if you already are in college or if not what features you’d appreciate .",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j0rca",
+        "author": "MedicalInternet6740",
+        "body": "Cool!! I'm a sophomore and having something like this to organize college app plans/ecs/classes etc would be helpful but I haven't taken that many Aps and like haven't taken the SAT, only the PSAT, so making more accessible to people who maybe aren't currently (or will be in the very near future) in the process of applying to college? If your focus is only on that though then nvm lol. Also, could you add more colleges to the legacy section? My mom went to Williams but I had to leave that section blank because it wasn't on there. Also just add more schools to the list section? I wanted to add Amherst college but the only option was UMass which is NOT the same lol.. 😔thank you!!",
+        "score": "3 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6j10e6",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes, I will work on adding new colleges asap! Trying to fix the little glitches first that some people are reporting. For the SAT section, I would say put your target score or PSAT score? I will definitely look into options for those who haven’t taken yet. Great feedback.",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j10e6",
+        "author": "Adorable_Bee_6299",
+        "body": "Yes, I will work on adding new colleges asap! Trying to fix the little glitches first that some people are reporting. For the SAT section, I would say put your target score or PSAT score? I will definitely look into options for those who haven’t taken yet. Great feedback.",
+        "score": "2 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6j29c2",
+          "author": "MedicalInternet6740",
+          "body": "Awesome!! I finished my profile and I'm looking at all the reccomendations and it's really helpful to get personal feedback rather than just random yt videos so I really appreciate this project!!",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j29c2",
+        "author": "MedicalInternet6740",
+        "body": "Awesome!! I finished my profile and I'm looking at all the reccomendations and it's really helpful to get personal feedback rather than just random yt videos so I really appreciate this project!!",
+        "score": "2 points",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6j2g0s",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes, I totally get it. I once was applying to colleges too. That’s why I made it Lol. Best of luck to you, I will be updating the site pretty nonstop for a while if you want to check back in whenever.",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j6uya",
+        "author": "Expensive_Honey_7093",
+        "body": "Gng I hope ur model is right 🥀. Out of all the ivies I applied to + MIT, I’m estimated to get into exactly 1….",
+        "score": "3 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6j72we",
+          "author": "Adorable_Bee_6299",
+          "body": "Hahaha I hope it’s right too. For both of our sakes. Jokes aside it’s not the end of the world regardless, my undergrad wasn’t an Ivy but it got me into one for postgrad. There are so many paths!!!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6mgpju",
+        "author": "Temporary_Molasses41",
+        "body": "Would recommend you add dual enrollment also you can take individual IB classes, but the only option is IB DP. Plus I think for SAT you should make users input math and rw score aswell.",
+        "score": "3 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6mlxxf",
+          "author": "Adorable_Bee_6299",
+          "body": "Good point. The SAT feature will take a lot longer to add since I’d have to edit my data set. But that’s great feedback, ty",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6ircrl",
+        "author": "LegalLog3683",
+        "body": "On my phone the GPA scales aren’t working. I can’t put 4.6 for weighted. Same with GPA.\n\nAlso, activity level differs a lot based on the activity. National sometimes doesn’t mean too much.",
+        "score": "4 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6irql6",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, thank you for lmk. Just fixed. Let me know what else u catch.",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": true
+        },
+        {
+          "id": "t1_o6j6qbo",
+          "author": "Adorable_Bee_6299",
+          "body": "Hey, I fixed the activity level tiers. Great suggestion",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6irql6",
+        "author": "Adorable_Bee_6299",
+        "body": "Hi, thank you for lmk. Just fixed. Let me know what else u catch.",
+        "score": "2 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6iuaw7",
+          "author": "NeighborhoodOdd7864",
+          "body": "Tried it just now - was not fixed. Couldn’t put in “x.5” only the first number",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6iuaw7",
+        "author": "NeighborhoodOdd7864",
+        "body": "Tried it just now - was not fixed. Couldn’t put in “x.5” only the first number",
+        "score": "1 point",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6iuqmf",
+          "author": "Adorable_Bee_6299",
+          "body": "Your right. Fixed now. Just tried it myself. Thx for heads up",
+          "score": "2 points",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6ixj94",
+        "author": "Maleficent-One-3469",
+        "body": "i respect the commitment but your site js looks obviously ai/base44",
+        "score": "4 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6iy2ci",
+          "author": "Adorable_Bee_6299",
+          "body": "Okay, I’m happy to field feedback. I’m fine with it looking like vibe coding, but did anything functionally seem like it wasn’t working ? I’m not necessarily trying to act like an expert, it’s more so a resource for those especially those stressing about colleges.",
+          "score": "0 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j9c3j",
+        "author": "Rayney-Days",
+        "body": "It works! I wish there could be stuff about extracurriculars, additional info and abbreviations like UCLA or UChicago for example instead of having to scroll but I still rlly like it. Tysm!",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6j9plw",
+          "author": "Adorable_Bee_6299",
+          "body": "I’m glad it works for you. I’lol work on more extracurricular info stuff coming soon! I thought abbreviations might seem unprofessional- I’ll do a little research and get back to you on that part. I appreciate your feedback!",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j9plw",
+        "author": "Adorable_Bee_6299",
+        "body": "I’m glad it works for you. I’lol work on more extracurricular info stuff coming soon! I thought abbreviations might seem unprofessional- I’ll do a little research and get back to you on that part. I appreciate your feedback!",
+        "score": "2 points",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jaci5",
+          "author": "Rayney-Days",
+          "body": "Tysm!! Have a nice day/night!",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6k33lc",
+        "author": "Sandrokorkelia",
+        "body": "In the beginning I cant say im an international",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6oyb0s",
+          "author": "Adorable_Bee_6299",
+          "body": "In progress - good suggestion",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6kbpu8",
+        "author": "Classic-Direction930",
+        "body": "I am a int there should be option for them too dude",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6oya3l",
+          "author": "Adorable_Bee_6299",
+          "body": "Working on that now . Good idea",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6oya3l",
+        "author": "Adorable_Bee_6299",
+        "body": "Working on that now . Good idea",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6pfo25",
+          "author": "Classic-Direction930",
+          "body": "🙏🙏",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6klkvz",
+        "author": "ArchiPlaysOfficial",
+        "body": "It looks pretty good. Could you please make it more accessible for international students, as well as making it possible to include awards and other things? I feel like the 4 tiers of extracurriculars are too broad.",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6oycnn",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes. I will totally work on that. Thank you for your feedback!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6luxzg",
+        "author": "Then_Wheel_5184",
+        "body": "Could you add an option for students living abroad?",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6oye9m",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes, as in international? I’m going to work on that asap. Good idea",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6lxb8m",
+        "author": "Hammad28011",
+        "body": "I would like to give you some suggestions:\n1) Add international as an option\n2) Add other courses as options e.g igcse, alevels\n3) Extend the activities and honors section to 10 and 5 accordingly.",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6mg7xv",
+          "author": "Adorable_Bee_6299",
+          "body": "Will work on soon! Good ideas.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6mg7xv",
+        "author": "Adorable_Bee_6299",
+        "body": "Will work on soon! Good ideas.",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6q5wjy",
+          "author": "DarkBlade457",
+          "body": "Might just be me but I fill everything for the profile out and then it just won’t save",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6q5wjy",
+        "author": "DarkBlade457",
+        "body": "Might just be me but I fill everything for the profile out and then it just won’t save",
+        "score": "1 point",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6q69ii",
+          "author": "Adorable_Bee_6299",
+          "body": "Working on a fix for bugs now, version 1.2 will be out later tonight!! Give it about an hour id say.",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6q69ii",
+        "author": "Adorable_Bee_6299",
+        "body": "Working on a fix for bugs now, version 1.2 will be out later tonight!! Give it about an hour id say.",
+        "score": "1 point",
+        "depth": 3,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6q6ce6",
+          "author": "DarkBlade457",
+          "body": "To specify it would work when signed out but not when signed in",
+          "score": "1 point",
+          "depth": 4,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6q6ce6",
+        "author": "DarkBlade457",
+        "body": "To specify it would work when signed out but not when signed in",
+        "score": "1 point",
+        "depth": 4,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6q6rws",
+          "author": "Adorable_Bee_6299",
+          "body": "Good to know. Thank you!",
+          "score": "1 point",
+          "depth": 5,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6ly6c7",
+        "author": "Then_Wheel_5184",
+        "body": "Small error in the website btw, it says the acceptance rates wrong, instead of saying 7.8%, it says 0.078%",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6oyf40",
+          "author": "Adorable_Bee_6299",
+          "body": "Good catch. Should be fixed",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6ivxfo",
+        "author": "strawberrilulu",
+        "body": "This is super cool!\nI can't enter a number for SAT score though :(",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6iz4jz",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, should be fixed. Let me know how it goes !!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j17g4",
+        "author": "Negative_Mirror3355",
+        "body": "The app does not allow me to not select a state if I am an intl applicant",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6j1ct2",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, I haven’t added an international feature yet. But that’s a really good idea. Thank you!!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o6udo4h",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, international features are added!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j66wm",
+        "author": "Loud_Opposite374",
+        "body": "Does this work for transfers too or just straight out of high school",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6j6a7d",
+          "author": "Adorable_Bee_6299",
+          "body": "At the moment definitely just high school. That’s a great idea for expansion though.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6j6a7d",
+        "author": "Adorable_Bee_6299",
+        "body": "At the moment definitely just high school. That’s a great idea for expansion though.",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jczaj",
+          "author": "Loud_Opposite374",
+          "body": "Great project, gonna tell my brothers to try it out",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6jczaj",
+        "author": "Loud_Opposite374",
+        "body": "Great project, gonna tell my brothers to try it out",
+        "score": "2 points",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jdp0i",
+          "author": "Adorable_Bee_6299",
+          "body": "Thank you!!! Let me know what they think",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6jegho",
+        "author": "ApprehensiveAd9392",
+        "body": "... it says my 12 APs is low rigor for many schools. Maybe bc my school offers 30 ?",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jeoje",
+          "author": "Adorable_Bee_6299",
+          "body": "Yes, that’s in the methodology. The class rigor is calculated as a fraction of total available APs.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o6jesbq",
+          "author": "Adorable_Bee_6299",
+          "body": "If you think this is inaccurate , I’d encourage you to lower your total APs available to around 20 or so and reshoot your odds. Overall, it has limited effect on prediction model as a whole but still a nice data point",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6jesbq",
+        "author": "Adorable_Bee_6299",
+        "body": "If you think this is inaccurate , I’d encourage you to lower your total APs available to around 20 or so and reshoot your odds. Overall, it has limited effect on prediction model as a whole but still a nice data point",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jgl0b",
+          "author": "ApprehensiveAd9392",
+          "body": "Good call! I'll let you know what changes...my 12 APs have made me feel like i'm drowning in rigor lol",
+          "score": "1 point",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6jgl0b",
+        "author": "ApprehensiveAd9392",
+        "body": "Good call! I'll let you know what changes...my 12 APs have made me feel like i'm drowning in rigor lol",
+        "score": "1 point",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jgn2j",
+          "author": "Adorable_Bee_6299",
+          "body": "Im sure they have. It will be worth it!!",
+          "score": "1 point",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6jqd9r",
+        "author": "MizuWaterHydros",
+        "body": "Yo could you add international section? i.e country, city of residence, passport type",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jrjdg",
+          "author": "Adorable_Bee_6299",
+          "body": "Currently working on it now! Good idea.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6jrsvw",
+        "author": "Accomplished-Car4994",
+        "body": "the class rank percentile will only let me put a single number, not multiple (e.g only inputs 3 when i want 3.4)",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jrvxw",
+          "author": "Adorable_Bee_6299",
+          "body": "Got ya. Will fix that tonight. Good catch",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6js643",
+        "author": "Confident-Orange-475",
+        "body": "can you create a community college transfer option pls?:)",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6js8w9",
+          "author": "Adorable_Bee_6299",
+          "body": "That’s a great suggestion. Definitely gonna be hard. I’ll put it as a  long term objective. Great idea",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6jsq2m",
+        "author": "Accomplished-Car4994",
+        "body": "Also, is there anyway you can integrate beyond AP classes (Calc3, etc) because technically i am taking way less aps than my school offers because im in a lot of those beyond AP classes and id recommend a transcript reader or a way to input the exact AP classes because a person with like 3 ap courses but those being APES,APHG, psych is weighed the same as someone who took 3 but they are chem, physics , calc or smt like that",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6jsvzg",
+          "author": "Adorable_Bee_6299",
+          "body": "That’s a good suggestion. Thank you.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6oxt5y",
+        "author": "FastSituation3664",
+        "body": "Can we add multiple activities? And How about an option for internationals?",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6oygcd",
+          "author": "Adorable_Bee_6299",
+          "body": "Working on that now for both. Good feedback!",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6qnmv4",
+        "author": "King_Ian09",
+        "body": "I checked on my chances again after I inputted my stats and made my list yesterday, and the format totally changed. There are now a lot less majors to choose from, no clarity on how many AP courses were available, no mention of leadership positions or hours, and no option for legacy. Nearly every school on my list got knocked down around 5% chance of admission, and I’m just wondering why you moved away from the old format? I feel like it offered a lot more clarity on an application, and this new update stripped away a lot of aspects of that application. On a more positive note, I really like how the update brought along the ability to input an essay grade. I totally understand if you had a reason for this update, I would just like to know!",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6sw98h",
+          "author": "Adorable_Bee_6299",
+          "body": "this is fantastic feedback. thank you. i just published with updates addressing each of your concerns. let me know what you think.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6sw98h",
+        "author": "Adorable_Bee_6299",
+        "body": "this is fantastic feedback. thank you. i just published with updates addressing each of your concerns. let me know what you think.",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6uatl4",
+          "author": "King_Ian09",
+          "body": "Thanks a lot! The updates are great.",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o6ucxe5",
+          "author": "King_Ian09",
+          "body": "I just noticed one new bug. Whenever I update the stats in my profile, the chances change as they should in the “Explore” tab but they remain the same in the “My List” tab. Also one little thing, I noticed some colleges such as Wake Forest are missing since the update. Thanks again for taking feedback!",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6ucxe5",
+        "author": "King_Ian09",
+        "body": "I just noticed one new bug. Whenever I update the stats in my profile, the chances change as they should in the “Explore” tab but they remain the same in the “My List” tab. Also one little thing, I noticed some colleges such as Wake Forest are missing since the update. Thanks again for taking feedback!",
+        "score": "2 points",
+        "depth": 2,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6ud2j9",
+          "author": "Adorable_Bee_6299",
+          "body": "Great feedback again. I will check this over tonight (exam season balancing lol). Thank you so much!!",
+          "score": "2 points",
+          "depth": 3,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o6ivx4z",
+        "author": "No-Wrongdoer1409",
+        "body": "\"im an ivy league student\" which one?\nur vibe coded website has a lot of errors\nLACs are not in the list",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o6ixml3",
+          "author": "Adorable_Bee_6299",
+          "body": "Hi, I go to Cornell. I added that for credibility - both for my college app experience but also because people are pretty hesitant to just trust a random creator. I’m not claiming to be an expert. But if you have suggestions I’d love to work on them. As I said - it’s a work in process, and I’m just trying to help people through the process. I’ll work on incorporating the LACs now. Are there any errors specifically you noticed ?",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": false
+        },
+        {
+          "id": "t1_o6mkmgc",
+          "author": "Southern_Drop3749",
+          "body": "Average passive aggressive reddit mod",
+          "score": "0 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 26,
+    "total_nested_replies": 55,
+    "total_qa_pairs": 49
+  }
+}

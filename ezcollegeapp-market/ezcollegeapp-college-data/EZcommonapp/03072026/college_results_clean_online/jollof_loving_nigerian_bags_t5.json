@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Interned/research at biomedical engineering lab",
+          "role": "",
+          "description": "Interned/research at biomedical engineering lab"
+        },
+        {
+          "name": "Interned/research at human design engineering lab",
+          "role": "",
+          "description": "Interned/research at human design engineering lab"
+        },
+        {
+          "name": "School district's student advisor",
+          "role": "",
+          "description": "School district's student advisor"
+        },
+        {
+          "name": "Head Youth Leader at church",
+          "role": "",
+          "description": "Head Youth Leader at church"
+        },
+        {
+          "name": "Club exec",
+          "role": "",
+          "description": "Club exec"
+        },
+        {
+          "name": "Peer tutor",
+          "role": "",
+          "description": "Peer tutor"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National FBLA Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National HOSA Award (x2)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Volunteer award from regional non-profit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State Academic Award for STEM",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "State Academic Award for STEM"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "either mechanical or electrical engineering for all"
+    },
+    "ESSAY_SCORE": null
+  }
+}

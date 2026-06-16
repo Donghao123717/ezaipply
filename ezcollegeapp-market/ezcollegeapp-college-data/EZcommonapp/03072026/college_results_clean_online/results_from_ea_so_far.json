@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1520,
+      "act_composite": 15,
+      "class_rank_percentile": 97.45,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "President, Technology Student Association (TSA)",
+          "role": "",
+          "description": "President, Technology Student Association (TSA)"
+        },
+        {
+          "name": "Led a 30+ member chapter, mentored teammates, coordinated regional/state project",
+          "role": "",
+          "description": "Led a 30+ member chapter, mentored teammates, coordinated regional/state projects, and managed national submissions."
+        },
+        {
+          "name": "Software / Tech Projects",
+          "role": "",
+          "description": "Software / Tech Projects"
+        },
+        {
+          "name": "Telegram Betting Simulation Bot — deployed in a large MMA Telegram channel (~150",
+          "role": "",
+          "description": "Telegram Betting Simulation Bot — deployed in a large MMA Telegram channel (~150k members); 10,000+ active users. Built balance systems, engagement logic, and anti-abuse features."
+        },
+        {
+          "name": "Had a real security failure (exposed API token → unauthorized ad injection), fix",
+          "role": "",
+          "description": "Had a real security failure (exposed API token → unauthorized ad injection), fixed it immediately, moved secrets to .env, and tightened security. This pushed me toward cybersecurity."
+        },
+        {
+          "name": "UFC Management Game (Python/Kivy) — PPV simulation + fighter database; tested by",
+          "role": "",
+          "description": "UFC Management Game (Python/Kivy) — PPV simulation + fighter database; tested by 50+ users."
+        },
+        {
+          "name": "AI Chatbot for School Website — led development; improved access to school resou",
+          "role": "",
+          "description": "AI Chatbot for School Website — led development; improved access to school resources; used by 300+ students; presented to faculty."
+        },
+        {
+          "name": "Web Dev — built LeafyGreensBistro.com, a hydroponics plant-monitoring site.",
+          "role": "",
+          "description": "Web Dev — built LeafyGreensBistro.com, a hydroponics plant-monitoring site."
+        },
+        {
+          "name": "Community Service",
+          "role": "",
+          "description": "Community Service"
+        },
+        {
+          "name": "Tutored Turkmen students in English and volunteered at the Embassy of Turkmenist",
+          "role": "",
+          "description": "Tutored Turkmen students in English and volunteered at the Embassy of Turkmenistan."
+        },
+        {
+          "name": "Leadership",
+          "role": "",
+          "description": "Leadership"
+        },
+        {
+          "name": "Helped with embassy outreach and mentored peers in programming and software deve",
+          "role": "",
+          "description": "Helped with embassy outreach and mentored peers in programming and software development."
+        },
+        {
+          "name": "Personal Responsibility",
+          "role": "",
+          "description": "Personal Responsibility"
+        },
+        {
+          "name": "Cared for my baby sister daily !!!!!!!!! while keeping up with school, leadershi",
+          "role": "",
+          "description": "Cared for my baby sister daily !!!!!!!!! while keeping up with school, leadership, and competitions."
+        },
+        {
+          "name": "Essays",
+          "role": "",
+          "description": "Essays"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1st place Software Development (State TSA) — 9th & 10th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1st place Webmaster (State TSA) — 9th & 10th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Top 10 Nationally — TSA Software Development",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honor Roll every term",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Extracurriculars",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "President, Technology Student Association (TSA)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Led a 30+ member chapter, mentored teammates, coordinated regional/state projects, and managed natio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Software / Tech Projects",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Telegram Betting Simulation Bot — deployed in a large MMA Telegram channel (~150k members); 10,000+ ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Tutored Turkmen students in English and volunteered at the Embassy of Turkmenistan.; Leadership; Helped with embassy outreach and mentored peers in programming and software development.; Personal Responsibility; Cared for my baby sister daily !!!!!!!!! while keeping up with school, leadership, and competitions.; Essays"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

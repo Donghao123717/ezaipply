@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. **Hospital Volunteer** —  4 years, 250+ hours",
+          "role": "",
+          "description": "1. **Hospital Volunteer** —  4 years, 250+ hours"
+        },
+        {
+          "name": "2. **Soccer Team**— Varsity 2 years,  4 intended (cut off this year obvi)",
+          "role": "",
+          "description": "2. **Soccer Team**— Varsity 2 years,  4 intended (cut off this year obvi)"
+        },
+        {
+          "name": "3. **Student Government** — 4 years, Marketing/Treasurer for 2",
+          "role": "",
+          "description": "3. **Student Government** — 4 years, Marketing/Treasurer for 2"
+        },
+        {
+          "name": "4. **Academic Team**- 3 years, national Quiznet Champions",
+          "role": "",
+          "description": "4. **Academic Team**- 3 years, national Quiznet Champions"
+        },
+        {
+          "name": "5. **National Honors Society** - two years",
+          "role": "",
+          "description": "5. **National Honors Society** - two years"
+        },
+        {
+          "name": "6. **Key Club** - two years",
+          "role": "",
+          "description": "6. **Key Club** - two years"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Valedictorian",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Quest Bridge College Prep Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Quest Bridge National College Match Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4.Four year honor roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Finalist 2020",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": true,
+      "service_summary": "1. **Hospital Volunteer** —  4 years, 250+ hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "kinesiology/biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

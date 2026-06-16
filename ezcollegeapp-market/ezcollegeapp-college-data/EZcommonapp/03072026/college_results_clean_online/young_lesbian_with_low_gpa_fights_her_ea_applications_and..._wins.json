@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1440,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Keeping these brief bc they're kinda identifiable but i do freelance journalism ",
+          "role": "",
+          "description": "Keeping these brief bc they're kinda identifiable but i do freelance journalism and a lot of political volunteering :)"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "Scholastic silver key",
+          "role": "",
+          "description": "Scholastic silver key"
+        },
+        {
+          "name": "Spanish honor society",
+          "role": "",
+          "description": "Spanish honor society"
+        },
+        {
+          "name": "Writing award (3x)",
+          "role": "",
+          "description": "Writing award (3x)"
+        },
+        {
+          "name": "Dean's list",
+          "role": "",
+          "description": "Dean's list"
+        },
+        {
+          "name": "Thespian honor society",
+          "role": "",
+          "description": "Thespian honor society"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "role": "",
+          "description": "(Briefly describe relationships with your recommenders and estimated rating.)"
+        },
+        {
+          "name": "probably like 7/10? I don't think they were great but i don't think they were te",
+          "role": "",
+          "description": "probably like 7/10? I don't think they were great but i don't think they were terrible"
+        },
+        {
+          "name": "Interviews",
+          "role": "",
+          "description": "Interviews"
+        },
+        {
+          "name": "(Briefly reflect on interview experiences, if applicable.)",
+          "role": "",
+          "description": "(Briefly reflect on interview experiences, if applicable.)"
+        },
+        {
+          "name": "Bryn Mawr: 7/10, my first interview and i felt like I could've done better but I",
+          "role": "",
+          "description": "Bryn Mawr: 7/10, my first interview and i felt like I could've done better but I highlighted my strengths and showed a lot of interest i think"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Scholastic silver key",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Spanish honor society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Writing award (3x)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Dean's list",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Thespian honor society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(Briefly describe relationships with your recommenders and estimated rating.)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "probably like 7/10? I don't think they were great but i don't think they were terrible",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

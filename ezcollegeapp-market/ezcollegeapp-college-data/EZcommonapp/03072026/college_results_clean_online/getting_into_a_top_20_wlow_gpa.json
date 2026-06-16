@@ -1,0 +1,103 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.93,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Robotics",
+          "role": "",
+          "description": "Robotics"
+        },
+        {
+          "name": "9",
+          "role": "",
+          "description": "9"
+        },
+        {
+          "name": "School, Year",
+          "role": "",
+          "description": "School, Year"
+        },
+        {
+          "name": "12 hr/wk, 20 wk/yr",
+          "role": "",
+          "description": "12 hr/wk, 20 wk/yr"
+        },
+        {
+          "name": "Continue",
+          "role": "",
+          "description": "Continue"
+        },
+        {
+          "name": "Captain & Lead Innovator, Technoxian World Robotics Championship",
+          "role": "",
+          "description": "Captain & Lead Innovator, Technoxian World Robotics Championship"
+        },
+        {
+          "name": "Built and led a student robotics team to win the World Robotics Championship 202",
+          "role": "",
+          "description": "Built and led a student robotics team to win the World Robotics Championship 2024; awarded 60,000R innovation grant for scalable engineering solution."
+        },
+        {
+          "name": "Robotics",
+          "role": "",
+          "description": "Robotics"
+        },
+        {
+          "name": "9",
+          "role": "",
+          "description": "9"
+        },
+        {
+          "name": "School, Year",
+          "role": "",
+          "description": "School, Year"
+        },
+        {
+          "name": "8 hr/wk, 16 wk/yr",
+          "role": "",
+          "description": "8 hr/wk, 16 wk/yr"
+        },
+        {
+          "name": "Continue",
+          "role": "",
+          "description": "Continue"
+        },
+        {
+          "name": "Winner, Student Innovator, Vigyantram IIT Bomabay",
+          "role": "",
+          "description": "Winner, Student Innovator, Vigyantram IIT Bomabay"
+        },
+        {
+          "name": "Built a smart helmet to improve industrial safety; awarded 2nd place at IIT Bomb",
+          "role": "",
+          "description": "Built a smart helmet to improve industrial safety; awarded 2nd place at IIT Bombay’s national innovation competition for social and technical impact."
+        },
+        {
+          "name": "Community Service (Volunteer)",
+          "role": "",
+          "description": "Community Service (Volunteer)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": null,
+      "service_summary": "9, 10, 11, 12; Year; 10 hr/wk, 35 wk/yr; Continue; Founder & Lead Engineer, Assistive Engineering & Robotics Organization; Founded assistive-tech group; built computer for blind users, mind-controlled bionics; authored 100+page research certified by AICB; impacted 300+"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

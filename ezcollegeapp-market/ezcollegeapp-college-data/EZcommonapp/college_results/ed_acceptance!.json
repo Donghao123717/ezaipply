@@ -1,0 +1,160 @@
+{
+  "post": {
+    "id": "t3_1pmlgqj",
+    "title": "ED Acceptance!",
+    "author": "SecurityOne7811",
+    "selftext": "Accepted into Carnegie Mellon ED!!\n\nI was so nervous I wasn’t gonna get in.\n\nUndecided at Dietrich College of Humanities and Social Sciences\n\nI was test optional!",
+    "score": "25",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pmlgqj/ed_acceptance/",
+    "created": "2025-12-14T18:41:28+00:00",
+    "num_comments": 5,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nu0s1nj",
+      "author": "DesignerBiscotti4576",
+      "body": "It’s for your ACT score\n\nAlso, congrats!!",
+      "score": "4 points",
+      "created": "2025-12-14T18:44:03+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nu0ud06",
+          "author": "SecurityOne7811",
+          "body": "Ah makes sense. I didn't take it so I was confused.\n\nThank you!",
+          "score": "1 point",
+          "created": "2025-12-14T18:54:49+00:00",
+          "depth": 1,
+          "parent_id": "t1_nu0s1nj",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_nu5e6r5",
+      "author": "JuliusCheesy",
+      "body": "Congrats!!",
+      "score": "2 points",
+      "created": "2025-12-15T13:06:47+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nu5sqrm",
+      "author": "scotchgame101",
+      "body": "Wow Congrats! I applied to stats/ds in Dietrich and got deferred sadly. I'm glad you got in however and I know you'll succeed!",
+      "score": "2 points",
+      "created": "2025-12-15T14:32:38+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nu628ff",
+          "author": "SecurityOne7811",
+          "body": "Thank you :)  Good luck to you!!",
+          "score": "1 point",
+          "created": "2025-12-15T15:22:49+00:00",
+          "depth": 1,
+          "parent_id": "t1_nu5sqrm",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pmlgqj",
+        "author": "SecurityOne7811",
+        "title": "ED Acceptance!",
+        "body": "Accepted into Carnegie Mellon ED!!\n\nI was so nervous I wasn’t gonna get in.\n\nUndecided at Dietrich College of Humanities and Social Sciences\n\nI was test optional!",
+        "full_text": "ED Acceptance!\n\nAccepted into Carnegie Mellon ED!!\n\nI was so nervous I wasn’t gonna get in.\n\nUndecided at Dietrich College of Humanities and Social Sciences\n\nI was test optional!"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nu0s1nj",
+          "author": "DesignerBiscotti4576",
+          "body": "It’s for your ACT score\n\nAlso, congrats!!",
+          "score": "4 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_nu5e6r5",
+          "author": "JuliusCheesy",
+          "body": "Congrats!!",
+          "score": "2 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nu5sqrm",
+          "author": "scotchgame101",
+          "body": "Wow Congrats! I applied to stats/ds in Dietrich and got deferred sadly. I'm glad you got in however and I know you'll succeed!",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nu0s1nj",
+        "author": "DesignerBiscotti4576",
+        "body": "It’s for your ACT score\n\nAlso, congrats!!",
+        "score": "4 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nu0ud06",
+          "author": "SecurityOne7811",
+          "body": "Ah makes sense. I didn't take it so I was confused.\n\nThank you!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nu5sqrm",
+        "author": "scotchgame101",
+        "body": "Wow Congrats! I applied to stats/ds in Dietrich and got deferred sadly. I'm glad you got in however and I know you'll succeed!",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nu628ff",
+          "author": "SecurityOne7811",
+          "body": "Thank you :)  Good luck to you!!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 2,
+    "total_qa_pairs": 3
+  }
+}

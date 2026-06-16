@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Fall training for the internship I'm in now",
+          "role": "",
+          "description": "1. Fall training for the internship I'm in now"
+        },
+        {
+          "name": "2. Summer training for the internship I'm in now (it was an elimination round, i",
+          "role": "",
+          "description": "2. Summer training for the internship I'm in now (it was an elimination round, if you passed summer you moved on to fall)"
+        },
+        {
+          "name": "3. Piano Soloist",
+          "role": "",
+          "description": "3. Piano Soloist"
+        },
+        {
+          "name": "4. Member of Spanish Honor Society",
+          "role": "",
+          "description": "4. Member of Spanish Honor Society"
+        },
+        {
+          "name": "5. Member of Doctors Without Borders Club",
+          "role": "",
+          "description": "5. Member of Doctors Without Borders Club"
+        },
+        {
+          "name": "6. Co-President of Minecraft Club",
+          "role": "",
+          "description": "6. Co-President of Minecraft Club"
+        },
+        {
+          "name": "7. Member of Book Club",
+          "role": "",
+          "description": "7. Member of Book Club"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Freshman Year: No APs ): (no one told me I could take them!)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Sophomore Year: AP US History, AP Chemistry",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Junior Year: AP Seminar, AP Music Theory, AP Psychology, AP Spanish Lang, AP English Lang",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Senior Year: AP Research, AP English Lit (also enrolled in Dual Enrollment for this one, my teacher ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I also am taking Honors Calc this year. I only have four classes as I have an internship for the res",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science and/or biological sciences, with a concentration in global heal"
+    },
+    "ESSAY_SCORE": null
+  }
+}

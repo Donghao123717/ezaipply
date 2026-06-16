@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": 91.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "competitive sport (captain of varsity team and took a lot of initiative, preside",
+          "role": "",
+          "description": "competitive sport (captain of varsity team and took a lot of initiative, president of same sport's club, competitive athlete who trained outside of school with previous national ranking). took up a lo"
+        },
+        {
+          "name": "vp of key club: definitely made me a lot more social, absolutely love the commun",
+          "role": "",
+          "description": "vp of key club: definitely made me a lot more social, absolutely love the community I was apart of"
+        },
+        {
+          "name": "program participant of \\[redcated\\] pre-college program (took since my plans to ",
+          "role": "",
+          "description": "program participant of \\[redcated\\] pre-college program (took since my plans to attend COSMOS got canceled junior year) by taking a cs class. really helped me decide I could potentially pursue this"
+        },
+        {
+          "name": "artist for online magazine publication (later took up leadership role, updated f",
+          "role": "",
+          "description": "artist for online magazine publication (later took up leadership role, updated for waitlists) and briefly for this other coding nonprofit"
+        },
+        {
+          "name": "front desk volunteer for \\[redacted\\] hospital (had a medicine interest previous",
+          "role": "",
+          "description": "front desk volunteer for \\[redacted\\] hospital (had a medicine interest previously, so spent some time here hehe)"
+        },
+        {
+          "name": "hackathon participant/ui design for personal projects (wrote this for my last tw",
+          "role": "",
+          "description": "hackathon participant/ui design for personal projects (wrote this for my last two slots, just to show some stuff I did in my free time)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Hackathon award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National merit commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Regional finalist for art competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. AP scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. HOSA State Competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "—&gt; in the additional information section, I listed a lot of my sport's tournament results, linked",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "vp of key club: definitely made me a lot more social, absolutely love the community I was apart of; front desk volunteer for \\[redacted\\] hospital (had a medicine interest previously, so spent some time here hehe)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science, cs/arts/design interdisciplinary if available"
+    },
+    "ESSAY_SCORE": null
+  }
+}

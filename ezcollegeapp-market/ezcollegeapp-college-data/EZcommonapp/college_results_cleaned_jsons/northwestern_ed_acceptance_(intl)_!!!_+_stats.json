@@ -1,0 +1,44 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "⁠⁠Student government (9) ⁠⁠TA at local language school (11,12) ⁠⁠MUN secretariat",
+          "role": "",
+          "description": "⁠⁠Student government (9) ⁠⁠TA at local language school (11,12) ⁠⁠MUN secretariat (9,12) ⁠⁠Founder of medical club (11,12) ⁠⁠Leading flutist of school band (9) ⁠⁠Founder of multicultural club (10,11,12)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "⁠SAT I: 1560 (770RW, 790M) • ⁠ACT: • ⁠AP/IB: AP stat (4) / IB (predicted) 44/45 • ⁠Other (ex. IELTS, TOEFL, etc.): TOEFL",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biological sciences / pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1510,
+      "act_composite": 33,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "sr year course load: AP bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "APES",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP stat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP US gov",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "calc iii",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "band",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "required religion class SAT: 1510, 780RW, 730M ACT: 33 composite, 29R, 35E, 36S, 35M submitted both bc theyre exact oppo",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Swam in weekly conference meets, lead devotions and practices, organized team socials and community; NCISAA State Qualifier 2023-2025"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

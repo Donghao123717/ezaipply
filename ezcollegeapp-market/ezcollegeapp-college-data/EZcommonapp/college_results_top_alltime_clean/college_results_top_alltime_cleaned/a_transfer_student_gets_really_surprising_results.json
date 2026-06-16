@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.77,
+      "sat_total": 1460,
+      "act_composite": 32,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Scholastic Writing Awards: Silver Key (11th) and Honorable Mention (12th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Short story published in student magazine (College)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. District Writing Award for PTSA Reflections (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Book Award (11th)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "english/creative writing, philosophy, and/or film"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "generalized so as not to doxx, you know the drill",
+          "role": "",
+          "description": "generalized so as not to doxx, you know the drill"
+        },
+        {
+          "name": "Neuro intern at local uni (it was good)",
+          "role": "",
+          "description": "Neuro intern at local uni (it was good)"
+        },
+        {
+          "name": "Student Body VP",
+          "role": "",
+          "description": "Student Body VP"
+        },
+        {
+          "name": "Editor-in-Chief of school paper (awards+leadership)",
+          "role": "",
+          "description": "Editor-in-Chief of school paper (awards+leadership)"
+        },
+        {
+          "name": "Non-Major-specific club co-found and co-pres",
+          "role": "",
+          "description": "Non-Major-specific club co-found and co-pres"
+        },
+        {
+          "name": "Paid job (gym, family contribution to household needs)",
+          "role": "",
+          "description": "Paid job (gym, family contribution to household needs)"
+        },
+        {
+          "name": "Volunteer (80+ hrs)",
+          "role": "",
+          "description": "Volunteer (80+ hrs)"
+        },
+        {
+          "name": "1st chair viola +pianist in school orchestra",
+          "role": "",
+          "description": "1st chair viola +pianist in school orchestra"
+        },
+        {
+          "name": "Quiz Bowl Club VP",
+          "role": "",
+          "description": "Quiz Bowl Club VP"
+        },
+        {
+          "name": "Cheerleading",
+          "role": "",
+          "description": "Cheerleading"
+        },
+        {
+          "name": "FCA Co-pres",
+          "role": "",
+          "description": "FCA Co-pres"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "National Merit Commended (NMSC 220)",
+          "role": "",
+          "description": "National Merit Commended (NMSC 220)"
+        },
+        {
+          "name": "School-specific scholarship for \"ideal student\"",
+          "role": "",
+          "description": "School-specific scholarship for \"ideal student\""
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Commended (NMSC 220)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School-specific scholarship for \"ideal student\"",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "College Board Hispanic and School National Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Latin Exam Gold Summa Cum Laude (2024) NLE Silver (2022, 2023) (I started running out of th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "TAPPS Superior Rating Viola Solo (2023,2024);3rd in State Spelling and Vocabulary (2025)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Orchestra and Language teacher- 9/10. She's like a second mother to me. I go to her for everything a",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "History+English- 7-8/10 I truly don't know. She is such an amazing writer and was heartbroken at my ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 80,
+      "first_gen": true,
+      "service_summary": "1st chair viola +pianist in school orchestra; Quiz Bowl Club VP; Cheerleading; FCA Co-pres; Awards/Honors; List all awards and honors submitted on your application."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "neuro/cog-sci pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

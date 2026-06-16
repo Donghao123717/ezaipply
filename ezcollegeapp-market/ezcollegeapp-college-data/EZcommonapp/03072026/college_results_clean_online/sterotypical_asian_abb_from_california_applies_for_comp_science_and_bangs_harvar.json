@@ -1,0 +1,103 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.92,
+      "sat_total": 1080,
+      "act_composite": null,
+      "class_rank_percentile": 76.84,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **founder, ceo, and lead dev of a 501c3 non profit** \\- **regional** level im",
+          "role": "",
+          "description": "1. **founder, ceo, and lead dev of a 501c3 non profit** \\- **regional** level impact (across my county), we have paid employees, but team is small, super super corroborated by my school district etc ("
+        },
+        {
+          "name": "2. **asb pres, asb secretary, class secretary, class treasurer** ( school only a",
+          "role": "",
+          "description": "2. **asb pres, asb secretary, class secretary, class treasurer** ( school only allows one position per year ) - basically did a lot of a student gov work, loved volunteering for school (roughly **350 "
+        },
+        {
+          "name": "3. **uc santa cruz physics research intern** at **SIP**\\- was the **lead develop",
+          "role": "",
+          "description": "3. **uc santa cruz physics research intern** at **SIP**\\- was the **lead developer** for a **sea water electrolysis** project where i used **gnu octave** to code physcial electrolysis simulations"
+        },
+        {
+          "name": "4. **uc santa cruz computer science research intern** (not SIP, made connections",
+          "role": "",
+          "description": "4. **uc santa cruz computer science research intern** (not SIP, made connections during SIP and landed here lol) - i did a lot a lot of work with **javascript, react, and material ui**, basically **re"
+        },
+        {
+          "name": "5. school district board student rep ( one of two students **chosen out of 36202",
+          "role": "",
+          "description": "5. school district board student rep ( one of two students **chosen out of 36202 possible** canidadates ) i am on the school board as a student rep, they call for my motion to pass paperwork from all "
+        },
+        {
+          "name": "6. **6. Self-taught Programmer &amp; Web Developer**",
+          "role": "",
+          "description": "6. **6. Self-taught Programmer &amp; Web Developer**"
+        },
+        {
+          "name": "1. What did you do? (144/150 characters)",
+          "role": "",
+          "description": "1. What did you do? (144/150 characters)"
+        },
+        {
+          "name": "2. Learned HTML, CSS, JavaScript, Python, Lua, C++, C#, GNU Octave, React, Mater",
+          "role": "",
+          "description": "2. Learned HTML, CSS, JavaScript, Python, Lua, C++, C#, GNU Octave, React, Material UI; developed promotional websites for school election nominees"
+        },
+        {
+          "name": "7. 7. Superintendent Student Advisory Board",
+          "role": "",
+          "description": "7. 7. Superintendent Student Advisory Board"
+        },
+        {
+          "name": "1. What did you do? (148/150 characters)",
+          "role": "",
+          "description": "1. What did you do? (148/150 characters)"
+        },
+        {
+          "name": "2. Presents to school district on safety and budget issues at 4 campuses per yea",
+          "role": "",
+          "description": "2. Presents to school district on safety and budget issues at 4 campuses per year; contributed to the development of the State Seal of Civic Engagement"
+        },
+        {
+          "name": "8. 8. UCSC SIP Research Speaker at Google",
+          "role": "",
+          "description": "8. 8. UCSC SIP Research Speaker at Google"
+        },
+        {
+          "name": "1. What did you do? (146/150 characters)",
+          "role": "",
+          "description": "1. What did you do? (146/150 characters)"
+        },
+        {
+          "name": "2. Presented SIP Physics and Computer Science Research at a Google-hosted event",
+          "role": "",
+          "description": "2. Presented SIP Physics and Computer Science Research at a Google-hosted event"
+        },
+        {
+          "name": "9. 9. Mobile Robotics Pacific Highschool Institute Program",
+          "role": "",
+          "description": "9. 9. Mobile Robotics Pacific Highschool Institute Program"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science + public policy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

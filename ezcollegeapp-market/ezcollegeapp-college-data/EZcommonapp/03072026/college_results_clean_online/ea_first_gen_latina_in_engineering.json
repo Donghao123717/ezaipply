@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1340,
+      "act_composite": null,
+      "class_rank_percentile": 85.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Mainly summer camps",
+          "role": "",
+          "description": "Mainly summer camps"
+        },
+        {
+          "name": "state sponsored program - online course centered around space and mission design",
+          "role": "",
+          "description": "state sponsored program - online course centered around space and mission design, successfully completed and was invited to selective summer camp at NASA"
+        },
+        {
+          "name": "same program but different course geared specifically towards aerospace, success",
+          "role": "",
+          "description": "same program but different course geared specifically towards aerospace, successfully completed but I had major junioritis so I wasn’t invited for NASA summer camp"
+        },
+        {
+          "name": "attended a summer camp for first gen engineers at VT for three summers",
+          "role": "",
+          "description": "attended a summer camp for first gen engineers at VT for three summers"
+        },
+        {
+          "name": "was a volunteer camp counselor for a STEM camp for elementary aged kids for thre",
+          "role": "",
+          "description": "was a volunteer camp counselor for a STEM camp for elementary aged kids for three summers"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "HHF youth award silver recipient for engineering in blue region (multi state) - ",
+          "role": "",
+          "description": "HHF youth award silver recipient for engineering in blue region (multi state) - didn’t include this in my ea apps bc I got it in december"
+        },
+        {
+          "name": "AP Scholar with distinction",
+          "role": "",
+          "description": "AP Scholar with distinction"
+        },
+        {
+          "name": "National First Gen recognition award",
+          "role": "",
+          "description": "National First Gen recognition award"
+        },
+        {
+          "name": "school distinguished A/B honor roll (straight As all junior year)",
+          "role": "",
+          "description": "school distinguished A/B honor roll (straight As all junior year)"
+        },
+        {
+          "name": "National Honors Society (this year)",
+          "role": "",
+          "description": "National Honors Society (this year)"
+        },
+        {
+          "name": "Science National Honors Society (10-12)",
+          "role": "",
+          "description": "Science National Honors Society (10-12)"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "8/10 Physics Teacher - I’ve had for two years, was also a Lit professor, didn’t ",
+          "role": "",
+          "description": "8/10 Physics Teacher - I’ve had for two years, was also a Lit professor, didn’t read it but I trust him"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "HHF youth award silver recipient for engineering in blue region (multi state) - didn’t include this ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National First Gen recognition award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "school distinguished A/B honor roll (straight As all junior year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Honors Society (this year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Science National Honors Society (10-12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "8/10 Physics Teacher - I’ve had for two years, was also a Lit professor, didn’t read it but I trust ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5/10 Yearbook Advisor - Probably my weakest, had her for two years, I read it and it was very basic ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "8/10 Calc Teacher (for GT) - She loves me, helped me win a regional award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "was a volunteer camp counselor for a STEM camp for elementary aged kids for three summers"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mechanical engineering, aerospace engineering as second choice"
+    },
+    "ESSAY_SCORE": null
+  }
+}

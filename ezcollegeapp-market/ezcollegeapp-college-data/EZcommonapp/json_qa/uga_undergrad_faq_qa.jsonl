@@ -1,0 +1,38 @@
+{"Question": "UGA新生（Freshman）或转学（Transfer）申请什么时候会出结果？会通过什么方式通知？", "Answer": "学校无法给出精确日期，但提供 Timelines 页面帮助了解大致放榜时间；结果会在申请人的 MyStatus 页面显示，同时也会邮寄决定信。", "Label": "Decision Timeline"}
+{"Question": "为什么UGA出录取结果需要这么久？", "Answer": "因为每年大约有40,000+份新生申请和4,000+份转学申请，需要时间充分审核材料以做出更好的决定。", "Label": "Decision Timeline"}
+{"Question": "UGA在录取审核中会看demonstrated interest（访校次数、联系招生官次数等）吗？", "Answer": "不会。UGA不把demonstrated interest作为审核因素，原因包括资源可得性不公平，以及其不等同于学术和个人实力。", "Label": "Demonstrated Interest"}
+{"Question": "申请时选择的专业会影响录取决定吗？如果入学后想换专业怎么办？", "Answer": "不会影响录取。申请时填专业主要用于未来学业指导；入学后可在迎新前数周/数月通过UGA Athena系统更改专业。", "Label": "Major Choice"}
+{"Question": "申请Spring/Summer/Fall不同学期会影响录取审核吗？", "Answer": "同一学年内不同入学学期的审核流程没有差别；竞争程度更多取决于不同年份整体申请池变化。", "Label": "Entry Term"}
+{"Question": "如何计算UGA用于招生审核的高中GPA？", "Answer": "UGA不会使用高中给出的GPA，而是基于核心课程（core HS grades）自行计算统一口径的admission GPA；不同学校/州的GPA算法差异较大。", "Label": "GPA Calculation"}
+{"Question": "为了被UGA录取，高中应该选哪些课程？", "Answer": "新生没有“必修某几门课就能录取”的清单；UGA更希望学生在能力范围内挑战自己并取得成功，建议在核心学科中选择Honors/Advanced、AP/IB/Dual Enrollment等课程。", "Label": "Course Planning"}
+{"Question": "转学到UGA需要提前修哪些指定课程吗？", "Answer": "UGA不设转学指定必修课；建议查看UGA Bulletin中目标专业的毕业课程要求，并参考院系对转学课程的建议。", "Label": "Transfer Admissions"}
+{"Question": "申请提交得早或晚会影响录取决定吗？", "Answer": "新生：不会（首日与截止日同等对待），但早提交更利于材料到齐；不建议拖到截止。转学：通常也不因提交时间而改变决定，往往在固定时间集中放榜。", "Label": "Application Timing"}
+{"Question": "UGA对新生申请的最低录取要求是什么？", "Answer": "新生最低要求由佐治亚州Board of Regents (BOR)规定：SAT EBRW 480、SAT Math 440；或ACT English或Reading 17、ACT Math 17。高中课程要求可参考BOR的Staying on Course文件。", "Label": "Minimum Requirements"}
+{"Question": "UGA对转学申请的最低标准是什么？", "Answer": "UGA会设定转学申请的academic consideration levels用于进入审核；不计入在修课程，且达到考虑水平不保证录取。", "Label": "Transfer Admissions"}
+{"Question": "什么时候可以申请UGA新生入学？", "Answer": "新生申请一般在高三的8/9月开放，通常在高三申请以入读高中毕业后的Summer或Fall；少数情况会申请Spring入学。", "Label": "Eligibility & Timing"}
+{"Question": "转学生最早什么时候可以申请入读UGA？需要多少已完成大学学分？", "Answer": "通常只能申请高中毕业至少一年后的入学学期；截止前需要至少30个已完成的大学学分，因此多数转学生入读UGA前至少已有约1.5年的大学学习经历。", "Label": "Transfer Eligibility"}
+{"Question": "父母是UGA校友（legacy）会影响录取吗？", "Answer": "不会。Legacy不会影响录取决定；性别、族裔、高中/县、州等也不会影响录取。", "Label": "Equity & Legacy"}
+{"Question": "UGA录取审核中最看重什么？（新生）", "Answer": "新生：首先看学术表现，重点是4年高中中的课程挑战度与成绩；也会看SAT/ACT，但长期学习表现更重要；对很多申请人还会看活动、文书、推荐等。", "Label": "Review Factors"}
+{"Question": "UGA录取审核中最看重什么？（转学）", "Answer": "转学：主要看所有曾就读大学/学院的学术记录，需要提供所有曾就读学校的官方成绩单。", "Label": "Review Factors"}
+{"Question": "如果被某个学期录取，但不去那个学期入学，会怎样？", "Answer": "录取只对被录取的入学学期有效；若不按该学期入学，录取不会自动顺延到未来学期。", "Label": "Matriculation Policy"}
+{"Question": "UGA是否会因为申请人学术明显偏低而不读活动/文书/推荐等材料？", "Answer": "会。有些申请人学术指标明显低于申请池平均水平时，学校可能不会继续阅读其活动、文书、推荐等材料。", "Label": "Review Process"}
+{"Question": "Common App里是否勾选“need-based financial aid”会影响UGA录取或助学金评定吗？", "Answer": "不会。UGA不使用该问题来发放助学金或进行录取审核，也不会对申请产生影响。", "Label": "Financial Aid"}
+{"Question": "11月的SAT成绩能赶上UGA Early Action（EA）材料截止吗？", "Answer": "不行，11月的成绩对EA来说太晚。", "Label": "Test Score Timing"}
+{"Question": "AP考试成绩会用于UGA录取审核吗？", "Answer": "不会。UGA在录取审核中不使用AP分数；如需补充展示，可上传简历把分数写上。", "Label": "AP Scores"}
+{"Question": "自报成绩时能否填写不在高中官方成绩单上的课程/成绩？", "Answer": "不能。如果不在高中成绩单上，招生办无法看到也无法核验，因此不要填写。", "Label": "Self-Reported Grades"}
+{"Question": "AP Seminar和AP Research在UGA的core classes里怎么归类？会计入AP数量吗？", "Answer": "一般归入English板块，并且会计入总的AP课程数量统计。", "Label": "Course Classification"}
+{"Question": "转学申请是否需要写文书？", "Answer": "需要。转学申请者必须提交一篇简短文书说明其学术兴趣。", "Label": "Transfer Application"}
+{"Question": "一门year-long课程在Common App自报成绩里填1个年终成绩还是拆成2个学期成绩？", "Answer": "取决于你其它课程是按年制还是学期制；为了term type一致，若其它课是year-long就填1个年终成绩，若其它课是semester制就拆成2个学期成绩。", "Label": "Self-Reported Grades"}
+{"Question": "如果高中课程全部是year-long，Common App里“how many grades are AP”怎么填？", "Answer": "按成绩单显示的year format填入年终成绩；在AP grades数量处填写其中属于AP的成绩数量即可。", "Label": "Self-Reported Grades"}
+{"Question": "高中阶段通过Dual Enrollment/AP拿了很多大学学分甚至副学士，申请UGA算新生还是转学？", "Answer": "只要仍在高中阶段，就按新生申请；转学通常指高中毕业后在大学就读满一年或以上的申请者。", "Label": "Applicant Type"}
+{"Question": "Common App的Secondary School Report（SSR）是什么？辅导员怎么提交？", "Answer": "辅导员可通过Common App提交SSR；当学生在Common App里添加辅导员后，辅导员即可访问并提交该报告。", "Label": "Application Documents"}
+{"Question": "家庭教育（homeschool）材料或成绩单要寄到哪里？是否有电子成绩单邮箱？", "Answer": "多数材料经Common App提交；邮寄地址为210 South Jackson Street, Athens, GA 30602-1633；电子成绩单邮箱为admproc@uga.edu。", "Label": "Transcripts & Mailing"}
+{"Question": "收到“First Look at UGA”等邀请是否代表录取概率很大？", "Answer": "邀请通常只说明某单一指标上“有竞争力”，但录取审核包含多因素，因此不会据此承诺或预测录取概率。", "Label": "Programs & Events"}
+{"Question": "UGA有AP学分换算/抵免政策吗？在哪里查看？", "Answer": "有，可在UGA Registrar页面查看AP equivalences（AP换算与抵免政策）。", "Label": "Credit Policies"}
+{"Question": "UGA是否有固定的ACT/GPA录取分数线？", "Answer": "没有固定分数线；每年申请池不同，会根据计划入学人数倒推确定录取规模。", "Label": "Admissions Criteria"}
+{"Question": "UGA会看ACT的Science分项吗？", "Answer": "UGA不看ACT Science分项；但其它学校可能会看，需要综合考虑对整体申请的影响。", "Label": "Standardized Tests"}
+{"Question": "外州高中只修了3个science credits还能被UGA考虑吗？", "Answer": "可以，UGA可以在只有3个science credits的情况下考虑申请者。", "Label": "Course Requirements"}
+{"Question": "被Fall录取后能否延期入学？", "Answer": "可以提交Gap Term/Year request form，学校会审核你的情况与说明。", "Label": "Deferral / Gap Term"}
+{"Question": "UGA是否接收unsolicited letters of recommendation（非申请人主动索要的推荐信）？", "Answer": "会，招生办会把这类推荐信加入学生档案。", "Label": "Recommendations"}
+{"Question": "Transient（临时/短期）学生申请一般多久出结果？", "Answer": "通常提交申请后约1–2周出结果（决定一般在周五发布）。", "Label": "Transient Students"}
+{"Question": "UGA Undergraduate Admissions的联系信息（地址、电话、办公时间、电子成绩单邮箱）是什么？", "Answer": "地址：210 South Jackson Street, Athens, GA 30602-1633；电话：(+1) 762-400-8800；办公时间：周一到周五 9:00 am–4:00 pm（EST）；电子成绩单邮箱：admproc@uga.edu。", "Label": "Contact Info"}

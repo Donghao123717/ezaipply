@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 80.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Key Club volunteering + nominated officer this year",
+          "role": "",
+          "description": "Key Club volunteering + nominated officer this year"
+        },
+        {
+          "name": "BETA Club volunteering",
+          "role": "",
+          "description": "BETA Club volunteering"
+        },
+        {
+          "name": "Youth volunteering",
+          "role": "",
+          "description": "Youth volunteering"
+        },
+        {
+          "name": "Family responsibilities (Babysitting)",
+          "role": "",
+          "description": "Family responsibilities (Babysitting)"
+        },
+        {
+          "name": "Electric guitar",
+          "role": "",
+          "description": "Electric guitar"
+        },
+        {
+          "name": "Writing",
+          "role": "",
+          "description": "Writing"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "Civic Literary Award",
+          "role": "",
+          "description": "Civic Literary Award"
+        },
+        {
+          "name": "Financial Literacy Award",
+          "role": "",
+          "description": "Financial Literacy Award"
+        },
+        {
+          "name": "Dean’s List + Honor’s List",
+          "role": "",
+          "description": "Dean’s List + Honor’s List"
+        },
+        {
+          "name": "Principal’s List + Honor roll",
+          "role": "",
+          "description": "Principal’s List + Honor roll"
+        },
+        {
+          "name": "Phi Theta Kappa",
+          "role": "",
+          "description": "Phi Theta Kappa"
+        },
+        {
+          "name": "AIG",
+          "role": "",
+          "description": "AIG"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "Civics Teacher (9/10): She knows me pretty well I’d think. She chose me for that",
+          "role": "",
+          "description": "Civics Teacher (9/10): She knows me pretty well I’d think. She chose me for that award and knew I wanted to do something law-adjacent to go with business idk, so I figured she was my best option since"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Civic Literary Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Financial Literacy Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Dean’s List + Honor’s List",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Principal’s List + Honor roll",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Phi Theta Kappa",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AIG",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Civics Teacher (9/10): She knows me pretty well I’d think. She chose me for that award and knew I wa",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Personal Statement (8/10): I had two college English teachers read it. One of them looked at me and ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "i didn’t know exactly what major at the time i applied, just an idea of what i w"
+    },
+    "ESSAY_SCORE": null
+  }
+}

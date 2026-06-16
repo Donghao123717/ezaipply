@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "I'm being brief and vague so that I don't dox myself — if you know me, no you do",
+          "role": "",
+          "description": "I'm being brief and vague so that I don't dox myself — if you know me, no you don't International project I started in my freshman summer to aid women in shelters. Int'l Competitive Debater at Ivy Leagues and T10 Universities as well as being a member of the Provincial Team (1/5 teams chosen)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: 4 APs and 5 Regular Courses - our school only offers 2-3 Honours courses and they're primarily ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "No trick questions or “gotcha” questions. It looks like the only question that was mentioned above was the month that a certain award was received. I’m sure this was not an attempt to stump the interviewee. Most interviewers are just trying to get a better sense of who you are, what interests or excites you, what you would bring to the college community. Just read over your application ahead of ti"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Gender Studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

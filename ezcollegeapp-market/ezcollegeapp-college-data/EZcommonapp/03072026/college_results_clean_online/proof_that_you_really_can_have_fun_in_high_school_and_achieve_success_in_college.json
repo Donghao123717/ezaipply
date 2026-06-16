@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. ***Independent Music Producer:*** I make instrumentals as a hobby and sell th",
+          "role": "",
+          "description": "1. ***Independent Music Producer:*** I make instrumentals as a hobby and sell them to artists by networking and marketing through Instagram. Got a pretty cool music video placement at one point with a"
+        },
+        {
+          "name": "2. ***Wrestling Team Captain:*** I was pretty good at wrestling and made varsity",
+          "role": "",
+          "description": "2. ***Wrestling Team Captain:*** I was pretty good at wrestling and made varsity as a freshman among other mid-tier achievements, but I wasn't like state champion level or anything. I did do well in t"
+        },
+        {
+          "name": "3. ***Church Youth Group Music Team Leader:*** I was the leader of a band made u",
+          "role": "",
+          "description": "3. ***Church Youth Group Music Team Leader:*** I was the leader of a band made up of members of my church youth group that played at services and youth events. Overcame some significant challenges cau"
+        },
+        {
+          "name": "4. ***NHS PR Officer:*** Elected as Public Relations Officer in junior year, hel",
+          "role": "",
+          "description": "4. ***NHS PR Officer:*** Elected as Public Relations Officer in junior year, helped to improve the online system we used for cataloging service hours"
+        },
+        {
+          "name": "5. ***Church Youth Group Service:*** Put in a bunch of hours volunteering with v",
+          "role": "",
+          "description": "5. ***Church Youth Group Service:*** Put in a bunch of hours volunteering with various charities through the youth group and went on a few week-long service trips to different cities"
+        },
+        {
+          "name": "6. ***Summer Job:*** Worked at a local home services contracting company the sum",
+          "role": "",
+          "description": "6. ***Summer Job:*** Worked at a local home services contracting company the summer after my junior year and did carpet cleaning, water damage mitigation, and mold/biohazard cleanup. Many hours of swe"
+        },
+        {
+          "name": "7. ***Poll Worker:*** Served as a poll worker for a general election my senior y",
+          "role": "",
+          "description": "7. ***Poll Worker:*** Served as a poll worker for a general election my senior year."
+        },
+        {
+          "name": "8. ***Pole Vault:*** This was my \"fun sport\" to do in the Spring and stay in sha",
+          "role": "",
+          "description": "8. ***Pole Vault:*** This was my \"fun sport\" to do in the Spring and stay in shape. No crazy accomplishments but I had a lot of fun with it and made varsity."
+        },
+        {
+          "name": "9. ***Volunteer Peer Tutoring:*** Volunteered my time to help other students at ",
+          "role": "",
+          "description": "9. ***Volunteer Peer Tutoring:*** Volunteered my time to help other students at my school out with math, science, cs, and some SAT and ACT prep."
+        },
+        {
+          "name": "10. ***Boy Scouts:*** I never got super high in the ranks or whatever but I did ",
+          "role": "",
+          "description": "10. ***Boy Scouts:*** I never got super high in the ranks or whatever but I did have some leadership positions and did a few long and intense backpacking trips. I also helped my troop out with designi"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. ***National Merit Semifinalist***",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. ***AP Scholar with Distinction***",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. ***National Youth Leadership Training (NYLT) Certification:*** week-long leadership training work",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. ***Industrial Technology Department Student of the Month:*** Student of the month for the departm",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. **Invited to my school's Summer Leadership Workshop:** I was identified as a \"student leader\" by ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": null,
+      "service_summary": "4. ***NHS PR Officer:*** Elected as Public Relations Officer in junior year, helped to improve the online system we used for cataloging service hours; 5. ***Church Youth Group Service:*** Put in a bunch of hours volunteering with various charities through the youth group and went on a few week-long service trips to different cities; 9. ***Volunteer Peer Tutoring:*** Volunteered my time to help other students at my school out with math, science, cs, and some SAT and ACT prep."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

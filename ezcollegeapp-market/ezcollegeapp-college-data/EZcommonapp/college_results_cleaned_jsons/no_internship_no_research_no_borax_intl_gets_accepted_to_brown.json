@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. volunteer at community center catering to ethnic minorities, managed team o",
+          "role": "",
+          "description": "etc. volunteer at community center catering to ethnic minorities, managed team of 15 that tutored the children here and helped with tutoring myself president of art club personal art organized summer art lessons with art club members at community center mentioned in 1"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: global politics HL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "economics HL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "english Lit HL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "math AA SL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "lang ab initio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "environmental systems and societies SL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "45/45 predicted Standardized Testing List the highest scores earned and all scores that were reported. SAT I: 1540 super",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "volunteer at community center catering to ethnic minorities, managed team of 15 that tutored the children here and helped with tutoring myself organized summer art lessons with art club members at community center mentioned in 1 community - 7/10 i talked about how art classes were my community in my years of moving around and how i built that community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "international and public affairs + ethnic studies for brown, International Relations/Poli Sci/PPE everywhere else"
+    },
+    "ESSAY_SCORE": null
+  }
+}

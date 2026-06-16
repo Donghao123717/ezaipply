@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founder of Axiom, an education initiative teaching STEM concepts (AI, 3D printin",
+          "role": "",
+          "description": "Founder of Axiom, an education initiative teaching STEM concepts (AI, 3D printing, coding) in under-resourced Indian schools"
+        },
+        {
+          "name": "Designed textbook, zero-equipment workbook, and teacher manual",
+          "role": "",
+          "description": "Designed textbook, zero-equipment workbook, and teacher manual"
+        },
+        {
+          "name": "Partnered with NGO (Sukhad Foundation)",
+          "role": "",
+          "description": "Partnered with NGO (Sukhad Foundation)"
+        },
+        {
+          "name": "Raised \\~INR 50,000",
+          "role": "",
+          "description": "Raised \\~INR 50,000"
+        },
+        {
+          "name": "Co-founder of Smart Scrapzo, an online industrial scrap marketplace (sustainabil",
+          "role": "",
+          "description": "Co-founder of Smart Scrapzo, an online industrial scrap marketplace (sustainability-focused)"
+        },
+        {
+          "name": "Student leadership at school (student council, clubs, advocacy roles)",
+          "role": "",
+          "description": "Student leadership at school (student council, clubs, advocacy roles)"
+        },
+        {
+          "name": "Summer programs:",
+          "role": "",
+          "description": "Summer programs:"
+        },
+        {
+          "name": "Columbia University (Big Data & ML)",
+          "role": "",
+          "description": "Columbia University (Big Data & ML)"
+        },
+        {
+          "name": "Johns Hopkins CTY (Math of Volatile Markets)",
+          "role": "",
+          "description": "Johns Hopkins CTY (Math of Volatile Markets)"
+        },
+        {
+          "name": "Cornell credit-bearing program (design & social impact)",
+          "role": "",
+          "description": "Cornell credit-bearing program (design & social impact)"
+        },
+        {
+          "name": "Math / computing competitions and hackathons",
+          "role": "",
+          "description": "Math / computing competitions and hackathons"
+        },
+        {
+          "name": "Sports: cricket, fencing",
+          "role": "",
+          "description": "Sports: cricket, fencing"
+        },
+        {
+          "name": "Honors",
+          "role": "",
+          "description": "Honors"
+        },
+        {
+          "name": "Gold – IMOCSEA (International Math Olympiad competition)",
+          "role": "",
+          "description": "Gold – IMOCSEA (International Math Olympiad competition)"
+        },
+        {
+          "name": "Silver – SIMCC International Math Challenge",
+          "role": "",
+          "description": "Silver – SIMCC International Math Challenge"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Gold – IMOCSEA (International Math Olympiad competition)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Silver – SIMCC International Math Challenge",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Bronze – Queen’s Commonwealth Essay Competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Scholarship from Immerse Essay Competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Common App: reflective personal essay on identity, cultural transition, and worldview (no résumé rep",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NYU supplemental: focused on collaboration, systems thinking, and Axiom’s impact",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Strong academic narrative oriented toward economics as a discipline (not business/finance)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School teachers + counselor (not seen, but expected strong)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

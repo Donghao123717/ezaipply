@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1400,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Founded two companies using *only* seed money from a minimum wage job (yes, t",
+          "role": "",
+          "description": "1. Founded two companies using *only* seed money from a minimum wage job (yes, this is correct, and it led to me discovering EC #2), may add in tax services once I become of age"
+        },
+        {
+          "name": "2. Volunteering with the IRS as a volunteer tax preparer, helped claim a *lot* (",
+          "role": "",
+          "description": "2. Volunteering with the IRS as a volunteer tax preparer, helped claim a *lot* (# and $ wise) of tax refunds"
+        },
+        {
+          "name": "3. Sat on a local government commission",
+          "role": "",
+          "description": "3. Sat on a local government commission"
+        },
+        {
+          "name": "4. Minimum-wage job :)",
+          "role": "",
+          "description": "4. Minimum-wage job :)"
+        },
+        {
+          "name": "5. Student Council (incl. as class president for 1 year)",
+          "role": "",
+          "description": "5. Student Council (incl. as class president for 1 year)"
+        },
+        {
+          "name": "6. Part of a \"club\"/org that started out of my local state school by a former pr",
+          "role": "",
+          "description": "6. Part of a \"club\"/org that started out of my local state school by a former professor turned teacher, helped transition to virtual programming (quite an ordeal)"
+        },
+        {
+          "name": "7. Orchestra, won multiple state awards as a group, personally made it into sele",
+          "role": "",
+          "description": "7. Orchestra, won multiple state awards as a group, personally made it into selective regional orch (I was okay\\~)"
+        },
+        {
+          "name": "8. A few other things not so substantial",
+          "role": "",
+          "description": "8. A few other things not so substantial"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. NHS",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. Volunteering with the IRS as a volunteer tax preparer, helped claim a *lot* (# and $ wise) of tax refunds"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "compsci + ms&amp;e"
+    },
+    "ESSAY_SCORE": null
+  }
+}

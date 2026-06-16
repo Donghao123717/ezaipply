@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "FIRST Robotics(9-12)** \\- Hardware Lead, Selected to be Robot driver, top placem",
+          "role": "",
+          "description": "FIRST Robotics(9-12)** \\- Hardware Lead, Selected to be Robot driver, top placement at Worlds"
+        },
+        {
+          "name": "Marching Band** \\- Trumpet Section Leader, played in many well known parades, me",
+          "role": "",
+          "description": "Marching Band** \\- Trumpet Section Leader, played in many well known parades, mentored underclassmen"
+        },
+        {
+          "name": "Wind Ensemble** \\- 1st Chair Trumpet in audition only band at my school, played ",
+          "role": "",
+          "description": "Wind Ensemble** \\- 1st Chair Trumpet in audition only band at my school, played at Carnegie Hall"
+        },
+        {
+          "name": "Tennis**(JV 9th and 10th, Varsity 11th and 12th) - Team captain 11th and 12th, l",
+          "role": "",
+          "description": "Tennis**(JV 9th and 10th, Varsity 11th and 12th) - Team captain 11th and 12th, led team to conference finals"
+        },
+        {
+          "name": "Research Intern/Assistant** (12th) - helped a chemistry professor at a top unive",
+          "role": "",
+          "description": "Research Intern/Assistant** (12th) - helped a chemistry professor at a top university program, used my CS background to write software to help his research"
+        },
+        {
+          "name": "Software Project:** Team leader of group who wrote software that helps musicians",
+          "role": "",
+          "description": "Software Project:** Team leader of group who wrote software that helps musicians practice, used a little bit of AI, is a website with 10k monthly visits, planning on making it into an app"
+        },
+        {
+          "name": "Computer Science Club President**(9th - 12th, president 12th): Create lessons fo",
+          "role": "",
+          "description": "Computer Science Club President**(9th - 12th, president 12th): Create lessons for weekly meetings, manage club logistics, thirty people come to the meetings"
+        },
+        {
+          "name": "Engineering Club Vice President**(9th - 12th): create engaging activities such a",
+          "role": "",
+          "description": "Engineering Club Vice President**(9th - 12th): create engaging activities such as engineering design builds, create enjoyable and engaging experience for members"
+        },
+        {
+          "name": "Academy Volunteer Teacher**:(11th-12th): Java teacher at local academy, prepare ",
+          "role": "",
+          "description": "Academy Volunteer Teacher**:(11th-12th): Java teacher at local academy, prepare students for competitive programming"
+        },
+        {
+          "name": "Stanford Pre-Collegiate Summer Program:** Artificial Intelligence and Machine Le",
+          "role": "",
+          "description": "Stanford Pre-Collegiate Summer Program:** Artificial Intelligence and Machine Learning Course, this class inspired me to create a tool that uses AI to help musicians practice"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "USA Computing Olympiad Platinum Division, top 200 high schoolers in the nation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "FIRST Robotics World Championships, 11th place, was hardware team and driver, played a key role in t",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "All-State Band, competed with the top trumpet players throughout the state to get a seat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 11,
+      "first_gen": null,
+      "service_summary": "Academy Volunteer Teacher**:(11th-12th): Java teacher at local academy, prepare students for competitive programming"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

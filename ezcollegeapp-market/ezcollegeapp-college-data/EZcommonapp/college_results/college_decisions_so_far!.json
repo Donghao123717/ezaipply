@@ -1,0 +1,126 @@
+{
+  "post": {
+    "id": "t3_1ozymto",
+    "title": "College decisions so far!",
+    "author": "Icy-Fortune-8934",
+    "selftext": "Stats:\n3.1 gpa, 1340 sat\nEdit: international student from Nicaragua! With mid ecs\n\n\nTulane (Waiting)\nNortheastern( Waiting)\n3.Trinity U ( Waiting)\nProvidence College ( Waiting)\nGettysburg (Waiting)\nDepauw (Waiting)\nMarquette (Waiting)\nStonehill ( Waiting)\nLoyola Maryland ( Waiting) \nAugustana College ( 30k merit scholarship per year)\nLoyola chicago (28k merit per year)\nloyola Nola ( 26k merit year)\nLouisiana Tech ( 16k merit per year)",
+    "score": "43",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1ozymto/college_decisions_so_far/",
+    "created": "2025-11-18T01:22:01+00:00",
+    "num_comments": 4,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_npf9w0r",
+      "author": "True-Boysenberry225",
+      "body": "Very nice college list and congrats on the college you’ve gotten into with scholarships! Hope you get more acceptances! I also applied to Northeastern it’s really nice but very expensive omg 😭",
+      "score": "11 points",
+      "created": "2025-11-18T02:09:52+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_npgnviw",
+      "author": "Ok-Let6717",
+      "body": "what are your ecs and how are you doing it?? Those that accepted you seem to be good colleges so congrats",
+      "score": "2 points",
+      "created": "2025-11-18T08:38:33+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nph4tsy",
+          "author": "Icy-Fortune-8934",
+          "body": "My ecs weren’t that good, I just made a pretty good job on my personal statement, also for the ones I am accepted my sat is above average",
+          "score": "1 point",
+          "created": "2025-11-18T11:29:43+00:00",
+          "depth": 1,
+          "parent_id": "t1_npgnviw",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_ntoy8ry",
+      "author": "lemon_bloom_2032",
+      "body": "congrats! any updates?",
+      "score": "1 point",
+      "created": "2025-12-12T19:05:46+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1ozymto",
+        "author": "Icy-Fortune-8934",
+        "title": "College decisions so far!",
+        "body": "Stats:\n3.1 gpa, 1340 sat\nEdit: international student from Nicaragua! With mid ecs\n\n\nTulane (Waiting)\nNortheastern( Waiting)\n3.Trinity U ( Waiting)\nProvidence College ( Waiting)\nGettysburg (Waiting)\nDepauw (Waiting)\nMarquette (Waiting)\nStonehill ( Waiting)\nLoyola Maryland ( Waiting) \nAugustana College ( 30k merit scholarship per year)\nLoyola chicago (28k merit per year)\nloyola Nola ( 26k merit year)\nLouisiana Tech ( 16k merit per year)",
+        "full_text": "College decisions so far!\n\nStats:\n3.1 gpa, 1340 sat\nEdit: international student from Nicaragua! With mid ecs\n\n\nTulane (Waiting)\nNortheastern( Waiting)\n3.Trinity U ( Waiting)\nProvidence College ( Waiting)\nGettysburg (Waiting)\nDepauw (Waiting)\nMarquette (Waiting)\nStonehill ( Waiting)\nLoyola Maryland ( Waiting) \nAugustana College ( 30k merit scholarship per year)\nLoyola chicago (28k merit per year)\nloyola Nola ( 26k merit year)\nLouisiana Tech ( 16k merit per year)"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_npf9w0r",
+          "author": "True-Boysenberry225",
+          "body": "Very nice college list and congrats on the college you’ve gotten into with scholarships! Hope you get more acceptances! I also applied to Northeastern it’s really nice but very expensive omg 😭",
+          "score": "11 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_npgnviw",
+          "author": "Ok-Let6717",
+          "body": "what are your ecs and how are you doing it?? Those that accepted you seem to be good colleges so congrats",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_ntoy8ry",
+          "author": "lemon_bloom_2032",
+          "body": "congrats! any updates?",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_npgnviw",
+        "author": "Ok-Let6717",
+        "body": "what are your ecs and how are you doing it?? Those that accepted you seem to be good colleges so congrats",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nph4tsy",
+          "author": "Icy-Fortune-8934",
+          "body": "My ecs weren’t that good, I just made a pretty good job on my personal statement, also for the ones I am accepted my sat is above average",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

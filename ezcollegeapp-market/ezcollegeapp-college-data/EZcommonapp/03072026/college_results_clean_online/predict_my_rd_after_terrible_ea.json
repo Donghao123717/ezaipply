@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1460,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Led team to the Create Apps Championship finals for Best Youth category (Top 12 out of 4800+ teams) ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CBSE UAE U17 chess champion – qualified for Indian national finals (including nonresident Indians) -",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Led my team to FIRST LEGO League national finals and won Silver Medal in Innovation - Regional, Nati",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National 11 AI Olympiad (International Olympiad Foundation) UAE national finalist (Top 8) - National",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Unified Robotics national finals: Regional Best Presentation award, Top 3 in Technical Round - State",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LORS : Ethical Hacking Prof (Harvard Extension School) and Research Mentor (Uni of Cambridge)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

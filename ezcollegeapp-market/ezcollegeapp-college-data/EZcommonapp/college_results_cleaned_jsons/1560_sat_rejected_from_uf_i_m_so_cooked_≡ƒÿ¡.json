@@ -1,0 +1,64 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.89,
+      "sat_total": null,
+      "act_composite": 3,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "- No you are not. Just be patient",
+          "role": "",
+          "description": "- No you are not. Just be patient"
+        },
+        {
+          "name": "- no ones guarnteed an acceptance",
+          "role": "",
+          "description": "- no ones guarnteed an acceptance"
+        },
+        {
+          "name": "- If you had a blemish in your transcript like a C in core course No matter how ",
+          "role": "",
+          "description": "- If you had a blemish in your transcript like a C in core course No matter how high GPA SAT the rest of your application was never looked at So don’t take it personally they didn’t invest the time to get to know you The algorithm stopped evaluating you and you never went to Step 2"
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "i dont plan to reveal any of them but i got rejected from UF 😭 like i know it's a selective college but if i dont get in",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: Straight rejected is crazy ngl 😭",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "I think the dedicated zoology major is your in. Can you craft your college essay around that? That shows them why you would specifically be interested in UF. My daughter has extremely high stats (National Merit Semifinalist, Top 30 International Awards in science research and HOSA, Pres of several clubs, 1600+service hrs) and she was terrified of not getting into UF because so many kids from her h"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

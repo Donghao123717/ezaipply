@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 2.8,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "#1 DECA State Finalist (2x) #2 Founder, President of Finance Club @School #3 Gol",
+          "role": "",
+          "description": "#1 DECA State Finalist (2x) #2 Founder, President of Finance Club @School #3 Golf Caddie (Intermediate) #4 Football Player #5 Member of Kappa League (Black Youth Leadership Group) #6 Member of school's Pen Pal Club"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: ap econ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ap statistics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Standardized Testing: 1170 SAT, 670 R, 500 M",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "#7 Volunteer Technician @Senior Citizen's Home Lots of kids have this epiphany. But there's no such thing as too late. Kids seem to think that if you blow your chance in HS, that it's all over. But if you get serious NOW and spend two years at Miami U or your local community college ('cuz NEU, Fordham, etc are very unlikely given your stats) doing really well, I have no doubt you will get into pla"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Finance, Philosophy, Political Science, Politics/Philosophy/Economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

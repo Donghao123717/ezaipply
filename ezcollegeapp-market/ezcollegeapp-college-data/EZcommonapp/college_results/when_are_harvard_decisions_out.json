@@ -1,0 +1,92 @@
+{
+  "post": {
+    "id": "t3_1pmwze0",
+    "title": "When are Harvard decisions out",
+    "author": "coffeeinm",
+    "selftext": "When are Harvard decisions out",
+    "score": "2",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pmwze0/when_are_harvard_decisions_out/",
+    "created": "2025-12-15T03:12:47+00:00",
+    "num_comments": 3,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nu3fhca",
+      "author": "Severe-Ad536",
+      "body": "Based off questbridge the 18th!!",
+      "score": "5 points",
+      "created": "2025-12-15T03:15:19+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nu3fttv",
+      "author": "Apprehensive_Slice58",
+      "body": "18th at like 7:00 PM EST",
+      "score": "4 points",
+      "created": "2025-12-15T03:17:33+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nu3gkas",
+      "author": "Fabulous-Challenge87",
+      "body": "Class of 2030 Early Decision and Early Action Notification Dates - College Kickstart",
+      "score": "3 points",
+      "created": "2025-12-15T03:22:19+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pmwze0",
+        "author": "coffeeinm",
+        "title": "When are Harvard decisions out",
+        "body": "When are Harvard decisions out",
+        "full_text": "When are Harvard decisions out\n\nWhen are Harvard decisions out"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nu3fhca",
+          "author": "Severe-Ad536",
+          "body": "Based off questbridge the 18th!!",
+          "score": "5 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nu3fttv",
+          "author": "Apprehensive_Slice58",
+          "body": "18th at like 7:00 PM EST",
+          "score": "4 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nu3gkas",
+          "author": "Fabulous-Challenge87",
+          "body": "Class of 2030 Early Decision and Early Action Notification Dates - College Kickstart",
+          "score": "3 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

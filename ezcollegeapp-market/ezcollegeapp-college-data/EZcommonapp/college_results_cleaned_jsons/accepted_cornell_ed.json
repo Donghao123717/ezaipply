@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "- ILR school and i had a crazy excel sports analytics project, statistics internship, varsity tennis 4 years and clubs f",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Darn I also applied ed ilr got rejected 😭😭😭",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- stats?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Congrats! Same see you!!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- AYYY NICE",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Tough congrats gang! You deserve it",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

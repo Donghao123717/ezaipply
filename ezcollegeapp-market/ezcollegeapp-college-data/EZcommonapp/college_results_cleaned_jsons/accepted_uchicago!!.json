@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "#1 : speech team",
+          "role": "",
+          "description": "#1 : speech team"
+        },
+        {
+          "name": "joined speech team in its first ever year, as a sophomore, and was an all confer",
+          "role": "",
+          "description": "joined speech team in its first ever year, as a sophomore, and was an all conference nominee in oratory. all conference in oratory and all conference nominee in info as a junior, named team mpv, qualified in both categories for nietoc. public address captain this year."
+        },
+        {
+          "name": "this is where we start getting into the \"dazzling personality\" part of my app. i",
+          "role": "",
+          "description": "this is where we start getting into the \"dazzling personality\" part of my app. i have not published anything. but they said to list activities by how important they are to us and i freaking love writing so it went in second."
+        },
+        {
+          "name": "four years of marching band. if my school is known for anything, it's our music ",
+          "role": "",
+          "description": "four years of marching band. if my school is known for anything, it's our music program, and our marching band is quite good. i was \"rookie advisor\" for the saxophones last year, which mostly involved taking them to taco bell, and i told uchicago that."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: ap chem and lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "dual enrollment politics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "physics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "and calc 3 Standardized Testing List the highest scores earned and all scores that were reported. ACT: 35 (36E, 36M, 36R",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "recieved a volunteer of the month award"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochem"
+    },
+    "ESSAY_SCORE": null
+  }
+}

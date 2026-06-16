@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Cancer research program with published research paper",
+          "role": "",
+          "description": "1. Cancer research program with published research paper"
+        },
+        {
+          "name": "2. volunteer @ school",
+          "role": "",
+          "description": "2. volunteer @ school"
+        },
+        {
+          "name": "3. volunteer @ library",
+          "role": "",
+          "description": "3. volunteer @ library"
+        },
+        {
+          "name": "4. jv/varsity",
+          "role": "",
+          "description": "4. jv/varsity"
+        },
+        {
+          "name": "5. secretary @ this student run organization in gr 10",
+          "role": "",
+          "description": "5. secretary @ this student run organization in gr 10"
+        },
+        {
+          "name": "6. contestant in the canadian biology olympiad (cancelled due to covid tho :// )",
+          "role": "",
+          "description": "6. contestant in the canadian biology olympiad (cancelled due to covid tho :// )"
+        },
+        {
+          "name": "7. winner of a charity program (5k)",
+          "role": "",
+          "description": "7. winner of a charity program (5k)"
+        },
+        {
+          "name": "8. piano for 10 years (nothing much lol, level 10 but didn't do much competition",
+          "role": "",
+          "description": "8. piano for 10 years (nothing much lol, level 10 but didn't do much competition)"
+        },
+        {
+          "name": "9. art for 10 years (for meditation kinda :')) )",
+          "role": "",
+          "description": "9. art for 10 years (for meditation kinda :')) )"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. research paper published in youth science journal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. university of waterloo math contest distinction (x4)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. honours with distinction (x4)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. academic award winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. athletic award winner",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": "2. volunteer @ school; 3. volunteer @ library"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "bioeng/cs (for cmu)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 710,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *Home baking/ small tiktok to showcase 4 years*",
+          "role": "",
+          "description": "1. *Home baking/ small tiktok to showcase 4 years*"
+        },
+        {
+          "name": "2. volunteer Spanish and Haitian Creole translator 3 years",
+          "role": "",
+          "description": "2. volunteer Spanish and Haitian Creole translator 3 years"
+        },
+        {
+          "name": "3. Job at a high end bakery as a pastry assistant 2 years",
+          "role": "",
+          "description": "3. Job at a high end bakery as a pastry assistant 2 years"
+        },
+        {
+          "name": "4. STEM center instructor assistant 3 years",
+          "role": "",
+          "description": "4. STEM center instructor assistant 3 years"
+        },
+        {
+          "name": "5. NHS Member 2 years",
+          "role": "",
+          "description": "5. NHS Member 2 years"
+        },
+        {
+          "name": "6. Spanish Honors society/HSU 3 years",
+          "role": "",
+          "description": "6. Spanish Honors society/HSU 3 years"
+        },
+        {
+          "name": "7. DECA member 3 years",
+          "role": "",
+          "description": "7. DECA member 3 years"
+        },
+        {
+          "name": "8. Church Barista 1 years",
+          "role": "",
+          "description": "8. Church Barista 1 years"
+        },
+        {
+          "name": "9. Family responsibilities 4+ years",
+          "role": "",
+          "description": "9. Family responsibilities 4+ years"
+        },
+        {
+          "name": "10. Studying haitian creole and listening to mitski",
+          "role": "",
+          "description": "10. Studying haitian creole and listening to mitski"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "L*owkey its barren here",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. AP scholar recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Hispanic recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. bilit seal",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. volunteer Spanish and Haitian Creole translator 3 years"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied undecided for almost everything"
+    },
+    "ESSAY_SCORE": null
+  }
+}

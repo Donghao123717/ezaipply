@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.87,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "(NOT super specific for privacy reasons!!)",
+          "role": "",
+          "description": "(NOT super specific for privacy reasons!!)"
+        },
+        {
+          "name": "Prestigious opera program - 3yrs",
+          "role": "",
+          "description": "Prestigious opera program - 3yrs"
+        },
+        {
+          "name": "Color Guard - 4 yrs, 3 yrs captain, multiple state titles",
+          "role": "",
+          "description": "Color Guard - 4 yrs, 3 yrs captain, multiple state titles"
+        },
+        {
+          "name": "Choir - 4yrs, 3yrs section leader, 2 yrs student conductor, 4 yrs all-state",
+          "role": "",
+          "description": "Choir - 4yrs, 3yrs section leader, 2 yrs student conductor, 4 yrs all-state"
+        },
+        {
+          "name": "Theater - 3yrs, multiple leads",
+          "role": "",
+          "description": "Theater - 3yrs, multiple leads"
+        },
+        {
+          "name": "GSA Club - 4yrs, founder + president",
+          "role": "",
+          "description": "GSA Club - 4yrs, founder + president"
+        },
+        {
+          "name": "Thespian Society - 4yrs, president 2yrs",
+          "role": "",
+          "description": "Thespian Society - 4yrs, president 2yrs"
+        },
+        {
+          "name": "NHS - 2yrs, tutoring coordinator 1yr",
+          "role": "",
+          "description": "NHS - 2yrs, tutoring coordinator 1yr"
+        },
+        {
+          "name": "AO3 Author - 4yrs, have 20k+ hits on a fic",
+          "role": "",
+          "description": "AO3 Author - 4yrs, have 20k+ hits on a fic"
+        },
+        {
+          "name": "Art History Club - 2yrs, treasurer",
+          "role": "",
+          "description": "Art History Club - 2yrs, treasurer"
+        },
+        {
+          "name": "Depop Seller - 2yrs",
+          "role": "",
+          "description": "Depop Seller - 2yrs"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "National Merit Commended",
+          "role": "",
+          "description": "National Merit Commended"
+        },
+        {
+          "name": "All-State Choir (4yrs)",
+          "role": "",
+          "description": "All-State Choir (4yrs)"
+        },
+        {
+          "name": "State Solo Ensemble Winner (jr year)",
+          "role": "",
+          "description": "State Solo Ensemble Winner (jr year)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National Merit Commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "All-State Choir (4yrs)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State Solo Ensemble Winner (jr year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Choir Student of the Year (2yrs)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Varsity letter in Community Service (sophomore/jr year, my school gives these for 100+ hrs of servic",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor - 8/10, I have a pretty positive relationship with her and I got into all the schools she ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP World/AP Psych teacher - 7/10, I had her as a sophomore and again as a senior and I've had a real",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Chem teacher - 6/10, I fell asleep in his class almost every day but he liked me and I needed a STEM",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "sociology/psychology w music minor, pre-law track"
+    },
+    "ESSAY_SCORE": null
+  }
+}

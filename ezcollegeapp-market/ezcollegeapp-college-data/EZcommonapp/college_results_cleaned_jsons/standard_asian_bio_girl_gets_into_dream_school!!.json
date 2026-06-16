@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 16
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "research intern at nearby med school",
+          "role": "",
+          "description": "research intern at nearby med school"
+        },
+        {
+          "name": "co-authored on 1 publication at time of application research intern at nearby un",
+          "role": "",
+          "description": "co-authored on 1 publication at time of application research intern at nearby university, no publications but was much more involved so i wrote abt it in supps"
+        },
+        {
+          "name": "event organizer and editor in chief of student-founded npo serving children w ca",
+          "role": "",
+          "description": "event organizer and editor in chief of student-founded npo serving children w cancer and their families, pretty big impact and we actually did a lot of stuff (helped thousands of ppl, had news articles written etc), i got recognized by local officials for my work"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Statistics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "MV Calc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Physics C Mechanics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Anatomy",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Macro/Micro",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Health :( Standardized Testing SAT: 1560 (780 M, 780 RW) AP/IB: 5 on world, bio, chem, calc bc, lang, chinese, gov, 4 on",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "recognition by local officials for volunteer work personal statement: 8.75/10, pretty dang good id say. i went through 7 drafts and had it edited by my friends. i wrote abt a car accident i was in and how bystanders helped me, and how i took inspiration from them and gave back to my own community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Journalism ; published a few articles in some national newspapers",
+          "role": "",
+          "description": "Journalism ; published a few articles in some national newspapers"
+        },
+        {
+          "name": "Soccer; one national award",
+          "role": "",
+          "description": "Soccer; one national award"
+        },
+        {
+          "name": "Internship at an E-waste company",
+          "role": "",
+          "description": "Internship at an E-waste company"
+        },
+        {
+          "name": "Founded a company that aims to help craftsmen hit by covid; an online platform t",
+          "role": "",
+          "description": "Founded a company that aims to help craftsmen hit by covid; an online platform to sell art work"
+        },
+        {
+          "name": "Huge volunteering",
+          "role": "",
+          "description": "Huge volunteering"
+        },
+        {
+          "name": "Founded a self awareness company on e-waste",
+          "role": "",
+          "description": "Founded a self awareness company on e-waste"
+        },
+        {
+          "name": "Other; trading &amp; investing in the stock market (NYSE)",
+          "role": "",
+          "description": "Other; trading &amp; investing in the stock market (NYSE)"
+        },
+        {
+          "name": "School/class leadership roles",
+          "role": "",
+          "description": "School/class leadership roles"
+        },
+        {
+          "name": "Family responsibilities (had a tough childhood)",
+          "role": "",
+          "description": "Family responsibilities (had a tough childhood)"
+        },
+        {
+          "name": "Nothing more so I put extra classes for preparation of the IIT JEE exam",
+          "role": "",
+          "description": "Nothing more so I put extra classes for preparation of the IIT JEE exam"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "National award for soccer (11th)",
+          "role": "",
+          "description": "National award for soccer (11th)"
+        },
+        {
+          "name": "IGCSE top scorers (10th)",
+          "role": "",
+          "description": "IGCSE top scorers (10th)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National award for soccer (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "IGCSE top scorers (10th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Principals list (twice 11th &amp; 12th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Article published in two national newspapers",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor : 8/10; really close to her; i think she mentioned my hardships and all",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Chem teacher: 7/10; did personal projects with him; asked a lot of questions and was the closest to ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "​",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "​",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics and computer science double major"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": 97.38,
+      "ap_ib_honors_count": 15
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Academics: GPA: Somewhere around 96/97 UW, 103.3 W (Up to 104 Weighted with midyear transcripts Rank: 9/343 SAT: 1540 Si",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ECs:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "DECA ICDC Qualifier for Principles of Finance junior year (1st in Region, 6th in State) and Co-Vice President of Career ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honors/Awards: National Merit Scholarship Program Semifinalist AP Scholar with Distinction American Legion Post-Sponsore",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "70 Volunteer hours tutoring on Schoolhouse.world since being invited sophomore year including peer reviews and leading a tutor onboarding session Co-President of school community service club for 2 years, hosting a few volunteer events"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Depends on the school, typically law, finance, or economics with an end goal of going into corporate law"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.6,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "family responsibilities - filling out government paperwork",
+          "role": "",
+          "description": "family responsibilities - filling out government paperwork"
+        },
+        {
+          "name": "translating",
+          "role": "",
+          "description": "translating"
+        },
+        {
+          "name": "chores",
+          "role": "",
+          "description": "chores"
+        },
+        {
+          "name": "grocery shopping",
+          "role": "",
+          "description": "grocery shopping"
+        },
+        {
+          "name": "etc. very competitive local research internship for my major part-time job part-",
+          "role": "",
+          "description": "etc. very competitive local research internship for my major part-time job part-time job but diff role hospital volunteer - wrote some interesting stories abt this one some leadership thing school related"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing 35 ACT single-sitting, 5s on AB, APUSH, CSA. 4 on Euro.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "hospital volunteer - wrote some interesting stories abt this one"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied chem, bio, biochem, cell bio depending on school"
+    },
+    "ESSAY_SCORE": null
+  }
+}

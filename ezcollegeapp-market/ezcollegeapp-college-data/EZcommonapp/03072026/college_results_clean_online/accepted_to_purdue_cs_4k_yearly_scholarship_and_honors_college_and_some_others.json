@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "I lived in a building with my family of 9 of us in total as we repaired the buil",
+          "role": "",
+          "description": "I lived in a building with my family of 9 of us in total as we repaired the building and made it a dojo while my mom did her doctorate and after we moved, we donated the building. Only worth while thi"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "None",
+          "role": "",
+          "description": "None"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "From my mom and brother. Both were thoughtful and spiritual and showed my true s",
+          "role": "",
+          "description": "From my mom and brother. Both were thoughtful and spiritual and showed my true soul."
+        },
+        {
+          "name": "Interviews",
+          "role": "",
+          "description": "Interviews"
+        },
+        {
+          "name": "None",
+          "role": "",
+          "description": "None"
+        },
+        {
+          "name": "Essays",
+          "role": "",
+          "description": "Essays"
+        },
+        {
+          "name": "I had very good writings about the university and God.",
+          "role": "",
+          "description": "I had very good writings about the university and God."
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "role": "",
+          "description": "Decisions (indicate ED/EA/REA/SCEA/RD)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "None",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "From my mom and brother. Both were thoughtful and spiritual and showed my true soul.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "None",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I had very good writings about the university and God.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs+math+ a third major"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1390,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Founder/president/writer/editor of school newspaper (3 yrs, 4 hrs/week)",
+          "role": "",
+          "description": "1. Founder/president/writer/editor of school newspaper (3 yrs, 4 hrs/week)"
+        },
+        {
+          "name": "2. Playwright/director",
+          "role": "",
+          "description": "2. Playwright/director"
+        },
+        {
+          "name": "3. Actor/puppet design (acted in every school play, doing theatre for 12 years, ",
+          "role": "",
+          "description": "3. Actor/puppet design (acted in every school play, doing theatre for 12 years, puppet design for Little Shop)"
+        },
+        {
+          "name": "4. Co-pres GSA (1 year)",
+          "role": "",
+          "description": "4. Co-pres GSA (1 year)"
+        },
+        {
+          "name": "5. StuGov elected rep (4 yrs)",
+          "role": "",
+          "description": "5. StuGov elected rep (4 yrs)"
+        },
+        {
+          "name": "6. Music (intermediate piano, novice bass both self taught, 10 and 1 year respec",
+          "role": "",
+          "description": "6. Music (intermediate piano, novice bass both self taught, 10 and 1 year respectively. beginner piano teacher)"
+        },
+        {
+          "name": "7. Work (summer full time, weekends during school year, 4 yrs)",
+          "role": "",
+          "description": "7. Work (summer full time, weekends during school year, 4 yrs)"
+        },
+        {
+          "name": "8. International volunteer, service learning in DR w/ school group (2 wks)",
+          "role": "",
+          "description": "8. International volunteer, service learning in DR w/ school group (2 wks)"
+        },
+        {
+          "name": "9. School theatre department secretary (1 yr)",
+          "role": "",
+          "description": "9. School theatre department secretary (1 yr)"
+        },
+        {
+          "name": "10. Variety of other social justice clubs, low level commitment fresh-soph year",
+          "role": "",
+          "description": "10. Variety of other social justice clubs, low level commitment fresh-soph year"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Seal of Biliteracy (Latin)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Couple of class awards for math/english",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Yale book award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(this section was weak but oh well)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "8. International volunteer, service learning in DR w/ school group (2 wks)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "psychology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

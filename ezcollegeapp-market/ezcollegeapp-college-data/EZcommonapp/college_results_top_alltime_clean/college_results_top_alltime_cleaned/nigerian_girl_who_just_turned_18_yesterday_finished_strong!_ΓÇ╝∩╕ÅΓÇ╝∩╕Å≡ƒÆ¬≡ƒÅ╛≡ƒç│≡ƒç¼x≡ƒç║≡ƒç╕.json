@@ -1,0 +1,43 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.3,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1.) 2nd place in Principles of Business - Districts DECA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2.) 3rd place in Business Law and Ethics Team - Districts DECA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.) Runner up -Rowan University Department of Writing Arts High School Writing Contest",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " nursing"
+    },
+    "ESSAY_SCORE": null
+  }
+}

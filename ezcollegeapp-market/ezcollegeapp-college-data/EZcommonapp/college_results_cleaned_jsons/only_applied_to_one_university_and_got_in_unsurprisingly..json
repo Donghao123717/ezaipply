@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.5,
+      "sat_total": 1430,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Digital Music Production 3 years, self-taught, became proficient, sold beats Wor",
+          "role": "",
+          "description": "Digital Music Production 3 years, self-taught, became proficient, sold beats Work (Paid) 2 years, became a trainer Weightlifting Wrestling Foreign Language Proficient at Spanish Graphic Design Self-taught, proficient with PhotoShop"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Other facts:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "First-gen",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Low income (<100k yearly household income)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Application: Applied to James Madison University EA (~66% In-state, ~71% OVR)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Result: Accepted, committed, majoring in Finance.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: Congratulations! 🎉Go Dukes!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Thank you",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Congrats! JMU is a great school. Hope you enjoy your time there .💜💛",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Awesome college - graduated in 1990! Go Dukes and congrats!!!",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

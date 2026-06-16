@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1480,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Varsity baseball, senior year captain, 4 years",
+          "role": "",
+          "description": "1. Varsity baseball, senior year captain, 4 years"
+        },
+        {
+          "name": "2. Club baseball, 4 years",
+          "role": "",
+          "description": "2. Club baseball, 4 years"
+        },
+        {
+          "name": "3. Political science/public policy research with a professor at a top college, 2",
+          "role": "",
+          "description": "3. Political science/public policy research with a professor at a top college, 2 years"
+        },
+        {
+          "name": "4. Political science experiential summer program, 1 summer",
+          "role": "",
+          "description": "4. Political science experiential summer program, 1 summer"
+        },
+        {
+          "name": "5. Part of a group that frequently volunteers at food pantries, 3 years",
+          "role": "",
+          "description": "5. Part of a group that frequently volunteers at food pantries, 3 years"
+        },
+        {
+          "name": "6. Semi-selective pre-college summer program, 1 summer",
+          "role": "",
+          "description": "6. Semi-selective pre-college summer program, 1 summer"
+        },
+        {
+          "name": "7. Political current events club, 3 years",
+          "role": "",
+          "description": "7. Political current events club, 3 years"
+        },
+        {
+          "name": "8. For spots 8-10 I put insignificant clubs which probably had no impact on my a",
+          "role": "",
+          "description": "8. For spots 8-10 I put insignificant clubs which probably had no impact on my application."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. I only had extremely insignificant awards, so I did not list any",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

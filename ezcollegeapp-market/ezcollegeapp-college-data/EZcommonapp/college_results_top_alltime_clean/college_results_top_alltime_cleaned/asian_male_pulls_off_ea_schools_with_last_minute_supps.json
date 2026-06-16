@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 13
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Research published in an decent peer-review journal (Sole author)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Poem published in a national poetry contest's book)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Nominated as National Semi-Finalist &amp; Published in poetry contest's book)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. CCNY Poetry Competition Winner (2k scholarship)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Presidential Volunteer Service Award (Gold)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "data science, computer science, environmental eng"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Intern at a non-profit that educates about mental health to youth Research paper",
+          "role": "",
+          "description": "Intern at a non-profit that educates about mental health to youth Research paper w T20 prof Club leader of school first aiding club Club leader of school environment club Club leader of school nursing home club"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: HL: Chem",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Bio",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Psych | SL: English",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Maths",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Chinese B Standardized Testing List the highest scores earned and all scores that were reported. SAT I: 1540 (750RW, 790",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Psych"
+    },
+    "ESSAY_SCORE": null
+  }
+}

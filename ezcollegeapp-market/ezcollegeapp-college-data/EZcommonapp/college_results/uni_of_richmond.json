@@ -1,0 +1,194 @@
+{
+  "post": {
+    "id": "t3_1qio5z4",
+    "title": "Uni of richmond",
+    "author": "BeHappyAndWealthy",
+    "selftext": "Uni of richmond ea is coming out day after \nThey said in their email if you are not interested withdraw your application, does that mean I am autorejected",
+    "score": "6",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1qio5z4/uni_of_richmond/",
+    "created": "2026-01-21T04:29:44+00:00",
+    "num_comments": 6,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o0svjgp",
+      "author": "Gold_Perspective_800",
+      "body": "no, everyone gets that",
+      "score": "1 point",
+      "created": "2026-01-21T04:46:27+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0sz389",
+          "author": "BeHappyAndWealthy",
+          "body": "Rightt",
+          "score": "0 points",
+          "created": "2026-01-21T05:11:18+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0svjgp",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0z2ir9",
+      "author": "Excellent_Home_2685",
+      "body": "Got it too. Dyk of any portal astrology",
+      "score": "1 point",
+      "created": "2026-01-22T02:19:07+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0zx8yc",
+          "author": "BeHappyAndWealthy",
+          "body": "I wish i did",
+          "score": "1 point",
+          "created": "2026-01-22T05:30:59+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0z2ir9",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o0zmqpf",
+      "author": "Proper-Data-3712",
+      "body": "They would likely ask that in order to open up slots for others in case you are an admit and are no longer interested. I don’t think it means you aren’t in.",
+      "score": "1 point",
+      "created": "2026-01-22T04:18:44+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o0zx9d4",
+          "author": "BeHappyAndWealthy",
+          "body": "Rightt",
+          "score": "0 points",
+          "created": "2026-01-22T05:31:04+00:00",
+          "depth": 1,
+          "parent_id": "t1_o0zmqpf",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qio5z4",
+        "author": "BeHappyAndWealthy",
+        "title": "Uni of richmond",
+        "body": "Uni of richmond ea is coming out day after \nThey said in their email if you are not interested withdraw your application, does that mean I am autorejected",
+        "full_text": "Uni of richmond\n\nUni of richmond ea is coming out day after \nThey said in their email if you are not interested withdraw your application, does that mean I am autorejected"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o0svjgp",
+          "author": "Gold_Perspective_800",
+          "body": "no, everyone gets that",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0z2ir9",
+          "author": "Excellent_Home_2685",
+          "body": "Got it too. Dyk of any portal astrology",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o0zmqpf",
+          "author": "Proper-Data-3712",
+          "body": "They would likely ask that in order to open up slots for others in case you are an admit and are no longer interested. I don’t think it means you aren’t in.",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0svjgp",
+        "author": "Gold_Perspective_800",
+        "body": "no, everyone gets that",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0sz389",
+          "author": "BeHappyAndWealthy",
+          "body": "Rightt",
+          "score": "0 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0z2ir9",
+        "author": "Excellent_Home_2685",
+        "body": "Got it too. Dyk of any portal astrology",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0zx8yc",
+          "author": "BeHappyAndWealthy",
+          "body": "I wish i did",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o0zmqpf",
+        "author": "Proper-Data-3712",
+        "body": "They would likely ask that in order to open up slots for others in case you are an admit and are no longer interested. I don’t think it means you aren’t in.",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o0zx9d4",
+          "author": "BeHappyAndWealthy",
+          "body": "Rightt",
+          "score": "0 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 3,
+    "total_qa_pairs": 4
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "i'm pretty sure people i know will recognize me b/c everything is a dead give aw",
+          "role": "",
+          "description": "i'm pretty sure people i know will recognize me b/c everything is a dead give away but i kept these pretty vague just out of caution."
+        },
+        {
+          "name": "1. *#1* cofounder and president of nonprofit making stem more accessible to unde",
+          "role": "",
+          "description": "1. *#1* cofounder and president of nonprofit making stem more accessible to underrepresented groups"
+        },
+        {
+          "name": "2. \\#2 local pageant titleholder w/ platform being promoting women in stem &amp;",
+          "role": "",
+          "description": "2. \\#2 local pageant titleholder w/ platform being promoting women in stem &amp; did lots of community service around the title and platform, placed in state competition"
+        },
+        {
+          "name": "3. \\#3 summer science program (SSP) in astro, submitted research paper as resear",
+          "role": "",
+          "description": "3. \\#3 summer science program (SSP) in astro, submitted research paper as research supplement"
+        },
+        {
+          "name": "4. \\#4 head coach of local mathcounts program, teaching middle-schoolers math",
+          "role": "",
+          "description": "4. \\#4 head coach of local mathcounts program, teaching middle-schoolers math"
+        },
+        {
+          "name": "5. \\#5 organized and painted women in stem mural for local library to educate ab",
+          "role": "",
+          "description": "5. \\#5 organized and painted women in stem mural for local library to educate about overlooked female pioneers in stem"
+        },
+        {
+          "name": "6. \\#6 organized online stem summer program for youth in my community under nonp",
+          "role": "",
+          "description": "6. \\#6 organized online stem summer program for youth in my community under nonprofit organization, got sponsorship from big company to help fund workshop kits, provided everything for free to make stem more accessible t"
+        },
+        {
+          "name": "7. \\#7 pianist for school band",
+          "role": "",
+          "description": "7. \\#7 pianist for school band"
+        },
+        {
+          "name": "8. \\#8 president of school math club",
+          "role": "",
+          "description": "8. \\#8 president of school math club"
+        },
+        {
+          "name": "9. \\#9 volunteer puppy raiser for canine companions for independence",
+          "role": "",
+          "description": "9. \\#9 volunteer puppy raiser for canine companions for independence"
+        },
+        {
+          "name": "10. \\#10 organized and painted mural to raise money for firefighters after local",
+          "role": "",
+          "description": "10. \\#10 organized and painted mural to raise money for firefighters after local wildfire"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 3x aime qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 usapho semifinalist (top \\~400?)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 congressional art competition winner, art hung in capitol building",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\#4 local pageant title + 3rd runner up for state title + state top talent award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5 2x scholastic art and writing gold key",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. \\#2 local pageant titleholder w/ platform being promoting women in stem &amp; did lots of community service around the title and platform, placed in state competition; 6. \\#6 organized online stem summer program for youth in my community under nonprofit organization, got sponsorship from big company to help fund workshop kits, provided everything for free to make stem more accessible t; 9. \\#9 volunteer puppy raiser for canine companions for independence"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied math, cs, astrophysics (varied depending on school)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

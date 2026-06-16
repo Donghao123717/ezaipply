@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 0
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Grew an investment portfolio from 6k to 18k with monthly contributions",
+          "role": "",
+          "description": "Grew an investment portfolio from 6k to 18k with monthly contributions"
+        },
+        {
+          "name": "Religious Orgo: 12 years total involvement, 4 years youth volunteer lead (PVSA)",
+          "role": "",
+          "description": "Religious Orgo: 12 years total involvement, 4 years youth volunteer lead (PVSA)"
+        },
+        {
+          "name": "Karate: 2nd-degree black belt, volunteer instructor",
+          "role": "",
+          "description": "Karate: 2nd-degree black belt, volunteer instructor"
+        },
+        {
+          "name": "Varsity tennis (2 years), 8 years total",
+          "role": "",
+          "description": "Varsity tennis (2 years), 8 years total"
+        },
+        {
+          "name": "Guitar (9 years, played the national anthem), piano (3 years)",
+          "role": "",
+          "description": "Guitar (9 years, played the national anthem), piano (3 years)"
+        },
+        {
+          "name": "Peer tutoring + middle-school tutoring (math and social studies)",
+          "role": "",
+          "description": "Peer tutoring + middle-school tutoring (math and social studies)"
+        },
+        {
+          "name": "Helped raise $20k for a women’s shelter",
+          "role": "",
+          "description": "Helped raise $20k for a women’s shelter"
+        },
+        {
+          "name": "Helped Raise $20k for Homeless Children's Education Fund",
+          "role": "",
+          "description": "Helped Raise $20k for Homeless Children's Education Fund"
+        },
+        {
+          "name": "Part-time work at a local real estate/Airbnb business",
+          "role": "",
+          "description": "Part-time work at a local real estate/Airbnb business"
+        },
+        {
+          "name": "Worked over the Summer at a local restaurant",
+          "role": "",
+          "description": "Worked over the Summer at a local restaurant"
+        },
+        {
+          "name": "Recommendations (Projected)",
+          "role": "",
+          "description": "Recommendations (Projected)"
+        },
+        {
+          "name": "AP Physics teacher",
+          "role": "",
+          "description": "AP Physics teacher"
+        },
+        {
+          "name": "Calc and Linear Algebra teacher (same person)",
+          "role": "",
+          "description": "Calc and Linear Algebra teacher (same person)"
+        },
+        {
+          "name": "Counselor",
+          "role": "",
+          "description": "Counselor"
+        },
+        {
+          "name": "Director of Computer Science at CMU (maybe because of the internship, also know ",
+          "role": "",
+          "description": "Director of Computer Science at CMU (maybe because of the internship, also know him well)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1 semester Quantitative Modeling",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1 semester AP Computer Science A OR online Personal Finance",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Quant/finance / CS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Built multi-phase quantitative trading systems (options)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Internship at Federated Hermes: presented AI strategy for finance and risk management",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CMU AI/ML research-oriented internship",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Python for modeling, backtesting, and data pipelines",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Competitions/leadership",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Wharton Global High School Investment Competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "FBLA Securities & Investments (state qualifier, (hopefully) Nationals)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Religious Orgo: 12 years total involvement, 4 years youth volunteer lead (PVSA); Karate: 2nd-degree black belt, volunteer instructor"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

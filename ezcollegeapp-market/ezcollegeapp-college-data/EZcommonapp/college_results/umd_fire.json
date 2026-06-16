@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1rc536u",
+    "title": "UMD FIRE",
+    "author": "Designer-Product-579",
+    "selftext": "what are the chances of getting accepted into the FIRE program? i applied to join, but ik some people were invited to join.",
+    "score": "5",
+    "url": "https://www.reddit.com/r/UMD/comments/1rc536u/umd_fire/",
+    "created": "2026-02-23T02:19:39+00:00",
+    "num_comments": 2,
+    "subreddit": "UMD"
+  },
+  "comments": [
+    {
+      "id": "t1_o70mdf7",
+      "author": "Taatikkk",
+      "body": "Idk, I received an invitation letter to join FIRE, but 0$ in scholarship. Thanks, UMD. \n(I can't afford full cost, but really love this uni,  hurayyyyyyy)",
+      "score": "2 points",
+      "created": "2026-02-23T20:42:02+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o77chn8",
+      "author": "maxtheboss1321",
+      "body": "i was invited but i was not accepted for fall 26 i got spring 27... and no honors college. \n\nIDC how this works at all because I also didnt get into the b school directly either. so i got spring enrollment (freshman connect)\nfire invite\nand not my major",
+      "score": "1 point",
+      "created": "2026-02-24T20:41:24+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1rc536u",
+        "author": "Designer-Product-579",
+        "title": "UMD FIRE",
+        "body": "what are the chances of getting accepted into the FIRE program? i applied to join, but ik some people were invited to join.",
+        "full_text": "UMD FIRE\n\nwhat are the chances of getting accepted into the FIRE program? i applied to join, but ik some people were invited to join."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o70mdf7",
+          "author": "Taatikkk",
+          "body": "Idk, I received an invitation letter to join FIRE, but 0$ in scholarship. Thanks, UMD. \n(I can't afford full cost, but really love this uni,  hurayyyyyyy)",
+          "score": "2 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o77chn8",
+          "author": "maxtheboss1321",
+          "body": "i was invited but i was not accepted for fall 26 i got spring 27... and no honors college. \n\nIDC how this works at all because I also didnt get into the b school directly either. so i got spring enrollment (freshman connect)\nfire invite\nand not my major",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

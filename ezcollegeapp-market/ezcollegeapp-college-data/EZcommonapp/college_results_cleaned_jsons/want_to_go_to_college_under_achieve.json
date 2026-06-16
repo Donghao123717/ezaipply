@@ -1,0 +1,38 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Is it yield protection? Don’t believe app has a red flag as one deferral was HYPSM. Child’s worried about having to go t",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS:",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "I don’t know if early admission will differ from regular decision but my child is facing many deferrals while others at the school with less “stats” are accepted.  US based.  4 UW, 12 APs mostly 5s no 3s or less, 36 ACT, 5 on campus leadership roles (Sports clubs student gov), off campus research at a strong university, community leadership. Essays can’t be too bad and tied to desired major and th"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

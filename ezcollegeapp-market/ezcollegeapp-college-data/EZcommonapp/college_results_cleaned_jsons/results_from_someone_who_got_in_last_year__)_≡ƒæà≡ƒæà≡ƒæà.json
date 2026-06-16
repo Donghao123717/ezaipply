@@ -1,0 +1,38 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.91,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 91
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Financial Literacy NPO with 15k raised partner with ivies CS tutor at local nonp",
+          "role": "",
+          "description": "Financial Literacy NPO with 15k raised partner with ivies CS tutor at local nonprofit with 100 students weekly software dev intern at a big tech firm AI reserach at local university Instagram account with 100k views"
+        },
+        {
+          "name": "LOR: 9/10 9/10",
+          "role": "",
+          "description": "LOR: 9/10 9/10"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "CS tutor at local nonprofit with 100 students weekly"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science + Econ"
+    },
+    "ESSAY_SCORE": null
+  }
+}

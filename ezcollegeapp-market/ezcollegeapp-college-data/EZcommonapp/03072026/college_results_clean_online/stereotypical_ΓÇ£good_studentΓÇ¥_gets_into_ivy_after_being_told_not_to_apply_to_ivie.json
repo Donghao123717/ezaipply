@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc. (purposefully vague so I don’t dox myself!)"
+        },
+        {
+          "name": "1. president of large and active club",
+          "role": "",
+          "description": "1. president of large and active club"
+        },
+        {
+          "name": "2. research at well regarded university",
+          "role": "",
+          "description": "2. research at well regarded university"
+        },
+        {
+          "name": "3. dance (no major leadership positions or lead roles, but I just love it :D)",
+          "role": "",
+          "description": "3. dance (no major leadership positions or lead roles, but I just love it :D)"
+        },
+        {
+          "name": "4. I write novels in my free time (have not published lmao)",
+          "role": "",
+          "description": "4. I write novels in my free time (have not published lmao)"
+        },
+        {
+          "name": "5. editor of school publication",
+          "role": "",
+          "description": "5. editor of school publication"
+        },
+        {
+          "name": "6. lots of community service hours",
+          "role": "",
+          "description": "6. lots of community service hours"
+        },
+        {
+          "name": "7. part time job",
+          "role": "",
+          "description": "7. part time job"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. some school-level recognition in the language I take",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 3 gold keys, 2 silver keys, and a bunch of honorable mentions in scholastic art and writing (poet",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. minor research publication",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 7,
+      "first_gen": true,
+      "service_summary": "6. lots of community service hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mechanical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

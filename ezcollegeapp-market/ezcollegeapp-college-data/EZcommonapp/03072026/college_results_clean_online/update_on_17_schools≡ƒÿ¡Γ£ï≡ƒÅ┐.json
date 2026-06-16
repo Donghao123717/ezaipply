@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 31,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Founder of  a print/online magazine &amp;amp;amp;amp; website for creative yo",
+          "role": "",
+          "description": "1. Founder of  a print/online magazine &amp;amp;amp;amp; website for creative youth with 350+ contributors"
+        },
+        {
+          "name": "2. Art Club Head Muralist &amp;amp;amp;amp; Historian",
+          "role": "",
+          "description": "2. Art Club Head Muralist &amp;amp;amp;amp; Historian"
+        },
+        {
+          "name": "3. Co-Founder/Meet Director for school Photography Club",
+          "role": "",
+          "description": "3. Co-Founder/Meet Director for school Photography Club"
+        },
+        {
+          "name": "4. Arts Director/Co-founder of Community club bringing awareness to social issue",
+          "role": "",
+          "description": "4. Arts Director/Co-founder of Community club bringing awareness to social issues"
+        },
+        {
+          "name": "5. ACLU Gentrification Event Organizer &amp;amp;amp;amp; Volunteer",
+          "role": "",
+          "description": "5. ACLU Gentrification Event Organizer &amp;amp;amp;amp; Volunteer"
+        },
+        {
+          "name": "6. Editorial Writer of Social Advocacy publication",
+          "role": "",
+          "description": "6. Editorial Writer of Social Advocacy publication"
+        },
+        {
+          "name": "7. Hobby artist (I draw, paint, design etc)",
+          "role": "",
+          "description": "7. Hobby artist (I draw, paint, design etc)"
+        },
+        {
+          "name": "7. Graphic Designer &amp;amp;amp;amp; Product/Portrait Photographer for  (beauty",
+          "role": "",
+          "description": "7. Graphic Designer &amp;amp;amp;amp; Product/Portrait Photographer for  (beauty supply job)"
+        },
+        {
+          "name": "8. Varsity Gymnast for one year (i quit bc it was so long lol)",
+          "role": "",
+          "description": "8. Varsity Gymnast for one year (i quit bc it was so long lol)"
+        },
+        {
+          "name": "9. Outreach Intern for Tedra Cobb for Congress",
+          "role": "",
+          "description": "9. Outreach Intern for Tedra Cobb for Congress"
+        },
+        {
+          "name": "10. Stage Crew in School Theatre",
+          "role": "",
+          "description": "10. Stage Crew in School Theatre"
+        },
+        {
+          "name": "11. North American Architecture &amp;amp;amp;amp; Gentrification School Concentr",
+          "role": "",
+          "description": "11. North American Architecture &amp;amp;amp;amp; Gentrification School Concentration"
+        },
+        {
+          "name": "12.  Inspire Member- helped senior become registered to vote in voter registrati",
+          "role": "",
+          "description": "12.  Inspire Member- helped senior become registered to vote in voter registration rallies and ads."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Teen Art Show Silver Award: Regional",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Summer Residential Governors School Finalist for Visual Art: State",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "County Superintendents Pick for Visual Arts: County",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letter of Academic Achievement: School",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 6,
+      "first_gen": null,
+      "service_summary": "4. Arts Director/Co-founder of Community club bringing awareness to social issues; 5. ACLU Gentrification Event Organizer &amp;amp;amp;amp; Volunteer"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "architecture, anthropology, philosophy, urban studies, etc"
+    },
+    "ESSAY_SCORE": null
+  }
+}

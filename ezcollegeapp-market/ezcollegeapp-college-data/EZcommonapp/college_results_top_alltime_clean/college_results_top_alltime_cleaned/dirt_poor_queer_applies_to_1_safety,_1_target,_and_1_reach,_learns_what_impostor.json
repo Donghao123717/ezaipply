@@ -1,0 +1,69 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Congressional Debate team lead - now I'm not gonna lie, I'm not the greatest ",
+          "role": "",
+          "description": "1. Congressional Debate team lead - now I'm not gonna lie, I'm not the greatest debater in the world, and I mostly got this position due to legacy (I have been a part of our school's speech and debate team since its foun"
+        },
+        {
+          "name": "2. Work - worked at a local grocery store, 12-20 hours a week depending on how m",
+          "role": "",
+          "description": "2. Work - worked at a local grocery store, 12-20 hours a week depending on how my managers were feeling 😭"
+        },
+        {
+          "name": "3. I was an artistic director for my school's chapter of a certain progressive s",
+          "role": "",
+          "description": "3. I was an artistic director for my school's chapter of a certain progressive student activist organization. I mainly did Instagram posts for various events we held, and did some video editing work here and there for lo"
+        },
+        {
+          "name": "4. Trombone section leader for my school's band program. I've been playing tromb",
+          "role": "",
+          "description": "4. Trombone section leader for my school's band program. I've been playing trombone since 5th grade, starting out on my grandma's ancient horn from an unknown instruments manufacturer from Wisconsin. I planned sectionals"
+        },
+        {
+          "name": "5. Volunteer work for a local environmental org. I was invited to come along by ",
+          "role": "",
+          "description": "5. Volunteer work for a local environmental org. I was invited to come along by a childhood friend's grandpa, and most of our work involved soil/water surveys. I was the youngest person there by probably about 40 years. "
+        },
+        {
+          "name": "6. Astronomy club. Fun little after school thing, I coordinated and gave astrono",
+          "role": "",
+          "description": "6. Astronomy club. Fun little after school thing, I coordinated and gave astronomy-related presentations and got into astrophotography with my grandpa's old telescope and mom's old DSLR camera."
+        },
+        {
+          "name": "I have more, but nothing super noteworthy. Might be blanking a bit...",
+          "role": "",
+          "description": "I have more, but nothing super noteworthy. Might be blanking a bit..."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Nothing. 😔 I didn't feel the need to report my AP scholar award as it didn't feel substantial enough",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. Volunteer work for a local environmental org. I was invited to come along by a childhood friend's grandpa, and most of our work involved soil/water surveys. I was the youngest person there by probably about 40 years. "
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "environmental science, environmental studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

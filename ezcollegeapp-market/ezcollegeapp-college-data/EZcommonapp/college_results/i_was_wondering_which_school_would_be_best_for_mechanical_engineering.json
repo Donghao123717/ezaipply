@@ -1,0 +1,88 @@
+{
+  "post": {
+    "id": "t3_1plq16g",
+    "title": "I was wondering which school would be best for Mechanical engineering",
+    "author": "lpotassiuml",
+    "selftext": "I have the choices of Penn state beherend in which i’m admitted or WPI and RPI which I most likely will get into",
+    "score": "2",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1plq16g/i_was_wondering_which_school_would_be_best_for/",
+    "created": "2025-12-13T16:53:24+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_ntx3t1s",
+      "author": "Wooden-Coast4307",
+      "body": "Purdue?",
+      "score": "0 points",
+      "created": "2025-12-14T03:03:02+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_ntxs1ga",
+          "author": "lpotassiuml",
+          "body": "Should I apply? I haven’t yet",
+          "score": "1 point",
+          "created": "2025-12-14T05:58:38+00:00",
+          "depth": 1,
+          "parent_id": "t1_ntx3t1s",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1plq16g",
+        "author": "lpotassiuml",
+        "title": "I was wondering which school would be best for Mechanical engineering",
+        "body": "I have the choices of Penn state beherend in which i’m admitted or WPI and RPI which I most likely will get into",
+        "full_text": "I was wondering which school would be best for Mechanical engineering\n\nI have the choices of Penn state beherend in which i’m admitted or WPI and RPI which I most likely will get into"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_ntx3t1s",
+          "author": "Wooden-Coast4307",
+          "body": "Purdue?",
+          "score": "0 points",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_ntx3t1s",
+        "author": "Wooden-Coast4307",
+        "body": "Purdue?",
+        "score": "0 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_ntxs1ga",
+          "author": "lpotassiuml",
+          "body": "Should I apply? I haven’t yet",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

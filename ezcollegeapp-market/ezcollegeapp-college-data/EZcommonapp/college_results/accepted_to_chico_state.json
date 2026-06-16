@@ -1,0 +1,107 @@
+{
+  "post": {
+    "id": "t3_1p3l3o8",
+    "title": "Accepted to Chico State",
+    "author": "Lazy-Election-3000",
+    "selftext": "Living in San Francisco all i’ve been taught is to go to the elite schools, Mom at Berkeley and Uncle at Harvard. I could never live up to these expectations, coming very very short, sometimes i thought i wouldn’t even go to college, but i turned it around my Junior year. So im just grateful i have the chance to continue my education despite my slow start to my highschool “career”.",
+    "score": "11",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1p3l3o8/accepted_to_chico_state/",
+    "created": "2025-11-22T05:21:34+00:00",
+    "num_comments": 3,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nqq32br",
+      "author": "amym184",
+      "body": "Congratulations!!!",
+      "score": "2 points",
+      "created": "2025-11-25T16:13:24+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nqqpnk5",
+          "author": "Lazy-Election-3000",
+          "body": "thanks dude",
+          "score": "1 point",
+          "created": "2025-11-25T18:04:44+00:00",
+          "depth": 1,
+          "parent_id": "t1_nqq32br",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_ntiwnf7",
+      "author": "VarietyLost3428",
+      "body": "Congratulations! My son was accepted to Chico, too. He's waiting on a bunch of others (not Cal or Harvard level! Not even close) but Chico feels like a great option. Everyone we talk to who went there loves it. They are known for my son's desired major, so that helps, but I feel like this is a good, solid option for him. You should be proud of yourself!",
+      "score": "1 point",
+      "created": "2025-12-11T20:16:56+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1p3l3o8",
+        "author": "Lazy-Election-3000",
+        "title": "Accepted to Chico State",
+        "body": "Living in San Francisco all i’ve been taught is to go to the elite schools, Mom at Berkeley and Uncle at Harvard. I could never live up to these expectations, coming very very short, sometimes i thought i wouldn’t even go to college, but i turned it around my Junior year. So im just grateful i have the chance to continue my education despite my slow start to my highschool “career”.",
+        "full_text": "Accepted to Chico State\n\nLiving in San Francisco all i’ve been taught is to go to the elite schools, Mom at Berkeley and Uncle at Harvard. I could never live up to these expectations, coming very very short, sometimes i thought i wouldn’t even go to college, but i turned it around my Junior year. So im just grateful i have the chance to continue my education despite my slow start to my highschool “career”."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nqq32br",
+          "author": "amym184",
+          "body": "Congratulations!!!",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_ntiwnf7",
+          "author": "VarietyLost3428",
+          "body": "Congratulations! My son was accepted to Chico, too. He's waiting on a bunch of others (not Cal or Harvard level! Not even close) but Chico feels like a great option. Everyone we talk to who went there loves it. They are known for my son's desired major, so that helps, but I feel like this is a good, solid option for him. You should be proud of yourself!",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nqq32br",
+        "author": "amym184",
+        "body": "Congratulations!!!",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nqqpnk5",
+          "author": "Lazy-Election-3000",
+          "body": "thanks dude",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

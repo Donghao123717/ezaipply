@@ -1,0 +1,88 @@
+{
+  "post": {
+    "id": "t3_1pn31g1",
+    "title": "I made a free tool that checks your essays' uniqueness against 20,000 samples",
+    "author": "RussianVodkaHacker",
+    "selftext": "The number 1 advice I got when applying is to \"make your story unique\".\n\nLike no shit sherlock, but how do I stand out among hundreds of thousands of applicants?\n\n2 years at CMU later, I've built a free tool that cross-checks your essays against a database of 20k public samples and \"scientifically\" (to the extent possible, no AI bs) calculates your uniqueness score.\n\ncheck it out here: https://notcommonapp.org/",
+    "score": "0",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pn31g1/i_made_a_free_tool_that_checks_your_essays/",
+    "created": "2025-12-15T09:14:07+00:00",
+    "num_comments": 1,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "",
+      "author": "[deleted]",
+      "body": "[deleted]",
+      "score": "0",
+      "created": "2025-12-15T09:34:11+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nu95z4w",
+          "author": "no_u_pasma",
+          "body": "this guy is really sketchy. he was constantly posting fake profiles to drive viewers to his other ai websites.",
+          "score": "1 point",
+          "created": "2025-12-16T00:52:43+00:00",
+          "depth": 1,
+          "parent_id": "",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pn31g1",
+        "author": "RussianVodkaHacker",
+        "title": "I made a free tool that checks your essays' uniqueness against 20,000 samples",
+        "body": "The number 1 advice I got when applying is to \"make your story unique\".\n\nLike no shit sherlock, but how do I stand out among hundreds of thousands of applicants?\n\n2 years at CMU later, I've built a free tool that cross-checks your essays against a database of 20k public samples and \"scientifically\" (to the extent possible, no AI bs) calculates your uniqueness score.\n\ncheck it out here: https://notcommonapp.org/",
+        "full_text": "I made a free tool that checks your essays' uniqueness against 20,000 samples\n\nThe number 1 advice I got when applying is to \"make your story unique\".\n\nLike no shit sherlock, but how do I stand out among hundreds of thousands of applicants?\n\n2 years at CMU later, I've built a free tool that cross-checks your essays against a database of 20k public samples and \"scientifically\" (to the extent possible, no AI bs) calculates your uniqueness score.\n\ncheck it out here: https://notcommonapp.org/"
+      },
+      "direct_responses": [
+        {
+          "id": "",
+          "author": "[deleted]",
+          "body": "[deleted]",
+          "score": "0",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "",
+        "author": "[deleted]",
+        "body": "[deleted]",
+        "score": "0",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nu95z4w",
+          "author": "no_u_pasma",
+          "body": "this guy is really sketchy. he was constantly posting fake profiles to drive viewers to his other ai websites.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

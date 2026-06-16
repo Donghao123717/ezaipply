@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 27,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Primarily family responsibilities so I couldn't really focus on any serious extr",
+          "role": "",
+          "description": "Primarily family responsibilities so I couldn't really focus on any serious extracurriculars Baking/Cooking for friends and family; gifts, parties"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Economics/Personal Finance HN, AP English Literature/Composition, AP Statistics, AP Psychology,",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Biology and/or chemistry concentration"
+    },
+    "ESSAY_SCORE": null
+  }
+}

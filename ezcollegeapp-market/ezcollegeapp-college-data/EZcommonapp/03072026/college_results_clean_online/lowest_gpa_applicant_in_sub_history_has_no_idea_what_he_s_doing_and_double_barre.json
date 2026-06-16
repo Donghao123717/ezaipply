@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1130,
+      "act_composite": 29,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "This is copy/pasted directly from the activities resume I made (with school info",
+          "role": "",
+          "description": "This is copy/pasted directly from the activities resume I made (with school info taken out)"
+        },
+        {
+          "name": "Sold shoes, clothing, and other goods online",
+          "role": "",
+          "description": "Sold shoes, clothing, and other goods online"
+        },
+        {
+          "name": "December 2020 - Present",
+          "role": "",
+          "description": "December 2020 - Present"
+        },
+        {
+          "name": "To this point sold over $13,000 worth of shoes, clothes and other items on platf",
+          "role": "",
+          "description": "To this point sold over $13,000 worth of shoes, clothes and other items on platforms like GOAT, StockX, and Discogs"
+        },
+        {
+          "name": "Band member at (1st high school/2nd high school)",
+          "role": "",
+          "description": "Band member at (1st high school/2nd high school)"
+        },
+        {
+          "name": "August 2018 - June 2021",
+          "role": "",
+          "description": "August 2018 - June 2021"
+        },
+        {
+          "name": "Was a percussion player 9th-11th grade, played every day - usually on snare/bass",
+          "role": "",
+          "description": "Was a percussion player 9th-11th grade, played every day - usually on snare/bass drum"
+        },
+        {
+          "name": "Took care of all household chores",
+          "role": "",
+          "description": "Took care of all household chores"
+        },
+        {
+          "name": "August 2018 - Present",
+          "role": "",
+          "description": "August 2018 - Present"
+        },
+        {
+          "name": "Was placed in charge of doing laundry, making lunch/dinner every day, feeding + ",
+          "role": "",
+          "description": "Was placed in charge of doing laundry, making lunch/dinner every day, feeding + walking dog, and cleaning house because father has health issues"
+        },
+        {
+          "name": "Volunteer for congressional campaign",
+          "role": "",
+          "description": "Volunteer for congressional campaign"
+        },
+        {
+          "name": "February 2020 - March 2020",
+          "role": "",
+          "description": "February 2020 - March 2020"
+        },
+        {
+          "name": "Helped canvas and get signatures for (X senate candidate) congressional campaign",
+          "role": "",
+          "description": "Helped canvas and get signatures for (X senate candidate) congressional campaign"
+        },
+        {
+          "name": "Volunteer at Food Bank of Northern Nevada",
+          "role": "",
+          "description": "Volunteer at Food Bank of Northern Nevada"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "None",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "February 2020 - March 2020; Helped canvas and get signatures for (X senate candidate) congressional campaign; Volunteer at Food Bank of Northern Nevada; January 2019 - February 2019; Volunteered by sorting food into bins, helping discard and recycle various trash created, compacting trash collected; Member of Climate Action Club"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "supply chain management/human resources management/marketing depending on school"
+    },
+    "ESSAY_SCORE": null
+  }
+}

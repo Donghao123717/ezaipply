@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1190,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Surf league competitor",
+          "role": "",
+          "description": "Surf league competitor"
+        },
+        {
+          "name": "Design &amp;amp; construction assistant",
+          "role": "",
+          "description": "Design &amp;amp; construction assistant"
+        },
+        {
+          "name": "Sales associate job",
+          "role": "",
+          "description": "Sales associate job"
+        },
+        {
+          "name": "Babysitting tutoring",
+          "role": "",
+          "description": "Babysitting tutoring"
+        },
+        {
+          "name": "Varsity/JV track and field",
+          "role": "",
+          "description": "Varsity/JV track and field"
+        },
+        {
+          "name": "Animal shelter volunteer",
+          "role": "",
+          "description": "Animal shelter volunteer"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "letter award for track",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Athlete scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Won a big essay contest",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "(ALL FOR SPRING SEMESTER)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Acceptances:* Purdue &amp;lt;3, UD, IU, Clark, Fairfield, URI, UNH",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rejections:* UMass, UVM",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Animal shelter volunteer"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied exploratory, intending biochem or pharmacy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

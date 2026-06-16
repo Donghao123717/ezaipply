@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.75,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Head of school costuming dept- solo costumed 1 musical",
+          "role": "",
+          "description": "1. Head of school costuming dept- solo costumed 1 musical"
+        },
+        {
+          "name": "2. Summer counselor at children's art camp",
+          "role": "",
+          "description": "2. Summer counselor at children's art camp"
+        },
+        {
+          "name": "3. Volunteer at local children's outdoor school",
+          "role": "",
+          "description": "3. Volunteer at local children's outdoor school"
+        },
+        {
+          "name": "4. Babysitting",
+          "role": "",
+          "description": "4. Babysitting"
+        },
+        {
+          "name": "5. Summer swim instructor",
+          "role": "",
+          "description": "5. Summer swim instructor"
+        },
+        {
+          "name": "6. Professional sewing classes (4 yrs)",
+          "role": "",
+          "description": "6. Professional sewing classes (4 yrs)"
+        },
+        {
+          "name": "7. Personal costume designing",
+          "role": "",
+          "description": "7. Personal costume designing"
+        },
+        {
+          "name": "8. Attending Jewish holidays at local temple",
+          "role": "",
+          "description": "8. Attending Jewish holidays at local temple"
+        },
+        {
+          "name": "9. UCLA 2 week summer program for those interested in theater",
+          "role": "",
+          "description": "9. UCLA 2 week summer program for those interested in theater"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. $1k grant for excellence in theatre production",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. Volunteer at local children's outdoor school"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "theater"
+    },
+    "ESSAY_SCORE": null
+  }
+}

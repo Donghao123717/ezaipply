@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "#1 Mathematical Developer, Wharton Global High School Data Science Competition —",
+          "role": "",
+          "description": "#1 Mathematical Developer, Wharton Global High School Data Science Competition — Built sports analytics models using large datasets (ELO + win probability); Global Semifinalist. #2 Co-Founder & Data Analyst, school climate initiative — Developed an open-source dashboard analyzing campus carbon emissions and led sustainability competitions/drives."
+        },
+        {
+          "name": "#5 Quantitative Research & Strategy Intern, geospatial/solar analytics startup —",
+          "role": "",
+          "description": "#5 Quantitative Research & Strategy Intern, geospatial/solar analytics startup — Conducted competitor research, built pricing strategy reports, and presented findings to leadership. #6 Team Leader & Equity Researcher, Wharton Investment Competition — Led a 6-member team, built valuation models, and achieved ~16% portfolio return (Top ~2% globally)."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: Math HL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CS HL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Econ HL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Physics SL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Spanish B SL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English L&L SL",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ToK",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "EE in CS. (Same for 2 years) Standardized Testing SAT I: 1510 (760RW, 750M) AP/IB: 38 PG",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "#7 Volunteer, weekly food distribution initiative — 80+ service hours helping distribute meals and expand outreach locations."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Applied Mathematics / Mathematics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

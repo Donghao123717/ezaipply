@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.77,
+      "sat_total": null,
+      "act_composite": 29,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Long term social media manager at a local shoe store. At home nail business for ",
+          "role": "",
+          "description": "Long term social media manager at a local shoe store. At home nail business for friends and family. Assets manager for family business. NAHS Treasurer. DECA Club social media manager. Horse back riding."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: 4 APs / 1 Dual Enrollment",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Standardized Testing:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ACT: 29",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP/IB: 4 AP PYSCH / 4 APES / 3 COMP SCI P",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Volunteer at a local animal shelter."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Communications + Studio Arts Minor"
+    },
+    "ESSAY_SCORE": null
+  }
+}

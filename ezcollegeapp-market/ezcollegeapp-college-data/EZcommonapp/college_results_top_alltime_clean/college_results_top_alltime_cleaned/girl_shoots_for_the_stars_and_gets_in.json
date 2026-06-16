@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1500,
+      "act_composite": 4,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "All my common app/coalition activities listed in order:",
+          "role": "",
+          "description": "All my common app/coalition activities listed in order:"
+        },
+        {
+          "name": "1. **School Newspaper -** was involved all four years and served as editor, both",
+          "role": "",
+          "description": "1. **School Newspaper -** was involved all four years and served as editor, both junior and senior year"
+        },
+        {
+          "name": "2. **MIT MOSTEC** \\- MIT Summer Program, participated my summer after junior yea",
+          "role": "",
+          "description": "2. **MIT MOSTEC** \\- MIT Summer Program, participated my summer after junior year"
+        },
+        {
+          "name": "3. **University Summer Enrichment Program** \\- program I participated in the sum",
+          "role": "",
+          "description": "3. **University Summer Enrichment Program** \\- program I participated in the summer after my junior year as well, centered around medicine"
+        },
+        {
+          "name": "4. **Youth Ministry -** something I did since eighth grade, very important to me",
+          "role": "",
+          "description": "4. **Youth Ministry -** something I did since eighth grade, very important to me as I consider God to be number one in my life and allow my values to guide everything I do"
+        },
+        {
+          "name": "5. **National Honor Society -** Served as president my senior year, focused on r",
+          "role": "",
+          "description": "5. **National Honor Society -** Served as president my senior year, focused on revamping the NHS after COVID and cultural projects"
+        },
+        {
+          "name": "6. **Varsity Track -** not exactly a track star, but competed in championship me",
+          "role": "",
+          "description": "6. **Varsity Track -** not exactly a track star, but competed in championship meets lol, and did it all four years"
+        },
+        {
+          "name": "7. **Varsity Golf -** did it all four years, also not Olympian level, really enj",
+          "role": "",
+          "description": "7. **Varsity Golf -** did it all four years, also not Olympian level, really enjoyed the sport and team though"
+        },
+        {
+          "name": "8. **Class Council -** held several non-President positions from freshman until ",
+          "role": "",
+          "description": "8. **Class Council -** held several non-President positions from freshman until junior year"
+        },
+        {
+          "name": "9. **Part-Time Job** \\- was a cashier at my local grocery store from the summer ",
+          "role": "",
+          "description": "9. **Part-Time Job** \\- was a cashier at my local grocery store from the summer after sophomore year all the way through application season through now lol"
+        },
+        {
+          "name": "10. **Science Club** \\- was on a science-olympiad type team that won regionals t",
+          "role": "",
+          "description": "10. **Science Club** \\- was on a science-olympiad type team that won regionals the main year I participated"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Posse Foundation Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National African American Recognition Program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. ACT-SO Medalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Local Medical Enrichment Program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP Scholar",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "chemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

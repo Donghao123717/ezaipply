@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": ") Undergraduate Research at CUNY School (11)",
+          "role": "",
+          "description": ") Undergraduate Research at CUNY School (11)"
+        },
+        {
+          "name": ") Undergraduate Research at Syracuse University (12)",
+          "role": "",
+          "description": ") Undergraduate Research at Syracuse University (12)"
+        },
+        {
+          "name": ") Cofounded a Golf team at my school (10-12)",
+          "role": "",
+          "description": ") Cofounded a Golf team at my school (10-12)"
+        },
+        {
+          "name": ") Club Soccer(10-11). Our Team won our league + a tourney",
+          "role": "",
+          "description": ") Club Soccer(10-11). Our Team won our league + a tourney"
+        },
+        {
+          "name": ") Varsity Soccer (9-12)",
+          "role": "",
+          "description": ") Varsity Soccer (9-12)"
+        },
+        {
+          "name": ") Worked as a Camp Counselor (12)",
+          "role": "",
+          "description": ") Worked as a Camp Counselor (12)"
+        },
+        {
+          "name": ") Completed an internship with a large nonprofit. (12)",
+          "role": "",
+          "description": ") Completed an internship with a large nonprofit. (12)"
+        },
+        {
+          "name": ") Tutor (11-12)",
+          "role": "",
+          "description": ") Tutor (11-12)"
+        },
+        {
+          "name": ") Treasurer of Computer Science Club(9-12)",
+          "role": "",
+          "description": ") Treasurer of Computer Science Club(9-12)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "APs (8): APUSH (5)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Lang (4)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CSP (4)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Phys1 (3)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP World (5)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP CSA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc BC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Stat Dual Credits: 3 Classes Senior Year Course Load: AP CSA , AP Calc BC, AP Stat, Economics, AP Gov, Science Resear",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "8.) Tutor (11-12)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Business/Finance"
+    },
+    "ESSAY_SCORE": null
+  }
+}

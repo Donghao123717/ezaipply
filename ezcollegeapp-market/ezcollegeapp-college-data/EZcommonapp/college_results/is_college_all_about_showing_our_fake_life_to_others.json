@@ -1,0 +1,92 @@
+{
+  "post": {
+    "id": "t3_1p30hdy",
+    "title": "Is college all about showing our fake life to others",
+    "author": "OnceAProdigy",
+    "selftext": "Everyone has a mask over them a fake one",
+    "score": "1",
+    "url": "https://www.reddit.com/r/Life/comments/1p30hdy/is_college_all_about_showing_our_fake_life_to/",
+    "created": "2025-11-21T14:46:29+00:00",
+    "num_comments": 3,
+    "subreddit": "Life"
+  },
+  "comments": [
+    {
+      "id": "t1_nq11wxr",
+      "author": "AutoModerator",
+      "body": "Hey, r/Life just added new user flairs ! Go check them out, and choose one for yourself. If you encounter any difficulties applying a flair, check this : https://support.reddithelp.com/hc/en-us/articles/205242695-How-do-I-get-user-flair out !\n\nI am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "score": "0",
+      "created": "2025-11-21T14:46:29+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nq24w6u",
+      "author": "MarsBahr-",
+      "body": "Only if you value that in some sense and spend your time doing it. Probably should spend some time figuring out the person you are going to be for the rest of your life because this is the last time you get to think about it without also keeping yourself alive at the same time.",
+      "score": "1 point",
+      "created": "2025-11-21T17:58:52+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nqn3z50",
+      "author": "heydadlookatme420",
+      "body": "Is that what its about now ? When i was 20 it was about how much you can smoke with out passing out",
+      "score": "1 point",
+      "created": "2025-11-25T02:52:17+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1p30hdy",
+        "author": "OnceAProdigy",
+        "title": "Is college all about showing our fake life to others",
+        "body": "Everyone has a mask over them a fake one",
+        "full_text": "Is college all about showing our fake life to others\n\nEveryone has a mask over them a fake one"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nq11wxr",
+          "author": "AutoModerator",
+          "body": "Hey, r/Life just added new user flairs ! Go check them out, and choose one for yourself. If you encounter any difficulties applying a flair, check this : https://support.reddithelp.com/hc/en-us/articles/205242695-How-do-I-get-user-flair out !\n\nI am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "score": "0",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nq24w6u",
+          "author": "MarsBahr-",
+          "body": "Only if you value that in some sense and spend your time doing it. Probably should spend some time figuring out the person you are going to be for the rest of your life because this is the last time you get to think about it without also keeping yourself alive at the same time.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nqn3z50",
+          "author": "heydadlookatme420",
+          "body": "Is that what its about now ? When i was 20 it was about how much you can smoke with out passing out",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 3,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": 30,
+      "class_rank_percentile": 81.0,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Worship leader, screenwriter, and teacher for local children's ministry. Most",
+          "role": "",
+          "description": "1. Worship leader, screenwriter, and teacher for local children's ministry. Most time intensive EC for me"
+        },
+        {
+          "name": "2. Secretary of Math Team/Mu Alpha Theta",
+          "role": "",
+          "description": "2. Secretary of Math Team/Mu Alpha Theta"
+        },
+        {
+          "name": "3. Vice President of Paws with a Cause (animal welfare club at school). We would",
+          "role": "",
+          "description": "3. Vice President of Paws with a Cause (animal welfare club at school). We would do stuff like host donations drives and volunteer events"
+        },
+        {
+          "name": "4. JA Fellows, was VP of Sales freshman year",
+          "role": "",
+          "description": "4. JA Fellows, was VP of Sales freshman year"
+        },
+        {
+          "name": "5. Stock portfolio internship. Basically a group of interns learned about stocks",
+          "role": "",
+          "description": "5. Stock portfolio internship. Basically a group of interns learned about stocks and made presentations on why you should invest in a certain stock"
+        },
+        {
+          "name": "6. Writing Fellows, a club you needed a teacher to recommend you for and where y",
+          "role": "",
+          "description": "6. Writing Fellows, a club you needed a teacher to recommend you for and where you'd get to tutor students in English classes/ assist the class"
+        },
+        {
+          "name": "7. Lead role in a musical and tech crew in a play",
+          "role": "",
+          "description": "7. Lead role in a musical and tech crew in a play"
+        },
+        {
+          "name": "8. Some chemistry tutoring",
+          "role": "",
+          "description": "8. Some chemistry tutoring"
+        },
+        {
+          "name": "9. NHS membership as well as membership in all academic honor societies",
+          "role": "",
+          "description": "9. NHS membership as well as membership in all academic honor societies"
+        },
+        {
+          "name": "10. Scientific Research Education Internship (only used in LOCI since I got in a",
+          "role": "",
+          "description": "10. Scientific Research Education Internship (only used in LOCI since I got in after most apps)"
+        },
+        {
+          "name": "\\*\\*Not all of these were listed for MIT since they only have four spaces for EC",
+          "role": "",
+          "description": "\\*\\*Not all of these were listed for MIT since they only have four spaces for ECs and I didn't want to overload the additional info section"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Wellesley Book Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Top 19% Paper in the Math Modeling Challenge",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Top 30% of videos in the Breakthrough Junior Challenge",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Sobresaliente Impromptu Speech, Declamation, and Dramatic Presentation at Florida Spanish Confere",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National AP Scholar, AP Scholar with Distinction, AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 4,
+      "first_gen": true,
+      "service_summary": "3. Vice President of Paws with a Cause (animal welfare club at school). We would do stuff like host donations drives and volunteer events; 6. Writing Fellows, a club you needed a teacher to recommend you for and where you'd get to tutor students in English classes/ assist the class"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "most like biology and chemistry (that's what i put on my applications)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.69,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Band",
+          "role": "",
+          "description": "Band"
+        },
+        {
+          "name": "Academic Decathlon",
+          "role": "",
+          "description": "Academic Decathlon"
+        },
+        {
+          "name": "Volunteering, 64 hours",
+          "role": "",
+          "description": "Volunteering, 64 hours"
+        },
+        {
+          "name": "Social Justice",
+          "role": "",
+          "description": "Social Justice"
+        },
+        {
+          "name": "Learning and playing drums",
+          "role": "",
+          "description": "Learning and playing drums"
+        },
+        {
+          "name": "Soccer/Track, 3 years",
+          "role": "",
+          "description": "Soccer/Track, 3 years"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "College Board National Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State Seal of Biliteracy",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Accepted: Penn State Main Campus Purdue UMass Amherst Northeastern Virginia Tech University of Maryland",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Deferred: MIT",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rejected: Georgia Tech UIUC",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Still waiting: UC Berkeley Stanford Cornell UT Austin Harvard (parents made me apply)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Thoughts so far:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Pretty disappointed with Georgia Tech. I know I was fighting an uphill battle with my GPA but I still really wanted to g",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "It looks like I’m going to end up going to Purdue. I don’t know much about it so it’s kind of weird going somewhere wher",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: I have a couple friends from my school who went to Purdue for Engineering. They really like it and one is now ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 64,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "* Electrical Engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

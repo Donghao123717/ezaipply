@@ -1,0 +1,88 @@
+{
+  "post": {
+    "id": "t3_1qdph2c",
+    "title": "👋Welcome to r/Trackadem - Introduce Yourself and Read First!",
+    "author": "CulturalOperation209",
+    "selftext": "Hey everyone! I’m u/CulturalOperation209, the founding moderator of r/Trackadem.\n\nThis community is the home for everything related to Trackadem, a student-focused platform built to help college students stay organized, on track, and ahead. Whether you’re managing multiple classes, balancing work and school, or just trying to make college less overwhelming, this space is for you.\n\nWhat to Post\n\nFeel free to share anything related to:\n    • Staying organized in college\n    • Managing syllabi, assignments, and deadlines\n    • Study habits and productivity tips\n    • College planning, degree progress, or academic goals\n    • Feedback, ideas, or feature requests for Trackadem\n    • General student life struggles and wins\n\nQuestions, thoughts, and honest discussions are always welcome.\n\nCommunity Vibe\n\nThis is a friendly, constructive, and inclusive space. Respect each other, help when you can, and keep things productive. The goal is to build something useful together.\n\nHow to Get Started\n    1.  Introduce yourself in the comments below\n    2.  Make your first post — even a simple question helps get things going\n    3.  Invite anyone you know who could benefit from this community\n    4.  Want to help build this subreddit? We’re open to adding moderators — feel free to message me\n\nThanks for being part of the very first wave. Let’s grow r/Trackadem into something genuinely helpful for students.",
+    "score": "1",
+    "url": "https://www.reddit.com/r/Trackadem/comments/1qdph2c/welcome_to_rtrackadem_introduce_yourself_and_read/",
+    "created": "2026-01-15T17:15:56+00:00",
+    "num_comments": 2,
+    "subreddit": "Trackadem"
+  },
+  "comments": [
+    {
+      "id": "t1_nzw1j77",
+      "author": "gringaqueaprende",
+      "body": "This looks like a pretty cool resource, but if you don't mind me asking, how much AI does it use? I wanna reduce my personal usage as much as possible",
+      "score": "1 point",
+      "created": "2026-01-16T08:59:13+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nzxshu5",
+          "author": "CulturalOperation209",
+          "body": "You can check it out on google, Ai does a lot to help. \nCheck it out Trackadem.com",
+          "score": "1 point",
+          "created": "2026-01-16T15:47:54+00:00",
+          "depth": 1,
+          "parent_id": "t1_nzw1j77",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1qdph2c",
+        "author": "CulturalOperation209",
+        "title": "👋Welcome to r/Trackadem - Introduce Yourself and Read First!",
+        "body": "Hey everyone! I’m u/CulturalOperation209, the founding moderator of r/Trackadem.\n\nThis community is the home for everything related to Trackadem, a student-focused platform built to help college students stay organized, on track, and ahead. Whether you’re managing multiple classes, balancing work and school, or just trying to make college less overwhelming, this space is for you.\n\nWhat to Post\n\nFeel free to share anything related to:\n    • Staying organized in college\n    • Managing syllabi, assignments, and deadlines\n    • Study habits and productivity tips\n    • College planning, degree progress, or academic goals\n    • Feedback, ideas, or feature requests for Trackadem\n    • General student life struggles and wins\n\nQuestions, thoughts, and honest discussions are always welcome.\n\nCommunity Vibe\n\nThis is a friendly, constructive, and inclusive space. Respect each other, help when you can, and keep things productive. The goal is to build something useful together.\n\nHow to Get Started\n    1.  Introduce yourself in the comments below\n    2.  Make your first post — even a simple question helps get things going\n    3.  Invite anyone you know who could benefit from this community\n    4.  Want to help build this subreddit? We’re open to adding moderators — feel free to message me\n\nThanks for being part of the very first wave. Let’s grow r/Trackadem into something genuinely helpful for students.",
+        "full_text": "👋Welcome to r/Trackadem - Introduce Yourself and Read First!\n\nHey everyone! I’m u/CulturalOperation209, the founding moderator of r/Trackadem.\n\nThis community is the home for everything related to Trackadem, a student-focused platform built to help college students stay organized, on track, and ahead. Whether you’re managing multiple classes, balancing work and school, or just trying to make college less overwhelming, this space is for you.\n\nWhat to Post\n\nFeel free to share anything related to:\n    • Staying organized in college\n    • Managing syllabi, assignments, and deadlines\n    • Study habits and productivity tips\n    • College planning, degree progress, or academic goals\n    • Feedback, ideas, or feature requests for Trackadem\n    • General student life struggles and wins\n\nQuestions, thoughts, and honest discussions are always welcome.\n\nCommunity Vibe\n\nThis is a friendly, constructive, and inclusive space. Respect each other, help when you can, and keep things productive. The goal is to build something useful together.\n\nHow to Get Started\n    1.  Introduce yourself in the comments below\n    2.  Make your first post — even a simple question helps get things going\n    3.  Invite anyone you know who could benefit from this community\n    4.  Want to help build this subreddit? We’re open to adding moderators — feel free to message me\n\nThanks for being part of the very first wave. Let’s grow r/Trackadem into something genuinely helpful for students."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nzw1j77",
+          "author": "gringaqueaprende",
+          "body": "This looks like a pretty cool resource, but if you don't mind me asking, how much AI does it use? I wanna reduce my personal usage as much as possible",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nzw1j77",
+        "author": "gringaqueaprende",
+        "body": "This looks like a pretty cool resource, but if you don't mind me asking, how much AI does it use? I wanna reduce my personal usage as much as possible",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nzxshu5",
+          "author": "CulturalOperation209",
+          "body": "You can check it out on google, Ai does a lot to help. \nCheck it out Trackadem.com",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

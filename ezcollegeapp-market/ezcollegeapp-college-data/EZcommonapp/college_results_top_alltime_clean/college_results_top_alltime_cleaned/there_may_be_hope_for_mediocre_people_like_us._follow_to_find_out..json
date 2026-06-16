@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. *MUN: A lot of MUN awards, chairing and delegate experiences \\[4 years\\]*",
+          "role": "",
+          "description": "1. *MUN: A lot of MUN awards, chairing and delegate experiences \\[4 years\\]*"
+        },
+        {
+          "name": "2. *Basketball: Played for my school no awards or anything \\[4 years\\]. I was ba",
+          "role": "",
+          "description": "2. *Basketball: Played for my school no awards or anything \\[4 years\\]. I was basically a bench warmer kinda player*"
+        },
+        {
+          "name": "3. *Table Tennis: Same, as 2. no awards or anything \\[4 years\\] but I played the",
+          "role": "",
+          "description": "3. *Table Tennis: Same, as 2. no awards or anything \\[4 years\\] but I played the solo matches for my school.*"
+        },
+        {
+          "name": "4. *Paid internship: Local company, learned about how companies use data to targ",
+          "role": "",
+          "description": "4. *Paid internship: Local company, learned about how companies use data to target ads and got paid a total of $300 for 2 weeks \\[grade 11\\]*"
+        },
+        {
+          "name": "5. *Book Club: Basically a program where we exchange books we've read for books ",
+          "role": "",
+          "description": "5. *Book Club: Basically a program where we exchange books we've read for books we haven't. Created a website and program for that \\[2 years\\]*"
+        },
+        {
+          "name": "6. *Volunteering: Dubai Women's Run and Dubai Food Bank \\[2 years\\]*",
+          "role": "",
+          "description": "6. *Volunteering: Dubai Women's Run and Dubai Food Bank \\[2 years\\]*"
+        },
+        {
+          "name": "7. *Family things: All the housework since my mom is diabetic and fatigued most ",
+          "role": "",
+          "description": "7. *Family things: All the housework since my mom is diabetic and fatigued most of the time. Accountant and receptionist at my dad's company after school 3/7 days a week.*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *CBSE participation certificate for playing in the clusters*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. MUN awards (best del, best position paper/research, honorable mentions, outstanding del)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. that's all, pretty mediocre I'm telling you",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics, mis, pre-law idk tbh."
+    },
+    "ESSAY_SCORE": null
+  }
+}

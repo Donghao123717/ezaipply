@@ -1,0 +1,30 @@
+{"Question": "UGA本科录取统计中，Admitted Class of 2029 的学生有多大比例修过至少一门AP/IB/Dual Enrollment等高级课程？", "Answer": "98%的Admitted Class of 2029学生修过至少一门AP、IB或Dual Enrollment等高级课程。", "Label": "Course Rigor"}
+{"Question": "在UGA Admitted Class of 2029中，有多少名学生的core high school GPA达到4.00或更高？", "Answer": "共有14,795名学生的core high school GPA为4.00或更高。", "Label": "Academic Profile"}
+{"Question": "在UGA Admitted Class of 2029中，有多少名学生是年级前两名毕业（first or second in their class）？", "Answer": "共有610名学生以年级第一或第二名毕业。", "Label": "Class Rank"}
+{"Question": "UGA 2024年的总在校人数（Overall Enrollment）是多少？", "Answer": "2024年UGA总在校人数为43,146。", "Label": "Enrollment"}
+{"Question": "UGA 2024年的本科在校人数（Undergraduate Enrollment）是多少？", "Answer": "2024年UGA本科在校人数为32,399。", "Label": "Enrollment"}
+{"Question": "UGA 2024年的研究生在校人数（Graduate Enrollment）是多少？", "Answer": "2024年UGA研究生在校人数为10,747。", "Label": "Enrollment"}
+{"Question": "UGA首年（first-year）申请收到多少份（Applications Received）？", "Answer": "共收到47,860+份申请（数字为估计值）。", "Label": "Admissions Volume"}
+{"Question": "UGA首年（first-year）录取了多少人（Applicants Admitted）？", "Answer": "录取16,200+名申请者（数字为估计值）。", "Label": "Admissions Volume"}
+{"Question": "UGA新入学的首年学生（New First-Year Students Enrolled）有多少人？", "Answer": "新入学首年学生为6,200人（数字为估计值）。", "Label": "Enrollment"}
+{"Question": "UGA录取首年学生的高中核心GPA中位50%区间是多少？", "Answer": "录取首年学生（All Admitted First-Year Students）的高中核心GPA中位50%为4.07–4.35。", "Label": "GPA"}
+{"Question": "UGA录取Honors学生的高中核心GPA中位50%区间是多少？", "Answer": "录取Honors学生（All Admitted Honors Students）的高中核心GPA中位50%为4.31–4.48。", "Label": "GPA"}
+{"Question": "UGA录取首年学生的SAT中位50%分数区间是多少？", "Answer": "录取首年学生SAT中位50%为1300–1470。", "Label": "Standardized Tests"}
+{"Question": "UGA录取Honors学生的SAT中位50%分数区间是多少？", "Answer": "录取Honors学生SAT中位50%为1500–1510。", "Label": "Standardized Tests"}
+{"Question": "UGA录取首年学生的ACT中位50%分数区间是多少？", "Answer": "录取首年学生ACT中位50%为30–34。", "Label": "Standardized Tests"}
+{"Question": "UGA录取Honors学生的ACT中位50%分数区间是多少？", "Answer": "录取Honors学生ACT中位50%为34–35。", "Label": "Standardized Tests"}
+{"Question": "UGA录取首年学生在AP/IB/Dual Enrollment修读数量的中位50%区间是多少？", "Answer": "录取首年学生的AP/IB/Dual Enrollment课程数量中位50%为8到14门。", "Label": "Course Rigor"}
+{"Question": "UGA录取Honors学生在AP/IB/Dual Enrollment修读数量的中位50%区间是多少？", "Answer": "录取Honors学生的AP/IB/Dual Enrollment课程数量中位50%为11到16门。", "Label": "Course Rigor"}
+{"Question": "UGA录取的学生中，有多少名学生来自多少个不同国家？", "Answer": "315名录取学生代表47个不同国家。", "Label": "International & Diversity"}
+{"Question": "UGA录取学生中，有多少人来自“家庭母语非英语”的家庭？", "Answer": "1,008名录取学生来自家庭母语不是英语的家庭。", "Label": "International & Diversity"}
+{"Question": "UGA录取学生来自佐治亚州多少所不同高中？", "Answer": "录取学生来自佐治亚州529所不同高中。", "Label": "Geographic Diversity"}
+{"Question": "UGA录取学生覆盖佐治亚州多少个县（Georgia counties）？", "Answer": "录取学生来自佐治亚州154个不同县。", "Label": "Geographic Diversity"}
+{"Question": "UGA对佐治亚州SACS认证高中的年级前两名（top two graduates）有什么录取政策？", "Answer": "每所SACS认证的佐治亚州高中年级前两名毕业生在满足特定条件的情况下，保证被UGA录取。", "Label": "Admissions Policy"}
+{"Question": "UGA录取的首年学生中，大约有多少人是Valedictorian或Salutatorian？", "Answer": "约610名录取首年学生是Valedictorian或Salutatorian。", "Label": "Class Rank"}
+{"Question": "UGA录取首年学生最常见的拟申请专业（Top Intended Majors）之一：BS Biology。", "Answer": "Top Intended Majors包含BS Biology。", "Label": "Majors"}
+{"Question": "UGA录取首年学生Top Intended Majors中是否包含BS Computer Science（Intended）？", "Answer": "包含BS Computer Science（Intended）。", "Label": "Majors"}
+{"Question": "UGA录取首年学生Top Intended Majors中列出的BBA方向有哪些？", "Answer": "列出的BBA方向包括：BBA Marketing（Intended）、BBA Finance（Intended）、BBA Management（Intended）。", "Label": "Majors"}
+{"Question": "UGA录取首年学生Top Intended Majors中是否包含工程相关专业？", "Answer": "包含BSME Mechanical Engineering（Intended）。", "Label": "Majors"}
+{"Question": "UGA Undergraduate Admissions的办公地址是什么？", "Answer": "210 South Jackson Street, Athens, GA 30602。", "Label": "Contact Info"}
+{"Question": "UGA Undergraduate Admissions的联系电话是什么？", "Answer": "(+1) 762-400-8800。", "Label": "Contact Info"}
+{"Question": "UGA Undergraduate Admissions的办公时间是什么？", "Answer": "周一到周五，9:00 am–4:00 pm（EST）。", "Label": "Contact Info"}

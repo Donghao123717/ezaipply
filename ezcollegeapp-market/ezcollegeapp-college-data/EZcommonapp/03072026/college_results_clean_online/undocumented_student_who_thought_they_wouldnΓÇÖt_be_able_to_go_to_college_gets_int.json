@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. SkillsUSA Member (9-12)",
+          "role": "",
+          "description": "1. SkillsUSA Member (9-12)"
+        },
+        {
+          "name": "Treasurer from (11-12)",
+          "role": "",
+          "description": "Treasurer from (11-12)"
+        },
+        {
+          "name": "basically managed funds and organized fundraisers for my school’s SkillsUSA chap",
+          "role": "",
+          "description": "basically managed funds and organized fundraisers for my school’s SkillsUSA chapter and I also worked BTS on helping and organizing events related to the organization + helping out overall with any sc"
+        },
+        {
+          "name": "2. I literally have taken care of my siblings so much I call it a full time job ",
+          "role": "",
+          "description": "2. I literally have taken care of my siblings so much I call it a full time job since I’ve been in high school"
+        },
+        {
+          "name": "3. Math Club member (10-12)",
+          "role": "",
+          "description": "3. Math Club member (10-12)"
+        },
+        {
+          "name": "President from (11-12)",
+          "role": "",
+          "description": "President from (11-12)"
+        },
+        {
+          "name": "I participate, help and planned functions related to the club, sometimes we go t",
+          "role": "",
+          "description": "I participate, help and planned functions related to the club, sometimes we go to competitions but I never win any xd, asian genes just don’t carry thru"
+        },
+        {
+          "name": "4. NHS + NTHS (11-12)",
+          "role": "",
+          "description": "4. NHS + NTHS (11-12)"
+        },
+        {
+          "name": "All around community service stuff",
+          "role": "",
+          "description": "All around community service stuff"
+        },
+        {
+          "name": "5. Peer Tutor at my school (10-11)",
+          "role": "",
+          "description": "5. Peer Tutor at my school (10-11)"
+        },
+        {
+          "name": "usually after school and usually only with math and science subjects since that’",
+          "role": "",
+          "description": "usually after school and usually only with math and science subjects since that’s what I do best babeyyyyyy"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. high honor roll my entire time in hs minus like 2 terms",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. this programming and web award I got from my teacher in sophomore year which means a lot to me se",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. ton of skillsUSA awards, got medals in Mobile Robotics and Web Design in my school as well as a l",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 5,
+      "first_gen": false,
+      "service_summary": "All around community service stuff; 5. Peer Tutor at my school (10-11)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "heavily comp sci with a side of going into education, but going undecided just s"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": 99.3,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Research - Published Sports Analytics Research, MIT-SSAC (Sloan Sports Analytics",
+          "role": "",
+          "description": "Research - Published Sports Analytics Research, MIT-SSAC (Sloan Sports Analytics Conference); JHSS (Journal of High School Science) | Built an ML pipeline w/ novel features + streamlit deployment; AUC~0.9; published in JHSS; selected for MIT-SSAC's in-person conference; 400+ reads and 10 bookmarks on JHSS."
+        },
+        {
+          "name": "Computer/Technology - Lead Developer, ML Engineer for SignSpeak, IngeniumSTEM Su",
+          "role": "",
+          "description": "Computer/Technology - Lead Developer, ML Engineer for SignSpeak, IngeniumSTEM Summer Hacks 1.0; Devpost; Singapore Association for the Deaf | Built real-time SgSL-to-text synthesiser w/ CV + CNNs; led model dev & GitHub; custom dataset augmentation; won SummerHacks 1.0 (300+ participants), and product in beta-test at the moment."
+        },
+        {
+          "name": "Research - Lead Pipeline Developer, from EDA to Evaluation; Self-directed Resear",
+          "role": "",
+          "description": "Research - Lead Pipeline Developer, from EDA to Evaluation; Self-directed Research on Meta Learning Techniques | Investigated efficient techniques for fine-tuning LLMs w/ TIFU dataset. Implemented BERT for text generation; optimized hyperparameters-87% F1 score. Peer-reviewed by Oxford professor Dr. Pramit Saha as part of a cohort-mentorship program and published in the International Journal of Scientific and Research Publications (IJSRP). Indexed on ResearchGate."
+        },
+        {
+          "name": "Other Club/Activity - President and Co-Founder, Competitive Chess Player, School",
+          "role": "",
+          "description": "Other Club/Activity - President and Co-Founder, Competitive Chess Player, School Chess Club; Singapore Chess Federation | Ran weekly strategy sessions, lessons, and games; led club’s first national inter-school event; placed 10/400 in SCF-affiliated OTB qualifier vs IMs."
+        },
+        {
+          "name": "Internship - Academic Content Manager, ZNotes Education Ltd | Streamlined academ",
+          "role": "",
+          "description": "Internship - Academic Content Manager, ZNotes Education Ltd | Streamlined academic resources; led notes-dev hiring; managed 20+ subjects for 100k+ users; handled queries and routed technical/accuracy issues."
+        },
+        {
+          "name": "Computer/Technology - Lead Developer, ML Engineer for FitMaster AI, Independent;",
+          "role": "",
+          "description": "Computer/Technology - Lead Developer, ML Engineer for FitMaster AI, Independent; Self-directed AI Fitness Project | Built real-time OpenCV fitness tracker (push-ups, squats, sit-ups) w/ form checks, MP4 sesh logs + cues-chatbot; consulted physio for form guide. 300+ active users."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Singapore Math Kangaroo Contest (SMKC): 22' Gold (26th); 23' Silver (27th); 24' Silver (17th); 25' Exemplary (4th). [Nat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Silver Award in the finals (second round) of the Singapore National Olympiad in Informatics 2025. 57th/786 in qualifying",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Singapore Physics League 2025. Finished 22/554 teams in the Grand Finals @ SUTD. Platinum Award. Problems set by past IP",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 120,
+      "first_gen": true,
+      "service_summary": "Community Service (Volunteer) - Volunteer, NYAA (Silver) Recipient, NYAA National Council; Special Olympics; Krsna's Kitchen; Food Bank SG; Ride for Rations | 120 hrs: served 1k+ migrant workers; coached ~20 SO athletes; ran 600 kg sch food drive for 50+ low-income families; cycled 300+ km for RfR. Other Club/Activity - Math Tutor, Founder, Head of Operations, Middleton Math Club | Led peer-tutori"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 16
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *#1* Student Pilot/Private Pilot, Pilot Training",
+          "role": "",
+          "description": "1. *#1* Student Pilot/Private Pilot, Pilot Training"
+        },
+        {
+          "name": "Earned Private Pilot’s License at 17; Solo Flight at 16; Accumulated Nearly 100 ",
+          "role": "",
+          "description": "Earned Private Pilot’s License at 17; Solo Flight at 16; Accumulated Nearly 100 flight hours, demonstrating passion, discipline, and aviation dreams."
+        },
+        {
+          "name": "2. \\#2 Secretary &amp; Club Meeting Manager, \\[Redacted\\] Flight Club",
+          "role": "",
+          "description": "2. \\#2 Secretary &amp; Club Meeting Manager, \\[Redacted\\] Flight Club"
+        },
+        {
+          "name": "Elected Secretary; Managed \\~$300K in assets; orchestrated 40+ meetings; fostere",
+          "role": "",
+          "description": "Elected Secretary; Managed \\~$300K in assets; orchestrated 40+ meetings; fostered collaboration and streamlined communication for 50-member flight club"
+        },
+        {
+          "name": "3. \\#3 DECA Chapter President, DECA (Distributive Education Clubs of America)",
+          "role": "",
+          "description": "3. \\#3 DECA Chapter President, DECA (Distributive Education Clubs of America)"
+        },
+        {
+          "name": "President of 50-member chapter; Competed at International Competition; Placed 3r",
+          "role": "",
+          "description": "President of 50-member chapter; Competed at International Competition; Placed 3rd at State; 1st &amp; 2nd at Districts. Boosted membership of DECA by 50%"
+        },
+        {
+          "name": "4. \\#4 Leader In My Household",
+          "role": "",
+          "description": "4. \\#4 Leader In My Household"
+        },
+        {
+          "name": "Stepped into adult role as primary caregiver for my dad; coordinated medical app",
+          "role": "",
+          "description": "Stepped into adult role as primary caregiver for my dad; coordinated medical appointments &amp; surgeries, providing stability and support for my family."
+        },
+        {
+          "name": "5. \\#5 CEO and Founder of \\[Redacted\\]",
+          "role": "",
+          "description": "5. \\#5 CEO and Founder of \\[Redacted\\]"
+        },
+        {
+          "name": "Founded aerial photography business; managed $30K in assets (5 UAVs); helped loc",
+          "role": "",
+          "description": "Founded aerial photography business; managed $30K in assets (5 UAVs); helped local \\[Redacted\\] businesses grow through professional drone services."
+        },
+        {
+          "name": "6. \\#6 Mayor; Boys Nation Finalist; Future Staff Member, Missouri Boy's State",
+          "role": "",
+          "description": "6. \\#6 Mayor; Boys Nation Finalist; Future Staff Member, Missouri Boy's State"
+        },
+        {
+          "name": "Elected Mayor &amp; led \\~80 people; 1 of 8 finalists (out of 1000 people) to at",
+          "role": "",
+          "description": "Elected Mayor &amp; led \\~80 people; 1 of 8 finalists (out of 1000 people) to attend Boys Nation; Invited onto Staff because of my Character and Leadership."
+        },
+        {
+          "name": "7. \\#7 Project Manager &amp; Group Leader, Aerospace.org Aerospace Academy",
+          "role": "",
+          "description": "7. \\#7 Project Manager &amp; Group Leader, Aerospace.org Aerospace Academy"
+        },
+        {
+          "name": "Led team on space architecture research; formulated 30-page presentation; worked",
+          "role": "",
+          "description": "Led team on space architecture research; formulated 30-page presentation; worked alongside Aerospace interns designing innovative space concepts."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 U.S. Presidential Scholar Nominee",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 Missouri Scholars Top 100",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 National Merit (Now Scholar)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\#4 DECA International Competition Participate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5 AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. \\#6 Boys Nation Nominee",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. \\#7 Private Pilot's License",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 6,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied aerospace/mechanical engineering, but intending to do something pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

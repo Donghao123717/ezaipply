@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1560,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Speech and Debate Club President &amp; Debate Team Captain",
+          "role": "",
+          "description": "1. Speech and Debate Club President &amp; Debate Team Captain"
+        },
+        {
+          "name": "2. Islamic Weekend School Volunteer Teacher",
+          "role": "",
+          "description": "2. Islamic Weekend School Volunteer Teacher"
+        },
+        {
+          "name": "3. Middle/Junior High Debate Judge",
+          "role": "",
+          "description": "3. Middle/Junior High Debate Judge"
+        },
+        {
+          "name": "4. Online Government Simulation/Mock Court",
+          "role": "",
+          "description": "4. Online Government Simulation/Mock Court"
+        },
+        {
+          "name": "5. Co-founded school-wide SAT tutoring initiative",
+          "role": "",
+          "description": "5. Co-founded school-wide SAT tutoring initiative"
+        },
+        {
+          "name": "6. AVID &amp; Subject Tutor",
+          "role": "",
+          "description": "6. AVID &amp; Subject Tutor"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Top 16 in International World Schools Debate Tournament",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Top 100 Speakers in International World Schools Debate Tournament",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 2019 NSDA Nationals Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. 2019-20 Best Team for World Schools Debate, Local Urban Debate League",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. 2019 Policy Debate State Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. QuestBridge Finalist &amp; College Prep Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. UChicago Summer Immersion",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "8. Penn Early Exploration Program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "9. Duke Talent Identification Program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "10. College Board AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Interviews:** A few verified ex-AOs/consultants told me my bio &amp; topical essays were",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": "2. Islamic Weekend School Volunteer Teacher; 6. AVID &amp; Subject Tutor"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science/philosophy (pre-law)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

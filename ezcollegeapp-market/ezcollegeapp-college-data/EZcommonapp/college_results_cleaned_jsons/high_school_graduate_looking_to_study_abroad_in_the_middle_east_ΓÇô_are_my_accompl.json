@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Tutored students in highschool geometry, chemistry and algebra.",
+          "role": "",
+          "description": "Tutored students in highschool geometry, chemistry and algebra."
+        },
+        {
+          "name": "Small crochet business",
+          "role": "",
+          "description": "Small crochet business"
+        },
+        {
+          "name": "Education paid internship where i taught elementary school kids during senior sp",
+          "role": "",
+          "description": "Education paid internship where i taught elementary school kids during senior spring semester"
+        },
+        {
+          "name": "Hospital shadowing experience (i also applied for a medical internship, lets see",
+          "role": "",
+          "description": "Hospital shadowing experience (i also applied for a medical internship, lets see if they accept me)"
+        },
+        {
+          "name": "2 retail job experiences (Idk if thats relevant)",
+          "role": "",
+          "description": "2 retail job experiences (Idk if thats relevant)"
+        },
+        {
+          "name": "In highschool:",
+          "role": "",
+          "description": "In highschool:"
+        },
+        {
+          "name": "Took 3 IB HL classes (International baccalaureate) : English, Biology, and Chemi",
+          "role": "",
+          "description": "Took 3 IB HL classes (International baccalaureate) : English, Biology, and Chemistry"
+        },
+        {
+          "name": "Highschool GPA was 3.6 (I did bad in freshman year and then it wasn’t recoverabl",
+          "role": "",
+          "description": "Highschool GPA was 3.6 (I did bad in freshman year and then it wasn’t recoverable lol)."
+        },
+        {
+          "name": "Got some recommendation letters I’m interested in studying abroad, ideally in Qa",
+          "role": "",
+          "description": "Got some recommendation letters I’m interested in studying abroad, ideally in Qatar, UAE, or Saudi Arabia, and I want to maximize my competitiveness for admissions or potential student jobs/internships."
+        },
+        {
+          "name": "My questions:",
+          "role": "",
+          "description": "My questions:"
+        },
+        {
+          "name": "With this profile, would I be considered competitive for universities abroad in ",
+          "role": "",
+          "description": "With this profile, would I be considered competitive for universities abroad in the Middle East?"
+        },
+        {
+          "name": "Are there specific countries or programs that value a mix of cybersecurity skill",
+          "role": "",
+          "description": "Are there specific countries or programs that value a mix of cybersecurity skills + Arabic + general STEM/medical exposure?"
+        },
+        {
+          "name": "Are there any gaps in my profile that I should try to fill before applying? Than",
+          "role": "",
+          "description": "Are there any gaps in my profile that I should try to fill before applying? Thanks in advance for your advice! Any insights or personal experiences would be super helpful."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Arabic classes: 2 intermediate/advanced CRC electives (5 credits each) So i know some arabic. I also have 2 arabic credi",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

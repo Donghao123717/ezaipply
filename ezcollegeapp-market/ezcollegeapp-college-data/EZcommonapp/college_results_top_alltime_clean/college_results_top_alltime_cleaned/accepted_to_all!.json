@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.75,
+      "sat_total": 1320,
+      "act_composite": null,
+      "class_rank_percentile": 85.0,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Gold award girl scout 9-12",
+          "role": "",
+          "description": "1. Gold award girl scout 9-12"
+        },
+        {
+          "name": "2. Educators rising club with awards 10-12",
+          "role": "",
+          "description": "2. Educators rising club with awards 10-12"
+        },
+        {
+          "name": "3. Student advisory leader 11-12",
+          "role": "",
+          "description": "3. Student advisory leader 11-12"
+        },
+        {
+          "name": "4. Varsity swimming 9-12",
+          "role": "",
+          "description": "4. Varsity swimming 9-12"
+        },
+        {
+          "name": "5. Student senate member 10-12",
+          "role": "",
+          "description": "5. Student senate member 10-12"
+        },
+        {
+          "name": "6. Vex robotics 9-10",
+          "role": "",
+          "description": "6. Vex robotics 9-10"
+        },
+        {
+          "name": "7. Volunteer camp counselor 10",
+          "role": "",
+          "description": "7. Volunteer camp counselor 10"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Teacher academy of Maryland award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Children’s literature contest, 1st place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Educators rising teaching moment contest, 3rd place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. High honor roll 9-12",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Minds in motion( maintains &gt;3.25 gpa while athlete) 9-11",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": null,
+      "service_summary": "7. Volunteer camp counselor 10"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "art education"
+    },
+    "ESSAY_SCORE": null
+  }
+}

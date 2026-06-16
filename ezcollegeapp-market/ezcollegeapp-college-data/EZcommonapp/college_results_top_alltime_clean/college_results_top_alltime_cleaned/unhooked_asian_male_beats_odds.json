@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1360,
+      "act_composite": 36,
+      "class_rank_percentile": 94.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Won a State Department scholarship for cultural and language immersion in Tai",
+          "role": "",
+          "description": "1. Won a State Department scholarship for cultural and language immersion in Taiwan for the summer of my junior year. Got canceled due to COVID, so we did an online program. Still got intermediate proficiency in Chinese "
+        },
+        {
+          "name": "2. Selected for the Indiana University Honors Program in Foreign Languages. Woul",
+          "role": "",
+          "description": "2. Selected for the Indiana University Honors Program in Foreign Languages. Would've spent 7 weeks in China during the summer after my sophomore year, but that was canceled due to COVID."
+        },
+        {
+          "name": "3. Highest junior student government position in my school.",
+          "role": "",
+          "description": "3. Highest junior student government position in my school."
+        },
+        {
+          "name": "4. Led the band during my senior year, like a drum major but administrative.",
+          "role": "",
+          "description": "4. Led the band during my senior year, like a drum major but administrative."
+        },
+        {
+          "name": "5. Elected to my school's honor council for senior year, where we presided over ",
+          "role": "",
+          "description": "5. Elected to my school's honor council for senior year, where we presided over cases where students were accused of lying, cheating, or stealing."
+        },
+        {
+          "name": "6. Played lead trombone for the Jazz Band freshman, sophomore, and senior year.",
+          "role": "",
+          "description": "6. Played lead trombone for the Jazz Band freshman, sophomore, and senior year."
+        },
+        {
+          "name": "7. Senior Patrol Leader of my Boy Scout Troop.",
+          "role": "",
+          "description": "7. Senior Patrol Leader of my Boy Scout Troop."
+        },
+        {
+          "name": "8. Led a weekly Buddhist service at my Christian-majority school.",
+          "role": "",
+          "description": "8. Led a weekly Buddhist service at my Christian-majority school."
+        },
+        {
+          "name": "9. Rowed in the V8 freshman, sophomore, and junior year. Nowhere near good enoug",
+          "role": "",
+          "description": "9. Rowed in the V8 freshman, sophomore, and junior year. Nowhere near good enough to be recruited (no regional or national medals ... ever)"
+        },
+        {
+          "name": "10. empty",
+          "role": "",
+          "description": "10. empty"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Security Language Initiative for Youth Scholar (Mandarin)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Indiana University Honors Program in Foreign Languages (Mandarin)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Gold A's (school award for maintaining 3.7+)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. ACT Commendation Certificate (Perfect Score)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "8. Led a weekly Buddhist service at my Christian-majority school."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "undecided or econ for most schools."
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "School Math League Secretary (12th)",
+          "role": "",
+          "description": "School Math League Secretary (12th)"
+        },
+        {
+          "name": "Officer (11th) School Newspaper Club Editor in Chief (12th), Editor (11th) Cashi",
+          "role": "",
+          "description": "Officer (11th) School Newspaper Club Editor in Chief (12th), Editor (11th) Cashier at [XXX] (9th, 10th, 11th, 12th) Work at Kumon (11th, 12th) Volunteer at [ZZZ town organization] (9th, 10th, 11th, 12th)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "PVSA Gold (11th grade) [state] SkillsUSA Healthcare Knowledge Bowl – Bronze (10th grade) [ZZZ town organization] scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: [removed]",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- I took 2 months for my essays. Perhaps my GPA was what went wrong.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- [removed]",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- 2 last year, 5 this year. School doesn't allow more than 2 in junior year and none in freshman/sophomore year.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- i think none of ur ecs rlly connect all kind of random but still good and solid overall i think maybe u should have ap",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Congratulations. Do you have math olympiad? AMC or AIME or any EC’s related to ECE",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- My bad. Just saw this. I'm top ~5 in the school for AMC-related competitions but couldn't qualify for AIME",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- i honestly think it should be illegal to not accept every asian female in america",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "These are solid and you should be proud of yourself. I know it’s really painful. But also you are more valuable than you",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- I'm an asia boy applying to the same major as you and also got deferred.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Might just be a more competitive major. I spent a long time on all my essays but I am accepted undecided at dietrich- ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Volunteer at [ZZZ town organization] (9th, 10th, 11th, 12th)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

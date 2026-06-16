@@ -1,0 +1,145 @@
+{
+  "post": {
+    "id": "t3_1pmwmrc",
+    "title": "Stanford REA / Bay Area students' experiences..",
+    "author": "Music-Material-8232",
+    "selftext": "Curious to hear from Bay Area students about their Stanford REA experience. Came across a blogpost yesterday that said (a lot of) Bay Area students with stellar credentials had seen rejections. Any one with a contrary experience - i..e Bay Area student that got accepted ? Especially curious about experiences of students with NO legacy or faculty connections.   Thanks for sharing.",
+    "score": "11",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1pmwmrc/stanford_rea_bay_area_students_experiences/",
+    "created": "2025-12-15T02:54:44+00:00",
+    "num_comments": 5,
+    "subreddit": "ApplyingToCollege"
+  },
+  "comments": [
+    {
+      "id": "",
+      "author": "[deleted]",
+      "body": "[deleted]",
+      "score": "0",
+      "created": "2025-12-15T06:21:28+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nu4bxuv",
+      "author": "Routine_Record4907",
+      "body": "yo can you send the blog post",
+      "score": "2 points",
+      "created": "2025-12-15T07:20:15+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nu4eb3z",
+      "author": "berger_boi",
+      "body": "two people at my bay area school got in ed. the kids in my school r cracked ngl",
+      "score": "2 points",
+      "created": "2025-12-15T07:42:24+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nu4qqed",
+          "author": "Routine_Record4907",
+          "body": "what school",
+          "score": "1 point",
+          "created": "2025-12-15T09:47:20+00:00",
+          "depth": 1,
+          "parent_id": "t1_nu4eb3z",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_nubrteu",
+      "author": "ExecutiveWatch",
+      "body": "96% are rejected. Its an incredibly tough school to get into. Nothing geographic about it.\n\nThey arent a state school and likely esnted some diverse geographical demographics.",
+      "score": "1 point",
+      "created": "2025-12-16T13:04:17+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pmwmrc",
+        "author": "Music-Material-8232",
+        "title": "Stanford REA / Bay Area students' experiences..",
+        "body": "Curious to hear from Bay Area students about their Stanford REA experience. Came across a blogpost yesterday that said (a lot of) Bay Area students with stellar credentials had seen rejections. Any one with a contrary experience - i..e Bay Area student that got accepted ? Especially curious about experiences of students with NO legacy or faculty connections.   Thanks for sharing.",
+        "full_text": "Stanford REA / Bay Area students' experiences..\n\nCurious to hear from Bay Area students about their Stanford REA experience. Came across a blogpost yesterday that said (a lot of) Bay Area students with stellar credentials had seen rejections. Any one with a contrary experience - i..e Bay Area student that got accepted ? Especially curious about experiences of students with NO legacy or faculty connections.   Thanks for sharing."
+      },
+      "direct_responses": [
+        {
+          "id": "",
+          "author": "[deleted]",
+          "body": "[deleted]",
+          "score": "0",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nu4bxuv",
+          "author": "Routine_Record4907",
+          "body": "yo can you send the blog post",
+          "score": "2 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nu4eb3z",
+          "author": "berger_boi",
+          "body": "two people at my bay area school got in ed. the kids in my school r cracked ngl",
+          "score": "2 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_nubrteu",
+          "author": "ExecutiveWatch",
+          "body": "96% are rejected. Its an incredibly tough school to get into. Nothing geographic about it.\n\nThey arent a state school and likely esnted some diverse geographical demographics.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nu4eb3z",
+        "author": "berger_boi",
+        "body": "two people at my bay area school got in ed. the kids in my school r cracked ngl",
+        "score": "2 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nu4qqed",
+          "author": "Routine_Record4907",
+          "body": "what school",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 4,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

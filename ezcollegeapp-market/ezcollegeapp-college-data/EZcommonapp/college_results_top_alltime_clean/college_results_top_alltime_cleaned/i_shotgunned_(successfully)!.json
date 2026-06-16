@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1490,
+      "act_composite": 32,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\*I won’t be super specific, but as you'll notice they were kind of all over the",
+          "role": "",
+          "description": "\\*I won’t be super specific, but as you'll notice they were kind of all over the place.*"
+        },
+        {
+          "name": "Note: P = President, VP= Vice President",
+          "role": "",
+          "description": "Note: P = President, VP= Vice President"
+        },
+        {
+          "name": "1. Internship at a Research Laboratory, doing autopsies/brain dissections for 2 ",
+          "role": "",
+          "description": "1. Internship at a Research Laboratory, doing autopsies/brain dissections for 2 years"
+        },
+        {
+          "name": "2. Debate 10, 11P, 12P",
+          "role": "",
+          "description": "2. Debate 10, 11P, 12P"
+        },
+        {
+          "name": "3. Link Crew 11VP, 12P",
+          "role": "",
+          "description": "3. Link Crew 11VP, 12P"
+        },
+        {
+          "name": "4. Orchestra 9,10,11,12",
+          "role": "",
+          "description": "4. Orchestra 9,10,11,12"
+        },
+        {
+          "name": "5. National Honors Society 11, 12P",
+          "role": "",
+          "description": "5. National Honors Society 11, 12P"
+        },
+        {
+          "name": "6. Paid/Unpaid tutor for 2 years at my high school and a local middle school",
+          "role": "",
+          "description": "6. Paid/Unpaid tutor for 2 years at my high school and a local middle school"
+        },
+        {
+          "name": "7. Tennis 9,10,11,12",
+          "role": "",
+          "description": "7. Tennis 9,10,11,12"
+        },
+        {
+          "name": "8. AP Math Club, 9, 10P, 11P",
+          "role": "",
+          "description": "8. AP Math Club, 9, 10P, 11P"
+        },
+        {
+          "name": "9. Key Club 9,10,11,12",
+          "role": "",
+          "description": "9. Key Club 9,10,11,12"
+        },
+        {
+          "name": "10. Youth Group 9,10,11,12",
+          "role": "",
+          "description": "10. Youth Group 9,10,11,12"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National Hispanic Merit Scholar (PSAT) (12th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Honor (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Seal of Biliteracy (10th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Hispanic Academic Achiever (Local Award, Top 25 Students in the Area) (9th-12th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Valedictorian (12th)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "6. Paid/Unpaid tutor for 2 years at my high school and a local middle school"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "psychology, neuroscience, public health (varies by school)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

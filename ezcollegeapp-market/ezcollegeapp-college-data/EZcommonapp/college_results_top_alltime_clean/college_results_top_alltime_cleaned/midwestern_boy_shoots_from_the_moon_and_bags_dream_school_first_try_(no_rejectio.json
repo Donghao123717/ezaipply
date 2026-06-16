@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. NSDA Academic All America (9-12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. FBLA State Champ (10-12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. FBLA Natl. 3rd Place (11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. NSDA Local Circuit Awards (9-12): Won numerous tournaments in my circuit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. NSDA 4x Natl. Qualifer (9-12): One of very few in my state to qualify every year",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "government &amp; education"
+    },
+    "ESSAY_SCORE": null
+  }
+}

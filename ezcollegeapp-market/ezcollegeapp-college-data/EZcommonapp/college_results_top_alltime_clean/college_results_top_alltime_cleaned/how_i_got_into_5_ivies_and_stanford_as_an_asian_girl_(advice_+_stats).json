@@ -1,0 +1,164 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": 99.6,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Speech and Debate President",
+          "role": "",
+          "description": "Speech and Debate President"
+        },
+        {
+          "name": "Youth Lieutenant Governor of my state",
+          "role": "",
+          "description": "Youth Lieutenant Governor of my state"
+        },
+        {
+          "name": "Self-taught artist",
+          "role": "",
+          "description": "Self-taught artist"
+        },
+        {
+          "name": "VP of civics club",
+          "role": "",
+          "description": "VP of civics club"
+        },
+        {
+          "name": "Varsity XC runner",
+          "role": "",
+          "description": "Varsity XC runner"
+        },
+        {
+          "name": "Student Ambassador for a program that aids low-income students",
+          "role": "",
+          "description": "Student Ambassador for a program that aids low-income students"
+        },
+        {
+          "name": "Co-founder of psychology club",
+          "role": "",
+          "description": "Co-founder of psychology club"
+        },
+        {
+          "name": "A few other generic things (NHS, Freshman Orientation, tutoring)",
+          "role": "",
+          "description": "A few other generic things (NHS, Freshman Orientation, tutoring)"
+        },
+        {
+          "name": "AWARDS/HONORS",
+          "role": "",
+          "description": "AWARDS/HONORS"
+        },
+        {
+          "name": "Scholastic Art Award Regional Silver Key and Honorable Mention",
+          "role": "",
+          "description": "Scholastic Art Award Regional Silver Key and Honorable Mention"
+        },
+        {
+          "name": "QuestBridge finalist (not matched due to EFC being too high)",
+          "role": "",
+          "description": "QuestBridge finalist (not matched due to EFC being too high)"
+        },
+        {
+          "name": "AP Capstone Diploma",
+          "role": "",
+          "description": "AP Capstone Diploma"
+        },
+        {
+          "name": "Finalist at 3 speech tournaments",
+          "role": "",
+          "description": "Finalist at 3 speech tournaments"
+        },
+        {
+          "name": "ESSAYS",
+          "role": "",
+          "description": "ESSAYS"
+        },
+        {
+          "name": "Initially, I was very unsure of my essays but in hindsight I think they are what",
+          "role": "",
+          "description": "Initially, I was very unsure of my essays but in hindsight I think they are what got me accepted. I will explain more in the advice section."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Scholastic Art Award Regional Silver Key and Honorable Mention",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "QuestBridge finalist (not matched due to EFC being too high)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Capstone Diploma",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Finalist at 3 speech tournaments",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ESSAYS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Initially, I was very unsure of my essays but in hindsight I think they are what got me accepted. I ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LORs",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Honestly have no idea since I was unable to read them, but obviously I now feel like they must have ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "INTERVIEWS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I interviewed for all of my reaches if that was an option (except Brown). My interviews for Cornell,",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "ADVICE",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Know what angle you can play: When writing my essays for QuestBridge I first read a bunch of essa",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

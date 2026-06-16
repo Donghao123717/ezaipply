@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Gold – IMOCSEA (International Math Olympiad competition)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Silver – SIMCC International Math Challenge",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Bronze – Queen’s Commonwealth Essay Competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Scholarship from Immerse Essay Competition Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Common App: reflective personal essay on identity, cultural transition, and worldview (no résumé repetition)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NYU supplemental: focused on collaboration, systems thinking, and Axiom’s impact",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Strong academic narrative oriented toward economics as a discipline (not business/finance) Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "School teachers + counselor (not seen, but expected strong)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Head of Engineering for a FIA certified car design competition",
+          "role": "",
+          "description": "Head of Engineering for a FIA certified car design competition"
+        },
+        {
+          "name": "Lots of music involvement, published albums, private tutor, volunteer audio engi",
+          "role": "",
+          "description": "Lots of music involvement, published albums, private tutor, volunteer audio engineer, jazz conductor, charity show organiser for even that raises 5K a year. I also ran a music therapy service for adults with mental disabilities."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1530 SAT",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "800 Math",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Lots of music involvement, published albums, private tutor, volunteer audio engineer, jazz conductor, charity show organiser for even that raises 5K a year. I also ran a music therapy service for adults with mental disabilities."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Physics (Engineering physics where offered)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

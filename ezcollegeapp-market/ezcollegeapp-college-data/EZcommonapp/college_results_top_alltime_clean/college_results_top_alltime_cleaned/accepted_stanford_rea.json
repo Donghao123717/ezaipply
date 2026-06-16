@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.62,
+      "sat_total": 1390,
+      "act_composite": 35,
+      "class_rank_percentile": 75.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Started a charity organization with members across China",
+          "role": "",
+          "description": "1. Started a charity organization with members across China"
+        },
+        {
+          "name": "2. Speaker at school TEDx Youth event",
+          "role": "",
+          "description": "2. Speaker at school TEDx Youth event"
+        },
+        {
+          "name": "3. Vice manager of school literature club",
+          "role": "",
+          "description": "3. Vice manager of school literature club"
+        },
+        {
+          "name": "4. EdX course in biomedical informarics",
+          "role": "",
+          "description": "4. EdX course in biomedical informarics"
+        },
+        {
+          "name": "5. Neuroscience and AI research (no published paper)",
+          "role": "",
+          "description": "5. Neuroscience and AI research (no published paper)"
+        },
+        {
+          "name": "6. Brain Challenge",
+          "role": "",
+          "description": "6. Brain Challenge"
+        },
+        {
+          "name": "7. HiMCM",
+          "role": "",
+          "description": "7. HiMCM"
+        },
+        {
+          "name": "8. Marathons",
+          "role": "",
+          "description": "8. Marathons"
+        },
+        {
+          "name": "9. Member of school math club",
+          "role": "",
+          "description": "9. Member of school math club"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Top 15% in British Biology Olympiad",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Top 3% in Computational and Algorithmic Thinking",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. School Character Award (1 out of the graduating class)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Top 24% in Waterloo Math Galois &amp; Euclid Contests",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Top 45% in AAPT Physics Bowl",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biomedical computation, computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

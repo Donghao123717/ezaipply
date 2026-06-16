@@ -1,0 +1,27 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": 34,
+      "class_rank_percentile": 85.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Debate/Speech - Youth Delegate, Debater, International Youth Conference 11 – Digital Innovation & Transformation | Engaged 30+ delegates on AI governance policy on transparency, accountability + equit; Other Club/Activity - Math Tutor, Founder, Head of Operations, Middleton Math Club | Led peer-tutoring prog; personally tutored 6 students (over 2 yrs); ran wkly mtgs; org annual Pi & Fibonacci Days +; 6. LOR's and Essays:; STEM LOR: 9-10/10. My math teacher, who I I've had for four years now, eve"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

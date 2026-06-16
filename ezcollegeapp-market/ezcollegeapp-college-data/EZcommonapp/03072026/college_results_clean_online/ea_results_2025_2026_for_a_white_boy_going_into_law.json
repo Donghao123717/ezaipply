@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": 97.38,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "National Merit Scholarship Program Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "American Legion Post-Sponsored Boys State Delegate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "DECA Principles of Finance ICDC (International) Qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Speech and Debate JV Parliamentary Debate State Quarterfinalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "depends on the school, typically law, finance, or economics with an end goal of"
+    },
+    "ESSAY_SCORE": null
+  }
+}

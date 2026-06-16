@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.18,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "School Newspaper - managing editor",
+          "role": "",
+          "description": "School Newspaper - managing editor"
+        },
+        {
+          "name": "revived it after 7 years of being defunct Science Olympiad - study events lead, ",
+          "role": "",
+          "description": "revived it after 7 years of being defunct Science Olympiad - study events lead, two top-3 medals at state competition"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: 3 aps",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "post-ap math(2nd full year of this)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "and senior elective english Standardized Testing List the highest scores earned and all scores that were reported. SAT/A",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied public policy & bio"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Chemistry &amp; Enviro Sci (Sophomore &amp; Junior Year) - 6/10. Loved this teacher, but the temp",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Literature (Junior Year) - 9/10. I felt pretty neutral towards this teacher. She was retired by t",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 100,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biochemistry/molecular &amp; cellular biology (some schools didn't have biochem)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

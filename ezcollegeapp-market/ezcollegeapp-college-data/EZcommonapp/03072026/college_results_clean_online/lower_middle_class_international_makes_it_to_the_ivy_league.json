@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. family responsibilities",
+          "role": "",
+          "description": "1. family responsibilities"
+        },
+        {
+          "name": "2. student gov",
+          "role": "",
+          "description": "2. student gov"
+        },
+        {
+          "name": "3. international science fair",
+          "role": "",
+          "description": "3. international science fair"
+        },
+        {
+          "name": "4. international debate conference",
+          "role": "",
+          "description": "4. international debate conference"
+        },
+        {
+          "name": "5. organized MUN-events",
+          "role": "",
+          "description": "5. organized MUN-events"
+        },
+        {
+          "name": "6. wrote for newspapers",
+          "role": "",
+          "description": "6. wrote for newspapers"
+        },
+        {
+          "name": "7. involved with a non-profit",
+          "role": "",
+          "description": "7. involved with a non-profit"
+        },
+        {
+          "name": "8. recreational soccer",
+          "role": "",
+          "description": "8. recreational soccer"
+        },
+        {
+          "name": "9. *tutor*",
+          "role": "",
+          "description": "9. *tutor*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. won scholarship to attend an international conference",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "9. *tutor*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "business (penn)/polisci (most)/ir (nyu)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

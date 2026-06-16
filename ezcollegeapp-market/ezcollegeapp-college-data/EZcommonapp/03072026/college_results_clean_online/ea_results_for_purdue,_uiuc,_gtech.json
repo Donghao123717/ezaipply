@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.94,
+      "sat_total": 1440,
+      "act_composite": 14,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Awards/Honors:  AP Scholar (really all)",
+          "role": "",
+          "description": "Awards/Honors:  AP Scholar (really all)"
+        },
+        {
+          "name": "Essays/LORs/Interviews: My personal statement was alright I think I wouldn't say",
+          "role": "",
+          "description": "Essays/LORs/Interviews: My personal statement was alright I think I wouldn't say outstanding, I thought my supplementals for each school/major was pretty good though talked a lot about the school, maj"
+        },
+        {
+          "name": "No LORs or Interviews",
+          "role": "",
+          "description": "No LORs or Interviews"
+        },
+        {
+          "name": "Decisions (All EA)",
+          "role": "",
+          "description": "Decisions (All EA)"
+        },
+        {
+          "name": "Acceptances: UIUC (CmpEng)",
+          "role": "",
+          "description": "Acceptances: UIUC (CmpEng)"
+        },
+        {
+          "name": "Deferrals: Purdue (FYE)",
+          "role": "",
+          "description": "Deferrals: Purdue (FYE)"
+        },
+        {
+          "name": "Rejections: GTech (CmpEng)",
+          "role": "",
+          "description": "Rejections: GTech (CmpEng)"
+        },
+        {
+          "name": "Surprised I got UIUC ngl my raw stats are kind of below avg for an admit besides",
+          "role": "",
+          "description": "Surprised I got UIUC ngl my raw stats are kind of below avg for an admit besides SAT and ACT math. My best guess is course rigor + supplemental essays carried me."
+        },
+        {
+          "name": "3.94 uw 4.33 w gpa and 35 ACT with ieee recognized research and some other mid e",
+          "role": "",
+          "description": "3.94 uw 4.33 w gpa and 35 ACT with ieee recognized research and some other mid ecs. deferred uiuc for electrical engineering btw 😭"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Essays/LORs/Interviews: My personal statement was alright I think I wouldn't say outstanding, I thou",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "No LORs or Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (All EA)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Acceptances: UIUC (CmpEng)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Deferrals: Purdue (FYE)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rejections: GTech (CmpEng)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Surprised I got UIUC ngl my raw stats are kind of below avg for an admit besides SAT and ACT math. M",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.94 uw 4.33 w gpa and 35 ACT with ieee recognized research and some other mid ecs. deferred uiuc fo",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer engineering, electrical engineering (2nd choice), fye (purdue)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": 35,
+      "class_rank_percentile": 81.0,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. \\#1 Marching/Concert/Jazz Band- French Horn/Mellophone/Trumpet Player and Sec",
+          "role": "",
+          "description": "1. \\#1 Marching/Concert/Jazz Band- French Horn/Mellophone/Trumpet Player and Section Leader; I never earned any musical distinctions, so this was my first extracurricular activity simply because I put"
+        },
+        {
+          "name": "2. \\#2 Science Olympiads- President (12th) Earned 8 total regional medals; our t",
+          "role": "",
+          "description": "2. \\#2 Science Olympiads- President (12th) Earned 8 total regional medals; our team was never good enough to make states"
+        },
+        {
+          "name": "3. \\#3 Robotics- Secretary (10th-12th) We made states for the first time my juni",
+          "role": "",
+          "description": "3. \\#3 Robotics- Secretary (10th-12th) We made states for the first time my junior year, but never competed due to COVID, nothing else major here."
+        },
+        {
+          "name": "4. \\#4 Scouting- Senior Patrol Leader (10th-12th) Didn't get to be an Eagle Scou",
+          "role": "",
+          "description": "4. \\#4 Scouting- Senior Patrol Leader (10th-12th) Didn't get to be an Eagle Scout because I didn't have enough time to complete the project; I just did scouting because I enjoy the outdoors and the tr"
+        },
+        {
+          "name": "5. \\#5 Research CC Classes- For two summers I took research methodology classes ",
+          "role": "",
+          "description": "5. \\#5 Research CC Classes- For two summers I took research methodology classes at my community college online and received As in both classes; sent the transcript to colleges"
+        },
+        {
+          "name": "6. \\#6 Work- I work at a laundromat part-time during the school year and full-ti",
+          "role": "",
+          "description": "6. \\#6 Work- I work at a laundromat part-time during the school year and full-time during the summer up until the summer before senior year"
+        },
+        {
+          "name": "7. \\#7 International Relations Quiz Bowl- Vice President (11th-12th) We placed a",
+          "role": "",
+          "description": "7. \\#7 International Relations Quiz Bowl- Vice President (11th-12th) We placed at 4th at state my junior year but never qualified for nationals."
+        },
+        {
+          "name": "8. \\#8 Mock Trial- Treasurer (10th-12th) I did Mock Trial for fun because my fri",
+          "role": "",
+          "description": "8. \\#8 Mock Trial- Treasurer (10th-12th) I did Mock Trial for fun because my friends were doing it; we weren't an amazing team; just average so we never advanced past county-level competition."
+        },
+        {
+          "name": "9. \\#9 Math Team- Treasurer (11th) I qualified for the state competition my juni",
+          "role": "",
+          "description": "9. \\#9 Math Team- Treasurer (11th) I qualified for the state competition my junior year but never competed due to COVID; this is a local competition only available in my state so its not like this was"
+        },
+        {
+          "name": "10. \\#10 Work- I work as a line cook during the school year this year part-time ",
+          "role": "",
+          "description": "10. \\#10 Work- I work as a line cook during the school year this year part-time and full-time the summer before senior year."
+        },
+        {
+          "name": "As you can see, my ECs were not very focused in one area, and I was a very well-",
+          "role": "",
+          "description": "As you can see, my ECs were not very focused in one area, and I was a very well-rounded applicant. I just did whatever I wanted and tried to accomplish as much as I could. I never started my own compa"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. \\#1 National AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. \\#2 National Merit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. \\#3 Local Engineering Contest Winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. \\#4 Order of the Arrow",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. \\#5 Math Modeling Competition Top 19% (I advanced one round but didn't win anything; I didn't hav",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. \\#5 Research CC Classes- For two summers I took research methodology classes at my community college online and received As in both classes; sent the transcript to colleges"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "physics/electrical engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.24,
+      "sat_total": 1510,
+      "act_composite": 35,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Online Travel Agency startup, booked $250k worth of travel for community memb",
+          "role": "",
+          "description": "1. Online Travel Agency startup, booked $250k worth of travel for community members at no additional cost"
+        },
+        {
+          "name": "2. Varsity rowing, won a few 3rd place medals in the",
+          "role": "",
+          "description": "2. Varsity rowing, won a few 3rd place medals in the"
+        },
+        {
+          "name": "Men’s Junior 4+",
+          "role": "",
+          "description": "Men’s Junior 4+"
+        },
+        {
+          "name": "3. Martial Arts, 2nd Dan black belt, participated as a student for 6 years and i",
+          "role": "",
+          "description": "3. Martial Arts, 2nd Dan black belt, participated as a student for 6 years and instructed for 4"
+        },
+        {
+          "name": "4. Volunteering at community center (125 hours)",
+          "role": "",
+          "description": "4. Volunteering at community center (125 hours)"
+        },
+        {
+          "name": "5. Housework (I cook 2-3 family meals per day)",
+          "role": "",
+          "description": "5. Housework (I cook 2-3 family meals per day)"
+        },
+        {
+          "name": "6. Varsity Coxswain, placed 16th of 94 in the US National Championship Regatta",
+          "role": "",
+          "description": "6. Varsity Coxswain, placed 16th of 94 in the US National Championship Regatta"
+        },
+        {
+          "name": "7. Photography, have an album with ~1000 photos of aircraft/airports",
+          "role": "",
+          "description": "7. Photography, have an album with ~1000 photos of aircraft/airports"
+        },
+        {
+          "name": "8. Environmental Club, cleaned up a few streams/rivers in the area and lobbied f",
+          "role": "",
+          "description": "8. Environmental Club, cleaned up a few streams/rivers in the area and lobbied for the elimination of unnecessary single use plastic"
+        },
+        {
+          "name": "9. Internship at Mexican Cultural Institute in DC",
+          "role": "",
+          "description": "9. Internship at Mexican Cultural Institute in DC"
+        },
+        {
+          "name": "10. Built 35 gaming computers and sold them at cost.",
+          "role": "",
+          "description": "10. Built 35 gaming computers and sold them at cost."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. CB National Hispanic Recognition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar w distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Seal of Biliteracy (Spanish)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. $1200 rowing scholarship",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Honor Roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "1. Online Travel Agency startup, booked $250k worth of travel for community members at no additional cost; 4. Volunteering at community center (125 hours)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " biology &amp; psychology (predental)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

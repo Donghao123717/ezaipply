@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 590,
+      "act_composite": 25,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 12
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "State tennis champions twice, varsity singles junior/senior year, USTA ranked re",
+          "role": "",
+          "description": "State tennis champions twice, varsity singles junior/senior year, USTA ranked regionally top 10 in my age group for three years"
+        },
+        {
+          "name": "\"Computing Club\" - mostly digital electronics projects and programming stuff, wh",
+          "role": "",
+          "description": "\"Computing Club\" - mostly digital electronics projects and programming stuff, which me and my best friend actually started before high school. Some cool stuff came out of that club - we made shitty li"
+        },
+        {
+          "name": "I did competitive go-karting for several years.",
+          "role": "",
+          "description": "I did competitive go-karting for several years."
+        },
+        {
+          "name": "I won a few awards for art pieces in local shows and a significant award for an ",
+          "role": "",
+          "description": "I won a few awards for art pieces in local shows and a significant award for an album of travel photography. This one is funny because I am fucking garbage at art."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Honor Roll all four years",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Statewide photography award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Might've been other ones",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Interviews:** I had a very close relationship with my junior year chemistry teacher of a",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "parents were both lawyers (since retired), so the intention was to do pre-law. i"
+    },
+    "ESSAY_SCORE": null
+  }
+}

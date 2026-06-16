@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. coca-cola semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. racial justice award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. writing award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. writing award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. writing award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "public policy, cs, creative writing"
+    },
+    "ESSAY_SCORE": null
+  }
+}

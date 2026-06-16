@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.35,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. 1st Chair Wind Ensemble (2 years): Marching Band & Wind Ensemble Soloist ('",
+          "role": "",
+          "description": "etc. 1st Chair Wind Ensemble (2 years): Marching Band & Wind Ensemble Soloist ('24, '25 & '26), Outstanding Sophomore Musician '24; Outstanding Wind Ensemble Member '25 Hourly research assistant at my local university's robotics lab, where I developed UI/UX and other software for interfacing w/ robots"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Stat",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Music Theory",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "jazz band",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "wind ensemble",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "personal communication",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "health Standardized Testing List the highest scores earned and all scores that were reported. ACT: 35 (36E, 35M, 36R, 33",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Founded a wind quintet by recruiting all-state musicians, performing concerts at retirement homes, community centers, and elementary schools - Science Honor Society secretary & community outreach"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

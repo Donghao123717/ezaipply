@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. **Powerlifting** *-* Started a team at my school for powerlifting during my S",
+          "role": "",
+          "description": "1. **Powerlifting** *-* Started a team at my school for powerlifting during my Sophomore year. Got a lot of people into the sport and created a successful team. We went to nationals twice. Individually I am ranked pretty"
+        },
+        {
+          "name": "2. **Job** - Been working at my parents restaurant since I was in 7th grade. I b",
+          "role": "",
+          "description": "2. **Job** - Been working at my parents restaurant since I was in 7th grade. I basically spend my entire weekends there. Over time I have learned the ins and outs of the place and I can manage the front of house by mysel"
+        },
+        {
+          "name": "3. **MITES Semester** - Did this 'prestigious' summer program. Was not that inte",
+          "role": "",
+          "description": "3. **MITES Semester** - Did this 'prestigious' summer program. Was not that interesting but took two classes through MIT and got to interview a professor for my science writing article."
+        },
+        {
+          "name": "4. **TA for head of CS Dept.** - I grade papers and make resources like posters ",
+          "role": "",
+          "description": "4. **TA for head of CS Dept.** - I grade papers and make resources like posters and slideshows for the class. I also made a website for my club 1st quarter, did leetcode 2nd quarter, soldered some projects 3rd quarter, b"
+        },
+        {
+          "name": "5. **DJing** - I just do this for fun. I make mixes in my room and I have played",
+          "role": "",
+          "description": "5. **DJing** - I just do this for fun. I make mixes in my room and I have played a couple of gigs for free."
+        },
+        {
+          "name": "6. **Physics Team** - We would just do physics problems. We did F=ma two years b",
+          "role": "",
+          "description": "6. **Physics Team** - We would just do physics problems. We did F=ma two years but no one qualified."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Powerlifting stuff (redacted regional and state placings, top 10 at hs nationals junior year (USA",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Seal of Biliteracy",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Principal's Scholar all 8 semesters (glorified honor roll)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs or math or both"
+    },
+    "ESSAY_SCORE": null
+  }
+}

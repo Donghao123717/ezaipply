@@ -1,0 +1,43 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1530,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 15
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Chosen for Boys State and Boys Nation, elected to leadership positions in both",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2-time TOC, NSDA Nats, and States qualifier for debate. 1-time state champ in my event.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Some minor essay comp awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "english &amp; poli-sci/public policy"
+    },
+    "ESSAY_SCORE": null
+  }
+}

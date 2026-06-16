@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1570,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *High School Theatre: Theatre Board Secretary, House Manager, Outstanding Per",
+          "role": "",
+          "description": "1. *High School Theatre: Theatre Board Secretary, House Manager, Outstanding Performance award at 2020 State Finals, 45+ hours/week commitment, participation in 10 shows with lead roles in 6*"
+        },
+        {
+          "name": "2. *National Honor Society Secretary*",
+          "role": "",
+          "description": "2. *National Honor Society Secretary*"
+        },
+        {
+          "name": "3. *Show Choir: Tenor II section leader*",
+          "role": "",
+          "description": "3. *Show Choir: Tenor II section leader*"
+        },
+        {
+          "name": "4. *Other Vocal Music: Perfect score and 1st place at district music competition",
+          "role": "",
+          "description": "4. *Other Vocal Music: Perfect score and 1st place at district music competition*"
+        },
+        {
+          "name": "5. *Independent Filmmaking: Starred in two community productions of original scr",
+          "role": "",
+          "description": "5. *Independent Filmmaking: Starred in two community productions of original scripts throughout high school*"
+        },
+        {
+          "name": "6. *Fundraising: State winning team of the 2020 LLS student of the year competit",
+          "role": "",
+          "description": "6. *Fundraising: State winning team of the 2020 LLS student of the year competition, raising over $11,000 for treatment of Leukemia/Lymphoma*"
+        },
+        {
+          "name": "7. *Job 1: Working at a small local boutique on weekends- catering to young moth",
+          "role": "",
+          "description": "7. *Job 1: Working at a small local boutique on weekends- catering to young mothers and party planners alike. Honestly, the only thing I can compare it to is Rose Apothecary from Schitt's Creek.*"
+        },
+        {
+          "name": "8. *Job 2: Self-started tutoring business. I have over 15 regular customers that",
+          "role": "",
+          "description": "8. *Job 2: Self-started tutoring business. I have over 15 regular customers that I help with math. I have raised peoples' math ACT scores by 8 points.*"
+        },
+        {
+          "name": "9. *Math Team: Started a school math team this year during COVID.*",
+          "role": "",
+          "description": "9. *Math Team: Started a school math team this year during COVID.*"
+        },
+        {
+          "name": "10. *Volunteering: Went to a summer camp for 10 years, then started volunteering",
+          "role": "",
+          "description": "10. *Volunteering: Went to a summer camp for 10 years, then started volunteering with washing dishes, serving people, and supervising campers for weeks at a time. Pretty intense.*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *National Merit Finalist*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *Presidential Scholar Candidate*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Perfect score on the ACT*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *Outstanding Performance at 2020 State One-Act Finals*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *All-State and All-City Academic Team*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. *Independent Filmmaking: Starred in two community productions of original scripts throughout high school*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mech/aero engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

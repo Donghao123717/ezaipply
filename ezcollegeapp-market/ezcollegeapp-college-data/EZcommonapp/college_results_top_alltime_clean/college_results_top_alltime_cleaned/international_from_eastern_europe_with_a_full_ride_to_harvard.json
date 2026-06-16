@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 98.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Writing: have written and reported for newspapers of record all around the globe",
+          "role": "",
+          "description": "Writing: have written and reported for newspapers of record all around the globe (including The Economist and others) on democracy, politics, and civic engagement in Eastern Europe. Have regularly contributed to the larg"
+        },
+        {
+          "name": "Pro-democracy activism: presented youth policy recommendations to diplomats from",
+          "role": "",
+          "description": "Pro-democracy activism: presented youth policy recommendations to diplomats from the US, Norway, and Taiwan. I have worked with multiple members of the national legislature on advancing youth-centered policy. Organized a"
+        },
+        {
+          "name": "Managing editor and founder of a voting rights platform: created a voting rights",
+          "role": "",
+          "description": "Managing editor and founder of a voting rights platform: created a voting rights platform for youth involvement in elections prior to the parliamentary election in my home country together with the national gov't and lea"
+        },
+        {
+          "name": "Fellow in a major global security conference: worked with high-level gov't repre",
+          "role": "",
+          "description": "Fellow in a major global security conference: worked with high-level gov't representatives and professors for developing policy briefs that were presented in the said NATO conference."
+        },
+        {
+          "name": "Debating: I have taken part in international tournaments all around Europe with ",
+          "role": "",
+          "description": "Debating: I have taken part in international tournaments all around Europe with awards. Was part of the national selection team for world championships - currently ranked top 8 nationally."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "A prestigious US Dep't of State academic scholarship for studying in the US for 1 year",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National olympiads in history and chemistry - bronze medalist in both",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Largest Asia-Pacific MUN conference - Outstanding Delegate award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "A major international debate tournament in Belarus - 1st place",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Multiple 1st, 2nd, 3rd, and Best Speaker awards in national debating tournaments",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays:** Democracy and the power writing has in transforming new societies like my country's - I ha",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " government or history"
+    },
+    "ESSAY_SCORE": null
+  }
+}

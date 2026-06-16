@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1530,
+      "act_composite": 36,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **Botanical Research** at Publicly-Funded Institution &amp; T20 University (n",
+          "role": "",
+          "description": "1. **Botanical Research** at Publicly-Funded Institution &amp; T20 University (not published) (25 hours/week, 4 weeks/year, 1 year)"
+        },
+        {
+          "name": "2. Varsity Men's Rowing Team, Coxswain (10 hrs/wk, 19 wks/yr, 4 yrs)",
+          "role": "",
+          "description": "2. Varsity Men's Rowing Team, Coxswain (10 hrs/wk, 19 wks/yr, 4 yrs)"
+        },
+        {
+          "name": "3. Botanical Research *INTERN* (15 hrs/wk, 7 wks/yr, 1 yr)",
+          "role": "",
+          "description": "3. Botanical Research *INTERN* (15 hrs/wk, 7 wks/yr, 1 yr)"
+        },
+        {
+          "name": "4. Local Environmental Council Project Leader (2 hrs/wk, 20 wks/yr, 2 yrs)",
+          "role": "",
+          "description": "4. Local Environmental Council Project Leader (2 hrs/wk, 20 wks/yr, 2 yrs)"
+        },
+        {
+          "name": "5. Mu Alpha Theta Honors Society President (2 hrs/wk, 30 wks/yr, 2 yrs)",
+          "role": "",
+          "description": "5. Mu Alpha Theta Honors Society President (2 hrs/wk, 30 wks/yr, 2 yrs)"
+        },
+        {
+          "name": "6. Varsity Rifle Team, Captain (8 hrs/wk, 18 wks/yrs, 4 yrs)",
+          "role": "",
+          "description": "6. Varsity Rifle Team, Captain (8 hrs/wk, 18 wks/yrs, 4 yrs)"
+        },
+        {
+          "name": "7. Math Team President (1 hr/wk, 30 wks/yrs, 2 yrs)",
+          "role": "",
+          "description": "7. Math Team President (1 hr/wk, 30 wks/yrs, 2 yrs)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Full-Tuition Scholarship to Private Boarding School, 2% award rate",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Coca-Cola Scholarship Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. National Merit Scholarship Commended Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Blue Key Society (top 10% of Junior Class), Cum Laude (10% of Senior Class)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology and mathematics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

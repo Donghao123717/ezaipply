@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1600,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 18
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. *President of FBLA Club at school, \\~40 members(4 years)*",
+          "role": "",
+          "description": "1. *President of FBLA Club at school, \\~40 members(4 years)*"
+        },
+        {
+          "name": "2. *Founder and President of MUN, \\~ 30 members (4 years)*",
+          "role": "",
+          "description": "2. *Founder and President of MUN, \\~ 30 members (4 years)*"
+        },
+        {
+          "name": "3. *Founder of nonprofit for tutoring children in undeserved communities, raised",
+          "role": "",
+          "description": "3. *Founder of nonprofit for tutoring children in undeserved communities, raised 5,000 dollars for school supplies (4 years)*"
+        },
+        {
+          "name": "4. *Econ Research at USC, cold-emailed professors and got lucky, research wasn't",
+          "role": "",
+          "description": "4. *Econ Research at USC, cold-emailed professors and got lucky, research wasn't published though*"
+        },
+        {
+          "name": "5. *Participated in Leadership in the Business World Summer Program @ Wharton*",
+          "role": "",
+          "description": "5. *Participated in Leadership in the Business World Summer Program @ Wharton*"
+        },
+        {
+          "name": "6. *Participated in MIT LaunchX Summer Program*",
+          "role": "",
+          "description": "6. *Participated in MIT LaunchX Summer Program*"
+        },
+        {
+          "name": "7. *Varsity Tennis- not good enough to be ranked high or recruited or anything (",
+          "role": "",
+          "description": "7. *Varsity Tennis- not good enough to be ranked high or recruited or anything (4 years)*"
+        },
+        {
+          "name": "8. *Secretary of Math Club, competitive math*",
+          "role": "",
+          "description": "8. *Secretary of Math Club, competitive math*"
+        },
+        {
+          "name": "9. *Secretary of Coding Club, focused on USACO &amp; other competitions*",
+          "role": "",
+          "description": "9. *Secretary of Coding Club, focused on USACO &amp; other competitions*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Multiple Local and State level top 3 finishes for FBLA, top 5 finish at nationals my junior year",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USACO Gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 2x AIME Qualifier (Soph and Junior year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Multiple Delegate awards at MUN Conferences",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Semi-Finalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics and comp sci"
+    },
+    "ESSAY_SCORE": null
+  }
+}

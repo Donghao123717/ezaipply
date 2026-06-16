@@ -1,0 +1,59 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1500,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Mock trial - school co-president",
+          "role": "",
+          "description": "Mock trial - school co-president"
+        },
+        {
+          "name": "~6 hours/week",
+          "role": "",
+          "description": "~6 hours/week"
+        },
+        {
+          "name": "2x state finalist/county champion FBLA - school VP of competitions, ~6 hours/wee",
+          "role": "",
+          "description": "2x state finalist/county champion FBLA - school VP of competitions, ~6 hours/week, 8th place at nationals + 2nd place at CA state my junior year District attorney's office summer internship - ~20 hours/week, collaborated with prosecutors preparing for misdemeanor cases in court"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Lit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Intro to Philosophy + electives Standardized Testing SAT: 1500 (750RW, 750M) AP/IB: AP Euro (5), APUSH (5), AP GoPo (5),",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2000,
+      "first_gen": true,
+      "service_summary": "Bowdoin - conducted at Explore Bowdoin. I thought my interview went really well, and I connected with my interviewer about politics and community. Personal statement - wrote about taking care of my aunt. I thought it showed service and dedication. I edited my personal statement over the course of about a month and a half, and had my AP Lang teacher look over it for review (it made her cry). Don't "
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Political science (indicated history as a secondary major)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

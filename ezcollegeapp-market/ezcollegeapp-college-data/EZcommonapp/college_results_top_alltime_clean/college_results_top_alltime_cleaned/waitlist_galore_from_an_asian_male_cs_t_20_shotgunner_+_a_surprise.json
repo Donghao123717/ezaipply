@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 800,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "MIT PRIMES research (\\~10 hrs a week)",
+          "role": "",
+          "description": "MIT PRIMES research (\\~10 hrs a week)"
+        },
+        {
+          "name": "Predicted receptor-ligand interactions based on chemical structure for better dr",
+          "role": "",
+          "description": "Predicted receptor-ligand interactions based on chemical structure for better drug targeting/design"
+        },
+        {
+          "name": "Read papers, evaluated existing methods, developed novel deep learning models",
+          "role": "",
+          "description": "Read papers, evaluated existing methods, developed novel deep learning models"
+        },
+        {
+          "name": "Science Olympiad team co-captain (\\~8 hrs a week)",
+          "role": "",
+          "description": "Science Olympiad team co-captain (\\~8 hrs a week)"
+        },
+        {
+          "name": "Wrote tests, lectured, selected the team, and planned events",
+          "role": "",
+          "description": "Wrote tests, lectured, selected the team, and planned events"
+        },
+        {
+          "name": "Won MIT, Harvard, Brown, and Yale invitationals; placed top 10 nationally in the",
+          "role": "",
+          "description": "Won MIT, Harvard, Brown, and Yale invitationals; placed top 10 nationally in the past two years"
+        },
+        {
+          "name": "Hackathon Organizer of Venue and logistics (\\~4 hrs a week):",
+          "role": "",
+          "description": "Hackathon Organizer of Venue and logistics (\\~4 hrs a week):"
+        },
+        {
+          "name": "Found hackathon venue, organized budget (food, t-shirts, prizes), contacted comp",
+          "role": "",
+          "description": "Found hackathon venue, organized budget (food, t-shirts, prizes), contacted companies for sponsorships, planned workshops"
+        },
+        {
+          "name": "Raised over $7.5k, \\~100 attendees",
+          "role": "",
+          "description": "Raised over $7.5k, \\~100 attendees"
+        },
+        {
+          "name": "Peer tutoring (3 hrs a week)",
+          "role": "",
+          "description": "Peer tutoring (3 hrs a week)"
+        },
+        {
+          "name": "Middle school math club TA (1 hr a week)",
+          "role": "",
+          "description": "Middle school math club TA (1 hr a week)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. 2x AIME qualifier (high score of 7)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. USACO Gold Division",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 3x Science Olympiad National medalist (top-6 placings)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

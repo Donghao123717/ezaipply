@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": 15,
+      "class_rank_percentile": 99.6,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Lead Developer and Founder, [prodspace](https://prodspace.org): Built a produ",
+          "role": "",
+          "description": "1. Lead Developer and Founder, [prodspace](https://prodspace.org): Built a productivity based website from scratch in 3 months. Integrates tools like to-do lists, task manager, pomodoro timer, etc. users from 45+ countri"
+        },
+        {
+          "name": "2. Founder, We Will Listen Initiative: Mental health non-profit. Podcast heard i",
+          "role": "",
+          "description": "2. Founder, We Will Listen Initiative: Mental health non-profit. Podcast heard in 20 countries with 23 episodes and counting. Helped to connect over 100 people to professional psychologists though our Instagram page. Dev"
+        },
+        {
+          "name": "3. High School President: Brought the we will listen initiative in school by hel",
+          "role": "",
+          "description": "3. High School President: Brought the we will listen initiative in school by helping school hire their first ever psychologist for helping out with student’s mental health. Introduced 5 new clubs to the school and repres"
+        },
+        {
+          "name": "4. Founder and President of Debate club and Secretary General of my school’s MUN",
+          "role": "",
+          "description": "4. Founder and President of Debate club and Secretary General of my school’s MUN: Secretary General of my school’s own MUN, ended up being the biggest MUN conference of my city. Revenue generated: ~$8,000. Founded debate"
+        },
+        {
+          "name": "5. MUNs and Debate: Participated in 40+ MUNs since 6 years. Chaired 5 of them. 1",
+          "role": "",
+          "description": "5. MUNs and Debate: Participated in 40+ MUNs since 6 years. Chaired 5 of them. 12 Best delegate awards (2 international) 9 high commendation awards (1 international). National winner at 2 debate competitions."
+        },
+        {
+          "name": "6. Volunteering: Volunteered at an NGO in my locality. Taught mathematics and en",
+          "role": "",
+          "description": "6. Volunteering: Volunteered at an NGO in my locality. Taught mathematics and english to the underprivileged. Worked for another organisation. Organised mental health webinars, hired interns and raised funds."
+        },
+        {
+          "name": "7. Web Development: Just something I love. Built a personal portfolio website, t",
+          "role": "",
+          "description": "7. Web Development: Just something I love. Built a personal portfolio website, tic-tac-toe game, quiz app, and many such minor projects. 100k+ lines of code."
+        },
+        {
+          "name": "8. School Representative: Round Square International Conference. 1,400+ delegate",
+          "role": "",
+          "description": "8. School Representative: Round Square International Conference. 1,400+ delegates; 36 countries; 14 keynote speakers including Dr. Soumya Swaminathan (chief scientist WHO)"
+        },
+        {
+          "name": "9. Internships: Web Development internship at a US based tech firm for a month. ",
+          "role": "",
+          "description": "9. Internships: Web Development internship at a US based tech firm for a month. Helped them with bug fixes and front-end development. Another mobile app dev internship at an Indian firm for a month."
+        },
+        {
+          "name": "10. Squash: Been playing for over 4 years. Nothing major just something I did fo",
+          "role": "",
+          "description": "10. Squash: Been playing for over 4 years. Nothing major just something I did for fun lmao."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. State Topper 10th Board exams (regional)(#1/~50,000). Got interviewed by the biggest news channel",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Qualifier for one of the country’s biggest olympiads (top 0.4%)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. MUN best delegate (international) at redacted International MUN (#1/140+)(20 countries) and redac",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Best speaker at redacted debate competition (#1/500) (state level) and several others.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Principal’s all-rounder award. Second student in school’s history to receive it.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. AP Scholar Award with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. Zonal Bronze Medal at an english olympiad (intl rank 32)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science+psychology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. **Math team** **(president)**: 9-12. *led school team to win runner-up at sta",
+          "role": "",
+          "description": "1. **Math team** **(president)**: 9-12. *led school team to win runner-up at state math contest*"
+        },
+        {
+          "name": "2. **Mentoring program (co-founder)**: 10-12. *recruited volunteer mentors; met ",
+          "role": "",
+          "description": "2. **Mentoring program (co-founder)**: 10-12. *recruited volunteer mentors; met regularly at several underserved middle schools in my county &amp; worked with students interested in pursuing creative "
+        },
+        {
+          "name": "3. **Research intern at state university:** summers after 10 and 11. *worked wit",
+          "role": "",
+          "description": "3. **Research intern at state university:** summers after 10 and 11. *worked with a professor's computational linguistics group*"
+        },
+        {
+          "name": "4. **School newspaper staff (senior editor):** 11-12. *responsible for supervisi",
+          "role": "",
+          "description": "4. **School newspaper staff (senior editor):** 11-12. *responsible for supervising junior staff members &amp; managing the publication design process*"
+        },
+        {
+          "name": "5. **Volunteer at senior center:** 9-12. *lead read-aloud sessions for elderly r",
+          "role": "",
+          "description": "5. **Volunteer at senior center:** 9-12. *lead read-aloud sessions for elderly residents; organized seasonal music concerts with student performers (featured in local news)*"
+        },
+        {
+          "name": "6. **Working part-time at family’s restaurant business:** 9-11",
+          "role": "",
+          "description": "6. **Working part-time at family’s restaurant business:** 9-11"
+        },
+        {
+          "name": "7. **Data analyst intern at local nonprofit:** 12",
+          "role": "",
+          "description": "7. **Data analyst intern at local nonprofit:** 12"
+        },
+        {
+          "name": "8. **School symphony orchestra (section leader):** 9-12. *made All-State Orchest",
+          "role": "",
+          "description": "8. **School symphony orchestra (section leader):** 9-12. *made All-State Orchestra twice*"
+        },
+        {
+          "name": "9. **Taught violin/viola lessons for kids as a part-time job:** 10-11",
+          "role": "",
+          "description": "9. **Taught violin/viola lessons for kids as a part-time job:** 10-11"
+        },
+        {
+          "name": "10. **Econ Challenge team:** 10-12. *advanced to National Semi-Finals sophomore ",
+          "role": "",
+          "description": "10. **Econ Challenge team:** 10-12. *advanced to National Semi-Finals sophomore year*"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "3x AIME qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Math Prize for Girls qualifier",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Scholastic Art &amp; Writing national medal for journalism (+ regional gold keys for poetry/short st",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State Science &amp; Engineering Fair honorable mention in category",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "State Econ Challenge top team",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "For MIT, I reported my AIME scores (5, 7, 9, 10)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. **Mentoring program (co-founder)**: 10-12. *recruited volunteer mentors; met regularly at several underserved middle schools in my county &amp; worked with students interested in pursuing creative ; 5. **Volunteer at senior center:** 9-12. *lead read-aloud sessions for elderly residents; organized seasonal music concerts with student performers (featured in local news)*"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied math/economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

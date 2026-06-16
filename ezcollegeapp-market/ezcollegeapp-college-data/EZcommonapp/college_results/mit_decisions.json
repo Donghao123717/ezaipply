@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1po05oj",
+    "title": "Mit decisions",
+    "author": "Mohammed-Elarbaoui",
+    "selftext": "Are MIT decisions out ?",
+    "score": "8",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1po05oj/mit_decisions/",
+    "created": "2025-12-16T11:59:04+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nubkg7j",
+      "author": "[deleted]",
+      "body": "no",
+      "score": "1 point",
+      "created": "2025-12-16T12:11:29+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_nubqj7e",
+      "author": "ExecutiveWatch",
+      "body": "The come out today",
+      "score": "1 point",
+      "created": "2025-12-16T12:55:40+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1po05oj",
+        "author": "Mohammed-Elarbaoui",
+        "title": "Mit decisions",
+        "body": "Are MIT decisions out ?",
+        "full_text": "Mit decisions\n\nAre MIT decisions out ?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nubkg7j",
+          "author": "[deleted]",
+          "body": "no",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_nubqj7e",
+          "author": "ExecutiveWatch",
+          "body": "The come out today",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

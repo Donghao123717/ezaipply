@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 15
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Research, published some papers and presented at international conferences (h",
+          "role": "",
+          "description": "1. Research, published some papers and presented at international conferences (hated this experience, cried every week, had heart issues and needed to go to hospital, eventually stopped doing this after junior year for t"
+        },
+        {
+          "name": "2. NASA Genelab Internship 1/15 internationally chosen (computational biology/bi",
+          "role": "",
+          "description": "2. NASA Genelab Internship 1/15 internationally chosen (computational biology/bioinformatics research), presented in front of NASA scientists"
+        },
+        {
+          "name": "3. President of science club (did some outreach programs and TRIED to do some te",
+          "role": "",
+          "description": "3. President of science club (did some outreach programs and TRIED to do some team competitions but no one at my school was enthusiastic and my advisor had last minute brain surgery so in the year where I finally got peo"
+        },
+        {
+          "name": "4. VP of nchs (did diversity and equity work, implemented a fancy sounding progr",
+          "role": "",
+          "description": "4. VP of nchs (did diversity and equity work, implemented a fancy sounding program)."
+        },
+        {
+          "name": "5. Representative on a town board and library board (go leadership ig)",
+          "role": "",
+          "description": "5. Representative on a town board and library board (go leadership ig)"
+        },
+        {
+          "name": "6. Depop seller (idk why I placed this so high but in my description I tried to ",
+          "role": "",
+          "description": "6. Depop seller (idk why I placed this so high but in my description I tried to emphasize how I redesigned old clothes [yes creativity] and was being a promoter of sustainability….unfortunately did NOT read like that loo"
+        },
+        {
+          "name": "7. Violin player (run of the mill, did states orchestra and our states symphony ",
+          "role": "",
+          "description": "7. Violin player (run of the mill, did states orchestra and our states symphony orchestra, a few quartets and was concertmaster of school orchestra )(didn’t submit portfolio, even though I spent my senior year summer pre"
+        },
+        {
+          "name": "8. Founder and president of school music club, did some fundraising and coordina",
+          "role": "",
+          "description": "8. Founder and president of school music club, did some fundraising and coordinated performances at retirement homes"
+        },
+        {
+          "name": "9. Tutor (yawn)(tried to connect this to some of my essay topics, elaboration la",
+          "role": "",
+          "description": "9. Tutor (yawn)(tried to connect this to some of my essay topics, elaboration later)"
+        },
+        {
+          "name": "10. Celebration of heritage (talked about my involvement in CNY festivvals)",
+          "role": "",
+          "description": "10. Celebration of heritage (talked about my involvement in CNY festivvals)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. USABO National Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. ASA National data visualization award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. NationalTemple university conference award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Rensselaer medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Harvard book award",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "9. Tutor (yawn)(tried to connect this to some of my essay topics, elaboration later)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology for most (basic ik)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

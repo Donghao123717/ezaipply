@@ -1,0 +1,38 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.995,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Essays: NGL, she and I worked on these a lot, but I tried to use a pretty light touch, and she ended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LORs: Hard to say. Calc BC teacher has some harsh tendencies. Gov teacher was probably 10/10. Additi",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "3.995 uw, 4.60 w, 35 act (36m,36s,35w,33r (second sitting after taking it sick t"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 770,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. National French Exam — Gold Medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Latin Exam and Latin Vocabulary and Etymology Exams — Gold Medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Second place in Wisconsin and first place in my school in Wisconsin Yes! Economics competition (i",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Concours Oral (French-speaking competition in Wisconsin) — Gold Medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. First place awards and sportsmanship awards from tennis tournaments",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "linguistics (to most schools but now planning to major in global health and fren"
+    },
+    "ESSAY_SCORE": null
+  }
+}

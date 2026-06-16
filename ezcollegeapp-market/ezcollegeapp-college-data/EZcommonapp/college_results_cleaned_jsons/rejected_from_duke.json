@@ -1,0 +1,43 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "- Fuck Duke lmao you will get in somewhere very good almost guaranteed, just got",
+          "role": "",
+          "description": "- Fuck Duke lmao you will get in somewhere very good almost guaranteed, just gotta keep those grades up for longer I guess"
+        },
+        {
+          "name": "- thank you so much. like seriously.",
+          "role": "",
+          "description": "- thank you so much. like seriously."
+        },
+        {
+          "name": "-",
+          "role": "",
+          "description": "-"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "-over 300 volunteer hours part of a service learning youth council"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

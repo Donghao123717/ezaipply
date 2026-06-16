@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Purposely vague here, if you have any questions let me know.",
+          "role": "",
+          "description": "Purposely vague here, if you have any questions let me know."
+        },
+        {
+          "name": "1. Earth sci research assisted by OOS prof (remote)",
+          "role": "",
+          "description": "1. Earth sci research assisted by OOS prof (remote)"
+        },
+        {
+          "name": "2. Co-founded org to promote geographic literacy (did legitimate, impactful work",
+          "role": "",
+          "description": "2. Co-founded org to promote geographic literacy (did legitimate, impactful work)"
+        },
+        {
+          "name": "3. Physics research w/ state uni prof",
+          "role": "",
+          "description": "3. Physics research w/ state uni prof"
+        },
+        {
+          "name": "4. 3y varsity, 1y JV soccer player on one of top HS teams in my state",
+          "role": "",
+          "description": "4. 3y varsity, 1y JV soccer player on one of top HS teams in my state"
+        },
+        {
+          "name": "5. Internship at water treatment company, did wastewater remediation research",
+          "role": "",
+          "description": "5. Internship at water treatment company, did wastewater remediation research"
+        },
+        {
+          "name": "6. Training program related to research in #1",
+          "role": "",
+          "description": "6. Training program related to research in #1"
+        },
+        {
+          "name": "7. Coached for academic competitions",
+          "role": "",
+          "description": "7. Coached for academic competitions"
+        },
+        {
+          "name": "8. Conference/summit related to research in #1",
+          "role": "",
+          "description": "8. Conference/summit related to research in #1"
+        },
+        {
+          "name": "9. Robotics, lead programmer",
+          "role": "",
+          "description": "9. Robotics, lead programmer"
+        },
+        {
+          "name": "10. Co-authored a book about growing up Asian (1k+ copies sold in 1y)",
+          "role": "",
+          "description": "10. Co-authored a book about growing up Asian (1k+ copies sold in 1y)"
+        },
+        {
+          "name": "11. Speedcuber (only put for Caltech, ranked top 5 in my state)",
+          "role": "",
+          "description": "11. Speedcuber (only put for Caltech, ranked top 5 in my state)"
+        },
+        {
+          "name": "12. One of 12 selected out of 200+ to give a TED talk at one of largest TEDx eve",
+          "role": "",
+          "description": "12. One of 12 selected out of 200+ to give a TED talk at one of largest TEDx events in the world. Happened after submitting apps so I updated colleges w/ it."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. State ISEF 2nd Place in Physics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Harvard Book Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Rensselaer Medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. USACO Silver",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "applied mostly to earth sciences/geophysics, applied to some places w/ cs or com"
+    },
+    "ESSAY_SCORE": null
+  }
+}

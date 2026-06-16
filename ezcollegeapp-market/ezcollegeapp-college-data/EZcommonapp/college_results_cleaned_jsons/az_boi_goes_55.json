@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.92,
+      "sat_total": 1420,
+      "act_composite": null,
+      "class_rank_percentile": 95.2,
+      "ap_ib_honors_count": 8
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Owner of online clothing business",
+          "role": "",
+          "description": "Owner of online clothing business"
+        },
+        {
+          "name": "VP of Mu Alpha Theta",
+          "role": "",
+          "description": "VP of Mu Alpha Theta"
+        },
+        {
+          "name": "Link Crew Leader",
+          "role": "",
+          "description": "Link Crew Leader"
+        },
+        {
+          "name": "Game Dev",
+          "role": "",
+          "description": "Game Dev"
+        },
+        {
+          "name": "Fast Food Part Time Job",
+          "role": "",
+          "description": "Fast Food Part Time Job"
+        },
+        {
+          "name": "Camp Counselor",
+          "role": "",
+          "description": "Camp Counselor"
+        },
+        {
+          "name": "NHS",
+          "role": "",
+          "description": "NHS"
+        },
+        {
+          "name": "Varsity Tennis",
+          "role": "",
+          "description": "Varsity Tennis"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP Macro and Micro, AP Gov, AP Calc BC, DE Writing 101 Standardized Testing",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "SAT : 1420 (700 Math 720 Rw) (school average 1135)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP / IB: 4 4 4 3",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

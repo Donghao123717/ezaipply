@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 32,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Paid Student Researcher at Georgia Tech (biochemistry/breast cancer)",
+          "role": "",
+          "description": "Paid Student Researcher at Georgia Tech (biochemistry/breast cancer)"
+        },
+        {
+          "name": "Choreographer for School Musical (2 years)",
+          "role": "",
+          "description": "Choreographer for School Musical (2 years)"
+        },
+        {
+          "name": "Competitive Dancer (12 years)",
+          "role": "",
+          "description": "Competitive Dancer (12 years)"
+        },
+        {
+          "name": "Science Olympiad (2 years, regional placements)",
+          "role": "",
+          "description": "Science Olympiad (2 years, regional placements)"
+        },
+        {
+          "name": "Emory University Summer classes",
+          "role": "",
+          "description": "Emory University Summer classes"
+        },
+        {
+          "name": "Exotic Animal Owner (this one is weird, but I basically explained how I rescued ",
+          "role": "",
+          "description": "Exotic Animal Owner (this one is weird, but I basically explained how I rescued several exotic animals and nursed them to health/studied husbandry)"
+        },
+        {
+          "name": "Designed holiday cards for an award-winning reforestation nonprofit",
+          "role": "",
+          "description": "Designed holiday cards for an award-winning reforestation nonprofit"
+        },
+        {
+          "name": "Surprise! I only put 7 ECs, the reason for this is in my additional information",
+          "role": "",
+          "description": "Surprise! I only put 7 ECs, the reason for this is in my additional information"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "AP Capstone Diploma",
+          "role": "",
+          "description": "AP Capstone Diploma"
+        },
+        {
+          "name": "AP Scholar w/ Distinction",
+          "role": "",
+          "description": "AP Scholar w/ Distinction"
+        },
+        {
+          "name": "Science National Honor Society",
+          "role": "",
+          "description": "Science National Honor Society"
+        },
+        {
+          "name": "I also only put 3 honors!",
+          "role": "",
+          "description": "I also only put 3 honors!"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Capstone Diploma",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar w/ Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Science National Honor Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I also only put 3 honors!",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "10th grade chemistry teacher (the teacher who selected me/worked with me during my internship) - 8/1",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Calc BC teacher - 7/10",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I spent a lot of time on my personal essay and worked with an editor. I wrote about self-advocacy in",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology/biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

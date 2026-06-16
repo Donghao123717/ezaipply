@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.92,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Founded a student research org connecting HS students with medical research m",
+          "role": "",
+          "description": "1. Founded a student research org connecting HS students with medical research mentors; ran workshops and helped students submit abstracts"
+        },
+        {
+          "name": "2. Research intern at a university lab (neuroscience related); contributed to ab",
+          "role": "",
+          "description": "2. Research intern at a university lab (neuroscience related); contributed to abstract + poster that was later presented at a conference"
+        },
+        {
+          "name": "3. Bibliometric analysis research in neurodegenerative disease with organization",
+          "role": "",
+          "description": "3. Bibliometric analysis research in neurodegenerative disease with organization; second authorship of poster, abstract, and oral presentation"
+        },
+        {
+          "name": "4. Physician shadowing (IM + neurology)",
+          "role": "",
+          "description": "4. Physician shadowing (IM + neurology)"
+        },
+        {
+          "name": "5. President of Science Olympiad",
+          "role": "",
+          "description": "5. President of Science Olympiad"
+        },
+        {
+          "name": "6. AP Biology TA / peer tutor",
+          "role": "",
+          "description": "6. AP Biology TA / peer tutor"
+        },
+        {
+          "name": "7. Started a small summer program teaching middle schoolers about the human body",
+          "role": "",
+          "description": "7. Started a small summer program teaching middle schoolers about the human body"
+        },
+        {
+          "name": "8. Varsity water polo (not recruited)",
+          "role": "",
+          "description": "8. Varsity water polo (not recruited)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Research poster at national conference (didn't win awards)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "PVSA Gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar w/ Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Some local/state science and school leadership awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "6. AP Biology TA / peer tutor"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1400,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Community Service @ HS prep program (300+ hours)",
+          "role": "",
+          "description": "1. Community Service @ HS prep program (300+ hours)"
+        },
+        {
+          "name": "2. Student at a Saturday/Summer school prep thing (5 years)",
+          "role": "",
+          "description": "2. Student at a Saturday/Summer school prep thing (5 years)"
+        },
+        {
+          "name": "3. Finance Club (VP 2 years)",
+          "role": "",
+          "description": "3. Finance Club (VP 2 years)"
+        },
+        {
+          "name": "4. 2 Independent Charity collections (Soph and Junior year, 1 international, the",
+          "role": "",
+          "description": "4. 2 Independent Charity collections (Soph and Junior year, 1 international, the other domestic (respectively). 100+ hours)"
+        },
+        {
+          "name": "5. Tutor (4 years)",
+          "role": "",
+          "description": "5. Tutor (4 years)"
+        },
+        {
+          "name": "6. Religious group thing @ school (1 year)",
+          "role": "",
+          "description": "6. Religious group thing @ school (1 year)"
+        },
+        {
+          "name": "7. Social Justice group (1 year)",
+          "role": "",
+          "description": "7. Social Justice group (1 year)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *NHS (no positions available at my school)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *AP Scholar (junior year)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Community Service Award (school-specific)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. *College Board National African American Recognition Program*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. *First Honors every quarter, Principal's Honors Award every semester, and Excellence award every ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 300,
+      "first_gen": true,
+      "service_summary": "1. Community Service @ HS prep program (300+ hours); 5. Tutor (4 years)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "international business, finance, econ, math (depending on the school)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

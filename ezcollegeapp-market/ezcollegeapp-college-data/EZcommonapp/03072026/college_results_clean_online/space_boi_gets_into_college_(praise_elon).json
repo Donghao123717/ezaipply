@@ -1,0 +1,89 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.85,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "\\- Paid LIGO Summer Internship: wrote code for prototype laser calibration devic",
+          "role": "",
+          "description": "\\- Paid LIGO Summer Internship: wrote code for prototype laser calibration device, will be an author in future paper"
+        },
+        {
+          "name": "\\- Founded math tutoring nonprofit: partnered with groups like Boys and Girls Cl",
+          "role": "",
+          "description": "\\- Founded math tutoring nonprofit: partnered with groups like Boys and Girls Clubs, organized fundraiser for home computers for low-income families"
+        },
+        {
+          "name": "\\- Science Competition Club (President)",
+          "role": "",
+          "description": "\\- Science Competition Club (President)"
+        },
+        {
+          "name": "\\- Chess Club (President)",
+          "role": "",
+          "description": "\\- Chess Club (President)"
+        },
+        {
+          "name": "\\- Mu Alpha Theta",
+          "role": "",
+          "description": "\\- Mu Alpha Theta"
+        },
+        {
+          "name": "\\- French Competition Club/Honor Society",
+          "role": "",
+          "description": "\\- French Competition Club/Honor Society"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "\\- Contributor to $250k Nat'l Science Foundation funded research project: designing/prototyping dete",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Volunteering Awards/Scholarships",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- State French Competition First/Second place awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Mu Alpha Theta Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Nat'l AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Nat'l Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

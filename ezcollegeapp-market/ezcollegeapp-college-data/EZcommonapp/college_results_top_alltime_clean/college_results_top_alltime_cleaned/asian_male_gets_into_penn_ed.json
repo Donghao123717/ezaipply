@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Writer on Quora: well-researched pieces about Roman history starting in 7th g",
+          "role": "",
+          "description": "1. Writer on Quora: well-researched pieces about Roman history starting in 7th grade; became most viewed history writer; 20 million views, 1k+ answers, 10k followers"
+        },
+        {
+          "name": "2. Started a YouTube channel: Research, produce, &amp; edit history videos biwee",
+          "role": "",
+          "description": "2. Started a YouTube channel: Research, produce, &amp; edit history videos biweekly; use Adobe Premiere; published 35 videos; attract 2.4k subscribers &amp; 160k views"
+        },
+        {
+          "name": "3. Jazz band pianist: Attend several months of rehearsals; lead rehearsal rhythm",
+          "role": "",
+          "description": "3. Jazz band pianist: Attend several months of rehearsals; lead rehearsal rhythm section; perform at jazz competitions &amp; festivals; won solo awards &amp; scholarships for piano"
+        },
+        {
+          "name": "4. Independent research: Research &amp; write scholarly papers; produced one pap",
+          "role": "",
+          "description": "4. Independent research: Research &amp; write scholarly papers; produced one paper on homosexuality in ancient Greece and Rome &amp; another on Miles Davis's misogyny"
+        },
+        {
+          "name": "5. Classical pianist: Studied for 12 years; perform twice a year in recital; ear",
+          "role": "",
+          "description": "5. Classical pianist: Studied for 12 years; perform twice a year in recital; earned ABRSM piano performance Grade 8 certificate; won medals in several competitions"
+        },
+        {
+          "name": "6. President of school's Chinese Cultural Club: Organized a Pan-Asian Cultural C",
+          "role": "",
+          "description": "6. President of school's Chinese Cultural Club: Organized a Pan-Asian Cultural Celebration with other cultural clubs; created a Chinese dance performance group; organized fundraisers for charities"
+        },
+        {
+          "name": "7. Officer of school's Model UN Club: Organized virtual and in-person MUN confer",
+          "role": "",
+          "description": "7. Officer of school's Model UN Club: Organized virtual and in-person MUN conferences; led meetings; taught members debating skills; organized summer boot camp for new MUN students"
+        },
+        {
+          "name": "8. Volunteer teacher at local Chinese school: Taught SAT and writing classes; ma",
+          "role": "",
+          "description": "8. Volunteer teacher at local Chinese school: Taught SAT and writing classes; made course plans; received good feedback from students/parents; earned the President’s Volunteer Award for 100+ hours"
+        },
+        {
+          "name": "9. Private tutor: Tutored writing and tutored SAT; raised a student's SAT score ",
+          "role": "",
+          "description": "9. Private tutor: Tutored writing and tutored SAT; raised a student's SAT score from 1250 to 1400 and helped students improve writing skills"
+        },
+        {
+          "name": "10. Worked at Taco Bell",
+          "role": "",
+          "description": "10. Worked at Taco Bell"
+        },
+        {
+          "name": "The rest of this went on additional information:",
+          "role": "",
+          "description": "The rest of this went on additional information:"
+        },
+        {
+          "name": "11. Trained in MMA for 9 years, earned brown belt",
+          "role": "",
+          "description": "11. Trained in MMA for 9 years, earned brown belt"
+        },
+        {
+          "name": "12. Attended selective high school journalism workshop at the Inquirer for three",
+          "role": "",
+          "description": "12. Attended selective high school journalism workshop at the Inquirer for three years, worked in offices with editors and journalists, published articles"
+        },
+        {
+          "name": "13. Student government cabinet member",
+          "role": "",
+          "description": "13. Student government cabinet member"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Superior Writing award from National Council for Teachers of English (2021)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. $1000 scholarship from Philadelphia Inquirer for student journalism",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 100,
+      "first_gen": true,
+      "service_summary": "8. Volunteer teacher at local Chinese school: Taught SAT and writing classes; made course plans; received good feedback from students/parents; earned the President’s Volunteer Award for 100+ hours; 9. Private tutor: Tutored writing and tutored SAT; raised a student's SAT score from 1250 to 1400 and helped students improve writing skills"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

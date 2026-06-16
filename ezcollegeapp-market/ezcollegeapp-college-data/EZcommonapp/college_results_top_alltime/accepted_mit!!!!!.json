@@ -1,0 +1,251 @@
+{
+  "post": {
+    "id": "t3_1jbgp08",
+    "title": "ACCEPTED MIT!!!!!",
+    "author": "No_Negotiation8930",
+    "selftext": "Me when I lie",
+    "score": "291",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1jbgp08/accepted_mit/",
+    "created": "",
+    "num_comments": 9,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_mhtyd9o",
+      "author": "drakevice11",
+      "body": "lol 💀",
+      "score": "37",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_mhu9s2q",
+      "author": "Little_Vanilla804",
+      "body": "girl bye",
+      "score": "19",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_mhuwczx",
+      "author": "No_Addition1019",
+      "body": "It's truly great advice! That's exactly how I got an instant acceptance from Vandy (literally seconds after I submitted the common app).",
+      "score": "8",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_mhumw3u",
+      "author": "Rare-Gas-17",
+      "body": "lol",
+      "score": "5",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_mhwpqc8",
+      "author": "Acceptable-Public102",
+      "body": "接",
+      "score": "1",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_mi898mi",
+          "author": "Murky-Wall2810",
+          "body": "接",
+          "score": "1",
+          "created": "",
+          "depth": 1,
+          "parent_id": "t1_mhwpqc8",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_mkmybqd",
+      "author": "Slyfox163",
+      "body": "Bruh, i was so excited for you.",
+      "score": "1",
+      "created": "",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_mkp9ski",
+          "author": "No_Negotiation8930",
+          "body": "I got Cornell atleast",
+          "score": "1",
+          "created": "",
+          "depth": 1,
+          "parent_id": "t1_mkmybqd",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_mkps8s5",
+              "author": "Slyfox163",
+              "body": "Congratulations!",
+              "score": "1",
+              "created": "",
+              "depth": 2,
+              "parent_id": "t1_mkp9ski",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1jbgp08",
+        "author": "No_Negotiation8930",
+        "title": "ACCEPTED MIT!!!!!",
+        "body": "Me when I lie",
+        "full_text": "ACCEPTED MIT!!!!!\n\nMe when I lie"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_mhtyd9o",
+          "author": "drakevice11",
+          "body": "lol 💀",
+          "score": "37",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_mhu9s2q",
+          "author": "Little_Vanilla804",
+          "body": "girl bye",
+          "score": "19",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_mhuwczx",
+          "author": "No_Addition1019",
+          "body": "It's truly great advice! That's exactly how I got an instant acceptance from Vandy (literally seconds after I submitted the common app).",
+          "score": "8",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_mhumw3u",
+          "author": "Rare-Gas-17",
+          "body": "lol",
+          "score": "5",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_mhwpqc8",
+          "author": "Acceptable-Public102",
+          "body": "接",
+          "score": "1",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_mkmybqd",
+          "author": "Slyfox163",
+          "body": "Bruh, i was so excited for you.",
+          "score": "1",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_mhwpqc8",
+        "author": "Acceptable-Public102",
+        "body": "接",
+        "score": "1",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_mi898mi",
+          "author": "Murky-Wall2810",
+          "body": "接",
+          "score": "1",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_mkmybqd",
+        "author": "Slyfox163",
+        "body": "Bruh, i was so excited for you.",
+        "score": "1",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_mkp9ski",
+          "author": "No_Negotiation8930",
+          "body": "I got Cornell atleast",
+          "score": "1",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_mkp9ski",
+        "author": "No_Negotiation8930",
+        "body": "I got Cornell atleast",
+        "score": "1",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_mkps8s5",
+          "author": "Slyfox163",
+          "body": "Congratulations!",
+          "score": "1",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 6,
+    "total_nested_replies": 3,
+    "total_qa_pairs": 4
+  }
+}

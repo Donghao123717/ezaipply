@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "\\#1 Founded a multistate student newsletter giving students a voice, writing the",
+          "role": "",
+          "description": "\\#1 Founded a multistate student newsletter giving students a voice, writing the future, one article at a time. Working with multiple high schools across Nevada, Arizona, California, Texas and Florida"
+        },
+        {
+          "name": "\\#2 Astrophysics research, mentored by SpaceX engineer &amp; Tufts graduate",
+          "role": "",
+          "description": "\\#2 Astrophysics research, mentored by SpaceX engineer &amp; Tufts graduate"
+        },
+        {
+          "name": "\\#3  Astrophysics Olympiad (USAAAO)/Astronomy club Founder, President",
+          "role": "",
+          "description": "\\#3  Astrophysics Olympiad (USAAAO)/Astronomy club Founder, President"
+        },
+        {
+          "name": "\\#4 National Science Bowl Team Captain",
+          "role": "",
+          "description": "\\#4 National Science Bowl Team Captain"
+        },
+        {
+          "name": "\\#5 UNLV Research Education Program, researching light pollution and its effects",
+          "role": "",
+          "description": "\\#5 UNLV Research Education Program, researching light pollution and its effects in Las Vegas through the honors college"
+        },
+        {
+          "name": "\\#6  Varsity Track &amp; Field throwing Captain",
+          "role": "",
+          "description": "\\#6  Varsity Track &amp; Field throwing Captain"
+        },
+        {
+          "name": "\\#7 Founder, Editor-in-Chief of schools first student run newsletter",
+          "role": "",
+          "description": "\\#7 Founder, Editor-in-Chief of schools first student run newsletter"
+        },
+        {
+          "name": "\\#8 FRC Team Captain, lead programmer",
+          "role": "",
+          "description": "\\#8 FRC Team Captain, lead programmer"
+        },
+        {
+          "name": "\\#9 Research Program, mentored by a UC Berkeley Astrophysics PhD graduate",
+          "role": "",
+          "description": "\\#9 Research Program, mentored by a UC Berkeley Astrophysics PhD graduate"
+        },
+        {
+          "name": "\\#10 Computer Science Society (CSS), Student-led Computer Science Organization, ",
+          "role": "",
+          "description": "\\#10 Computer Science Society (CSS), Student-led Computer Science Organization, Vice President"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "A bunch of Track &amp; Field regional awards, A ton of Science Bowl state and re",
+          "role": "",
+          "description": "A bunch of Track &amp; Field regional awards, A ton of Science Bowl state and regional competition placements with over $10k in winnings, UNLV REP presenter, Principles Honor Award"
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "A bunch of Track &amp; Field regional awards, A ton of Science Bowl state and regional competition p",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English teacher for 3 years (9/10), was very close with her throughout high school.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Calc Teacher for 2 years (8/10), he was also from Vancouver and I had plenty of ECs sponsored by ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Harvard interview (8/10) The Interviewer was very curious about my story, we connected very well",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Personal statementA reluctant teenager discovers a passion for astronomy through stargazing with his",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I spent 7 months on this essay, definitely my best writing piece.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here) astronomy, astrophysics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

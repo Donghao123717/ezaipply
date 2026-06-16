@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1430,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Tech Fair regional 1st place win x2",
+          "role": "",
+          "description": "Tech Fair regional 1st place win x2"
+        },
+        {
+          "name": "SkillsUSA: Lead Quizbowl Team to State, 2nd place Regional",
+          "role": "",
+          "description": "SkillsUSA: Lead Quizbowl Team to State, 2nd place Regional"
+        },
+        {
+          "name": "Official Schoolhouse Tutor: Did that, also crammed in independent tutoring and a",
+          "role": "",
+          "description": "Official Schoolhouse Tutor: Did that, also crammed in independent tutoring and a crappy SAT resource website all in one slot LOL"
+        },
+        {
+          "name": "Academic Bowl: only activity that was 3 yrs...highlighted my strategy and patter",
+          "role": "",
+          "description": "Academic Bowl: only activity that was 3 yrs...highlighted my strategy and pattern recognition, improvement, and dedication."
+        },
+        {
+          "name": "CyberPatriot: 3rd place state on schools first all girls team (added this to app",
+          "role": "",
+          "description": "CyberPatriot: 3rd place state on schools first all girls team (added this to appeal to the women's only college) emphasised dedication, and contribution to schools resources."
+        },
+        {
+          "name": "And for the activity writing part I talked about an independent data science res",
+          "role": "",
+          "description": "And for the activity writing part I talked about an independent data science research question I used AI to help me with."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Official Schoolhouse Tutor: Did that, also crammed in independent tutoring and a crappy SAT resource website all in one slot LOL"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

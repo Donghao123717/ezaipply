@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "Track and Field Captain: 4 years varsity, trained pretty much year-round the who",
+          "role": "",
+          "description": "Track and Field Captain: 4 years varsity, trained pretty much year-round the whole time, navigated entire coaching staff change between 10th-11th grade (15hrs/wk, 49wks)"
+        },
+        {
+          "name": "Founding Philosophy Club: Started senior year since the course was discontinued ",
+          "role": "",
+          "description": "Founding Philosophy Club: Started senior year since the course was discontinued and I thought it would be beneficial to demystify the concept (2hrs/wk, 18wks)"
+        },
+        {
+          "name": "Adaptive Ski Instructor: 4 years, giving back to the ski community helping creat",
+          "role": "",
+          "description": "Adaptive Ski Instructor: 4 years, giving back to the ski community helping create a safe space for growth (3hrs/week, 8wks)"
+        },
+        {
+          "name": "Adaptive Soccer Instructor: Essentially same thing for soccer instruction, diffe",
+          "role": "",
+          "description": "Adaptive Soccer Instructor: Essentially same thing for soccer instruction, different org though (2hrs/week, 16wks)"
+        },
+        {
+          "name": "French Foreign Exchange: 11th grade, gained new understanding of how US is seen ",
+          "role": "",
+          "description": "French Foreign Exchange: 11th grade, gained new understanding of how US is seen abroad, different culture and educational philosophy (12hrs/week, 4wks)"
+        },
+        {
+          "name": "Cashier at Local Sporting Goods Store: 10th-12th grade, talked about the unique ",
+          "role": "",
+          "description": "Cashier at Local Sporting Goods Store: 10th-12th grade, talked about the unique aspects of small businesses and developing relationships with customers, being part of a team (14hrs/wk, 7wks)"
+        },
+        {
+          "name": "Chess Club: 4 years, showed up to encourage more turnout and have fun in a low-s",
+          "role": "",
+          "description": "Chess Club: 4 years, showed up to encourage more turnout and have fun in a low-stakes environment, taught kids at local library (1hr/wk, 36wks)"
+        },
+        {
+          "name": "Soccer Referee: 4 years, role model to young athletes and newer refs, defending ",
+          "role": "",
+          "description": "Soccer Referee: 4 years, role model to young athletes and newer refs, defending decisions and communicating in team (2.5hrs/wk, 12wks)"
+        },
+        {
+          "name": "This went in Education but I did a 4-week summer program at Harvard for credit, ",
+          "role": "",
+          "description": "This went in Education but I did a 4-week summer program at Harvard for credit, got an A- in a math class that many people dropped out of."
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "role": "",
+          "description": "List all awards and honors submitted on your application."
+        },
+        {
+          "name": "French School Award (11th)",
+          "role": "",
+          "description": "French School Award (11th)"
+        },
+        {
+          "name": "History School Award (11th)",
+          "role": "",
+          "description": "History School Award (11th)"
+        },
+        {
+          "name": "Science School Award (11th)",
+          "role": "",
+          "description": "Science School Award (11th)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "French School Award (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "History School Award (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Science School Award (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English School Award (11th)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "General School Award (4 years)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English Teacher: I really liked my English teacher, and he explicitly told me he wanted to write my ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Philosophy Teacher: I really enjoyed the topics of this class and constantly asked questions, but I ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor: I didn't really talk to my counselor that much throughout the process, but I involved her",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Adaptive Ski Instructor: 4 years, giving back to the ski community helping create a safe space for growth (3hrs/week, 8wks)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "science & technology studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

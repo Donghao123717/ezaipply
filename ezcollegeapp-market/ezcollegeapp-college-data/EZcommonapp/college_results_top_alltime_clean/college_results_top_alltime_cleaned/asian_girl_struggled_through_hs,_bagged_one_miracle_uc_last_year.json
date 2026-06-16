@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.23,
+      "sat_total": 580,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Summer Research Program summer before 12th (Don’t want to get specific but it’s ",
+          "role": "",
+          "description": "Summer Research Program summer before 12th (Don’t want to get specific but it’s in the tier right below RSI if that helps? Usually &lt;10% acceptance rate, and I see people on A2C have mentioned"
+        },
+        {
+          "name": "it often in regards to STEM summer programs.)",
+          "role": "",
+          "description": "it often in regards to STEM summer programs.)"
+        },
+        {
+          "name": "Unpublished (in any significant capacity) bio research project. Got results but ",
+          "role": "",
+          "description": "Unpublished (in any significant capacity) bio research project. Got results but showed my interest (read: fixation) in bio research given limited resources than anything else."
+        },
+        {
+          "name": "President/Captain of Academic Decathlon for two years, member for four. Led team",
+          "role": "",
+          "description": "President/Captain of Academic Decathlon for two years, member for four. Led team to state for the first time and won some scholarships."
+        },
+        {
+          "name": "Some advocacy for environmental justice organization (lots of phonebanking and i",
+          "role": "",
+          "description": "Some advocacy for environmental justice organization (lots of phonebanking and interviewed the director)"
+        },
+        {
+          "name": "There were other ECs, but they were smaller and supplemented the interest in STE",
+          "role": "",
+          "description": "There were other ECs, but they were smaller and supplemented the interest in STEM that I established through whatever research I could do. Not too many on-campus activities, if I’m being honest."
+        },
+        {
+          "name": "Mentioned side hobbies like writing and publishing fiction online (~70k hits at ",
+          "role": "",
+          "description": "Mentioned side hobbies like writing and publishing fiction online (~70k hits at the time lol) and a culturally connected pretty unique art hobby that I talk about in my PIQ"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Kinda small on paper and contributed little to nothing but they meant a lot to my personal growth 😪",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "$1000 Academic Decathlon Scholarship (for being the top scorer in the county for my GPA category)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Perfect speech score in AcaDeca, probably one or two people out of ~500 get this a year in my county",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1st Place school creative writing contest award (REALLY REACHING HERE)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "microbiology or molecular and cell biology"
+    },
+    "ESSAY_SCORE": null
+  }
+}

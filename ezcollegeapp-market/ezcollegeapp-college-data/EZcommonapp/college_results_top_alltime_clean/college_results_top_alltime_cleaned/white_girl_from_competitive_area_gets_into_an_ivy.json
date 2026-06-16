@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. did enviro-sci research with NASA (went through a rly specific path) during s",
+          "role": "",
+          "description": "1. did enviro-sci research with NASA (went through a rly specific path) during summer 21. submitted my abstract to columbia. first author of paper that was published as preprint w/doi (not peer-review, but still had to g"
+        },
+        {
+          "name": "2. research-based internship at t20 (i think???) robotics lab, no awards but my ",
+          "role": "",
+          "description": "2. research-based internship at t20 (i think???) robotics lab, no awards but my project is fun and probably sounded quite interesting to whoever was reading :\\], 8 hours/week"
+        },
+        {
+          "name": "3. captain of my school's physics team, 3.5 hours/week, grades 10-12",
+          "role": "",
+          "description": "3. captain of my school's physics team, 3.5 hours/week, grades 10-12"
+        },
+        {
+          "name": "4. very selective computational physics research-based internship, 8 hours/week,",
+          "role": "",
+          "description": "4. very selective computational physics research-based internship, 8 hours/week, grade 12"
+        },
+        {
+          "name": "5. founder/prez of a fun little club at my school. we organized some online scho",
+          "role": "",
+          "description": "5. founder/prez of a fun little club at my school. we organized some online schoolwide events, 2? hours/week, grades 11-12"
+        },
+        {
+          "name": "6. niche sport, 4 hours/week, ever since i was 8 but colleges only see 'grades 9",
+          "role": "",
+          "description": "6. niche sport, 4 hours/week, ever since i was 8 but colleges only see 'grades 9-12' :/"
+        },
+        {
+          "name": "7. editor/webmaster at my school's litmag, 2 hours/week, grades 9-12",
+          "role": "",
+          "description": "7. editor/webmaster at my school's litmag, 2 hours/week, grades 9-12"
+        },
+        {
+          "name": "8. covid / machine learning research program at a local uni, submitted my abstra",
+          "role": "",
+          "description": "8. covid / machine learning research program at a local uni, submitted my abstract to columbia (they accept 2). no LoR but i think this research was conventionally impressive xD, grade 12, 24 hours/week for 4 weeks"
+        },
+        {
+          "name": "9. one of columbia's summer programs. LoR from my mentor (engineering prof.) + p",
+          "role": "",
+          "description": "9. one of columbia's summer programs. LoR from my mentor (engineering prof.) + put one of the projects i did in maker portfolio. my \"why columbia\" essay also mentioned this and how it led to me being interested in the sc"
+        },
+        {
+          "name": "10. co-writing a book with an engineering org based in a t10 (not columbia). won",
+          "role": "",
+          "description": "10. co-writing a book with an engineering org based in a t10 (not columbia). won a statewide award related to this"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. nat'l enviro-sci/engineering award for research i did in grade 10 (not in EC list bc i couldnt fi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. state engineering/applied math award for research i did in grade 9 (extremely important to me, mo",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. t20% of int'l physics comp",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. statewide engineering award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. put one of my ec#1 honors in there, shoved the rest in add'l info",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mech eng"
+    },
+    "ESSAY_SCORE": null
+  }
+}

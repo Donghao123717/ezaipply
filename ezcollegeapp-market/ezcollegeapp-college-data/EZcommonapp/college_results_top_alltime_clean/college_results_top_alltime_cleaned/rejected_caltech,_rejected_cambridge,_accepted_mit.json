@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Nonprofit Founder &amp; Program Director – Managed a nationally expanding studen",
+          "role": "",
+          "description": "Nonprofit Founder &amp; Program Director – Managed a nationally expanding student-led org focused on sustainability &amp; social impact (£90K raised, 25+ partnerships)."
+        },
+        {
+          "name": "Research at UK T10 Universities – Projects in architecture acoustics and AI for ",
+          "role": "",
+          "description": "Research at UK T10 Universities – Projects in architecture acoustics and AI for healthcare, presented at junior conferences."
+        },
+        {
+          "name": "Youth Advisor for a National Energy Company – Advised execs on sustainability &a",
+          "role": "",
+          "description": "Youth Advisor for a National Energy Company – Advised execs on sustainability &amp; youth perspectives in energy policy."
+        },
+        {
+          "name": "Co-Founder of a Sustainable Clothing Store – Brick &amp; mortar + online thrift ",
+          "role": "",
+          "description": "Co-Founder of a Sustainable Clothing Store – Brick &amp; mortar + online thrift store; proceeds donated to animal rescues."
+        },
+        {
+          "name": "Student Gov – Sustainability Committee – Spearheaded school-wide initiatives on ",
+          "role": "",
+          "description": "Student Gov – Sustainability Committee – Spearheaded school-wide initiatives on climate action."
+        },
+        {
+          "name": "Community Revitalization Projects – Transformed abandoned urban spaces into comm",
+          "role": "",
+          "description": "Community Revitalization Projects – Transformed abandoned urban spaces into community art &amp; history hubs."
+        },
+        {
+          "name": "Maths Tutor (A-level equivalent Calc BC) – Taught GCSE &amp; A-level students.",
+          "role": "",
+          "description": "Maths Tutor (A-level equivalent Calc BC) – Taught GCSE &amp; A-level students."
+        },
+        {
+          "name": "High School Awards: 1/1500 for merit &amp; creative writing.",
+          "role": "",
+          "description": "High School Awards: 1/1500 for merit &amp; creative writing."
+        },
+        {
+          "name": "Essay Competitions: International Finalist (1/2 out of 5000), National Winner (1",
+          "role": "",
+          "description": "Essay Competitions: International Finalist (1/2 out of 5000), National Winner (1/2500)."
+        },
+        {
+          "name": "Fun Stuff: Built a go-kart from laser-cut MDF, worked in a Chinese takeaway, and",
+          "role": "",
+          "description": "Fun Stuff: Built a go-kart from laser-cut MDF, worked in a Chinese takeaway, and obsessed with Transformers comics."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "Community Revitalization Projects – Transformed abandoned urban spaces into community art &amp; history hubs.; Maths Tutor (A-level equivalent Calc BC) – Taught GCSE &amp; A-level students."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "• civil/environmental engineering (with interdisciplinary interests in art &amp;"
+    },
+    "ESSAY_SCORE": null
+  }
+}

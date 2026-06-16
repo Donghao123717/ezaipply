@@ -1,0 +1,39 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Robotics President - ok success Church youth group leader Project Device w/ team",
+          "role": "",
+          "description": "Robotics President - ok success Church youth group leader Project Device w/ team and researchers help Research Intern w/ Startup Research Intern w/ University Soccer Coach rec league STEM Club President"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing List the highest scores earned and all scores that were reported. SAT: 1570",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "congrats on penn! the robotics + research + community involvement combo is really strong. honest question,"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "(write here): Engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

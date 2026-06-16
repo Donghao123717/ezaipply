@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.78,
+      "sat_total": null,
+      "act_composite": 27,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Alternate for AllState Choir (Junior and Senior Year)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Outstanding Lawyer Team - Model UN International Court of Justice Advanced Category",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Best Written Memorial - Model UN International Court of Justice Advanced Category",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3rd Place Group Documentary at the State National History Day competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays: Personal was about how my relationship with my dad inspired my love for movies; Also super p",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 110,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "major in political science/minor in film and media studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

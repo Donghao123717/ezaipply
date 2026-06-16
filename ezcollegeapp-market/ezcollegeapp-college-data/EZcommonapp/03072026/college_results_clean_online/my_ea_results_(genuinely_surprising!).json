@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 13
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "PVSA Silver Award from MOSH + Merit in Volunteering Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "UNF Academy Ethics Bowl First Place Champion",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "FSSC Sobresaliente x3 Winner",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "US Air Force Award from US Air Force at Pasco Science and Engineering Showcase",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Interviews: my essays are about a 6/10. my essay was about my bulletin board and the mea",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "No LORs or Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (All EA)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Acceptances: UNF, USF, UF, UPitt, Rutgers, UGA, UW-Madison, UMich, Virginia Tech",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Deferrals: Georgia Tech",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rejections: UVA, UNC, CWRU PPSP",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "neuroscience, or biochemistry"
+    },
+    "ESSAY_SCORE": null
+  }
+}

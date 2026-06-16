@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Statewide leadership for a government club I was a part of for the majority o",
+          "role": "",
+          "description": "1. Statewide leadership for a government club I was a part of for the majority of high school."
+        },
+        {
+          "name": "2. I worked on a campaign in the summer of 2019.",
+          "role": "",
+          "description": "2. I worked on a campaign in the summer of 2019."
+        },
+        {
+          "name": "3. I was an executive on the yearbook my senior year after being an editor the p",
+          "role": "",
+          "description": "3. I was an executive on the yearbook my senior year after being an editor the previous year."
+        },
+        {
+          "name": "4. I was the co-chair of a committee non-profit dedicated to providing start-up ",
+          "role": "",
+          "description": "4. I was the co-chair of a committee non-profit dedicated to providing start-up funds for local clubs and organizations. This was a legit non-profit that partnered with an adult-run group."
+        },
+        {
+          "name": "5. I was the co-founder of an environmental club.",
+          "role": "",
+          "description": "5. I was the co-founder of an environmental club."
+        },
+        {
+          "name": "6. DECA, I was just a member",
+          "role": "",
+          "description": "6. DECA, I was just a member"
+        },
+        {
+          "name": "7. I did varsity basketball.",
+          "role": "",
+          "description": "7. I did varsity basketball."
+        },
+        {
+          "name": "8. I did varsity volleyball",
+          "role": "",
+          "description": "8. I did varsity volleyball"
+        },
+        {
+          "name": "9. I was a staff-writer on a publication founded by my friend for a while.",
+          "role": "",
+          "description": "9. I was a staff-writer on a publication founded by my friend for a while."
+        },
+        {
+          "name": "10. I play guitar.",
+          "role": "",
+          "description": "10. I play guitar."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. 1st Place in a DECA state event in 2019.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. 1st Place in a DECA regional event in 2019.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Statewide award in the government club my first year for my performance in debates.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Math Student of the Month (probably belongs on a fridge not college apps lol)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. At first my fifth spot was an award I won at a conference, but the award wasn't that prestigious ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "for most schools i applied with econ, and poli sci and stat ranked afterwards. a"
+    },
+    "ESSAY_SCORE": null
+  }
+}

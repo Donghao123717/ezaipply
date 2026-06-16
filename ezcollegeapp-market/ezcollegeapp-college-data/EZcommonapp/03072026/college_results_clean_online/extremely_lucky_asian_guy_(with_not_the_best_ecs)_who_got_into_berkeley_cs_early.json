@@ -1,0 +1,68 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Coding Club, President - Mentor 25 students regarding programming projects in",
+          "role": "",
+          "description": "1. Coding Club, President - Mentor 25 students regarding programming projects in Python, HTML, Javascript, and Scratch"
+        },
+        {
+          "name": "2. MESA Club, Vice-president - Competitions in the fields of math, engineering, ",
+          "role": "",
+          "description": "2. MESA Club, Vice-president - Competitions in the fields of math, engineering, and science achievement.  (I never won any competition here.)"
+        },
+        {
+          "name": "3. Event organizer of fundraiser that raised $4k+",
+          "role": "",
+          "description": "3. Event organizer of fundraiser that raised $4k+"
+        },
+        {
+          "name": "4. Pre-college data science summer program at a local private university (not at",
+          "role": "",
+          "description": "4. Pre-college data science summer program at a local private university (not at all prestigious)"
+        },
+        {
+          "name": "5. Personal Python Projects (low-level but to me, meaningful projects such as ca",
+          "role": "",
+          "description": "5. Personal Python Projects (low-level but to me, meaningful projects such as calculator app, ai chatbot, Python blog, etc.)"
+        },
+        {
+          "name": "6. Chess Club, Treasurer",
+          "role": "",
+          "description": "6. Chess Club, Treasurer"
+        },
+        {
+          "name": "7. Python Udemy Course Certificate",
+          "role": "",
+          "description": "7. Python Udemy Course Certificate"
+        },
+        {
+          "name": "Essays**: 7-10/10? I don't really know how to rate them. Any rating I give is mo",
+          "role": "",
+          "description": "Essays**: 7-10/10? I don't really know how to rate them. Any rating I give is most likely innaccurate"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "cs"
+    },
+    "ESSAY_SCORE": null
+  }
+}

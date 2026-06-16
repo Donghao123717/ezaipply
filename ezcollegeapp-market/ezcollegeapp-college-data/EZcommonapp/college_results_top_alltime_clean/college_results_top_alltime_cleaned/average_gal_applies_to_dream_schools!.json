@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1200,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Intern and teen council facilitator at Planned Parenthood",
+          "role": "",
+          "description": "1. Intern and teen council facilitator at Planned Parenthood"
+        },
+        {
+          "name": "2. A shit ton of volunteer work (Women’s and children’s alliance, habitat for hu",
+          "role": "",
+          "description": "2. A shit ton of volunteer work (Women’s and children’s alliance, habitat for humanity)"
+        },
+        {
+          "name": "3. Rallied with local BLM organizers (this is a big deal bc my town is insanely ",
+          "role": "",
+          "description": "3. Rallied with local BLM organizers (this is a big deal bc my town is insanely conservative)"
+        },
+        {
+          "name": "4. Piano for 10 years",
+          "role": "",
+          "description": "4. Piano for 10 years"
+        },
+        {
+          "name": "5. Varsity debate and speech all 4 years",
+          "role": "",
+          "description": "5. Varsity debate and speech all 4 years"
+        },
+        {
+          "name": "6. I’ve been snowboarding since like forever so I threw that in there",
+          "role": "",
+          "description": "6. I’ve been snowboarding since like forever so I threw that in there"
+        },
+        {
+          "name": "7. Had a job all 4 years of high school",
+          "role": "",
+          "description": "7. Had a job all 4 years of high school"
+        },
+        {
+          "name": "8. English tutor at my school",
+          "role": "",
+          "description": "8. English tutor at my school"
+        },
+        {
+          "name": "9. I’ve had 2 works of my writing published locally",
+          "role": "",
+          "description": "9. I’ve had 2 works of my writing published locally"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "One national level debate recognition and a handful of local awards. Was also a distinguished englis",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. A shit ton of volunteer work (Women’s and children’s alliance, habitat for humanity); 8. English tutor at my school"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "philosophy/political philosophy (if offered)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

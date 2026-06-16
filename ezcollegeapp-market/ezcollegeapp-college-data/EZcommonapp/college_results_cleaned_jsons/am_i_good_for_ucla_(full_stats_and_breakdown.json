@@ -1,0 +1,44 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 3
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Vice President Of KCA Youth President of South VPA District President of Neurolo",
+          "role": "",
+          "description": "Vice President Of KCA Youth President of South VPA District President of Neurology Club At School Research alongside professor like genuine research at a good college for almost 6 months now every week"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Can you guys just be brutally honest if I am good in college, how am i looking compared to others, etc.? My dream colleg",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: Yes bro you know your competitive. Also, wrong subreddit",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 180,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

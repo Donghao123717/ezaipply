@@ -1,0 +1,124 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        },
+        {
+          "name": "1. Marching Band - Alto Saxophone Section Leader, member of student elected coun",
+          "role": "",
+          "description": "1. Marching Band - Alto Saxophone Section Leader, member of student elected council, respected mentor, four year member, 30 hours per week, 20 weeks per year"
+        },
+        {
+          "name": "2. California Scholarship Federation, volunteer work, three year member, 1 hour ",
+          "role": "",
+          "description": "2. California Scholarship Federation, volunteer work, three year member, 1 hour per week, 28 weeks per year"
+        },
+        {
+          "name": "3. Member of Church Youth Worship Team - Alto Saxophone player, occasional facil",
+          "role": "",
+          "description": "3. Member of Church Youth Worship Team - Alto Saxophone player, occasional facilitator, three year member, 3 hours per week, 36 weeks per year"
+        },
+        {
+          "name": "4. High-level and nationally revered honor band, third chair alto saxophone, one",
+          "role": "",
+          "description": "4. High-level and nationally revered honor band, third chair alto saxophone, one year participation, 17.5 hours for one week only"
+        },
+        {
+          "name": "5. High-level and nationally revered parade band, alto saxophone, one year parti",
+          "role": "",
+          "description": "5. High-level and nationally revered parade band, alto saxophone, one year participation, 10 hours per week, 9 weeks per year"
+        },
+        {
+          "name": "6. High-level and locally revered honor band, fourth chair alto saxophone, one y",
+          "role": "",
+          "description": "6. High-level and locally revered honor band, fourth chair alto saxophone, one year participation, 16 hours for one week only"
+        },
+        {
+          "name": "7. Jazz Band - Lead Alto Saxophone player, section leader, mentor, recipient of ",
+          "role": "",
+          "description": "7. Jazz Band - Lead Alto Saxophone player, section leader, mentor, recipient of numerous soloist awards, four year member, 4 hours per week, 28 weeks per year"
+        },
+        {
+          "name": "8. Highly involved volunteer at local private school, four year+ participation f",
+          "role": "",
+          "description": "8. Highly involved volunteer at local private school, four year+ participation for at least 2 hours a week and at least 10 weeks out of the year"
+        },
+        {
+          "name": "9. Co-founder and facilitator of schools first chamber music program and especia",
+          "role": "",
+          "description": "9. Co-founder and facilitator of schools first chamber music program and especially a saxophone quartet which made state championships in just our first year of inception, 2.5 hours per week, 13 weeks"
+        },
+        {
+          "name": "10. A variety of other honor bands and school bands",
+          "role": "",
+          "description": "10. A variety of other honor bands and school bands"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. California Boy’s State Delegate (did not attend due to pandemic)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Superintendent’s Honor Roll (Earned an A in every course taken from 9th through end of 11th grade",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Ranked One/Two in class (see above)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Best Overall Performer (student-voted in school’s band program)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Woody Herman Jazz Award (director-selected in school’s band program)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "2. California Scholarship Federation, volunteer work, three year member, 1 hour per week, 28 weeks per year; 8. Highly involved volunteer at local private school, four year+ participation for at least 2 hours a week and at least 10 weeks out of the year"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "political science and music (i did not express interested in a music major in ap"
+    },
+    "ESSAY_SCORE": null
+  }
+}

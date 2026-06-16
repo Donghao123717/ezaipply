@@ -1,0 +1,53 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.98,
+      "sat_total": 710,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "ISEF Finalist this year (sent an update after I applied because it was after the deadline);",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Selected as Boys State Delegate from my state last year, (sadly canceled due to COVID);",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National AP Scholar (11th);",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Perfect Score, State U.S. History Assessment (10th);",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "County-wide Model Senate winner 2 years in a row (10th-11th)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "global affairs and political science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

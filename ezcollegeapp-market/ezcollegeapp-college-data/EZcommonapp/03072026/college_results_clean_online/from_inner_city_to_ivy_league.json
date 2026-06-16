@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1500,
+      "act_composite": 33,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Caretaker for family member with IDD",
+          "role": "",
+          "description": "1. Caretaker for family member with IDD"
+        },
+        {
+          "name": "2. Shift Lead at Ice cream place I've worked at since sophomore year",
+          "role": "",
+          "description": "2. Shift Lead at Ice cream place I've worked at since sophomore year"
+        },
+        {
+          "name": "3. President of Indian cultural club",
+          "role": "",
+          "description": "3. President of Indian cultural club"
+        },
+        {
+          "name": "4. Freshman mentor (selective application process)",
+          "role": "",
+          "description": "4. Freshman mentor (selective application process)"
+        },
+        {
+          "name": "5. Internship at neighborhood association",
+          "role": "",
+          "description": "5. Internship at neighborhood association"
+        },
+        {
+          "name": "6. Captain of Varsity Sport",
+          "role": "",
+          "description": "6. Captain of Varsity Sport"
+        },
+        {
+          "name": "7. Journalism Intern at local magazine",
+          "role": "",
+          "description": "7. Journalism Intern at local magazine"
+        },
+        {
+          "name": "8. Youth Leader for summer program for underclassmen coming back after covid",
+          "role": "",
+          "description": "8. Youth Leader for summer program for underclassmen coming back after covid"
+        },
+        {
+          "name": "9. Student at UIUC's WYSE",
+          "role": "",
+          "description": "9. Student at UIUC's WYSE"
+        },
+        {
+          "name": "10. Content Creation (podcast, youtube, blogs)",
+          "role": "",
+          "description": "10. Content Creation (podcast, youtube, blogs)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. 3x NSE Gold medalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Scholarship to attend EC #9",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Selected to community based org",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National English Honors Society",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "anything that makes money so i put computer science or stats"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.69,
+      "sat_total": 1230,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Tennis (3 years)- played doubles, singles, went to the championship for doubles",
+          "role": "",
+          "description": "Tennis (3 years)- played doubles, singles, went to the championship for doubles"
+        },
+        {
+          "name": "Track and Field (3 years)- sprint and hurdles",
+          "role": "",
+          "description": "Track and Field (3 years)- sprint and hurdles"
+        },
+        {
+          "name": "National Honor Society (3 years) (Treasurer)- manage our finances, tutor, volunt",
+          "role": "",
+          "description": "National Honor Society (3 years) (Treasurer)- manage our finances, tutor, volunteer"
+        },
+        {
+          "name": "National Junior Honor Society (1 yr)",
+          "role": "",
+          "description": "National Junior Honor Society (1 yr)"
+        },
+        {
+          "name": "Youth Council (1 yr)(Secretary) - volunteered in my community",
+          "role": "",
+          "description": "Youth Council (1 yr)(Secretary) - volunteered in my community"
+        },
+        {
+          "name": "Basketball (1 yr)- nothing too special, I sucked at it",
+          "role": "",
+          "description": "Basketball (1 yr)- nothing too special, I sucked at it"
+        },
+        {
+          "name": "Rho Kappa (2 yrs)- Social Studies Honor Society, tutor studies that need help wi",
+          "role": "",
+          "description": "Rho Kappa (2 yrs)- Social Studies Honor Society, tutor studies that need help with history"
+        },
+        {
+          "name": "Senior Committee- plan events for my senior class",
+          "role": "",
+          "description": "Senior Committee- plan events for my senior class"
+        },
+        {
+          "name": "Work at a grocery store bagging (yr and a half) (We can choose what days to work",
+          "role": "",
+          "description": "Work at a grocery store bagging (yr and a half) (We can choose what days to work so my hours vary)"
+        },
+        {
+          "name": "Awards/Honors: (list here)",
+          "role": "",
+          "description": "Awards/Honors: (list here)"
+        },
+        {
+          "name": "AP Scholar (11th grade)",
+          "role": "",
+          "description": "AP Scholar (11th grade)"
+        },
+        {
+          "name": "National African American Recognition Award (11th grade)",
+          "role": "",
+          "description": "National African American Recognition Award (11th grade)"
+        },
+        {
+          "name": "A Honor Roll (9th grade)",
+          "role": "",
+          "description": "A Honor Roll (9th grade)"
+        },
+        {
+          "name": "Essays/LORs/Interviews: (briefly reflect/rate)",
+          "role": "",
+          "description": "Essays/LORs/Interviews: (briefly reflect/rate)"
+        },
+        {
+          "name": "Common App Essay: I wrote about how I have moved a lot throughout my life due to",
+          "role": "",
+          "description": "Common App Essay: I wrote about how I have moved a lot throughout my life due to being a military child and how that forced me to be more open and involve myself more in communities. (8/10)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Scholar (11th grade)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National African American Recognition Award (11th grade)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "A Honor Roll (9th grade)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays/LORs/Interviews: (briefly reflect/rate)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Common App Essay: I wrote about how I have moved a lot throughout my life due to being a military ch",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "National Honor Society (3 years) (Treasurer)- manage our finances, tutor, volunteer; Youth Council (1 yr)(Secretary) - volunteered in my community; Rho Kappa (2 yrs)- Social Studies Honor Society, tutor studies that need help with history"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology or biochem"
+    },
+    "ESSAY_SCORE": null
+  }
+}

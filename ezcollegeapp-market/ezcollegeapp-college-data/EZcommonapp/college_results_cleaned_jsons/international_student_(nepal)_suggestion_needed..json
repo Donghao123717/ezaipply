@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.92,
+      "sat_total": 1420,
+      "act_composite": null,
+      "class_rank_percentile": 99.5,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Co-founder & Lead Designer – DG Lytix Built online presence for 10+ businesses; ",
+          "role": "",
+          "description": "Co-founder & Lead Designer – DG Lytix Built online presence for 10+ businesses; created 25+ high school internships."
+        },
+        {
+          "name": "Vice President – CBM College Tech Club Led 150+ members, organized 11 tech event",
+          "role": "",
+          "description": "Vice President – CBM College Tech Club Led 150+ members, organized 11 tech events, including a Microsoft flagship event & web-dev boot camp."
+        },
+        {
+          "name": "Digital Marketing Intern – CBM College Produced 30+ TikToks (10M+ views); gained",
+          "role": "",
+          "description": "Digital Marketing Intern – CBM College Produced 30+ TikToks (10M+ views); gained 7k followers in 60 days; revamped college website."
+        },
+        {
+          "name": "Digital Marketing Intern – Bhoj Deals Nepal Worked on 5+ campaigns; helped drive",
+          "role": "",
+          "description": "Digital Marketing Intern – Bhoj Deals Nepal Worked on 5+ campaigns; helped drive 35% engagement increase."
+        },
+        {
+          "name": "Interact Club of Kathmandu (IT Team → Mentor) Led design workshops for 100+ stud",
+          "role": "",
+          "description": "Interact Club of Kathmandu (IT Team → Mentor) Led design workshops for 100+ students; mentored 30+ members."
+        },
+        {
+          "name": "Organizing Committee – The Runway Career Connect Managed marketing for Nepal’s l",
+          "role": "",
+          "description": "Organizing Committee – The Runway Career Connect Managed marketing for Nepal’s largest mentorship event (4M+ views; 8,000+ participants)."
+        },
+        {
+          "name": "Co-developer – ARBI POS Built a restaurant management app now used by 45+ restau",
+          "role": "",
+          "description": "Co-developer – ARBI POS Built a restaurant management app now used by 45+ restaurants."
+        },
+        {
+          "name": "Intended Major: Computer Science",
+          "role": "",
+          "description": "Intended Major: Computer Science"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Winner – Codefinity Mathematics Hackathon (National)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Second Runner-Up – National Cyber Olympiad (**National) Winner – Web Development Competition (UTC) (State/Regional) Stud",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.9,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Speech and Debate Speech Captain (on team 4 years)",
+          "role": "",
+          "description": "Speech and Debate Speech Captain (on team 4 years)"
+        },
+        {
+          "name": "National English Honors Society Vice President (in club for 3 years, VP for 2)",
+          "role": "",
+          "description": "National English Honors Society Vice President (in club for 3 years, VP for 2)"
+        },
+        {
+          "name": "Battle of the Books Competition member, one of 6 picked out of 16",
+          "role": "",
+          "description": "Battle of the Books Competition member, one of 6 picked out of 16"
+        },
+        {
+          "name": "Girls Varsity Bowling (district runner up and champ in the three years i’ve play",
+          "role": "",
+          "description": "Girls Varsity Bowling (district runner up and champ in the three years i’ve played)"
+        },
+        {
+          "name": "Yearbook for two years",
+          "role": "",
+          "description": "Yearbook for two years"
+        },
+        {
+          "name": "Essays: MY FAVORITE PART OF THE APPLICATION OML. i love to write and my essays w",
+          "role": "",
+          "description": "Essays: MY FAVORITE PART OF THE APPLICATION OML. i love to write and my essays were really just my emotions at the time of writing. i usually write down my feelings so this was just like that but for "
+        },
+        {
+          "name": "LOR: honestly… one was made by my debate coach + english teacher who i trust; bu",
+          "role": "",
+          "description": "LOR: honestly… one was made by my debate coach + english teacher who i trust; but the other was made by my erratic apush teacher soooo idk they probably balanced out haha"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "College Board's National African American Recognition Program, 11th",
+          "role": "",
+          "description": "College Board's National African American Recognition Program, 11th"
+        },
+        {
+          "name": "Informative Speaking State Champion at Florida Civics &amp; Debate Initiative St",
+          "role": "",
+          "description": "Informative Speaking State Champion at Florida Civics &amp; Debate Initiative States"
+        },
+        {
+          "name": "11th 1 out of 16 chosen to be in Apopka Youth Council, 12th",
+          "role": "",
+          "description": "11th 1 out of 16 chosen to be in Apopka Youth Council, 12th"
+        },
+        {
+          "name": "2nd Place in Statewide Battle of the Books on competition team, 9th",
+          "role": "",
+          "description": "2nd Place in Statewide Battle of the Books on competition team, 9th"
+        },
+        {
+          "name": "AP Scholar with Honor, 11th",
+          "role": "",
+          "description": "AP Scholar with Honor, 11th"
+        },
+        {
+          "name": "2nd Place in Impromptu Speaking at Florida Civics &amp; Debate Initiative States",
+          "role": "",
+          "description": "2nd Place in Impromptu Speaking at Florida Civics &amp; Debate Initiative States, 9th"
+        },
+        {
+          "name": "3rd Place in Statewide Battle of the Books on competition team, 10th",
+          "role": "",
+          "description": "3rd Place in Statewide Battle of the Books on competition team, 10th"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "College Board's National African American Recognition Program, 11th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Informative Speaking State Champion at Florida Civics &amp; Debate Initiative States",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "11th 1 out of 16 chosen to be in Apopka Youth Council, 12th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2nd Place in Statewide Battle of the Books on competition team, 9th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Honor, 11th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2nd Place in Impromptu Speaking at Florida Civics &amp; Debate Initiative States, 9th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3rd Place in Statewide Battle of the Books on competition team, 10th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "District Champions for Varsity Girl's Bowling, 12th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Big Future Ambassador, 12th",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews: no interviews!",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

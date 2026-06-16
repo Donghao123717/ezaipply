@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 6.44,
+      "sat_total": 1450,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 9
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "ECs: I was in 3 audition-only bands; each of these groups competed once a year",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "we only got second place once went to the FIRST Robotics competition world championship twice (Leadership in this club) ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "means I also applied to their honors college",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "COMMENTS: You’ll get in",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- I think everywhere but UMD, possibly GW",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.86,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Competitive gymnastics – two-time (at time of application) state all-around meda",
+          "role": "",
+          "description": "Competitive gymnastics – two-time (at time of application) state all-around medalist for my level of Club Platinum"
+        },
+        {
+          "name": "Teen Court – a diversion service offered to teenage offenders in my county; Stud",
+          "role": "",
+          "description": "Teen Court – a diversion service offered to teenage offenders in my county; Student Judge and Student Advisory Board member, VP of school delegation"
+        },
+        {
+          "name": "Science Olympiad – three year member; two-year team leader and state competitor",
+          "role": "",
+          "description": "Science Olympiad – three year member; two-year team leader and state competitor"
+        },
+        {
+          "name": "Student government – elected ASB Representative for my class; manage social medi",
+          "role": "",
+          "description": "Student government – elected ASB Representative for my class; manage social media and spirit projects"
+        },
+        {
+          "name": "Volunteering – full-time summer volunteer as a sailing instructor",
+          "role": "",
+          "description": "Volunteering – full-time summer volunteer as a sailing instructor"
+        },
+        {
+          "name": "Link Leader – two-year Link Leader to help incoming freshmen",
+          "role": "",
+          "description": "Link Leader – two-year Link Leader to help incoming freshmen"
+        },
+        {
+          "name": "Wikipedia – this one is unconventional, but I dedicate time to editing Wikipedia",
+          "role": "",
+          "description": "Wikipedia – this one is unconventional, but I dedicate time to editing Wikipedia. 7500+ edits and 90+ completed articles published at time of application"
+        },
+        {
+          "name": "Volunteering – work as an assistant at a local university‘s sustainability insti",
+          "role": "",
+          "description": "Volunteering – work as an assistant at a local university‘s sustainability institute"
+        },
+        {
+          "name": "Volunteering – member of Washington State Parks’ youth leadership program; atten",
+          "role": "",
+          "description": "Volunteering – member of Washington State Parks’ youth leadership program; attend meetings with Parks staff to provide input on existing and upcoming programs"
+        },
+        {
+          "name": "Volunteering – tabling with a local community radio station at various events",
+          "role": "",
+          "description": "Volunteering – tabling with a local community radio station at various events"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "USA Gymnastics Academic All-American (9–11; had not been awarded for senior year before deadlines)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Honor Society (inducted member)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Counselor (9/10; she knows me very well and has seen my involvement around the school for four years)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "English teacher (8/10; she taught my AP Lang, and I was a very good student in her class. She is also the yearbook advis",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Social studies teacher (7/10; he taught my freshman year AP Human, in which I was a standout student. Remained involved ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Reed (signed up for Zoom interview) – this went well but was unremarkable. I didn’t know what to expect from my first on",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Stanford (met at a coffee shop) – this was a positive experience, and afterwards my interviewer said he’d write a positi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Yale (met at a coffee shop) – I thought this interview went amazingly well! We discussed a lot about the state of global",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays:",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "My personal statement was about grief and what I learned from being raised by a single mother, using the resilience of a",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "2. Teen Court – a diversion service offered to teenage offenders in my county; Student Judge and Student Advisory Board member, VP of school delegation 5. Volunteering – full-time summer volunteer as a sailing instructor 10. Volunteering – tabling with a local community radio station at various events"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

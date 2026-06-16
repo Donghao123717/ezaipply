@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Founded a small startup with more than 5k in revenue already, 2018-",
+          "role": "",
+          "description": "Founded a small startup with more than 5k in revenue already, 2018-"
+        },
+        {
+          "name": "Director of a hackathon that attracts people from all over the tri-state area, 2",
+          "role": "",
+          "description": "Director of a hackathon that attracts people from all over the tri-state area, 2018-"
+        },
+        {
+          "name": "Teaching middle schoolers and elementary kids how to code and get them excited i",
+          "role": "",
+          "description": "Teaching middle schoolers and elementary kids how to code and get them excited in technology at the library, 2017-19"
+        },
+        {
+          "name": "App developer, 500k+ downloads",
+          "role": "",
+          "description": "App developer, 500k+ downloads"
+        },
+        {
+          "name": "Newspaper, EDITOR 2017-19, EDITOR-IN-CHIEF 2019-",
+          "role": "",
+          "description": "Newspaper, EDITOR 2017-19, EDITOR-IN-CHIEF 2019-"
+        },
+        {
+          "name": "School Orchestra PRINCIPAL VIOLINIST",
+          "role": "",
+          "description": "School Orchestra PRINCIPAL VIOLINIST"
+        },
+        {
+          "name": "Quiz Bowl Captain",
+          "role": "",
+          "description": "Quiz Bowl Captain"
+        },
+        {
+          "name": "Tri-M, 2016, PRESIDENT, 2018-",
+          "role": "",
+          "description": "Tri-M, 2016, PRESIDENT, 2018-"
+        },
+        {
+          "name": "Robotics Team, 2016-",
+          "role": "",
+          "description": "Robotics Team, 2016-"
+        },
+        {
+          "name": "DECA, 2016-",
+          "role": "",
+          "description": "DECA, 2016-"
+        },
+        {
+          "name": "MIT LaunchX, SUMMER",
+          "role": "",
+          "description": "MIT LaunchX, SUMMER"
+        },
+        {
+          "name": "Tech internship with a pretty big company, SUMMER",
+          "role": "",
+          "description": "Tech internship with a pretty big company, SUMMER"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "All-State Violinist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Minor journalism awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "DECA national awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "USACO Gold",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

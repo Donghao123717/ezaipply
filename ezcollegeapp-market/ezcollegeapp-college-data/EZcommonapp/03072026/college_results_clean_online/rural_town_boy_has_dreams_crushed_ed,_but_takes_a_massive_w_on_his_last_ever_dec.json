@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.95,
+      "sat_total": 1540,
+      "act_composite": 15,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Co-founder and co-president of my school’s American Sign Language club",
+          "role": "",
+          "description": "Co-founder and co-president of my school’s American Sign Language club"
+        },
+        {
+          "name": "Published research related to deaf studies with a lil bit of policy thrown in",
+          "role": "",
+          "description": "Published research related to deaf studies with a lil bit of policy thrown in"
+        },
+        {
+          "name": "Helped small businesses in my local area with advertising and marketing in order",
+          "role": "",
+          "description": "Helped small businesses in my local area with advertising and marketing in order to create more foot traffic and allow them to compete more effectively with bigger corporations"
+        },
+        {
+          "name": "Run an annual charity drive within my local community, which has actually inspir",
+          "role": "",
+          "description": "Run an annual charity drive within my local community, which has actually inspired other students to run drives within their communities in order to continue to raise money for the charity!"
+        },
+        {
+          "name": "Vice President of Finance for my school’s chapter of DECA",
+          "role": "",
+          "description": "Vice President of Finance for my school’s chapter of DECA"
+        },
+        {
+          "name": "Vice President of Math club",
+          "role": "",
+          "description": "Vice President of Math club"
+        },
+        {
+          "name": "Vice President of Bio Olympiad",
+          "role": "",
+          "description": "Vice President of Bio Olympiad"
+        },
+        {
+          "name": "Part time job at a local business where I mainly handle the register, but also r",
+          "role": "",
+          "description": "Part time job at a local business where I mainly handle the register, but also restock etc."
+        },
+        {
+          "name": "Winter Track JV and V everyday after school during winter for about 2.5 hours",
+          "role": "",
+          "description": "Winter Track JV and V everyday after school during winter for about 2.5 hours"
+        },
+        {
+          "name": "Tennis JV and V everyday after school in the spring for about 2.5 hours",
+          "role": "",
+          "description": "Tennis JV and V everyday after school in the spring for about 2.5 hours"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "World Language Honor Society - Vice President",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Merit Commended",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Rural and Small Town award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2nd in district deca competition",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3rd in state deca competition",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Run an annual charity drive within my local community, which has actually inspired other students to run drives within their communities in order to continue to raise money for the charity!"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " public policy, poli sci, finance (depends on school)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

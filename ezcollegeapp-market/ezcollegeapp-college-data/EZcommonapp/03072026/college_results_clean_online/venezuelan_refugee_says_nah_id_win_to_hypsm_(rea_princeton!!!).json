@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. **Family Responsibilities**",
+          "role": "",
+          "description": "1. **Family Responsibilities**"
+        },
+        {
+          "name": "I translate for my family and help write emails, text messages, etc",
+          "role": "",
+          "description": "I translate for my family and help write emails, text messages, etc"
+        },
+        {
+          "name": "2. **Extracurriculars**",
+          "role": "",
+          "description": "2. **Extracurriculars**"
+        },
+        {
+          "name": "1. **Founder + President of STEM Outreach International Club:** raised $3800 in ",
+          "role": "",
+          "description": "1. **Founder + President of STEM Outreach International Club:** raised $3800 in supplies to send over to my little cousin's school in Venezuela so they can learn about STEM, in contact with their scho"
+        },
+        {
+          "name": "2. **VP of SNHS**\\- helped start a SciOly tutoring program at my old middle scho",
+          "role": "",
+          "description": "2. **VP of SNHS**\\- helped start a SciOly tutoring program at my old middle school (after my time there as coach), running club activities, setting up speakers, setting up a radio telescope for NASA s"
+        },
+        {
+          "name": "3. ESL Teacher at local church - taught ESL with my mom at local church, trying ",
+          "role": "",
+          "description": "3. ESL Teacher at local church - taught ESL with my mom at local church, trying to give back since we only learned English because of people teaching us ESL"
+        },
+        {
+          "name": "4. **Independent Research (Senior Thesis)**\\- working on making stone paper from",
+          "role": "",
+          "description": "4. **Independent Research (Senior Thesis)**\\- working on making stone paper from barite in drilling fluids and recycled HDPE (milk jug plastic), mentors from Vanderbilt and MTSU"
+        },
+        {
+          "name": "5. **SciOly Tutor at my old middle school** \\- when I was in MS, I was coached b",
+          "role": "",
+          "description": "5. **SciOly Tutor at my old middle school** \\- when I was in MS, I was coached by a highschooler and then our program was shut down for COVID, i helped be a coach for kids that came after me in my jun"
+        },
+        {
+          "name": "6. Event Coordinator H.O.LA. Club (Hispanic club at school) - helped raise money",
+          "role": "",
+          "description": "6. Event Coordinator H.O.LA. Club (Hispanic club at school) - helped raise money to send Christmas gifts to kids in need in our community, help run club events"
+        },
+        {
+          "name": "7. Spanish National Honor Society - organized volunteering for a few events in t",
+          "role": "",
+          "description": "7. Spanish National Honor Society - organized volunteering for a few events in the Hispanic community"
+        },
+        {
+          "name": "8. Track/XC - I run anywhere from 20-50 miles a week to train and run",
+          "role": "",
+          "description": "8. Track/XC - I run anywhere from 20-50 miles a week to train and run"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. SOLIDWORKS Associate in Mechanical Design (certification in one of the most widely used 3D modell",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. 1st in State - National Spanish Exam (Bilingual Division)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Hispanic Recognition Program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "5. **SciOly Tutor at my old middle school** \\- when I was in MS, I was coached by a highschooler and then our program was shut down for COVID, i helped be a coach for kids that came after me in my jun; 6. Event Coordinator H.O.LA. Club (Hispanic club at school) - helped raise money to send Christmas gifts to kids in need in our community, help run club events; 7. Spanish National Honor Society - organized volunteering for a few events in the Hispanic community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "electrical/computer engineering and/or physics (want to get into quantum computi"
+    },
+    "ESSAY_SCORE": null
+  }
+}

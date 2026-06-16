@@ -1,0 +1,48 @@
+mode: manual
+
+post:
+  enabled: false
+  media: ./assets/example.jpg
+  # manual mode
+  caption: "I wish I had this tool when I started applying."
+  # llm mode
+  post_format: story
+  extra_context: "Talk about reducing application busywork"
+
+dm:
+  enabled: false
+  extra_context: "Friendly and concise"
+  materials: "Student asked how to shortlist universities"
+  recipients:
+    - target: target.profile.slug
+      # manual mode
+      text: "Hey! If you want, I can share what helped me organize my college applications."
+      # llm mode (optional override)
+      materials: "Parent asked about counselor alternatives"
+
+comment:
+  enabled: false
+  post_url: https://www.facebook.com/permalink/123456789/
+  # manual mode
+  text: "This is super relatable. Building my school list early helped a lot."
+  # llm mode
+  extra_context: "Keep tone peer-like"
+
+reply:
+  enabled: false
+  post_url: https://www.facebook.com/permalink/123456789/
+  # manual mode: map comment_ids (hashes) to exact reply text
+  manual_replies:
+    - comment_id: "abc123def456"
+      text: "Totally agree. Keeping deadlines in one tracker saved me."
+  # llm mode
+  extra_context: "Focus on practical next steps"
+
+follow:
+  enabled: false
+  # Option A: inline list of Facebook page slugs
+  accounts:
+    - commonapp
+    - collegeboard
+  # Option B: external file (takes priority if set)
+  # accounts_file: ./accounts_to_follow.yaml

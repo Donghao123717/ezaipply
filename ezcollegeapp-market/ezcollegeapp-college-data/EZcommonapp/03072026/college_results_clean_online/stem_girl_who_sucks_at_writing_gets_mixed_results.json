@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.97,
+      "sat_total": null,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Stage Crew (17 hrs/week, 35 weeks, 3 years) (includes leadership role)",
+          "role": "",
+          "description": "1. Stage Crew (17 hrs/week, 35 weeks, 3 years) (includes leadership role)"
+        },
+        {
+          "name": "2. Soccer (10 hrs/week for 10 weeks freshman year, 4 hours a week for 35 weeks s",
+          "role": "",
+          "description": "2. Soccer (10 hrs/week for 10 weeks freshman year, 4 hours a week for 35 weeks sophomore-senior year) (includes volunteering + leadership role)"
+        },
+        {
+          "name": "3. A Cappella (3 hrs/week, 35 weeks, 3 years) (2 years as director)",
+          "role": "",
+          "description": "3. A Cappella (3 hrs/week, 35 weeks, 3 years) (2 years as director)"
+        },
+        {
+          "name": "4. Summer Camp Counselor (45 hrs/week, 6 weeks, 2 years + senior year summer)",
+          "role": "",
+          "description": "4. Summer Camp Counselor (45 hrs/week, 6 weeks, 2 years + senior year summer)"
+        },
+        {
+          "name": "5. Singing lesson (1 hr/week, 35 weeks, 3 years)",
+          "role": "",
+          "description": "5. Singing lesson (1 hr/week, 35 weeks, 3 years)"
+        },
+        {
+          "name": "6. art (3 hrs/week, 20 weeks, 4 years)",
+          "role": "",
+          "description": "6. art (3 hrs/week, 20 weeks, 4 years)"
+        },
+        {
+          "name": "7. baking (yes I included this) (3 hrs/week, 20 weeks, 2 years)",
+          "role": "",
+          "description": "7. baking (yes I included this) (3 hrs/week, 20 weeks, 2 years)"
+        },
+        {
+          "name": "&amp;#x200B;",
+          "role": "",
+          "description": "&amp;#x200B;"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. *National French Exam Silver Medal (x2)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. *National French Exam Bronze Medal (x1)*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. *Le Moyne College Heights Book Award*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "undecided engineering (if the app made me choose i chose either chemical or biom"
+    },
+    "ESSAY_SCORE": null
+  }
+}

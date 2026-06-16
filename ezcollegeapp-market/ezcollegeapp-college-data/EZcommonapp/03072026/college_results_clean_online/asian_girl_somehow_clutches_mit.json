@@ -1,0 +1,99 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Robotics, held several minor leadership positions, won a $3,000 grant and som",
+          "role": "",
+          "description": "1. Robotics, held several minor leadership positions, won a $3,000 grant and some other award for the team"
+        },
+        {
+          "name": "2. Summer research intern under Engineering professor (not a top school but ther",
+          "role": "",
+          "description": "2. Summer research intern under Engineering professor (not a top school but there's an article out there with my name and picture so I'm not gonna dox myself)"
+        },
+        {
+          "name": "3. Piano, played competitively 12+ years, won multiple state competitions and a ",
+          "role": "",
+          "description": "3. Piano, played competitively 12+ years, won multiple state competitions and a few international/intercontinental competitions and performed at Carnegie Hall twice"
+        },
+        {
+          "name": "4. JHUAPL ASPIRE Internship",
+          "role": "",
+          "description": "4. JHUAPL ASPIRE Internship"
+        },
+        {
+          "name": "5. Teaching kids how to code (job)",
+          "role": "",
+          "description": "5. Teaching kids how to code (job)"
+        },
+        {
+          "name": "6. Volleyball, JV =&gt; Varsity =&gt; Varsity Manager, captain of JV and club te",
+          "role": "",
+          "description": "6. Volleyball, JV =&gt; Varsity =&gt; Varsity Manager, captain of JV and club team one year"
+        },
+        {
+          "name": "7. NTHS President",
+          "role": "",
+          "description": "7. NTHS President"
+        },
+        {
+          "name": "8. SWE member",
+          "role": "",
+          "description": "8. SWE member"
+        },
+        {
+          "name": "9. Co-founder and VP of music based community service club",
+          "role": "",
+          "description": "9. Co-founder and VP of music based community service club"
+        },
+        {
+          "name": "10. Indie game development",
+          "role": "",
+          "description": "10. Indie game development"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. NMSC Semifinalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. AP Scholar with Distinction &amp; AP Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Principal's Honor Roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 10,
+      "first_gen": null,
+      "service_summary": "9. Co-founder and VP of music based community service club"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "mechanical engineering and applied mathematics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

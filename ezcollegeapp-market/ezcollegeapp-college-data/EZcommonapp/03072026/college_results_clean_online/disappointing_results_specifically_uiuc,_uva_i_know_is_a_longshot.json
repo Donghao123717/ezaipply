@@ -1,0 +1,129 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.69,
+      "sat_total": 1500,
+      "act_composite": 36,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "STEM research: Computational biology / data analysis project (independent + lab-",
+          "role": "",
+          "description": "STEM research: Computational biology / data analysis project (independent + lab-adjacent work)"
+        },
+        {
+          "name": "Art: Competitive visual arts with national-level recognition",
+          "role": "",
+          "description": "Art: Competitive visual arts with national-level recognition"
+        },
+        {
+          "name": "Tutoring: SAT Math tutoring, peer & younger students",
+          "role": "",
+          "description": "Tutoring: SAT Math tutoring, peer & younger students"
+        },
+        {
+          "name": "Awards / Honors",
+          "role": "",
+          "description": "Awards / Honors"
+        },
+        {
+          "name": "Scholastic Art & Writing – National Silver Medal",
+          "role": "",
+          "description": "Scholastic Art & Writing – National Silver Medal"
+        },
+        {
+          "name": "Multiple regional/state art awards",
+          "role": "",
+          "description": "Multiple regional/state art awards"
+        },
+        {
+          "name": "NHS",
+          "role": "",
+          "description": "NHS"
+        },
+        {
+          "name": "Essays / LORs / Interviews",
+          "role": "",
+          "description": "Essays / LORs / Interviews"
+        },
+        {
+          "name": "Essays: Decent but somewhat rushed, clear intellectual interests but not super p",
+          "role": "",
+          "description": "Essays: Decent but somewhat rushed, clear intellectual interests but not super polished"
+        },
+        {
+          "name": "LORs: Solid, not glowing (teachers knew me academically more than personally)",
+          "role": "",
+          "description": "LORs: Solid, not glowing (teachers knew me academically more than personally)"
+        },
+        {
+          "name": "Interviews: N/A",
+          "role": "",
+          "description": "Interviews: N/A"
+        },
+        {
+          "name": "Decisions (EA / Early)",
+          "role": "",
+          "description": "Decisions (EA / Early)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Scholastic Art & Writing – National Silver Medal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Multiple regional/state art awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "NHS",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays / LORs / Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays: Decent but somewhat rushed, clear intellectual interests but not super polished",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "LORs: Solid, not glowing (teachers knew me academically more than personally)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews: N/A",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (EA / Early)",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "Orchestra/Violin*",
+          "role": "",
+          "description": "Orchestra/Violin*"
+        },
+        {
+          "name": "Played in audition-based orchestras up to the pre-professional level for 6 years",
+          "role": "",
+          "description": "Played in audition-based orchestras up to the pre-professional level for 6 years. I was supposed to go on a tour to Italy this summer, but,,, COVID."
+        },
+        {
+          "name": "Theatre*",
+          "role": "",
+          "description": "Theatre*"
+        },
+        {
+          "name": "Worked both on and behind the stage for various school productions all through h",
+          "role": "",
+          "description": "Worked both on and behind the stage for various school productions all through high school. I'm an official member of the International Thespian Society, a leader of my school theater program, and als"
+        },
+        {
+          "name": "Newspaper",
+          "role": "",
+          "description": "Newspaper"
+        },
+        {
+          "name": "Been a staff writer for my school newspaper for 3 years, focusing on film, media",
+          "role": "",
+          "description": "Been a staff writer for my school newspaper for 3 years, focusing on film, media, and entertainment."
+        },
+        {
+          "name": "Politics",
+          "role": "",
+          "description": "Politics"
+        },
+        {
+          "name": "Worked as a staff member on a campaign during the 2020 election (my candidate wo",
+          "role": "",
+          "description": "Worked as a staff member on a campaign during the 2020 election (my candidate won!!)."
+        },
+        {
+          "name": "Film Festival Judge",
+          "role": "",
+          "description": "Film Festival Judge"
+        },
+        {
+          "name": "Was on a jury for the International Film Festival in my city.",
+          "role": "",
+          "description": "Was on a jury for the International Film Festival in my city."
+        },
+        {
+          "name": "Sport",
+          "role": "",
+          "description": "Sport"
+        },
+        {
+          "name": "Started in freshman year. Became a captain in senior year, and represented a cou",
+          "role": "",
+          "description": "Started in freshman year. Became a captain in senior year, and represented a country in the 2020 African Championships. (not going into detail because I don't want y'all to find me). NOT a recruited a"
+        },
+        {
+          "name": "Medical Mission",
+          "role": "",
+          "description": "Medical Mission"
+        },
+        {
+          "name": "Traveled to West Africa to provide aid to the community there for 2 years.",
+          "role": "",
+          "description": "Traveled to West Africa to provide aid to the community there for 2 years."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. One of those AP Scholar Awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Scholastic Arts and Writing Award - Stageplay",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "Traveled to West Africa to provide aid to the community there for 2 years."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "film/media studies, languages"
+    },
+    "ESSAY_SCORE": null
+  }
+}

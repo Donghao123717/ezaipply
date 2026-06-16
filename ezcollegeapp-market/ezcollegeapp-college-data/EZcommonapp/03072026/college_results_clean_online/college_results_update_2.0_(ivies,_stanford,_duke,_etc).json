@@ -1,0 +1,63 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1560,
+      "act_composite": null,
+      "class_rank_percentile": 95.0,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1.)** National Merit Finalist (Index Score: 226)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2.)** AP Scholar with Distinction, AP Capstone Diploma, African American Recognition Program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3.)** 2nd place State Science Fair ($75) + $30,000 scholarship to a local school",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\*needed first place to qualify for ISEF",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4.)** Regional Science Fair: 1st award + perfect score + judge’s award ($50)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5.)** 3rd place State Science Fair ($50) + $60,000 scholarship to a local school",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "&amp;#x200B;",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 9,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

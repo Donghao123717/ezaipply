@@ -1,0 +1,84 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1520,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 6
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. mock trial captain (9-12)",
+          "role": "",
+          "description": "1. mock trial captain (9-12)"
+        },
+        {
+          "name": "2. editor in chief for politics website (11-12)",
+          "role": "",
+          "description": "2. editor in chief for politics website (11-12)"
+        },
+        {
+          "name": "3. student position related to county school board (12)",
+          "role": "",
+          "description": "3. student position related to county school board (12)"
+        },
+        {
+          "name": "4. communications director for my state for a presidential campaign (10-11)",
+          "role": "",
+          "description": "4. communications director for my state for a presidential campaign (10-11)"
+        },
+        {
+          "name": "5. application evaluator (supervise some people) for well known national politic",
+          "role": "",
+          "description": "5. application evaluator (supervise some people) for well known national politics organization (10-12)"
+        },
+        {
+          "name": "6. outreach researcher for congressional campaign (10-11)",
+          "role": "",
+          "description": "6. outreach researcher for congressional campaign (10-11)"
+        },
+        {
+          "name": "7. bernie campaign volunteer (textbanking and phone banking) (11)",
+          "role": "",
+          "description": "7. bernie campaign volunteer (textbanking and phone banking) (11)"
+        },
+        {
+          "name": "8. volunteer tutoring - SAT/ACT english and K-8 math (10-12)",
+          "role": "",
+          "description": "8. volunteer tutoring - SAT/ACT english and K-8 math (10-12)"
+        },
+        {
+          "name": "9. a lot of church leadership stuff - (9-12)",
+          "role": "",
+          "description": "9. a lot of church leadership stuff - (9-12)"
+        },
+        {
+          "name": "10. playing instruments - i taught myself how to play 3 instruments and i play t",
+          "role": "",
+          "description": "10. playing instruments - i taught myself how to play 3 instruments and i play the cello"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "NHS, some mock trial awards, a language award, and honor roll",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": "7. bernie campaign volunteer (textbanking and phone banking) (11); 8. volunteer tutoring - SAT/ACT english and K-8 math (10-12)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "ethics politics and economics (epe) and religious studies"
+    },
+    "ESSAY_SCORE": null
+  }
+}

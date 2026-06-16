@@ -1,0 +1,104 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 35,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. National Lab - Cybersecurity research intern, 2 summers",
+          "role": "",
+          "description": "1. National Lab - Cybersecurity research intern, 2 summers"
+        },
+        {
+          "name": "2. Cybersecurity Club - President (10-12)",
+          "role": "",
+          "description": "2. Cybersecurity Club - President (10-12)"
+        },
+        {
+          "name": "3. Robotics Club - VP (10-12)",
+          "role": "",
+          "description": "3. Robotics Club - VP (10-12)"
+        },
+        {
+          "name": "4. Science Olympiad - Co-President (11-12)",
+          "role": "",
+          "description": "4. Science Olympiad - Co-President (11-12)"
+        },
+        {
+          "name": "5. Key Club - 140+ volunteer hours",
+          "role": "",
+          "description": "5. Key Club - 140+ volunteer hours"
+        },
+        {
+          "name": "6. Work - Chick-fil-A, 16-20 hrs/week (only 1 year)",
+          "role": "",
+          "description": "6. Work - Chick-fil-A, 16-20 hrs/week (only 1 year)"
+        },
+        {
+          "name": "7. CompTIA certifications (A+, Network+, Security+)",
+          "role": "",
+          "description": "7. CompTIA certifications (A+, Network+, Security+)"
+        },
+        {
+          "name": "8. Family responsibilities (assist blind mother with driving and documents)",
+          "role": "",
+          "description": "8. Family responsibilities (assist blind mother with driving and documents)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. QuestBridge Finalist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. CyberPatriot - 2nd Place Gold Tier (State)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. PicoCTF - Top 8% Globally",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Science Olympiad - Regionals 3rd Overall, 1st Electric Vehicle",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. College Prep Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Best of School - Cyber",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. Best of School - AP Lit",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 6,
+      "first_gen": true,
+      "service_summary": "5. Key Club - 140+ volunteer hours"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

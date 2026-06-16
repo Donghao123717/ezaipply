@@ -1,0 +1,134 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1170,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc."
+        },
+        {
+          "name": "\\#1. Played for local MLS Next Club, trained occasionally with the local profess",
+          "role": "",
+          "description": "\\#1. Played for local MLS Next Club, trained occasionally with the local professional team. Captain for 2 years, club made championships 20-21, 21-22, 22-23"
+        },
+        {
+          "name": "\\#2. Represented USA at U-15, U-17 level in a few international friendlies",
+          "role": "",
+          "description": "\\#2. Represented USA at U-15, U-17 level in a few international friendlies"
+        },
+        {
+          "name": "\\#3. Started a futsal group in my community, 20+ active members",
+          "role": "",
+          "description": "\\#3. Started a futsal group in my community, 20+ active members"
+        },
+        {
+          "name": "\\#4. Vice president of school's Latino-American Culture Society",
+          "role": "",
+          "description": "\\#4. Vice president of school's Latino-American Culture Society"
+        },
+        {
+          "name": "\\#5. Member of school's video game club",
+          "role": "",
+          "description": "\\#5. Member of school's video game club"
+        },
+        {
+          "name": "\\#6. member of fellowship of Christian Athletes",
+          "role": "",
+          "description": "\\#6. member of fellowship of Christian Athletes"
+        },
+        {
+          "name": "\\#7. Worked at McDonalds during my off season lol",
+          "role": "",
+          "description": "\\#7. Worked at McDonalds during my off season lol"
+        },
+        {
+          "name": "\\#8",
+          "role": "",
+          "description": "\\#8"
+        },
+        {
+          "name": "\\#9",
+          "role": "",
+          "description": "\\#9"
+        },
+        {
+          "name": "\\#10",
+          "role": "",
+          "description": "\\#10"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#1. received some personal awards for soccer(I specified on application)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#2.  Spanish Honors Society",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#3. Hispanic Heritage Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#4",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\#5",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation**(Briefly describe relationships with your recommenders and estimated rati",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Junior Year Spanish honors teacher(100/10): Loved her, we bonded over being immigrants and lots o",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Junior year technology teacher(8/10): Great guy, super smart. We talked a lot about soccer and vi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews:** All of my interviews went well, I think I got along best with the IU interviewer.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "\\#3. Started a futsal group in my community, 20+ active members"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "sport marketing and management"
+    },
+    "ESSAY_SCORE": null
+  }
+}

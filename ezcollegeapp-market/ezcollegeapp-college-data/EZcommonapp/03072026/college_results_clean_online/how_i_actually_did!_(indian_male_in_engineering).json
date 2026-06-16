@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.96,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 14
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Founder of a climate awareness organization with 40+ members across the US, e",
+          "role": "",
+          "description": "1. Founder of a climate awareness organization with 40+ members across the US, estimated reach of 3500+ individuals"
+        },
+        {
+          "name": "2. Co-founder of school's Science Olympiad club, now grown to 2 teams and 30+ me",
+          "role": "",
+          "description": "2. Co-founder of school's Science Olympiad club, now grown to 2 teams and 30+ members"
+        },
+        {
+          "name": "3. Founder of a nonprofit dedicated to providing free and interactive STEM camps",
+          "role": "",
+          "description": "3. Founder of a nonprofit dedicated to providing free and interactive STEM camps to elementary and middle schoolers, currently a team of 5 conducting camps at 15+ libraries around the Bay Area"
+        },
+        {
+          "name": "4. Captain of school's Science Bowl team",
+          "role": "",
+          "description": "4. Captain of school's Science Bowl team"
+        },
+        {
+          "name": "5. President of a youth-led policy thinktank contributing to advocacy efforts an",
+          "role": "",
+          "description": "5. President of a youth-led policy thinktank contributing to advocacy efforts and community development within our county"
+        },
+        {
+          "name": "6. Interned at a clean energy utility; learned about grid decarbonization and ga",
+          "role": "",
+          "description": "6. Interned at a clean energy utility; learned about grid decarbonization and gained organizational management skills"
+        },
+        {
+          "name": "7. Intern and youth advisory board member for a company making environmentally-o",
+          "role": "",
+          "description": "7. Intern and youth advisory board member for a company making environmentally-oriented science textbooks for use in middle schools"
+        },
+        {
+          "name": "8. Board member of school's Quiz Bowl club",
+          "role": "",
+          "description": "8. Board member of school's Quiz Bowl club"
+        },
+        {
+          "name": "9. Research intern at a public university; research involves designing data-driv",
+          "role": "",
+          "description": "9. Research intern at a public university; research involves designing data-driven strategies for increasing the efficacy of climate education in the classroom"
+        },
+        {
+          "name": "10. Co-lead for a local climate advocacy organization",
+          "role": "",
+          "description": "10. Co-lead for a local climate advocacy organization"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Recipient of an award given by the California government to one person 18 years of age or under f",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Winner of a national award for STEM-based, sustainability-oriented entrepreneurship (won on behal",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Semifinalist in an international science fair focusing on sustainable technology (project involve",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Winner of a national individual Quiz Bowl tournament focusing on science (think Quiz Bowl-style q",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Recipient of an award from my city of residence for academic performance, leadership, and communi",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Other awards/honors not on Common App: National Merit Semifinalist --&gt; Finalist --&gt; Scholar",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. Not sure where to put this, so I'll put it here: contestant on a national syndicated trivia game ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 1,
+      "first_gen": null,
+      "service_summary": "5. President of a youth-led policy thinktank contributing to advocacy efforts and community development within our county"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " civil and environmental engineering/environmental science, materials science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

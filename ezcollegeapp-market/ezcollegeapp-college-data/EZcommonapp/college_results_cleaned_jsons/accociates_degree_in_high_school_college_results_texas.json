@@ -1,0 +1,58 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 980,
+      "act_composite": null,
+      "class_rank_percentile": 90.05,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Microsoft Exel/ Word/ Powerpoint Certafications. College Board 1st Gen Recognition Scholarship to attend Rice Stem Camp ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "651/4.0 Unweighted",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "584/5.0 Weighted :",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "0/4.0 Community College GPA Rank 55/553 Top 11% of Class 2nd semester Transcript for Mid year reports",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "674/4.0 gpa unweighted Rank 45/530 Top 8% of class",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "678/5.0 weighted Community college Gpa of 4.0/4.0 Major: Econ BA Race: Hispanic Gender: Male Test Optional: Sat 980 Firs",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "4.0/4.0 Community College GPA Community college Gpa of 4.0/4.0 Migrant Culture Club: promoted migrant students. Volenteered and donantes to the migrant community. Gained 250+ community service hours."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Econ BA"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "post": {
+    "id": "t3_1pnt4i5",
+    "title": "Rejected from fordham ea",
+    "author": "Disastrous_Wait_4384",
+    "selftext": "I’m feeling really depressed right now. Fordham was one of my top choices, yet I still got rejected despite having a 3.8 GPA, a 1480 SAT, and a 7.5 IELTS score. I’ve founded multiple social impact projects and earned several national and international awards as an international student.\n(Notes: I applied for financial aid but the amount I requested was higher than Fordham’s minimum EFC requirement so i was not the case)",
+    "score": "6",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1pnt4i5/rejected_from_fordham_ea/",
+    "created": "2025-12-16T04:42:53+00:00",
+    "num_comments": 3,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_nua94lq",
+      "author": "yodatsracist",
+      "body": "You can still be rejected for primarily financial aid reasons if you were over their minimum EFC. \n\nMany my international students who get into Fordham get scholarships that drop the total cost maybe around $60,000/year at the lowest. I think it’s very rare to get significantly more than that.",
+      "score": "5 points",
+      "created": "2025-12-16T05:00:18+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_nub41j6",
+          "author": "tractata",
+          "body": "As Fordham is not full-need for international students, they do not reject applicants for requesting financial aid. They decide whether to accept you or not, chuck you some money, and leave it up to you to figure out if you can afford to attend.",
+          "score": "3 points",
+          "created": "2025-12-16T09:44:52+00:00",
+          "depth": 1,
+          "parent_id": "t1_nua94lq",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_nuc5477",
+      "author": "[deleted]",
+      "body": "fordham is trying to drop their acceptance rate this year, the head of the school said it or sum. they are pushing for a 29~% i think",
+      "score": "2 points",
+      "created": "2025-12-16T14:22:59+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1pnt4i5",
+        "author": "Disastrous_Wait_4384",
+        "title": "Rejected from fordham ea",
+        "body": "I’m feeling really depressed right now. Fordham was one of my top choices, yet I still got rejected despite having a 3.8 GPA, a 1480 SAT, and a 7.5 IELTS score. I’ve founded multiple social impact projects and earned several national and international awards as an international student.\n(Notes: I applied for financial aid but the amount I requested was higher than Fordham’s minimum EFC requirement so i was not the case)",
+        "full_text": "Rejected from fordham ea\n\nI’m feeling really depressed right now. Fordham was one of my top choices, yet I still got rejected despite having a 3.8 GPA, a 1480 SAT, and a 7.5 IELTS score. I’ve founded multiple social impact projects and earned several national and international awards as an international student.\n(Notes: I applied for financial aid but the amount I requested was higher than Fordham’s minimum EFC requirement so i was not the case)"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_nua94lq",
+          "author": "yodatsracist",
+          "body": "You can still be rejected for primarily financial aid reasons if you were over their minimum EFC. \n\nMany my international students who get into Fordham get scholarships that drop the total cost maybe around $60,000/year at the lowest. I think it’s very rare to get significantly more than that.",
+          "score": "5 points",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_nuc5477",
+          "author": "[deleted]",
+          "body": "fordham is trying to drop their acceptance rate this year, the head of the school said it or sum. they are pushing for a 29~% i think",
+          "score": "2 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_nua94lq",
+        "author": "yodatsracist",
+        "body": "You can still be rejected for primarily financial aid reasons if you were over their minimum EFC. \n\nMany my international students who get into Fordham get scholarships that drop the total cost maybe around $60,000/year at the lowest. I think it’s very rare to get significantly more than that.",
+        "score": "5 points",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_nub41j6",
+          "author": "tractata",
+          "body": "As Fordham is not full-need for international students, they do not reject applicants for requesting financial aid. They decide whether to accept you or not, chuck you some money, and leave it up to you to figure out if you can afford to attend.",
+          "score": "3 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.0,
+      "sat_total": 1590,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "Public Health Research",
+          "role": "",
+          "description": "Public Health Research"
+        },
+        {
+          "name": "Worked on a project investigating behavioral health outcomes for urban American ",
+          "role": "",
+          "description": "Worked on a project investigating behavioral health outcomes for urban American Indian and Black populations. Was super involved, co-author on a few papers (one in a top journal), spoke at some large conferences"
+        },
+        {
+          "name": "Robotics (not FIRST it's a lesser known program)",
+          "role": "",
+          "description": "Robotics (not FIRST it's a lesser known program)"
+        },
+        {
+          "name": "President in Senior year,  Outreach/Fundraising lead in junior year (organized e",
+          "role": "",
+          "description": "President in Senior year,  Outreach/Fundraising lead in junior year (organized events, engaged other schools, recruited sponsors). Team placed highly on the state and national level. Probably my biggest time commitment."
+        },
+        {
+          "name": "Summer Science Program (SSP)",
+          "role": "",
+          "description": "Summer Science Program (SSP)"
+        },
+        {
+          "name": "Wrote a paper and submitted abstract to a couple schools",
+          "role": "",
+          "description": "Wrote a paper and submitted abstract to a couple schools"
+        },
+        {
+          "name": "Summer internship at a T5 med school",
+          "role": "",
+          "description": "Summer internship at a T5 med school"
+        },
+        {
+          "name": "Was online, worked in expanding access to/building trust in clinical trials and ",
+          "role": "",
+          "description": "Was online, worked in expanding access to/building trust in clinical trials and did stuff in translational science"
+        },
+        {
+          "name": "Internationally ranked in Rubik’s Cube solving",
+          "role": "",
+          "description": "Internationally ranked in Rubik’s Cube solving"
+        },
+        {
+          "name": "Top 50 in the world, formerly top 25",
+          "role": "",
+          "description": "Top 50 in the world, formerly top 25"
+        },
+        {
+          "name": "Leadership in a mental health nonprofit",
+          "role": "",
+          "description": "Leadership in a mental health nonprofit"
+        },
+        {
+          "name": "Organized a fundraiser to provide Rubik’s Cubes to my reservation, worked with a",
+          "role": "",
+          "description": "Organized a fundraiser to provide Rubik’s Cubes to my reservation, worked with afterschool programs to distribute them"
+        },
+        {
+          "name": "President of some random clubs at my school",
+          "role": "",
+          "description": "President of some random clubs at my school"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. Robotics rankings",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. Keynote speaker at a public health conference, presented to 170+ attendees",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. College Board National Indigenous Recognition Award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Presentation at another big public health conference",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. National Merit Semifinalist",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": false,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology, public health (not premed)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

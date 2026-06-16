@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.99,
+      "sat_total": 1540,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. **Founder and CEO of a nonprofit since 8th grade:** Assets over $125k, sponso",
+          "role": "",
+          "description": "1. **Founder and CEO of a nonprofit since 8th grade:** Assets over $125k, sponsored by AT&amp;T and GE among other smaller companies. Worked with over 7k students across NY and 40k online. Connected w"
+        },
+        {
+          "name": "2. **Public speaker:** traveled across NY giving speeches related to the nonprof",
+          "role": "",
+          "description": "2. **Public speaker:** traveled across NY giving speeches related to the nonprofit. Spoke at several big education conferences talking to teachers and administrators. Gave a speech to every teacher in"
+        },
+        {
+          "name": "3. **Freelance photographer:** shoot portraits and events for money and for fun.",
+          "role": "",
+          "description": "3. **Freelance photographer:** shoot portraits and events for money and for fun. Apprenticeship with a famous photographer who has shot Lebron James, Serena Williams, Elon Musk, Al Gore, and a bunch o"
+        },
+        {
+          "name": "4. **Model UN:** President since 10th grade.",
+          "role": "",
+          "description": "4. **Model UN:** President since 10th grade."
+        },
+        {
+          "name": "5. **FTC Robotics club:** our team qualified for worlds for the first time in sc",
+          "role": "",
+          "description": "5. **FTC Robotics club:** our team qualified for worlds for the first time in school history"
+        },
+        {
+          "name": "6. **Clarinet:** All-state + first stand in the top band at my school since 9th ",
+          "role": "",
+          "description": "6. **Clarinet:** All-state + first stand in the top band at my school since 9th grade."
+        },
+        {
+          "name": "7. **Board member for another non-profit:** I do a bunch of small things and giv",
+          "role": "",
+          "description": "7. **Board member for another non-profit:** I do a bunch of small things and give advice. It’s run by adults (local college profs)"
+        },
+        {
+          "name": "8. **Capital Markets Research:** Internship with local capital markets boutique ",
+          "role": "",
+          "description": "8. **Capital Markets Research:** Internship with local capital markets boutique doing minor research"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. NYS school board association award for my Non-profit",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. National Merit Scholar (semi-finalist at the time)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Rocky Mountain school of photography international shortlist (top 100 of \\~99,000)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Robotics State champs and world qualified (canceled due to covid)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Verbal commendation at ILMUNC (Penn’s MUN conference)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. 2x honorable mention for Scholastic Art and Writing in photography",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "7. NHS and other intra-school awards",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "economics, finance (for business schools)"
+    },
+    "ESSAY_SCORE": null
+  }
+}

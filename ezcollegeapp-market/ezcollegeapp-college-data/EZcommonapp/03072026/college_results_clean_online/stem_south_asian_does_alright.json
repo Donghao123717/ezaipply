@@ -1,0 +1,74 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1460,
+      "act_composite": 35,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1.\tHead of Electronics on FRC Robotics team (3 years, Sophomore to Senior year)",
+          "role": "",
+          "description": "1.\tHead of Electronics on FRC Robotics team (3 years, Sophomore to Senior year)"
+        },
+        {
+          "name": "2.\tStudent at CS-related MIT summer program (BeaverWorks) - Also did optional Co",
+          "role": "",
+          "description": "2.\tStudent at CS-related MIT summer program (BeaverWorks) - Also did optional Covid-related contact tracing independent research project"
+        },
+        {
+          "name": "3.\tSummer Research at NYU (Summer 2020)",
+          "role": "",
+          "description": "3.\tSummer Research at NYU (Summer 2020)"
+        },
+        {
+          "name": "4.\tTutoring / Assistant Job at NYCDOE-run test-prep program for low-income stude",
+          "role": "",
+          "description": "4.\tTutoring / Assistant Job at NYCDOE-run test-prep program for low-income students (Summer 2018, Summer 2019)"
+        },
+        {
+          "name": "5.\tProminent member of a separate robotics club, taught lessons  (Junior - Senio",
+          "role": "",
+          "description": "5.\tProminent member of a separate robotics club, taught lessons  (Junior - Senior Year)"
+        },
+        {
+          "name": "6.\tMentorship program at my high school - essentially seniors giving freshmen pr",
+          "role": "",
+          "description": "6.\tMentorship program at my high school - essentially seniors giving freshmen presentations and pointers to adjust into high school."
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1.\t*AP Scholar with Distinction*",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer engineering"
+    },
+    "ESSAY_SCORE": null
+  }
+}

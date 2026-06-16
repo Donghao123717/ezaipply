@@ -1,0 +1,48 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.83,
+      "sat_total": null,
+      "act_composite": 33,
+      "class_rank_percentile": 90.0,
+      "ap_ib_honors_count": 11
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "\\-  Some regional and one state science olympiad",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- State award for environmental science fair project",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- A few state and regional awards for my student council roles",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "\\- Was working on my Girl Scout Gold award until COVID hit :(",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

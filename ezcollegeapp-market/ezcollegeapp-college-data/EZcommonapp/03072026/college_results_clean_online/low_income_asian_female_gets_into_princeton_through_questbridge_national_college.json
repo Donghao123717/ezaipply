@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1570,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Founder and co-Pres of a Female Authors Book Club at my school",
+          "role": "",
+          "description": "1. Founder and co-Pres of a Female Authors Book Club at my school"
+        },
+        {
+          "name": "2. Captain of the XC team my senior year, varsity XC runner for three years",
+          "role": "",
+          "description": "2. Captain of the XC team my senior year, varsity XC runner for three years"
+        },
+        {
+          "name": "3. Varsity track + field runner, winter and spring, for three years",
+          "role": "",
+          "description": "3. Varsity track + field runner, winter and spring, for three years"
+        },
+        {
+          "name": "4. National Honor Society",
+          "role": "",
+          "description": "4. National Honor Society"
+        },
+        {
+          "name": "5. Work: I worked a lot of jobs over high school to add to my own personal savin",
+          "role": "",
+          "description": "5. Work: I worked a lot of jobs over high school to add to my own personal savings and also help with my family's bills. Since being a varsity athlete was a lot of time commitment, I worked full shift"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. National Latin Exam Summa cum Laude",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. NCTE Writing award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. AP Scholar with Distinction",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "english literature (possibly philosophy, certificate in korean language? princet"
+    },
+    "ESSAY_SCORE": null
+  }
+}

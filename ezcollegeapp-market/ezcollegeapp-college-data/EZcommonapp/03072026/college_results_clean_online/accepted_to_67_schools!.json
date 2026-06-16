@@ -1,0 +1,54 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.6,
+      "sat_total": null,
+      "act_composite": 30,
+      "class_rank_percentile": 75.0,
+      "ap_ib_honors_count": 7
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. Volunteer Service (Food Bank and helping kids to learn how to read)",
+          "role": "",
+          "description": "1. Volunteer Service (Food Bank and helping kids to learn how to read)"
+        },
+        {
+          "name": "2. Athletics - Track and Football",
+          "role": "",
+          "description": "2. Athletics - Track and Football"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. High honors/ honors every quarter",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "1. Volunteer Service (Food Bank and helping kids to learn how to read)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer engineering/science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

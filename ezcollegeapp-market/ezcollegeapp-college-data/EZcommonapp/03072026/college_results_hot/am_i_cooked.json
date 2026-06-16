@@ -1,0 +1,107 @@
+{
+  "post": {
+    "id": "t3_1r625pk",
+    "title": "Am I cooked?",
+    "author": "Actual-End-4057",
+    "selftext": "I was deferred from UW Madison and Michigan, and waitlisted at Villanova… I have a 4.43W GPA and I was test optional but I’ve heard that my essays were good. My major was International Studies except Villanova where I was undecided. I have gotten into Illinois, Indiana (honors college, Fordham, Penn State (main campus), Marquette, UVM, UMD, and MSU so far most of them with scholarships. Do I have a shot at UW Madison? That’s probably where I would want to go most.",
+    "score": "3",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1r625pk/am_i_cooked/",
+    "created": "2026-02-16T06:27:51+00:00",
+    "num_comments": 3,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o5n42g2",
+      "author": "Busy-Development-334",
+      "body": "Why were you test optional with 1500+ where both Michigan and Wisconsin’s averages are below that?",
+      "score": "1 point",
+      "created": "2026-02-16T06:32:33+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o5n4au1",
+          "author": "Actual-End-4057",
+          "body": "My bad I put the wrong flair I definitely did not get 1500+",
+          "score": "2 points",
+          "created": "2026-02-16T06:34:37+00:00",
+          "depth": 1,
+          "parent_id": "t1_o5n42g2",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": "t1_o671n3o",
+      "author": "Cultural-Quail-5339",
+      "body": "Dude, you got into amazing colleges. Be grateful.",
+      "score": "1 point",
+      "created": "2026-02-19T05:43:28+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1r625pk",
+        "author": "Actual-End-4057",
+        "title": "Am I cooked?",
+        "body": "I was deferred from UW Madison and Michigan, and waitlisted at Villanova… I have a 4.43W GPA and I was test optional but I’ve heard that my essays were good. My major was International Studies except Villanova where I was undecided. I have gotten into Illinois, Indiana (honors college, Fordham, Penn State (main campus), Marquette, UVM, UMD, and MSU so far most of them with scholarships. Do I have a shot at UW Madison? That’s probably where I would want to go most.",
+        "full_text": "Am I cooked?\n\nI was deferred from UW Madison and Michigan, and waitlisted at Villanova… I have a 4.43W GPA and I was test optional but I’ve heard that my essays were good. My major was International Studies except Villanova where I was undecided. I have gotten into Illinois, Indiana (honors college, Fordham, Penn State (main campus), Marquette, UVM, UMD, and MSU so far most of them with scholarships. Do I have a shot at UW Madison? That’s probably where I would want to go most."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o5n42g2",
+          "author": "Busy-Development-334",
+          "body": "Why were you test optional with 1500+ where both Michigan and Wisconsin’s averages are below that?",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "t1_o671n3o",
+          "author": "Cultural-Quail-5339",
+          "body": "Dude, you got into amazing colleges. Be grateful.",
+          "score": "1 point",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o5n42g2",
+        "author": "Busy-Development-334",
+        "body": "Why were you test optional with 1500+ where both Michigan and Wisconsin’s averages are below that?",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o5n4au1",
+          "author": "Actual-End-4057",
+          "body": "My bad I put the wrong flair I definitely did not get 1500+",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

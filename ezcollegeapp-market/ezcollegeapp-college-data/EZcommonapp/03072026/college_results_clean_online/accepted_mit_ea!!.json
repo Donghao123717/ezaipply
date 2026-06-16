@@ -1,0 +1,109 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1550,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 1
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "1. FIRST Robotics Competition Team (Project Manager/President 11-12, Software Le",
+          "role": "",
+          "description": "1. FIRST Robotics Competition Team (Project Manager/President 11-12, Software Lead 9-10, Drive Team Technician 9-10, Drive Team Coach 11-12), spent approximately 30 hours a week at robotics, helped im"
+        },
+        {
+          "name": "2. Paid intern in the data visualization department at well-known financial tech",
+          "role": "",
+          "description": "2. Paid intern in the data visualization department at well-known financial tech company the summer after my sophomore year, the summer after my junior year, and returning the summer after my senior y"
+        },
+        {
+          "name": "3. Mentor (11-12) and student (5th grade - 11) at a non-profit that provides fre",
+          "role": "",
+          "description": "3. Mentor (11-12) and student (5th grade - 11) at a non-profit that provides free programming bootcamp courses for students in NYC (10 hours per week)"
+        },
+        {
+          "name": "4. Mentor (8th grade - 10) and founder of a free learn-to-code program at my loc",
+          "role": "",
+          "description": "4. Mentor (8th grade - 10) and founder of a free learn-to-code program at my local library; passed down responsibilities to a current sophomore so the program will continue after I graduate (5 hours p"
+        },
+        {
+          "name": "5. Vice President (11) and member (9, 10, 12) of my high school's computer scien",
+          "role": "",
+          "description": "5. Vice President (11) and member (9, 10, 12) of my high school's computer science club (2 hours per week)"
+        },
+        {
+          "name": "6. Member of Mu Alpha Theta (10-12) (1 hour per week)",
+          "role": "",
+          "description": "6. Member of Mu Alpha Theta (10-12) (1 hour per week)"
+        },
+        {
+          "name": "7. Work as a freelance web designer for artists and writers near my home (11-12)",
+          "role": "",
+          "description": "7. Work as a freelance web designer for artists and writers near my home (11-12) (3 hours per week)"
+        },
+        {
+          "name": "8. Volunteer creating websites for my school's food bank and childcare service (",
+          "role": "",
+          "description": "8. Volunteer creating websites for my school's food bank and childcare service (3 hours per week)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. FIRST Dean's List Finalist (selected as one of the top students promoting STEM in the FIRST Robot",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. NCWIT National Honorable Mention (10)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. NCWIT Regional Winner (10, 11)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. National Merit Scholarship Commended Student (12)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. High/exceptional honors every quarter at school",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "6. Won 4 hackathons",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": "8. Volunteer creating websites for my school's food bank and childcare service (3 hours per week)"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science, computing"
+    },
+    "ESSAY_SCORE": null
+  }
+}

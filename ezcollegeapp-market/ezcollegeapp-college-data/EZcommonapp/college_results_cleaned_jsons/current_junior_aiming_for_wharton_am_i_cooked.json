@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.89,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 5
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Vice-Captain of the Debate team, 2-hour meetings every Wednesday after school, G",
+          "role": "",
+          "description": "Vice-Captain of the Debate team, 2-hour meetings every Wednesday after school, Grades 9-11. Participate and lead in weekly debates, lead lectures teaching members how to compete in tournaments, hold practice debates between members on current-day topics, have a total of 20+ members, and go into competitions in the NSDA league."
+        },
+        {
+          "name": "Vice-President of Business and Finance Club, meetings every week on Thursday, Gr",
+          "role": "",
+          "description": "Vice-President of Business and Finance Club, meetings every week on Thursday, Grade 11. Designed and taught finance lessons, led stock pitch presentations, held paper trading presentations, and mentored members to increase participation."
+        },
+        {
+          "name": "Koreatown Rotary Club, Secretary/VP/Treasurer. Grade 10-11. Held fundraisers as ",
+          "role": "",
+          "description": "Koreatown Rotary Club, Secretary/VP/Treasurer. Grade 10-11. Held fundraisers as a club. Donated 1000$ to KFAm and 500$ to the local firestation"
+        },
+        {
+          "name": "Founder/President Literacy For All Grade 11, was the founder of an initiative to",
+          "role": "",
+          "description": "Founder/President Literacy For All Grade 11, was the founder of an initiative to fight declining literacy rates, and recruited classmates who helped with the process. Partnered with KYCC to host workshops to help kids with the ELPAC exam and to improve English fundamentals. Every Friday."
+        },
+        {
+          "name": "Founder/President of Student Youth Finance and Investment Initiative, Grade 11 F",
+          "role": "",
+          "description": "Founder/President of Student Youth Finance and Investment Initiative, Grade 11 Founded an Instagram account to post frequent videos to promote financial literacy, with 260k views so far. Every Wednesdays (For now). Founded a program at the YMCA to host financial literacy workshops for grades K-5. Set everything up, set to start early February 2026"
+        },
+        {
+          "name": "STELLAR Group Leader, Grade 10-11. Lead a group of volunteers to a local underse",
+          "role": "",
+          "description": "STELLAR Group Leader, Grade 10-11. Lead a group of volunteers to a local underserved elementary school to give fun workshops on science activities."
+        },
+        {
+          "name": "Scholar's Circle, Selma Campus Co-ordinator/ Social Media Manager",
+          "role": "",
+          "description": "Scholar's Circle, Selma Campus Co-ordinator/ Social Media Manager"
+        },
+        {
+          "name": "Planning to start making sat videos",
+          "role": "",
+          "description": "Planning to start making sat videos"
+        },
+        {
+          "name": "Also planning to release my own graphic novel",
+          "role": "",
+          "description": "Also planning to release my own graphic novel"
+        },
+        {
+          "name": "What more should I add or need?",
+          "role": "",
+          "description": "What more should I add or need?"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Economics"
+    },
+    "ESSAY_SCORE": null
+  }
+}

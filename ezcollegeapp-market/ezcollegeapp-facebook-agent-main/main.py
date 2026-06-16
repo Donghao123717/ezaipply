@@ -1,0 +1,177 @@
+"""
+main.py - CLI entry-point for the Facebook Playwright agent.
+
+Examples:
+    python main.py run-job --job-file job.yaml --mode manual
+    python main.py post-manual --media ./assets/post.jpg --caption "Final caption"
+    python main.py post-llm --media ./assets/post.jpg --format tips --context "financial aid"
+    python main.py dm-manual --target someuser --text "Hey!"
+    python main.py dm-llm --target someuser --materials "Student asked about deadlines"
+    python main.py comment-manual --post-url https://www.facebook.com/permalink/... --text "Nice post"
+    python main.py comment-llm --post-url https://www.facebook.com/permalink/... --context "focus on school list"
+    python main.py reply-manual --post-url https://www.facebook.com/permalink/... --replies-file replies.yaml
+    python main.py reply-llm --post-url https://www.facebook.com/permalink/...
+    python main.py follow --accounts-file accounts_to_follow.yaml
+"""
+from __future__ import annotations
+
+import argparse
+import logging
+from pathlib import Path
+
+import yaml  # type: ignore
+from dotenv import load_dotenv  # type: ignore
+
+load_dotenv()
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+)
+
+
+def _orch():
+    from agents.orchestrator import Orchestrator
+    return Orchestrator()
+
+
+def cmd_run_job(args: argparse.Namespace) -> None:
+    summary = _orch().run_job(job_path=args.job_file, mode_override=args.mode or "")
+    print("\nJob complete.")
+    print(yaml.safe_dump(summary, sort_keys=False))
+
+
+def cmd_post_manual(args: argparse.Namespace) -> None:
+    caption = _orch().post_manual(media_path=args.media, caption=args.caption)
+    print(f"\nPosted with caption:\n\n{caption}")
+
+
+def cmd_post_llm(args: argparse.Namespace) -> None:
+    caption = _orch().post_llm(
+        media_path=args.media, post_format=args.format, extra_context=args.context
+    )
+    print(f"\nPosted with generated caption:\n\n{caption}")
+
+
+def cmd_dm_manual(args: argparse.Namespace) -> None:
+    text = _orch().dm_manual(target=args.target, text=args.text)
+    print(f"\nDM sent to @{args.target}:\n\n{text}")
+
+
+def cmd_dm_llm(args: argparse.Namespace) -> None:
+    text = _orch().dm_llm(
+        target=args.target, materials=args.materials, extra_context=args.context
+    )
+    print(f"\nGenerated DM sent to @{args.target}:\n\n{text}")
+
+
+def cmd_comment_manual(args: argparse.Namespace) -> None:
+    text = _orch().comment_manual(post_url=args.post_url, text=args.text)
+    print(f"\nComment posted:\n\n{text}")
+
+
+def cmd_comment_llm(args: argparse.Namespace) -> None:
+    text = _orch().comment_llm(post_url=args.post_url, extra_context=args.context)
+    print(f"\nGenerated comment posted:\n\n{text}")
+
+
+def cmd_reply_manual(args: argparse.Namespace) -> None:
+    replies = _load_manual_replies(args.replies_file)
+    count = _orch().reply_manual(post_url=args.post_url, manual_replies=replies)
+    print(f"\nDone. Replied to {count} comment(s).")
+
+
+def cmd_reply_llm(args: argparse.Namespace) -> None:
+    count = _orch().reply_llm(post_url=args.post_url, extra_context=args.context)
+    print(f"\nDone. Replied to {count} comment(s).")
+
+
+def cmd_follow(args: argparse.Namespace) -> None:
+    accounts = _load_accounts_file(args.accounts_file)
+    count = _orch().follow_batch(accounts)
+    print(f"\nDone. Followed {count} page(s).")
+
+
+def _load_manual_replies(path: str) -> dict[str, str]:
+    file_path = Path(path).expanduser().resolve()
+    with file_path.open() as f:
+        data = yaml.safe_load(f) or {}
+    items = data.get("manual_replies", [])
+    return {item["comment_id"]: item["text"] for item in items}
+
+
+def _load_accounts_file(path: str) -> list[str]:
+    file_path = Path(path).expanduser().resolve()
+    with file_path.open() as f:
+        data = yaml.safe_load(f) or {}
+    return [str(u) for u in data.get("accounts", [])]
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="EZCollegeApp Facebook Agent (Playwright)")
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    run_job = sub.add_parser("run-job")
+    run_job.add_argument("--job-file", required=True)
+    run_job.add_argument("--mode", choices=["manual", "llm"], default="")
+
+    post_manual = sub.add_parser("post-manual")
+    post_manual.add_argument("--media", required=True)
+    post_manual.add_argument("--caption", required=True)
+
+    post_llm = sub.add_parser("post-llm")
+    post_llm.add_argument("--media", required=True)
+    post_llm.add_argument("--format", choices=["story", "tips", "question"], default="story")
+    post_llm.add_argument("--context", default="")
+
+    dm_manual = sub.add_parser("dm-manual")
+    dm_manual.add_argument("--target", required=True, help="Facebook profile slug or URL")
+    dm_manual.add_argument("--text", required=True)
+
+    dm_llm = sub.add_parser("dm-llm")
+    dm_llm.add_argument("--target", required=True)
+    dm_llm.add_argument("--materials", required=True)
+    dm_llm.add_argument("--context", default="")
+
+    comment_manual = sub.add_parser("comment-manual")
+    comment_manual.add_argument("--post-url", required=True)
+    comment_manual.add_argument("--text", required=True)
+
+    comment_llm = sub.add_parser("comment-llm")
+    comment_llm.add_argument("--post-url", required=True)
+    comment_llm.add_argument("--context", default="")
+
+    reply_manual = sub.add_parser("reply-manual")
+    reply_manual.add_argument("--post-url", required=True)
+    reply_manual.add_argument("--replies-file", required=True)
+
+    reply_llm = sub.add_parser("reply-llm")
+    reply_llm.add_argument("--post-url", required=True)
+    reply_llm.add_argument("--context", default="")
+
+    follow = sub.add_parser("follow")
+    follow.add_argument(
+        "--accounts-file", required=True,
+        help="YAML file with an 'accounts' list of Facebook page slugs"
+    )
+
+    return parser
+
+
+if __name__ == "__main__":
+    parser = build_parser()
+    args = parser.parse_args()
+
+    dispatch = {
+        "run-job": cmd_run_job,
+        "post-manual": cmd_post_manual,
+        "post-llm": cmd_post_llm,
+        "dm-manual": cmd_dm_manual,
+        "dm-llm": cmd_dm_llm,
+        "comment-manual": cmd_comment_manual,
+        "comment-llm": cmd_comment_llm,
+        "reply-manual": cmd_reply_manual,
+        "reply-llm": cmd_reply_llm,
+        "follow": cmd_follow,
+    }
+    dispatch[args.command](args)

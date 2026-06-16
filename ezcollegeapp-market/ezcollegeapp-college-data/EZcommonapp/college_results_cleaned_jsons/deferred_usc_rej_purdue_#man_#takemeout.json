@@ -1,0 +1,94 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.8,
+      "sat_total": null,
+      "act_composite": 34,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 10
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. yo if any of my friends r seeing ts no you dont",
+          "role": "",
+          "description": "etc. yo if any of my friends r seeing ts no you dont"
+        },
+        {
+          "name": "pcb design internship for water filtration for 1 summer",
+          "role": "",
+          "description": "pcb design internship for water filtration for 1 summer"
+        },
+        {
+          "name": "tennis since i was 8, peaked a utr of around 6 + girls tennis capt varsity",
+          "role": "",
+          "description": "tennis since i was 8, peaked a utr of around 6 + girls tennis capt varsity"
+        },
+        {
+          "name": "shadowed (while it was pre-ipo) a semiconductor company",
+          "role": "",
+          "description": "shadowed (while it was pre-ipo) a semiconductor company"
+        },
+        {
+          "name": "100+ logged hours in a stem museum. i wrote so much abt this lowk cs i had to sp",
+          "role": "",
+          "description": "100+ logged hours in a stem museum. i wrote so much abt this lowk cs i had to speak spanish and hindi and it was so embarrassing but i learned a lot abt it."
+        },
+        {
+          "name": "unofficially on the robotics team, did not participate in competitions",
+          "role": "",
+          "description": "unofficially on the robotics team, did not participate in competitions"
+        },
+        {
+          "name": "jshs competitor on diabetes and healthcare",
+          "role": "",
+          "description": "jshs competitor on diabetes and healthcare"
+        },
+        {
+          "name": "freelance graphic designer/artist where i lowk got ppl to fw my art (around 5-10",
+          "role": "",
+          "description": "freelance graphic designer/artist where i lowk got ppl to fw my art (around 5-10 clients per month) since i was like 12/13"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Standardized Testing 33 act 34 superscore",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "ece, hopefully major/minor in anthropology or classics when i get there and chinese"
+    },
+    "ESSAY_SCORE": null
+  }
+}

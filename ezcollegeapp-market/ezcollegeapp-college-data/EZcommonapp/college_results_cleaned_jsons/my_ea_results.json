@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.7,
+      "sat_total": 1520,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 2
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements",
+          "role": "",
+          "description": "List all extracurricular involvements"
+        },
+        {
+          "name": "including leadership roles",
+          "role": "",
+          "description": "including leadership roles"
+        },
+        {
+          "name": "time commitments",
+          "role": "",
+          "description": "time commitments"
+        },
+        {
+          "name": "major achievements",
+          "role": "",
+          "description": "major achievements"
+        },
+        {
+          "name": "etc. #1 FRC Robotics, programming team lead since 11th grade #2 Martial Arts, tr",
+          "role": "",
+          "description": "etc. #1 FRC Robotics, programming team lead since 11th grade #2 Martial Arts, training since 11 years old #3 Boy Scouts, currently Star rank, SPL since 11th grade #4 Coding Club, VP in 11th grade, currently president"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Senior Year Course Load: AP stats",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "macro",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "calc bc",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "physics c: mechanics",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Dual-Enrollment English classes Standardized Testing List the highest scores earned and all scores that were reported. S",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "Computer Engineering and/or computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

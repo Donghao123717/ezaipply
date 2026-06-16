@@ -1,0 +1,88 @@
+{
+  "post": {
+    "id": "t3_1r4yvfn",
+    "title": "University of Richmond accepted",
+    "author": "Drewboiii54322",
+    "selftext": "EDII, 4.2 weighted, 3.72UW, 1190 SAT (test optional)\n\nFounded business, had a business management internship, lots of service hours, essay about using my deceased father's ted talk as motivation, freshman year tragedy so grades slipped. 5 APs, high honors (A- and higher) for all of senior, junior, and sophomore year. Sophomore and freshman year, took the lowest/easiest classes my school offered. Locked in using the Tedx. Paying ~$12,000 a year. Very proud of myself. Let me know if anyone has any questions.",
+    "score": "15",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1r4yvfn/university_of_richmond_accepted/",
+    "created": "2026-02-14T23:11:41+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o5fb0yk",
+      "author": "Gmoneyyy999",
+      "body": "Congrats",
+      "score": "1 point",
+      "created": "2026-02-14T23:49:38+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o5fedpx",
+          "author": "Drewboiii54322",
+          "body": "Thank you!!",
+          "score": "1 point",
+          "created": "2026-02-15T00:10:39+00:00",
+          "depth": 1,
+          "parent_id": "t1_o5fb0yk",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1r4yvfn",
+        "author": "Drewboiii54322",
+        "title": "University of Richmond accepted",
+        "body": "EDII, 4.2 weighted, 3.72UW, 1190 SAT (test optional)\n\nFounded business, had a business management internship, lots of service hours, essay about using my deceased father's ted talk as motivation, freshman year tragedy so grades slipped. 5 APs, high honors (A- and higher) for all of senior, junior, and sophomore year. Sophomore and freshman year, took the lowest/easiest classes my school offered. Locked in using the Tedx. Paying ~$12,000 a year. Very proud of myself. Let me know if anyone has any questions.",
+        "full_text": "University of Richmond accepted\n\nEDII, 4.2 weighted, 3.72UW, 1190 SAT (test optional)\n\nFounded business, had a business management internship, lots of service hours, essay about using my deceased father's ted talk as motivation, freshman year tragedy so grades slipped. 5 APs, high honors (A- and higher) for all of senior, junior, and sophomore year. Sophomore and freshman year, took the lowest/easiest classes my school offered. Locked in using the Tedx. Paying ~$12,000 a year. Very proud of myself. Let me know if anyone has any questions."
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o5fb0yk",
+          "author": "Gmoneyyy999",
+          "body": "Congrats",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o5fb0yk",
+        "author": "Gmoneyyy999",
+        "body": "Congrats",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o5fedpx",
+          "author": "Drewboiii54322",
+          "body": "Thank you!!",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 1,
+    "total_nested_replies": 1,
+    "total_qa_pairs": 2
+  }
+}

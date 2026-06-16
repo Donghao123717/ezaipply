@@ -1,0 +1,83 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.5,
+      "sat_total": 1430,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Digital Music Production",
+          "role": "",
+          "description": "Digital Music Production"
+        },
+        {
+          "name": "3 years, self-taught, became proficient, sold beats",
+          "role": "",
+          "description": "3 years, self-taught, became proficient, sold beats"
+        },
+        {
+          "name": "Work (Paid)",
+          "role": "",
+          "description": "Work (Paid)"
+        },
+        {
+          "name": "2 years, became a trainer",
+          "role": "",
+          "description": "2 years, became a trainer"
+        },
+        {
+          "name": "Weightlifting",
+          "role": "",
+          "description": "Weightlifting"
+        },
+        {
+          "name": "Wrestling",
+          "role": "",
+          "description": "Wrestling"
+        },
+        {
+          "name": "Foreign Language",
+          "role": "",
+          "description": "Foreign Language"
+        },
+        {
+          "name": "Proficient at Spanish",
+          "role": "",
+          "description": "Proficient at Spanish"
+        },
+        {
+          "name": "Graphic Design",
+          "role": "",
+          "description": "Graphic Design"
+        },
+        {
+          "name": "Self-taught, proficient with PhotoShop",
+          "role": "",
+          "description": "Self-taught, proficient with PhotoShop"
+        },
+        {
+          "name": "National Beta Club (Honors Society/Volunteering)",
+          "role": "",
+          "description": "National Beta Club (Honors Society/Volunteering)"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": []
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

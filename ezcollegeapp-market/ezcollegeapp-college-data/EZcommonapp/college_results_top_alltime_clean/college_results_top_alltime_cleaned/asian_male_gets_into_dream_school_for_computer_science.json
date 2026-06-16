@@ -1,0 +1,114 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": 99.0,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "List all extracurricular involvements, including leadership roles, time commitme",
+          "role": "",
+          "description": "List all extracurricular involvements, including leadership roles, time commitments, major achievements, etc.*"
+        },
+        {
+          "name": "Will be a bit vague due to privacy reasons",
+          "role": "",
+          "description": "Will be a bit vague due to privacy reasons"
+        },
+        {
+          "name": "1. School Captain (Grade 12)",
+          "role": "",
+          "description": "1. School Captain (Grade 12)"
+        },
+        {
+          "name": "2. School Vice Captain (Grade 11)",
+          "role": "",
+          "description": "2. School Vice Captain (Grade 11)"
+        },
+        {
+          "name": "3. Major related internship",
+          "role": "",
+          "description": "3. Major related internship"
+        },
+        {
+          "name": "4. Heavily involved in National Rubik's Cubing community",
+          "role": "",
+          "description": "4. Heavily involved in National Rubik's Cubing community"
+        },
+        {
+          "name": "5. 400+ hours of volunteering at a local school for underprivileged",
+          "role": "",
+          "description": "5. 400+ hours of volunteering at a local school for underprivileged"
+        },
+        {
+          "name": "6. Table Tennis club president and varsity player",
+          "role": "",
+          "description": "6. Table Tennis club president and varsity player"
+        },
+        {
+          "name": "7.  Updated and translated my ancestral family diary",
+          "role": "",
+          "description": "7.  Updated and translated my ancestral family diary"
+        },
+        {
+          "name": "8. I am a native speaker of a very niche language, so have been trying to transl",
+          "role": "",
+          "description": "8. I am a native speaker of a very niche language, so have been trying to translate common words and phrases to English."
+        },
+        {
+          "name": "9. Started a couple of  small businesses",
+          "role": "",
+          "description": "9. Started a couple of  small businesses"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "List all awards and honors submitted on your application.*",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1. A city wide entrepreneurship award",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "2. A award for volunteering",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "3. Grouped all of my academic awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "4. Grouped all of my Olympiad awards",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "5. Received an honor for placing in top 1% in a school system of over 1.5 million students.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 3,
+      "first_gen": true,
+      "service_summary": "4. Heavily involved in National Rubik's Cubing community"
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "computer science"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "post": {
+    "id": "t3_1r48jd1",
+    "title": "Confused by Decisions??",
+    "author": "ImaginationTimely817",
+    "selftext": "Accepted UIUC EA, UMich EA for Comp Sci; rejected by a HYPSM REA and UT Austin RD. What does that mean? Do I have a shot at HYPSM RD?",
+    "score": "1",
+    "url": "https://www.reddit.com/r/ApplyingToCollege/comments/1r48jd1/confused_by_decisions/",
+    "created": "2026-02-14T02:24:29+00:00",
+    "num_comments": 4,
+    "subreddit": "ApplyingToCollege"
+  },
+  "comments": [
+    {
+      "id": "t1_o59xm1o",
+      "author": "TrySouthern9542",
+      "body": "UIUC and UMich CS acceptances means you have a decent chance of bagging a couple top privates (assuming ur oos for these)\n\nUT Austin RD rejection means literally nothing (again, assuming oos): it's basically impossible for competitive majors out of state because of how much they focus on in-state\n\nand then HYPSM is HYPSM (means nothing, although if u got rejected by harvard you might be cooked)",
+      "score": "1 point",
+      "created": "2026-02-14T02:29:58+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o59xt86",
+          "author": "ImaginationTimely817",
+          "body": "Yep out of state for both! No, it wasn't Harvard.",
+          "score": "1 point",
+          "created": "2026-02-14T02:31:12+00:00",
+          "depth": 1,
+          "parent_id": "t1_o59xm1o",
+          "is_reply_to_post": false,
+          "replies": [
+            {
+              "id": "t1_o59y42r",
+              "author": "TrySouthern9542",
+              "body": "then yeah ur fine, uiuc cs especially is hella competitive (engineering not so much)",
+              "score": "2 points",
+              "created": "2026-02-14T02:33:07+00:00",
+              "depth": 2,
+              "parent_id": "t1_o59xt86",
+              "is_reply_to_post": false,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "",
+      "author": "[deleted]",
+      "body": "[deleted]",
+      "score": "0",
+      "created": "2026-02-14T02:34:27+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": [
+        {
+          "id": "t1_o5agxhl",
+          "author": "ImaginationTimely817",
+          "body": "we got this twin ✌️",
+          "score": "2 points",
+          "created": "2026-02-14T04:43:26+00:00",
+          "depth": 1,
+          "parent_id": "",
+          "is_reply_to_post": false,
+          "replies": []
+        }
+      ]
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1r48jd1",
+        "author": "ImaginationTimely817",
+        "title": "Confused by Decisions??",
+        "body": "Accepted UIUC EA, UMich EA for Comp Sci; rejected by a HYPSM REA and UT Austin RD. What does that mean? Do I have a shot at HYPSM RD?",
+        "full_text": "Confused by Decisions??\n\nAccepted UIUC EA, UMich EA for Comp Sci; rejected by a HYPSM REA and UT Austin RD. What does that mean? Do I have a shot at HYPSM RD?"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o59xm1o",
+          "author": "TrySouthern9542",
+          "body": "UIUC and UMich CS acceptances means you have a decent chance of bagging a couple top privates (assuming ur oos for these)\n\nUT Austin RD rejection means literally nothing (again, assuming oos): it's basically impossible for competitive majors out of state because of how much they focus on in-state\n\nand then HYPSM is HYPSM (means nothing, although if u got rejected by harvard you might be cooked)",
+          "score": "1 point",
+          "has_replies": true,
+          "num_replies": 1
+        },
+        {
+          "id": "",
+          "author": "[deleted]",
+          "body": "[deleted]",
+          "score": "0",
+          "has_replies": true,
+          "num_replies": 1
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o59xm1o",
+        "author": "TrySouthern9542",
+        "body": "UIUC and UMich CS acceptances means you have a decent chance of bagging a couple top privates (assuming ur oos for these)\n\nUT Austin RD rejection means literally nothing (again, assuming oos): it's basically impossible for competitive majors out of state because of how much they focus on in-state\n\nand then HYPSM is HYPSM (means nothing, although if u got rejected by harvard you might be cooked)",
+        "score": "1 point",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o59xt86",
+          "author": "ImaginationTimely817",
+          "body": "Yep out of state for both! No, it wasn't Harvard.",
+          "score": "1 point",
+          "depth": 1,
+          "has_further_replies": true
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "t1_o59xt86",
+        "author": "ImaginationTimely817",
+        "body": "Yep out of state for both! No, it wasn't Harvard.",
+        "score": "1 point",
+        "depth": 1,
+        "is_reply_to_post": false
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o59y42r",
+          "author": "TrySouthern9542",
+          "body": "then yeah ur fine, uiuc cs especially is hella competitive (engineering not so much)",
+          "score": "2 points",
+          "depth": 2,
+          "has_further_replies": false
+        }
+      ]
+    },
+    {
+      "type": "comment_qa",
+      "description": "Comment thread - reply to a comment",
+      "parent_comment": {
+        "id": "",
+        "author": "[deleted]",
+        "body": "[deleted]",
+        "score": "0",
+        "depth": 0,
+        "is_reply_to_post": true
+      },
+      "replies_to_comment": [
+        {
+          "id": "t1_o5agxhl",
+          "author": "ImaginationTimely817",
+          "body": "we got this twin ✌️",
+          "score": "2 points",
+          "depth": 1,
+          "has_further_replies": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 3,
+    "total_qa_pairs": 4
+  }
+}

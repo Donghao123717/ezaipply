@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": 1510,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "1. Couple gold and silver medals at olympiads (math competitions named olympiads) (international and",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "National Essay Competition winner -> won a free seat a summer program",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "1st place in national debate (gold medalist)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "CAD Competition best verbal persentation trophy and qualified for nationals (4",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Won a case national competition by a prestigous university and won $2000",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "EC's",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Design and manufacturing Engineer for the aforementioned competition: I led the CAD and fluid dynami",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Astronomy Workshop for students at my school : designed and ran a week-long programme with seminars,",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Astronomy Workshop for an under-resourced school : Delivered a condensed one-day workshop with hands",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Leader of School’s Astronomy Club",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

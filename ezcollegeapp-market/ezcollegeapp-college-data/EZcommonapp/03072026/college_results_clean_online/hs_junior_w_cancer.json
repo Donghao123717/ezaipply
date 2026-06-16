@@ -1,0 +1,78 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 4.19,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "HOSA State qualifier (2x)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "HOSA Top 3 in State",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "HOSA Top 5 International",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Emory Summer Science Best Research Program Winnwe",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "AP Scholar with distinction",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "250 PVSA Hours GOLD",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "My targets are: Emory, UGA, GT, Umich, Umiami, UCS, Ivys and a lot more schools, just interested to ",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Survive",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Wdym by survive bro 😭",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Don’t let that shit come back yo. Health is #1",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": 2,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}

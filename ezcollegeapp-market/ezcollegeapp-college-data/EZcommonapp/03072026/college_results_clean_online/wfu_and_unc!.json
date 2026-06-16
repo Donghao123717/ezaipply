@@ -1,0 +1,154 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": 27,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "Primarily family responsibilities so I couldn't really focus on any serious extr",
+          "role": "",
+          "description": "Primarily family responsibilities so I couldn't really focus on any serious extracurriculars"
+        },
+        {
+          "name": "Baking/Cooking for friends and family; gifts, parties",
+          "role": "",
+          "description": "Baking/Cooking for friends and family; gifts, parties"
+        },
+        {
+          "name": "Awards/Honors",
+          "role": "",
+          "description": "Awards/Honors"
+        },
+        {
+          "name": "AP Scholar with Honor",
+          "role": "",
+          "description": "AP Scholar with Honor"
+        },
+        {
+          "name": "I was a junior marshal (not sure if this matters at all) but couldn't participat",
+          "role": "",
+          "description": "I was a junior marshal (not sure if this matters at all) but couldn't participate."
+        },
+        {
+          "name": "Letters of Recommendation",
+          "role": "",
+          "description": "Letters of Recommendation"
+        },
+        {
+          "name": "I got 3 letters; 1 from my junior year precalc teacher, 1 from my chemistry/AP b",
+          "role": "",
+          "description": "I got 3 letters; 1 from my junior year precalc teacher, 1 from my chemistry/AP bio/env.sci. teacher, and 1 from the school director/counselor. I had a really good connection with all of them and I bel"
+        },
+        {
+          "name": "Interviews",
+          "role": "",
+          "description": "Interviews"
+        },
+        {
+          "name": "N/A",
+          "role": "",
+          "description": "N/A"
+        },
+        {
+          "name": "Essays",
+          "role": "",
+          "description": "Essays"
+        },
+        {
+          "name": "Wrote my personal essay a couple days before the early action deadline and it to",
+          "role": "",
+          "description": "Wrote my personal essay a couple days before the early action deadline and it took 2/3 hours to finalize. My supplementals didn't take too long to do since I had a cohesive topic for all of them: my e"
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "role": "",
+          "description": "Decisions (indicate ED/EA/REA/SCEA/RD)"
+        },
+        {
+          "name": "Acceptances: ALL EA",
+          "role": "",
+          "description": "Acceptances: ALL EA"
+        },
+        {
+          "name": "Wake Forest University",
+          "role": "",
+          "description": "Wake Forest University"
+        },
+        {
+          "name": "University of North Carolina at Chapel Hill",
+          "role": "",
+          "description": "University of North Carolina at Chapel Hill"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "AP Scholar with Honor",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I was a junior marshal (not sure if this matters at all) but couldn't participate.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Letters of Recommendation",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I got 3 letters; 1 from my junior year precalc teacher, 1 from my chemistry/AP bio/env.sci. teacher,",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Interviews",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "N/A",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Essays",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Wrote my personal essay a couple days before the early action deadline and it took 2/3 hours to fina",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Decisions (indicate ED/EA/REA/SCEA/RD)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Acceptances: ALL EA",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": "biology and/or chemistry concentration"
+    },
+    "ESSAY_SCORE": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "post": {
+    "id": "t3_1ql55wu",
+    "title": "Deferred from UMich but im happy",
+    "author": "True-Boysenberry225",
+    "selftext": "I wasn't expecting much lowkey expected rejection but it's looking like everyone got deferred so I can't expect much especially as an out of state applicant",
+    "score": "10",
+    "url": "https://www.reddit.com/r/collegeresults/comments/1ql55wu/deferred_from_umich_but_im_happy/",
+    "created": "2026-01-23T22:32:16+00:00",
+    "num_comments": 2,
+    "subreddit": "collegeresults"
+  },
+  "comments": [
+    {
+      "id": "t1_o1bzoz4",
+      "author": "Nientea",
+      "body": "They’ve been fumbling their admissions since the first wave of ED. There shouldn’t even be waves of ED. I’m guessing they only got through half of the applicants (again) and just deferred the rest",
+      "score": "4 points",
+      "created": "2026-01-23T23:34:56+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    },
+    {
+      "id": "t1_o1h0kci",
+      "author": "DontChuckItUp",
+      "body": "The vast majority of applicants are deferred at UMich. This is very normal for them.",
+      "score": "3 points",
+      "created": "2026-01-24T18:41:00+00:00",
+      "depth": 0,
+      "parent_id": null,
+      "is_reply_to_post": true,
+      "replies": []
+    }
+  ],
+  "qa_pairs": [
+    {
+      "type": "post_qa",
+      "description": "Original post and direct responses to it",
+      "question": {
+        "id": "t3_1ql55wu",
+        "author": "True-Boysenberry225",
+        "title": "Deferred from UMich but im happy",
+        "body": "I wasn't expecting much lowkey expected rejection but it's looking like everyone got deferred so I can't expect much especially as an out of state applicant",
+        "full_text": "Deferred from UMich but im happy\n\nI wasn't expecting much lowkey expected rejection but it's looking like everyone got deferred so I can't expect much especially as an out of state applicant"
+      },
+      "direct_responses": [
+        {
+          "id": "t1_o1bzoz4",
+          "author": "Nientea",
+          "body": "They’ve been fumbling their admissions since the first wave of ED. There shouldn’t even be waves of ED. I’m guessing they only got through half of the applicants (again) and just deferred the rest",
+          "score": "4 points",
+          "has_replies": false,
+          "num_replies": 0
+        },
+        {
+          "id": "t1_o1h0kci",
+          "author": "DontChuckItUp",
+          "body": "The vast majority of applicants are deferred at UMich. This is very normal for them.",
+          "score": "3 points",
+          "has_replies": false,
+          "num_replies": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_top_level_comments": 2,
+    "total_nested_replies": 0,
+    "total_qa_pairs": 1
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": 3.91,
+      "sat_total": 1550,
+      "act_composite": 35,
+      "class_rank_percentile": 98.32,
+      "ap_ib_honors_count": 4
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": [
+        {
+          "name": "1. Volunteered at local church working at the food pantry for the poor and as a ",
+          "role": "",
+          "description": "1. Volunteered at local church working at the food pantry for the poor and as a babysitter at the daycare they provided."
+        },
+        {
+          "name": "2. Volunteered at my polish school as an assistant teacher and as a bookkeeper, ",
+          "role": "",
+          "description": "2. Volunteered at my polish school as an assistant teacher and as a bookkeeper, also worked in maintenance."
+        },
+        {
+          "name": "3. Math tutor since freshman year for students in high school, teaching mainly a",
+          "role": "",
+          "description": "3. Math tutor since freshman year for students in high school, teaching mainly algebra, geometry, trig, pre-calc, and calc."
+        },
+        {
+          "name": "4. Worked in my dad's construction company",
+          "role": "",
+          "description": "4. Worked in my dad's construction company"
+        },
+        {
+          "name": "5. Started a after-school course at my school to teach other students how to cod",
+          "role": "",
+          "description": "5. Started a after-school course at my school to teach other students how to code in Python."
+        },
+        {
+          "name": "6. Shadowed at children's hospital",
+          "role": "",
+          "description": "6. Shadowed at children's hospital"
+        },
+        {
+          "name": "7. Worked at a local polish publication in my area as a columnist.",
+          "role": "",
+          "description": "7. Worked at a local polish publication in my area as a columnist."
+        },
+        {
+          "name": "8. Was a part of a internationally-recognized polish folk group that (before COV",
+          "role": "",
+          "description": "8. Was a part of a internationally-recognized polish folk group that (before COVID) traveled about 5 months in the year throughout the world. Also was a student teacher in the younger categories in th"
+        }
+      ]
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "Two APs outside of school: AP Calc AB (5), AP Calc BC (5)",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "Senior Year Courses: IB Lang. + Lit. HL, IB History HL, IB Film HL, IB Bio SL, Theory of Knowledge, ",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": true,
+      "service_summary": "3. Math tutor since freshman year for students in high school, teaching mainly algebra, geometry, trig, pre-calc, and calc."
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": " biology/pre-med"
+    },
+    "ESSAY_SCORE": null
+  }
+}

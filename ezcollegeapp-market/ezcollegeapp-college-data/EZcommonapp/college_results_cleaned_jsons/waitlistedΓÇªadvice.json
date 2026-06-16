@@ -1,0 +1,83 @@
+{
+  "CURRENT_PROFILE_GROUPED_JSON": {
+    "ACADEMIC_RECORDS": {
+      "gpa_unweighted": null,
+      "sat_total": null,
+      "act_composite": null,
+      "class_rank_percentile": null,
+      "ap_ib_honors_count": null
+    },
+    "ACTIVITIES_LEADERSHIP": {
+      "activities": []
+    },
+    "AWARDS_VALIDATION": {
+      "awards": [
+        {
+          "name": "- Thanks! Do yk if there’s any way to move up the waitlist like by doing demonstrated interest ect?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "-",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I don't know, but I'd assume that sending a LOCI at least is the minimum because you have their attention and are actual",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "I hear some people try talking to the current students / staff to find out what the vibe of the school is so that they h",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Waitlisted or deferred?",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Waitlisted",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Hang in there. Confused as to why waitlist instead of deferral to RD. I’ve never heard of WL from ED before, can anyon",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "My letter says: After careful review of your application and all supporting documents, we would like to offer you a plac",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- NYU does either defer or waitlist for ED. It's not common though.",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- Which one is less common defer or waitlist",
+          "year": null,
+          "issuer": ""
+        },
+        {
+          "name": "- They don't publish that data so there's no way to know.",
+          "year": null,
+          "issuer": ""
+        }
+      ]
+    },
+    "SERVICE_CONTEXT": {
+      "community_service_hours": null,
+      "first_gen": null,
+      "service_summary": ""
+    },
+    "PROFILE_META": {
+      "student_id": "",
+      "major": ""
+    },
+    "ESSAY_SCORE": null
+  }
+}
