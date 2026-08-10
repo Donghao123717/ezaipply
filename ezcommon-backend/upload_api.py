@@ -13,7 +13,7 @@ from s3_service import get_s3_service
 # CORS Configuration
 CORS_ORIGINS = os.environ.get(
     "CORS_ORIGINS",
-    "https://ezcollegeapp1.com"
+    "https://aipply1.com"
 ).split(",")
 
 app = FastAPI(

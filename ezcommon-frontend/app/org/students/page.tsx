@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
+import { getBackendBaseUrl } from '@/lib/server-fetch'
 
 export const dynamic = 'force-dynamic'
 
@@ -12,7 +13,7 @@ interface OrgStudent {
 }
 
 async function fetchOrgStudents(orgId: string): Promise<OrgStudent[]> {
-  const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
+  const base = await getBackendBaseUrl()
   try {
     const res = await fetch(
       `${base}/api/org/students?org_id=${encodeURIComponent(orgId)}`,

@@ -42,3 +42,8 @@ requests==2.32.3
 
 # Validation
 email-validator
+
+# Testing
+pytest==8.3.3
+pytest-mock==3.14.0
+moto[s3]==5.0.14

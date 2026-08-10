@@ -37,7 +37,7 @@ app = FastAPI(
 # CORS configuration
 CORS_ORIGINS = os.environ.get(
     "CORS_ORIGINS",
-    "https://ezcollegeapp1.com"
+    "https://aipply1.com"
 ).split(",")
 
 app.add_middleware(

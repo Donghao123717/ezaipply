@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-const backendBase = process.env.BACKEND_URL || 'https://ezcollegeapp1.com'
+const backendBase = process.env.BACKEND_URL || 'https://aipply1.com'
 
 export async function POST(request: Request) {
   try {

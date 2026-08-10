@@ -4,6 +4,7 @@ import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { Button } from '@/components/ui/button'
 import { AllFilesReview } from '@/components/starter/all-files-review'
+import { getBackendBaseUrl } from '@/lib/server-fetch'
 
 export const dynamic = 'force-dynamic'
 
@@ -16,7 +17,7 @@ interface StudentDetail {
 }
 
 async function fetchStudent(userId: string): Promise<StudentDetail | null> {
-  const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
+  const base = await getBackendBaseUrl()
   try {
     const res = await fetch(`${base}/api/auth/user/${encodeURIComponent(userId)}`, {
       cache: 'no-store',

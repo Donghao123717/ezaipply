@@ -1,4 +1,4 @@
-# EZCollegeApp
+# Aipply
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ## 📖 About
 
-EZCollegeApp is a research project that investigates the application of large language models (LLMs) in the college application process. This project examines how advanced AI technologies can assist students, counselors, and institutions in navigating the complexities of college admissions.
+Aipply is a research project that investigates the application of large language models (LLMs) in the college application process. This project examines how advanced AI technologies can assist students, counselors, and institutions in navigating the complexities of college admissions.
 
 ## 🎓 Research Paper
 

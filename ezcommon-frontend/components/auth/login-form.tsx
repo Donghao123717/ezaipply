@@ -21,10 +21,65 @@ const LoginSchema = z.object({
 
 type LoginValues = z.infer<typeof LoginSchema>
 
+// Demo build: instead of requiring visitors to sign up, auto sign in as a
+// fixed demo account on page load, against the real backend/DynamoDB. The
+// account is created on first run since it won't exist yet. The manual form
+// below stays as a fallback if the auto sign-in can't reach the backend.
+const DEMO_EMAIL = 'demo@aipply.app'
+const DEMO_PASSWORD = 'AipplyDemo123!'
+
 export function LoginForm() {
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const [autoLoginPending, setAutoLoginPending] = useState(true)
   const appBase = process.env.NEXT_PUBLIC_APP_URL || '/'
+
+  useEffect(() => {
+    let cancelled = false
+
+    async function autoLoginAsDemoUser() {
+      const attemptSignIn = () =>
+        signIn('credentials', {
+          email: DEMO_EMAIL,
+          password: DEMO_PASSWORD,
+          remember: 'true',
+          login_type: 'student',
+          callbackUrl: appBase,
+          redirect: false,
+        })
+
+      let res = await attemptSignIn()
+
+      if (res?.error) {
+        // Demo account doesn't exist yet on this backend - create it, then retry once.
+        await fetch('/api/auth/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            first_name: 'Demo',
+            last_name: 'User',
+            email: DEMO_EMAIL,
+            password: DEMO_PASSWORD,
+            role: 'student',
+          }),
+        }).catch(() => null)
+        res = await attemptSignIn()
+      }
+
+      if (cancelled) return
+
+      if (res?.url && !res.error) {
+        window.location.href = res.url
+      } else {
+        setAutoLoginPending(false)
+      }
+    }
+
+    autoLoginAsDemoUser()
+    return () => {
+      cancelled = true
+    }
+  }, [appBase])
 
   const form = useForm<LoginValues>({
     resolver: zodResolver(LoginSchema),
@@ -81,10 +136,20 @@ export function LoginForm() {
     }
   }, [])
 
+  if (autoLoginPending) {
+    return (
+      <div className="mx-auto w-full max-w-sm py-12 text-center">
+        <p className="text-sm text-muted-foreground">Loading demo experience…</p>
+      </div>
+    )
+  }
+
   return (
     <div className="mx-auto w-full max-w-sm">
       <h1 className="text-2xl font-semibold tracking-tight">Sign in</h1>
-      <p className="text-sm text-muted-foreground mt-1">Welcome back. Please enter your details.</p>
+      <p className="text-sm text-muted-foreground mt-1">
+        Demo auto sign-in couldn&apos;t reach the backend. Enter details below, or start the backend and reload.
+      </p>
 
       <form className="mt-6 space-y-4" onSubmit={form.handleSubmit(onSubmit)}>
         <div className="space-y-2">

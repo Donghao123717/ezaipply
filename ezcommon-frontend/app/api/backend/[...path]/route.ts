@@ -1,10 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
+import { handleMockBackend } from '@/lib/mock-backend'
 
 type RouteContext = { params: Promise<{ path?: string[] }> }
 
 async function proxy(request: NextRequest, context: RouteContext) {
+  const resolvedParams = await context.params
+  const pathSegments = resolvedParams.path || []
+
+  // Demo build: large parts of the real Python/AWS backend's source were
+  // stripped from this public repo, so by default every request is served
+  // from an in-memory mock (lib/mock-backend.ts). If a real backend is ever
+  // wired back up, set BACKEND_URL to route requests to it instead.
+  if (process.env.BACKEND_URL) {
+    return realProxy(request, context)
+  }
+  return handleMockBackend(pathSegments, request)
+}
+
+async function realProxy(request: NextRequest, context: RouteContext) {
   const resolvedParams = await context.params
   const path = (resolvedParams.path || []).join('/')
   const backendBase =
