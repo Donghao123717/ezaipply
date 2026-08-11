@@ -1,20 +1,29 @@
+"use client"
 import type { SavedCollege } from '@/lib/college-store'
+import { useT } from '@/lib/i18n/use-t'
 
 export function SubmitHeader({ firstName, colleges }: { firstName: string; colleges: SavedCollege[] }) {
+  const t = useT()
   const total = colleges.length
   const submitted = colleges.filter((c) => c.submitted).length
   const percent = total > 0 ? Math.round((submitted / total) * 100) : 0
+  const remaining = Math.max(total - submitted, 0)
 
   return (
     <div className="rounded-2xl border bg-gradient-to-br from-card to-secondary/40 p-6 flex items-center justify-between gap-6 mb-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-1">Stage 5 · Submit</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-1">{t('submit.header.stage')}</p>
         <h1 className="font-display text-3xl font-semibold text-primary">
-          You&apos;re almost there{firstName ? `, ${firstName}` : ''}.
+          {t('submit.header.almostThere').replace(
+            '{name}',
+            firstName ? t('submit.header.nameSuffix').replace('{name}', firstName) : '',
+          )}
         </h1>
         <p className="text-sm text-muted-foreground mt-1">
-          You&apos;ve submitted {submitted} of {total}. {Math.max(total - submitted, 0)} more to the finish line. We&apos;ve
-          prepped everything you need below.
+          {t('submit.header.progressLine')
+            .replace('{submitted}', String(submitted))
+            .replace('{total}', String(total))
+            .replace('{remaining}', String(remaining))}
         </p>
       </div>
       <div className="shrink-0 relative h-20 w-20">
@@ -35,7 +44,7 @@ export function SubmitHeader({ firstName, colleges }: { firstName: string; colle
           <span className="text-lg font-semibold text-primary leading-none">
             {submitted}/{total}
           </span>
-          <span className="text-[9px] uppercase tracking-wide text-muted-foreground mt-0.5">Submitted</span>
+          <span className="text-[9px] uppercase tracking-wide text-muted-foreground mt-0.5">{t('submit.header.submittedCaption')}</span>
         </div>
       </div>
     </div>

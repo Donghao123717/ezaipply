@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import { Loader2, Sparkles, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { useT } from '@/lib/i18n/use-t'
 
 interface FileRef {
   filename: string
@@ -16,6 +17,7 @@ interface Chunk {
 }
 
 export function SuggestionsPanel({ userId, onClose }: { userId: string; onClose: () => void }) {
+  const t = useT()
   const [files, setFiles] = useState<FileRef[]>([])
   const [loadingFiles, setLoadingFiles] = useState(true)
   const [extracting, setExtracting] = useState(false)
@@ -60,9 +62,9 @@ export function SuggestionsPanel({ userId, onClose }: { userId: string; onClose:
         <div className="flex items-center justify-between px-5 py-4 border-b">
           <h2 className="font-semibold text-primary flex items-center gap-2">
             <Sparkles className="h-4 w-4 text-accent" />
-            Find Suggestions
+            {t('profile.findSuggestions')}
           </h2>
-          <button onClick={onClose} aria-label="Close">
+          <button onClick={onClose} aria-label={t('profile.suggestions.close')}>
             <X className="h-5 w-5 text-muted-foreground" />
           </button>
         </div>
@@ -71,33 +73,29 @@ export function SuggestionsPanel({ userId, onClose }: { userId: string; onClose:
           {loadingFiles ? (
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Loader2 className="h-4 w-4 animate-spin" />
-              Checking your uploaded documents…
+              {t('profile.suggestions.checkingDocs')}
             </div>
           ) : files.length === 0 ? (
-            <p className="text-sm text-muted-foreground">
-              You haven&apos;t uploaded any documents yet. Upload a transcript, test scores, or activity records
-              elsewhere in the app, then come back here to pull suggested details from them.
-            </p>
+            <p className="text-sm text-muted-foreground">{t('profile.suggestions.noDocsYet')}</p>
           ) : chunks === null ? (
             <>
               <p className="text-sm text-muted-foreground">
-                Found {files.length} document{files.length !== 1 ? 's' : ''}. We&apos;ll read them with AI and surface
-                details you can copy into your profile.
+                {t('profile.suggestions.foundDocs').replace('{count}', String(files.length))}
               </p>
               <Button onClick={runSuggestions} disabled={extracting} className="w-full">
                 {extracting ? (
                   <>
                     <Loader2 className="h-4 w-4 mr-2 animate-spin" />
-                    Reading your documents…
+                    {t('profile.suggestions.readingDocs')}
                   </>
                 ) : (
-                  'Run AI Suggestions'
+                  t('profile.suggestions.runAI')
                 )}
               </Button>
               {error && <p className="text-sm text-destructive">{error}</p>}
             </>
           ) : chunks.length === 0 ? (
-            <p className="text-sm text-muted-foreground">No suggestions found in your uploaded documents.</p>
+            <p className="text-sm text-muted-foreground">{t('profile.suggestions.noSuggestionsFound')}</p>
           ) : (
             <div className="space-y-3">
               {chunks.map((chunk, i) => (

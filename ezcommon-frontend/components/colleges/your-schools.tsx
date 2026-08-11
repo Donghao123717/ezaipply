@@ -4,14 +4,10 @@ import Link from 'next/link'
 import { ArrowUpRight, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { CollegeCategory, SavedCollege } from '@/lib/college-store'
-import { computeApplicationProgress, STATUS_LABEL } from '@/lib/application-status'
+import { CATEGORY_LABEL_KEY } from '@/lib/college-store'
+import { computeApplicationProgress, STATUS_LABEL_KEY } from '@/lib/application-status'
 import { Select, SelectContent, SelectItem, SelectTrigger } from '@/components/ui/select'
-
-const CATEGORY_LABEL: Record<CollegeCategory, string> = {
-  reach: 'Reach',
-  target: 'Target',
-  safety: 'Safety',
-}
+import { useT } from '@/lib/i18n/use-t'
 
 const CATEGORY_ORDER: CollegeCategory[] = ['reach', 'target', 'safety']
 
@@ -28,6 +24,7 @@ export function YourSchools({
   onRemove: (id: string) => void
   onChangeCategory: (id: string, category: CollegeCategory) => void
 }) {
+  const t = useT()
   const [sortMode, setSortMode] = useState<SortMode>('category')
   const [ready, setReady] = useState(false)
 
@@ -66,23 +63,23 @@ export function YourSchools({
           <div className="flex items-center gap-2 mt-1.5 flex-wrap">
             <Select value={college.category} onValueChange={(value) => onChangeCategory(college.id, value as CollegeCategory)}>
               <SelectTrigger className="w-auto h-auto gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium [&>svg]:h-3 [&>svg]:w-3 [&>svg]:opacity-100">
-                {CATEGORY_LABEL[college.category]}
+                {t(CATEGORY_LABEL_KEY[college.category])}
               </SelectTrigger>
               <SelectContent align="start">
                 {CATEGORY_ORDER.map((cat) => (
                   <SelectItem key={cat} value={cat}>
-                    {CATEGORY_LABEL[cat]}
+                    {t(CATEGORY_LABEL_KEY[cat])}
                   </SelectItem>
                 ))}
               </SelectContent>
             </Select>
             <span className="rounded-full bg-muted px-2.5 py-0.5 text-xs text-muted-foreground">
-              {progress ? STATUS_LABEL[progress.status] : 'Not started'}
+              {progress ? t(STATUS_LABEL_KEY[progress.status]) : t('common.status.notStarted')}
             </span>
             <span className="text-xs text-muted-foreground">
               {college.deadline
                 ? new Date(college.deadline).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
-                : 'No deadline'}
+                : t('colleges.yourSchools.noDeadline')}
             </span>
           </div>
           <div className="flex items-center gap-2 mt-3">
@@ -90,7 +87,7 @@ export function YourSchools({
               href={`/colleges/${college.id}`}
               className="flex items-center gap-1 rounded-full border px-3 py-1 text-xs font-medium hover:bg-muted"
             >
-              Open application
+              {t('colleges.yourSchools.openApplication')}
               <ArrowUpRight className="h-3 w-3" />
             </Link>
             <button
@@ -98,7 +95,7 @@ export function YourSchools({
               className="flex items-center gap-1 rounded-full border px-3 py-1 text-xs font-medium text-destructive hover:bg-destructive/10"
             >
               <X className="h-3 w-3" />
-              Remove
+              {t('colleges.yourSchools.remove')}
             </button>
           </div>
         </div>
@@ -108,7 +105,7 @@ export function YourSchools({
               {progress ? `${progress.percent}%` : '—'}
             </span>
           </div>
-          <p className="text-[10px] uppercase tracking-wide text-muted-foreground mt-1">Completion</p>
+          <p className="text-[10px] uppercase tracking-wide text-muted-foreground mt-1">{t('colleges.yourSchools.completion')}</p>
         </div>
       </div>
     )
@@ -118,11 +115,11 @@ export function YourSchools({
     <div>
       <div className="flex items-center justify-between mb-3">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Your schools</p>
-          <h2 className="font-semibold text-primary">Schools currently on your list</h2>
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">{t('colleges.yourSchools.eyebrow')}</p>
+          <h2 className="font-semibold text-primary">{t('colleges.yourSchools.title')}</h2>
         </div>
         <div className="flex items-center gap-1 text-xs">
-          <span className="text-muted-foreground mr-1">Sort by</span>
+          <span className="text-muted-foreground mr-1">{t('colleges.yourSchools.sortBy')}</span>
           {(['category', 'deadline', 'name'] as SortMode[]).map((mode) => (
             <button
               key={mode}
@@ -132,7 +129,11 @@ export function YourSchools({
                 sortMode === mode ? 'bg-primary text-primary-foreground' : 'border hover:bg-muted',
               )}
             >
-              {mode === 'category' ? 'Category' : mode === 'deadline' ? 'Nearest deadline' : 'Name'}
+              {mode === 'category'
+                ? t('colleges.yourSchools.sortCategory')
+                : mode === 'deadline'
+                  ? t('colleges.yourSchools.sortDeadline')
+                  : t('colleges.yourSchools.sortName')}
             </button>
           ))}
         </div>
@@ -140,14 +141,14 @@ export function YourSchools({
 
       {colleges.length === 0 ? (
         <div className="rounded-xl border border-dashed p-8 text-center text-sm text-muted-foreground">
-          No schools saved yet. Search for a school on the right to add your first one.
+          {t('colleges.yourSchools.empty')}
         </div>
       ) : sortMode === 'category' && grouped ? (
         <div className="space-y-4">
           {CATEGORY_ORDER.filter((cat) => grouped.get(cat)!.length > 0).map((cat) => (
             <div key={cat}>
               <div className="flex items-center gap-2 mb-2">
-                <p className="font-semibold text-primary">{CATEGORY_LABEL[cat]}</p>
+                <p className="font-semibold text-primary">{t(CATEGORY_LABEL_KEY[cat])}</p>
                 <span className="h-px flex-1 bg-border" />
                 <span className="text-xs rounded-full bg-secondary text-secondary-foreground px-2 py-0.5">
                   {grouped.get(cat)!.length}

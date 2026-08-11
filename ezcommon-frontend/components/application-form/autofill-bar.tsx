@@ -1,9 +1,10 @@
 "use client"
-import { useState } from 'react'
 import { Loader2, Puzzle, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { useT } from '@/lib/i18n/use-t'
 
 export function SubmitPluginBanner() {
+  const t = useT()
   return (
     <div className="rounded-xl border bg-card p-4 flex items-center justify-between gap-4 flex-wrap">
       <div className="flex items-center gap-3">
@@ -11,15 +12,12 @@ export function SubmitPluginBanner() {
           <Puzzle className="h-4 w-4" />
         </span>
         <div>
-          <p className="text-sm font-medium text-primary">Autofill when you hit Submit</p>
-          <p className="text-xs text-muted-foreground">
-            When it&apos;s time to submit on Common App, UC, or an independent portal, our Chrome extension can
-            autofill from your saved answers.
-          </p>
+          <p className="text-sm font-medium text-primary">{t('applicationForm.banner.autofillTitle')}</p>
+          <p className="text-xs text-muted-foreground">{t('applicationForm.banner.autofillDesc')}</p>
         </div>
       </div>
       <Button asChild size="sm">
-        <a href="/submit">Open Submit</a>
+        <a href="/submit">{t('applicationForm.banner.openSubmit')}</a>
       </Button>
     </div>
   )
@@ -36,22 +34,21 @@ export function AutofillSuggestionsBar({
   onGenerate: () => void
   onApplyAll: () => void
 }) {
+  const t = useT()
   return (
     <div className="rounded-xl border bg-card p-4 flex items-center justify-between gap-4 flex-wrap mt-3">
       <div>
         <div className="flex items-center gap-2 mb-1">
           <span className="text-xs font-semibold uppercase tracking-wide text-accent flex items-center gap-1">
             <Sparkles className="h-3 w-3" />
-            Autofill suggestions
+            {t('applicationForm.banner.suggestionsLabel')}
           </span>
           {hasSuggestions && (
-            <span className="text-xs font-semibold uppercase tracking-wide text-amber-600">Needs attention</span>
+            <span className="text-xs font-semibold uppercase tracking-wide text-amber-600">{t('applicationForm.banner.needsAttention')}</span>
           )}
         </div>
         <p className="text-xs text-muted-foreground">
-          {hasSuggestions
-            ? 'Generated suggestions cannot be applied to the current form. Review your existing answers and form selections, then run Autofill Generation again.'
-            : "Generate suggested answers for this page from your profile, then apply the ones that look right."}
+          {hasSuggestions ? t('applicationForm.banner.suggestionsDescHas') : t('applicationForm.banner.suggestionsDescEmpty')}
         </p>
       </div>
       <div className="flex items-center gap-2 shrink-0">
@@ -59,14 +56,14 @@ export function AutofillSuggestionsBar({
           {loading ? (
             <>
               <Loader2 className="h-3.5 w-3.5 mr-2 animate-spin" />
-              Generating…
+              {t('applicationForm.banner.generating')}
             </>
           ) : (
-            'Autofill Generation'
+            t('applicationForm.banner.generateBtn')
           )}
         </Button>
         <Button size="sm" disabled={!hasSuggestions} onClick={onApplyAll}>
-          Apply All
+          {t('applicationForm.banner.applyAll')}
         </Button>
       </div>
     </div>

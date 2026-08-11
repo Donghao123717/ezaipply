@@ -19,7 +19,7 @@ export function ApplicationTrackerPanel({ userId, onQuickAsk }: { userId: string
   }, [userId])
 
   if (!tracker) {
-    return <p className="text-xs text-muted-foreground text-center py-6">Loading…</p>
+    return <p className="text-xs text-muted-foreground text-center py-6">{t('counselor.documents.loading')}</p>
   }
 
   const next = findNextStep(tracker)
@@ -27,30 +27,34 @@ export function ApplicationTrackerPanel({ userId, onQuickAsk }: { userId: string
   return (
     <div>
       <div className="flex items-center justify-between mb-3">
-        <h3 className="font-semibold text-primary text-sm">Application Tracker</h3>
+        <h3 className="font-semibold text-primary text-sm">{t('counselor.tracker.title')}</h3>
       </div>
 
       {next ? (
         <div className="rounded-xl bg-primary text-primary-foreground p-4 mb-4">
           <div className="flex items-start justify-between mb-1.5">
-            <p className="text-[11px] font-semibold uppercase tracking-wide text-primary-foreground/70">Your Next Step</p>
+            <p className="text-[11px] font-semibold uppercase tracking-wide text-primary-foreground/70">{t('counselor.tracker.yourNextStep')}</p>
             <span className="text-xs font-semibold rounded-full bg-primary-foreground/15 px-2 py-0.5">{tracker.percent}%</span>
           </div>
-          <p className="text-sm text-primary-foreground/80">Continue with {next.stage.label}</p>
+          <p className="text-sm text-primary-foreground/80">{t('counselor.tracker.continueWith').replace('{stage}', next.stage.label)}</p>
           <p className="font-semibold">{next.item.label}</p>
           <div className="flex items-center gap-2 mt-3">
             <button
-              onClick={() => onQuickAsk(`What should I do next for "${next.item.label}" in ${next.stage.label}?`)}
+              onClick={() =>
+                onQuickAsk(
+                  t('counselor.tracker.quickAskMessage').replace('{item}', next.item.label).replace('{stage}', next.stage.label),
+                )
+              }
               className="inline-flex items-center gap-1.5 text-xs font-medium rounded-md bg-primary-foreground/10 hover:bg-primary-foreground/20 px-2.5 py-1.5"
             >
               <MessageSquareText className="h-3.5 w-3.5" />
-              Quick Ask
+              {t('counselor.tracker.quickAsk')}
             </button>
             <Link
               href={next.item.href}
               className="ml-auto inline-flex items-center gap-1 text-xs font-medium rounded-md bg-primary-foreground text-primary px-2.5 py-1.5"
             >
-              Go
+              {t('counselor.tracker.go')}
               <ChevronRightIcon className="h-3.5 w-3.5" />
             </Link>
           </div>
@@ -58,12 +62,12 @@ export function ApplicationTrackerPanel({ userId, onQuickAsk }: { userId: string
       ) : (
         <div className="rounded-xl border bg-secondary/40 p-4 mb-4 text-center">
           <CheckCircle2 className="h-6 w-6 text-emerald-500 mx-auto mb-1.5" />
-          <p className="text-sm font-medium text-primary">Everything's done!</p>
-          <p className="text-xs text-muted-foreground mt-0.5">Every tracked step across your application is complete.</p>
+          <p className="text-sm font-medium text-primary">{t('counselor.tracker.everythingDone')}</p>
+          <p className="text-xs text-muted-foreground mt-0.5">{t('counselor.tracker.everythingDoneDetail')}</p>
         </div>
       )}
 
-      <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground mb-2">Progress by Stage</p>
+      <p className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground mb-2">{t('counselor.tracker.progressByStage')}</p>
       <div className="space-y-1">
         {tracker.stages.map((stage, i) => {
           const complete = stage.total > 0 && stage.completed === stage.total
@@ -103,7 +107,7 @@ export function ApplicationTrackerPanel({ userId, onQuickAsk }: { userId: string
                 <div className="px-3 py-2 space-y-1.5 border-t bg-muted/30">
                   {stage.items.length === 0 ? (
                     <Link href={stage.href} className="text-xs text-primary font-medium hover:underline">
-                      Get started →
+                      {t('counselor.tracker.getStarted')}
                     </Link>
                   ) : (
                     stage.items.map((item) => (

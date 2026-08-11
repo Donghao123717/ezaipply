@@ -1,6 +1,6 @@
 import { computeProfileSectionsProgress } from '@/lib/profile-schema'
 import { loadEssays, wordCount } from '@/lib/essay-store'
-import { ESSAY_TASKS, getSchoolEssayTasks } from '@/lib/essay-tasks'
+import { ESSAY_TASKS, essayTaskTitle, getSchoolEssayTasks } from '@/lib/essay-tasks'
 import { loadColleges } from '@/lib/college-store'
 import { computeApplicationProgress } from '@/lib/application-status'
 import { loadForecast } from '@/lib/forecast-store'
@@ -28,15 +28,15 @@ export interface ApplicationTracker {
 /**
  * Aggregates real progress from every feature's own localStorage-backed store
  * (profile, essays, colleges, forecast) - no fabricated numbers. `t` resolves
- * the Profile page's translated section labels; every other stage is
- * English-only, matching the rest of the app (Writing/Colleges/Forecast/Submit
- * don't use i18n either).
+ * every static label (stage names, item labels) via lib/i18n/dictionary.ts
+ * "counselor.tracker" / "writing.tasks"; college names and school-supplement
+ * titles are user data and aren't translated.
  */
 export function computeApplicationTracker(userId: string, t: (key: string) => string): ApplicationTracker {
   const profile = computeProfileSectionsProgress(userId)
   const profileStage: TrackerStage = {
     key: 'profile',
-    label: 'Build Profile',
+    label: t('counselor.tracker.stageProfile'),
     href: '/profile',
     completed: profile.completed,
     total: profile.total,
@@ -45,15 +45,15 @@ export function computeApplicationTracker(userId: string, t: (key: string) => st
 
   const colleges = loadColleges(userId)
   const essays = loadEssays(userId)
-  const essayTasks = [...ESSAY_TASKS, ...getSchoolEssayTasks(colleges)]
+  const essayTasks = [...ESSAY_TASKS, ...getSchoolEssayTasks(colleges, t)]
   const essayItems: TrackerItem[] = essayTasks.map((task) => ({
-    label: task.title,
+    label: essayTaskTitle(task, t),
     done: wordCount(essays[task.id]?.html || '') > 0,
     href: '/writing',
   }))
   const writingStage: TrackerStage = {
     key: 'writing',
-    label: 'Writing',
+    label: t('counselor.tracker.stageWriting'),
     href: '/writing',
     completed: essayItems.filter((i) => i.done).length,
     total: essayItems.length,
@@ -67,7 +67,7 @@ export function computeApplicationTracker(userId: string, t: (key: string) => st
   }))
   const schoolsStage: TrackerStage = {
     key: 'schools',
-    label: 'Schools & Apps',
+    label: t('counselor.tracker.stageSchools'),
     href: '/colleges',
     completed: schoolItems.filter((i) => i.done).length,
     total: schoolItems.length,
@@ -76,13 +76,13 @@ export function computeApplicationTracker(userId: string, t: (key: string) => st
 
   const forecast = loadForecast(userId)
   const forecastItems: TrackerItem[] = [
-    { label: 'Save at least one school', done: colleges.length > 0, href: '/colleges' },
-    { label: 'Generate your admission forecast', done: forecast !== null, href: '/forecast' },
-    { label: 'Submit at least one application', done: schoolItems.some((i) => i.done), href: '/submit' },
+    { label: t('counselor.tracker.forecastItem1'), done: colleges.length > 0, href: '/colleges' },
+    { label: t('counselor.tracker.forecastItem2'), done: forecast !== null, href: '/forecast' },
+    { label: t('counselor.tracker.forecastItem3'), done: schoolItems.some((i) => i.done), href: '/submit' },
   ]
   const forecastStage: TrackerStage = {
     key: 'forecast',
-    label: 'Forecast & Optimize',
+    label: t('counselor.tracker.stageForecast'),
     href: '/forecast',
     completed: forecastItems.filter((i) => i.done).length,
     total: forecastItems.length,

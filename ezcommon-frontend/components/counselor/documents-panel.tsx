@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from 'react'
 import { Loader2, Paperclip, Search, Upload, X } from 'lucide-react'
+import { useT } from '@/lib/i18n/use-t'
 
 export interface CounselorDoc {
   filename: string
@@ -20,6 +21,7 @@ export function DocumentsPanel({
   refreshSignal?: number
   onUploaded?: () => void
 }) {
+  const t = useT()
   const [files, setFiles] = useState<CounselorDoc[]>([])
   const [query, setQuery] = useState('')
   const [loading, setLoading] = useState(true)
@@ -75,14 +77,14 @@ export function DocumentsPanel({
   return (
     <aside className="w-72 shrink-0 border-r bg-card/50 h-full overflow-y-auto">
       <div className="p-4">
-        <h2 className="font-semibold text-primary mb-3">My Documents</h2>
+        <h2 className="font-semibold text-primary mb-3">{t('counselor.documents.title')}</h2>
 
         <div className="relative mb-4">
           <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search documents..."
+            placeholder={t('counselor.documents.searchPlaceholder')}
             className="w-full rounded-lg border bg-card pl-8 pr-3 py-2 text-sm outline-none focus:border-primary"
           />
         </div>
@@ -108,10 +110,10 @@ export function DocumentsPanel({
             <Upload className="h-5 w-5 text-muted-foreground" />
           )}
           <p className="text-sm font-medium text-primary">
-            {files.length === 0 ? 'Add your first document' : 'Add a document'}
+            {files.length === 0 ? t('counselor.documents.dropTitleEmpty') : t('counselor.documents.dropTitle')}
           </p>
-          <p className="text-xs text-muted-foreground">Drop files or click to browse</p>
-          <p className="text-xs text-muted-foreground/70">PDF, Word, text, or images</p>
+          <p className="text-xs text-muted-foreground">{t('counselor.documents.dropSubtitle')}</p>
+          <p className="text-xs text-muted-foreground/70">{t('counselor.documents.dropHint')}</p>
           <input
             ref={inputRef}
             type="file"
@@ -127,7 +129,7 @@ export function DocumentsPanel({
 
         <div className="mt-4 space-y-1">
           {loading ? (
-            <p className="text-xs text-muted-foreground text-center py-4">Loading…</p>
+            <p className="text-xs text-muted-foreground text-center py-4">{t('counselor.documents.loading')}</p>
           ) : (
             filtered.map((f) => (
               <div key={f.s3_key} className="group flex items-center gap-2 rounded-lg px-2 py-2 text-sm hover:bg-muted">
@@ -137,7 +139,7 @@ export function DocumentsPanel({
                 </span>
                 <button
                   onClick={() => remove(f)}
-                  aria-label={`Remove ${f.filename}`}
+                  aria-label={t('counselor.documents.remove').replace('{filename}', f.filename)}
                   className="opacity-0 group-hover:opacity-100 text-muted-foreground hover:text-destructive shrink-0"
                 >
                   <X className="h-3.5 w-3.5" />

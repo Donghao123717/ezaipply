@@ -3,9 +3,10 @@ import { useState } from 'react'
 import { Loader2, Sparkles } from 'lucide-react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ESSAY_PROMPTS, type EssayTask } from '@/lib/essay-tasks'
+import { ESSAY_PROMPTS, essayTaskTitle, type EssayTask } from '@/lib/essay-tasks'
 import { loadProfileContext, wordCount, type EssayRecord } from '@/lib/essay-store'
 import { EssayEditor } from '@/components/writing/essay-editor'
+import { useT } from '@/lib/i18n/use-t'
 
 /**
  * Reuses the exact same essay editor and localStorage record (keyed by
@@ -23,6 +24,7 @@ export function ApplicationWritingPage({
   record: EssayRecord | undefined
   onChange: (html: string) => void
 }) {
+  const t = useT()
   const [promptId, setPromptId] = useState(record?.promptId || '')
   const [drafting, setDrafting] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -42,7 +44,7 @@ export function ApplicationWritingPage({
           prompt,
           profile_context: loadProfileContext(userId),
           word_limit: task.wordLimit,
-          essay_type: task.title,
+          essay_type: essayTaskTitle(task, t),
         }),
       })
       const data = await res.json()
@@ -63,11 +65,11 @@ export function ApplicationWritingPage({
     <div>
       <div className="flex items-center justify-between mb-3">
         <div>
-          <h2 className="text-lg font-semibold text-primary">{task.title}</h2>
-          <p className="text-xs text-muted-foreground">{task.wordLimit} words max</p>
+          <h2 className="text-lg font-semibold text-primary">{essayTaskTitle(task, t)}</h2>
+          <p className="text-xs text-muted-foreground">{t('writing.wordsMax').replace('{count}', String(task.wordLimit))}</p>
         </div>
         <Button asChild variant="ghost" size="sm">
-          <Link href="/writing">Open in Writing workspace</Link>
+          <Link href="/writing">{t('applicationForm.writingPage.openInWriting')}</Link>
         </Button>
       </div>
 
@@ -77,14 +79,14 @@ export function ApplicationWritingPage({
           onChange={(e) => setPromptId(e.target.value)}
           className="rounded-lg border bg-card px-3 py-2 text-sm outline-none focus:border-primary"
         >
-          <option value="">Pick a prompt to begin</option>
+          <option value="">{t('writing.pickPrompt')}</option>
           {ESSAY_PROMPTS.map((p) => (
             <option key={p.id} value={p.id}>
               {p.text.slice(0, 60)}…
             </option>
           ))}
         </select>
-        <p className="text-xs text-muted-foreground flex-1">{prompt || 'Pick a prompt to anchor your essay.'}</p>
+        <p className="text-xs text-muted-foreground flex-1">{prompt || t('writing.pickPromptHint')}</p>
       </div>
 
       {wordCount(html) === 0 && (
@@ -93,12 +95,12 @@ export function ApplicationWritingPage({
             {drafting ? (
               <>
                 <Loader2 className="h-3.5 w-3.5 mr-2 animate-spin" />
-                Drafting…
+                {t('writing.coach.drafting')}
               </>
             ) : (
               <>
                 <Sparkles className="h-3.5 w-3.5 mr-2" />
-                Start first draft
+                {t('writing.coach.startFirstDraft')}
               </>
             )}
           </Button>

@@ -1,6 +1,8 @@
+"use client"
 import Link from 'next/link'
 import { ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { useT } from '@/lib/i18n/use-t'
 
 interface Section {
   key: string
@@ -9,15 +11,16 @@ interface Section {
 }
 
 export function ProfilePullPage({ sections }: { sections: Section[] }) {
+  const t = useT()
   const hasAny = sections.some((s) => s.entries.length > 0)
 
   return (
     <div>
       <div className="flex items-center justify-between mb-4">
-        <p className="text-sm text-muted-foreground">Pulled automatically from your Common Profile.</p>
+        <p className="text-sm text-muted-foreground">{t('applicationForm.profilePull.subtitle')}</p>
         <Button asChild variant="outline" size="sm">
           <Link href="/profile">
-            Edit in Profile
+            {t('applicationForm.profilePull.editInProfile')}
             <ExternalLink className="h-3 w-3 ml-1.5" />
           </Link>
         </Button>
@@ -25,7 +28,7 @@ export function ProfilePullPage({ sections }: { sections: Section[] }) {
 
       {!hasAny ? (
         <div className="rounded-xl border border-dashed p-8 text-center text-sm text-muted-foreground">
-          Nothing here yet - fill out the relevant section of your Profile and it will show up here automatically.
+          {t('applicationForm.profilePull.empty')}
         </div>
       ) : (
         <div className="space-y-6">

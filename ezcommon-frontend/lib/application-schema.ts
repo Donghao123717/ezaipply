@@ -2,7 +2,7 @@ import type { FieldGroup } from '@/lib/profile-schema'
 
 export interface ApplicationPageDef {
   key: string
-  label: string
+  labelKey: string
   kind: 'fields' | 'writing' | 'profile-pull' | 'notes'
   groups?: FieldGroup[]
   /** For kind === 'profile-pull': which lib/profile-schema.ts section(s) to mirror read-only. */
@@ -16,42 +16,42 @@ export interface ApplicationPageDef {
 export const APPLICATION_PAGES: ApplicationPageDef[] = [
   {
     key: 'general',
-    label: 'General',
+    labelKey: 'applicationForm.pages.general',
     kind: 'fields',
     groups: [
       {
         fields: [
           {
             key: 'startTerm',
-            label: 'Preferred start term',
+            labelKey: 'applicationForm.fields.startTerm',
             type: 'select',
             required: true,
             options: ['Fall', 'Spring', 'Summer'],
           },
           {
             key: 'residence',
-            label: 'Preferred residence during your first year',
+            labelKey: 'applicationForm.fields.residence',
             type: 'select',
             required: true,
             options: ['On-campus housing', 'Off-campus / commuter', 'Undecided'],
           },
           {
             key: 'financialAid',
-            label: 'Do you intend to pursue need-based financial aid?',
+            labelKey: 'applicationForm.fields.financialAid',
             type: 'select',
             required: true,
             options: ['Yes', 'No'],
           },
           {
             key: 'firstGen',
-            label: 'Are you a first-generation college student in your family?',
+            labelKey: 'applicationForm.fields.firstGen',
             type: 'select',
             required: true,
             options: ['Yes', 'No'],
           },
           {
             key: 'meritScholarship',
-            label: 'Would you like to be considered for merit-based scholarships?',
+            labelKey: 'applicationForm.fields.meritScholarship',
             type: 'select',
             options: ['Yes', 'No'],
           },
@@ -61,27 +61,27 @@ export const APPLICATION_PAGES: ApplicationPageDef[] = [
   },
   {
     key: 'academics',
-    label: 'Academics',
+    labelKey: 'applicationForm.pages.academics',
     kind: 'fields',
     groups: [
       {
         fields: [
           {
             key: 'intendedDivision',
-            label: 'Which academic division or school are you applying to?',
+            labelKey: 'applicationForm.fields.intendedDivision',
             type: 'select',
             required: true,
             options: ['Arts & Sciences', 'Engineering', 'Business', 'Nursing / Health Sciences', 'Undecided'],
           },
           {
             key: 'doubleMajor',
-            label: 'Do you plan to pursue a double major or minor?',
+            labelKey: 'applicationForm.fields.doubleMajor',
             type: 'select',
             options: ['Yes', 'No', 'Not sure yet'],
           },
           {
             key: 'testingPolicy',
-            label: 'How would you like standardized testing considered?',
+            labelKey: 'applicationForm.fields.testingPolicy',
             type: 'select',
             required: true,
             options: ['Submitting SAT/ACT scores', 'Test-optional - not submitting', 'Test scores not yet available'],
@@ -90,9 +90,9 @@ export const APPLICATION_PAGES: ApplicationPageDef[] = [
       },
     ],
   },
-  { key: 'writing', label: 'Writing', kind: 'writing' },
-  { key: 'activities', label: 'Activities', kind: 'profile-pull', profileSections: ['activities', 'honors'] },
-  { key: 'contacts', label: 'Contacts', kind: 'profile-pull', profileSections: ['personal'] },
-  { key: 'family', label: 'Family', kind: 'profile-pull', profileSections: ['family'] },
-  { key: 'additional', label: 'Additional Questions', kind: 'notes' },
+  { key: 'writing', labelKey: 'applicationForm.pages.writing', kind: 'writing' },
+  { key: 'activities', labelKey: 'applicationForm.pages.activities', kind: 'profile-pull', profileSections: ['activities', 'honors'] },
+  { key: 'contacts', labelKey: 'applicationForm.pages.contacts', kind: 'profile-pull', profileSections: ['personal'] },
+  { key: 'family', labelKey: 'applicationForm.pages.family', kind: 'profile-pull', profileSections: ['family'] },
+  { key: 'additional', labelKey: 'applicationForm.pages.additional', kind: 'notes' },
 ]

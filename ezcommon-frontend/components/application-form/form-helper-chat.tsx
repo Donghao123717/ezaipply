@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react'
 import { Loader2, MessageCircle, Send, Trash2 } from 'lucide-react'
+import { useT } from '@/lib/i18n/use-t'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -8,6 +9,7 @@ interface Message {
 }
 
 export function FormHelperChat({ schoolName }: { schoolName: string }) {
+  const t = useT()
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [sending, setSending] = useState(false)
@@ -47,11 +49,11 @@ export function FormHelperChat({ schoolName }: { schoolName: string }) {
     <div className="rounded-2xl border bg-card flex flex-col h-full">
       <div className="px-4 py-3 border-b flex items-center justify-between">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Chat with your form</p>
-          <h3 className="font-semibold text-primary">Application Form Helper</h3>
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">{t('applicationForm.chat.subtitle')}</p>
+          <h3 className="font-semibold text-primary">{t('applicationForm.chat.title')}</h3>
         </div>
         {messages.length > 0 && (
-          <button aria-label="Clear" onClick={() => setMessages([])} className="text-muted-foreground hover:text-destructive">
+          <button aria-label={t('applicationForm.chat.clearAria')} onClick={() => setMessages([])} className="text-muted-foreground hover:text-destructive">
             <Trash2 className="h-4 w-4" />
           </button>
         )}
@@ -61,10 +63,8 @@ export function FormHelperChat({ schoolName }: { schoolName: string }) {
         {messages.length === 0 ? (
           <div className="h-full flex flex-col items-center justify-center text-center py-8">
             <MessageCircle className="h-8 w-8 text-muted-foreground/40 mb-3" />
-            <p className="font-medium text-primary text-sm">Ask about {schoolName}</p>
-            <p className="text-xs text-muted-foreground mt-1 max-w-[220px]">
-              I can help with this school&apos;s form, requirements, and how to frame your answers.
-            </p>
+            <p className="font-medium text-primary text-sm">{t('applicationForm.chat.askAbout').replace('{school}', schoolName)}</p>
+            <p className="text-xs text-muted-foreground mt-1 max-w-[220px]">{t('applicationForm.chat.helpDesc')}</p>
           </div>
         ) : (
           messages.map((m, i) => (
@@ -81,7 +81,7 @@ export function FormHelperChat({ schoolName }: { schoolName: string }) {
         {sending && (
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <Loader2 className="h-3.5 w-3.5 animate-spin" />
-            Thinking…
+            {t('counselor.chat.thinking')}
           </div>
         )}
       </div>
@@ -96,13 +96,13 @@ export function FormHelperChat({ schoolName }: { schoolName: string }) {
               send()
             }
           }}
-          placeholder={`Ask about ${schoolName}...`}
+          placeholder={t('applicationForm.chat.placeholder').replace('{school}', schoolName)}
           className="flex-1 min-h-9 max-h-24 resize-none rounded-lg border bg-card px-3 py-2 text-sm outline-none focus:border-primary"
         />
         <button
           onClick={send}
           disabled={!input.trim() || sending}
-          aria-label="Send"
+          aria-label={t('common.send')}
           className="h-9 w-9 shrink-0 rounded-lg bg-primary text-primary-foreground flex items-center justify-center disabled:opacity-40"
         >
           <Send className="h-4 w-4" />

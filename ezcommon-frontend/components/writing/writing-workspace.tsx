@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { ESSAY_TASKS, ESSAY_PROMPTS, getSchoolEssayTasks } from '@/lib/essay-tasks'
+import { ESSAY_TASKS, ESSAY_PROMPTS, essayTaskTitle, getSchoolEssayTasks } from '@/lib/essay-tasks'
 import { loadEssays, saveEssay, loadProfileContext, wordCount, type EssayStore } from '@/lib/essay-store'
 import { loadColleges } from '@/lib/college-store'
 import { WritingSidebar } from '@/components/writing/writing-sidebar'
@@ -10,23 +10,26 @@ import { EssayEditor } from '@/components/writing/essay-editor'
 import { EssayCoachPanel } from '@/components/writing/essay-coach-panel'
 import { EssayEvaluation } from '@/components/writing/essay-evaluation'
 import { AcrossEssays } from '@/components/writing/across-essays'
+import { useT } from '@/lib/i18n/use-t'
 
 export function WritingWorkspace({ userId }: { userId: string }) {
+  const t = useT()
   const [activeId, setActiveId] = useState(ESSAY_TASKS[0].id)
   const [essays, setEssays] = useState<EssayStore>({})
-  const [schoolTasks, setSchoolTasks] = useState(() => getSchoolEssayTasks([]))
+  const [schoolTasks, setSchoolTasks] = useState(() => getSchoolEssayTasks([], t))
   const [promptId, setPromptId] = useState<string>('')
   const [drafting, setDrafting] = useState(false)
   const [draftError, setDraftError] = useState<string | null>(null)
 
   const allTasks = useMemo(() => [...ESSAY_TASKS, ...schoolTasks], [schoolTasks])
-  const task = allTasks.find((t) => t.id === activeId) || allTasks[0]
+  const task = allTasks.find((task) => task.id === activeId) || allTasks[0]
   const record = essays[activeId]
   const html = record?.html || ''
 
   useEffect(() => {
     setEssays(loadEssays(userId))
-    setSchoolTasks(getSchoolEssayTasks(loadColleges(userId)))
+    setSchoolTasks(getSchoolEssayTasks(loadColleges(userId), t))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [userId])
 
   useEffect(() => {
@@ -55,7 +58,7 @@ export function WritingWorkspace({ userId }: { userId: string }) {
           prompt,
           profile_context: loadProfileContext(userId),
           word_limit: task.wordLimit,
-          essay_type: task.title,
+          essay_type: essayTaskTitle(task, t),
         }),
       })
       const data = await res.json()
@@ -80,8 +83,8 @@ export function WritingWorkspace({ userId }: { userId: string }) {
         <div className="max-w-6xl mx-auto px-6 py-6">
           <div className="flex items-start justify-between mb-4">
             <div>
-              <h1 className="text-2xl font-semibold text-primary">{task.title}</h1>
-              <p className="text-sm text-muted-foreground">{task.wordLimit} words max</p>
+              <h1 className="text-2xl font-semibold text-primary">{essayTaskTitle(task, t)}</h1>
+              <p className="text-sm text-muted-foreground">{t('writing.wordsMax').replace('{count}', String(task.wordLimit))}</p>
             </div>
           </div>
 
@@ -97,7 +100,7 @@ export function WritingWorkspace({ userId }: { userId: string }) {
                     }}
                     className="rounded-lg border bg-card px-3 py-2 text-sm outline-none focus:border-primary"
                   >
-                    <option value="">Pick a prompt to begin</option>
+                    <option value="">{t('writing.pickPrompt')}</option>
                     {ESSAY_PROMPTS.map((p) => (
                       <option key={p.id} value={p.id}>
                         {p.text.slice(0, 60)}…
@@ -105,7 +108,7 @@ export function WritingWorkspace({ userId }: { userId: string }) {
                     ))}
                   </select>
                   <p className="text-xs text-muted-foreground flex-1">
-                    {prompt || 'Pick a prompt to anchor your essay.'}
+                    {prompt || t('writing.pickPromptHint')}
                   </p>
                 </div>
               )}

@@ -10,8 +10,10 @@ import { loadForecast, saveForecast, computeSignature, timeAgo, type ForecastRec
 import { OverallChance } from '@/components/forecast/overall-chance'
 import { BySchoolList } from '@/components/forecast/by-school-list'
 import { SchoolDetail } from '@/components/forecast/school-detail'
+import { useT } from '@/lib/i18n/use-t'
 
 export function ForecastWorkspace({ userId }: { userId: string }) {
+  const t = useT()
   const [colleges, setColleges] = useState<SavedCollege[]>([])
   const [forecast, setForecast] = useState<ForecastRecord | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -94,23 +96,21 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
     <div className="max-w-6xl mx-auto px-6 py-8">
       <div className="flex items-start justify-between mb-4 flex-wrap gap-3">
         <div>
-          <h1 className="font-display text-3xl font-semibold text-primary">Your admission probabilities trend</h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Probabilities are modeled from your profile signals and refresh whenever you update your profile or list.
-          </p>
+          <h1 className="font-display text-3xl font-semibold text-primary">{t('forecast.title')}</h1>
+          <p className="text-sm text-muted-foreground mt-1">{t('forecast.subtitle')}</p>
         </div>
         <div className="flex items-center gap-3 shrink-0">
-          {forecast && <span className="text-xs text-muted-foreground">Updated {timeAgo(forecast.generatedAt)}</span>}
+          {forecast && <span className="text-xs text-muted-foreground">{t('forecast.updated').replace('{time}', timeAgo(forecast.generatedAt))}</span>}
           <Button variant="outline" size="sm" onClick={generate} disabled={generating || colleges.length === 0}>
             {generating ? (
               <>
                 <Loader2 className="h-3.5 w-3.5 mr-2 animate-spin" />
-                Refreshing…
+                {t('forecast.refreshing')}
               </>
             ) : (
               <>
                 <RefreshCw className="h-3.5 w-3.5 mr-2" />
-                Refresh
+                {t('forecast.refresh')}
               </>
             )}
           </Button>
@@ -121,19 +121,19 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
 
       {colleges.length === 0 ? (
         <div className="rounded-2xl border border-dashed p-12 text-center text-sm text-muted-foreground">
-          Save schools on the Colleges page first, then come back here to forecast your chances.
+          {t('forecast.noCollegesYet')}
         </div>
       ) : !forecast ? (
         <div className="rounded-2xl border p-12 text-center">
-          <p className="text-sm text-muted-foreground mb-4">No forecast yet for your current list.</p>
+          <p className="text-sm text-muted-foreground mb-4">{t('forecast.noForecastYet')}</p>
           <Button onClick={generate} disabled={generating}>
             {generating ? (
               <>
                 <Loader2 className="h-4 w-4 mr-2 animate-spin" />
-                Generating…
+                {t('forecast.generating')}
               </>
             ) : (
-              'Generate forecast'
+              t('forecast.generateForecast')
             )}
           </Button>
         </div>
@@ -141,12 +141,9 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
         <>
           {stale && (
             <div className="rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 flex items-center justify-between gap-3 mb-6 flex-wrap">
-              <p className="text-sm text-amber-800">
-                Your profile, school list, or essay signals changed since this forecast was generated. Click Refresh to
-                regenerate.
-              </p>
+              <p className="text-sm text-amber-800">{t('forecast.staleBanner')}</p>
               <Button size="sm" onClick={generate} disabled={generating}>
-                Refresh now
+                {t('forecast.refreshNow')}
               </Button>
             </div>
           )}

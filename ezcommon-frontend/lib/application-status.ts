@@ -67,3 +67,12 @@ export const STATUS_LABEL: Record<ApplicationStatus, string> = {
   almost_done: 'Almost done',
   complete: 'Complete',
 }
+
+/** Dictionary key for each status, resolved via useT() - see lib/i18n/dictionary.ts "common.status". */
+export const STATUS_LABEL_KEY: Record<ApplicationStatus, string> = {
+  not_started: 'common.status.notStarted',
+  getting_started: 'common.status.gettingStarted',
+  in_progress: 'common.status.inProgress',
+  almost_done: 'common.status.almostDone',
+  complete: 'common.status.complete',
+}

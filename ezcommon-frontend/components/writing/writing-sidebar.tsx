@@ -2,9 +2,10 @@
 import { useMemo, useState } from 'react'
 import { Check, Search } from 'lucide-react'
 import { cn } from '@/lib/utils'
-import { ESSAY_TASKS, type EssayTask } from '@/lib/essay-tasks'
+import { ESSAY_TASKS, essayTaskTitle, type EssayTask } from '@/lib/essay-tasks'
 import type { EssayStore } from '@/lib/essay-store'
 import { wordCount } from '@/lib/essay-store'
+import { useT } from '@/lib/i18n/use-t'
 
 export function WritingSidebar({
   activeId,
@@ -17,10 +18,12 @@ export function WritingSidebar({
   essays: EssayStore
   schoolTasks: EssayTask[]
 }) {
+  const t = useT()
   const [query, setQuery] = useState('')
 
   const mainTasks = useMemo(
-    () => ESSAY_TASKS.filter((t) => t.group === 'main' && t.title.toLowerCase().includes(query.toLowerCase())),
+    () => ESSAY_TASKS.filter((task) => essayTaskTitle(task, t).toLowerCase().includes(query.toLowerCase())),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [query],
   )
   const schoolsByName = useMemo(() => {
@@ -36,18 +39,18 @@ export function WritingSidebar({
   return (
     <aside className="w-72 shrink-0 border-r bg-card/50 h-full overflow-y-auto">
       <div className="p-4">
-        <h2 className="font-semibold text-primary mb-3">Writing Tasks</h2>
+        <h2 className="font-semibold text-primary mb-3">{t('writing.sidebar.title')}</h2>
         <div className="relative mb-4">
           <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search school, prompt, or essay title"
+            placeholder={t('writing.sidebar.searchPlaceholder')}
             className="w-full rounded-lg border bg-card pl-8 pr-3 py-2 text-sm outline-none focus:border-primary"
           />
         </div>
 
-        <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">Main Essays</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">{t('writing.sidebar.mainEssays')}</p>
         <div className="space-y-1 mb-4">
           {mainTasks.map((task) => {
             const record = essays[task.id]
@@ -64,7 +67,7 @@ export function WritingSidebar({
               >
                 <span className="flex items-center gap-2 min-w-0">
                   {done && <Check className="h-3.5 w-3.5 text-emerald-500 shrink-0" />}
-                  <span className="truncate">{task.title}</span>
+                  <span className="truncate">{essayTaskTitle(task, t)}</span>
                 </span>
               </button>
             )
@@ -72,15 +75,13 @@ export function WritingSidebar({
         </div>
 
         {schoolTasks.length === 0 ? (
-          <p className="text-xs text-muted-foreground">
-            No target colleges yet. Add schools on the Colleges page to unlock their supplemental essays here.
-          </p>
+          <p className="text-xs text-muted-foreground">{t('writing.sidebar.noSchools')}</p>
         ) : (
           <>
-            <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">Target Colleges</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">{t('writing.sidebar.targetColleges')}</p>
             <div className="space-y-1">
               {Array.from(schoolsByName.entries()).map(([school, tasks]) => {
-            const doneCount = tasks.filter((t) => essays[t.id] && wordCount(essays[t.id].html) > 0).length
+            const doneCount = tasks.filter((task) => essays[task.id] && wordCount(essays[task.id].html) > 0).length
             return (
               <div key={school}>
                 <div className="px-3 py-2 flex items-center justify-between text-sm font-medium text-primary">
@@ -91,7 +92,7 @@ export function WritingSidebar({
                 </div>
                 <div className="pl-2 space-y-1 mb-2">
                   {tasks
-                    .filter((t) => t.title.toLowerCase().includes(query.toLowerCase()))
+                    .filter((task) => essayTaskTitle(task, t).toLowerCase().includes(query.toLowerCase()))
                     .map((task) => {
                       const record = essays[task.id]
                       const done = record && wordCount(record.html) > 0
@@ -106,7 +107,7 @@ export function WritingSidebar({
                           )}
                         >
                           {done && <Check className="h-3 w-3 text-emerald-500 shrink-0" />}
-                          <span className="truncate">{task.title}</span>
+                          <span className="truncate">{essayTaskTitle(task, t)}</span>
                         </button>
                       )
                     })}

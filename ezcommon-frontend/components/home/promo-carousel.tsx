@@ -67,14 +67,14 @@ export function PromoCarousel({ initialIndex = 0 }: { initialIndex?: number }) {
   return (
     <div className="relative rounded-2xl bg-card border p-2 sm:p-3">
       <button
-        aria-label="Previous"
+        aria-label={t('common.previous')}
         onClick={() => setIndex((i) => (i - 1 + slides.length) % slides.length)}
         className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 h-9 w-9 rounded-full border bg-card shadow flex items-center justify-center hover:bg-muted"
       >
         <ChevronLeft className="h-4 w-4" />
       </button>
       <button
-        aria-label="Next"
+        aria-label={t('common.next')}
         onClick={() => setIndex((i) => (i + 1) % slides.length)}
         className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 h-9 w-9 rounded-full border bg-card shadow flex items-center justify-center hover:bg-muted"
       >

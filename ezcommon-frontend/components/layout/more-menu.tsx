@@ -30,7 +30,7 @@ export function MoreMenu() {
   return (
     <div className="relative" ref={ref}>
       <button
-        aria-label="More"
+        aria-label={t('nav.more')}
         onClick={() => setOpen((v) => !v)}
         className={cn(
           'rounded-md p-2 text-primary-foreground/90 hover:text-primary-foreground hover:bg-white/10 transition-colors',

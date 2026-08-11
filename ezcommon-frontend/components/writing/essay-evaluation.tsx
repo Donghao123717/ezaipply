@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
+import { useT } from '@/lib/i18n/use-t'
 
 interface Evaluation {
   overall_score: number
@@ -20,6 +21,7 @@ export function EssayEvaluation({
   prompt: string
   wordLimit: number
 }) {
+  const t = useT()
   const [deepReview, setDeepReview] = useState(false)
   const [loading, setLoading] = useState(false)
   const [result, setResult] = useState<Evaluation | null>(null)
@@ -54,22 +56,22 @@ export function EssayEvaluation({
     <div className="rounded-2xl border bg-card p-5 mt-4">
       <div className="flex items-center justify-between flex-wrap gap-3">
         <div>
-          <h3 className="font-semibold text-primary">Essay Evaluation</h3>
+          <h3 className="font-semibold text-primary">{t('writing.evaluation.title')}</h3>
           <button
             onClick={() => setDeepReview((v) => !v)}
             className="text-xs text-muted-foreground mt-0.5 hover:text-foreground"
           >
-            Deep review · {deepReview ? 'on · line-by-line' : 'off · single pass'}
+            {deepReview ? t('writing.evaluation.deepReviewOn') : t('writing.evaluation.deepReviewOff')}
           </button>
         </div>
         <Button onClick={run} disabled={loading} size="sm">
           {loading ? (
             <>
               <Loader2 className="h-3.5 w-3.5 mr-2 animate-spin" />
-              Reviewing…
+              {t('writing.evaluation.reviewing')}
             </>
           ) : (
-            'Run evaluation'
+            t('writing.evaluation.runEvaluation')
           )}
         </Button>
       </div>
@@ -93,7 +95,7 @@ export function EssayEvaluation({
             </div>
             <div>
               <p className="text-sm text-foreground">{result.summary}</p>
-              <p className="text-xs text-muted-foreground mt-1">{result.word_count} words</p>
+              <p className="text-xs text-muted-foreground mt-1">{t('writing.evaluation.words').replace('{count}', String(result.word_count))}</p>
             </div>
           </div>
           <div className="space-y-2">

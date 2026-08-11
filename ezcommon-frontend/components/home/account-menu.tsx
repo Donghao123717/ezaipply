@@ -2,8 +2,10 @@
 import { useState, useEffect, useRef } from 'react'
 import { signOut } from 'next-auth/react'
 import { LogOut, User } from 'lucide-react'
+import { useT } from '@/lib/i18n/use-t'
 
 export function AccountMenu({ initials }: { initials: string }) {
+  const t = useT()
   const [open, setOpen] = useState(false)
   const menuRef = useRef<HTMLDivElement>(null)
 
@@ -27,7 +29,7 @@ export function AccountMenu({ initials }: { initials: string }) {
   return (
     <div className="relative" ref={menuRef}>
       <button
-        aria-label="Account"
+        aria-label={t('nav.account')}
         onClick={() => setOpen(!open)}
         className="h-9 w-9 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-semibold hover:bg-primary/90 transition-colors"
       >
@@ -41,7 +43,7 @@ export function AccountMenu({ initials }: { initials: string }) {
               onClick={() => signOut({ callbackUrl: '/auth/login' })}
             >
               <LogOut className="h-4 w-4" />
-              Logout
+              {t('nav.logout')}
             </button>
           </div>
         </div>

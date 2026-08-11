@@ -6,13 +6,16 @@ export function FieldInput({
   field,
   value,
   onChange,
+  placeholderOverride,
 }: {
   field: FieldDef
   value: string
   onChange: (value: string) => void
+  /** Dynamic placeholder (e.g. an AI autofill suggestion) that takes precedence over field.placeholderKey. */
+  placeholderOverride?: string
 }) {
   const t = useT()
-  const placeholder = field.placeholderKey ? t(field.placeholderKey) : undefined
+  const placeholder = placeholderOverride ?? (field.placeholderKey ? t(field.placeholderKey) : undefined)
 
   const eyebrow = (
     <label className="block text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">

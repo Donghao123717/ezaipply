@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Bold, Italic, Underline } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { wordCount } from '@/lib/essay-store'
+import { useT } from '@/lib/i18n/use-t'
 
 export function EssayEditor({
   html,
@@ -11,6 +12,7 @@ export function EssayEditor({
   html: string
   onChange: (html: string) => void
 }) {
+  const t = useT()
   const ref = useRef<HTMLDivElement>(null)
   const [autoSave, setAutoSave] = useState(true)
 
@@ -39,7 +41,7 @@ export function EssayEditor({
             type="button"
             onClick={() => exec('bold')}
             className="rounded p-1.5 hover:bg-muted text-foreground"
-            aria-label="Bold"
+            aria-label={t('writing.editor.bold')}
           >
             <Bold className="h-4 w-4" />
           </button>
@@ -47,7 +49,7 @@ export function EssayEditor({
             type="button"
             onClick={() => exec('italic')}
             className="rounded p-1.5 hover:bg-muted text-foreground"
-            aria-label="Italic"
+            aria-label={t('writing.editor.italic')}
           >
             <Italic className="h-4 w-4" />
           </button>
@@ -55,19 +57,19 @@ export function EssayEditor({
             type="button"
             onClick={() => exec('underline')}
             className="rounded p-1.5 hover:bg-muted text-foreground"
-            aria-label="Underline"
+            aria-label={t('writing.editor.underline')}
           >
             <Underline className="h-4 w-4" />
           </button>
         </div>
         <div className="flex items-center gap-3 text-xs text-muted-foreground">
-          <span>{count} Words</span>
+          <span>{t('writing.editor.words').replace('{count}', String(count))}</span>
           <button
             type="button"
             onClick={() => setAutoSave((v) => !v)}
             className="flex items-center gap-1.5"
           >
-            Auto-save
+            {t('writing.editor.autoSave')}
             <span
               className={cn(
                 'relative inline-flex h-4 w-7 items-center rounded-full transition-colors',
@@ -90,7 +92,7 @@ export function EssayEditor({
         contentEditable
         suppressContentEditableWarning
         onInput={(e) => onChange((e.target as HTMLDivElement).innerHTML)}
-        data-placeholder="Opening hook, key experiences, why this school, values you bring…"
+        data-placeholder={t('writing.editor.placeholder')}
         className="min-h-[360px] px-6 py-5 text-sm leading-relaxed outline-none empty:before:content-[attr(data-placeholder)] empty:before:text-muted-foreground"
       />
     </div>

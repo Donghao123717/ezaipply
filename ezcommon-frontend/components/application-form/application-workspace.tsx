@@ -8,6 +8,7 @@ import { computeApplicationProgress } from '@/lib/application-status'
 import { loadColleges, saveColleges, type SavedCollege } from '@/lib/college-store'
 import { loadEssays, saveEssay, loadProfileContext } from '@/lib/essay-store'
 import { getSchoolEssayTasks } from '@/lib/essay-tasks'
+import { PROFILE_SECTIONS } from '@/lib/profile-schema'
 import { FormHeader } from '@/components/application-form/form-header'
 import { SubmitPluginBanner, AutofillSuggestionsBar } from '@/components/application-form/autofill-bar'
 import { FieldPage } from '@/components/application-form/field-page'
@@ -16,8 +17,10 @@ import { ProfilePullPage } from '@/components/application-form/profile-pull-page
 import { NotesPage } from '@/components/application-form/notes-page'
 import { FormHelperChat } from '@/components/application-form/form-helper-chat'
 import { Button } from '@/components/ui/button'
+import { useT } from '@/lib/i18n/use-t'
 
 export function ApplicationWorkspace({ userId, collegeId }: { userId: string; collegeId: string }) {
+  const t = useT()
   const [college, setCollege] = useState<SavedCollege | null | undefined>(undefined)
   const [activePage, setActivePage] = useState(APPLICATION_PAGES[0].key)
   const [answers, setAnswers] = useState<ApplicationAnswers>({})
@@ -42,7 +45,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
 
   const page = APPLICATION_PAGES.find((p) => p.key === activePage)!
   const progress = useMemo(() => computeApplicationProgress(userId, collegeId), [userId, collegeId, answers, essays])
-  const essayTask = getSchoolEssayTasks([{ id: collegeId, name: college?.name || '' }])[0]
+  const essayTask = getSchoolEssayTasks([{ id: collegeId, name: college?.name || '' }], t)[0]
 
   function persistAnswers(next: ApplicationAnswers) {
     setAnswers(next)
@@ -75,7 +78,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
     try {
       const fields = page.groups.flatMap((g) => g.fields).map((f) => ({
         key: f.key,
-        label: f.label,
+        label: t(f.labelKey),
         type: f.type,
         options: f.options || [],
       }))
@@ -105,6 +108,14 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
     setSuggestions(null)
   }
 
+  function fieldLabel(sectionKey: string, fieldKey: string): string {
+    const section = PROFILE_SECTIONS.find((s) => s.key === sectionKey)
+    if (!section) return fieldKey
+    const fields = section.def.kind === 'simple' ? section.def.groups.flatMap((g) => g.fields) : section.def.fields
+    const field = fields.find((f) => f.key === fieldKey)
+    return field ? t(field.labelKey) : fieldKey
+  }
+
   function profileSectionEntries(sectionKey: string): { label: string; value: string }[] {
     const value = profileData[sectionKey]
     if (!value) return []
@@ -113,13 +124,13 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
         label: `#${i + 1}`,
         value: Object.entries(item)
           .filter(([, v]) => v)
-          .map(([k, v]) => `${k}: ${v}`)
+          .map(([k, v]) => `${fieldLabel(sectionKey, k)}: ${v}`)
           .join(' · '),
       })).filter((e) => e.value)
     }
     return Object.entries(value as Record<string, string>)
       .filter(([, v]) => v)
-      .map(([k, v]) => ({ label: k, value: v }))
+      .map(([k, v]) => ({ label: fieldLabel(sectionKey, k), value: v }))
   }
 
   if (college === undefined) return null
@@ -127,9 +138,9 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
   if (college === null) {
     return (
       <div className="max-w-2xl mx-auto px-6 py-16 text-center">
-        <p className="text-muted-foreground">This school isn&apos;t on your list anymore.</p>
+        <p className="text-muted-foreground">{t('applicationForm.notOnListAnymore')}</p>
         <Button asChild className="mt-4">
-          <a href="/colleges">Back to Colleges</a>
+          <a href="/colleges">{t('applicationForm.backToColleges')}</a>
         </Button>
       </div>
     )
@@ -159,7 +170,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
 
         <div className="grid lg:grid-cols-[220px_1fr_340px] gap-6 mt-4 items-start">
           <aside>
-            <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">Pages</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">{t('applicationForm.pagesLabel')}</p>
             <nav className="space-y-1">
               {APPLICATION_PAGES.map((p) => {
                 const isActive = p.key === activePage
@@ -175,7 +186,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
                       isActive ? 'bg-primary text-primary-foreground font-medium' : 'hover:bg-muted',
                     )}
                   >
-                    {p.label}
+                    {t(p.labelKey)}
                     <CheckCircle2 className={cn('h-3.5 w-3.5 shrink-0', isActive ? 'text-primary-foreground/50' : 'text-muted-foreground/30')} />
                   </button>
                 )
@@ -184,30 +195,26 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
           </aside>
 
           <div className="rounded-2xl border bg-card p-6">
-            <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">Application Form</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">{t('applicationForm.eyebrow')}</p>
             <h2 className="text-xl font-semibold text-primary mb-1">{college.name}</h2>
-            {page.kind === 'fields' && <p className="text-sm text-muted-foreground mb-6">Answer the required questions to get started. Fields with * are mandatory.</p>}
+            {page.kind === 'fields' && <p className="text-sm text-muted-foreground mb-6">{t('applicationForm.answerRequiredHint')}</p>}
 
             {page.kind === 'fields' && page.groups && (
-              <FieldPage
-                groups={page.groups.map((g) => ({
-                  ...g,
-                  fields: g.fields.map((f) => (suggestions?.[f.key] ? { ...f, placeholder: `Suggested: ${suggestions[f.key]}` } : f)),
-                }))}
-                answers={answers}
-                onChange={handleFieldChange}
-              />
+              <FieldPage groups={page.groups} answers={answers} suggestions={suggestions} onChange={handleFieldChange} />
             )}
             {page.kind === 'writing' && (
               <ApplicationWritingPage userId={userId} task={essayTask} record={essays[essayTask.id]} onChange={handleEssayChange} />
             )}
             {page.kind === 'profile-pull' && (
               <ProfilePullPage
-                sections={(page.profileSections || []).map((key) => ({
-                  key,
-                  label: key.charAt(0).toUpperCase() + key.slice(1),
-                  entries: profileSectionEntries(key),
-                }))}
+                sections={(page.profileSections || []).map((key) => {
+                  const section = PROFILE_SECTIONS.find((s) => s.key === key)
+                  return {
+                    key,
+                    label: section ? t(section.labelKey) : key,
+                    entries: profileSectionEntries(key),
+                  }
+                })}
               />
             )}
             {page.kind === 'notes' && (
@@ -217,9 +224,9 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
             {page.kind === 'fields' && (
               <div className="flex items-center gap-3 mt-6 pt-4 border-t">
                 <Button size="sm" onClick={() => persistAnswers(answers)}>
-                  Save answers
+                  {t('applicationForm.saveAnswers')}
                 </Button>
-                <span className="text-xs text-muted-foreground">Auto-save on</span>
+                <span className="text-xs text-muted-foreground">{t('applicationForm.autoSaveOn')}</span>
               </div>
             )}
           </div>

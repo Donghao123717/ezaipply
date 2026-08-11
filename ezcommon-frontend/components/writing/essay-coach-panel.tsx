@@ -2,13 +2,12 @@
 import { useState } from 'react'
 import { Loader2, Send, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { useT } from '@/lib/i18n/use-t'
 
 interface Message {
   role: 'user' | 'assistant'
   content: string
 }
-
-const QUICK_ACTIONS = ['Make it more vivid', 'Tighten the language', 'Fix grammar & flow', 'Strengthen the ending']
 
 export function EssayCoachPanel({
   hasDraft,
@@ -23,10 +22,17 @@ export function EssayCoachPanel({
   onStartDraft: () => void
   drafting: boolean
 }) {
+  const t = useT()
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [sending, setSending] = useState(false)
   const [showQuickActions, setShowQuickActions] = useState(false)
+  const quickActions = [
+    t('writing.coach.quickAction1'),
+    t('writing.coach.quickAction2'),
+    t('writing.coach.quickAction3'),
+    t('writing.coach.quickAction4'),
+  ]
 
   async function send(text: string) {
     if (!text.trim() || sending) return
@@ -65,10 +71,10 @@ export function EssayCoachPanel({
       <div className="px-4 py-3 border-b">
         <h3 className="font-semibold text-primary flex items-center gap-1.5">
           <Sparkles className="h-4 w-4 text-accent" />
-          Essay Coach
+          {t('writing.coach.title')}
         </h3>
         <p className="text-xs text-muted-foreground mt-0.5">
-          {hasDraft ? 'Ask for feedback or a rewrite' : 'Start from scratch'}
+          {hasDraft ? t('writing.coach.subtitleHasDraft') : t('writing.coach.subtitleNoDraft')}
         </p>
       </div>
 
@@ -79,15 +85,13 @@ export function EssayCoachPanel({
               {drafting ? (
                 <>
                   <Loader2 className="h-3.5 w-3.5 mr-2 animate-spin" />
-                  Drafting…
+                  {t('writing.coach.drafting')}
                 </>
               ) : (
-                'Start first draft'
+                t('writing.coach.startFirstDraft')
               )}
             </Button>
-            <p className="text-xs text-muted-foreground mt-2">
-              Draft from your profile — review the result in the editor.
-            </p>
+            <p className="text-xs text-muted-foreground mt-2">{t('writing.coach.startHint')}</p>
           </div>
         )}
 
@@ -104,7 +108,7 @@ export function EssayCoachPanel({
         {sending && (
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <Loader2 className="h-3.5 w-3.5 animate-spin" />
-            Thinking…
+            {t('counselor.chat.thinking')}
           </div>
         )}
       </div>
@@ -112,7 +116,7 @@ export function EssayCoachPanel({
       <div className="border-t p-3">
         {showQuickActions && (
           <div className="flex flex-wrap gap-1.5 mb-2">
-            {QUICK_ACTIONS.map((action) => (
+            {quickActions.map((action) => (
               <button
                 key={action}
                 onClick={() => {
@@ -130,7 +134,7 @@ export function EssayCoachPanel({
           onClick={() => setShowQuickActions((v) => !v)}
           className="text-xs font-medium text-primary mb-2 hover:underline"
         >
-          Quick Actions
+          {t('writing.coach.quickActions')}
         </button>
         <div className="flex items-end gap-2">
           <textarea
@@ -142,13 +146,13 @@ export function EssayCoachPanel({
                 send(input)
               }
             }}
-            placeholder="Tell me a story or paste an outline..."
+            placeholder={t('writing.coach.placeholder')}
             className="flex-1 min-h-9 max-h-24 resize-none rounded-lg border bg-card px-3 py-2 text-sm outline-none focus:border-primary"
           />
           <button
             onClick={() => send(input)}
             disabled={!input.trim() || sending}
-            aria-label="Send"
+            aria-label={t('common.send')}
             className="h-9 w-9 shrink-0 rounded-lg bg-primary text-primary-foreground flex items-center justify-center disabled:opacity-40"
           >
             <Send className="h-4 w-4" />

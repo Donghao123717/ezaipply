@@ -14,6 +14,13 @@ export interface SavedCollege {
 /** Every saved school is assumed to apply through the Common App for this demo. */
 export const PORTAL_LABEL = 'Common App'
 
+/** Dictionary key for each category, resolved via useT() - see lib/i18n/dictionary.ts "common.category". */
+export const CATEGORY_LABEL_KEY: Record<CollegeCategory, string> = {
+  reach: 'common.category.reach',
+  target: 'common.category.target',
+  safety: 'common.category.safety',
+}
+
 function collegesKey(userId: string) {
   return `aipply-colleges-${userId}`
 }

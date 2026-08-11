@@ -3,6 +3,7 @@ import { Check } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { SavedCollege } from '@/lib/college-store'
 import { PORTAL_LABEL } from '@/lib/college-store'
+import { useT } from '@/lib/i18n/use-t'
 
 export function ApplicationsList({
   colleges,
@@ -11,27 +12,28 @@ export function ApplicationsList({
   colleges: SavedCollege[]
   onToggleSubmitted: (id: string) => void
 }) {
+  const t = useT()
   return (
     <div>
       <div className="flex items-center justify-between mb-3">
         <div>
-          <h2 className="font-semibold text-primary">Your applications</h2>
-          <p className="text-sm text-muted-foreground">Mark each one as submitted when you&apos;ve hit send. That&apos;s the only thing left.</p>
+          <h2 className="font-semibold text-primary">{t('submit.list.title')}</h2>
+          <p className="text-sm text-muted-foreground">{t('submit.list.subtitle')}</p>
         </div>
       </div>
 
       {colleges.length === 0 ? (
         <div className="rounded-xl border border-dashed p-8 text-center text-sm text-muted-foreground">
-          No schools saved yet - add some on the Colleges page first.
+          {t('submit.list.empty')}
         </div>
       ) : (
         <div className="rounded-xl border bg-card overflow-hidden">
           <div className="grid grid-cols-[1fr_100px_70px_110px_110px] gap-2 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground border-b">
-            <span>School</span>
-            <span>Portal</span>
-            <span>Cycle</span>
-            <span>Deadline</span>
-            <span className="text-right">Submitted</span>
+            <span>{t('submit.list.colSchool')}</span>
+            <span>{t('submit.list.colPortal')}</span>
+            <span>{t('submit.list.colCycle')}</span>
+            <span>{t('submit.list.colDeadline')}</span>
+            <span className="text-right">{t('submit.list.colSubmitted')}</span>
           </div>
           <div className="divide-y">
             {colleges.map((college) => (
@@ -54,7 +56,7 @@ export function ApplicationsList({
                   )}
                 >
                   {college.submitted && <Check className="h-3 w-3" />}
-                  {college.submitted ? 'Submitted' : 'Mark submitted'}
+                  {college.submitted ? t('submit.list.submitted') : t('submit.list.markSubmitted')}
                 </button>
               </div>
             ))}

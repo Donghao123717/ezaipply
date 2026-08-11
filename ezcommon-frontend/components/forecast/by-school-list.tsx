@@ -2,11 +2,12 @@
 import { useMemo, useState } from 'react'
 import { cn } from '@/lib/utils'
 import type { SavedCollege, CollegeCategory } from '@/lib/college-store'
+import { CATEGORY_LABEL_KEY } from '@/lib/college-store'
 import type { SchoolForecast } from '@/lib/forecast-store'
+import { useT } from '@/lib/i18n/use-t'
 
 type SortMode = 'category' | 'top' | 'deadline' | 'change'
 
-const CATEGORY_LABEL: Record<CollegeCategory, string> = { reach: 'Reach', target: 'Target', safety: 'Safety' }
 const CATEGORY_ORDER: CollegeCategory[] = ['reach', 'target', 'safety']
 
 export function BySchoolList({
@@ -20,6 +21,7 @@ export function BySchoolList({
   selectedId: string | null
   onSelect: (id: string) => void
 }) {
+  const t = useT()
   const [sortMode, setSortMode] = useState<SortMode>('category')
 
   const grouped = useMemo(() => {
@@ -81,14 +83,14 @@ export function BySchoolList({
   return (
     <div>
       <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
-        <h2 className="font-semibold text-primary">By school</h2>
+        <h2 className="font-semibold text-primary">{t('forecast.bySchool.title')}</h2>
         <div className="flex items-center gap-1 text-xs">
-          <span className="text-muted-foreground mr-1">Sort by</span>
+          <span className="text-muted-foreground mr-1">{t('forecast.bySchool.sortBy')}</span>
           {([
-            ['category', 'Category'],
-            ['top', 'Top chance'],
-            ['deadline', 'Nearest deadline'],
-            ['change', 'Biggest change'],
+            ['category', t('forecast.bySchool.sortCategory')],
+            ['top', t('forecast.bySchool.sortTop')],
+            ['deadline', t('forecast.bySchool.sortDeadline')],
+            ['change', t('forecast.bySchool.sortChange')],
           ] as [SortMode, string][]).map(([mode, label]) => (
             <button
               key={mode}
@@ -106,13 +108,13 @@ export function BySchoolList({
 
       <div className="rounded-2xl border bg-card p-2">
         {colleges.length === 0 ? (
-          <p className="text-sm text-muted-foreground p-4">No saved schools yet - add some on the Colleges page.</p>
+          <p className="text-sm text-muted-foreground p-4">{t('forecast.bySchool.empty')}</p>
         ) : sortMode === 'category' && grouped ? (
           <div className="space-y-3">
             {CATEGORY_ORDER.filter((cat) => grouped.get(cat)!.length > 0).map((cat) => (
               <div key={cat}>
                 <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground px-3 py-1">
-                  {CATEGORY_LABEL[cat]} · {grouped.get(cat)!.length}
+                  {t(CATEGORY_LABEL_KEY[cat])} · {grouped.get(cat)!.length}
                 </p>
                 {grouped.get(cat)!.map(renderRow)}
               </div>

@@ -3,11 +3,13 @@ import { useEffect, useState } from 'react'
 import { DocumentsPanel } from '@/components/counselor/documents-panel'
 import { TeamChat } from '@/components/counselor/team-chat'
 import { InsightsPanel } from '@/components/counselor/insights-panel'
+import { useT } from '@/lib/i18n/use-t'
 import { loadCounselorChat, saveCounselorChat, type CounselorMessage, type CounselorTab } from '@/lib/counselor-chat'
 
 const TABS: CounselorTab[] = ['team', 'strategist', 'essay', 'coordinator']
 
 export function CounselorWorkspace({ userId }: { userId: string }) {
+  const t = useT()
   const [activeTab, setActiveTab] = useState<CounselorTab>('team')
   const [messagesByTab, setMessagesByTab] = useState<Record<CounselorTab, CounselorMessage[]>>({
     team: [],
@@ -75,7 +77,7 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
       })
       await fetch(`${base}/api/upload/profile`, { method: 'POST', body: form })
       setDocsRefreshSignal((n) => n + 1)
-      await send(activeTab, `I just uploaded ${names.join(', ')} to my documents.`)
+      await send(activeTab, t('counselor.chat.attachedMessage').replace('{files}', names.join(', ')))
     } finally {
       setAttaching(false)
     }

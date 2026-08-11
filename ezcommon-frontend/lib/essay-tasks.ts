@@ -1,10 +1,16 @@
 export interface EssayTask {
   id: string
-  title: string
+  /** Dictionary key for static task titles - resolved via useT(). Dynamic (per-school) tasks use `title` instead. */
+  titleKey?: string
+  title?: string
   group: 'main' | 'school'
   school?: string
   wordLimit: number
   promptRequired?: boolean
+}
+
+export function essayTaskTitle(task: EssayTask, t: (key: string) => string): string {
+  return task.titleKey ? t(task.titleKey) : task.title || ''
 }
 
 // Main Essays only. School-specific supplemental essays are generated per
@@ -12,9 +18,9 @@ export interface EssayTask {
 // (see getSchoolEssayTasks below) - there is nothing to show here until a
 // student adds at least one school.
 export const ESSAY_TASKS: EssayTask[] = [
-  { id: 'personal-essay', title: 'Personal essay', group: 'main', wordLimit: 650, promptRequired: true },
-  { id: 'short-answer-1', title: 'Why this school?', group: 'main', wordLimit: 250 },
-  { id: 'short-answer-2', title: 'Community contribution', group: 'main', wordLimit: 250 },
+  { id: 'personal-essay', titleKey: 'writing.tasks.personalEssay', group: 'main', wordLimit: 650, promptRequired: true },
+  { id: 'short-answer-1', titleKey: 'writing.tasks.whyThisSchool', group: 'main', wordLimit: 250 },
+  { id: 'short-answer-2', titleKey: 'writing.tasks.communityContribution', group: 'main', wordLimit: 250 },
 ]
 
 /**
@@ -25,10 +31,10 @@ export const ESSAY_TASKS: EssayTask[] = [
  * per-school supplement database, which isn't built yet. Until then, each
  * saved school gets a single generic supplemental slot as a placeholder.
  */
-export function getSchoolEssayTasks(colleges: { id: string; name: string }[]): EssayTask[] {
+export function getSchoolEssayTasks(colleges: { id: string; name: string }[], t: (key: string) => string): EssayTask[] {
   return colleges.map((college) => ({
     id: `school-${college.id}`,
-    title: `${college.name} · Supplemental`,
+    title: `${college.name} · ${t('writing.tasks.supplemental')}`,
     group: 'school',
     school: college.name,
     wordLimit: 400,
