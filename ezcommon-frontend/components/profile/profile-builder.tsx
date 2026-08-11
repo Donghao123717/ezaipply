@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { CheckCircle2, ChevronRight, Paperclip, Plus, Trash2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
-import { PROFILE_SECTIONS, type FieldDef } from '@/lib/profile-schema'
+import { PROFILE_SECTIONS, isProfileSectionComplete, type FieldDef } from '@/lib/profile-schema'
 import { FieldInput } from '@/components/profile/field-input'
 import { SuggestionsPanel } from '@/components/profile/suggestions-panel'
 import { useT } from '@/lib/i18n/use-t'
@@ -14,19 +14,6 @@ type ProfileData = Record<string, SimpleData | RepeatableData>
 
 function storageKey(userId: string) {
   return `aipply-profile-${userId}`
-}
-
-function isSectionComplete(data: SimpleData | RepeatableData | undefined, def: (typeof PROFILE_SECTIONS)[number]['def']) {
-  if (def.kind === 'repeatable') {
-    return Array.isArray(data) && data.length > 0
-  }
-  const required = def.groups.flatMap((g) => g.fields).filter((f) => f.required)
-  if (required.length === 0) {
-    // no required fields - consider complete once any field has a value
-    const values = Object.values((data as SimpleData) || {})
-    return values.some((v) => v && v.trim())
-  }
-  return required.every((f) => (data as SimpleData)?.[f.key]?.trim())
 }
 
 export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { userId: string; defaultFirstName: string; defaultLastName: string }) {
@@ -65,7 +52,7 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
 
   const activeMeta = useMemo(() => PROFILE_SECTIONS.find((s) => s.key === activeKey)!, [activeKey])
 
-  const completeCount = PROFILE_SECTIONS.filter((s) => isSectionComplete(data[s.key], s.def)).length
+  const completeCount = PROFILE_SECTIONS.filter((s) => isProfileSectionComplete(data[s.key], s.def)).length
   const totalCount = PROFILE_SECTIONS.length
   const percent = Math.round((completeCount / totalCount) * 100)
 
@@ -113,7 +100,7 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
         <aside>
           <nav className="space-y-1">
             {PROFILE_SECTIONS.map((section) => {
-              const complete = isSectionComplete(data[section.key], section.def)
+              const complete = isProfileSectionComplete(data[section.key], section.def)
               const isActive = section.key === activeKey
               return (
                 <button

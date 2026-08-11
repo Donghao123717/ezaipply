@@ -212,3 +212,48 @@ export const PROFILE_SECTIONS: ProfileSectionMeta[] = [
     },
   },
 ]
+
+function profileStorageKey(userId: string) {
+  return `aipply-profile-${userId}`
+}
+
+export function loadProfileData(userId: string): Record<string, Record<string, string> | Record<string, string>[]> {
+  try {
+    const raw = window.localStorage.getItem(profileStorageKey(userId))
+    return raw ? JSON.parse(raw) : {}
+  } catch {
+    return {}
+  }
+}
+
+export function isProfileSectionComplete(
+  data: Record<string, string> | Record<string, string>[] | undefined,
+  def: ProfileSectionDef,
+): boolean {
+  if (def.kind === 'repeatable') {
+    return Array.isArray(data) && data.length > 0
+  }
+  const required = def.groups.flatMap((g) => g.fields).filter((f) => f.required)
+  if (required.length === 0) {
+    const values = Object.values((data as Record<string, string>) || {})
+    return values.some((v) => v && v.trim())
+  }
+  return required.every((f) => (data as Record<string, string> | undefined)?.[f.key]?.trim())
+}
+
+export interface ProfileSectionStatus {
+  key: string
+  labelKey: string
+  complete: boolean
+}
+
+/** Real-time "how much of the Common Profile is filled in" - powers both the Profile page's own progress bar and the Counselor's Application Tracker. */
+export function computeProfileSectionsProgress(userId: string): { completed: number; total: number; sections: ProfileSectionStatus[] } {
+  const data = loadProfileData(userId)
+  const sections = PROFILE_SECTIONS.map((s) => ({
+    key: s.key,
+    labelKey: s.labelKey,
+    complete: isProfileSectionComplete(data[s.key], s.def),
+  }))
+  return { completed: sections.filter((s) => s.complete).length, total: sections.length, sections }
+}
