@@ -171,6 +171,18 @@ except Exception as e:
 from voice_api import router as voice_router
 app.include_router(voice_router)
 
+# Essay API
+from essay_api import router as essay_router
+app.include_router(essay_router)
+
+# Application Form API
+from application_api import router as application_router
+app.include_router(application_router)
+
+# Forecast API
+from forecast_api import router as forecast_router
+app.include_router(forecast_router)
+
 
 def _require_user(user_id: str) -> Dict[str, Any]:
     """Fetch a user or raise if not found."""

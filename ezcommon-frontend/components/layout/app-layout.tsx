@@ -1,66 +1,83 @@
 "use client"
 import Link from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import { useSession } from 'next-auth/react'
 import { AccountMenu } from '@/components/home/account-menu'
+import { MoreMenu } from '@/components/layout/more-menu'
+import { LanguageSwitcher } from '@/components/layout/language-switcher'
 import { cn } from '@/lib/utils'
-import { useEffect } from 'react'
+import { useT } from '@/lib/i18n/use-t'
+import { Home } from 'lucide-react'
 
 interface MenuItem {
-  label: string
+  key: string
   href: string
 }
 
 const menu: MenuItem[] = [
-  { label: 'Profile', href: '/starter/profile' },
-  { label: 'Education', href: '/starter/education' },
-  { label: 'Activity', href: '/starter/activity' },
-  { label: 'Testing', href: '/starter/testing' },
-  { label: 'Review', href: '/files' },
-  { label: 'Parse', href: '/parse' },
-  { label: 'Invitations', href: '/starter/invitations' },
-  { label: 'Setting', href: '/settings' },
+  { key: 'nav.counselor', href: '/counselor' },
+  { key: 'nav.profile', href: '/profile' },
+  { key: 'nav.writing', href: '/writing' },
+  { key: 'nav.colleges', href: '/colleges' },
+  { key: 'nav.forecast', href: '/forecast' },
+  { key: 'nav.submit', href: '/submit' },
 ]
 
 export function AppLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
-  const { data: session, status } = useSession()
-  
+  const { data: session } = useSession()
+  const t = useT()
+
   const name = session?.user?.name || session?.user?.email || 'User'
   const parts = name.split(' ').filter(Boolean)
   const initials = (parts[0]?.[0] || '') + (parts[1]?.[0] || '')
 
   return (
-    <div className="min-h-screen w-full flex">
-      <aside className="w-56 border-r bg-card p-4 flex-shrink-0">
-        <div className="text-xl font-bold mb-6 text-primary">EZCommon</div>
-        <nav className="flex flex-col gap-2">
-          {menu.map((m) => {
-            const isActive = pathname === m.href || pathname?.startsWith(m.href + '/')
-            return (
-              <Link
-                key={m.href}
-                href={m.href}
-                className={cn(
-                  "rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground transition-colors",
-                  isActive && "bg-accent text-accent-foreground font-medium"
-                )}
-              >
-                {m.label}
-              </Link>
-            )
-          })}
-        </nav>
-      </aside>
+    <div className="min-h-screen w-full flex flex-col bg-background">
+      <header className="h-16 flex-shrink-0 bg-primary text-primary-foreground">
+        <div className="h-full flex items-center px-6 gap-8">
+          <Link href="/" className="flex items-center gap-1 font-display text-xl font-semibold tracking-tight shrink-0">
+            <span className="text-accent">Ai</span>
+            <span>pply</span>
+          </Link>
 
-      <main className="flex-1 flex flex-col">
-        <header className="h-14 flex items-center justify-end px-4 border-b flex-shrink-0">
-          <AccountMenu initials={initials.toUpperCase()} />
-        </header>
-        <section className="flex-1 overflow-auto">
-          {children}
-        </section>
-      </main>
+          <nav className="flex items-center gap-1 flex-1">
+            <Link
+              href="/"
+              aria-label={t('nav.home')}
+              className={cn(
+                'rounded-md p-2 hover:bg-white/10 transition-colors',
+                pathname === '/' && 'bg-white/10',
+              )}
+            >
+              <Home className="h-5 w-5" />
+            </Link>
+            {menu.map((m) => {
+              const isActive = pathname === m.href || pathname?.startsWith(m.href + '/')
+              return (
+                <Link
+                  key={m.href}
+                  href={m.href}
+                  className={cn(
+                    'relative rounded-md px-3 py-2 text-sm font-medium text-primary-foreground/90 hover:text-primary-foreground transition-colors',
+                    isActive && 'text-primary-foreground after:absolute after:left-3 after:right-3 after:-bottom-[18px] after:h-0.5 after:bg-accent',
+                  )}
+                >
+                  {t(m.key)}
+                </Link>
+              )
+            })}
+            <MoreMenu />
+          </nav>
+
+          <div className="flex items-center gap-3 shrink-0">
+            <LanguageSwitcher />
+            <AccountMenu initials={initials.toUpperCase()} />
+          </div>
+        </div>
+      </header>
+
+      <main className="flex-1">{children}</main>
     </div>
   )
 }

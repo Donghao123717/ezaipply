@@ -2,6 +2,10 @@ import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
 import { redirect } from 'next/navigation'
 import { AppLayout } from '@/components/layout/app-layout'
+import { HomeGreeting } from '@/components/home/home-greeting'
+import { Checklist, type ChecklistItem } from '@/components/home/checklist'
+import { PromoCarousel } from '@/components/home/promo-carousel'
+import { RecentWork } from '@/components/home/recent-work'
 
 export default async function HomePage() {
   const session = await getServerSession(authOptions)
@@ -15,14 +19,30 @@ export default async function HomePage() {
     redirect('/org/dashboard')
   }
 
-  const name = user.name || user.email || 'User'
-  const parts = name.split(' ').filter(Boolean)
+  const name = user.name || user.email || 'there'
+  const firstName = name.split(' ').filter(Boolean)[0] || 'there'
+
+  const checklist: ChecklistItem[] = [
+    { key: 'profile', titleKey: 'home.profileTitle', subtitleKey: 'home.profileSubtitle', href: '/profile', done: true },
+    { key: 'writing', titleKey: 'home.writingTitle', subtitleKey: 'home.writingSubtitle', href: '/writing', done: false },
+    { key: 'colleges', titleKey: 'home.collegesTitle', subtitleKey: 'home.collegesSubtitle', href: '/colleges', done: true },
+    { key: 'forecast-submit', titleKey: 'home.forecastSubmitTitle', subtitleKey: 'home.forecastSubmitSubtitle', href: '/forecast', done: false },
+  ]
 
   return (
     <AppLayout>
-      <div className="p-6">
-        <h1 className="text-2xl font-semibold">Welcome back{parts[0] ? `, ${parts[0]}` : ''}!</h1>
-        <p className="text-muted-foreground mt-1">Use the menu to continue your application.</p>
+      <div className="max-w-6xl mx-auto px-6 py-10 grid lg:grid-cols-[1fr_320px] gap-10">
+        <div className="space-y-8 min-w-0">
+          <HomeGreeting firstName={firstName} />
+
+          <Checklist items={checklist} />
+
+          <PromoCarousel initialIndex={2} />
+        </div>
+
+        <div>
+          <RecentWork />
+        </div>
       </div>
     </AppLayout>
   )

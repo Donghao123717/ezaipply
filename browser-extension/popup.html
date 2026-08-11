@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Aipply Autofill</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <span class="logo"><span class="logo-accent">Ai</span>pply</span>
+    <span class="beta">BETA</span>
+  </header>
+
+  <section id="import-view">
+    <p class="hint">Paste the data you copied from the Submit page in Aipply, then save it here once.</p>
+    <textarea id="import-textarea" placeholder="Paste your exported Aipply data here..."></textarea>
+    <button id="save-btn">Save data</button>
+    <p id="import-error" class="error"></p>
+  </section>
+
+  <section id="ready-view" class="hidden">
+    <p class="hint">Saved <span id="field-count">0</span> fields from Aipply.</p>
+    <div id="field-preview" class="field-preview"></div>
+    <button id="fill-btn">Fill this page</button>
+    <p id="fill-status" class="status"></p>
+    <button id="reimport-btn" class="secondary">Replace saved data</button>
+  </section>
+
+  <footer>Generic label matching - accuracy depends on how this page's fields are labeled.</footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

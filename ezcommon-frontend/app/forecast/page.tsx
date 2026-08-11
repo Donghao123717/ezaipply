@@ -2,21 +2,19 @@ import { getServerSession } from 'next-auth'
 import { redirect } from 'next/navigation'
 import { authOptions } from '@/lib/auth'
 import { AppLayout } from '@/components/layout/app-layout'
-import { ProfileBuilder } from '@/components/profile/profile-builder'
+import { ForecastWorkspace } from '@/components/forecast/forecast-workspace'
 
 export const dynamic = 'force-dynamic'
 
-export default async function ProfilePage() {
+export default async function ForecastPage() {
   const session = await getServerSession(authOptions)
   if (!session) redirect('/auth/login')
 
   const user: any = session.user || {}
-  const userId = user.id as string
-  const [firstName, ...rest] = (user.name || '').split(' ').filter(Boolean)
 
   return (
     <AppLayout>
-      <ProfileBuilder userId={userId} defaultFirstName={firstName || ''} defaultLastName={rest.join(' ')} />
+      <ForecastWorkspace userId={user.id as string} />
     </AppLayout>
   )
 }
