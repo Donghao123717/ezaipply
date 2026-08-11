@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link'
 import { ArrowRight, Check } from 'lucide-react'
 import { cn } from '@/lib/utils'

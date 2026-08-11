@@ -1,3 +1,4 @@
+"use client"
 import { FieldDef } from '@/lib/profile-schema'
 import { useT } from '@/lib/i18n/use-t'
 
