@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-const backendBase = process.env.BACKEND_URL || 'https://aipply1.com'
+const backendBase = process.env.BACKEND_URL || 'http://127.0.0.1:8000'
 
 export async function POST(request: Request) {
   try {

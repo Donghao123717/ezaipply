@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: aipply-backend
+    runtime: python
+    plan: free
+    rootDir: ezcommon-backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn auth_api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: SEARCH_PROVIDER
+        value: chromadb
+      - key: LLM_PROVIDER
+        value: openai
+      - key: CHROMADB_DATA_DIR
+        value: ./data/chroma_data
+      - key: CHROMADB_COLLECTION_NAME
+        value: document_chunks
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: OPENAI_VISION_MODEL
+        value: gpt-4o
+      - key: AWS_REGION
+        sync: false
+      - key: AWS_ACCESS_KEY_ID
+        sync: false
+      - key: AWS_SECRET_ACCESS_KEY
+        sync: false
+      - key: S3_BUCKET_NAME
+        sync: false
+      - key: JWT_SECRET_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
