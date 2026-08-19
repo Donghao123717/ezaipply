@@ -1506,6 +1506,30 @@ async def extract_from_documents(request: dict):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.post("/api/intelligent/extract-fields", tags=["Intelligent Extractor"])
+async def extract_field_suggestions(request: dict):
+    """从文档中提取结构化字段建议,供前端直接回填到 Profile 表单(需学生确认)"""
+    try:
+        if not intelligent_extractor_service:
+            raise HTTPException(status_code=500, detail="Intelligent Extractor service not available")
+
+        user_id = request.get('user_id')
+        files = request.get('files', [])
+        field_schema = request.get('field_schema', [])
+
+        if not user_id or not files or not field_schema:
+            raise HTTPException(status_code=400, detail="user_id, files, and field_schema are required")
+
+        result = intelligent_extractor_service.extract_field_suggestions(user_id, files, field_schema)
+        return result
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"Error extracting field suggestions: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.post("/api/intelligent/store", tags=["Intelligent Extractor"])
 async def store_to_opensearch(request: dict):
     """将提取的 chunks 存储到 OpenSearch"""

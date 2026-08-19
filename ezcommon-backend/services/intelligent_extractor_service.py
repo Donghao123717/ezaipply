@@ -140,6 +140,107 @@ class IntelligentExtractorService:
             "source_file": ", ".join(filenames),
         }
 
+    def extract_field_suggestions(
+        self,
+        user_id: str,
+        files: List[Dict[str, Any]],
+        field_schema: List[Dict[str, Any]],
+    ) -> Dict[str, Any]:
+        """
+        Like extract_from_files, but schema-aware: instead of free-form
+        {category, information} chunks, prompts the LLM to fill in a specific
+        set of profile form fields so the frontend can write results directly
+        into ProfileBuilder's state for the student to review and confirm.
+
+        Args:
+            user_id: User ID
+            files: List of {"filename": str, "section": str} dicts identifying
+                which of the user's uploaded files to read
+            field_schema: List of {"section", "field", "label", "type",
+                "options"} dicts describing the exact fields available to fill
+                in (mirrors lib/profile-schema.ts on the frontend)
+
+        Returns:
+            {"suggestions": [{"section": str, "field": str, "value": str}, ...]}
+            Empty list (never raises) if nothing could be extracted.
+        """
+        if not files or not field_schema or not self.llm_provider:
+            return {"suggestions": []}
+
+        text_parts: List[str] = []
+        for file_ref in files:
+            filename = file_ref.get("filename")
+            section = file_ref.get("section", "unknown")
+            if not filename:
+                continue
+            try:
+                file_bytes = self._fetch_file_bytes(user_id, filename, section)
+                if file_bytes is None:
+                    continue
+                text = self._extract_text(filename, file_bytes)
+                if text and text.strip():
+                    text_parts.append(f"--- {filename} ---\n{text}")
+            except Exception as e:
+                print(f"⚠ Error reading file '{filename}' for field suggestions: {e}")
+                continue
+
+        if not text_parts:
+            return {"suggestions": []}
+
+        # Cap total prompt size the same way _extract_structured_info does
+        combined_text = "\n\n".join(text_parts)[:16000]
+        schema_json = json.dumps(field_schema, ensure_ascii=False)
+
+        prompt = f"""You are an assistant that fills in a college application profile form from a student's uploaded documents.
+
+Below is the list of form fields available to fill in, as a JSON array. Each field has a "section" and "field" key - copy these EXACTLY as given, do not invent new ones.
+
+Fields:
+{schema_json}
+
+Read the document text below and extract a value for every field you can confidently determine. Skip any field you cannot determine with reasonable confidence - do not guess.
+
+Return ONLY a JSON array (no markdown, no commentary) of objects with exactly these keys:
+- "section": copied exactly from the field list above
+- "field": copied exactly from the field list above
+- "value": the extracted value as a plain string. For "select"/"radio" fields, use one of that field's listed options exactly as written. For "checkbox-multi" fields, join multiple selected options with a comma.
+
+Document text:
+\"\"\"
+{combined_text}
+\"\"\"
+"""
+
+        try:
+            response = self.llm_provider.chat_completion(
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+                max_tokens=2000,
+            )
+            content = response.get("content", "") if isinstance(response, dict) else str(response)
+        except Exception as e:
+            print(f"⚠ LLM call failed while extracting field suggestions: {e}")
+            return {"suggestions": []}
+
+        parsed = self._parse_llm_json_response(content)
+        if parsed is None:
+            print(f"⚠ Could not parse field-suggestion LLM response as JSON: {content[:200]!r}")
+            return {"suggestions": []}
+
+        valid_keys = {(f.get("section"), f.get("field")) for f in field_schema}
+        suggestions = []
+        for item in parsed:
+            if not isinstance(item, dict):
+                continue
+            section = str(item.get("section", "")).strip()
+            field = str(item.get("field", "")).strip()
+            value = str(item.get("value", "")).strip()
+            if not value or (section, field) not in valid_keys:
+                continue
+            suggestions.append({"section": section, "field": field, "value": value})
+
+        return {"suggestions": suggestions}
+
     def store_chunks_to_opensearch(
         self,
         user_id: str,

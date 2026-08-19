@@ -24,6 +24,9 @@ export function FieldPage({
           {group.eyebrowKey && (
             <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3">{t(group.eyebrowKey)}</p>
           )}
+          {group.descriptionKey && (
+            <p className="text-sm text-muted-foreground mb-4 whitespace-pre-line">{t(group.descriptionKey)}</p>
+          )}
           <div className="space-y-4">
             {group.fields.map((field) => (
               <div key={field.key} className="rounded-xl border p-4 flex items-start justify-between gap-4">

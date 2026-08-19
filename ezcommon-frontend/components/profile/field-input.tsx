@@ -47,6 +47,54 @@ export function FieldInput({
     )
   }
 
+  if (field.type === 'radio') {
+    return (
+      <div>
+        {eyebrow}
+        <div className="flex flex-wrap gap-x-4 gap-y-2">
+          {field.options?.map((opt) => (
+            <label key={opt} className="flex items-center gap-1.5 text-sm cursor-pointer">
+              <input
+                type="radio"
+                name={field.key}
+                checked={value === opt}
+                onChange={() => onChange(opt)}
+                className="h-4 w-4 accent-primary"
+              />
+              {t(`common.options.${opt}`)}
+            </label>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  if (field.type === 'checkbox-multi') {
+    const selected = value ? value.split(',').filter(Boolean) : []
+    function toggle(opt: string) {
+      const next = selected.includes(opt) ? selected.filter((o) => o !== opt) : [...selected, opt]
+      onChange(next.join(','))
+    }
+    return (
+      <div>
+        {eyebrow}
+        <div className="flex flex-wrap gap-x-4 gap-y-2">
+          {field.options?.map((opt) => (
+            <label key={opt} className="flex items-center gap-1.5 text-sm cursor-pointer">
+              <input
+                type="checkbox"
+                checked={selected.includes(opt)}
+                onChange={() => toggle(opt)}
+                className="h-4 w-4 rounded accent-primary"
+              />
+              {t(`common.options.${opt}`)}
+            </label>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
   if (field.type === 'textarea') {
     return (
       <div>

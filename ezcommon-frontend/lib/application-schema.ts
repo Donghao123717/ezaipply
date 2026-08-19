@@ -92,7 +92,7 @@ export const APPLICATION_PAGES: ApplicationPageDef[] = [
   },
   { key: 'writing', labelKey: 'applicationForm.pages.writing', kind: 'writing' },
   { key: 'activities', labelKey: 'applicationForm.pages.activities', kind: 'profile-pull', profileSections: ['activities', 'honors'] },
-  { key: 'contacts', labelKey: 'applicationForm.pages.contacts', kind: 'profile-pull', profileSections: ['personal'] },
+  { key: 'contacts', labelKey: 'applicationForm.pages.contacts', kind: 'profile-pull', profileSections: ['personal-info'] },
   { key: 'family', labelKey: 'applicationForm.pages.family', kind: 'profile-pull', profileSections: ['family'] },
   { key: 'additional', labelKey: 'applicationForm.pages.additional', kind: 'notes' },
 ]

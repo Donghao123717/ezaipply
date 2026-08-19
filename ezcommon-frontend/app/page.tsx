@@ -23,10 +23,10 @@ export default async function HomePage() {
   const firstName = name.split(' ').filter(Boolean)[0] || 'there'
 
   const checklist: ChecklistItem[] = [
-    { key: 'profile', titleKey: 'home.profileTitle', subtitleKey: 'home.profileSubtitle', href: '/profile', done: true },
-    { key: 'writing', titleKey: 'home.writingTitle', subtitleKey: 'home.writingSubtitle', href: '/writing', done: false },
-    { key: 'colleges', titleKey: 'home.collegesTitle', subtitleKey: 'home.collegesSubtitle', href: '/colleges', done: true },
-    { key: 'forecast-submit', titleKey: 'home.forecastSubmitTitle', subtitleKey: 'home.forecastSubmitSubtitle', href: '/forecast', done: false },
+    { key: 'profile', titleKey: 'home.profileTitle', subtitleKey: 'home.profileSubtitle', href: '/profile' },
+    { key: 'writing', titleKey: 'home.writingTitle', subtitleKey: 'home.writingSubtitle', href: '/writing' },
+    { key: 'colleges', titleKey: 'home.collegesTitle', subtitleKey: 'home.collegesSubtitle', href: '/colleges' },
+    { key: 'forecast-submit', titleKey: 'home.forecastSubmitTitle', subtitleKey: 'home.forecastSubmitSubtitle', href: '/forecast' },
   ]
 
   return (
@@ -35,7 +35,7 @@ export default async function HomePage() {
         <div className="space-y-8 min-w-0">
           <HomeGreeting firstName={firstName} />
 
-          <Checklist items={checklist} />
+          <Checklist items={checklist} userId={user.id as string} />
 
           <PromoCarousel initialIndex={2} />
         </div>

@@ -128,8 +128,11 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
           .join(' · '),
       })).filter((e) => e.value)
     }
-    return Object.entries(value as Record<string, string>)
-      .filter(([, v]) => v)
+    // A simple section's data object may also hold nested repeatable arrays
+    // (see NestedRepeatable) under other keys - only flat string fields make
+    // sense in this read-only summary, so skip anything else.
+    return Object.entries(value as Record<string, unknown>)
+      .filter((entry): entry is [string, string] => typeof entry[1] === 'string' && entry[1].length > 0)
       .map(([k, v]) => ({ label: fieldLabel(sectionKey, k), value: v }))
   }
 

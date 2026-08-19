@@ -1,19 +1,29 @@
 "use client"
 import { useEffect, useMemo, useState } from 'react'
-import { CheckCircle2, ChevronRight, Paperclip, Plus, Trash2 } from 'lucide-react'
+import { CheckCircle2, ChevronDown, ChevronRight, Paperclip, Plus, Trash2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
-import { PROFILE_SECTIONS, isProfileSectionComplete, type FieldDef } from '@/lib/profile-schema'
+import {
+  PROFILE_SECTIONS,
+  isProfileSectionComplete,
+  type FieldDef,
+  type FieldGroup,
+  type NestedRepeatable,
+} from '@/lib/profile-schema'
 import { FieldInput } from '@/components/profile/field-input'
 import { SuggestionsPanel } from '@/components/profile/suggestions-panel'
 import { useT } from '@/lib/i18n/use-t'
 
-type SimpleData = Record<string, string>
+type SimpleData = Record<string, any>
 type RepeatableData = Record<string, string>[]
 type ProfileData = Record<string, SimpleData | RepeatableData>
 
 function storageKey(userId: string) {
   return `aipply-profile-${userId}`
+}
+
+function nestedList(sectionData: any, nestedKey: string): Record<string, string>[] {
+  return Array.isArray(sectionData?.[nestedKey]) ? sectionData[nestedKey] : []
 }
 
 export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { userId: string; defaultFirstName: string; defaultLastName: string }) {
@@ -22,18 +32,19 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
   // Render with sane defaults on first paint (server and client agree here);
   // saved localStorage data (client-only) is merged in right after mount.
   const [data, setData] = useState<ProfileData>({
-    personal: { firstName: defaultFirstName, lastName: defaultLastName },
+    'personal-info': { firstName: defaultFirstName, lastName: defaultLastName },
   })
   const [suggestionsOpen, setSuggestionsOpen] = useState(false)
   const [hydrated, setHydrated] = useState(false)
+  const [additionalOpen, setAdditionalOpen] = useState<Record<string, boolean>>({})
 
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(storageKey(userId))
       if (raw) {
         const parsed: ProfileData = JSON.parse(raw)
-        if (!parsed.personal) {
-          parsed.personal = { firstName: defaultFirstName, lastName: defaultLastName }
+        if (!parsed['personal-info']) {
+          parsed['personal-info'] = { firstName: defaultFirstName, lastName: defaultLastName }
         }
         setData(parsed)
       }
@@ -84,6 +95,102 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
       list.splice(index, 1)
       return { ...prev, [sectionKey]: list }
     })
+  }
+
+  function addNestedItem(sectionKey: string, nestedKey: string) {
+    setData((prev) => {
+      const section = (prev[sectionKey] as SimpleData) || {}
+      return { ...prev, [sectionKey]: { ...section, [nestedKey]: [...nestedList(section, nestedKey), {}] } }
+    })
+  }
+
+  function updateNestedItem(sectionKey: string, nestedKey: string, index: number, fieldKey: string, value: string) {
+    setData((prev) => {
+      const section = (prev[sectionKey] as SimpleData) || {}
+      const list = [...nestedList(section, nestedKey)]
+      list[index] = { ...list[index], [fieldKey]: value }
+      return { ...prev, [sectionKey]: { ...section, [nestedKey]: list } }
+    })
+  }
+
+  function removeNestedItem(sectionKey: string, nestedKey: string, index: number) {
+    setData((prev) => {
+      const section = (prev[sectionKey] as SimpleData) || {}
+      const list = [...nestedList(section, nestedKey)]
+      list.splice(index, 1)
+      return { ...prev, [sectionKey]: { ...section, [nestedKey]: list } }
+    })
+  }
+
+  function applySuggestions(suggestions: { section: string; field: string; value: string }[]) {
+    setData((prev) => {
+      let next = prev
+      for (const s of suggestions) {
+        next = { ...next, [s.section]: { ...((next[s.section] as SimpleData) || {}), [s.field]: s.value } }
+      }
+      return next
+    })
+  }
+
+  function renderGroup(group: FieldGroup, gi: number) {
+    return (
+      <div key={gi} className={gi > 0 ? 'pt-6 border-t' : ''}>
+        {group.eyebrowKey && (
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3">{t(group.eyebrowKey)}</p>
+        )}
+        {group.descriptionKey && (
+          <p className="text-sm text-muted-foreground mb-4 whitespace-pre-line">{t(group.descriptionKey)}</p>
+        )}
+        <div className="grid sm:grid-cols-2 gap-5">
+          {group.fields.map((field: FieldDef) => (
+            <FieldInput
+              key={field.key}
+              field={field}
+              value={(data[activeMeta.key] as SimpleData)?.[field.key] || ''}
+              onChange={(v) => updateSimpleField(activeMeta.key, field.key, v)}
+            />
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  function renderNestedRepeatable(nested: NestedRepeatable) {
+    const list = nestedList(data[activeMeta.key], nested.key)
+    const atMax = nested.maxItems != null && list.length >= nested.maxItems
+    return (
+      <div key={nested.key}>
+        <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3">{t(nested.labelKey)}</p>
+        <div className="space-y-4">
+          {list.length === 0 && <p className="text-sm text-muted-foreground">{t(nested.emptyLabelKey)}</p>}
+          {list.map((item, index) => (
+            <div key={index} className="rounded-xl border p-5 relative">
+              <button
+                aria-label={t('common.remove')}
+                onClick={() => removeNestedItem(activeMeta.key, nested.key, index)}
+                className="absolute top-3 right-3 text-muted-foreground hover:text-destructive"
+              >
+                <Trash2 className="h-4 w-4" />
+              </button>
+              <div className="grid sm:grid-cols-2 gap-5 pr-6">
+                {nested.fields.map((field) => (
+                  <FieldInput
+                    key={field.key}
+                    field={field}
+                    value={item[field.key] || ''}
+                    onChange={(v) => updateNestedItem(activeMeta.key, nested.key, index, field.key, v)}
+                  />
+                ))}
+              </div>
+            </div>
+          ))}
+          <Button variant="outline" onClick={() => addNestedItem(activeMeta.key, nested.key)} disabled={atMax}>
+            <Plus className="h-4 w-4 mr-2" />
+            {t('common.add')} {t(nested.itemLabelKey)}
+          </Button>
+        </div>
+      </div>
+    )
   }
 
   return (
@@ -139,25 +246,44 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
             <h2 className="text-xl font-semibold text-primary mb-6">{t(activeMeta.labelKey)}</h2>
 
             {activeMeta.def.kind === 'simple' ? (
-              <div className="space-y-8">
-                {activeMeta.def.groups.map((group, gi) => (
-                  <div key={gi} className={gi > 0 ? 'pt-6 border-t' : ''}>
-                    {group.eyebrowKey && (
-                      <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3">{t(group.eyebrowKey)}</p>
+              (() => {
+                const def = activeMeta.def
+                const mainGroups = def.groups.filter((g) => !g.additional)
+                const additionalGroups = def.groups.filter((g) => g.additional)
+                const nestedRepeatables = def.nestedRepeatables || []
+                const mainNested = nestedRepeatables.filter((n) => !n.additional)
+                const additionalNested = nestedRepeatables.filter((n) => n.additional)
+                const hasAdditional = additionalGroups.length > 0 || additionalNested.length > 0
+                const isOpen = additionalOpen[activeMeta.key] ?? false
+                return (
+                  <div className="space-y-8">
+                    {mainGroups.map(renderGroup)}
+                    {mainNested.map(renderNestedRepeatable)}
+                    {hasAdditional && (
+                      <div className="rounded-xl border overflow-hidden">
+                        <button
+                          onClick={() => setAdditionalOpen((prev) => ({ ...prev, [activeMeta.key]: !isOpen }))}
+                          className="w-full flex items-center justify-between gap-4 px-5 py-4 text-left hover:bg-muted/40"
+                        >
+                          <div>
+                            <p className="font-semibold text-primary">{t('profile.additionalInfoTitle')}</p>
+                            {def.additionalInfoSubtitleKey && (
+                              <p className="text-xs text-muted-foreground mt-0.5">{t(def.additionalInfoSubtitleKey)}</p>
+                            )}
+                          </div>
+                          <ChevronDown className={cn('h-4 w-4 text-muted-foreground shrink-0 transition-transform', isOpen && 'rotate-180')} />
+                        </button>
+                        {isOpen && (
+                          <div className="px-5 pb-5 pt-2 border-t space-y-8">
+                            {additionalGroups.map(renderGroup)}
+                            {additionalNested.map(renderNestedRepeatable)}
+                          </div>
+                        )}
+                      </div>
                     )}
-                    <div className="grid sm:grid-cols-2 gap-5">
-                      {group.fields.map((field: FieldDef) => (
-                        <FieldInput
-                          key={field.key}
-                          field={field}
-                          value={(data[activeMeta.key] as SimpleData)?.[field.key] || ''}
-                          onChange={(v) => updateSimpleField(activeMeta.key, field.key, v)}
-                        />
-                      ))}
-                    </div>
                   </div>
-                ))}
-              </div>
+                )
+              })()
             ) : (
               <div className="space-y-4">
                 {((data[activeMeta.key] as RepeatableData) || []).length === 0 && (
@@ -209,7 +335,14 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
         </div>
       </div>
 
-      {suggestionsOpen && <SuggestionsPanel userId={userId} onClose={() => setSuggestionsOpen(false)} />}
+      {suggestionsOpen && (
+        <SuggestionsPanel
+          userId={userId}
+          currentData={data as Record<string, Record<string, string> | undefined>}
+          onApply={applySuggestions}
+          onClose={() => setSuggestionsOpen(false)}
+        />
+      )}
     </div>
   )
 }

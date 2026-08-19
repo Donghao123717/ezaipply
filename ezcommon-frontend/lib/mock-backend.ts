@@ -411,6 +411,28 @@ export async function handleMockBackend(pathSegments: string[], request: NextReq
     })
   }
 
+  if (path === 'api/intelligent/extract-fields' && method === 'POST') {
+    const body = await request.json().catch(() => ({}))
+    const fieldSchema: Array<{ section: string; field: string }> = body?.field_schema || []
+    // Demo-mode stand-in for the real LLM extraction - matches whatever
+    // fields the frontend actually asked about against a small canned set of
+    // plausible values, so the review-and-apply flow has something to show.
+    const MOCK_FIELD_VALUES: Record<string, string> = {
+      firstName: 'Demo',
+      lastName: 'Student',
+      schoolName: 'Demo High School',
+      classYear: '2026',
+      cumulativeGPA: '3.85',
+      gpaScale: '4.0',
+      testType: 'SAT',
+      score: '1480',
+    }
+    const suggestions = fieldSchema
+      .filter((f) => MOCK_FIELD_VALUES[f.field])
+      .map((f) => ({ section: f.section, field: f.field, value: MOCK_FIELD_VALUES[f.field] }))
+    return json({ suggestions })
+  }
+
   if (path === 'api/intelligent/store' && method === 'POST') {
     const body = await request.json().catch(() => ({}))
     return json({ status: 'ok', stored_chunks: (body?.chunks || []).length })
