@@ -607,7 +607,11 @@ export function buildFieldSchema(t: (key: string) => string): FieldSchemaEntry[]
       for (const field of nested.fields) {
         entries.push({
           section: section.key,
-          field: field.key,
+          // Prefixed so it can't collide with a same-named flat field on the same
+          // section (e.g. education.schoolName exists both as the main field and
+          // inside the nestedRepeatable "otherSchools") - see applySuggestions,
+          // which strips the "<nestedKey>." prefix back off before writing.
+          field: `${nested.key}.${field.key}`,
           label: t(field.labelKey),
           type: field.type,
           options: field.options,

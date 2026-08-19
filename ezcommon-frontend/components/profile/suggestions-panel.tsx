@@ -20,6 +20,28 @@ interface FieldSuggestion {
   nestedKey?: string
 }
 
+/**
+ * Summarizes the student's existing repeatable-list records (one group per
+ * distinct section/nestedKey the schema has) so the extraction prompt can
+ * avoid re-suggesting a test score, activity, or award that's already there.
+ */
+function buildExistingRecords(currentData: Record<string, any>, fieldSchema: ReturnType<typeof buildFieldSchema>) {
+  const seen = new Set<string>()
+  const groups: { section: string; nestedKey?: string; records: Record<string, string>[] }[] = []
+  for (const f of fieldSchema) {
+    if (!f.repeatable) continue
+    const groupKey = `${f.section}|${f.nestedKey || ''}`
+    if (seen.has(groupKey)) continue
+    seen.add(groupKey)
+    const sectionData = currentData[f.section]
+    const records: Record<string, string>[] = f.nestedKey
+      ? Array.isArray(sectionData?.[f.nestedKey]) ? sectionData[f.nestedKey] : []
+      : Array.isArray(sectionData) ? sectionData : []
+    if (records.length > 0) groups.push({ section: f.section, nestedKey: f.nestedKey, records })
+  }
+  return groups
+}
+
 export function SuggestionsPanel({
   userId,
   currentData,
@@ -27,8 +49,8 @@ export function SuggestionsPanel({
   onClose,
 }: {
   userId: string
-  /** Section -> flat field data, used to show "current value" and to skip fields that already have one. */
-  currentData: Record<string, Record<string, string> | undefined>
+  /** The full current Profile data (flat section objects and repeatable-list arrays) - used to show "current value", skip already-filled flat fields, and avoid re-suggesting duplicate list records. */
+  currentData: Record<string, any>
   onApply: (suggestions: FieldSuggestion[]) => void
   onClose: () => void
 }) {
@@ -68,6 +90,7 @@ export function SuggestionsPanel({
           user_id: userId,
           files: files.map((f) => ({ filename: f.filename, section: f.section })),
           field_schema: fieldSchema,
+          existing_records: buildExistingRecords(currentData, fieldSchema),
         }),
       })
       if (!res.ok) throw new Error('Extraction failed')

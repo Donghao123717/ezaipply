@@ -145,6 +145,7 @@ class IntelligentExtractorService:
         user_id: str,
         files: List[Dict[str, Any]],
         field_schema: List[Dict[str, Any]],
+        existing_records: Optional[List[Dict[str, Any]]] = None,
     ) -> Dict[str, Any]:
         """
         Like extract_from_files, but schema-aware: instead of free-form
@@ -159,6 +160,10 @@ class IntelligentExtractorService:
             field_schema: List of {"section", "field", "label", "type",
                 "options"} dicts describing the exact fields available to fill
                 in (mirrors lib/profile-schema.ts on the frontend)
+            existing_records: List of {"section", "nestedKey", "records"} dicts
+                describing repeatable-list records the student's profile
+                already has, so the LLM can avoid re-suggesting duplicates of
+                a test score/activity/award that's already been applied.
 
         Returns:
             {"suggestions": [{"section": str, "field": str, "value": str}, ...]}
@@ -192,6 +197,7 @@ class IntelligentExtractorService:
         # fits this; a small cap here was silently dropping later documents.
         combined_text = "\n\n".join(text_parts)[:80000]
         schema_json = json.dumps(field_schema, ensure_ascii=False)
+        existing_json = json.dumps(existing_records or [], ensure_ascii=False)
 
         prompt = f"""You are an assistant that fills in a college application profile form from a student's uploaded documents.
 
@@ -199,6 +205,11 @@ Below is the list of form fields available to fill in, as a JSON array. Each fie
 
 Fields:
 {schema_json}
+
+IMPORTANT section boundaries: the "testing" section is ONLY for standardized test/exam scores (SAT, ACT, AP, IB, TOEFL, IELTS, etc.) - a numeric or letter score tied to a specific exam. The "honors" section is ONLY for named awards, distinctions, and recognitions (e.g. "AP Scholar with Distinction", "National Merit Finalist", "Eagle Scout") - never put an individual exam score in "honors", and never put an award's title in "testing".
+
+The student's profile already has these records - do NOT suggest a new entry for anything that duplicates one of these (same test/activity/award, even if worded slightly differently or the date format differs). Skip it entirely rather than re-adding it:
+{existing_json}
 
 The document text below contains MULTIPLE separate documents, each preceded by a "--- filename ---" header. Go through EVERY document one at a time and extract a value for every field you can confidently determine from it - do not stop early or skip documents just because you already found values in an earlier one. Skip individual fields you cannot determine with reasonable confidence - do not guess.
 
@@ -253,7 +264,54 @@ Document text:
                     suggestion["nestedKey"] = meta["nestedKey"]
             suggestions.append(suggestion)
 
-        return {"suggestions": suggestions}
+        return {"suggestions": self._drop_duplicate_records(suggestions, existing_records or [])}
+
+    @staticmethod
+    def _drop_duplicate_records(
+        suggestions: List[Dict[str, Any]], existing_records: List[Dict[str, Any]]
+    ) -> List[Dict[str, Any]]:
+        """
+        Deterministic backstop for repeatable-field suggestions: the prompt asks
+        the LLM to skip records that duplicate one already in existing_records,
+        but instruction-following isn't 100% reliable, so also drop any new
+        record here that exactly matches (on every field they share) one the
+        student's profile already has.
+        """
+        existing_by_group: Dict[tuple, List[Dict[str, Any]]] = {}
+        for group in existing_records:
+            key = (group.get("section"), group.get("nestedKey") or "")
+            existing_by_group[key] = group.get("records") or []
+
+        grouped: Dict[tuple, List[Dict[str, Any]]] = {}
+        for s in suggestions:
+            if "item" not in s:
+                continue
+            key = (s["section"], s.get("nestedKey") or "", s["item"])
+            grouped.setdefault(key, []).append(s)
+
+        duplicate_items = set()
+        for (section, nested_key, item), items in grouped.items():
+            candidate: Dict[str, str] = {}
+            for s in items:
+                field = s["field"]
+                if nested_key and field.startswith(f"{nested_key}."):
+                    field = field[len(nested_key) + 1 :]
+                candidate[field] = s["value"]
+            for existing in existing_by_group.get((section, nested_key), []):
+                overlap = [k for k in candidate if k in existing]
+                if overlap and all(
+                    str(candidate[k]).strip().lower() == str(existing.get(k, "")).strip().lower() for k in overlap
+                ):
+                    duplicate_items.add((section, nested_key, item))
+                    break
+
+        if not duplicate_items:
+            return suggestions
+        return [
+            s
+            for s in suggestions
+            if "item" not in s or (s["section"], s.get("nestedKey") or "", s["item"]) not in duplicate_items
+        ]
 
     def store_chunks_to_opensearch(
         self,

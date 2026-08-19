@@ -1516,11 +1516,12 @@ async def extract_field_suggestions(request: dict):
         user_id = request.get('user_id')
         files = request.get('files', [])
         field_schema = request.get('field_schema', [])
+        existing_records = request.get('existing_records', [])
 
         if not user_id or not files or not field_schema:
             raise HTTPException(status_code=400, detail="user_id, files, and field_schema are required")
 
-        result = intelligent_extractor_service.extract_field_suggestions(user_id, files, field_schema)
+        result = intelligent_extractor_service.extract_field_suggestions(user_id, files, field_schema, existing_records)
         return result
 
     except HTTPException:
