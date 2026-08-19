@@ -41,7 +41,7 @@ export default async function HomePage() {
         </div>
 
         <div>
-          <RecentWork />
+          <RecentWork userId={user.id as string} />
         </div>
       </div>
     </AppLayout>

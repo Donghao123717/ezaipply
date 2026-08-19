@@ -36,6 +36,7 @@ export const dictionary = {
       forecastSubmitTitle: 'Forecast & Submit',
       forecastSubmitSubtitle: 'Review, then submit',
       recentWork: 'Recent Work',
+      recentEmpty: "You haven't started anything yet - write an essay, add a school, or ask your counselor a question.",
       feedback: 'Feedback',
       promo: {
         profileEyebrow: 'Profile',
@@ -830,6 +831,22 @@ export const dictionary = {
       },
     },
     colleges: {
+      requirements: {
+        title: 'Admissions Requirements',
+        acceptanceRate: 'Acceptance Rate',
+        satRange: 'SAT Range',
+        actRange: 'ACT Range',
+        gpaRange: 'GPA Range',
+        testBlind: 'Not used (test-blind)',
+        notPublished: 'Not published',
+        deadlines: 'Application Deadlines',
+        earlyDecision: 'Early Decision',
+        earlyAction: 'Early Action',
+        regularDecision: 'Regular Decision',
+        essaySupplements: 'Essay Supplements',
+        words: 'words',
+        dataAsOf: 'Data as of {cycle}',
+      },
       atAGlance: {
         eyebrow: 'Your list at a glance',
         title: 'Manage your college list',
@@ -1052,6 +1069,7 @@ export const dictionary = {
       forecastSubmitTitle: '录取预测 & 递交',
       forecastSubmitSubtitle: '过一遍再交',
       recentWork: '最近动态',
+      recentEmpty: '还没有任何记录——写一篇文书、加一所学校，或者问问顾问一个问题吧。',
       feedback: '反馈',
       promo: {
         profileEyebrow: '个人资料',
@@ -1845,6 +1863,22 @@ export const dictionary = {
       },
     },
     colleges: {
+      requirements: {
+        title: '录取要求',
+        acceptanceRate: '录取率',
+        satRange: 'SAT 分数区间',
+        actRange: 'ACT 分数区间',
+        gpaRange: 'GPA 区间',
+        testBlind: '不参考(test-blind)',
+        notPublished: '未公开',
+        deadlines: '申请截止日期',
+        earlyDecision: '提前决定 (ED)',
+        earlyAction: '提前行动 (EA)',
+        regularDecision: '常规申请 (RD)',
+        essaySupplements: '附加文书',
+        words: '词',
+        dataAsOf: '数据截至 {cycle}',
+      },
       atAGlance: {
         eyebrow: '选校清单概览',
         title: '管理你的选校清单',

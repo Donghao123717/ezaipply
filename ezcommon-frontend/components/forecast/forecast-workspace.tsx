@@ -6,6 +6,8 @@ import { loadColleges, type SavedCollege } from '@/lib/college-store'
 import { loadEssays } from '@/lib/essay-store'
 import { loadProfileContext } from '@/lib/essay-store'
 import { computeProfileStrength } from '@/lib/profile-strength'
+import { computeStudentScores } from '@/lib/student-scores'
+import { SCHOOL_ADMISSIONS_DATA } from '@/lib/school-admissions-data'
 import { loadForecast, saveForecast, computeSignature, timeAgo, type ForecastRecord, type SchoolForecast } from '@/lib/forecast-store'
 import { OverallChance } from '@/components/forecast/overall-chance'
 import { BySchoolList } from '@/components/forecast/by-school-list'
@@ -48,6 +50,7 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
         .map(([taskId]) => `Has a draft in progress: ${taskId}`)
         .join('\n')
 
+      const studentScores = computeStudentScores(userId)
       const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
       const res = await fetch(`${base}/api/forecast/generate`, {
         method: 'POST',
@@ -56,12 +59,24 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
           profile_context: loadProfileContext(userId),
           essay_summary: essaySummary,
           profile_strength: computeProfileStrength(userId),
-          schools: colleges.map((c) => ({
-            id: c.id,
-            name: c.name,
-            category: c.category,
-            baseline_acceptance_rate: c.acceptanceRate ?? 30,
-          })),
+          student_sat: studentScores.sat ?? null,
+          student_act: studentScores.act ?? null,
+          student_gpa: studentScores.gpa4 ?? null,
+          schools: colleges.map((c) => {
+            const admissions = SCHOOL_ADMISSIONS_DATA[c.name]
+            return {
+              id: c.id,
+              name: c.name,
+              category: c.category,
+              baseline_acceptance_rate: admissions?.acceptanceRate ?? c.acceptanceRate ?? 30,
+              sat_low: admissions?.satRange?.[0] ?? null,
+              sat_high: admissions?.satRange?.[1] ?? null,
+              act_low: admissions?.actRange?.[0] ?? null,
+              act_high: admissions?.actRange?.[1] ?? null,
+              gpa_low: admissions?.gpaRange?.[0] ?? null,
+              gpa_high: admissions?.gpaRange?.[1] ?? null,
+            }
+          }),
         }),
       })
       const data = await res.json()

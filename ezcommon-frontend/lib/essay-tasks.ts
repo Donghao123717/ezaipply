@@ -1,3 +1,5 @@
+import { SCHOOL_ADMISSIONS_DATA } from '@/lib/school-admissions-data'
+
 export interface EssayTask {
   id: string
   /** Dictionary key for static task titles - resolved via useT(). Dynamic (per-school) tasks use `title` instead. */
@@ -7,6 +9,8 @@ export interface EssayTask {
   school?: string
   wordLimit: number
   promptRequired?: boolean
+  /** The real supplement prompt text, when sourced from school-admissions-data.ts - shown above the editor instead of a generic placeholder. */
+  prompt?: string
 }
 
 export function essayTaskTitle(task: EssayTask, t: (key: string) => string): string {
@@ -24,21 +28,35 @@ export const ESSAY_TASKS: EssayTask[] = [
 ]
 
 /**
- * Generates one supplemental-essay task per saved college.
- *
+ * Generates one supplemental-essay task per real prompt for a saved college
+ * (see lib/school-admissions-data.ts, researched for the US News Top 50).
  * Real Common App supplements differ school to school (some ask one short
- * question, others ask three) - modeling that accurately needs a real
- * per-school supplement database, which isn't built yet. Until then, each
- * saved school gets a single generic supplemental slot as a placeholder.
+ * question, others ask three) - schools outside that researched set fall
+ * back to a single generic supplemental slot as a placeholder.
  */
 export function getSchoolEssayTasks(colleges: { id: string; name: string }[], t: (key: string) => string): EssayTask[] {
-  return colleges.map((college) => ({
-    id: `school-${college.id}`,
-    title: `${college.name} · ${t('writing.tasks.supplemental')}`,
-    group: 'school',
-    school: college.name,
-    wordLimit: 400,
-  }))
+  return colleges.flatMap((college) => {
+    const admissions = SCHOOL_ADMISSIONS_DATA[college.name]
+    if (admissions && admissions.essaySupplements.length > 0) {
+      return admissions.essaySupplements.map((supp, i) => ({
+        id: `school-${college.id}-${i}`,
+        title: `${college.name} · ${t('writing.tasks.supplemental')} ${i + 1}`,
+        group: 'school' as const,
+        school: college.name,
+        wordLimit: supp.wordLimit,
+        prompt: supp.prompt,
+      }))
+    }
+    return [
+      {
+        id: `school-${college.id}-0`,
+        title: `${college.name} · ${t('writing.tasks.supplemental')}`,
+        group: 'school' as const,
+        school: college.name,
+        wordLimit: 400,
+      },
+    ]
+  })
 }
 
 // A general-purpose set of essay prompt starters, in the same spirit as the

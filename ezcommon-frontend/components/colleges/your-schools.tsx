@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils'
 import type { CollegeCategory, SavedCollege } from '@/lib/college-store'
 import { CATEGORY_LABEL_KEY } from '@/lib/college-store'
 import { computeApplicationProgress, STATUS_LABEL_KEY } from '@/lib/application-status'
+import { SCHOOL_ADMISSIONS_DATA } from '@/lib/school-admissions-data'
 import { Select, SelectContent, SelectItem, SelectTrigger } from '@/components/ui/select'
 import { useT } from '@/lib/i18n/use-t'
 
@@ -56,6 +57,7 @@ export function YourSchools({
 
   function renderCard(college: SavedCollege) {
     const progress = ready ? computeApplicationProgress(userId, college.id) : null
+    const admissions = SCHOOL_ADMISSIONS_DATA[college.name]
     return (
       <div key={college.id} className="rounded-xl border bg-card p-4 flex items-center justify-between gap-4">
         <div className="min-w-0">
@@ -81,6 +83,11 @@ export function YourSchools({
                 ? new Date(college.deadline).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
                 : t('colleges.yourSchools.noDeadline')}
             </span>
+            {admissions && (
+              <span className="rounded-full bg-secondary/50 px-2.5 py-0.5 text-xs text-muted-foreground">
+                {admissions.acceptanceRate}% · {admissions.testBlind ? t('colleges.requirements.testBlind') : admissions.satRange ? `SAT ${admissions.satRange[0]}-${admissions.satRange[1]}` : t('colleges.requirements.notPublished')}
+              </span>
+            )}
           </div>
           <div className="flex items-center gap-2 mt-3">
             <Link

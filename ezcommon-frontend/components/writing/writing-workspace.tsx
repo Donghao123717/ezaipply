@@ -44,7 +44,7 @@ export function WritingWorkspace({ userId }: { userId: string }) {
     saveEssay(userId, activeId, updated)
   }
 
-  const prompt = ESSAY_PROMPTS.find((p) => p.id === promptId)?.text || ''
+  const prompt = ESSAY_PROMPTS.find((p) => p.id === promptId)?.text || task.prompt || ''
 
   async function startDraft() {
     setDrafting(true)
@@ -110,6 +110,12 @@ export function WritingWorkspace({ userId }: { userId: string }) {
                   <p className="text-xs text-muted-foreground flex-1">
                     {prompt || t('writing.pickPromptHint')}
                   </p>
+                </div>
+              )}
+
+              {task.prompt && (
+                <div className="mb-4 rounded-lg border bg-secondary/30 px-4 py-3">
+                  <p className="text-sm text-foreground">{task.prompt}</p>
                 </div>
               )}
 

@@ -72,7 +72,60 @@ def _extract_json(text: str) -> Optional[Any]:
     return None
 
 
-def _anchor_chance(baseline_rate: float, profile_strength: float) -> float:
+def _range_fit_multiplier(student_value: Optional[float], low: Optional[float], high: Optional[float]) -> Optional[float]:
+    """
+    Compares one signal (SAT, ACT, or GPA) against a school's typical 25th-75th
+    percentile range. Below the 25th percentile -> penalize toward ~0.4x; within
+    range -> scales ~0.9x-1.1x by position; above the 75th percentile -> boosts
+    toward ~1.4x. Returns None (caller treats as "no signal") if either side is
+    missing, so schools/students without data degrade to neutral rather than
+    being penalized for something nobody measured.
+    """
+    if student_value is None or low is None or high is None or high <= low:
+        return None
+    if student_value < low:
+        # Linearly scale down the further below the 25th percentile the student is,
+        # floored at 0.4x so it's a strong signal without ever fully zeroing a school out.
+        deficit = min(1.0, (low - student_value) / max(1.0, low * 0.15))
+        return max(0.4, 1.0 - 0.6 * deficit)
+    if student_value > high:
+        surplus = min(1.0, (student_value - high) / max(1.0, high * 0.1))
+        return min(1.4, 1.0 + 0.4 * surplus)
+    # Within range: scale 0.9x at the 25th percentile up to 1.1x at the 75th percentile.
+    position = (student_value - low) / (high - low)
+    return 0.9 + 0.2 * position
+
+
+def _score_fit_multiplier(
+    student_sat: Optional[float],
+    student_act: Optional[float],
+    student_gpa: Optional[float],
+    sat_low: Optional[float],
+    sat_high: Optional[float],
+    act_low: Optional[float],
+    act_high: Optional[float],
+    gpa_low: Optional[float],
+    gpa_high: Optional[float],
+) -> float:
+    """
+    Blends whichever of SAT/ACT/GPA fit signals are actually available (a
+    student might have only one test score, or a school might not publish a
+    GPA range) into a single multiplier on the baseline anchor. Neutral (1.0)
+    if nothing can be compared, so this only ever sharpens the estimate when
+    real data exists on both sides - it never invents a penalty.
+    """
+    test_fit = _range_fit_multiplier(student_sat, sat_low, sat_high)
+    if test_fit is None:
+        test_fit = _range_fit_multiplier(student_act, act_low, act_high)
+    gpa_fit = _range_fit_multiplier(student_gpa, gpa_low, gpa_high)
+
+    signals = [s for s in (test_fit, gpa_fit) if s is not None]
+    if not signals:
+        return 1.0
+    return sum(signals) / len(signals)
+
+
+def _anchor_chance(baseline_rate: float, profile_strength: float, score_fit: float = 1.0) -> float:
     """
     Deterministic reference point the LLM is only allowed to nudge by a
     bounded amount. profile_strength is 0 (empty) to 1 (fully filled out).
@@ -80,9 +133,12 @@ def _anchor_chance(baseline_rate: float, profile_strength: float) -> float:
     applicant we know nothing about as meaningfully below-average, since
     people who do bother to fill out real application data tend to skew
     toward being reasonably prepared). At strength=1 it can go up to ~1.75x
-    baseline, capturing a well-documented, strong applicant.
+    baseline, capturing a well-documented, strong applicant. score_fit further
+    scales this by how the student's actual SAT/ACT/GPA compares to the
+    school's typical admitted range (see _score_fit_multiplier) - 1.0 (neutral)
+    when that comparison isn't possible.
     """
-    multiplier = 0.15 + 1.6 * max(0.0, min(1.0, profile_strength))
+    multiplier = (0.15 + 1.6 * max(0.0, min(1.0, profile_strength))) * score_fit
     return max(1.0, min(95.0, baseline_rate * multiplier))
 
 
@@ -91,12 +147,21 @@ class SchoolInput(BaseModel):
     name: str
     category: str
     baseline_acceptance_rate: float = 30.0
+    sat_low: Optional[float] = None
+    sat_high: Optional[float] = None
+    act_low: Optional[float] = None
+    act_high: Optional[float] = None
+    gpa_low: Optional[float] = None
+    gpa_high: Optional[float] = None
 
 
 class ForecastRequest(BaseModel):
     profile_context: str = ""
     essay_summary: str = ""
     profile_strength: float = 0.0
+    student_sat: Optional[float] = None
+    student_act: Optional[float] = None
+    student_gpa: Optional[float] = None
     schools: List[SchoolInput]
 
 
@@ -122,7 +187,17 @@ async def generate_forecast(body: ForecastRequest):
     if not body.schools:
         return ForecastResponse(schools=[])
 
-    anchors: Dict[str, float] = {s.id: _anchor_chance(s.baseline_acceptance_rate, body.profile_strength) for s in body.schools}
+    anchors: Dict[str, float] = {
+        s.id: _anchor_chance(
+            s.baseline_acceptance_rate,
+            body.profile_strength,
+            _score_fit_multiplier(
+                body.student_sat, body.student_act, body.student_gpa,
+                s.sat_low, s.sat_high, s.act_low, s.act_high, s.gpa_low, s.gpa_high,
+            ),
+        )
+        for s in body.schools
+    }
 
     school_lines = "\n".join(
         f"- id: \"{s.id}\" | name: \"{s.name}\" | student's category: {s.category} | "
