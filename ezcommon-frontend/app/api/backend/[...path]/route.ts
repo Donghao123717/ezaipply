@@ -34,6 +34,11 @@ async function realProxy(request: NextRequest, context: RouteContext) {
   const headers = new Headers(request.headers)
   headers.delete('host')
   headers.delete('content-length')
+  // Force an uncompressed response from the backend. We forward response.body
+  // to the browser as-is further down while stripping content-encoding, which
+  // corrupts the payload if the backend actually compressed it (the browser's
+  // own Accept-Encoding: br would otherwise get forwarded verbatim here).
+  headers.set('accept-encoding', 'identity')
   try {
     const session = await getServerSession(authOptions)
     const accessToken = (session as any)?.accessToken
@@ -58,6 +63,11 @@ async function realProxy(request: NextRequest, context: RouteContext) {
 
   const responseHeaders = new Headers(response.headers)
   responseHeaders.delete('content-encoding')
+  // fetch() already transparently decompresses the body, but leaves the
+  // upstream Content-Length (measured on the still-compressed bytes) intact.
+  // Forwarding that stale, too-small length truncates the response on the
+  // client. Let Next.js recompute it (or chunk the response) instead.
+  responseHeaders.delete('content-length')
 
   return new NextResponse(response.body, {
     status: response.status,
