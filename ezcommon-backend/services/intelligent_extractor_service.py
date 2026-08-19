@@ -187,8 +187,10 @@ class IntelligentExtractorService:
         if not text_parts:
             return {"suggestions": []}
 
-        # Cap total prompt size the same way _extract_structured_info does
-        combined_text = "\n\n".join(text_parts)[:16000]
+        # Generous cap - this can legitimately be many documents at once (transcript,
+        # passport, several score reports). GPT-4o-mini's context window comfortably
+        # fits this; a small cap here was silently dropping later documents.
+        combined_text = "\n\n".join(text_parts)[:80000]
         schema_json = json.dumps(field_schema, ensure_ascii=False)
 
         prompt = f"""You are an assistant that fills in a college application profile form from a student's uploaded documents.
@@ -198,9 +200,9 @@ Below is the list of form fields available to fill in, as a JSON array. Each fie
 Fields:
 {schema_json}
 
-Read the document text below and extract a value for every field you can confidently determine. Skip any field you cannot determine with reasonable confidence - do not guess.
+The document text below contains MULTIPLE separate documents, each preceded by a "--- filename ---" header. Go through EVERY document one at a time and extract a value for every field you can confidently determine from it - do not stop early or skip documents just because you already found values in an earlier one. Skip individual fields you cannot determine with reasonable confidence - do not guess.
 
-For "repeatable" fields, the same document may describe multiple separate records (e.g. two different SAT test dates, or three different activities). Give every field belonging to the same record the same "item" number (starting at 0), and use a new "item" number for each distinct record. For non-repeatable fields, omit "item" or set it to 0.
+For "repeatable" fields, the same document may describe multiple separate records (e.g. five different AP exam scores, or two different SAT test dates). Give every field belonging to the same record the same "item" number (starting at 0), and use a new "item" number for each distinct record - including across different documents.
 
 Return ONLY a JSON array (no markdown, no commentary) of objects with exactly these keys:
 - "section": copied exactly from the field list above
@@ -218,7 +220,7 @@ Document text:
             response = self.llm_provider.chat_completion(
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.1,
-                max_tokens=2000,
+                max_tokens=8000,
             )
             content = response.get("content", "") if isinstance(response, dict) else str(response)
         except Exception as e:
