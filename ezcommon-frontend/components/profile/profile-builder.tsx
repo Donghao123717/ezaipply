@@ -12,6 +12,7 @@ import {
 } from '@/lib/profile-schema'
 import { FieldInput } from '@/components/profile/field-input'
 import { SuggestionsPanel } from '@/components/profile/suggestions-panel'
+import { FilesPanel } from '@/components/profile/files-panel'
 import { useT } from '@/lib/i18n/use-t'
 
 type SimpleData = Record<string, any>
@@ -35,8 +36,18 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
     'personal-info': { firstName: defaultFirstName, lastName: defaultLastName },
   })
   const [suggestionsOpen, setSuggestionsOpen] = useState(false)
+  const [filesOpen, setFilesOpen] = useState(false)
+  const [fileCount, setFileCount] = useState(0)
   const [hydrated, setHydrated] = useState(false)
   const [additionalOpen, setAdditionalOpen] = useState<Record<string, boolean>>({})
+
+  useEffect(() => {
+    const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
+    fetch(`${base}/api/upload/user/${encodeURIComponent(userId)}`)
+      .then((r) => r.json())
+      .then((d) => setFileCount((d.files || []).length))
+      .catch(() => setFileCount(0))
+  }, [userId])
 
   useEffect(() => {
     try {
@@ -234,11 +245,14 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
             </p>
           </div>
 
-          <div className="mt-4 pt-4 border-t flex items-center gap-2 text-sm text-muted-foreground">
+          <button
+            onClick={() => setFilesOpen(true)}
+            className="mt-4 pt-4 border-t flex items-center gap-2 text-sm text-muted-foreground w-full hover:text-primary"
+          >
             <Paperclip className="h-4 w-4" />
-            {t('profile.zeroFiles')}
+            {t('profile.filesCount').replace('{count}', String(fileCount))}
             <span className="text-primary font-medium ml-1">{t('profile.manage')}</span>
-          </div>
+          </button>
         </aside>
 
         <div>
@@ -342,6 +356,10 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
           onApply={applySuggestions}
           onClose={() => setSuggestionsOpen(false)}
         />
+      )}
+
+      {filesOpen && (
+        <FilesPanel userId={userId} onCountChange={setFileCount} onClose={() => setFilesOpen(false)} />
       )}
     </div>
   )
