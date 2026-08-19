@@ -90,6 +90,7 @@ export const dictionary = {
         currentValueLabel: 'Current: {value}',
         applySelected: 'Apply Selected',
         appliedSuccess: '{count} field(s) updated. Review them in the form before saving.',
+        newRecord: 'new entry #{n}',
       },
       sections: {
         personalInfo: 'Personal Information',
@@ -1105,6 +1106,7 @@ export const dictionary = {
         currentValueLabel: '当前值：{value}',
         applySelected: '应用选中项',
         appliedSuccess: '已更新 {count} 个字段，保存前请在表单里再确认一遍。',
+        newRecord: '新条目 #{n}',
       },
       sections: {
         personalInfo: '个人基本信息',

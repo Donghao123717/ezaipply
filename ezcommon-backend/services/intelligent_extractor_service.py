@@ -193,17 +193,20 @@ class IntelligentExtractorService:
 
         prompt = f"""You are an assistant that fills in a college application profile form from a student's uploaded documents.
 
-Below is the list of form fields available to fill in, as a JSON array. Each field has a "section" and "field" key - copy these EXACTLY as given, do not invent new ones.
+Below is the list of form fields available to fill in, as a JSON array. Each field has a "section" and "field" key - copy these EXACTLY as given, do not invent new ones. Some fields also have "repeatable": true - these belong to a list (e.g. one row per standardized test, activity, or award), and some of those also have a "nestedKey" - these belong to a sub-list nested inside their section (e.g. one row per parent/guardian, per language spoken, per other school attended).
 
 Fields:
 {schema_json}
 
 Read the document text below and extract a value for every field you can confidently determine. Skip any field you cannot determine with reasonable confidence - do not guess.
 
+For "repeatable" fields, the same document may describe multiple separate records (e.g. two different SAT test dates, or three different activities). Give every field belonging to the same record the same "item" number (starting at 0), and use a new "item" number for each distinct record. For non-repeatable fields, omit "item" or set it to 0.
+
 Return ONLY a JSON array (no markdown, no commentary) of objects with exactly these keys:
 - "section": copied exactly from the field list above
 - "field": copied exactly from the field list above
 - "value": the extracted value as a plain string. For "select"/"radio" fields, use one of that field's listed options exactly as written. For "checkbox-multi" fields, join multiple selected options with a comma.
+- "item": integer, only needed for "repeatable" fields as described above.
 
 Document text:
 \"\"\"
@@ -227,17 +230,26 @@ Document text:
             print(f"⚠ Could not parse field-suggestion LLM response as JSON: {content[:200]!r}")
             return {"suggestions": []}
 
-        valid_keys = {(f.get("section"), f.get("field")) for f in field_schema}
+        field_meta = {(f.get("section"), f.get("field")): f for f in field_schema}
         suggestions = []
-        for item in parsed:
-            if not isinstance(item, dict):
+        for entry in parsed:
+            if not isinstance(entry, dict):
                 continue
-            section = str(item.get("section", "")).strip()
-            field = str(item.get("field", "")).strip()
-            value = str(item.get("value", "")).strip()
-            if not value or (section, field) not in valid_keys:
+            section = str(entry.get("section", "")).strip()
+            field = str(entry.get("field", "")).strip()
+            value = str(entry.get("value", "")).strip()
+            meta = field_meta.get((section, field))
+            if not value or meta is None:
                 continue
-            suggestions.append({"section": section, "field": field, "value": value})
+            suggestion: Dict[str, Any] = {"section": section, "field": field, "value": value}
+            if meta.get("repeatable"):
+                try:
+                    suggestion["item"] = int(entry.get("item", 0) or 0)
+                except (TypeError, ValueError):
+                    suggestion["item"] = 0
+                if meta.get("nestedKey"):
+                    suggestion["nestedKey"] = meta["nestedKey"]
+            suggestions.append(suggestion)
 
         return {"suggestions": suggestions}
 
@@ -347,8 +359,8 @@ Document text:
     def _extract_text(self, filename: str, file_bytes: bytes) -> str:
         """
         Extract plain text from raw file bytes based on filename extension.
-        Best-effort: unsupported/binary formats (e.g. images) return an empty string
-        rather than raising, so callers can gracefully skip them.
+        Best-effort: unsupported/binary formats return an empty string rather
+        than raising, so callers can gracefully skip them.
         """
         ext = filename.rsplit(".", 1)[-1].lower() if "." in filename else ""
 
@@ -357,9 +369,9 @@ Document text:
                 return self._extract_text_from_pdf(file_bytes)
             elif ext in ("txt", "md", "csv"):
                 return file_bytes.decode("utf-8", errors="ignore")
+            elif ext in ("jpg", "jpeg", "png", "gif", "webp"):
+                return self._extract_text_from_image(filename, file_bytes, ext)
             else:
-                # Images and other binary formats are not text-extractable here;
-                # skip gracefully rather than failing the whole request.
                 print(f"[DEBUG] Unsupported file type for text extraction: .{ext} ({filename})")
                 return ""
         except Exception as e:
@@ -384,6 +396,53 @@ Document text:
             return "\n".join(text_parts)
         except Exception as e:
             print(f"⚠ Error reading PDF: {e}")
+            return ""
+
+    def _extract_text_from_image(self, filename: str, file_bytes: bytes, ext: str) -> str:
+        """
+        Transcribe an image's visible text/data using the vision-capable LLM
+        provider (e.g. a screenshotted score report or transcript), so it can
+        flow through the same text-based extraction prompt as PDFs/text files.
+        """
+        if not self.llm_provider:
+            return ""
+
+        import base64
+
+        b64_image = base64.b64encode(file_bytes).decode("utf-8")
+        mime_ext = "jpeg" if ext == "jpg" else ext
+
+        messages = [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": (
+                            f"Transcribe all text, labels, and data visible in this image "
+                            f"(filename: '{filename}'). Preserve labels next to their values "
+                            "(e.g. 'Test Date: ...', 'Total Score: ...', course names and "
+                            "grades in a table). Output plain text only, no commentary."
+                        ),
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": f"data:image/{mime_ext};base64,{b64_image}"},
+                    },
+                ],
+            }
+        ]
+
+        try:
+            response = self.llm_provider.chat_completion(
+                messages=messages,
+                temperature=0.0,
+                max_tokens=2048,
+                model=getattr(self.llm_provider, "vision_model", None),
+            )
+            return response.get("content", "") if isinstance(response, dict) else str(response)
+        except Exception as e:
+            print(f"⚠ Vision LLM call failed for '{filename}': {e}")
             return ""
 
     def _extract_structured_info(

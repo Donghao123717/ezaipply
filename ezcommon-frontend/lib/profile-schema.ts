@@ -567,24 +567,53 @@ export interface FieldSchemaEntry {
   label: string
   type: FieldType
   options?: string[]
+  /** True for a repeatable-list field (top-level repeatable section, or a nested repeatable inside a simple section). */
+  repeatable?: boolean
+  /** Set only when this field lives inside a `nestedRepeatables` list within a `simple` section (e.g. Family's Parent/Guardian). */
+  nestedKey?: string
 }
 
 /**
- * Flattens every simple-section field into a schema-aware list the backend's
+ * Flattens every profile field into a schema-aware list the backend's
  * document extraction endpoint can target directly (see
  * ezcommon-backend/services/intelligent_extractor_service.py
- * extract_field_suggestions). Only covers flat fields on `simple` sections -
- * repeatable sections and nested repeatables (Parent/Guardian, Languages,
- * etc.) need per-item context an LLM can't target this way, so they're left
- * out of auto-fill for now.
+ * extract_field_suggestions). Simple-section fields are flat targets;
+ * repeatable-section and nested-repeatable fields are marked `repeatable`
+ * so the LLM groups them per-record (via an `item` index) instead of
+ * merging them into a single flat object.
  */
 export function buildFieldSchema(t: (key: string) => string): FieldSchemaEntry[] {
   const entries: FieldSchemaEntry[] = []
   for (const section of PROFILE_SECTIONS) {
-    if (section.def.kind !== 'simple') continue
+    if (section.def.kind === 'repeatable') {
+      for (const field of section.def.fields) {
+        entries.push({
+          section: section.key,
+          field: field.key,
+          label: t(field.labelKey),
+          type: field.type,
+          options: field.options,
+          repeatable: true,
+        })
+      }
+      continue
+    }
     for (const group of section.def.groups) {
       for (const field of group.fields) {
         entries.push({ section: section.key, field: field.key, label: t(field.labelKey), type: field.type, options: field.options })
+      }
+    }
+    for (const nested of section.def.nestedRepeatables || []) {
+      for (const field of nested.fields) {
+        entries.push({
+          section: section.key,
+          field: field.key,
+          label: t(field.labelKey),
+          type: field.type,
+          options: field.options,
+          repeatable: true,
+          nestedKey: nested.key,
+        })
       }
     }
   }

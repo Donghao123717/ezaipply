@@ -14,6 +14,10 @@ interface FieldSuggestion {
   section: string
   field: string
   value: string
+  /** Present for repeatable-list fields: groups suggestions belonging to the same new record (e.g. one test sitting). */
+  item?: number
+  /** Present when the field belongs to a nested repeatable list within a simple section (e.g. Family's Parent/Guardian). */
+  nestedKey?: string
 }
 
 export function SuggestionsPanel({
@@ -38,7 +42,10 @@ export function SuggestionsPanel({
   const [applied, setApplied] = useState<number | null>(null)
 
   const fieldSchema = useMemo(() => buildFieldSchema(t), [t])
-  const labelFor = (s: FieldSuggestion) => fieldSchema.find((f) => f.section === s.section && f.field === s.field)?.label || s.field
+  const labelFor = (s: FieldSuggestion) => {
+    const base = fieldSchema.find((f) => f.section === s.section && f.field === s.field)?.label || s.field
+    return s.item !== undefined ? `${base} (${t('profile.suggestions.newRecord').replace('{n}', String(s.item + 1))})` : base
+  }
 
   useEffect(() => {
     const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
@@ -70,6 +77,10 @@ export function SuggestionsPanel({
       // Default-select only fields that are currently empty, so re-running never silently clobbers existing answers.
       const initialSelected = new Set<number>()
       results.forEach((s, i) => {
+        if (s.item !== undefined) {
+          initialSelected.add(i)
+          return
+        }
         const current = currentData[s.section]?.[s.field]
         if (!current || !current.trim()) initialSelected.add(i)
       })
@@ -153,9 +164,9 @@ export function SuggestionsPanel({
               </div>
               <div className="space-y-2">
                 {suggestions.map((s, i) => {
-                  const current = currentData[s.section]?.[s.field]
+                  const current = s.item === undefined ? currentData[s.section]?.[s.field] : undefined
                   return (
-                    <label key={`${s.section}.${s.field}`} className="flex items-start gap-3 rounded-lg border p-3 cursor-pointer">
+                    <label key={`${s.section}.${s.nestedKey || ''}.${s.item ?? ''}.${s.field}`} className="flex items-start gap-3 rounded-lg border p-3 cursor-pointer">
                       <input
                         type="checkbox"
                         checked={selected.has(i)}
