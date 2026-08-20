@@ -70,7 +70,7 @@ const DEGREE_OPTIONS = ['Less than high school', 'High school diploma', "Associa
 // Common App's real Personal Information part uses a couple hundred
 // countries and languages - we cover the common ones plus an "Other"
 // catch-all rather than reproducing the full lists.
-const COUNTRY_OPTIONS = [
+export const COUNTRY_OPTIONS = [
   'United States', 'China', 'India', 'South Korea', 'Japan', 'Canada', 'United Kingdom', 'Vietnam', 'Taiwan',
   'Hong Kong', 'Mexico', 'Brazil', 'Nigeria', 'Germany', 'France', 'Spain', 'Italy', 'Russia', 'Saudi Arabia',
   'United Arab Emirates', 'Turkey', 'Indonesia', 'Thailand', 'Philippines', 'Malaysia', 'Singapore', 'Pakistan',
@@ -252,6 +252,16 @@ export const PROFILE_SECTIONS: ProfileSectionMeta[] = [
             { key: 'yearsInUS', labelKey: 'profile.personalInfo.yearsInUS', type: 'number' },
           ],
         },
+        {
+          eyebrowKey: 'profile.personalInfo.travelDocumentsEyebrow',
+          additional: true,
+          fields: [
+            { key: 'passportNumber', labelKey: 'profile.personalInfo.passportNumber', type: 'text' },
+            { key: 'passportIssuanceCountry', labelKey: 'profile.personalInfo.passportIssuanceCountry', type: 'select', options: COUNTRY_OPTIONS },
+            { key: 'passportIssuanceDate', labelKey: 'profile.personalInfo.passportIssuanceDate', type: 'date' },
+            { key: 'passportExpirationDate', labelKey: 'profile.personalInfo.passportExpirationDate', type: 'date' },
+          ],
+        },
       ],
       nestedRepeatables: [
         {
@@ -297,6 +307,7 @@ export const PROFILE_SECTIONS: ProfileSectionMeta[] = [
             { key: 'highestEducation', labelKey: 'profile.family.educationLevel', type: 'select', options: DEGREE_OPTIONS },
             { key: 'firstName', labelKey: 'profile.family.firstName', type: 'text' },
             { key: 'lastName', labelKey: 'profile.family.lastName', type: 'text' },
+            { key: 'dateOfBirth', labelKey: 'profile.family.dateOfBirth', type: 'date' },
             { key: 'email', labelKey: 'profile.family.email', type: 'text' },
             { key: 'phoneType', labelKey: 'profile.family.phoneType', type: 'radio', options: PHONE_TYPE_OPTIONS },
             { key: 'phoneNumber', labelKey: 'profile.family.phoneNumber', type: 'text' },

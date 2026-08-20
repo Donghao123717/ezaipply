@@ -183,6 +183,10 @@ app.include_router(application_router)
 from forecast_api import router as forecast_router
 app.include_router(forecast_router)
 
+# Visa API
+from visa_api import router as visa_router
+app.include_router(visa_router)
+
 
 def _require_user(user_id: str) -> Dict[str, Any]:
     """Fetch a user or raise if not found."""
