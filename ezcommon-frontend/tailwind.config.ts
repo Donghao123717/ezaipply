@@ -78,6 +78,14 @@ const config: Config = {
         shimmer: {
           '100%': { transform: 'translateX(100%)' },
         },
+        marquee: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-50%)' },
+        },
+        'draw-line': {
+          from: { strokeDashoffset: '1000' },
+          to: { strokeDashoffset: '0' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -86,6 +94,8 @@ const config: Config = {
         'fade-out-right': 'fade-out-right 0.25s ease-in both',
         'slide-up-in': 'slide-up-in 0.25s cubic-bezier(0.22, 1, 0.36, 1) both',
         shimmer: 'shimmer 1.6s infinite',
+        marquee: 'marquee 40s linear infinite',
+        'draw-line': 'draw-line 1.8s ease-out forwards',
       },
     },
   },

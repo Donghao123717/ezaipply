@@ -86,7 +86,7 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
       if (!res.ok) throw new Error(data?.detail || 'Request failed')
       const next = [
         ...history,
-        { role: 'assistant' as const, content: data.response, links: data.links || [] },
+        { role: 'assistant' as const, content: data.response, links: data.links || [], reasoning: data.reasoning || [] },
       ]
       setMessagesByTab((prev) => ({ ...prev, [tab]: next }))
       saveCounselorChat(userId, tab, next)

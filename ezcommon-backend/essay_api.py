@@ -7,7 +7,7 @@ import os
 import re
 from typing import Any, Dict, List, Optional
 
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, File, HTTPException, UploadFile, status
 from pydantic import BaseModel
 
 from services.llm_providers import LLMProviderFactory
@@ -441,3 +441,90 @@ async def adapt_essay(body: AdaptRequest):
         raise
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
+
+# --- Essay import -----------------------------------------------------------
+# Students arrive with essays already written in Word or exported to PDF.
+# Importing them turns that existing work into reuse sources instead of asking
+# them to paste text into the editor by hand.
+
+import io
+
+MAX_IMPORT_BYTES = 5 * 1024 * 1024
+
+
+class ImportResponse(BaseModel):
+    text: str
+    word_count: int
+    filename: str
+
+
+def _text_from_docx(data: bytes) -> str:
+    from docx import Document
+
+    document = Document(io.BytesIO(data))
+    return "\n\n".join(p.text for p in document.paragraphs if p.text.strip())
+
+
+def _text_from_pdf(data: bytes) -> str:
+    from PyPDF2 import PdfReader
+
+    reader = PdfReader(io.BytesIO(data))
+    parts = []
+    for page in reader.pages:
+        try:
+            parts.append(page.extract_text() or "")
+        except Exception:
+            continue
+    return "\n".join(p for p in parts if p)
+
+
+@router.post("/api/essay/import", response_model=ImportResponse, tags=["Essay"])
+async def import_essay(file: UploadFile = File(...)):
+    """Pull the plain text out of an essay the student already wrote."""
+    data = await file.read()
+    if not data:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="The file is empty")
+    if len(data) > MAX_IMPORT_BYTES:
+        raise HTTPException(
+            status_code=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+            detail="Essay files are limited to 5 MB",
+        )
+
+    name = file.filename or "essay"
+    ext = name.rsplit(".", 1)[-1].lower() if "." in name else ""
+
+    try:
+        if ext == "docx":
+            text = _text_from_docx(data)
+        elif ext == "pdf":
+            text = _text_from_pdf(data)
+        elif ext in {"txt", "md"}:
+            text = data.decode("utf-8", errors="ignore")
+        elif ext == "doc":
+            # Legacy binary .doc isn't a format we can read reliably.
+            raise HTTPException(
+                status_code=status.HTTP_415_UNSUPPORTED_MEDIA_TYPE,
+                detail="Please save this as .docx or PDF and import again",
+            )
+        else:
+            raise HTTPException(
+                status_code=status.HTTP_415_UNSUPPORTED_MEDIA_TYPE,
+                detail="Import supports .docx, .pdf, .txt and .md files",
+            )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail=f"Could not read that file: {e}",
+        )
+
+    text = re.sub(r"\n{3,}", "\n\n", text).strip()
+    if not text:
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail="No text found in that file - if it's a scanned PDF, paste the text instead",
+        )
+
+    return ImportResponse(text=text, word_count=len(text.split()), filename=name)

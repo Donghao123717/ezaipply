@@ -16,24 +16,72 @@ export interface ForecastRecord {
   schools: SchoolForecast[]
 }
 
+/** A past refresh, kept so the student can see which way their odds are moving. */
+export interface ForecastSnapshot {
+  generatedAt: string
+  portfolioChance: number
+  schools: { id: string; chance: number }[]
+}
+
+interface StoredForecast {
+  record: ForecastRecord | null
+  history: ForecastSnapshot[]
+}
+
+/** Enough to show a trend without letting one user's key grow forever. */
+const MAX_HISTORY = 12
+
 function forecastKey(userId: string) {
   return `aipply-forecast-${userId}`
 }
 
-export function loadForecast(userId: string): ForecastRecord | null {
+function readStored(userId: string): StoredForecast {
   try {
     const raw = window.localStorage.getItem(forecastKey(userId))
-    return raw ? JSON.parse(raw) : null
+    if (!raw) return { record: null, history: [] }
+    const parsed = JSON.parse(raw)
+    // Forecasts saved before history existed are a bare record.
+    if (parsed && Array.isArray(parsed.schools)) {
+      return { record: parsed as ForecastRecord, history: [] }
+    }
+    return {
+      record: parsed?.record ?? null,
+      history: Array.isArray(parsed?.history) ? parsed.history : [],
+    }
   } catch {
-    return null
+    return { record: null, history: [] }
   }
 }
 
-export function saveForecast(userId: string, record: ForecastRecord) {
+export function loadForecast(userId: string): ForecastRecord | null {
+  return readStored(userId).record
+}
+
+export function loadForecastHistory(userId: string): ForecastSnapshot[] {
+  return readStored(userId).history
+}
+
+export function saveForecast(userId: string, record: ForecastRecord, portfolioChance: number) {
+  const { history } = readStored(userId)
+  const snapshot: ForecastSnapshot = {
+    generatedAt: record.generatedAt,
+    portfolioChance,
+    schools: record.schools.map((s) => ({ id: s.id, chance: s.chance })),
+  }
+  const next: StoredForecast = {
+    record,
+    history: [...history, snapshot].slice(-MAX_HISTORY),
+  }
   const key = forecastKey(userId)
-  const value = JSON.stringify(record)
+  const value = JSON.stringify(next)
   window.localStorage.setItem(key, value)
   queueUserStateSync(key, value)
+}
+
+/** The chance for each school at the previous refresh, for the delta column. */
+export function previousChances(history: ForecastSnapshot[]): Map<string, number> {
+  const previous = history.length >= 2 ? history[history.length - 2] : null
+  return new Map(previous ? previous.schools.map((s) => [s.id, s.chance]) : [])
 }
 
 /** Cheap way to detect "your profile/list/essays changed since this forecast" without deep diffing. */

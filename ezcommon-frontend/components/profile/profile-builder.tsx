@@ -15,6 +15,7 @@ import { SuggestionsPanel } from '@/components/profile/suggestions-panel'
 import { FilesPanel } from '@/components/profile/files-panel'
 import { useT } from '@/lib/i18n/use-t'
 import { queueUserStateSync } from '@/lib/user-state-sync'
+import { ProfileAdvanced } from '@/components/profile/profile-advanced'
 
 type SimpleData = Record<string, any>
 type RepeatableData = Record<string, string>[]
@@ -289,6 +290,13 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
             {t('profile.filesCount').replace('{count}', String(fileCount))}
             <span className="text-primary font-medium ml-1">{t('profile.manage')}</span>
           </button>
+
+          <ProfileAdvanced
+            userId={userId}
+            data={data}
+            firstName={defaultFirstName}
+            lastName={defaultLastName}
+          />
         </aside>
 
         <div>

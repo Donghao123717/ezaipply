@@ -3,10 +3,12 @@ import { authOptions } from '@/lib/auth'
 import { redirect } from 'next/navigation'
 import { AppLayout } from '@/components/layout/app-layout'
 import { HomeContent } from '@/components/home/home-content'
+import { LandingPage } from '@/components/landing/landing-page'
 
 export default async function HomePage() {
   const session = await getServerSession(authOptions)
-  if (!session) redirect('/auth/login')
+  // Visitors get the public landing page here; signed-in students get the app.
+  if (!session) return <LandingPage />
 
   const user: any = session.user || {}
   const role: string = user.role ?? 'student'

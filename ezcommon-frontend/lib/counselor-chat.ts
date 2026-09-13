@@ -12,6 +12,8 @@ export interface CounselorMessage {
   content: string
   /** Pages the counselor is sending the student to, rendered as chips under the reply. */
   links?: CounselorActionLink[]
+  /** What the counselor checked before answering, shown in a collapsed row. */
+  reasoning?: string[]
 }
 
 function chatKey(userId: string, tab: CounselorTab) {

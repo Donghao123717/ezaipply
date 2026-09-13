@@ -130,6 +130,7 @@ class CounselorChatResponse(BaseModel):
     response: str
     note: Optional[str] = None
     links: List[ActionLink] = Field(default_factory=list)
+    reasoning: List[str] = Field(default_factory=list)
 
 
 @router.post("/api/counselor/chat", response_model=CounselorChatResponse, tags=["Counselor"])
@@ -161,6 +162,9 @@ async def counselor_chat(body: CounselorChatRequest):
         "student's actual profile and school list below - if something you need is missing, say plainly "
         "that it is missing rather than assuming it.\n\n"
         "Return JSON with:\n"
+        "- reasoning: 2-4 short steps, max 8 words each, naming what you actually checked to answer "
+        "this (e.g. 'Read their school list', 'Compared GPA to Duke's range'). Say what you looked at, "
+        "not what you concluded - the student can read the conclusion in the reply itself.\n"
         "- response: your reply to the student\n"
         "- note: a single durable fact or decision from THIS exchange worth adding to the shared case "
         "file (e.g. an intended major, a school they ruled out, a constraint like cost or location). "
@@ -169,7 +173,8 @@ async def counselor_chat(body: CounselorChatRequest):
         f"- links: up to 2 pages to send the student to, each {{\"label\": \"...\", \"page\": \"...\"}} where "
         f"page is one of: {', '.join(ALLOWED_LINKS)}. Only include a page when your advice genuinely "
         "asks them to go do something there. Use [] otherwise.\n\n"
-        'Respond ONLY with JSON: {"response": "...", "note": "..." or null, "links": []}'
+        'Respond ONLY with JSON: {"reasoning": ["..."], "response": "...", '
+        '"note": "..." or null, "links": []}'
     )
 
     context_block = (
@@ -193,7 +198,7 @@ async def counselor_chat(body: CounselorChatRequest):
         if not isinstance(parsed, dict) or not parsed.get("response"):
             # A specialist that answers in prose is still useful - keep the reply,
             # just without a note or links this turn.
-            return CounselorChatResponse(response=raw["content"].strip(), note=None, links=[])
+            return CounselorChatResponse(response=raw["content"].strip(), note=None, links=[], reasoning=[])
 
         note = parsed.get("note")
         note_text = str(note).strip() if note else ""
@@ -209,10 +214,17 @@ async def counselor_chat(body: CounselorChatRequest):
             if href and label:
                 links.append(ActionLink(label=label, href=href))
 
+        reasoning = [
+            str(step).strip()
+            for step in parsed.get("reasoning", [])[:4]
+            if isinstance(step, (str, int, float)) and str(step).strip()
+        ]
+
         return CounselorChatResponse(
             response=str(parsed["response"]).strip(),
             note=note_text or None,
             links=links,
+            reasoning=reasoning,
         )
     except HTTPException:
         raise

@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
-import { ArrowUpRight, History, Loader2, MessageCircle, Paperclip, Send, X, Zap } from 'lucide-react'
+import { ArrowUpRight, ChevronRight, History, Loader2, MessageCircle, Paperclip, Send, X, Zap } from 'lucide-react'
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { useT } from '@/lib/i18n/use-t'
 import type { CounselorMessage, CounselorTab } from '@/lib/counselor-chat'
@@ -17,6 +17,38 @@ const PERSONAS: PersonaMeta[] = [
   { tab: 'essay', dictKey: 'essay' },
   { tab: 'coordinator', dictKey: 'coordinator' },
 ]
+
+/** What the counselor checked before answering - collapsed, because it is
+ * context for a doubtful reader rather than part of the answer. */
+function ReasoningRow({ steps, label }: { steps: string[]; label: string }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="mb-1.5">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        className="inline-flex items-center gap-1 text-[11px] text-muted-foreground hover:text-foreground transition-colors"
+      >
+        <ChevronRight className={`h-3 w-3 transition-transform ${open ? 'rotate-90' : ''}`} />
+        {label}
+      </button>
+      {open && (
+        <ol className="mt-1 ml-4 space-y-0.5 border-l pl-3">
+          {steps.map((step, i) => (
+            <li
+              key={i}
+              style={{ animationDelay: `${i * 50}ms` }}
+              className="text-[11px] text-muted-foreground animate-fade-in-up motion-reduce:animate-none"
+            >
+              {step}
+            </li>
+          ))}
+        </ol>
+      )}
+    </div>
+  )
+}
 
 export function TeamChat({
   activeTab,
@@ -135,6 +167,9 @@ export function TeamChat({
           <div className="space-y-3 max-w-2xl mx-auto">
             {messages.map((m, i) => (
               <div key={i} className={m.role === 'user' ? 'ml-10' : 'mr-10'}>
+                {m.role === 'assistant' && m.reasoning && m.reasoning.length > 0 && (
+                  <ReasoningRow steps={m.reasoning} label={t('counselor.chat.reasoning')} />
+                )}
                 <div
                   className={`text-sm rounded-xl px-4 py-2.5 whitespace-pre-wrap animate-fade-in-up motion-reduce:animate-none ${
                     m.role === 'user' ? 'bg-secondary text-secondary-foreground' : 'bg-muted'

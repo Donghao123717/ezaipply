@@ -4,6 +4,8 @@ import { Checklist, type ChecklistItem } from '@/components/home/checklist'
 import { PromoCarousel } from '@/components/home/promo-carousel'
 import { RecentWork } from '@/components/home/recent-work'
 import { VisaHome } from '@/components/home/visa-home'
+import { ProductTour } from '@/components/home/product-tour'
+import { AppFooter } from '@/components/layout/app-footer'
 import { useMode } from '@/lib/app-mode'
 
 const STUDY_CHECKLIST: ChecklistItem[] = [
@@ -18,25 +20,37 @@ export function HomeContent({ userId, firstName }: { userId: string; firstName: 
 
   if (mode === 'visa') {
     return (
-      <div className="max-w-6xl mx-auto px-6 py-10">
-        <HomeGreeting firstName={firstName} />
-        <div className="mt-8">
-          <VisaHome userId={userId} />
+      <>
+        <div className="max-w-6xl mx-auto px-6 py-10">
+          <div className="flex items-start justify-between gap-4">
+            <HomeGreeting firstName={firstName} />
+            <ProductTour userId={userId} />
+          </div>
+          <div className="mt-8">
+            <VisaHome userId={userId} />
+          </div>
         </div>
-      </div>
+        <AppFooter />
+      </>
     )
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-10 grid lg:grid-cols-[1fr_320px] gap-10">
-      <div className="space-y-8 min-w-0">
-        <HomeGreeting firstName={firstName} />
-        <Checklist items={STUDY_CHECKLIST} userId={userId} />
-        <PromoCarousel initialIndex={2} />
+    <>
+      <div className="max-w-6xl mx-auto px-6 py-10 grid lg:grid-cols-[1fr_320px] gap-10">
+        <div className="space-y-8 min-w-0">
+          <div className="flex items-start justify-between gap-4">
+            <HomeGreeting firstName={firstName} />
+            <ProductTour userId={userId} />
+          </div>
+          <Checklist items={STUDY_CHECKLIST} userId={userId} />
+          <PromoCarousel initialIndex={2} />
+        </div>
+        <div>
+          <RecentWork userId={userId} />
+        </div>
       </div>
-      <div>
-        <RecentWork userId={userId} />
-      </div>
-    </div>
+      <AppFooter />
+    </>
   )
 }

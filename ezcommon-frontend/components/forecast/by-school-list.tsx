@@ -1,5 +1,6 @@
 "use client"
 import { useMemo, useState } from 'react'
+import { ArrowDownRight, ArrowUpRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { SavedCollege, CollegeCategory } from '@/lib/college-store'
 import { CATEGORY_LABEL_KEY } from '@/lib/college-store'
@@ -15,11 +16,14 @@ export function BySchoolList({
   forecasts,
   selectedId,
   onSelect,
+  previous,
 }: {
   colleges: SavedCollege[]
   forecasts: Map<string, SchoolForecast>
   selectedId: string | null
   onSelect: (id: string) => void
+  /** Each school's chance at the previous refresh, for the change column. */
+  previous: Map<string, number>
 }) {
   const t = useT()
   const [sortMode, setSortMode] = useState<SortMode>('category')
@@ -44,12 +48,21 @@ export function BySchoolList({
         return a.deadline < b.deadline ? -1 : 1
       })
     }
-    if (sortMode === 'change') copy.sort((a, b) => a.name.localeCompare(b.name))
+    if (sortMode === 'change') {
+      const shift = (c: SavedCollege) => {
+        const before = previous.get(c.id)
+        const now = forecasts.get(c.id)?.chance
+        return before === undefined || now === undefined ? -1 : Math.abs(now - before)
+      }
+      copy.sort((a, b) => shift(b) - shift(a))
+    }
     return copy
-  }, [colleges, forecasts, sortMode])
+  }, [colleges, forecasts, sortMode, previous])
 
   function renderRow(college: SavedCollege) {
     const forecast = forecasts.get(college.id)
+    const before = previous.get(college.id)
+    const delta = forecast && before !== undefined ? forecast.chance - before : null
     const isSelected = college.id === selectedId
     return (
       <button
@@ -71,7 +84,20 @@ export function BySchoolList({
           )}
         </div>
         <div className="text-right shrink-0">
-          <p className="text-sm font-semibold text-primary">{forecast ? `${forecast.chance}%` : '—'}</p>
+          <div className="flex items-center justify-end gap-1.5">
+            <p className="text-sm font-semibold text-primary tabular-nums">{forecast ? `${forecast.chance}%` : '—'}</p>
+            {delta !== null && delta !== 0 && (
+              <span
+                className={cn(
+                  'inline-flex items-center text-[11px] font-medium tabular-nums',
+                  delta > 0 ? 'text-emerald-600' : 'text-amber-700',
+                )}
+              >
+                {delta > 0 ? <ArrowUpRight className="h-3 w-3" /> : <ArrowDownRight className="h-3 w-3" />}
+                {Math.abs(delta)}
+              </span>
+            )}
+          </div>
           <p className="text-xs text-muted-foreground">
             {college.deadline ? new Date(college.deadline).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '—'}
           </p>

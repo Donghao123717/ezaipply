@@ -11,6 +11,7 @@ import { EssayCoachPanel } from '@/components/writing/essay-coach-panel'
 import { EssayEvaluation } from '@/components/writing/essay-evaluation'
 import { AcrossEssays } from '@/components/writing/across-essays'
 import { EssayReuse } from '@/components/writing/essay-reuse'
+import { VersionHistory } from '@/components/writing/version-history'
 import { useT } from '@/lib/i18n/use-t'
 
 export function WritingWorkspace({ userId }: { userId: string }) {
@@ -87,6 +88,12 @@ export function WritingWorkspace({ userId }: { userId: string }) {
               <h1 className="text-2xl font-semibold text-primary">{essayTaskTitle(task, t)}</h1>
               <p className="text-sm text-muted-foreground">{t('writing.wordsMax').replace('{count}', String(task.wordLimit))}</p>
             </div>
+            <VersionHistory
+              userId={userId}
+              taskId={activeId}
+              html={html}
+              onRestore={(restored) => persist(restored, promptId || null)}
+            />
           </div>
 
           <div className="grid lg:grid-cols-[1fr_320px] gap-6 items-start">

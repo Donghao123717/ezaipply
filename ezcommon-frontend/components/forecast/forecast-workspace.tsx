@@ -8,7 +8,18 @@ import { loadProfileContext } from '@/lib/essay-store'
 import { computeProfileStrength } from '@/lib/profile-strength'
 import { computeStudentScores } from '@/lib/student-scores'
 import { SCHOOL_ADMISSIONS_DATA } from '@/lib/school-admissions-data'
-import { loadForecast, saveForecast, computeSignature, timeAgo, type ForecastRecord, type SchoolForecast } from '@/lib/forecast-store'
+import {
+  loadForecast,
+  loadForecastHistory,
+  previousChances,
+  saveForecast,
+  computeSignature,
+  timeAgo,
+  type ForecastRecord,
+  type ForecastSnapshot,
+  type SchoolForecast,
+} from '@/lib/forecast-store'
+import { portfolioChance } from '@/lib/portfolio-chance'
 import { OverallChance } from '@/components/forecast/overall-chance'
 import { BySchoolList } from '@/components/forecast/by-school-list'
 import { SchoolDetail } from '@/components/forecast/school-detail'
@@ -18,6 +29,7 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
   const t = useT()
   const [colleges, setColleges] = useState<SavedCollege[]>([])
   const [forecast, setForecast] = useState<ForecastRecord | null>(null)
+  const [history, setHistory] = useState<ForecastSnapshot[]>([])
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [generating, setGenerating] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -28,6 +40,7 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
     setColleges(loadedColleges)
     setSelectedId(loadedColleges[0]?.id ?? null)
     setForecast(loadForecast(userId))
+    setHistory(loadForecastHistory(userId))
     setReady(true)
   }, [userId])
 
@@ -95,8 +108,9 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
           recommendation: s.recommendation,
         })),
       }
-      saveForecast(userId, record)
+      saveForecast(userId, record, portfolioChance(record.schools.map((s) => s.chance)))
       setForecast(record)
+      setHistory(loadForecastHistory(userId))
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Something went wrong')
     } finally {
@@ -163,10 +177,16 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
             </div>
           )}
 
-          <OverallChance colleges={colleges} schools={forecast.schools} />
+          <OverallChance colleges={colleges} schools={forecast.schools} history={history} />
 
           <div className="grid lg:grid-cols-[1fr_1fr] gap-6 items-start">
-            <BySchoolList colleges={colleges} forecasts={forecastMap} selectedId={selectedId} onSelect={setSelectedId} />
+            <BySchoolList
+              colleges={colleges}
+              forecasts={forecastMap}
+              selectedId={selectedId}
+              onSelect={setSelectedId}
+              previous={previousChances(history)}
+            />
             <SchoolDetail college={selectedCollege} forecast={selectedForecast} />
           </div>
         </>
