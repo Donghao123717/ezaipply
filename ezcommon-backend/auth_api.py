@@ -187,6 +187,18 @@ app.include_router(forecast_router)
 from visa_api import router as visa_router
 app.include_router(visa_router)
 
+# User State API (per-user app data, synced across devices)
+from user_state_api import router as user_state_router
+app.include_router(user_state_router)
+
+# Colleges API (AI school recommendations for student review)
+from colleges_api import router as colleges_router
+app.include_router(colleges_router)
+
+# Counselor API (four specialists sharing one case file)
+from counselor_api import router as counselor_router
+app.include_router(counselor_router)
+
 
 def _require_user(user_id: str) -> Dict[str, Any]:
     """Fetch a user or raise if not found."""
@@ -541,6 +553,11 @@ class LoginRequest(BaseModel):
     login_type: Optional[str] = Field(None, description="student or org for front-end gating")
 
 
+class PasswordlessLoginRequest(BaseModel):
+    email: EmailStr
+    display_name: Optional[str] = Field(None, max_length=200, description="Name shown in the app")
+
+
 class RefreshRequest(BaseModel):
     refresh_token: Optional[str] = Field(None, description="Refresh token (falls back to cookie)")
 
@@ -757,6 +774,38 @@ def login(body: LoginRequest, response: Response):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email or password"
+        )
+
+    return _build_token_response(user, response)
+
+
+@app.post(
+    "/api/auth/passwordless",
+    response_model=TokenResponse,
+    tags=["Authentication"]
+)
+def passwordless_login(body: PasswordlessLoginRequest, response: Response):
+    """
+    Sign in with an email address only, creating the account on first use.
+
+    Each visitor gets their own user id, so uploaded files and saved answers
+    stay scoped to them. Emails that already belong to a password-protected or
+    organization account are rejected.
+    """
+    parts = (body.display_name or "").strip().split(maxsplit=1)
+    first_name = parts[0] if parts else ""
+    last_name = parts[1] if len(parts) > 1 else ""
+
+    user = user_service.get_or_create_passwordless_user(
+        email=body.email,
+        first_name=first_name,
+        last_name=last_name,
+    )
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT,
+            detail="This email is registered with a password. Sign in with your password instead.",
         )
 
     return _build_token_response(user, response)

@@ -1,3 +1,5 @@
+import { queueUserStateSync } from '@/lib/user-state-sync'
+
 export interface VisaChatMessage {
   role: 'user' | 'assistant'
   content: string
@@ -17,5 +19,8 @@ export function loadVisaChat(userId: string): VisaChatMessage[] {
 }
 
 export function saveVisaChat(userId: string, messages: VisaChatMessage[]) {
-  window.localStorage.setItem(chatKey(userId), JSON.stringify(messages))
+  const key = chatKey(userId)
+  const value = JSON.stringify(messages)
+  window.localStorage.setItem(key, value)
+  queueUserStateSync(key, value)
 }

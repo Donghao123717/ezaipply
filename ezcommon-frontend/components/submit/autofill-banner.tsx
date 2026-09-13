@@ -1,8 +1,9 @@
 "use client"
 import { useState } from 'react'
-import { Check, ChevronDown, ChevronUp, Copy, Puzzle } from 'lucide-react'
+import { Check, ChevronDown, ChevronUp, Copy, Loader2, Puzzle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { buildAutofillExport } from '@/lib/autofill-export'
+import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n/use-t'
 
 function withCode(template: string, code: string) {
@@ -16,16 +17,49 @@ function withCode(template: string, code: string) {
   )
 }
 
+type SyncState = 'idle' | 'syncing' | 'synced' | 'notInstalled'
+
 export function AutofillBanner({ userId }: { userId: string }) {
   const t = useT()
   const [copied, setCopied] = useState(false)
   const [showInstructions, setShowInstructions] = useState(false)
+  const [sync, setSync] = useState<SyncState>('idle')
+  const [syncedCount, setSyncedCount] = useState(0)
 
   async function copyExport() {
     const fields = buildAutofillExport(userId)
     await navigator.clipboard.writeText(JSON.stringify(fields, null, 2))
     setCopied(true)
     window.setTimeout(() => setCopied(false), 2000)
+  }
+
+  /**
+   * Hands the export straight to the extension's content script. Silence means
+   * the extension isn't installed, so we fall back to the copy-paste route
+   * instead of leaving the student waiting on a reply that never comes.
+   */
+  function syncToExtension() {
+    setSync('syncing')
+    const fields = buildAutofillExport(userId)
+
+    const timeout = window.setTimeout(() => {
+      window.removeEventListener('message', onReply)
+      setSync('notInstalled')
+      setShowInstructions(true)
+    }, 1200)
+
+    function onReply(event: MessageEvent) {
+      if (event.source !== window || event.origin !== window.location.origin) return
+      if ((event.data as any)?.type !== 'AIPPLY_SYNC_OK') return
+      window.clearTimeout(timeout)
+      window.removeEventListener('message', onReply)
+      setSyncedCount(Number((event.data as any).count) || 0)
+      setSync('synced')
+      window.setTimeout(() => setSync('idle'), 3000)
+    }
+
+    window.addEventListener('message', onReply)
+    window.postMessage({ type: 'AIPPLY_SYNC', fields }, window.location.origin)
   }
 
   return (
@@ -44,6 +78,19 @@ export function AutofillBanner({ userId }: { userId: string }) {
           </div>
         </div>
         <div className="flex items-center gap-2 shrink-0">
+          <Button
+            size="sm"
+            variant="secondary"
+            onClick={syncToExtension}
+            disabled={sync === 'syncing'}
+            className={cn(sync === 'synced' && 'bg-emerald-100 text-emerald-800 hover:bg-emerald-100')}
+          >
+            {sync === 'syncing' && <Loader2 className="h-3.5 w-3.5 mr-2 animate-spin" />}
+            {sync === 'synced' && <Check className="h-3.5 w-3.5 mr-2" />}
+            {sync === 'synced'
+              ? t('submit.autofill.synced').replace('{count}', String(syncedCount))
+              : t('submit.autofill.sync')}
+          </Button>
           <Button
             size="sm"
             variant="secondary"
@@ -73,7 +120,10 @@ export function AutofillBanner({ userId }: { userId: string }) {
       </div>
 
       {showInstructions && (
-        <div className="mt-4 pt-4 border-t border-white/15 text-sm text-primary-foreground/90 space-y-2">
+        <div className="mt-4 pt-4 border-t border-white/15 text-sm text-primary-foreground/90 space-y-2 animate-fade-in-up motion-reduce:animate-none">
+          {sync === 'notInstalled' && (
+            <p className="rounded-lg bg-white/10 px-3 py-2 text-xs">{t('submit.autofill.notInstalled')}</p>
+          )}
           <p className="font-medium">{t('submit.autofill.devBuildNote')}</p>
           <ol className="list-decimal list-inside space-y-1 text-primary-foreground/80">
             <li>{withCode(t('submit.autofill.step1'), 'browser-extension/')}</li>

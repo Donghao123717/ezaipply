@@ -11,6 +11,11 @@ const credentialsSchema = z.object({
   login_type: z.union([z.literal('student'), z.literal('org')]).optional(),
 })
 
+const passwordlessSchema = z.object({
+  email: z.string().email(),
+  display_name: z.string().max(200).optional(),
+})
+
 type TokenResponse = {
   access_token: string
   refresh_token: string
@@ -95,6 +100,44 @@ export const authOptions: NextAuthOptions = {
             accessToken: (data as any)?.access_token,
             refreshToken: (data as any)?.refresh_token,
             accessTokenExpiresIn: (data as any)?.expires_in,
+          } as any
+        } catch {
+          return null
+        }
+      },
+    }),
+    CredentialsProvider({
+      id: 'passwordless',
+      name: 'Email',
+      credentials: {
+        email: { label: 'Email', type: 'email' },
+        display_name: { label: 'Name', type: 'text' },
+      },
+      authorize: async (raw) => {
+        const parsed = passwordlessSchema.safeParse(raw)
+        if (!parsed.success) return null
+        const base = process.env.BACKEND_URL || 'http://127.0.0.1:8000'
+
+        try {
+          const res = await fetch(`${base}/api/auth/passwordless`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(parsed.data),
+          })
+          if (!res.ok) return null
+          const data = (await res.json()) as TokenResponse
+          const userPayload: any = data?.user ?? data
+
+          return {
+            id: userPayload.id,
+            email: userPayload.email,
+            name: [userPayload.first_name, userPayload.last_name].filter(Boolean).join(' '),
+            remember: true,
+            role: userPayload.role ?? 'student',
+            orgId: userPayload.org_id ?? null,
+            accessToken: data?.access_token,
+            refreshToken: data?.refresh_token,
+            accessTokenExpiresIn: data?.expires_in,
           } as any
         } catch {
           return null

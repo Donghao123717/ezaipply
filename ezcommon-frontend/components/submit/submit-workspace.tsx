@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from 'react'
-import { loadColleges, saveColleges, type SavedCollege } from '@/lib/college-store'
+import { loadColleges, saveColleges, type ApplicationCycle, type SavedCollege } from '@/lib/college-store'
 import { SubmitHeader } from '@/components/submit/submit-header'
 import { AutofillBanner } from '@/components/submit/autofill-banner'
 import { PortalCards } from '@/components/submit/portal-cards'
@@ -19,13 +19,19 @@ export function SubmitWorkspace({ userId, firstName }: { userId: string; firstNa
     saveColleges(userId, next)
   }
 
+  function changeCycle(id: string, cycle: ApplicationCycle) {
+    const next = colleges.map((c) => (c.id === id ? { ...c, cycle } : c))
+    setColleges(next)
+    saveColleges(userId, next)
+  }
+
   return (
     <div className="max-w-6xl mx-auto px-6 py-8">
       <SubmitHeader firstName={firstName} colleges={colleges} />
       <AutofillBanner userId={userId} />
       <div className="mt-6">
         <PortalCards colleges={colleges} />
-        <ApplicationsList colleges={colleges} onToggleSubmitted={toggleSubmitted} />
+        <ApplicationsList colleges={colleges} onToggleSubmitted={toggleSubmitted} onChangeCycle={changeCycle} />
       </div>
     </div>
   )

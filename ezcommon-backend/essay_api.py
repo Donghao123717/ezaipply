@@ -232,3 +232,212 @@ async def evaluate_essay(body: EvaluateRequest):
         raise
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
+
+# --- Essay reuse ------------------------------------------------------------
+# One strong essay usually answers several schools' prompts with edits rather
+# than a rewrite. These endpoints find those overlaps and perform the rewrite,
+# so a student's College List starts from what they have already written.
+
+
+class WrittenEssay(BaseModel):
+    task_id: str
+    title: str
+    prompt: str = ""
+    text: str
+    word_count: int = 0
+
+
+class TargetPrompt(BaseModel):
+    task_id: str
+    title: str
+    school: str = ""
+    prompt: str = ""
+    word_limit: int = 650
+
+
+class ReuseRequest(BaseModel):
+    written: List[WrittenEssay] = []
+    targets: List[TargetPrompt] = []
+
+
+class ReuseMatch(BaseModel):
+    source_task_id: str
+    target_task_id: str
+    score: int
+    reason: str
+
+
+class NextUp(BaseModel):
+    task_id: str
+    reason: str
+    unlocks: int = 0
+
+
+class ReuseResponse(BaseModel):
+    matches: List[ReuseMatch]
+    next_up: Optional[NextUp] = None
+
+
+@router.post("/api/essay/reuse-matches", response_model=ReuseResponse, tags=["Essay"])
+async def reuse_matches(body: ReuseRequest):
+    """Score how far each finished essay carries toward each unwritten prompt."""
+    _require_llm()
+
+    if not body.written or not body.targets:
+        return ReuseResponse(matches=[], next_up=None)
+
+    written_block = "\n\n".join(
+        f'[{e.task_id}] "{e.title}"\n'
+        f'Prompt it answers: {e.prompt or "(no prompt recorded)"}\n'
+        f"Essay ({e.word_count} words):\n{e.text[:2500]}"
+        for e in body.written
+    )
+    target_block = "\n".join(
+        f'[{t.task_id}] {t.school + " - " if t.school else ""}{t.title} '
+        f'({t.word_limit} words max): {t.prompt or "(prompt text not published - treat as a general supplement)"}'
+        for t in body.targets
+    )
+
+    system_prompt = (
+        "You help a student reuse essays they have ALREADY written across the other prompts on their "
+        "college list. You never write new content here - you only judge overlap.\n\n"
+        "For every (written essay, unwritten prompt) pair that is genuinely reusable, return a match with:\n"
+        "- score: integer 0-100, how much of the existing essay survives an adaptation. Be strict and "
+        "realistic: 70+ means the core story and structure carry over with light edits; 40-69 means a "
+        "substantial rewrite reusing the same material; below 40 is NOT worth reporting, so omit it.\n"
+        "- reason: ONE sentence, max 20 words, naming the shared element (the story, theme, or evidence) "
+        "and what would have to change.\n\n"
+        "Omit pairs that are not genuinely reusable - returning nothing is correct when the prompts are "
+        "unrelated. Never report a match above 85 unless the two prompts ask for essentially the same thing.\n\n"
+        "Then pick ONE unwritten prompt as 'next_up': the one that, once written, would unlock the most "
+        "reuse across the remaining prompts (prefer prompts shared by several schools, or broad personal "
+        "topics that feed narrower ones). Give a 'reason' (max 20 words) and 'unlocks' = how many OTHER "
+        "unwritten prompts it would likely help with.\n\n"
+        'Respond ONLY with JSON: {"matches": [{"source_task_id": "...", "target_task_id": "...", '
+        '"score": N, "reason": "..."}], "next_up": {"task_id": "...", "reason": "...", "unlocks": N}}'
+    )
+    user_prompt = (
+        f"ESSAYS ALREADY WRITTEN:\n{written_block}\n\n"
+        f"PROMPTS NOT YET WRITTEN:\n{target_block}"
+    )
+
+    try:
+        response = llm_provider.chat_completion(
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0.3,
+            max_tokens=1600,
+        )
+        parsed = _extract_json(response["content"])
+        if not isinstance(parsed, dict):
+            raise ValueError("Could not parse reuse response")
+
+        source_ids = {e.task_id for e in body.written}
+        target_ids = {t.task_id for t in body.targets}
+
+        matches: List[ReuseMatch] = []
+        for item in parsed.get("matches", []):
+            if not isinstance(item, dict):
+                continue
+            source = str(item.get("source_task_id", ""))
+            target = str(item.get("target_task_id", ""))
+            if source not in source_ids or target not in target_ids:
+                continue
+            try:
+                score = int(item.get("score", 0))
+            except (TypeError, ValueError):
+                continue
+            if score < 40:
+                continue
+            matches.append(
+                ReuseMatch(
+                    source_task_id=source,
+                    target_task_id=target,
+                    score=max(0, min(100, score)),
+                    reason=str(item.get("reason", "")).strip(),
+                )
+            )
+        matches.sort(key=lambda m: m.score, reverse=True)
+
+        next_up = None
+        raw_next = parsed.get("next_up")
+        if isinstance(raw_next, dict) and str(raw_next.get("task_id", "")) in target_ids:
+            try:
+                unlocks = int(raw_next.get("unlocks", 0))
+            except (TypeError, ValueError):
+                unlocks = 0
+            next_up = NextUp(
+                task_id=str(raw_next["task_id"]),
+                reason=str(raw_next.get("reason", "")).strip(),
+                unlocks=max(0, unlocks),
+            )
+
+        return ReuseResponse(matches=matches, next_up=next_up)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
+
+class AdaptRequest(BaseModel):
+    source_text: str
+    source_prompt: str = ""
+    target_prompt: str
+    target_school: str = ""
+    word_limit: int = 650
+
+
+class AdaptResponse(BaseModel):
+    draft: str
+    changes: str
+
+
+@router.post("/api/essay/adapt", response_model=AdaptResponse, tags=["Essay"])
+async def adapt_essay(body: AdaptRequest):
+    """Rewrite one of the student's own essays to answer a different prompt."""
+    _require_llm()
+
+    if not body.source_text.strip():
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="source_text is required")
+
+    system_prompt = (
+        "You adapt a student's OWN existing college essay to answer a different prompt. This is the "
+        "student's writing - preserve their voice, sentence rhythm, and the real experiences they "
+        "describe. Do not invent new achievements, activities, or facts that are not in the source "
+        "essay; if the new prompt asks for something the source does not cover, leave a clearly marked "
+        "[bracketed note] telling the student what only they can add.\n\n"
+        f"Stay within {body.word_limit} words.\n\n"
+        "Return JSON with:\n"
+        "- draft: the adapted essay as plain paragraphs separated by blank lines\n"
+        "- changes: 1-2 sentences telling the student what you changed and what still needs their input\n\n"
+        'Respond ONLY with JSON: {"draft": "...", "changes": "..."}'
+    )
+    user_prompt = (
+        f"ORIGINAL PROMPT: {body.source_prompt or '(not recorded)'}\n\n"
+        f"STUDENT'S ESSAY:\n{body.source_text[:4000]}\n\n"
+        f"NEW PROMPT{' (' + body.target_school + ')' if body.target_school else ''}: {body.target_prompt}"
+    )
+
+    try:
+        response = llm_provider.chat_completion(
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0.6,
+            max_tokens=1600,
+        )
+        parsed = _extract_json(response["content"])
+        if not isinstance(parsed, dict) or not parsed.get("draft"):
+            raise ValueError("Could not parse adaptation response")
+        return AdaptResponse(
+            draft=str(parsed["draft"]).strip(),
+            changes=str(parsed.get("changes", "")).strip(),
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))

@@ -1,3 +1,5 @@
+import { queueUserStateSync } from '@/lib/user-state-sync'
+
 export type Ds160Data = Record<string, Record<string, string> | Record<string, string>[]>
 
 function ds160StorageKey(userId: string) {
@@ -14,7 +16,10 @@ export function loadDS160Data(userId: string): Ds160Data {
 }
 
 export function saveDS160Data(userId: string, data: Ds160Data) {
-  window.localStorage.setItem(ds160StorageKey(userId), JSON.stringify(data))
+  const key = ds160StorageKey(userId)
+  const value = JSON.stringify(data)
+  window.localStorage.setItem(key, value)
+  queueUserStateSync(key, value)
 }
 
 /**

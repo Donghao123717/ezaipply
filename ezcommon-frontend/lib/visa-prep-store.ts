@@ -1,3 +1,5 @@
+import { queueUserStateSync } from '@/lib/user-state-sync'
+
 export interface VisaPrepData {
   sevisFeepaid: boolean
   ds160ConfirmationBarcode: string
@@ -42,5 +44,8 @@ export function loadVisaPrep(userId: string): VisaPrepData {
 }
 
 export function saveVisaPrep(userId: string, data: VisaPrepData) {
-  window.localStorage.setItem(visaPrepKey(userId), JSON.stringify(data))
+  const key = visaPrepKey(userId)
+  const value = JSON.stringify(data)
+  window.localStorage.setItem(key, value)
+  queueUserStateSync(key, value)
 }

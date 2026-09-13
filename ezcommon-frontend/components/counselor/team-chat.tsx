@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from 'react'
-import { History, Loader2, MessageCircle, Paperclip, Send, X, Zap } from 'lucide-react'
+import Link from 'next/link'
+import { ArrowUpRight, History, Loader2, MessageCircle, Paperclip, Send, X, Zap } from 'lucide-react'
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { useT } from '@/lib/i18n/use-t'
 import type { CounselorMessage, CounselorTab } from '@/lib/counselor-chat'
@@ -27,6 +28,7 @@ export function TeamChat({
   onSend,
   onAttach,
   attaching,
+  notesSlot,
 }: {
   activeTab: CounselorTab
   onTabChange: (tab: CounselorTab) => void
@@ -37,6 +39,7 @@ export function TeamChat({
   onSend: (text: string) => void
   onAttach: (files: FileList | null) => void
   attaching: boolean
+  notesSlot?: React.ReactNode
 }) {
   const t = useT()
   const [input, setInput] = useState('')
@@ -131,13 +134,28 @@ export function TeamChat({
         ) : (
           <div className="space-y-3 max-w-2xl mx-auto">
             {messages.map((m, i) => (
-              <div
-                key={i}
-                className={`text-sm rounded-xl px-4 py-2.5 whitespace-pre-wrap ${
-                  m.role === 'user' ? 'bg-secondary text-secondary-foreground ml-10' : 'bg-muted mr-10'
-                }`}
-              >
-                {m.content}
+              <div key={i} className={m.role === 'user' ? 'ml-10' : 'mr-10'}>
+                <div
+                  className={`text-sm rounded-xl px-4 py-2.5 whitespace-pre-wrap animate-fade-in-up motion-reduce:animate-none ${
+                    m.role === 'user' ? 'bg-secondary text-secondary-foreground' : 'bg-muted'
+                  }`}
+                >
+                  {m.content}
+                </div>
+                {m.role === 'assistant' && m.links && m.links.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5 mt-1.5">
+                    {m.links.map((link) => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        className="inline-flex items-center gap-1 rounded-full border border-primary/30 bg-primary/5 px-2.5 py-1 text-xs font-medium text-primary hover:bg-primary/10 hover:gap-1.5 transition-all"
+                      >
+                        {link.label}
+                        <ArrowUpRight className="h-3 w-3" />
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
             {sending && (
@@ -149,6 +167,8 @@ export function TeamChat({
           </div>
         )}
       </div>
+
+      {notesSlot}
 
       <div className="border-t px-6 py-3">
         <div className="flex items-center gap-3 mb-2">

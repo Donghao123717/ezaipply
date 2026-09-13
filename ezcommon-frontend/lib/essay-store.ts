@@ -1,3 +1,5 @@
+import { queueUserStateSync } from '@/lib/user-state-sync'
+
 export interface EssayRecord {
   html: string
   promptId: string | null
@@ -22,7 +24,10 @@ export function loadEssays(userId: string): EssayStore {
 export function saveEssay(userId: string, taskId: string, record: EssayRecord) {
   const store = loadEssays(userId)
   store[taskId] = record
-  window.localStorage.setItem(essaysKey(userId), JSON.stringify(store))
+  const key = essaysKey(userId)
+  const value = JSON.stringify(store)
+  window.localStorage.setItem(key, value)
+  queueUserStateSync(key, value)
 }
 
 export function wordCount(html: string): number {

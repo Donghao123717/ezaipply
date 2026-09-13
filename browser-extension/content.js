@@ -150,3 +150,42 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
 
   return true // keep the message channel open for the async sendResponse
 })
+
+// --- Direct sync from Aipply -------------------------------------------------
+// Saves the student a copy-paste round trip: the Submit page hands its export
+// straight to the extension. This content script runs on every site, so the
+// listener is registered ONLY on Aipply's own origins and ignores messages that
+// didn't come from this exact page - otherwise any site could seed the
+// extension with values that later get typed into a real application.
+
+const AIPPLY_ORIGINS = new Set([
+  'https://aipply1.com',
+  'https://www.aipply1.com',
+  'http://localhost:3000',
+])
+
+if (AIPPLY_ORIGINS.has(window.location.origin)) {
+  window.addEventListener('message', (event) => {
+    if (event.source !== window) return
+    if (event.origin !== window.location.origin) return
+
+    const data = event.data
+    if (!data || data.type !== 'AIPPLY_SYNC') return
+    if (!data.fields || typeof data.fields !== 'object' || Array.isArray(data.fields)) return
+
+    // Only keep primitive, string-shaped values - this is form-fill data.
+    const fields = {}
+    for (const [key, value] of Object.entries(data.fields)) {
+      if (typeof key === 'string' && (typeof value === 'string' || typeof value === 'number')) {
+        fields[key] = String(value)
+      }
+    }
+
+    chrome.storage.local.set({ aipplyFields: fields }, () => {
+      window.postMessage(
+        { type: 'AIPPLY_SYNC_OK', count: Object.keys(fields).length },
+        window.location.origin,
+      )
+    })
+  })
+}

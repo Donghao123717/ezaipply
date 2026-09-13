@@ -110,18 +110,30 @@ export function ApplicationTrackerPanel({ userId, onQuickAsk }: { userId: string
                       {t('counselor.tracker.getStarted')}
                     </Link>
                   ) : (
-                    stage.items.map((item) => (
+                    stage.items.map((item, itemIndex) => (
                       <Link
                         key={item.label}
                         href={item.href}
-                        className="flex items-center gap-2 text-xs hover:underline"
+                        style={{ animationDelay: `${Math.min(itemIndex, 8) * 30}ms` }}
+                        className="flex items-start gap-2 text-xs group animate-fade-in-up motion-reduce:animate-none"
                       >
                         {item.done ? (
-                          <Check className="h-3 w-3 text-emerald-500 shrink-0" />
+                          <Check className="h-3 w-3 mt-0.5 text-emerald-500 shrink-0" />
                         ) : (
-                          <Circle className="h-3 w-3 text-muted-foreground/40 shrink-0" />
+                          <Circle className="h-3 w-3 mt-0.5 text-muted-foreground/40 shrink-0" />
                         )}
-                        <span className={item.done ? 'text-muted-foreground line-through' : 'text-foreground'}>{item.label}</span>
+                        <span className="min-w-0">
+                          <span
+                            className={`group-hover:underline ${item.done ? 'text-muted-foreground line-through' : 'text-foreground'}`}
+                          >
+                            {item.label}
+                          </span>
+                          {!item.done && item.criterion && (
+                            <span className="block text-[10px] text-muted-foreground/80 tabular-nums">
+                              {item.criterion}
+                            </span>
+                          )}
+                        </span>
                       </Link>
                     ))
                   )}

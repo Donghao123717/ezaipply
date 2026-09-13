@@ -9,7 +9,15 @@ export interface TrackerItem {
   label: string
   done: boolean
   href: string
+  /** What still has to happen for this item to count as done, when it isn't yet. */
+  criterion?: string
 }
+
+/**
+ * An essay counts once it reaches most of its word limit. A three-word draft
+ * shouldn't tick a box the student will have to come back to anyway.
+ */
+const ESSAY_DONE_RATIO = 0.6
 
 export interface TrackerStage {
   key: string
@@ -46,11 +54,18 @@ export function computeApplicationTracker(userId: string, t: (key: string) => st
   const colleges = loadColleges(userId)
   const essays = loadEssays(userId)
   const essayTasks = [...ESSAY_TASKS, ...getSchoolEssayTasks(colleges, t)]
-  const essayItems: TrackerItem[] = essayTasks.map((task) => ({
-    label: essayTaskTitle(task, t),
-    done: wordCount(essays[task.id]?.html || '') > 0,
-    href: '/writing',
-  }))
+  const essayItems: TrackerItem[] = essayTasks.map((task) => {
+    const words = wordCount(essays[task.id]?.html || '')
+    const target = Math.round(task.wordLimit * ESSAY_DONE_RATIO)
+    return {
+      label: essayTaskTitle(task, t),
+      done: words >= target,
+      href: '/writing',
+      criterion: t('counselor.tracker.essayCriterion')
+        .replace('{words}', String(words))
+        .replace('{target}', String(target)),
+    }
+  })
   const writingStage: TrackerStage = {
     key: 'writing',
     label: t('counselor.tracker.stageWriting'),

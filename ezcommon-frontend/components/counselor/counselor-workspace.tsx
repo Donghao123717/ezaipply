@@ -3,8 +3,13 @@ import { useEffect, useState } from 'react'
 import { DocumentsPanel } from '@/components/counselor/documents-panel'
 import { TeamChat } from '@/components/counselor/team-chat'
 import { InsightsPanel } from '@/components/counselor/insights-panel'
+import { CaseNotes } from '@/components/counselor/case-notes'
 import { useT } from '@/lib/i18n/use-t'
 import { loadCounselorChat, saveCounselorChat, type CounselorMessage, type CounselorTab } from '@/lib/counselor-chat'
+import { addCaseNote, loadCaseNotes, removeCaseNote, type CaseNote } from '@/lib/case-notes-store'
+import { loadProfileContext } from '@/lib/essay-store'
+import { loadColleges, CATEGORY_LABEL_KEY } from '@/lib/college-store'
+import { computeApplicationTracker } from '@/lib/application-tracker'
 
 const TABS: CounselorTab[] = ['team', 'strategist', 'essay', 'coordinator']
 
@@ -26,12 +31,32 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
   const [sending, setSending] = useState(false)
   const [attaching, setAttaching] = useState(false)
   const [docsRefreshSignal, setDocsRefreshSignal] = useState(0)
+  const [caseNotes, setCaseNotes] = useState<CaseNote[]>([])
 
   useEffect(() => {
     const saved: Record<CounselorTab, boolean> = { team: false, strategist: false, essay: false, coordinator: false }
     for (const tab of TABS) saved[tab] = loadCounselorChat(userId, tab).length > 0
     setHasSavedHistory(saved)
+    setCaseNotes(loadCaseNotes(userId))
   }, [userId])
+
+  /** A one-line summary of the saved school list, so the counselors can name real schools. */
+  function collegesSummary(): string {
+    const colleges = loadColleges(userId)
+    if (colleges.length === 0) return ''
+    return colleges
+      .map((c) => `${c.name} (${t(CATEGORY_LABEL_KEY[c.category])}${c.deadline ? `, due ${c.deadline}` : ''})`)
+      .join('; ')
+  }
+
+  /** Where the student actually stands, so advice lands on the next real gap. */
+  function progressSummary(): string {
+    const tracker = computeApplicationTracker(userId, t)
+    return [
+      `Overall ${tracker.percent}% complete.`,
+      ...tracker.stages.map((s) => `${s.label}: ${s.completed}/${s.total}`),
+    ].join(' ')
+  }
 
   function restore(tab: CounselorTab) {
     setMessagesByTab((prev) => ({ ...prev, [tab]: loadCounselorChat(userId, tab) }))
@@ -44,17 +69,30 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
     setSending(true)
     try {
       const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
-      const res = await fetch(`${base}/api/chatbot/message`, {
+      const res = await fetch(`${base}/api/counselor/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: text, history: history.map((m) => ({ role: m.role, content: m.content })) }),
+        body: JSON.stringify({
+          agent: tab,
+          message: text,
+          history: history.map((m) => ({ role: m.role, content: m.content })),
+          profile_context: loadProfileContext(userId),
+          colleges_summary: collegesSummary(),
+          progress_summary: progressSummary(),
+          case_notes: caseNotes.map((n) => n.text),
+        }),
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data?.detail || 'Request failed')
-      const next = [...history, { role: 'assistant' as const, content: data.response }]
+      const next = [
+        ...history,
+        { role: 'assistant' as const, content: data.response, links: data.links || [] },
+      ]
       setMessagesByTab((prev) => ({ ...prev, [tab]: next }))
       saveCounselorChat(userId, tab, next)
       setHasSavedHistory((prev) => ({ ...prev, [tab]: true }))
+      // Anything durable this specialist learned becomes visible to the other three.
+      if (data.note) setCaseNotes(addCaseNote(userId, data.note, tab))
     } catch (e) {
       const next = [...history, { role: 'assistant' as const, content: e instanceof Error ? e.message : 'Something went wrong.' }]
       setMessagesByTab((prev) => ({ ...prev, [tab]: next }))
@@ -101,6 +139,13 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
         onSend={(text) => send(activeTab, text)}
         onAttach={attach}
         attaching={attaching}
+        notesSlot={
+          <CaseNotes
+            notes={caseNotes}
+            activeTab={activeTab}
+            onRemove={(id) => setCaseNotes(removeCaseNote(userId, id))}
+          />
+        }
       />
       <InsightsPanel userId={userId} onQuickAsk={quickAsk} />
     </div>

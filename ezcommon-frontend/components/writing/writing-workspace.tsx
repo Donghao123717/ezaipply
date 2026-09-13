@@ -10,6 +10,7 @@ import { EssayEditor } from '@/components/writing/essay-editor'
 import { EssayCoachPanel } from '@/components/writing/essay-coach-panel'
 import { EssayEvaluation } from '@/components/writing/essay-evaluation'
 import { AcrossEssays } from '@/components/writing/across-essays'
+import { EssayReuse } from '@/components/writing/essay-reuse'
 import { useT } from '@/lib/i18n/use-t'
 
 export function WritingWorkspace({ userId }: { userId: string }) {
@@ -123,6 +124,14 @@ export function WritingWorkspace({ userId }: { userId: string }) {
               {draftError && <p className="text-sm text-destructive mt-2">{draftError}</p>}
 
               <EssayEvaluation essayHtml={html} prompt={prompt} wordLimit={task.wordLimit} />
+
+              <EssayReuse
+                userId={userId}
+                tasks={allTasks}
+                essays={essays}
+                onSelect={setActiveId}
+                onEssaysChanged={() => setEssays(loadEssays(userId))}
+              />
 
               <AcrossEssays tasks={allTasks} essays={essays} activeId={activeId} onSelect={setActiveId} />
             </div>

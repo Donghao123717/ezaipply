@@ -1,3 +1,5 @@
+import { queueUserStateSync } from '@/lib/user-state-sync'
+
 export interface SchoolForecast {
   id: string
   chance: number
@@ -28,7 +30,10 @@ export function loadForecast(userId: string): ForecastRecord | null {
 }
 
 export function saveForecast(userId: string, record: ForecastRecord) {
-  window.localStorage.setItem(forecastKey(userId), JSON.stringify(record))
+  const key = forecastKey(userId)
+  const value = JSON.stringify(record)
+  window.localStorage.setItem(key, value)
+  queueUserStateSync(key, value)
 }
 
 /** Cheap way to detect "your profile/list/essays changed since this forecast" without deep diffing. */

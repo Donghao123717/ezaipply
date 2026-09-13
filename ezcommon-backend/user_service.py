@@ -63,6 +63,7 @@ class UserService:
         password: str,
         role: str = "student",
         org_id: Optional[str] = None,
+        auth_type: str = "password",
     ) -> Optional[Dict[str, Any]]:
         """Create a new user.
 
@@ -82,6 +83,9 @@ class UserService:
             User role, e.g. "student", "org_admin", "org_staff". Defaults to "student".
         org_id: Optional[str]
             Optional organization id this user belongs to (for org_* roles).
+        auth_type: str
+            "password" for normal accounts, "passwordless" for email-only demo
+            accounts that can never be signed into with a password.
         """
         email = email.lower().strip()
 
@@ -105,6 +109,7 @@ class UserService:
             # Org / role fields (optional for backward-compat)
             "role": role,
             "org_id": org_id,
+            "auth_type": auth_type,
         }
 
         try:
@@ -113,6 +118,36 @@ class UserService:
         except ClientError as e:
             print(f"Error creating user: {e}")
             return None
+
+    def get_or_create_passwordless_user(
+        self,
+        email: str,
+        first_name: str = "",
+        last_name: str = "",
+    ) -> Optional[Dict[str, Any]]:
+        """Sign in by email alone, creating the account on first use.
+
+        Returns None when the email already belongs to a password-protected or
+        organization account, so that knowing an address is never enough to take
+        over a real account.
+        """
+        email = email.lower().strip()
+        existing = self.get_user_by_email(email)
+
+        if existing:
+            if existing.get("auth_type") != "passwordless":
+                return None
+            return self._sanitize_user(existing)
+
+        return self.create_user(
+            email=email,
+            first_name=first_name or email.split("@")[0],
+            last_name=last_name,
+            # Unguessable filler: these accounts are never password-authenticated.
+            password=uuid4().hex + uuid4().hex,
+            role="student",
+            auth_type="passwordless",
+        )
 
     def get_user_by_email(self, email: str) -> Optional[Dict[str, Any]]:
         """

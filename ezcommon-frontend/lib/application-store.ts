@@ -1,3 +1,5 @@
+import { queueUserStateSync } from '@/lib/user-state-sync'
+
 export type ApplicationAnswers = Record<string, string>
 
 function applicationKey(userId: string, collegeId: string) {
@@ -14,5 +16,8 @@ export function loadApplication(userId: string, collegeId: string): ApplicationA
 }
 
 export function saveApplication(userId: string, collegeId: string, answers: ApplicationAnswers) {
-  window.localStorage.setItem(applicationKey(userId, collegeId), JSON.stringify(answers))
+  const key = applicationKey(userId, collegeId)
+  const value = JSON.stringify(answers)
+  window.localStorage.setItem(key, value)
+  queueUserStateSync(key, value)
 }
