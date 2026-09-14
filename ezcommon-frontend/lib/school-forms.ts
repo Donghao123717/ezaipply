@@ -1,4 +1,5 @@
 import type { FieldDef } from '@/lib/profile-schema'
+import { CATALOG_SCHOOL_FORMS } from '@/lib/school-forms-catalog'
 import { EXTENDED_SCHOOL_FORMS } from '@/lib/school-forms-extended'
 
 /**
@@ -19,8 +20,10 @@ import { EXTENDED_SCHOOL_FORMS } from '@/lib/school-forms-extended'
  * Schools without an entry fall back to the generic template in
  * lib/application-schema.ts, which is labelled as a placeholder rather than
  * passed off as the school's real questions. The rest of the college list is
- * covered by lib/school-forms-extended.ts, modelled rather than observed and
- * marked `verified: false` so the UI can say so.
+ * covered by lib/school-forms-catalog.ts, generated from a second pass that
+ * read every remaining school's form the same way, and by
+ * lib/school-forms-extended.ts, which models the handful of schools no
+ * catalogue carried and marks them `verified: false` so the UI can say so.
  *
  * MIT is the odd one out: it does not use the Common App, so its form restates
  * the whole profile. Only its genuinely MIT-specific questions are kept here -
@@ -1203,6 +1206,7 @@ const OBSERVED_SCHOOL_FORMS: Record<string, SchoolForm> = {
  */
 export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   ...EXTENDED_SCHOOL_FORMS,
+  ...CATALOG_SCHOOL_FORMS,
   ...OBSERVED_SCHOOL_FORMS,
 }
 
