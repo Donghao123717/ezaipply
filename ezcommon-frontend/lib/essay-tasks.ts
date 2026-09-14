@@ -59,38 +59,50 @@ export function getSchoolEssayTasks(colleges: { id: string; name: string }[], t:
   })
 }
 
-// A general-purpose set of essay prompt starters, in the same spirit as the
-// broad topic categories most U.S. college applications ask about (identity,
-// overcoming a setback, changing your mind, gratitude, growth, intellectual
-// curiosity, or an open topic). Written independently, not quoted from any
-// single application's official prompt text.
+/**
+ * The Common App first-year personal essay prompts, 2026-27, quoted verbatim
+ * from commonapp.org/apply/essay-prompts. A student drafting here is drafting
+ * the answer they will actually submit, so a paraphrase is worse than useless:
+ * prompt 4 asks specifically about gratitude someone else prompted in you, and
+ * prompt 5 about a realisation that led to growth - answer a loose restatement
+ * of either and you have answered a question nobody asked.
+ *
+ * Applicants may respond to one. The Common App limit is 650 words
+ * (250 minimum). Re-verify each cycle: these change.
+ *
+ * Ids are stable storage keys - a student's saved selection is keyed by them,
+ * so map new wording onto the existing id rather than renaming.
+ */
+export const COMMON_APP_PROMPT_CYCLE = '2026-27'
+export const COMMON_APP_PROMPT_SOURCE = 'commonapp.org/apply/essay-prompts'
+
 export const ESSAY_PROMPTS: { id: string; text: string }[] = [
   {
     id: 'identity',
-    text: 'Tell us about a part of your identity, background, or a passion that has shaped who you are - something your application would feel incomplete without.',
+    text: 'Some students have a background, identity, interest, or talent that is so meaningful they believe their application would be incomplete without it. If this sounds like you, then please share your story.',
   },
   {
     id: 'setback',
-    text: 'Describe a real setback or failure you experienced. What happened, how did you respond, and what changed in how you think or act because of it?',
+    text: 'The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience?',
   },
   {
     id: 'changed-mind',
-    text: 'Write about a moment you changed your mind about something you used to believe strongly. What caused the shift, and what did it teach you?',
+    text: 'Reflect on a time when you questioned or challenged a belief or idea. What prompted your thinking? What was the outcome?',
   },
   {
     id: 'gratitude',
-    text: 'Describe an act of kindness or generosity from someone else that caught you off guard. How did it change the way you show up for others?',
+    text: 'Reflect on something that someone has done for you that has made you happy or thankful in a surprising way. How has this gratitude affected or motivated you?',
   },
   {
     id: 'growth',
-    text: 'Tell the story of a moment or achievement that pushed you to see yourself, or the people around you, differently than before.',
+    text: 'Discuss an accomplishment, event, or realization that sparked a period of personal growth and a new understanding of yourself or others.',
   },
   {
     id: 'curiosity',
-    text: 'What subject, question, or hobby pulls you in so completely that you lose track of time? Walk us through why, and where that curiosity has taken you.',
+    text: 'Describe a topic, idea, or concept you find so engaging that it makes you lose all track of time. Why does it captivate you? What or who do you turn to when you want to learn more?',
   },
   {
     id: 'open-topic',
-    text: 'Write about whatever matters most to you right now. You can reuse a draft you already have or start something new.',
+    text: "Share an essay on any topic of your choice. It can be one you've already written, one that responds to a different prompt, or one of your own design.",
   },
 ]

@@ -3,7 +3,12 @@ import { useState } from 'react'
 import { Loader2, Sparkles } from 'lucide-react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ESSAY_PROMPTS, essayTaskTitle, type EssayTask } from '@/lib/essay-tasks'
+import {
+  ESSAY_PROMPTS,
+  COMMON_APP_PROMPT_CYCLE,
+  essayTaskTitle,
+  type EssayTask,
+} from '@/lib/essay-tasks'
 import { loadProfileContext, wordCount, type EssayRecord } from '@/lib/essay-store'
 import { EssayEditor } from '@/components/writing/essay-editor'
 import { useT } from '@/lib/i18n/use-t'
@@ -86,7 +91,10 @@ export function ApplicationWritingPage({
             </option>
           ))}
         </select>
-        <p className="text-xs text-muted-foreground flex-1">{prompt || t('writing.pickPromptHint')}</p>
+        <div className="flex-1">
+          <p className="text-xs text-muted-foreground">{prompt || t('writing.pickPromptHint')}</p>
+          <p className="mt-0.5 text-[10px] text-muted-foreground/70">Common App {COMMON_APP_PROMPT_CYCLE}</p>
+        </div>
       </div>
 
       {wordCount(html) === 0 && (

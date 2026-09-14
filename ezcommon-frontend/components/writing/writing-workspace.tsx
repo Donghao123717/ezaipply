@@ -2,7 +2,13 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { ESSAY_TASKS, ESSAY_PROMPTS, essayTaskTitle, getSchoolEssayTasks } from '@/lib/essay-tasks'
+import {
+  ESSAY_TASKS,
+  ESSAY_PROMPTS,
+  COMMON_APP_PROMPT_CYCLE,
+  essayTaskTitle,
+  getSchoolEssayTasks,
+} from '@/lib/essay-tasks'
 import { loadEssays, saveEssay, loadProfileContext, wordCount, type EssayStore } from '@/lib/essay-store'
 import { loadColleges } from '@/lib/college-store'
 import { WritingSidebar } from '@/components/writing/writing-sidebar'
@@ -115,9 +121,16 @@ export function WritingWorkspace({ userId }: { userId: string }) {
                       </option>
                     ))}
                   </select>
-                  <p className="text-xs text-muted-foreground flex-1">
-                    {prompt || t('writing.pickPromptHint')}
-                  </p>
+                  <div className="flex-1">
+                    <p className="text-xs text-muted-foreground">
+                      {prompt || t('writing.pickPromptHint')}
+                    </p>
+                    {/* Prompts are reissued every cycle - say which one this is
+                        so a returning student can tell they have gone stale. */}
+                    <p className="mt-0.5 text-[10px] text-muted-foreground/70">
+                      Common App {COMMON_APP_PROMPT_CYCLE}
+                    </p>
+                  </div>
                 </div>
               )}
 
