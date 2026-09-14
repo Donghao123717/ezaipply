@@ -653,17 +653,38 @@ export interface Ds160SectionStatus {
 /** Pages that only apply to F1/student applicants in the real DS-160 form. */
 export const F1_ONLY_SECTIONS = ['sevisSchool', 'additionalContacts']
 
+/** The five DS-160 security pages, shown to the student as one screen. */
+export const SECURITY_SECTION_KEYS = ['security1', 'security2', 'security3', 'security4', 'security5']
+
 export function computeDS160Progress(
   data: Record<string, any>,
   isF1Selected: boolean,
 ): { confirmed: number; total: number; sections: Ds160SectionStatus[] } {
   const confirmedMap: Record<string, string> = data['_confirmed'] || {}
-  const sections = DS160_SECTIONS.filter((s) => isF1Selected || !F1_ONLY_SECTIONS.includes(s.key)).map((s) => ({
-    key: s.key,
-    labelKey: s.labelKey,
-    fieldsComplete: isProfileSectionComplete(data[s.key], s.def),
-    confirmed: confirmedMap[s.key] === 'true',
-  }))
+  const sections: Ds160SectionStatus[] = []
+  for (const s of DS160_SECTIONS) {
+    if (!isF1Selected && F1_ONLY_SECTIONS.includes(s.key)) continue
+    // Collapse the security pages into the single entry the workspace shows,
+    // so this checklist and the form agree on how many pages there are.
+    if (SECURITY_SECTION_KEYS.includes(s.key)) {
+      if (s.key !== SECURITY_SECTION_KEYS[0]) continue
+      sections.push({
+        key: 'security',
+        labelKey: 'ds160.security.title',
+        fieldsComplete: SECURITY_SECTION_KEYS.every((k) =>
+          isProfileSectionComplete(data[k], DS160_SECTIONS.find((x) => x.key === k)!.def),
+        ),
+        confirmed: SECURITY_SECTION_KEYS.every((k) => confirmedMap[k] === 'true'),
+      })
+      continue
+    }
+    sections.push({
+      key: s.key,
+      labelKey: s.labelKey,
+      fieldsComplete: isProfileSectionComplete(data[s.key], s.def),
+      confirmed: confirmedMap[s.key] === 'true',
+    })
+  }
   return { confirmed: sections.filter((s) => s.confirmed).length, total: sections.length, sections }
 }
 

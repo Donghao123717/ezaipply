@@ -1121,6 +1121,9 @@ export const dictionary = {
       },
     },
     ds160: {
+      prefill: {
+        note: "We filled {count} answers from your profile - check them before you confirm each page. Anything you change here wins over your profile.",
+      },
       eyebrow: 'Visa Application',
       title: 'DS-160 Builder',
       subtitle: 'Fill in your DS-160 answers page by page, matching the real ceac.state.gov form. Each page needs your review and an AI risk check before you move on - this stays in your Aipply account and is not submitted anywhere automatically.',
@@ -1368,6 +1371,15 @@ export const dictionary = {
       },
       security: {
         description: 'Provide complete and accurate information to all questions that require an explanation. A visa may not be issued to persons within specific categories defined by law as inadmissible to the United States (except when a waiver is obtained in advance). While a "Yes" answer does not automatically signify ineligibility for a visa, if you answer "Yes" you may be required to personally appear before a consular officer.',
+        title: 'Security and background',
+        intro: "The DS-160's 27 security questions, on one page. They start at No - the honest answer for almost everyone - so read them and change only what applies to you.",
+        countLine: '{total} questions',
+        allNo: 'All answered No',
+        flaggedLine: '{n} answered Yes',
+        affirmNote: 'These are sworn answers. Read them, then affirm.',
+        affirmAll: 'I have read these and they are accurate',
+        confirmedNote: 'Affirmed. You can still change any answer.',
+        confirmed: 'Affirmed',
       },
       security1: {
         communicableDisease: 'Do you have a communicable disease of public health significance?',
@@ -2818,6 +2830,9 @@ export const dictionary = {
       },
     },
     ds160: {
+      prefill: {
+        note: '我们从你的个人资料里填好了 {count} 项，确认每一页前请先核对。你在这里改过的内容会覆盖资料里的值。',
+      },
       eyebrow: '签证申请',
       title: 'DS-160 填写助手',
       subtitle: '按页面依次填写你的 DS-160 答案，跟 ceac.state.gov 上的真实表单一一对应。每一页都需要你自己确认，并做一次 AI 风险检查后才能进入下一页——这些内容只保存在你的 Aipply 账号里，不会自动提交到任何地方。',
@@ -3065,6 +3080,15 @@ export const dictionary = {
       },
       security: {
         description: '请对所有需要说明的问题提供完整准确的信息。根据法律规定属于不可入境类别的人员，签证可能不予签发(除非事先获得豁免)。选"是"并不意味着自动被拒签，但如果你选"是"，可能需要亲自到领事官员面前接受面谈。',
+        title: '安全与背景问题',
+        intro: 'DS-160 的 27 道安全问题，集中在一页。默认都是「否」—— 对绝大多数人这就是实话 —— 你逐条读一遍，只改和自己相关的那几条。',
+        countLine: '共 {total} 题',
+        allNo: '全部为「否」',
+        flaggedLine: '{n} 题为「是」',
+        affirmNote: '这些是具结答复，请读完再确认。',
+        affirmAll: '我已阅读，以上属实',
+        confirmedNote: '已确认。任何一条仍可修改。',
+        confirmed: '已确认',
       },
       security1: {
         communicableDisease: '你是否患有具有公共卫生意义的传染性疾病？',

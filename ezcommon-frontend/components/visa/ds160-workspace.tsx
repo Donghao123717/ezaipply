@@ -7,6 +7,8 @@ import { loadDS160Data, saveDS160Data, type Ds160Data } from '@/lib/ds160-store'
 import { PROFILE_SECTIONS, fieldLabel as resolveFieldLabel } from '@/lib/profile-schema'
 import { FieldInput } from '@/components/profile/field-input'
 import { ProfilePullPage } from '@/components/application-form/profile-pull-page'
+import { prefillFromProfile, prefilledFields, clearPrefillMark } from '@/lib/ds160-prefill'
+import { SecurityReview, SECURITY_SECTION_KEYS } from '@/components/visa/security-review'
 import { RiskFlagsPanel } from '@/components/visa/risk-flags-panel'
 import { Ds160SuggestionsPanel } from '@/components/visa/ds160-suggestions-panel'
 import { Button } from '@/components/ui/button'
@@ -36,6 +38,7 @@ export function Ds160Workspace({ userId }: { userId: string }) {
   const [hydrated, setHydrated] = useState(false)
   const [mode, setMode] = useState<'fill' | 'confirm'>('fill')
   const [suggestionsOpen, setSuggestionsOpen] = useState(false)
+  const [prefilled, setPrefilled] = useState(0)
 
   useEffect(() => {
     // Security questions (and a few Additional Work/Education Yes/No questions)
@@ -59,13 +62,30 @@ export function Ds160Workspace({ userId }: { userId: string }) {
       }
       if (changed) loaded[section.key] = sectionData
     }
-    setData(loaded)
+
+    let profile: Record<string, any> = {}
     try {
       const raw = window.localStorage.getItem(`aipply-profile-${userId}`)
-      setProfileData(raw ? JSON.parse(raw) : {})
+      profile = raw ? JSON.parse(raw) : {}
     } catch {
-      setProfileData({})
+      profile = {}
     }
+    setProfileData(profile)
+
+    // Carry across what the profile already answers, so the student reviews
+    // rather than retypes. Persisted straight away: a value they can see in
+    // the form has to be the value we would hand the autofill extension.
+    const { data: withProfile, filled } = prefillFromProfile(loaded, profile)
+    // Count what is still standing from the profile, not just what this load
+    // added - otherwise the note appears once and never again.
+    setPrefilled(prefilledFields(withProfile).size)
+    setData(withProfile)
+    // Persist when anything changed - new values, or markers recovered for
+    // values copied before the marker existed.
+    if (filled > 0 || JSON.stringify(withProfile) !== JSON.stringify(loaded)) {
+      saveDS160Data(userId, withProfile)
+    }
+
     setHydrated(true)
   }, [userId])
 
@@ -80,10 +100,21 @@ export function Ds160Workspace({ userId }: { userId: string }) {
     return purposes.some((p) => p.specify === 'STUDENT (F1)' || p.purposeClass === 'ACADEMIC OR LANGUAGE STUDENT (F)')
   }, [data])
 
-  const pages = useMemo(
-    () => DS160_SECTIONS.filter((s) => !F1_ONLY_SECTIONS.includes(s.key) || isF1Selected).map((s) => ({ key: s.key, labelKey: s.labelKey })),
-    [isF1Selected],
-  )
+  // The five security pages collapse into one entry - they are 27 yes/no
+  // questions that all default to No, so five separate screens asked the
+  // student to page through and change nothing.
+  const pages = useMemo(() => {
+    const out: { key: string; labelKey: string }[] = []
+    for (const s of DS160_SECTIONS) {
+      if (F1_ONLY_SECTIONS.includes(s.key) && !isF1Selected) continue
+      if (SECURITY_SECTION_KEYS.includes(s.key)) {
+        if (s.key === SECURITY_SECTION_KEYS[0]) out.push({ key: 'security', labelKey: 'ds160.security.title' })
+        continue
+      }
+      out.push({ key: s.key, labelKey: s.labelKey })
+    }
+    return out
+  }, [isF1Selected])
 
   // For an F1 applicant, the current school is trivially also "an educational
   // institution attended" - keep Previous Work/Education's schools list in sync
@@ -109,11 +140,31 @@ export function Ds160Workspace({ userId }: { userId: string }) {
   }, [hydrated, isF1Selected, presentSchoolName, presentStartDate, sevisCourseOfStudy])
 
   const confirmedMap: SimpleData = (data['_confirmed'] as SimpleData) || {}
-  const isConfirmed = (key: string) => confirmedMap[key] === 'true'
+  const isConfirmed = (key: string) =>
+    key === 'security'
+      ? SECURITY_SECTION_KEYS.every((k) => confirmedMap[k] === 'true')
+      : confirmedMap[key] === 'true'
+
+  /** Affirming the one security screen confirms all five underlying sections. */
+  function affirmSecurity() {
+    setData((prev) => {
+      const confirmed = { ...((prev['_confirmed'] as SimpleData) || {}) }
+      for (const k of SECURITY_SECTION_KEYS) confirmed[k] = 'true'
+      return { ...prev, _confirmed: confirmed }
+    })
+    const idx = pages.findIndex((p) => p.key === 'security')
+    const next = pages[idx + 1]
+    if (next) setActiveKey(next.key)
+  }
 
   function updateSimpleField(sectionKey: string, fieldKey: string, value: string) {
-    setData((prev) => ({ ...prev, [sectionKey]: { ...((prev[sectionKey] as SimpleData) || {}), [fieldKey]: value } }))
+    const next = { ...data, [sectionKey]: { ...((data[sectionKey] as SimpleData) || {}), [fieldKey]: value } }
+    // Once they touch it, it is their answer - drop the profile marker.
+    const cleared = clearPrefillMark(next, sectionKey, fieldKey)
+    setData(cleared)
+    setPrefilled(prefilledFields(cleared).size)
   }
+
 
   function addNestedItem(sectionKey: string, nestedKey: string) {
     setData((prev) => {
@@ -241,6 +292,18 @@ export function Ds160Workspace({ userId }: { userId: string }) {
         </Button>
       </div>
 
+      {/* Say what we carried over. A student who is not told will assume the
+          form came pre-filled by magic and skim past answers they should be
+          checking - this is a legal document with their name on it. */}
+      {prefilled > 0 && (
+        <div className="mb-6 flex items-start gap-3 rounded-xl border border-accent/40 bg-accent/5 px-4 py-3">
+          <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+          <p className="text-sm text-muted-foreground">
+            {t('ds160.prefill.note').replace('{count}', String(prefilled))}
+          </p>
+        </div>
+      )}
+
       <div className="grid lg:grid-cols-[240px_1fr] gap-8">
         <aside>
           <nav className="space-y-1">
@@ -268,7 +331,14 @@ export function Ds160Workspace({ userId }: { userId: string }) {
         </aside>
 
         <div className="rounded-2xl border bg-card p-6 sm:p-8">
-          {activeSection && activeSection.def.kind === 'simple' ? (
+          {activeKey === 'security' ? (
+            <SecurityReview
+              data={data}
+              onChange={updateSimpleField}
+              onAffirmAll={affirmSecurity}
+              allConfirmed={isConfirmed('security')}
+            />
+          ) : activeSection && activeSection.def.kind === 'simple' ? (
             <div>
               <h2 className="text-xl font-semibold text-primary mb-6">{t(activeSection.labelKey)}</h2>
 

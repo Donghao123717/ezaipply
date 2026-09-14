@@ -32,7 +32,8 @@ export function loadDS160Context(userId: string): string {
   const data = loadDS160Data(userId)
   const lines: string[] = []
   for (const [sectionKey, value] of Object.entries(data)) {
-    if (sectionKey === '_confirmed' || !value) continue
+    // Bookkeeping keys, not answers - they would only confuse the model.
+    if (sectionKey === '_confirmed' || sectionKey === '_prefilled' || !value) continue
     if (Array.isArray(value)) {
       if (value.length === 0) continue
       lines.push(`${sectionKey}:`)
