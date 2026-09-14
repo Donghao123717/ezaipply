@@ -258,6 +258,7 @@ export function Ds160Workspace({ userId }: { userId: string }) {
       .map(([k, v]) => ({ label: fieldLabel(sectionKey, k), value: v }))
   }
 
+  const confirmedCount = pages.filter((p) => isConfirmed(p.key)).length
   const activeSection = DS160_SECTIONS.find((s) => s.key === activeKey)
 
   function ds160FieldLabel(sectionKey: string, fieldKey: string): string {
@@ -306,6 +307,24 @@ export function Ds160Workspace({ userId }: { userId: string }) {
 
       <div className="grid lg:grid-cols-[240px_1fr] gap-8">
         <aside>
+          {/* A count alone does not read as movement. The bar does, and this is
+              a long form where knowing you are getting somewhere matters. */}
+          <div className="mb-4">
+            <div className="mb-1.5 flex items-baseline justify-between">
+              <span className="text-xs font-medium text-muted-foreground">
+                {t('ds160.counselor.checklistTitle')}
+              </span>
+              <span className="text-xs tabular-nums text-muted-foreground">
+                {confirmedCount}/{pages.length}
+              </span>
+            </div>
+            <div className="h-1.5 overflow-hidden rounded-full bg-muted">
+              <div
+                className="h-full rounded-full bg-accent transition-[width] duration-700 ease-out motion-reduce:transition-none"
+                style={{ width: `${pages.length ? (confirmedCount / pages.length) * 100 : 0}%` }}
+              />
+            </div>
+          </div>
           <nav className="space-y-1">
             {pages.map((p) => {
               const isActive = p.key === activeKey
@@ -330,7 +349,10 @@ export function Ds160Workspace({ userId }: { userId: string }) {
           </nav>
         </aside>
 
-        <div className="rounded-2xl border bg-card p-6 sm:p-8">
+        <div
+          key={activeKey}
+          className="animate-fade-in-up rounded-2xl border bg-card p-6 sm:p-8 motion-reduce:animate-none"
+        >
           {activeKey === 'security' ? (
             <SecurityReview
               data={data}

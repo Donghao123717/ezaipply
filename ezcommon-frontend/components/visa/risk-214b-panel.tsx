@@ -41,6 +41,9 @@ function bandClass(score: number): string {
 export function Risk214bPanel({ userId, visaType }: { userId: string; visaType: VisaType }) {
   const t = useT()
   const [result, setResult] = useState<RiskResult | null>(null)
+  // Bars start at zero and grow once painted - a bar that mounts at its final
+  // width reads as a static label rather than a measurement.
+  const [grown, setGrown] = useState(false)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -60,7 +63,9 @@ export function Risk214bPanel({ userId, visaType }: { userId: string; visaType: 
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data?.detail || t('visaRisk.failed'))
+      setGrown(false)
       setResult(data)
+      window.setTimeout(() => setGrown(true), 40)
     } catch (e) {
       setError(e instanceof Error ? e.message : t('visaRisk.failed'))
     } finally {
@@ -105,8 +110,8 @@ export function Risk214bPanel({ userId, visaType }: { userId: string; visaType: 
               </div>
               <div className="mt-2 h-2 overflow-hidden rounded-full bg-muted">
                 <div
-                  className={cn('h-full rounded-full transition-[width] duration-700', bandClass(result.overall))}
-                  style={{ width: `${result.overall}%` }}
+                  className={cn('h-full rounded-full transition-[width] duration-700 motion-reduce:transition-none', bandClass(result.overall))}
+                  style={{ width: grown ? `${result.overall}%` : '0%' }}
                 />
               </div>
               {result.summary && (
@@ -123,8 +128,8 @@ export function Risk214bPanel({ userId, visaType }: { userId: string; visaType: 
                   </div>
                   <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-muted">
                     <div
-                      className={cn('h-full rounded-full transition-[width] duration-700', bandClass(f.score))}
-                      style={{ width: `${f.score}%` }}
+                      className={cn('h-full rounded-full transition-[width] duration-700 motion-reduce:transition-none', bandClass(f.score))}
+                      style={{ width: grown ? `${f.score}%` : '0%' }}
                     />
                   </div>
                   {f.finding && <p className="mt-2.5 text-sm text-muted-foreground">{f.finding}</p>}

@@ -113,12 +113,19 @@ export function SecurityReview({
               {t(part.labelKey)}
             </h3>
             <div className="divide-y rounded-xl border">
-              {part.questions.map((q) => {
+              {part.questions.map((q, qi) => {
                 const value = (data[part.key] as Record<string, string>)?.[q.key] ?? 'No'
                 const isYes = value === 'Yes'
                 const explain = part.explains.get(`${q.key}Explain`)
                 return (
-                  <div key={q.key} className={cn('px-4 py-3', isYes && 'bg-amber-500/5')}>
+                  <div
+                    key={q.key}
+                    style={{ animationDelay: `${Math.min(qi, 8) * 30}ms` }}
+                    className={cn(
+                      'animate-row-slide px-4 py-3 transition-colors motion-reduce:animate-none',
+                      isYes && 'bg-amber-500/5',
+                    )}
+                  >
                     <div className="flex items-start justify-between gap-4">
                       <p className="flex-1 text-sm leading-relaxed text-foreground">{fieldLabel(q, t)}</p>
                       <div className="flex shrink-0 gap-1" role="group" aria-label={fieldLabel(q, t)}>

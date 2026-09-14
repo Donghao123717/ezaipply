@@ -243,7 +243,14 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
 
             {/* The part a chat box cannot do: what they said against what they wrote. */}
             {(turn.consistency || []).map((flag, fi) => (
-              <div key={fi} className={cn('rounded-lg border px-4 py-3', SEVERITY_STYLE[flag.severity])}>
+              <div
+                key={fi}
+                style={{ animationDelay: `${fi * 80}ms` }}
+                className={cn(
+                  'animate-fade-in-up rounded-lg border px-4 py-3 motion-reduce:animate-none',
+                  SEVERITY_STYLE[flag.severity],
+                )}
+              >
                 <p className="flex items-center gap-1.5 text-xs font-semibold">
                   <AlertTriangle className="h-3.5 w-3.5" />
                   {t('visaInterview.contradiction')}
@@ -265,7 +272,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         ))}
 
         {pending && (
-          <div>
+          <div key={pending} className="animate-fade-in-up motion-reduce:animate-none">
             <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
               {t('visaInterview.officer')}
             </p>

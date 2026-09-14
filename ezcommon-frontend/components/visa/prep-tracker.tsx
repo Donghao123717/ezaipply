@@ -96,15 +96,26 @@ export function PrepTracker({ userId }: { userId: string }) {
       </div>
 
       <div className="rounded-2xl border bg-card p-6">
-        <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center justify-between mb-2">
           <h2 className="font-semibold text-primary">{t('visaPrep.documentsTitle')}</h2>
-          <span className="text-xs text-muted-foreground">
+          <span className="text-xs tabular-nums text-muted-foreground">
             {checkedCount} / {REQUIRED_DOCUMENTS.length}
           </span>
         </div>
+        {/* Packing for an interview is the one place a bar earns its keep -
+            the student wants to know at a glance whether they are ready. */}
+        <div className="mb-4 h-1.5 overflow-hidden rounded-full bg-muted">
+          <div
+            className="h-full rounded-full bg-emerald-500 transition-[width] duration-500 ease-out motion-reduce:transition-none"
+            style={{ width: `${(checkedCount / REQUIRED_DOCUMENTS.length) * 100}%` }}
+          />
+        </div>
         <div className="space-y-1">
           {REQUIRED_DOCUMENTS.map((key) => (
-            <label key={key} className="flex items-center gap-3 rounded-lg px-2 py-2 hover:bg-muted/40 cursor-pointer">
+            <label
+              key={key}
+              className="flex cursor-pointer items-center gap-3 rounded-lg px-2 py-2 transition-colors hover:bg-muted/40"
+            >
               <input
                 type="checkbox"
                 checked={!!data.documentsChecked[key]}
