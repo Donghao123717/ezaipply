@@ -4,6 +4,55 @@
 // "reach/target/safety", DDL instead of a formal "截止日期", etc.
 export const dictionary = {
   en: {
+    starter: {
+      steps: {
+        label: 'Onboarding steps',
+        review: 'Review',
+      },
+      loading: 'Loading your uploaded files…',
+      unknownDate: 'Unknown',
+      download: 'Download',
+      deleteFile: 'Delete {name}',
+      confirmDelete: 'Delete {name}? This cannot be undone.',
+      uploadFiles: 'Upload files',
+      uploadMore: 'Upload more files',
+      continueTo: 'Continue to {step}',
+      skipTo: 'Skip for now - go to {step}',
+      skipToDashboard: 'Skip for now - go to my dashboard',
+      finish: 'Finish and go to my dashboard',
+      empty: {
+        title: 'No files uploaded yet',
+        body: 'Upload documents for this section, or skip it and come back later.',
+      },
+      errors: {
+        noSession: 'We could not tell who you are - try signing in again.',
+        signInToView: 'Sign in to view your files.',
+        loadFailed: 'Could not load your files.',
+        deleteFailed: 'Could not delete that file.',
+      },
+      sections: {
+        profile: {
+          step: 'Profile',
+          title: 'Profile documents',
+          description: 'Review and manage your uploaded profile documents - resume, personal statement and similar.',
+        },
+        education: {
+          step: 'Education',
+          title: 'Education documents',
+          description: 'Review and manage your uploaded education documents - transcripts, diplomas and similar.',
+        },
+        activity: {
+          step: 'Activity',
+          title: 'Activity documents',
+          description: 'Review and manage your uploaded activity documents - certificates, awards and similar.',
+        },
+        testing: {
+          step: 'Testing',
+          title: 'Testing documents',
+          description: 'Review and manage your uploaded test documents - SAT, ACT, AP score reports and similar.',
+        },
+      },
+    },
     auth: {
       welcomeTitle: 'Welcome to Aipply',
       welcomeSubtitle: 'Enter your email to start. No password needed — sign in with the same email later to pick up where you left off.',
@@ -1576,6 +1625,55 @@ export const dictionary = {
     },
   },
   zh: {
+    starter: {
+      steps: {
+        label: '注册引导步骤',
+        review: '汇总检查',
+      },
+      loading: '正在加载你上传的文件…',
+      unknownDate: '时间未知',
+      download: '下载',
+      deleteFile: '删除 {name}',
+      confirmDelete: '确定删除 {name}？此操作无法撤销。',
+      uploadFiles: '上传文件',
+      uploadMore: '继续上传文件',
+      continueTo: '继续：{step}',
+      skipTo: '先跳过，去{step}',
+      skipToDashboard: '先跳过，回到首页',
+      finish: '完成，回到首页',
+      empty: {
+        title: '还没有上传文件',
+        body: '可以上传这一部分的材料，也可以先跳过，之后再补。',
+      },
+      errors: {
+        noSession: '没能识别你的身份，请重新登录试试。',
+        signInToView: '登录后即可查看你的文件。',
+        loadFailed: '文件加载失败。',
+        deleteFailed: '删除失败。',
+      },
+      sections: {
+        profile: {
+          step: '个人资料',
+          title: '个人资料文件',
+          description: '查看和管理你上传的个人资料文件 —— 简历、个人陈述等。',
+        },
+        education: {
+          step: '教育背景',
+          title: '教育背景文件',
+          description: '查看和管理你上传的教育背景文件 —— 成绩单、毕业证等。',
+        },
+        activity: {
+          step: '活动经历',
+          title: '活动经历文件',
+          description: '查看和管理你上传的活动经历文件 —— 证书、获奖记录等。',
+        },
+        testing: {
+          step: '标化成绩',
+          title: '标化成绩文件',
+          description: '查看和管理你上传的考试成绩文件 —— SAT、ACT、AP 成绩单等。',
+        },
+      },
+    },
     auth: {
       welcomeTitle: '欢迎使用 Aipply',
       welcomeSubtitle: '输入邮箱即可开始，无需密码。下次用同一个邮箱登录，就能继续之前的进度。',

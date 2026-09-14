@@ -1,5 +1,5 @@
 import { AppLayout } from '@/components/layout/app-layout'
-import { ProfileReview } from '@/components/starter/profile-review'
+import { SectionReview } from '@/components/starter/section-review'
 import { OnboardingSteps } from '@/components/starter/onboarding-steps'
 
 export const dynamic = 'force-dynamic'
@@ -11,7 +11,7 @@ export default function ReviewPage() {
         <div className="w-full max-w-2xl space-y-4">
           <OnboardingSteps current="profile" />
           <div className="border rounded-lg p-6 shadow-sm bg-card">
-            <ProfileReview />
+            <SectionReview section="profile" />
           </div>
         </div>
       </div>
