@@ -212,14 +212,20 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
           <div className="rounded-2xl border bg-card p-6">
             <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">{t('applicationForm.eyebrow')}</p>
             <h2 className="text-xl font-semibold text-primary mb-1">{college.name}</h2>
-            {/* Say plainly which of the two a student is looking at. Presenting
-                a stand-in as the school's real questions would have them
-                prepare answers to questions nobody asked. */}
+            {/* Say plainly which of the three a student is looking at. A
+                modelled form is worth preparing against, but presenting it as
+                the school's real questions would have them prepare answers to
+                questions nobody asked. */}
             <p className="mb-6 text-xs text-muted-foreground">
-              {form.isReal
-                ? `${t('applicationForm.realFormNote')} · ${form.cycle}`
-                : t('applicationForm.genericFormNote')}
+              {!form.isReal
+                ? t('applicationForm.genericFormNote')
+                : form.verified
+                  ? `${t('applicationForm.realFormNote')} · ${form.cycle}`
+                  : `${t('applicationForm.modelledFormNote')} · ${form.cycle}`}
             </p>
+            {form.isReal && !form.verified && form.sourceNote && (
+              <p className="-mt-4 mb-6 text-xs text-muted-foreground/80">{form.sourceNote}</p>
+            )}
 
             {page.kind === 'fields' && <p className="text-sm text-muted-foreground mb-6">{t('applicationForm.answerRequiredHint')}</p>}
 

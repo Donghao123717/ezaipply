@@ -102,20 +102,23 @@ export const APPLICATION_PAGES: ApplicationPageDef[] = [
 ]
 
 /**
- * The form to show for one school: its real questions when we have them, and
- * the generic template otherwise. Callers should treat `isReal` as the signal
- * for whether to tell the student these are the school's actual questions -
- * claiming a placeholder is the real thing is worse than admitting the gap.
+ * The form to show for one school, in one of three states: read off the
+ * school's live application (`verified`), modelled from what the school
+ * publishes (`isReal` without `verified`), or the generic template. Callers
+ * have to distinguish all three, because claiming a placeholder - or a
+ * modelled form - is the real thing is worse than admitting the gap.
  */
 export function getApplicationPages(schoolName: string | undefined): {
   pages: ApplicationPageDef[]
   isReal: boolean
+  /** True only when isReal and the questions were read off the school's live form. */
+  verified: boolean
   intro?: string
   cycle?: string
   sourceNote?: string
 } {
   const form = schoolName ? getSchoolForm(schoolName) : undefined
-  if (!form) return { pages: APPLICATION_PAGES, isReal: false }
+  if (!form) return { pages: APPLICATION_PAGES, isReal: false, verified: false }
 
   return {
     pages: form.pages.map((page) => ({
@@ -126,6 +129,7 @@ export function getApplicationPages(schoolName: string | undefined): {
       profileSections: page.profileSections,
     })),
     isReal: true,
+    verified: form.verified,
     cycle: form.cycle,
     sourceNote: form.sourceNote,
   }

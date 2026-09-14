@@ -1,4 +1,5 @@
 import type { FieldDef } from '@/lib/profile-schema'
+import { EXTENDED_SCHOOL_FORMS } from '@/lib/school-forms-extended'
 
 /**
  * Per-school application forms.
@@ -17,7 +18,9 @@ import type { FieldDef } from '@/lib/profile-schema'
  *
  * Schools without an entry fall back to the generic template in
  * lib/application-schema.ts, which is labelled as a placeholder rather than
- * passed off as the school's real questions.
+ * passed off as the school's real questions. The rest of the college list is
+ * covered by lib/school-forms-extended.ts, modelled rather than observed and
+ * marked `verified: false` so the UI can say so.
  *
  * MIT is the odd one out: it does not use the Common App, so its form restates
  * the whole profile. Only its genuinely MIT-specific questions are kept here -
@@ -40,11 +43,21 @@ export interface SchoolForm {
   pages: SchoolFormPage[]
   cycle: string
   sourceNote: string
+  /**
+   * True only when the questions were read off the school's live application.
+   * A modelled form - built from the school's published requirements - is
+   * useful for preparing, but a student must not be told it is the real list,
+   * so the UI says which one they are looking at. Anything that turns out to
+   * be wrong on a modelled form costs an evening; the same error presented as
+   * verified costs trust.
+   */
+  verified: boolean
 }
 
-export const SCHOOL_FORMS: Record<string, SchoolForm> = {
+const OBSERVED_SCHOOL_FORMS: Record<string, SchoolForm> = {
   'Amherst College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Amherst College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -65,6 +78,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Boston College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Boston College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -90,6 +104,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Boston University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Boston University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -112,6 +127,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Bowdoin College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Bowdoin College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -142,6 +158,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Brown University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Brown University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -176,6 +193,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Carleton College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Carleton College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -196,6 +214,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Carnegie Mellon University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Carnegie Mellon University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -214,6 +233,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Claremont McKenna College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Claremont McKenna College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -237,6 +257,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Colby College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Colby College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -254,6 +275,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Colgate University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Colgate University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -272,6 +294,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Columbia University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Columbia University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -305,6 +328,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Cornell University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Cornell University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -330,6 +354,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Dartmouth College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Dartmouth College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -352,6 +377,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Duke University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Duke University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -380,6 +406,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Emory University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Emory University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -409,6 +436,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Georgetown University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Georgetown University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -438,6 +466,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Hamilton College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Hamilton College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -459,6 +488,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Harvard University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Harvard University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -491,6 +521,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Harvey Mudd College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Harvey Mudd College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -509,6 +540,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Haverford College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Haverford College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -530,6 +562,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Johns Hopkins University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Johns Hopkins University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -549,6 +582,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Massachusetts Institute of Technology': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Massachusetts Institute of Technology's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -571,6 +605,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Middlebury College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Middlebury College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -594,6 +629,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'New York University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "New York University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -614,6 +650,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Northeastern University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Northeastern University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -634,6 +671,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Pomona College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Pomona College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -655,6 +693,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Princeton University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Princeton University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -678,6 +717,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Rice University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Rice University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -704,6 +744,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Smith College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Smith College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -721,6 +762,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Stanford University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Stanford University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -746,6 +788,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Swarthmore College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Swarthmore College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -767,6 +810,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Tufts University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Tufts University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -791,6 +835,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Tulane University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Tulane University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -810,6 +855,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'University of Chicago': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "University of Chicago's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -827,6 +873,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'University of North Carolina at Chapel Hill': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "University of North Carolina at Chapel Hill's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -859,6 +906,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'University of Notre Dame': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "University of Notre Dame's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -883,6 +931,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'University of Pennsylvania': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "University of Pennsylvania's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -904,6 +953,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'University of Southern California': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "University of Southern California's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -923,6 +973,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'University of Virginia': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "University of Virginia's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -942,6 +993,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Vanderbilt University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Vanderbilt University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -959,6 +1011,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Vassar College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Vassar College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -986,6 +1039,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Villanova University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Villanova University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -1008,6 +1062,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Wake Forest University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Wake Forest University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -1032,6 +1087,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Washington University in St. Louis': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Washington University in St. Louis's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -1053,6 +1109,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Wellesley College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Wellesley College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -1070,6 +1127,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Wesleyan University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Wesleyan University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -1091,6 +1149,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Williams College': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Williams College's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -1110,6 +1169,7 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
   'Yale University': {
     cycle: '2026-27',
+    verified: true,
     sourceNote: "Yale University's own application questions.",
     pages: [
       { key: 'general', label: 'General', kind: 'fields', fields: [
@@ -1137,9 +1197,21 @@ export const SCHOOL_FORMS: Record<string, SchoolForm> = {
   },
 }
 
+/**
+ * Observed forms win over modelled ones wherever both exist - reading the
+ * school's own form beats inferring it, every time.
+ */
+export const SCHOOL_FORMS: Record<string, SchoolForm> = {
+  ...EXTENDED_SCHOOL_FORMS,
+  ...OBSERVED_SCHOOL_FORMS,
+}
+
 export function getSchoolForm(schoolName: string): SchoolForm | undefined {
   return SCHOOL_FORMS[schoolName]
 }
 
-/** How many schools have a real form, for the coverage note in the UI. */
+/** How many schools have questions read off the school's own live form. */
+export const VERIFIED_SCHOOL_FORM_COUNT = Object.values(SCHOOL_FORMS).filter((f) => f.verified).length
+
+/** How many schools have a school-specific form at all, verified or modelled. */
 export const SCHOOL_FORM_COUNT = Object.keys(SCHOOL_FORMS).length

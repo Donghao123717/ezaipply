@@ -1753,6 +1753,8 @@ export const dictionary = {
       eyebrow: 'Application Form',
       answerRequiredHint: 'Answer the required questions to get started. Fields with * are mandatory.',
       realFormNote: "These are this school's own application questions, in its wording",
+      modelledFormNote:
+        "Modelled from what this school publishes, not read off its live form - prepare against it, then reconfirm on the real application",
       genericFormNote:
         "This school's own questions aren't loaded yet - the fields below are a general template, so treat them as practice rather than the real form.",
       saveAnswers: 'Save answers',
@@ -3571,6 +3573,8 @@ export const dictionary = {
       eyebrow: '网申表单',
       answerRequiredHint: '先填完必填题就能开始，带 * 的是必填项。',
       realFormNote: '以下是该校自己的申请问题，保留其原始表述',
+      modelledFormNote:
+        '以下问题根据该校公开的申请要求整理，未逐字取自其在线表单——可以先照此准备，提交前请到真实申请系统再核对一遍',
       genericFormNote: '该校的专属问题尚未收录，下面是通用模板，请当作练习而非真实表单。',
       saveAnswers: '保存答案',
       autoSaveOn: '已开启自动保存',
