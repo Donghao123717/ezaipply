@@ -6,6 +6,7 @@ import { CaseNotes } from '@/components/counselor/case-notes'
 import { MockInterview } from '@/components/visa/mock-interview'
 import { Risk214bPanel } from '@/components/visa/risk-214b-panel'
 import { useT } from '@/lib/i18n/use-t'
+import { useLocale } from '@/lib/i18n/locale-context'
 import {
   loadVisaChat,
   saveVisaChat,
@@ -26,6 +27,7 @@ const PERSONAS: PersonaMeta[] = VISA_TABS.map((tab) => ({ tab, dictKey: tab }))
 
 export function VisaCounselor({ userId }: { userId: string }) {
   const t = useT()
+  const { locale } = useLocale()
   const [activeTab, setActiveTab] = useState<VisaTab>('interviewer')
   const [visaType, setVisaType] = useState<VisaType>('F1')
   const [messagesByTab, setMessagesByTab] = useState<Record<VisaTab, VisaChatMessage[]>>({
@@ -79,6 +81,7 @@ export function VisaCounselor({ userId }: { userId: string }) {
           message: text.trim(),
           agent: tab,
           visa_type: visaType,
+          locale,
           ds160_context: loadDS160Context(userId),
           profile_context: loadProfileContext(userId),
           history: history.map((m) => ({ role: m.role, content: m.content })),

@@ -116,6 +116,22 @@ const config: Config = {
           from: { opacity: '0', transform: 'translateY(5px)' },
           to: { opacity: '1', transform: 'translateY(0)' },
         },
+        // The interviewer's idle life: a slow drift, an occasional blink, and a
+        // mouth that moves while speech is playing.
+        'avatar-idle': {
+          '0%, 100%': { transform: 'translateY(0) rotate(0deg)' },
+          '50%': { transform: 'translateY(-1.5px) rotate(-0.4deg)' },
+        },
+        'avatar-blink': {
+          '0%, 92%, 100%': { transform: 'scaleY(1)' },
+          '95%': { transform: 'scaleY(0.1)' },
+        },
+        'avatar-speak': {
+          '0%, 100%': { transform: 'scaleY(0.45) scaleX(1)' },
+          '25%': { transform: 'scaleY(1.15) scaleX(0.92)' },
+          '50%': { transform: 'scaleY(0.6) scaleX(1.05)' },
+          '75%': { transform: 'scaleY(1) scaleX(0.96)' },
+        },
         // Stands in for their drone footage: a slow drift across the still,
         // so the hero is never completely static.
         'ken-burns': {
@@ -158,6 +174,9 @@ const config: Config = {
         'check-receive': 'check-receive 2.6s ease-in-out infinite',
         'row-slide': 'row-slide 0.45s ease-out both',
         'ken-burns': 'ken-burns 26s ease-in-out infinite',
+        'avatar-idle': 'avatar-idle 5s ease-in-out infinite',
+        'avatar-blink': 'avatar-blink 6s ease-in-out infinite',
+        'avatar-speak': 'avatar-speak 0.34s ease-in-out infinite',
         'fade-out-right': 'fade-out-right 0.25s ease-in both',
         'slide-up-in': 'slide-up-in 0.25s cubic-bezier(0.22, 1, 0.36, 1) both',
         shimmer: 'shimmer 1.6s infinite',

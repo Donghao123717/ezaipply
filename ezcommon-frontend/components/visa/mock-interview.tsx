@@ -1,8 +1,9 @@
 "use client"
 import { useEffect, useRef, useState } from 'react'
-import { AlertTriangle, Loader2, Mic, RotateCcw, Send, Languages, Square, Video, VideoOff, Volume2 } from 'lucide-react'
+import { AlertTriangle, Loader2, Mic, RotateCcw, Send, Languages, Square, Video, VideoOff, Volume2, VolumeX } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
+import { useLocale } from '@/lib/i18n/locale-context'
 import { loadDS160Context } from '@/lib/ds160-store'
 import { loadProfileContext } from '@/lib/essay-store'
 import {
@@ -24,6 +25,7 @@ import {
   createRecorder,
   type MediaPermission,
 } from '@/lib/interview-media'
+import { InterviewerAvatar } from '@/components/visa/interviewer-avatar'
 import { cn } from '@/lib/utils'
 
 /**
@@ -44,6 +46,9 @@ const SEVERITY_STYLE: Record<ConsistencyFlag['severity'], string> = {
 
 export function MockInterview({ userId, visaType }: { userId: string; visaType: VisaType }) {
   const t = useT()
+  // The prompts state the language outright - asked to infer it from an
+  // English transcript, the model once answered in Spanish.
+  const { locale } = useLocale()
   const [session, setSession] = useState<InterviewSession | null>(null)
   const [pending, setPending] = useState<string>('')
   const [answer, setAnswer] = useState('')
@@ -59,6 +64,10 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
   // exist during server rendering, so using it directly in render made the
   // server and client disagree and React threw a hydration error.
   const [canUseMedia, setCanUseMedia] = useState(false)
+  const [officerSpeaking, setOfficerSpeaking] = useState(false)
+  const [muted, setMuted] = useState(false)
+  const [review, setReview] = useState<any | null>(null)
+  const [reviewing, setReviewing] = useState(false)
   const [cameraOn, setCameraOn] = useState(true)
   const [recording, setRecording] = useState(false)
   const [transcribing, setTranscribing] = useState(false)
@@ -79,10 +88,21 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
     }
   }, [])
 
-  // Read each new question aloud, once, the way it arrives on the day.
+  // Attach the stream once the element exists. Doing it inside enableMedia
+  // silently did nothing: the <video> only renders after permission flips to
+  // granted, so the ref was still null at the point of assignment.
   useEffect(() => {
-    if (pending && permission === 'granted') speak(pending)
-  }, [pending, permission])
+    if (videoRef.current && streamRef.current) {
+      videoRef.current.srcObject = streamRef.current
+    }
+  }, [permission, cameraOn])
+
+  // Read each new question aloud, once, the way it arrives on the day. Speech
+  // synthesis needs no permission, so the officer speaks whether or not the
+  // applicant ever turns on a camera - their own video was never the point.
+  useEffect(() => {
+    if (pending && !muted) speak(pending, 'en-US', setOfficerSpeaking)
+  }, [pending, muted])
 
   async function enableMedia(withVideo: boolean) {
     setPermission('prompting')
@@ -90,7 +110,6 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
       const stream = await requestMedia(withVideo)
       stopStream(streamRef.current)
       streamRef.current = stream
-      if (videoRef.current) videoRef.current.srcObject = stream
       setCameraOn(withVideo)
       setPermission('granted')
     } catch (err) {
@@ -105,7 +124,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
       setRecording(false)
       return
     }
-    stopSpeaking()
+    stopSpeaking(setOfficerSpeaking)
     const recorder = createRecorder(streamRef.current, async (blob) => {
       setTranscribing(true)
       try {
@@ -151,6 +170,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         visa_type: visaType,
+        locale,
         turns: turns.map((turn) => ({ question: turn.question, answer: turn.answer })),
         ds160_context: loadDS160Context(userId),
         profile_context: loadProfileContext(userId),
@@ -223,7 +243,35 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
     }
   }
 
+  async function runReview() {
+    if (!session) return
+    setReviewing(true)
+    setError(null)
+    try {
+      const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
+      const res = await fetch(`${base}/api/visa/interview-review`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          visa_type: visaType,
+          locale,
+          turns: session.turns.map((turn) => ({ question: turn.question, answer: turn.answer })),
+          ds160_context: loadDS160Context(userId),
+          profile_context: loadProfileContext(userId),
+        }),
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data?.detail || t('visaInterview.reviewFailed'))
+      setReview(data)
+    } catch (e) {
+      setError(e instanceof Error ? e.message : t('visaInterview.reviewFailed'))
+    } finally {
+      setReviewing(false)
+    }
+  }
+
   function restart() {
+    setReview(null)
     clearInterview(userId)
     setSession(null)
     setPending('')
@@ -318,10 +366,10 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
               {permission === 'denied' ? t('visaInterview.permissionBlocked') : t('visaInterview.enableVideo')}
             </button>
           )}
-          {permission === 'granted' && pending && (
+          {pending && !muted && (
             <button
               type="button"
-              onClick={() => speak(pending)}
+              onClick={() => speak(pending, 'en-US', setOfficerSpeaking)}
               aria-label={t('visaInterview.replay')}
               className="flex items-center gap-1 rounded-md border px-2 py-1 text-xs text-muted-foreground hover:bg-muted"
             >
@@ -329,6 +377,19 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
               {t('visaInterview.replay')}
             </button>
           )}
+          <button
+            type="button"
+            onClick={() => {
+              const next = !muted
+              setMuted(next)
+              if (next) stopSpeaking(setOfficerSpeaking)
+            }}
+            aria-pressed={muted}
+            className="flex items-center gap-1 rounded-md border px-2 py-1 text-xs text-muted-foreground hover:bg-muted"
+          >
+            {muted ? <VolumeX className="h-3 w-3" /> : <Volume2 className="h-3 w-3" />}
+            {muted ? t('visaInterview.unmute') : t('visaInterview.mute')}
+          </button>
           {permission === 'granted' && (
             <button
               type="button"
@@ -356,19 +417,41 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         </div>
       </div>
 
-      {/* Self-view. Half of what makes a consular window hard is being looked
-          at while you answer, and you cannot rehearse that against a text box. */}
-      {permission === 'granted' && cameraOn && (
-        <div className="pointer-events-none absolute bottom-28 right-6 z-10">
-          <video
-            ref={videoRef}
-            autoPlay
-            playsInline
-            muted
-            className="h-32 w-44 rounded-lg border-2 border-primary/20 object-cover shadow-lg"
-          />
-        </div>
-      )}
+      {/* The stage: the officer, you in the corner, and what was just asked
+          captioned underneath - the question stays readable after the audio
+          has gone, which is the one mercy a real window does not give you. */}
+      <div className="border-b bg-muted/30 px-6 py-4">
+          <div className="mx-auto flex max-w-3xl gap-4">
+            <div className="relative shrink-0">
+              <InterviewerAvatar speaking={officerSpeaking} className="h-40 w-40 sm:h-44 sm:w-44" />
+              {permission === 'granted' && cameraOn && (
+                <video
+                  ref={videoRef}
+                  autoPlay
+                  playsInline
+                  muted
+                  className="absolute -bottom-2 -right-2 h-16 w-20 rounded-md border-2 border-background object-cover shadow-md"
+                />
+              )}
+            </div>
+
+            <div className="flex min-w-0 flex-1 flex-col justify-center">
+              {pending ? (
+                <>
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
+                    {t('visaInterview.officer')}
+                  </p>
+                  <p className="mt-1 text-base font-medium leading-snug text-primary">{pending}</p>
+                  {showTranslation && pendingTranslation && (
+                    <p className="mt-1 text-sm text-muted-foreground">{pendingTranslation}</p>
+                  )}
+                </>
+              ) : (
+                <p className="text-sm text-muted-foreground">{t('visaInterview.doneTitle')}</p>
+              )}
+            </div>
+          </div>
+      </div>
 
       <div ref={scrollRef} className="mx-auto w-full max-w-3xl flex-1 space-y-6 overflow-y-auto px-6 py-6">
         {session.turns.map((turn, i) => (
@@ -439,7 +522,8 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           </div>
         ))}
 
-        {pending && (
+        {/* Only when there is no stage above showing it already. */}
+        {pending && permission !== 'granted' && (
           <div key={pending} className="animate-fade-in-up motion-reduce:animate-none">
             <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
               {t('visaInterview.officer')}
@@ -451,11 +535,58 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           </div>
         )}
 
-        {session.done && !pending && (
+        {session.turns.some((turn) => turn.answer) && !review && (
           <div className="rounded-xl border border-dashed p-6 text-center">
-            <p className="text-sm font-medium text-primary">{t('visaInterview.doneTitle')}</p>
-            <p className="mt-1 text-sm text-muted-foreground">{t('visaInterview.doneBody')}</p>
-            <Button className="mt-4" size="sm" variant="outline" onClick={restart}>
+            <p className="text-sm font-medium text-primary">
+              {session.done ? t('visaInterview.doneTitle') : t('visaInterview.reviewTitle')}
+            </p>
+            <p className="mt-1 text-sm text-muted-foreground">{t('visaInterview.reviewBlurb')}</p>
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              <Button size="sm" onClick={runReview} disabled={reviewing}>
+                {reviewing ? <Loader2 className="mr-1.5 h-3 w-3 animate-spin" /> : null}
+                {t('visaInterview.review')}
+              </Button>
+              <Button size="sm" variant="outline" onClick={restart}>
+                <RotateCcw className="mr-1.5 h-3 w-3" />
+                {t('visaInterview.restart')}
+              </Button>
+            </div>
+          </div>
+        )}
+
+        {review && (
+          <div className="animate-fade-in-up rounded-xl border bg-card p-5 motion-reduce:animate-none">
+            <div className="flex items-baseline justify-between gap-3">
+              <p className="text-sm font-semibold text-primary">{t('visaInterview.reviewTitle')}</p>
+              <span className="font-display text-xl font-semibold tabular-nums text-primary">
+                {review.overall_score}
+                <span className="ml-0.5 text-xs font-normal text-muted-foreground">/100</span>
+              </span>
+            </div>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{review.verdict}</p>
+
+            {[
+              ['strengths', 'visaInterview.strengths', 'text-emerald-600'],
+              ['weaknesses', 'visaInterview.weaknesses', 'text-amber-600'],
+              ['drill', 'visaInterview.drill', 'text-primary'],
+              ['unresolved_conflicts', 'visaInterview.unresolved', 'text-destructive'],
+            ].map(([key, labelKey, tone]) =>
+              (review[key] || []).length > 0 ? (
+                <div key={key} className="mt-4">
+                  <p className={cn('text-[11px] font-semibold uppercase tracking-[0.12em]', tone)}>{t(labelKey)}</p>
+                  <ul className="mt-1.5 space-y-1">
+                    {review[key].map((item: string, i: number) => (
+                      <li key={i} className="flex gap-1.5 text-sm text-muted-foreground">
+                        <span aria-hidden>·</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null,
+            )}
+
+            <Button className="mt-5" size="sm" variant="outline" onClick={restart}>
               <RotateCcw className="mr-1.5 h-3 w-3" />
               {t('visaInterview.restart')}
             </Button>

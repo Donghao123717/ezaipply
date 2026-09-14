@@ -53,12 +53,19 @@ export function stopStream(stream: MediaStream | null) {
  * question once, at speed, the way they will on the day - not that it sounds
  * like a particular person.
  */
-export function speak(text: string, lang = 'en-US'): void {
-  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
+export function speak(text: string, lang = 'en-US', onState?: (speaking: boolean) => void): void {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    onState?.(false)
+    return
+  }
   try {
     window.speechSynthesis.cancel()
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = lang
+    // Drives the interviewer's mouth, so it moves only while audio is playing.
+    utterance.onstart = () => onState?.(true)
+    utterance.onend = () => onState?.(false)
+    utterance.onerror = () => onState?.(false)
     // Consular officers are brisk. A slow, friendly reading would teach the
     // wrong expectation.
     utterance.rate = 1.05
@@ -67,10 +74,12 @@ export function speak(text: string, lang = 'en-US'): void {
     window.speechSynthesis.speak(utterance)
   } catch {
     // A missing voice pack should never interrupt the interview.
+    onState?.(false)
   }
 }
 
-export function stopSpeaking(): void {
+export function stopSpeaking(onState?: (speaking: boolean) => void): void {
+  onState?.(false)
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
   try {
     window.speechSynthesis.cancel()

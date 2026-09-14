@@ -152,6 +152,17 @@ class VisaChatMessage(BaseModel):
     content: str
 
 
+# "The applicant's language" is not inferable from an English transcript - asked
+# to guess, the model once replied in Spanish. The UI knows the locale, so it
+# passes it and every prompt states it outright.
+LANGUAGE_NAMES = {"zh": "Simplified Chinese", "en": "English"}
+
+
+def _language_rule(locale: str) -> str:
+    name = LANGUAGE_NAMES.get((locale or "en").lower()[:2], "English")
+    return f"Write everything you return to the applicant in {name}."
+
+
 # Four specialists, the way the admissions side works. A visa applicant's
 # questions really do split along these lines: what will they ask me, what do I
 # bring, will I be refused, and what do I do next.
@@ -233,6 +244,7 @@ class VisaChatRequest(BaseModel):
     profile_context: str = ""
     history: List[VisaChatMessage] = []
     case_notes: List[str] = Field(default_factory=list)
+    locale: str = "en"
 
 
 class VisaChatResponse(BaseModel):
@@ -262,7 +274,7 @@ async def visa_chat(body: VisaChatRequest):
         f"For this visa type, what actually decides the outcome is: {visa['focus']}\n\n"
         "You can see their profile and their DS-160 answers. Ground every claim in those - if "
         "something you need is missing, say so plainly rather than assuming it. Answer in the "
-        "applicant's language, concretely, without filler.\n\n"
+        "concretely, without filler.\n\n"
         "This is directional guidance for a demo product, not a legal opinion or any guarantee of an "
         "outcome. Never offer to book, schedule, or automate an appointment - that is the applicant's "
         "to do. Point them to their school's international student office or an immigration attorney "
@@ -275,6 +287,7 @@ async def visa_chat(body: VisaChatRequest):
         "source, a tie to home). Max 20 words, third person. null when nothing durable came up.\n"
         f"- links: up to 2 pages, each {{\"label\": \"...\", \"page\": \"...\"}} where page is one of: "
         f"{', '.join(VISA_ALLOWED_LINKS)}. Only when your advice asks them to go do something there.\n\n"
+        + _language_rule(body.locale) + "\n\n"
         'Respond ONLY with JSON: {"reasoning": ["..."], "response": "...", "note": "..." or null, "links": []}'
     )
 
@@ -339,6 +352,7 @@ class InterviewRequest(BaseModel):
     turns: List[InterviewTurn] = Field(default_factory=list)
     ds160_context: str = ""
     profile_context: str = ""
+    locale: str = "en"
 
 
 class ConsistencyFlag(BaseModel):
@@ -396,6 +410,7 @@ async def visa_interview(body: InterviewRequest):
         "different length of stay, a different job, a relative in the U.S. they did not declare. Report "
         "these precisely, quoting both sides. Do not invent conflicts: if the spoken answer and the "
         "form agree, or the form is silent, return an empty list.\n\n"
+        "\n"
         "Return JSON with:\n"
         "- question: the next question, in English, as an officer would ask it\n"
         "- question_translation: that question in Simplified Chinese, so the applicant understands "
@@ -405,6 +420,9 @@ async def visa_interview(body: InterviewRequest):
         "- score: 0-100 for that last answer, or null if there was none\n"
         "- better_answer: how to say that last answer in natural spoken English, one or two sentences, "
         "in THEIR facts, not invented ones. null if there was no last answer or it was already strong\n"
+        + _language_rule(body.locale)
+        + " The question and better_answer always stay in English - that is the language of the "
+        "interview - but evaluation is for the applicant to read.\n"
         "- consistency: conflicts between the spoken answer and the DS-160, each "
         '{"severity": "high|medium|low", "said": "...", "form_says": "...", "detail": "..."}. '
         "Use [] when there are none.\n\n"
@@ -497,6 +515,7 @@ class RiskFactorRequest(BaseModel):
     visa_type: str = "F1"
     ds160_context: str = ""
     profile_context: str = ""
+    locale: str = "en"
 
 
 class RiskFactor(BaseModel):
@@ -564,13 +583,14 @@ async def visa_risk_214b(body: RiskFactorRequest):
         "is weak' and 'you have not told us yet'.\n"
         "- evidence: quote or paraphrase the specific answers you scored from, max 3 per factor. Empty "
         "when you had nothing to go on.\n"
-        "- finding: one sentence on why that score, in the applicant's language.\n"
+        "- finding: one sentence on why that score.\n"
         "- overall: your read across the factors, 0-100. Not an average - a single fatal weakness "
         "should drag it down.\n"
-        "- summary: two or three sentences, the applicant's language, leading with whichever factor "
+        "- summary: two or three sentences, leading with whichever factor "
         "most needs work.\n\n"
         "This is directional guidance for a demo product, not a legal opinion and not a prediction of "
         "any decision.\n\n"
+        + _language_rule(body.locale) + "\n\n"
         'Respond ONLY with JSON: {"factors": [{"key": "...", "label": "...", "score": 0, '
         '"finding": "...", "evidence": ["..."]}], "overall": 0, "summary": "...", "missing": ["..."]}'
     )
@@ -780,3 +800,107 @@ async def visa_transcribe_answer(audio: UploadFile = File(..., description="A sp
         return TranscribeResponse(transcript=transcript.strip())
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=f"Could not transcribe: {e}")
+
+
+class InterviewReviewRequest(BaseModel):
+    visa_type: str = "F1"
+    turns: List[InterviewTurn] = Field(default_factory=list)
+    ds160_context: str = ""
+    profile_context: str = ""
+    locale: str = "en"
+
+
+class InterviewReview(BaseModel):
+    verdict: str
+    overall_score: int
+    strengths: List[str] = Field(default_factory=list)
+    weaknesses: List[str] = Field(default_factory=list)
+    drill: List[str] = Field(default_factory=list)
+    unresolved_conflicts: List[str] = Field(default_factory=list)
+
+
+@router.post("/api/visa/interview-review", response_model=InterviewReview, tags=["Visa"])
+async def visa_interview_review(body: InterviewReviewRequest):
+    """
+    Read the whole interview at once and say how it went.
+
+    Per-answer feedback tells an applicant how each reply landed; it cannot tell
+    them the thing that actually decides interviews - whether the account they
+    gave hangs together across all of it. Someone can answer eight questions
+    acceptably and still fund their studies three different ways by the end.
+    """
+    if not llm_provider:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="LLM provider not available")
+
+    answered = [t for t in body.turns if t.answer.strip()]
+    if not answered:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="No answers to review")
+
+    visa = VISA_TYPES.get(body.visa_type) or VISA_TYPES["F1"]
+    transcript = "\n\n".join(f"Officer: {t.question}\nApplicant: {t.answer}" for t in answered)
+
+    system_prompt = (
+        f"You have just watched a mock {visa['label']} interview and are debriefing the applicant.\n\n"
+        f"What decides this visa type: {visa['focus']}\n\n"
+        "Judge the interview as a whole, not answer by answer - they already have that. What matters "
+        "here is whether one consistent story came through: the same funding source throughout, the "
+        "same plan, the same dates, no answer quietly undoing an earlier one. Check the transcript "
+        "against their DS-160 as well, and report any contradiction still standing at the end.\n\n"
+        "Be direct. An applicant who is told a weak interview was fine walks into the real one unready.\n\n"
+        "Any conflict with the DS-160 belongs in unresolved_conflicts, not weaknesses - it was put in "
+        "the wrong field until this was spelled out, and it is the finding that matters most.\n\n"
+        "Return JSON with:\n"
+        "- verdict: two or three sentences leading with the single thing "
+        "that would most change the outcome\n"
+        "- overall_score: 0-100 for the interview as a whole. Not an average of the answers - one "
+        "unexplained contradiction should cost more than three vague replies\n"
+        "- strengths: up to 3 specific things that worked, quoting them\n"
+        "- weaknesses: up to 4 specific problems, each naming what to do instead\n"
+        "- drill: up to 3 questions they should practise again before the real interview\n"
+        "- unresolved_conflicts: contradictions with the DS-160 or between their own answers that were "
+        "never cleared up. [] when there are none - do not invent them.\n\n"
+        + _language_rule(body.locale) + "\n\n"
+        'Respond ONLY with JSON: {"verdict": "...", "overall_score": 0, "strengths": [], '
+        '"weaknesses": [], "drill": [], "unresolved_conflicts": []}'
+    )
+
+    user_block = (
+        f"Applicant's profile:\n{body.profile_context or '(none)'}\n\n"
+        f"Applicant's DS-160 answers:\n{body.ds160_context or '(none)'}\n\n"
+        f"Full interview transcript:\n{transcript}"
+    )
+
+    try:
+        raw = llm_provider.chat_completion(
+            messages=[{"role": "system", "content": system_prompt}, {"role": "user", "content": user_block}],
+            temperature=0.35,
+            max_tokens=1300,
+        )
+        parsed = _extract_json(raw["content"])
+        if not isinstance(parsed, dict) or not parsed.get("verdict"):
+            raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail="Review returned an unusable response")
+
+        def strings(key: str, limit: int) -> List[str]:
+            return [
+                str(x).strip()
+                for x in (parsed.get(key) or [])[:limit]
+                if isinstance(x, (str, int, float)) and str(x).strip()
+            ]
+
+        try:
+            score = max(0, min(100, int(parsed.get("overall_score", 0))))
+        except (TypeError, ValueError):
+            score = 0
+
+        return InterviewReview(
+            verdict=str(parsed["verdict"]).strip(),
+            overall_score=score,
+            strengths=strings("strengths", 3),
+            weaknesses=strings("weaknesses", 4),
+            drill=strings("drill", 3),
+            unresolved_conflicts=strings("unresolved_conflicts", 5),
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))

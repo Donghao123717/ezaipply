@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Loader2, ShieldQuestion } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
+import { useLocale } from '@/lib/i18n/locale-context'
 import { loadDS160Context } from '@/lib/ds160-store'
 import { loadProfileContext } from '@/lib/essay-store'
 import type { VisaType } from '@/lib/visa-chat-store'
@@ -40,6 +41,7 @@ function bandClass(score: number): string {
 
 export function Risk214bPanel({ userId, visaType }: { userId: string; visaType: VisaType }) {
   const t = useT()
+  const { locale } = useLocale()
   const [result, setResult] = useState<RiskResult | null>(null)
   // Bars start at zero and grow once painted - a bar that mounts at its final
   // width reads as a static label rather than a measurement.
@@ -57,6 +59,7 @@ export function Risk214bPanel({ userId, visaType }: { userId: string; visaType: 
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           visa_type: visaType,
+          locale,
           ds160_context: loadDS160Context(userId),
           profile_context: loadProfileContext(userId),
         }),
