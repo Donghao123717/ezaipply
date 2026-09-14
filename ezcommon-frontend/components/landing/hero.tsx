@@ -2,14 +2,7 @@
 import Link from 'next/link'
 import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
-
-/**
- * Looping hero clip, with the poster standing in until it has decoded. Set
- * NEXT_PUBLIC_HERO_VIDEO to swap in different footage, or to '' to drop back
- * to the gradient wash alone.
- */
-const HERO_VIDEO = process.env.NEXT_PUBLIC_HERO_VIDEO ?? '/hero-loop.mp4'
-const HERO_POSTER = '/hero-poster.jpg'
+import { VideoBackdrop } from '@/components/landing/video-backdrop'
 
 export function Hero({ copy }: { copy: LandingCopy }) {
   const HERO = copy.hero
@@ -18,34 +11,7 @@ export function Hero({ copy }: { copy: LandingCopy }) {
       id="hero"
       className="relative flex min-h-[92vh] items-center overflow-hidden bg-primary text-primary-foreground"
     >
-      {/* Backdrop: the footage, with the gradient wash layered over it to keep
-          the drift alive in the corners the clip does not fill. */}
-      <div aria-hidden className="absolute inset-0">
-        {HERO_VIDEO && (
-          <video
-            // React sets `muted` as a property but never as the HTML
-            // attribute, and Chrome's autoplay policy reads the attribute -
-            // so `defaultMuted` is what actually lets this start on its own.
-            ref={(el) => {
-              if (el) el.defaultMuted = true
-            }}
-            className="absolute inset-0 h-full w-full object-cover"
-            src={HERO_VIDEO}
-            poster={HERO_POSTER}
-            autoPlay
-            loop
-            muted
-            playsInline
-          />
-        )}
-        <div
-          className="absolute inset-0 animate-ken-burns motion-reduce:animate-none"
-          style={{
-            background:
-              'radial-gradient(1200px 700px at 72% 18%, hsl(var(--accent) / 0.30), transparent 60%), radial-gradient(900px 620px at 12% 88%, hsl(var(--accent) / 0.14), transparent 58%), radial-gradient(700px 500px at 40% 50%, hsl(var(--primary-foreground) / 0.08), transparent 65%)',
-          }}
-        />
-      </div>
+      <VideoBackdrop />
 
       {/* Directional wash: heaviest at the left so the copy always has contrast,
           whatever the footage underneath happens to be doing. */}

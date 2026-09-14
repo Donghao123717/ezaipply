@@ -1,6 +1,5 @@
 "use client"
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
 import { getLandingCopy, type LandingCopy } from '@/lib/landing-content'
 import { useLocale } from '@/lib/i18n/locale-context'
 import { Hero } from '@/components/landing/hero'
@@ -9,6 +8,7 @@ import { HowItWorks } from '@/components/landing/how-it-works'
 import { SuccessStories } from '@/components/landing/success-stories'
 import { Rewards } from '@/components/landing/rewards'
 import { Faq, SiteFooter } from '@/components/landing/faq'
+import { SiteHeader } from '@/components/landing/site-header'
 import { cn } from '@/lib/utils'
 
 /** Dotted section index down the right edge, tracking whatever is on screen. */
@@ -62,7 +62,7 @@ function SectionNav({ active, sections }: { active: string; sections: LandingCop
 }
 
 export function LandingPage() {
-  const { locale, setLocale } = useLocale()
+  const { locale } = useLocale()
   const copy = getLandingCopy(locale)
   const [active, setActive] = useState<string>('hero')
 
@@ -87,28 +87,7 @@ export function LandingPage() {
 
   return (
     <div className="scroll-smooth motion-reduce:scroll-auto">
-      <header className="fixed top-0 inset-x-0 z-40 bg-primary/85 backdrop-blur border-b border-primary-foreground/10">
-        <div className="mx-auto max-w-6xl px-6 h-14 flex items-center justify-between">
-          <Link href="/" className="font-display text-lg text-primary-foreground tracking-tight">
-            <span className="text-accent">Ai</span>pply
-          </Link>
-          <div className="flex items-center gap-3">
-            <button
-              type="button"
-              onClick={() => setLocale(locale === 'zh' ? 'en' : 'zh')}
-              className="text-xs text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-            >
-              {locale === 'zh' ? 'EN' : '中文'}
-            </button>
-            <Link
-              href="/auth/login"
-              className="rounded-sm border border-primary-foreground/30 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.12em] text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-colors"
-            >
-              {locale === 'zh' ? '登录' : 'Sign in'}
-            </Link>
-          </div>
-        </div>
-      </header>
+      <SiteHeader action="signIn" />
 
       <SectionNav active={active} sections={copy.sections} />
 
