@@ -126,7 +126,6 @@ export function getApplicationPages(schoolName: string | undefined): {
       profileSections: page.profileSections,
     })),
     isReal: true,
-    intro: form.intro,
     cycle: form.cycle,
     sourceNote: form.sourceNote,
   }

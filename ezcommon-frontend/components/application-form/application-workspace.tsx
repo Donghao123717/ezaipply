@@ -212,13 +212,6 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
           <div className="rounded-2xl border bg-card p-6">
             <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">{t('applicationForm.eyebrow')}</p>
             <h2 className="text-xl font-semibold text-primary mb-1">{college.name}</h2>
-            {/* The school's own welcome, where it writes one. */}
-            {form.intro && (
-              <p className="mb-4 rounded-lg border-l-2 border-accent bg-secondary/30 px-4 py-3 text-sm leading-relaxed text-muted-foreground">
-                {form.intro}
-              </p>
-            )}
-
             {/* Say plainly which of the two a student is looking at. Presenting
                 a stand-in as the school's real questions would have them
                 prepare answers to questions nobody asked. */}
