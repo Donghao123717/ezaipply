@@ -182,7 +182,8 @@ export function VisaCounselor({ userId }: { userId: string }) {
             notesSlot={
               <CaseNotes
                 notes={notes}
-                activeTab={activeTab as any}
+                activeTab={activeTab}
+                dictNamespace="visaCounselor"
                 onRemove={(id) => setNotes(removeCaseNote(userId, id))}
               />
             }

@@ -4,13 +4,14 @@ import { ChevronDown, FileText, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n/use-t'
 import type { CaseNote } from '@/lib/case-notes-store'
-import type { CounselorTab } from '@/lib/counselor-chat'
-
-const SOURCE_LABEL_KEY: Record<CounselorTab, string> = {
-  team: 'counselor.personas.team.navLabel',
-  strategist: 'counselor.personas.strategist.navLabel',
-  essay: 'counselor.personas.essay.navLabel',
-  coordinator: 'counselor.personas.coordinator.navLabel',
+/**
+ * Which specialist wrote a note. Both the admissions and visa teams share this
+ * panel, and a note carries whichever tab saved it - so the label is derived
+ * from the namespace rather than a fixed map, which previously returned
+ * undefined for any visa tab and crashed the page.
+ */
+function sourceLabelKey(namespace: string, tab: string): string {
+  return `${namespace}.personas.${tab}.navLabel`
 }
 
 /**
@@ -22,10 +23,14 @@ export function CaseNotes({
   notes,
   activeTab,
   onRemove,
+  dictNamespace = 'counselor',
 }: {
   notes: CaseNote[]
-  activeTab: CounselorTab
+  /** Whichever specialist tab is open - admissions or visa. */
+  activeTab: string
   onRemove: (id: string) => void
+  /** Dictionary prefix for persona names, e.g. "counselor" or "visaCounselor". */
+  dictNamespace?: string
 }) {
   const t = useT()
   const [open, setOpen] = useState(false)
@@ -45,7 +50,7 @@ export function CaseNotes({
         <span className="truncate">
           {t('counselor.notes.sharedWith')
             .replace('{count}', String(notes.length))
-            .replace('{agent}', t(SOURCE_LABEL_KEY[activeTab]))}
+            .replace('{agent}', t(sourceLabelKey(dictNamespace, activeTab)))}
         </span>
         {notes.length > 0 && (
           <ChevronDown className={cn('h-3.5 w-3.5 ml-auto shrink-0 transition-transform', open && 'rotate-180')} />
@@ -62,7 +67,7 @@ export function CaseNotes({
             >
               <div className="min-w-0 flex-1">
                 <p className="text-xs text-foreground leading-relaxed">{note.text}</p>
-                <p className="text-[10px] text-muted-foreground mt-0.5">{t(SOURCE_LABEL_KEY[note.source])}</p>
+                <p className="text-[10px] text-muted-foreground mt-0.5">{t(sourceLabelKey(dictNamespace, note.source))}</p>
               </div>
               <button
                 type="button"

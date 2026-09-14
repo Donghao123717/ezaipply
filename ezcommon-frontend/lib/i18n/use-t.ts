@@ -28,6 +28,10 @@ function getPath(obj: any, path: string): unknown {
 export function useT() {
   const { locale } = useLocale()
   return useCallback(function t(key: string): string {
+    // A missing or undefined key should render as itself, not throw. A
+    // translation lookup taking down the whole page is never the right
+    // trade - it did exactly that when a caller passed an unmapped key.
+    if (typeof key !== 'string' || !key) return ''
     const value = getPath((dictionary as any)[locale], key)
     if (typeof value === 'string') return value
     const fallback = getPath((dictionary as any).en, key)

@@ -755,3 +755,28 @@ async def visa_voice_fill(
         raise
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
+
+class TranscribeResponse(BaseModel):
+    transcript: str
+
+
+@router.post("/api/visa/transcribe-answer", response_model=TranscribeResponse, tags=["Visa"])
+async def visa_transcribe_answer(audio: UploadFile = File(..., description="A spoken interview answer")):
+    """
+    Speech to text for one mock-interview answer.
+
+    Plain transcription with no field mapping and no storage - the answer goes
+    straight back to the interview, which grades it and checks it against the
+    DS-160 like any typed one. Separate from /api/voice/transcribe because that
+    files a transcript into the applicant's documents, and an interview answer
+    is practice, not a document.
+    """
+    if not voice_service:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Voice service not available")
+    try:
+        audio_bytes = await audio.read()
+        transcript = voice_service.transcribe_audio(audio_bytes, audio.filename or "answer.webm")
+        return TranscribeResponse(transcript=transcript.strip())
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=f"Could not transcribe: {e}")

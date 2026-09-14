@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useRef, useState } from 'react'
-import { AlertTriangle, Loader2, RotateCcw, Send, Languages } from 'lucide-react'
+import { AlertTriangle, Loader2, Mic, RotateCcw, Send, Languages, Square, Video, VideoOff, Volume2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
 import { loadDS160Context } from '@/lib/ds160-store'
@@ -15,6 +15,15 @@ import {
   type ConsistencyFlag,
 } from '@/lib/visa-interview-store'
 import type { VisaType } from '@/lib/visa-chat-store'
+import {
+  mediaSupported,
+  requestMedia,
+  stopStream,
+  speak,
+  stopSpeaking,
+  createRecorder,
+  type MediaPermission,
+} from '@/lib/interview-media'
 import { cn } from '@/lib/utils'
 
 /**
@@ -43,6 +52,82 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
   const [showTranslation, setShowTranslation] = useState(true)
   const [pendingTranslation, setPendingTranslation] = useState('')
   const scrollRef = useRef<HTMLDivElement>(null)
+
+  // Spoken mode: camera on, question read aloud, answer spoken.
+  const [permission, setPermission] = useState<MediaPermission>('idle')
+  // Resolved after mount: mediaSupported() reads navigator, which does not
+  // exist during server rendering, so using it directly in render made the
+  // server and client disagree and React threw a hydration error.
+  const [canUseMedia, setCanUseMedia] = useState(false)
+  const [cameraOn, setCameraOn] = useState(true)
+  const [recording, setRecording] = useState(false)
+  const [transcribing, setTranscribing] = useState(false)
+  const streamRef = useRef<MediaStream | null>(null)
+  const recorderRef = useRef<MediaRecorder | null>(null)
+  const videoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    setCanUseMedia(mediaSupported())
+  }, [])
+
+  // Leaving a camera or mic live after the interview is a light that stays on.
+  useEffect(() => {
+    return () => {
+      stopStream(streamRef.current)
+      streamRef.current = null
+      stopSpeaking()
+    }
+  }, [])
+
+  // Read each new question aloud, once, the way it arrives on the day.
+  useEffect(() => {
+    if (pending && permission === 'granted') speak(pending)
+  }, [pending, permission])
+
+  async function enableMedia(withVideo: boolean) {
+    setPermission('prompting')
+    try {
+      const stream = await requestMedia(withVideo)
+      stopStream(streamRef.current)
+      streamRef.current = stream
+      if (videoRef.current) videoRef.current.srcObject = stream
+      setCameraOn(withVideo)
+      setPermission('granted')
+    } catch (err) {
+      setPermission(err instanceof Error && err.message === 'unsupported' ? 'unsupported' : 'denied')
+    }
+  }
+
+  function toggleRecording() {
+    if (!streamRef.current) return
+    if (recording) {
+      recorderRef.current?.stop()
+      setRecording(false)
+      return
+    }
+    stopSpeaking()
+    const recorder = createRecorder(streamRef.current, async (blob) => {
+      setTranscribing(true)
+      try {
+        const form = new FormData()
+        form.append('audio', blob, 'answer.webm')
+        const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
+        const res = await fetch(`${base}/api/visa/transcribe-answer`, { method: 'POST', body: form })
+        const data = await res.json()
+        if (!res.ok) throw new Error(data?.detail || t('visaInterview.transcribeFailed'))
+        // Into the box rather than straight off to be graded - a
+        // mis-transcribed answer should be correctable before it counts.
+        setAnswer((prev) => (prev ? `${prev} ${data.transcript}` : data.transcript))
+      } catch (e) {
+        setError(e instanceof Error ? e.message : t('visaInterview.transcribeFailed'))
+      } finally {
+        setTranscribing(false)
+      }
+    })
+    recorderRef.current = recorder
+    recorder.start()
+    setRecording(true)
+  }
 
   useEffect(() => {
     const existing = loadInterview(userId)
@@ -161,12 +246,39 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           {busy ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
           {t('visaInterview.start')}
         </Button>
+
+        {/* The camera and mic prompt only ever comes from a button. A dialog
+            nobody asked for gets dismissed, and a dismissal is a denial the
+            browser remembers. */}
+        {canUseMedia ? (
+          permission !== 'granted' && (
+            <div className="mt-6 max-w-md rounded-xl border border-dashed p-4">
+              <p className="text-sm font-medium text-primary">{t('visaInterview.spokenTitle')}</p>
+              <p className="mt-1 text-xs text-muted-foreground">{t('visaInterview.spokenBlurb')}</p>
+              <div className="mt-3 flex justify-center gap-2">
+                <Button size="sm" variant="outline" onClick={() => enableMedia(true)} disabled={permission === 'prompting'}>
+                  <Video className="mr-1.5 h-3.5 w-3.5" />
+                  {t('visaInterview.enableVideo')}
+                </Button>
+                <Button size="sm" variant="ghost" onClick={() => enableMedia(false)} disabled={permission === 'prompting'}>
+                  <Mic className="mr-1.5 h-3.5 w-3.5" />
+                  {t('visaInterview.enableAudioOnly')}
+                </Button>
+              </div>
+              {permission === 'denied' && (
+                <p className="mt-2 text-xs text-destructive">{t('visaInterview.permissionDenied')}</p>
+              )}
+            </div>
+          )
+        ) : (
+          <p className="mt-6 max-w-md text-xs text-muted-foreground">{t('visaInterview.mediaUnsupported')}</p>
+        )}
       </div>
     )
   }
 
   return (
-    <div className="flex h-full flex-col">
+    <div className="relative flex h-full flex-col">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b px-6 py-3">
         <div className="flex items-center gap-4 text-sm">
           <span className="font-medium text-primary">{t('visaInterview.title')}</span>
@@ -186,6 +298,48 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           )}
         </div>
         <div className="flex items-center gap-2">
+          {/* Also reachable mid-interview: a session resumed from last time
+              never passes the start screen, and that used to be the only place
+              spoken mode could be switched on. */}
+          {permission !== 'granted' && canUseMedia && (
+            <button
+              type="button"
+              onClick={() => enableMedia(true)}
+              disabled={permission === 'prompting'}
+              title={permission === 'denied' ? t('visaInterview.permissionDenied') : undefined}
+              className={cn(
+                'flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium',
+                permission === 'denied'
+                  ? 'border-destructive/50 bg-destructive/10 text-destructive hover:bg-destructive/20'
+                  : 'border-accent/50 bg-accent/10 text-primary hover:bg-accent/20',
+              )}
+            >
+              {permission === 'denied' ? <VideoOff className="h-3 w-3" /> : <Video className="h-3 w-3" />}
+              {permission === 'denied' ? t('visaInterview.permissionBlocked') : t('visaInterview.enableVideo')}
+            </button>
+          )}
+          {permission === 'granted' && pending && (
+            <button
+              type="button"
+              onClick={() => speak(pending)}
+              aria-label={t('visaInterview.replay')}
+              className="flex items-center gap-1 rounded-md border px-2 py-1 text-xs text-muted-foreground hover:bg-muted"
+            >
+              <Volume2 className="h-3 w-3" />
+              {t('visaInterview.replay')}
+            </button>
+          )}
+          {permission === 'granted' && (
+            <button
+              type="button"
+              onClick={() => enableMedia(!cameraOn)}
+              aria-pressed={cameraOn}
+              className="flex items-center gap-1 rounded-md border px-2 py-1 text-xs text-muted-foreground hover:bg-muted"
+            >
+              {cameraOn ? <Video className="h-3 w-3" /> : <VideoOff className="h-3 w-3" />}
+              {t('visaInterview.camera')}
+            </button>
+          )}
           <button
             type="button"
             onClick={() => setShowTranslation((v) => !v)}
@@ -201,6 +355,20 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           </Button>
         </div>
       </div>
+
+      {/* Self-view. Half of what makes a consular window hard is being looked
+          at while you answer, and you cannot rehearse that against a text box. */}
+      {permission === 'granted' && cameraOn && (
+        <div className="pointer-events-none absolute bottom-28 right-6 z-10">
+          <video
+            ref={videoRef}
+            autoPlay
+            playsInline
+            muted
+            className="h-32 w-44 rounded-lg border-2 border-primary/20 object-cover shadow-lg"
+          />
+        </div>
+      )}
 
       <div ref={scrollRef} className="mx-auto w-full max-w-3xl flex-1 space-y-6 overflow-y-auto px-6 py-6">
         {session.turns.map((turn, i) => (
@@ -299,6 +467,24 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         <div className="border-t px-6 py-4">
           {error && <p className="mx-auto mb-2 max-w-3xl text-sm text-destructive">{error}</p>}
           <div className="mx-auto flex max-w-3xl items-end gap-2">
+            {permission === 'granted' && (
+              <Button
+                type="button"
+                variant={recording ? 'destructive' : 'outline'}
+                onClick={toggleRecording}
+                disabled={transcribing || busy}
+                aria-label={recording ? t('visaInterview.stopAnswer') : t('visaInterview.speakAnswer')}
+                title={recording ? t('visaInterview.stopAnswer') : t('visaInterview.speakAnswer')}
+              >
+                {transcribing ? (
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                ) : recording ? (
+                  <Square className="h-4 w-4 fill-current" />
+                ) : (
+                  <Mic className="h-4 w-4" />
+                )}
+              </Button>
+            )}
             <textarea
               value={answer}
               onChange={(e) => setAnswer(e.target.value)}
@@ -317,7 +503,11 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
             </Button>
           </div>
           <p className="mx-auto mt-1.5 max-w-3xl text-[11px] text-muted-foreground">
-            {t('visaInterview.answerHint')}
+            {recording
+              ? t('visaInterview.recordingHint')
+              : permission === 'granted'
+                ? t('visaInterview.spokenHint')
+                : t('visaInterview.answerHint')}
           </p>
         </div>
       )}
