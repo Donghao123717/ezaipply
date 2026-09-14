@@ -109,14 +109,14 @@ export function RegisterForm() {
               onClick={() => form.setValue('role', 'student')}
               className={`flex-1 rounded-sm px-3 py-1 ${role === 'student' ? 'bg-primary text-primary-foreground' : 'bg-background text-foreground'}`}
             >
-              Student
+              {t('auth.student')}
             </button>
             <button
               type="button"
               onClick={() => form.setValue('role', 'org_admin')}
               className={`flex-1 rounded-sm px-3 py-1 ${role === 'org_admin' ? 'bg-primary text-primary-foreground' : 'bg-background text-foreground'}`}
             >
-              Organization
+              {t('auth.organization')}
             </button>
           </div>
         </div>
