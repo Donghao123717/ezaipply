@@ -4,14 +4,19 @@ import Link from 'next/link'
 import { ArrowUpRight, ChevronRight, History, Loader2, MessageCircle, Paperclip, Send, X, Zap } from 'lucide-react'
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { useT } from '@/lib/i18n/use-t'
-import type { CounselorMessage, CounselorTab } from '@/lib/counselor-chat'
+import type { CounselorMessage } from '@/lib/counselor-chat'
 
-interface PersonaMeta {
-  tab: CounselorTab
+/**
+ * The specialists shown as tabs. The admissions side and the visa side both use
+ * this component with their own four, so the tab keys and the dictionary
+ * namespace are passed in rather than hard-coded.
+ */
+export interface PersonaMeta {
+  tab: string
   dictKey: string
 }
 
-const PERSONAS: PersonaMeta[] = [
+export const COUNSELOR_PERSONAS: PersonaMeta[] = [
   { tab: 'team', dictKey: 'team' },
   { tab: 'strategist', dictKey: 'strategist' },
   { tab: 'essay', dictKey: 'essay' },
@@ -51,6 +56,8 @@ function ReasoningRow({ steps, label }: { steps: string[]; label: string }) {
 }
 
 export function TeamChat({
+  personas = COUNSELOR_PERSONAS,
+  dictNamespace = 'counselor',
   activeTab,
   onTabChange,
   messages,
@@ -62,8 +69,12 @@ export function TeamChat({
   attaching,
   notesSlot,
 }: {
-  activeTab: CounselorTab
-  onTabChange: (tab: CounselorTab) => void
+  /** Which specialists to show. Defaults to the admissions four. */
+  personas?: PersonaMeta[]
+  /** Dictionary prefix for persona copy, e.g. "counselor" or "visaCounselor". */
+  dictNamespace?: string
+  activeTab: string
+  onTabChange: (tab: string) => void
   messages: CounselorMessage[]
   sending: boolean
   hasSavedHistory: boolean
@@ -79,8 +90,8 @@ export function TeamChat({
   const [bannerDismissed, setBannerDismissed] = useState(false)
   const scrollRef = useRef<HTMLDivElement>(null)
   const attachInputRef = useRef<HTMLInputElement>(null)
-  const persona = PERSONAS.find((p) => p.tab === activeTab)!
-  const personaKey = (suffix: string) => `counselor.personas.${persona.dictKey}.${suffix}`
+  const persona = personas.find((p) => p.tab === activeTab) ?? personas[0]
+  const personaKey = (suffix: string) => `${dictNamespace}.personas.${persona.dictKey}.${suffix}`
   const quickActions = [t(personaKey('quickAction1')), t(personaKey('quickAction2')), t(personaKey('quickAction3'))]
 
   useEffect(() => {
@@ -119,12 +130,12 @@ export function TeamChat({
         </button>
       </div>
 
-      <Tabs value={activeTab} onValueChange={(v) => onTabChange(v as CounselorTab)}>
+      <Tabs value={activeTab} onValueChange={onTabChange}>
         <div className="px-6 pt-3">
           <TabsList className="bg-muted/60">
-            {PERSONAS.map((p) => (
+            {personas.map((p) => (
               <TabsTrigger key={p.tab} value={p.tab}>
-                {t(`counselor.personas.${p.dictKey}.navLabel`)}
+                {t(`${dictNamespace}.personas.${p.dictKey}.navLabel`)}
               </TabsTrigger>
             ))}
           </TabsList>

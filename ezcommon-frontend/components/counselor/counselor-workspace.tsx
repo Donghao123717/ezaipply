@@ -131,7 +131,7 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
       <DocumentsPanel userId={userId} refreshSignal={docsRefreshSignal} />
       <TeamChat
         activeTab={activeTab}
-        onTabChange={setActiveTab}
+        onTabChange={(tab) => setActiveTab(tab as CounselorTab)}
         messages={messagesByTab[activeTab]}
         sending={sending}
         hasSavedHistory={hasSavedHistory[activeTab]}
