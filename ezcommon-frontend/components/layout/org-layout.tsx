@@ -28,7 +28,7 @@ export function OrgLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen w-full flex">
       <aside className="w-64 border-r bg-card p-4 flex-shrink-0">
-        <div className="text-xl font-bold mb-6 text-primary">EZCommon Org</div>
+        <div className="text-xl font-bold mb-6 text-primary">Aipply Org</div>
         <nav className="flex flex-col gap-2">
           {orgMenu.map((m) => {
             const isActive = pathname === m.href || pathname?.startsWith(m.href + '/')

@@ -11,6 +11,7 @@ import { Separator } from '@/components/ui/separator'
 import Link from 'next/link'
 import { signIn } from 'next-auth/react'
 import { useT } from '@/lib/i18n/use-t'
+import { APP_HOME } from '@/lib/app-routes'
 
 const LoginSchema = z.object({
   email: z.string().email({ message: 'Please enter a valid email' }),
@@ -35,7 +36,7 @@ export function LoginForm() {
   const [loading, setLoading] = useState(false)
   const [usePassword, setUsePassword] = useState(false)
   // Sign-in drops the student into the app, not back onto the marketing page.
-  const appBase = '/home'
+  const appBase = APP_HOME
 
   const emailForm = useForm<EmailOnlyValues>({
     resolver: zodResolver(EmailOnlySchema),
@@ -243,7 +244,7 @@ export function LoginForm() {
           <Separator className="flex-1" />
         </div>
 
-        <Button type="button" variant="outline" className="w-full" onClick={() => signIn('google', { callbackUrl: '/' })}>
+        <Button type="button" variant="outline" className="w-full" onClick={() => signIn('google', { callbackUrl: APP_HOME })}>
           <svg className="mr-2 h-4 w-4" viewBox="0 0 24 24">
             <path fill="#EA4335" d="M12 10.2v3.6h5.1c-.2 1.2-1.5 3.6-5.1 3.6-3.1 0-5.7-2.6-5.7-5.7S8.9 6 12 6c1.8 0 3 .8 3.7 1.5l2.5-2.5C16.8 3.5 14.6 2.4 12 2.4 6.9 2.4 2.9 6.4 2.9 11.5S6.9 20.6 12 20.6c6 0 9.3-4.2 9.3-8.9 0-.6-.1-1-.1-1.5H12z" />
           </svg>

@@ -13,7 +13,7 @@ export default async function OrgDashboardPage() {
       <div>
         <h1 className="text-3xl font-bold tracking-tight">Organization Dashboard</h1>
         <p className="text-muted-foreground mt-2">
-          Manage your students and invitations in EZCommon.
+          Manage your students and invitations in Aipply.
         </p>
       </div>
 

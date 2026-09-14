@@ -294,7 +294,7 @@ export default function SettingsPage() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Info className="h-5 w-5 text-primary" />
-                About EZCommon
+                About Aipply
               </CardTitle>
               <CardDescription>
                 AI-powered college application autofill system

@@ -4,6 +4,14 @@
 // "reach/target/safety", DDL instead of a formal "截止日期", etc.
 export const dictionary = {
   en: {
+    chatbot: {
+      title: 'Aipply Assistant',
+      greeting: "Hi! I'm your Aipply assistant. How can I help you with your college application today?",
+      openChat: 'Open chat',
+      closeChat: 'Close chat',
+      sendMessage: 'Send message',
+      inputPlaceholder: 'Type your message…',
+    },
     starter: {
       activity: {
         intro: 'Upload anything that documents your activities - resumes, certificates. You can also skip this and fill it in later.',
@@ -102,6 +110,25 @@ export const dictionary = {
       },
     },
     auth: {
+      registerTitle: 'Register',
+      registerSubtitle: 'Create your account.',
+      registerAs: 'Register as',
+      firstName: 'First name',
+      lastName: 'Last name',
+      orgName: 'Organization name',
+      orgNamePlaceholder: 'Your organization name',
+      confirmPassword: 'Confirm password',
+      registering: 'Registering…',
+      registerAction: 'Register',
+      agreePrefix: 'By registering you agree to our',
+      terms: 'Terms and Conditions',
+      and: 'and',
+      privacy: 'Privacy Policy',
+      haveAccount: 'Already have an account?',
+      logIn: 'Log in',
+      orRegisterWith: 'Or register with',
+      registerFailed: 'Could not create your account.',
+      continueWithGoogleShort: 'Continue with Google',
       welcomeTitle: 'Welcome to Aipply',
       welcomeSubtitle: 'Enter your email to start. No password needed — sign in with the same email later to pick up where you left off.',
       emailLabel: 'Email',
@@ -1675,6 +1702,14 @@ export const dictionary = {
     },
   },
   zh: {
+    chatbot: {
+      title: 'Aipply 助手',
+      greeting: '你好！我是你的 Aipply 助手。关于大学申请，有什么可以帮你的？',
+      openChat: '打开对话',
+      closeChat: '关闭对话',
+      sendMessage: '发送',
+      inputPlaceholder: '输入你的问题…',
+    },
     starter: {
       activity: {
         intro: '上传任何能说明你活动经历的材料 —— 简历、证书等。也可以先跳过，之后再补。',
@@ -1773,6 +1808,25 @@ export const dictionary = {
       },
     },
     auth: {
+      registerTitle: '注册',
+      registerSubtitle: '创建你的账号。',
+      registerAs: '注册身份',
+      firstName: '名',
+      lastName: '姓',
+      orgName: '机构名称',
+      orgNamePlaceholder: '你的机构名称',
+      confirmPassword: '确认密码',
+      registering: '注册中…',
+      registerAction: '注册',
+      agreePrefix: '注册即表示你同意我们的',
+      terms: '用户协议',
+      and: '和',
+      privacy: '隐私政策',
+      haveAccount: '已经有账号了？',
+      logIn: '登录',
+      orRegisterWith: '或使用以下方式注册',
+      registerFailed: '账号创建失败。',
+      continueWithGoogleShort: '使用 Google 继续',
       welcomeTitle: '欢迎使用 Aipply',
       welcomeSubtitle: '输入邮箱即可开始，无需密码。下次用同一个邮箱登录，就能继续之前的进度。',
       emailLabel: '邮箱',

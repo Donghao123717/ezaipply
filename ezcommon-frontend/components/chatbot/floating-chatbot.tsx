@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { MessageCircle, X, Send, Loader2 } from 'lucide-react'
+import { useT } from '@/lib/i18n/use-t'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -10,11 +11,12 @@ interface Message {
 }
 
 export default function FloatingChatbot() {
+  const t = useT()
   const [isOpen, setIsOpen] = useState(false)
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: 'Hi! I\'m your EZCommon assistant. How can I help you with your college application today?',
+      content: t('chatbot.greeting'),
       timestamp: new Date()
     }
   ])
@@ -96,7 +98,7 @@ export default function FloatingChatbot() {
         <button
           onClick={() => setIsOpen(true)}
           className="fixed bottom-6 right-6 w-14 h-14 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-200 hover:scale-110 z-50"
-          aria-label="Open chat"
+          aria-label={t('chatbot.openChat')}
         >
           <MessageCircle className="w-6 h-6" />
         </button>
@@ -109,12 +111,12 @@ export default function FloatingChatbot() {
           <div className="bg-blue-600 text-white p-4 rounded-t-lg flex items-center justify-between">
             <div className="flex items-center gap-2">
               <MessageCircle className="w-5 h-5" />
-              <h3 className="font-semibold">EZCommon Assistant</h3>
+              <h3 className="font-semibold">{t('chatbot.title')}</h3>
             </div>
             <button
               onClick={() => setIsOpen(false)}
               className="hover:bg-blue-700 rounded p-1 transition-colors"
-              aria-label="Close chat"
+              aria-label={t('chatbot.closeChat')}
             >
               <X className="w-5 h-5" />
             </button>
@@ -160,7 +162,7 @@ export default function FloatingChatbot() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="Type your message..."
+                placeholder={t('chatbot.inputPlaceholder')}
                 className="flex-1 resize-none border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                 rows={2}
                 disabled={isLoading}
@@ -169,7 +171,7 @@ export default function FloatingChatbot() {
                 onClick={handleSend}
                 disabled={!input.trim() || isLoading}
                 className="bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white rounded-lg px-4 py-2 transition-colors flex items-center justify-center"
-                aria-label="Send message"
+                aria-label={t('chatbot.sendMessage')}
               >
                 <Send className="w-5 h-5" />
               </button>
