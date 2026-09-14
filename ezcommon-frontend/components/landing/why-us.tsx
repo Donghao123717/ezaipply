@@ -12,12 +12,34 @@ import { cn } from '@/lib/utils'
  * makes the motion read as a narrative being played rather than a set of
  * slides being swapped - the same beat length the reference page uses.
  */
-const BEAT_VH = 175
+const BEAT_VH = 140
 
-/** 0 outside [a,b], 1 past b, linear in between. */
+/**
+ * Every beat's motion is scheduled inside this window. Leaving a margin at
+ * each end gives the cross-fade somewhere to happen; running past END would
+ * strand whatever is still animating when the beat flips.
+ */
+const START = 0.06
+const END = 0.85
+
+/** 0 outside [a,b], 1 past b, eased in between - linear reads as mechanical. */
 function ramp(value: number, a: number, b: number) {
   if (b <= a) return value >= b ? 1 : 0
-  return Math.min(Math.max((value - a) / (b - a), 0), 1)
+  const t = Math.min(Math.max((value - a) / (b - a), 0), 1)
+  return t * t * (3 - 2 * t)
+}
+
+/**
+ * Slot `index` of `count` inside the beat window, each slot lasting `hold` of
+ * the window. Spreading the starts across what is left means the last item
+ * finishes near END instead of halfway through, so there is no stretch of
+ * scrolling where nothing moves.
+ */
+function slot(index: number, count: number, hold = 0.45, from = START): [number, number] {
+  const span = END - from
+  const step = count > 1 ? (span * (1 - hold)) / (count - 1) : 0
+  const begin = from + index * step
+  return [begin, begin + span * hold]
 }
 
 /** A school's application card, drawn differently per beat. */
@@ -25,15 +47,18 @@ function SchoolCard({
   name,
   mode,
   index,
+  count,
   progress,
 }: {
   name: string
   mode: string
   index: number
+  count: number
   progress: number
 }) {
   // Cards arrive one after another rather than all at once.
-  const arrival = ramp(progress, index * 0.1, index * 0.1 + 0.35)
+  const [cardIn, cardOut] = slot(index, count, 0.4)
+  const arrival = ramp(progress, cardIn, cardOut)
   const rows = [0, 1, 2]
 
   return (
@@ -61,9 +86,11 @@ function SchoolCard({
           </div>
         ) : (
           rows.map((row) => {
-            // Each row is filled in turn, and the pen sits on the row being written.
-            const rowStart = index * 0.1 + 0.18 + row * 0.16
-            const filled = progress > rowStart + 0.14
+            // Each row is filled in turn, and the pen sits on the row being
+            // written. Rows share one schedule across every card, so the last
+            // card's last row still lands inside the beat.
+            const [rowStart, rowEnd] = slot(index * 3 + row, count * 3, 0.22)
+            const filled = progress > rowEnd
             const writing = progress > rowStart && !filled
             return (
               <div key={row} className="relative flex items-center gap-1.5">
@@ -179,7 +206,8 @@ function RadialRoutes({ copy, progress }: { copy: LandingCopy; progress: number 
           const mx = cx + Math.cos(rad) * radii.x * 0.55
           const my = cy + Math.sin(rad) * radii.y * 0.8
           const d = `M ${cx} ${cy} Q ${mx} ${my} ${x} ${y}`
-          const draw = ramp(progress, 0.08 + i * 0.07, 0.4 + i * 0.07)
+          const [a, b] = slot(i, angles.length, 0.5)
+          const draw = ramp(progress, a, b)
           const done = draw >= 1
           return done ? (
             // Complete: switch to the dashed pattern and let it flow outward.
@@ -212,7 +240,9 @@ function RadialRoutes({ copy, progress }: { copy: LandingCopy; progress: number 
         const rad = (angle * Math.PI) / 180
         const leftPct = ((cx + Math.cos(rad) * radii.x) / 1000) * 100
         const topPct = ((cy + Math.sin(rad) * radii.y) / 500) * 100
-        const arrived = ramp(progress, 0.36 + i * 0.07, 0.46 + i * 0.07)
+        const [a, b] = slot(i, angles.length, 0.5)
+        // A node lights up as its own route lands, not on a separate clock.
+        const arrived = ramp(progress, a + (b - a) * 0.75, b + 0.04)
         return (
           <span
             key={angle}
@@ -353,9 +383,14 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
 
   const index = Math.min(beat, total - 1)
   const current = copy.why.chapters[index]
-  // The heading fades back out near the end of its beat so the next one can
-  // fade in over it, instead of snapping between two titles.
-  const headingOpacity = 1 - ramp(local, 0.86, 1)
+  // Beats hand over by cross-fading: the outgoing one is already invisible at
+  // the boundary where its progress resets, so the swap is never seen. The
+  // last beat does not fade out - the runway simply ends and it scrolls away.
+  const isLast = index === total - 1
+  const stageOpacity = Math.min(
+    ramp(local, 0, START),
+    isLast ? 1 : 1 - ramp(local, END + 0.07, 1),
+  )
 
   return (
     <section id="why" className="relative bg-background">
@@ -385,11 +420,13 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
             </span>
           </div>
 
-          <div className="absolute inset-0 flex flex-col items-center justify-center px-6">
+          <div
+            style={{ opacity: stageOpacity }}
+            className="absolute inset-0 flex flex-col items-center justify-center px-6 motion-reduce:!opacity-100"
+          >
             <div
-              key={`${current.title}-${current.lead}`}
-              style={{ opacity: headingOpacity }}
-              className="animate-rise-in text-center motion-reduce:animate-none"
+              style={{ transform: `translateY(${(1 - ramp(local, 0, START + 0.04)) * 18}px)` }}
+              className="text-center motion-reduce:!transform-none"
             >
               <h2 className="font-display text-3xl font-semibold text-primary sm:text-5xl">{current.title}</h2>
               <p className="mt-2 font-display text-xl sm:text-3xl">
@@ -409,7 +446,8 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
               {current.mode === 'payoff' ? (
                 <div className="space-y-1 text-center">
                   {copy.why.payoff.map((line, i) => {
-                    const shown = ramp(local, i * 0.14, i * 0.14 + 0.3)
+                    const [a, b] = slot(i, copy.why.payoff.length, 0.5)
+                    const shown = ramp(local, a, b)
                     return (
                       <p
                         key={line.accent}
@@ -426,10 +464,12 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
                 <RadialRoutes copy={copy} progress={local} />
               ) : current.mode === 'hub' ? (
                 <div className="flex flex-col items-center">
-                  <ContextHub copy={copy} glow={ramp(local, 0.05, 0.5)} />
+                  <ContextHub copy={copy} glow={ramp(local, START, START + 0.3)} />
                   <div className="mt-6 flex flex-wrap justify-center gap-1.5">
                     {copy.why.contextPills.map((pill, i) => {
-                      const shown = ramp(local, 0.3 + i * 0.08, 0.55 + i * 0.08)
+                      // Held back until the hub itself has settled.
+                      const [a, b] = slot(i, copy.why.contextPills.length, 0.4, 0.3)
+                      const shown = ramp(local, a, b)
                       return (
                         <span
                           key={pill}
@@ -452,12 +492,13 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
                   )}
                 >
                   {(current.mode === 'single' ? copy.why.schools.slice(0, 1) : copy.why.schools).map(
-                    (school, i) => (
+                    (school, i, list) => (
                       <SchoolCard
                         key={school}
                         name={school}
                         mode={current.mode}
                         index={i}
+                        count={list.length}
                         progress={local}
                       />
                     ),
