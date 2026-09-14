@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { useSession } from 'next-auth/react'
 import { Trash2, Upload, FileText, Loader2, Eye, Download } from 'lucide-react'
+import { useT } from '@/lib/i18n/use-t'
 
 interface UploadedFile {
   filename: string
@@ -21,6 +22,7 @@ interface SectionFilePreviewProps {
 }
 
 export function SectionFilePreview({ section, title, description }: SectionFilePreviewProps) {
+  const t = useT()
   const { data: session } = useSession({ required: false })
   const userId = (session?.user as any)?.id
 
@@ -117,7 +119,7 @@ export function SectionFilePreview({ section, title, description }: SectionFileP
   if (!userId) {
     return (
       <div className="p-6">
-        <p className="text-muted-foreground">Please log in to view files.</p>
+        <p className="text-muted-foreground">{t('starter.files.signIn')}</p>
       </div>
     )
   }
@@ -158,7 +160,7 @@ export function SectionFilePreview({ section, title, description }: SectionFileP
             {files.length === 0 ? (
               <div className="rounded-lg border border-dashed border-muted-foreground/40 p-6 text-center">
                 <FileText className="mx-auto h-8 w-8 text-muted-foreground/50 mb-2" />
-                <p className="text-sm text-muted-foreground mb-3">No files uploaded yet</p>
+                <p className="text-sm text-muted-foreground mb-3">{t('starter.files.none')}</p>
                 <Link href={`/starter/${section}/upload`}>
                   <Button size="sm">
                     <Upload className="mr-2 h-4 w-4" />
@@ -205,7 +207,7 @@ export function SectionFilePreview({ section, title, description }: SectionFileP
           <div className="md:col-span-2">
             <div className="rounded-lg border bg-card">
               <div className="border-b p-4 flex items-center justify-between">
-                <h2 className="text-lg font-semibold">Preview</h2>
+                <h2 className="text-lg font-semibold">{t('starter.files.preview')}</h2>
                 {selectedFile && (
                   <div className="flex gap-2">
                     {previewUrl && (
@@ -224,12 +226,12 @@ export function SectionFilePreview({ section, title, description }: SectionFileP
                 {!selectedFile ? (
                   <div className="flex flex-col items-center justify-center py-12 text-center">
                     <Eye className="h-12 w-12 text-muted-foreground/50 mb-4" />
-                    <p className="text-muted-foreground">Select a file to preview</p>
+                    <p className="text-muted-foreground">{t('starter.files.previewSelect')}</p>
                   </div>
                 ) : !isPreviewable(selectedFile.filename) ? (
                   <div className="flex flex-col items-center justify-center py-12 text-center">
                     <FileText className="h-12 w-12 text-muted-foreground/50 mb-4" />
-                    <p className="text-muted-foreground mb-2">Preview not available for this file type</p>
+                    <p className="text-muted-foreground mb-2">{t('starter.files.previewUnsupported')}</p>
                     <p className="text-sm text-muted-foreground mb-4">{selectedFile.filename}</p>
                     {previewUrl && (
                       <a href={previewUrl} target="_blank" rel="noopener noreferrer">
@@ -265,7 +267,7 @@ export function SectionFilePreview({ section, title, description }: SectionFileP
                 ) : (
                   <div className="flex flex-col items-center justify-center py-12">
                     <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
-                    <p className="text-sm text-muted-foreground mt-2">Loading preview...</p>
+                    <p className="text-sm text-muted-foreground mt-2">{t('starter.files.previewLoading')}</p>
                   </div>
                 )}
               </div>

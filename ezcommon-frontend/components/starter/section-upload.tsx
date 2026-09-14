@@ -1,11 +1,33 @@
 "use client"
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useSession } from 'next-auth/react'
+import { Button } from '@/components/ui/button'
+import { useT } from '@/lib/i18n/use-t'
 
-export function ProfileUpload() {
+/**
+ * The file-upload step for one onboarding section.
+ *
+ * Replaces three components that differed only in the section slug, three
+ * lines of copy and where they navigated afterwards. Activity keeps its own
+ * component because it genuinely differs - it also records voice notes.
+ */
+
+export type UploadSection = 'profile' | 'education' | 'testing'
+
+/** Where each step goes once its upload finishes or is skipped. */
+const NEXT_HREF: Record<UploadSection, string> = {
+  profile: '/starter/education/upload',
+  education: '/starter/activity/upload',
+  // The end of the flow is the student's dashboard. This used to push '/',
+  // which is the public landing page - finishing onboarding bounced the
+  // student back out to marketing.
+  testing: '/home',
+}
+
+export function SectionUpload({ section }: { section: UploadSection }) {
+  const t = useT()
   const router = useRouter()
   const { data: session, status } = useSession({ required: false })
   const [files, setFiles] = useState<File[]>([])
@@ -13,7 +35,9 @@ export function ProfileUpload() {
   const [uploading, setUploading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [existing, setExisting] = useState<{ filename: string; size: number; url?: string }[]>([])
-  const [progress, setProgress] = useState<number>(0)
+  const [progress, setProgress] = useState(0)
+
+  const nextHref = NEXT_HREF[section]
 
   const onDrop = useCallback((e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault()
@@ -27,17 +51,20 @@ export function ProfileUpload() {
     if (list.length) setFiles((prev) => [...prev, ...list])
   }, [])
 
-  const outline = useMemo(() => (dragOver ? 'border-primary bg-accent/40' : 'border-dashed border-muted-foreground/40'), [dragOver])
+  const outline = useMemo(
+    () => (dragOver ? 'border-primary bg-accent/40' : 'border-dashed border-muted-foreground/40'),
+    [dragOver],
+  )
 
   const handleSubmit = useCallback(async () => {
     setError(null)
     const userId = (session?.user as any)?.id as string | undefined
     if (!userId) {
-      setError('Missing user id in session')
+      setError(t('starter.errors.noSession'))
       return
     }
     if (!files.length) {
-      setError('Please select at least one file')
+      setError(t('starter.upload.pickOne'))
       return
     }
     setUploading(true)
@@ -46,58 +73,58 @@ export function ProfileUpload() {
       const form = new FormData()
       form.append('user_id', userId)
       files.forEach((f) => form.append('files', f))
-      // Use XHR for upload progress
+      // XHR rather than fetch, for upload progress.
       await new Promise<void>((resolve, reject) => {
         const xhr = new XMLHttpRequest()
-        xhr.open('POST', `${base}/api/upload/profile`)
+        xhr.open('POST', `${base}/api/upload/${section}`)
         xhr.upload.onprogress = (e) => {
-          if (e.lengthComputable) {
-            setProgress(Math.round((e.loaded / e.total) * 100))
-          }
+          if (e.lengthComputable) setProgress(Math.round((e.loaded / e.total) * 100))
         }
         xhr.onload = () => {
           if (xhr.status >= 200 && xhr.status < 300) resolve()
-          else reject(new Error('Upload failed'))
+          else reject(new Error(t('starter.upload.failed')))
         }
-        xhr.onerror = () => reject(new Error('Network error'))
+        xhr.onerror = () => reject(new Error(t('starter.upload.networkError')))
         xhr.send(form)
       })
-      router.push('/starter/education/upload')
+      router.push(nextHref)
     } catch (e: any) {
-      setError(e.message || 'Upload failed')
+      setError(e?.message || t('starter.upload.failed'))
     } finally {
       setUploading(false)
       setProgress(0)
     }
-  }, [session, files, router])
+  }, [session, files, router, section, nextHref, t])
 
-  // Load existing files
   useEffect(() => {
     const userId = (session?.user as any)?.id as string | undefined
     if (!userId) return
     const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
-    fetch(`${base}/api/upload/profile?user_id=${encodeURIComponent(userId)}`)
+    fetch(`${base}/api/upload/${section}?user_id=${encodeURIComponent(userId)}`)
       .then((r) => r.json())
       .then((data) => setExisting(data.files || []))
       .catch(() => {})
-  }, [session])
+  }, [session, section])
 
   return (
     <div className="space-y-6">
       <div className="space-y-2">
-        <h1 className="text-2xl font-semibold tracking-tight">Start your journey</h1>
-        <p className="text-sm text-muted-foreground">Upload a government ID or school ID. We will read the basic info so you can review and edit before saving.</p>
+        <h1 className="text-2xl font-semibold tracking-tight">{t('starter.upload.title')}</h1>
+        <p className="text-sm text-muted-foreground">{t(`starter.upload.${section}.intro`)}</p>
       </div>
 
       <div
-        onDragOver={(e) => { e.preventDefault(); setDragOver(true) }}
+        onDragOver={(e) => {
+          e.preventDefault()
+          setDragOver(true)
+        }}
         onDragLeave={() => setDragOver(false)}
         onDrop={onDrop}
         className={`flex flex-col items-center justify-center rounded-lg border ${outline} p-10 text-center transition-colors`}
       >
-        <p className="mb-4 text-sm text-muted-foreground">Drag and drop files here, or click to select. You can upload multiple files.</p>
+        <p className="mb-4 text-sm text-muted-foreground">{t(`starter.upload.${section}.hint`)}</p>
         <input
-          aria-label="Upload file"
+          aria-label={t(`starter.upload.${section}.inputLabel`)}
           type="file"
           accept="image/*,.pdf"
           multiple
@@ -105,9 +132,11 @@ export function ProfileUpload() {
           className="block cursor-pointer text-sm"
         />
         {files.length > 0 && (
-          <ul className="mt-3 text-sm text-left w-full max-w-md">
-            {files.map((f, i) => (
-              <li key={i} className="truncate">• {f.name}</li>
+          <ul className="mt-3 w-full max-w-md text-left text-sm">
+            {files.map((f) => (
+              <li key={f.name} className="truncate">
+                • {f.name}
+              </li>
             ))}
           </ul>
         )}
@@ -115,24 +144,32 @@ export function ProfileUpload() {
 
       {error && <p className="text-sm text-destructive">{error}</p>}
       {uploading && (
-        <div className="w-full bg-muted h-2 rounded">
-          <div className="h-2 bg-primary rounded" style={{ width: `${progress}%` }} />
+        <div
+          className="h-2 w-full rounded bg-muted"
+          role="progressbar"
+          aria-valuenow={progress}
+          aria-valuemin={0}
+          aria-valuemax={100}
+        >
+          <div className="h-2 rounded bg-primary transition-[width]" style={{ width: `${progress}%` }} />
         </div>
       )}
 
       <div className="flex flex-col gap-3">
         <Button onClick={handleSubmit} className="w-full" disabled={uploading || status === 'loading'}>
-          {uploading ? 'Uploading...' : 'Submit'}
+          {uploading ? t('starter.upload.uploading') : t('starter.upload.submit')}
         </Button>
-        <Link href="/starter/education/upload" className="text-center text-sm text-muted-foreground hover:underline">Skip, I will manually input</Link>
+        <Link href={nextHref} className="text-center text-sm text-muted-foreground hover:underline">
+          {t('starter.upload.skip')}
+        </Link>
       </div>
 
       {existing.length > 0 && (
         <div className="mt-4 text-sm">
-          <div className="font-medium mb-2">Uploaded files</div>
-          <ul className="list-disc pl-5 space-y-1">
-            {existing.map((f, idx) => (
-              <li key={idx} className="truncate">
+          <div className="mb-2 font-medium">{t('starter.upload.uploadedFiles')}</div>
+          <ul className="list-disc space-y-1 pl-5">
+            {existing.map((f) => (
+              <li key={f.filename} className="truncate">
                 {f.filename} <span className="text-muted-foreground">({Math.round(f.size / 1024)} KB)</span>
               </li>
             ))}

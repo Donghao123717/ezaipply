@@ -5,8 +5,10 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useSession } from 'next-auth/react'
 import { Mic, Square, Loader2 } from 'lucide-react'
+import { useT } from '@/lib/i18n/use-t'
 
 export function ActivityUpload() {
+  const t = useT()
   const router = useRouter()
   const { data: session, status } = useSession({ required: false })
   const [files, setFiles] = useState<File[]>([])
@@ -142,8 +144,8 @@ export function ActivityUpload() {
   return (
     <div className="space-y-6">
       <div className="space-y-2">
-        <h1 className="text-2xl font-semibold tracking-tight">Start your journey</h1>
-        <p className="text-sm text-muted-foreground">Upload any documents for your activities (resumes, certificates). You can also skip and fill later.</p>
+        <h1 className="text-2xl font-semibold tracking-tight">{t('starter.upload.title')}</h1>
+        <p className="text-sm text-muted-foreground">{t('starter.activity.intro')}</p>
       </div>
 
       <div
@@ -152,9 +154,9 @@ export function ActivityUpload() {
         onDrop={onDrop}
         className={`flex flex-col items-center justify-center rounded-lg border ${outline} p-10 text-center transition-colors`}
       >
-        <p className="mb-4 text-sm text-muted-foreground">Drag and drop files here, or click to select. Multiple files supported.</p>
+        <p className="mb-4 text-sm text-muted-foreground">{t('starter.upload.profile.hint')}</p>
         <input
-          aria-label="Upload activities files"
+          aria-label={t('starter.activity.inputLabel')}
           type="file"
           multiple
           onChange={onSelect}
@@ -179,7 +181,7 @@ export function ActivityUpload() {
 
       <div className="rounded-lg border p-4 bg-card/50">
         <div className="flex items-center justify-between mb-3">
-          <h3 className="text-sm font-medium">Or record voice input</h3>
+          <h3 className="text-sm font-medium">{t('starter.activity.orRecord')}</h3>
           {processingVoice && (
             <span className="text-xs text-muted-foreground flex items-center">
               <Loader2 className="h-3 w-3 animate-spin mr-1" /> Processing...
@@ -208,12 +210,12 @@ export function ActivityUpload() {
         <Button onClick={handleSubmit} className="w-full" disabled={uploading || status === 'loading'}>
           {uploading ? 'Uploading...' : 'Submit'}
         </Button>
-        <Link href="/starter/testing/upload" className="text-center text-sm text-muted-foreground hover:underline">Skip, I will manually input</Link>
+        <Link href="/starter/testing/upload" className="text-center text-sm text-muted-foreground hover:underline">{t('starter.upload.skip')}</Link>
       </div>
 
       {existing.length > 0 && (
         <div className="mt-4 text-sm">
-          <div className="font-medium mb-2">Uploaded files</div>
+          <div className="font-medium mb-2">{t('starter.upload.uploadedFiles')}</div>
           <ul className="list-disc pl-5 space-y-1">
             {existing.map((f, idx) => (
               <li key={idx} className="truncate">

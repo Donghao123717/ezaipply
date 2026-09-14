@@ -1,5 +1,5 @@
 import { AppLayout } from '@/components/layout/app-layout'
-import { ProfileUpload } from '@/components/starter/profile-upload'
+import { SectionUpload } from '@/components/starter/section-upload'
 import { OnboardingSteps } from '@/components/starter/onboarding-steps'
 
 export const dynamic = 'force-dynamic'
@@ -11,7 +11,7 @@ export default function UploadPage() {
         <div className="w-full max-w-2xl space-y-4">
           <OnboardingSteps current="profile" />
           <div className="border rounded-lg p-6 shadow-sm bg-card">
-            <ProfileUpload />
+            <SectionUpload section="profile" />
           </div>
         </div>
       </div>

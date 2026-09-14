@@ -5,6 +5,54 @@
 export const dictionary = {
   en: {
     starter: {
+      activity: {
+        intro: 'Upload anything that documents your activities - resumes, certificates. You can also skip this and fill it in later.',
+        inputLabel: 'Upload activity files',
+        orRecord: 'Or record a voice note',
+      },
+      files: {
+        allTitle: 'All uploaded files',
+        loading: 'Loading your uploaded files…',
+        signIn: 'Sign in to view your files.',
+        none: 'No files uploaded yet',
+        preview: 'Preview',
+        previewLoading: 'Loading preview…',
+        previewSelect: 'Select a file to preview',
+        previewUnsupported: 'No preview available for this file type',
+      },
+      account: {
+        title: 'Profile information',
+        subtitle: 'Your account details',
+        fullName: 'Full name',
+        email: 'Email',
+        memberSince: 'Member since',
+        none: 'No account information available',
+      },
+      upload: {
+        title: 'Start your journey',
+        submit: 'Submit',
+        uploading: 'Uploading…',
+        skip: 'Skip - I will enter this myself',
+        pickOne: 'Please choose at least one file.',
+        failed: 'Upload failed.',
+        networkError: 'Network error - your upload did not go through.',
+        uploadedFiles: 'Uploaded files',
+        profile: {
+          intro: 'Upload a government ID or school ID. We will read the basic details so you can review and edit them before saving.',
+          hint: 'Drag and drop files here, or click to select. You can upload several at once.',
+          inputLabel: 'Upload identification',
+        },
+        education: {
+          intro: 'Upload your transcript. We will pull out your school and academic details so you can review and edit them.',
+          hint: 'Drag and drop transcripts here (PDF or image), or click to select. You can upload several at once.',
+          inputLabel: 'Upload transcript',
+        },
+        testing: {
+          intro: 'Upload your score reports. We will pull out your test results so you can review and edit them.',
+          hint: 'Drag and drop score reports here (PDF or image), or click to select. You can upload several at once.',
+          inputLabel: 'Upload score report',
+        },
+      },
       steps: {
         label: 'Onboarding steps',
         review: 'Review',
@@ -395,6 +443,8 @@ export const dictionary = {
       },
     },
     common: {
+      close: 'Close',
+      cancel: 'Cancel',
       add: 'Add',
       remove: 'Remove',
       send: 'Send',
@@ -1626,6 +1676,54 @@ export const dictionary = {
   },
   zh: {
     starter: {
+      activity: {
+        intro: '上传任何能说明你活动经历的材料 —— 简历、证书等。也可以先跳过，之后再补。',
+        inputLabel: '上传活动材料',
+        orRecord: '或者录一段语音',
+      },
+      files: {
+        allTitle: '全部已上传文件',
+        loading: '正在加载你上传的文件…',
+        signIn: '登录后即可查看你的文件。',
+        none: '还没有上传文件',
+        preview: '预览',
+        previewLoading: '正在加载预览…',
+        previewSelect: '选择一个文件来预览',
+        previewUnsupported: '该文件类型暂不支持预览',
+      },
+      account: {
+        title: '账户信息',
+        subtitle: '你的账户详情',
+        fullName: '姓名',
+        email: '邮箱',
+        memberSince: '注册时间',
+        none: '暂无账户信息',
+      },
+      upload: {
+        title: '开始你的申请',
+        submit: '提交',
+        uploading: '上传中…',
+        skip: '跳过，我自己填',
+        pickOne: '请至少选择一个文件。',
+        failed: '上传失败。',
+        networkError: '网络异常，文件没有上传成功。',
+        uploadedFiles: '已上传的文件',
+        profile: {
+          intro: '上传身份证件或学生证，我们会读取基本信息，你确认修改后再保存。',
+          hint: '把文件拖到这里，或点击选择，可一次上传多个。',
+          inputLabel: '上传身份证件',
+        },
+        education: {
+          intro: '上传成绩单，我们会提取你的学校和学业信息，你确认修改后再保存。',
+          hint: '把成绩单拖到这里（PDF 或图片），或点击选择，可一次上传多个。',
+          inputLabel: '上传成绩单',
+        },
+        testing: {
+          intro: '上传成绩报告，我们会提取你的考试成绩，你确认修改后再保存。',
+          hint: '把成绩报告拖到这里（PDF 或图片），或点击选择，可一次上传多个。',
+          inputLabel: '上传成绩报告',
+        },
+      },
       steps: {
         label: '注册引导步骤',
         review: '汇总检查',
@@ -2016,6 +2114,8 @@ export const dictionary = {
       },
     },
     common: {
+      close: '关闭',
+      cancel: '取消',
       add: '添加',
       remove: '移除',
       send: '发送',

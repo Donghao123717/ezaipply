@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { useSession } from 'next-auth/react'
 import { User, Mail, Calendar, Loader2 } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { useT } from '@/lib/i18n/use-t'
 
 interface UserInfo {
   id: string
@@ -14,6 +15,7 @@ interface UserInfo {
 }
 
 export function UserProfileInfo() {
+  const t = useT()
   const { data: session, status } = useSession({ required: false })
   const [userInfo, setUserInfo] = useState<UserInfo | null>(null)
   const [loading, setLoading] = useState(true)
@@ -75,8 +77,8 @@ export function UserProfileInfo() {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>Profile Information</CardTitle>
-          <CardDescription>Your account details</CardDescription>
+          <CardTitle>{t('starter.account.title')}</CardTitle>
+          <CardDescription>{t('starter.account.subtitle')}</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="flex items-center justify-center py-8">
@@ -91,8 +93,8 @@ export function UserProfileInfo() {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>Profile Information</CardTitle>
-          <CardDescription>Your account details</CardDescription>
+          <CardTitle>{t('starter.account.title')}</CardTitle>
+          <CardDescription>{t('starter.account.subtitle')}</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="rounded-lg border border-destructive/50 bg-destructive/10 p-4">
@@ -107,11 +109,11 @@ export function UserProfileInfo() {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>Profile Information</CardTitle>
-          <CardDescription>Your account details</CardDescription>
+          <CardTitle>{t('starter.account.title')}</CardTitle>
+          <CardDescription>{t('starter.account.subtitle')}</CardDescription>
         </CardHeader>
         <CardContent>
-          <p className="text-sm text-muted-foreground">No user information available</p>
+          <p className="text-sm text-muted-foreground">{t('starter.account.none')}</p>
         </CardContent>
       </Card>
     )
@@ -120,8 +122,8 @@ export function UserProfileInfo() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Profile Information</CardTitle>
-        <CardDescription>Your account details</CardDescription>
+        <CardTitle>{t('starter.account.title')}</CardTitle>
+        <CardDescription>{t('starter.account.subtitle')}</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="flex items-center gap-4">
@@ -140,7 +142,7 @@ export function UserProfileInfo() {
           <div className="flex items-start gap-3">
             <Mail className="h-5 w-5 text-muted-foreground mt-0.5" />
             <div>
-              <p className="text-sm font-medium">Email</p>
+              <p className="text-sm font-medium">{t('starter.account.email')}</p>
               <p className="text-sm text-muted-foreground">{userInfo.email}</p>
             </div>
           </div>
@@ -148,7 +150,7 @@ export function UserProfileInfo() {
           <div className="flex items-start gap-3">
             <User className="h-5 w-5 text-muted-foreground mt-0.5" />
             <div>
-              <p className="text-sm font-medium">Full Name</p>
+              <p className="text-sm font-medium">{t('starter.account.fullName')}</p>
               <p className="text-sm text-muted-foreground">
                 {userInfo.first_name} {userInfo.last_name}
               </p>
@@ -159,7 +161,7 @@ export function UserProfileInfo() {
             <div className="flex items-start gap-3">
               <Calendar className="h-5 w-5 text-muted-foreground mt-0.5" />
               <div>
-                <p className="text-sm font-medium">Member Since</p>
+                <p className="text-sm font-medium">{t('starter.account.memberSince')}</p>
                 <p className="text-sm text-muted-foreground">
                   {formatDate(userInfo.created_at)}
                 </p>

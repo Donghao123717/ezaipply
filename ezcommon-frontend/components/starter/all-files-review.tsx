@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { useSession } from 'next-auth/react'
 import { Trash2, Download, FileText, Upload, FolderOpen } from 'lucide-react'
+import { useT } from '@/lib/i18n/use-t'
 
 interface UploadedFile {
   filename: string
@@ -26,6 +27,7 @@ const SECTION_LABELS: { [key: string]: string } = {
 }
 
 export function AllFilesReview({ userIdOverride }: { userIdOverride?: string }) {
+  const t = useT()
   const { data: session, status } = useSession({ required: false })
   const [filesBySection, setFilesBySection] = useState<FilesBySection>({})
   const [loading, setLoading] = useState(true)
@@ -76,7 +78,7 @@ export function AllFilesReview({ userIdOverride }: { userIdOverride?: string }) 
   useEffect(() => {
     if (status === 'loading') return
     if (!userId) {
-      setError('Please log in to view your files')
+      setError(t('starter.files.signIn'))
       setLoading(false)
       return
     }
@@ -135,8 +137,8 @@ export function AllFilesReview({ userIdOverride }: { userIdOverride?: string }) 
     return (
       <div className="space-y-4">
         <div className="space-y-2">
-          <h2 className="text-2xl font-semibold tracking-tight">All Uploaded Files</h2>
-          <p className="text-sm text-muted-foreground">Loading your uploaded files...</p>
+          <h2 className="text-2xl font-semibold tracking-tight">{t('starter.files.allTitle')}</h2>
+          <p className="text-sm text-muted-foreground">{t('starter.files.loading')}</p>
         </div>
         <div className="flex items-center justify-center py-12">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
@@ -148,7 +150,7 @@ export function AllFilesReview({ userIdOverride }: { userIdOverride?: string }) 
   return (
     <div className="space-y-6">
       <div className="space-y-2">
-        <h2 className="text-2xl font-semibold tracking-tight">All Uploaded Files</h2>
+        <h2 className="text-2xl font-semibold tracking-tight">{t('starter.files.allTitle')}</h2>
         <p className="text-sm text-muted-foreground">
           Review and manage all your uploaded documents ({totalFiles} file{totalFiles !== 1 ? 's' : ''})
         </p>
@@ -163,7 +165,7 @@ export function AllFilesReview({ userIdOverride }: { userIdOverride?: string }) 
       {!error && totalFiles === 0 && (
         <div className="rounded-lg border border-dashed border-muted-foreground/40 p-12 text-center">
           <FolderOpen className="mx-auto h-12 w-12 text-muted-foreground/50 mb-4" />
-          <h3 className="text-lg font-medium mb-2">No files uploaded yet</h3>
+          <h3 className="text-lg font-medium mb-2">{t('starter.files.none')}</h3>
           <p className="text-sm text-muted-foreground mb-4">
             Start uploading your documents to get started
           </p>
