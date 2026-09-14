@@ -2,13 +2,13 @@
 import { useEffect, useMemo, useState } from 'react'
 import { CheckCircle2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
-import { APPLICATION_PAGES } from '@/lib/application-schema'
+import { getApplicationPages, applicationPageLabel } from '@/lib/application-schema'
 import { loadApplication, saveApplication, type ApplicationAnswers } from '@/lib/application-store'
 import { computeApplicationProgress } from '@/lib/application-status'
 import { loadColleges, saveColleges, type SavedCollege } from '@/lib/college-store'
 import { loadEssays, saveEssay, loadProfileContext } from '@/lib/essay-store'
 import { getSchoolEssayTasks } from '@/lib/essay-tasks'
-import { PROFILE_SECTIONS } from '@/lib/profile-schema'
+import { PROFILE_SECTIONS, fieldLabel as resolveFieldLabel } from '@/lib/profile-schema'
 import { FormHeader } from '@/components/application-form/form-header'
 import { SchoolRequirements } from '@/components/colleges/school-requirements'
 import { SubmitPluginBanner, AutofillSuggestionsBar } from '@/components/application-form/autofill-bar'
@@ -23,7 +23,7 @@ import { useT } from '@/lib/i18n/use-t'
 export function ApplicationWorkspace({ userId, collegeId }: { userId: string; collegeId: string }) {
   const t = useT()
   const [college, setCollege] = useState<SavedCollege | null | undefined>(undefined)
-  const [activePage, setActivePage] = useState(APPLICATION_PAGES[0].key)
+  const [activePage, setActivePage] = useState<string | null>(null)
   const [answers, setAnswers] = useState<ApplicationAnswers>({})
   const [essays, setEssays] = useState(() => loadEssays(userId))
   const [profileData, setProfileData] = useState<Record<string, any>>({})
@@ -35,6 +35,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
     const colleges = loadColleges(userId)
     setCollege(colleges.find((c) => c.id === collegeId) ?? null)
     setAnswers(loadApplication(userId, collegeId))
+    setActivePage(null)
     setEssays(loadEssays(userId))
     try {
       const raw = window.localStorage.getItem(`aipply-profile-${userId}`)
@@ -44,8 +45,11 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
     }
   }, [userId, collegeId])
 
-  const page = APPLICATION_PAGES.find((p) => p.key === activePage)!
-  const progress = useMemo(() => computeApplicationProgress(userId, collegeId), [userId, collegeId, answers, essays])
+  // Which form to show depends on the school, so it can only be resolved once
+  // the college has loaded - hence the null initial page.
+  const form = useMemo(() => getApplicationPages(college?.name), [college?.name])
+  const page = form.pages.find((p) => p.key === activePage) ?? form.pages[0]
+  const progress = useMemo(() => computeApplicationProgress(userId, collegeId, college?.name), [userId, collegeId, college?.name, answers, essays])
   const essayTask = getSchoolEssayTasks([{ id: collegeId, name: college?.name || '' }], t)[0]
 
   function persistAnswers(next: ApplicationAnswers) {
@@ -79,7 +83,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
     try {
       const fields = page.groups.flatMap((g) => g.fields).map((f) => ({
         key: f.key,
-        label: t(f.labelKey),
+        label: resolveFieldLabel(f, t),
         type: f.type,
         options: f.options || [],
       }))
@@ -114,7 +118,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
     if (!section) return fieldKey
     const fields = section.def.kind === 'simple' ? section.def.groups.flatMap((g) => g.fields) : section.def.fields
     const field = fields.find((f) => f.key === fieldKey)
-    return field ? t(field.labelKey) : fieldKey
+    return field ? resolveFieldLabel(field, t) : fieldKey
   }
 
   function profileSectionEntries(sectionKey: string): { label: string; value: string }[] {
@@ -178,7 +182,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
           <aside>
             <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">{t('applicationForm.pagesLabel')}</p>
             <nav className="space-y-1">
-              {APPLICATION_PAGES.map((p) => {
+              {form.pages.map((p) => {
                 const isActive = p.key === activePage
                 return (
                   <button
@@ -192,7 +196,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
                       isActive ? 'bg-primary text-primary-foreground font-medium' : 'hover:bg-muted',
                     )}
                   >
-                    {t(p.labelKey)}
+                    {applicationPageLabel(p, t)}
                     <CheckCircle2 className={cn('h-3.5 w-3.5 shrink-0', isActive ? 'text-primary-foreground/50' : 'text-muted-foreground/30')} />
                   </button>
                 )
@@ -203,6 +207,22 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
           <div className="rounded-2xl border bg-card p-6">
             <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">{t('applicationForm.eyebrow')}</p>
             <h2 className="text-xl font-semibold text-primary mb-1">{college.name}</h2>
+            {/* The school's own welcome, where it writes one. */}
+            {form.intro && (
+              <p className="mb-4 rounded-lg border-l-2 border-accent bg-secondary/30 px-4 py-3 text-sm leading-relaxed text-muted-foreground">
+                {form.intro}
+              </p>
+            )}
+
+            {/* Say plainly which of the two a student is looking at. Presenting
+                a stand-in as the school's real questions would have them
+                prepare answers to questions nobody asked. */}
+            <p className="mb-6 text-xs text-muted-foreground">
+              {form.isReal
+                ? `${t('applicationForm.realFormNote')} · ${form.cycle}`
+                : t('applicationForm.genericFormNote')}
+            </p>
+
             {page.kind === 'fields' && <p className="text-sm text-muted-foreground mb-6">{t('applicationForm.answerRequiredHint')}</p>}
 
             {page.kind === 'fields' && page.groups && (

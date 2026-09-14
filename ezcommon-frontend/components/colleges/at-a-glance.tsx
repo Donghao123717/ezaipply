@@ -33,7 +33,7 @@ export function AtAGlance({ userId, colleges }: { userId: string; colleges: Save
   }
   if (ready) {
     for (const college of colleges) {
-      counts[computeApplicationProgress(userId, college.id).status] += 1
+      counts[computeApplicationProgress(userId, college.id, college.name).status] += 1
     }
   } else {
     counts.not_started = total

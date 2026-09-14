@@ -1,4 +1,4 @@
-import { APPLICATION_PAGES } from '@/lib/application-schema'
+import { getApplicationPages, type ApplicationPageDef } from '@/lib/application-schema'
 import { loadApplication } from '@/lib/application-store'
 import { loadEssays, wordCount } from '@/lib/essay-store'
 
@@ -12,9 +12,9 @@ export interface ApplicationProgress {
   percent: number
 }
 
-function requiredFieldKeys(): string[] {
+function requiredFieldKeys(pages: ApplicationPageDef[]): string[] {
   const keys: string[] = []
-  for (const page of APPLICATION_PAGES) {
+  for (const page of pages) {
     if (page.kind !== 'fields' || !page.groups) continue
     for (const group of page.groups) {
       for (const field of group.fields) {
@@ -25,9 +25,9 @@ function requiredFieldKeys(): string[] {
   return keys
 }
 
-function optionalFieldCount(): number {
+function optionalFieldCount(pages: ApplicationPageDef[]): number {
   let count = 0
-  for (const page of APPLICATION_PAGES) {
+  for (const page of pages) {
     if (page.kind !== 'fields' || !page.groups) continue
     for (const group of page.groups) {
       count += group.fields.filter((f) => !f.required).length
@@ -36,12 +36,22 @@ function optionalFieldCount(): number {
   return count
 }
 
-export function computeApplicationProgress(userId: string, collegeId: string): ApplicationProgress {
+/**
+ * `schoolName` selects the school's own question set. Without it this falls
+ * back to the generic template, which will under- or over-count for any school
+ * that has a real form - so pass it wherever the name is known.
+ */
+export function computeApplicationProgress(
+  userId: string,
+  collegeId: string,
+  schoolName?: string,
+): ApplicationProgress {
   const answers = loadApplication(userId, collegeId)
-  const required = requiredFieldKeys()
+  const { pages } = getApplicationPages(schoolName)
+  const required = requiredFieldKeys(pages)
   const requiredAnswered = required.filter((k) => answers[k]?.trim()).length
   const requiredTotal = required.length + 1 // +1 for the required Writing essay
-  const optionalTotal = optionalFieldCount()
+  const optionalTotal = optionalFieldCount(pages)
 
   const essays = loadEssays(userId)
   const essayRecord = essays[`school-${collegeId}`]

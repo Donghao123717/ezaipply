@@ -56,7 +56,7 @@ export function YourSchools({
   }, [colleges, sortMode])
 
   function renderCard(college: SavedCollege) {
-    const progress = ready ? computeApplicationProgress(userId, college.id) : null
+    const progress = ready ? computeApplicationProgress(userId, college.id, college.name) : null
     const admissions = SCHOOL_ADMISSIONS_DATA[college.name]
     return (
       <div key={college.id} className="rounded-xl border bg-card p-4 flex items-center justify-between gap-4">

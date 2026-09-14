@@ -1,3 +1,4 @@
+import { fieldLabel } from '@/lib/profile-schema'
 import {
   COUNTRY_OPTIONS,
   isProfileSectionComplete,
@@ -683,7 +684,7 @@ export function buildDS160FieldSchema(t: (key: string) => string): Ds160FieldSch
     if (AUTOFILL_EXCLUDED_SECTIONS.includes(section.key) || section.def.kind !== 'simple') continue
     for (const group of section.def.groups) {
       for (const field of group.fields) {
-        entries.push({ section: section.key, field: field.key, label: t(field.labelKey), type: field.type, options: field.options })
+        entries.push({ section: section.key, field: field.key, label: fieldLabel(field, t), type: field.type, options: field.options })
       }
     }
     for (const nested of section.def.nestedRepeatables || []) {
@@ -691,7 +692,7 @@ export function buildDS160FieldSchema(t: (key: string) => string): Ds160FieldSch
         entries.push({
           section: section.key,
           field: `${nested.key}.${field.key}`,
-          label: t(field.labelKey),
+          label: fieldLabel(field, t),
           type: field.type,
           options: field.options,
           repeatable: true,

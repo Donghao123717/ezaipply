@@ -1,8 +1,12 @@
 import type { FieldGroup } from '@/lib/profile-schema'
+import { getSchoolForm } from '@/lib/school-forms'
 
 export interface ApplicationPageDef {
   key: string
-  labelKey: string
+  /** Dictionary key for our own generic page names. */
+  labelKey?: string
+  /** The school's own page name, used verbatim when this form came from a school. */
+  label?: string
   kind: 'fields' | 'writing' | 'profile-pull' | 'notes'
   groups?: FieldGroup[]
   /** For kind === 'profile-pull': which lib/profile-schema.ts section(s) to mirror read-only. */
@@ -96,3 +100,40 @@ export const APPLICATION_PAGES: ApplicationPageDef[] = [
   { key: 'family', labelKey: 'applicationForm.pages.family', kind: 'profile-pull', profileSections: ['family'] },
   { key: 'additional', labelKey: 'applicationForm.pages.additional', kind: 'notes' },
 ]
+
+/**
+ * The form to show for one school: its real questions when we have them, and
+ * the generic template otherwise. Callers should treat `isReal` as the signal
+ * for whether to tell the student these are the school's actual questions -
+ * claiming a placeholder is the real thing is worse than admitting the gap.
+ */
+export function getApplicationPages(schoolName: string | undefined): {
+  pages: ApplicationPageDef[]
+  isReal: boolean
+  intro?: string
+  cycle?: string
+  sourceNote?: string
+} {
+  const form = schoolName ? getSchoolForm(schoolName) : undefined
+  if (!form) return { pages: APPLICATION_PAGES, isReal: false }
+
+  return {
+    pages: form.pages.map((page) => ({
+      key: page.key,
+      label: page.label,
+      kind: page.kind,
+      groups: page.fields ? [{ fields: page.fields }] : undefined,
+      profileSections: page.profileSections,
+    })),
+    isReal: true,
+    intro: form.intro,
+    cycle: form.cycle,
+    sourceNote: form.sourceNote,
+  }
+}
+
+/** A page's display name - the school's own wording wins over our dictionary. */
+export function applicationPageLabel(page: ApplicationPageDef, t: (key: string) => string): string {
+  if (page.label) return page.label
+  return page.labelKey ? t(page.labelKey) : page.key
+}

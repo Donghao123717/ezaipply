@@ -4,7 +4,7 @@ import { CheckCircle2, ChevronRight, Plus, ShieldAlert, Sparkles, Trash2 } from 
 import { cn } from '@/lib/utils'
 import { DS160_SECTIONS, F1_ONLY_SECTIONS, isProfileSectionComplete } from '@/lib/ds160-schema'
 import { loadDS160Data, saveDS160Data, type Ds160Data } from '@/lib/ds160-store'
-import { PROFILE_SECTIONS } from '@/lib/profile-schema'
+import { PROFILE_SECTIONS, fieldLabel as resolveFieldLabel } from '@/lib/profile-schema'
 import { FieldInput } from '@/components/profile/field-input'
 import { ProfilePullPage } from '@/components/application-form/profile-pull-page'
 import { RiskFlagsPanel } from '@/components/visa/risk-flags-panel'
@@ -184,7 +184,8 @@ export function Ds160Workspace({ userId }: { userId: string }) {
     const section = PROFILE_SECTIONS.find((s) => s.key === sectionKey)
     if (!section) return fieldKey
     const fields = section.def.kind === 'simple' ? section.def.groups.flatMap((g) => g.fields) : section.def.fields
-    return fields.find((f) => f.key === fieldKey)?.labelKey ? t(fields.find((f) => f.key === fieldKey)!.labelKey) : fieldKey
+    const f = fields.find((x) => x.key === fieldKey)
+    return f ? resolveFieldLabel(f, t) : fieldKey
   }
 
   function profileSectionEntries(sectionKey: string): { label: string; value: string }[] {
@@ -213,7 +214,7 @@ export function Ds160Workspace({ userId }: { userId: string }) {
     if (!section || section.def.kind !== 'simple') return fieldKey
     const fields = section.def.groups.flatMap((g) => g.fields)
     const field = fields.find((f) => f.key === fieldKey)
-    return field ? t(field.labelKey) : fieldKey
+    return field ? resolveFieldLabel(field, t) : fieldKey
   }
 
   function ds160SectionEntries(sectionKey: string): { label: string; value: string }[] {

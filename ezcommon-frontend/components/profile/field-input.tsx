@@ -1,5 +1,5 @@
 "use client"
-import { FieldDef } from '@/lib/profile-schema'
+import { FieldDef, fieldLabel } from '@/lib/profile-schema'
 import { useT } from '@/lib/i18n/use-t'
 
 export function FieldInput({
@@ -18,9 +18,23 @@ export function FieldInput({
   const placeholder = placeholderOverride ?? (field.placeholderKey ? t(field.placeholderKey) : undefined)
 
   const eyebrow = (
-    <label className="block text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">
-      {t(field.labelKey)}
-      {field.required && <span className="text-destructive ml-0.5">*</span>}
+    <label className="block mb-1.5">
+      <span
+        className={
+          // A school's own question is a sentence, sometimes a long one - it
+          // needs sentence case and normal leading, not the cramped uppercase
+          // treatment that suits our own short field names.
+          field.label
+            ? 'block text-sm font-medium text-primary'
+            : 'block text-xs font-semibold uppercase tracking-wide text-muted-foreground'
+        }
+      >
+        {fieldLabel(field, t)}
+        {field.required && <span className="text-destructive ml-0.5">*</span>}
+      </span>
+      {field.help && (
+        <span className="mt-1 block text-xs font-normal leading-relaxed text-muted-foreground">{field.help}</span>
+      )}
     </label>
   )
 
@@ -39,7 +53,7 @@ export function FieldInput({
           <option value="">{t('common.selectPlaceholder')}</option>
           {field.options?.map((opt) => (
             <option key={opt} value={opt}>
-              {t(`common.options.${opt}`)}
+              {field.optionsLiteral ? opt : t(`common.options.${opt}`)}
             </option>
           ))}
         </select>
@@ -61,7 +75,7 @@ export function FieldInput({
                 onChange={() => onChange(opt)}
                 className="h-4 w-4 accent-primary"
               />
-              {t(`common.options.${opt}`)}
+              {field.optionsLiteral ? opt : t(`common.options.${opt}`)}
             </label>
           ))}
         </div>
@@ -87,7 +101,7 @@ export function FieldInput({
                 onChange={() => toggle(opt)}
                 className="h-4 w-4 rounded accent-primary"
               />
-              {t(`common.options.${opt}`)}
+              {field.optionsLiteral ? opt : t(`common.options.${opt}`)}
             </label>
           ))}
         </div>
@@ -103,8 +117,21 @@ export function FieldInput({
           className={`${baseInputClass} min-h-24 resize-y`}
           value={value}
           placeholder={placeholder}
+          maxLength={field.maxChars}
           onChange={(e) => onChange(e.target.value)}
         />
+        {/* Real forms truncate silently at their cap; show the budget instead. */}
+        {field.maxChars && (
+          <p
+            className={
+              value.length > field.maxChars * 0.9
+                ? 'mt-1 text-right text-[11px] tabular-nums text-destructive'
+                : 'mt-1 text-right text-[11px] tabular-nums text-muted-foreground'
+            }
+          >
+            {value.length} / {field.maxChars}
+          </p>
+        )}
       </div>
     )
   }
@@ -117,6 +144,7 @@ export function FieldInput({
         className={baseInputClass}
         value={value}
         placeholder={placeholder}
+        maxLength={field.maxChars}
         onChange={(e) => onChange(e.target.value)}
       />
     </div>

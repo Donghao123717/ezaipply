@@ -1502,6 +1502,9 @@ export const dictionary = {
       pagesLabel: 'Pages',
       eyebrow: 'Application Form',
       answerRequiredHint: 'Answer the required questions to get started. Fields with * are mandatory.',
+      realFormNote: "These are this school's own application questions, in its wording",
+      genericFormNote:
+        "This school's own questions aren't loaded yet - the fields below are a general template, so treat them as practice rather than the real form.",
       saveAnswers: 'Save answers',
       autoSaveOn: 'Auto-save on',
       notOnListAnymore: "This school isn't on your list anymore.",
@@ -3067,6 +3070,8 @@ export const dictionary = {
       pagesLabel: '页面',
       eyebrow: '网申表单',
       answerRequiredHint: '先填完必填题就能开始，带 * 的是必填项。',
+      realFormNote: '以下是该校自己的申请问题，保留其原始表述',
+      genericFormNote: '该校的专属问题尚未收录，下面是通用模板，请当作练习而非真实表单。',
       saveAnswers: '保存答案',
       autoSaveOn: '已开启自动保存',
       notOnListAnymore: '这所学校已经不在你的选校清单里了。',

@@ -77,7 +77,7 @@ export function computeApplicationTracker(userId: string, t: (key: string) => st
 
   const schoolItems: TrackerItem[] = colleges.map((college) => ({
     label: college.name,
-    done: computeApplicationProgress(userId, college.id).status === 'complete',
+    done: computeApplicationProgress(userId, college.id, college.name).status === 'complete',
     href: '/submit',
   }))
   const schoolsStage: TrackerStage = {

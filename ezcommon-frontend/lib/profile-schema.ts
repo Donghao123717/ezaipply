@@ -3,11 +3,34 @@ export type FieldType = 'text' | 'textarea' | 'select' | 'date' | 'number' | 'ra
 export interface FieldDef {
   key: string
   /** Dictionary key path, e.g. "profile.personalInfo.firstName" - resolved via useT(). */
-  labelKey: string
+  labelKey?: string
+  /**
+   * Literal label, used verbatim in place of `labelKey`. This is for questions
+   * whose wording belongs to the institution asking them - a school's own
+   * Common App question has to appear exactly as the student will meet it on
+   * the real form, so it is deliberately not routed through the dictionary.
+   * Exactly one of `labelKey` or `label` should be set.
+   */
+  label?: string
+  /** Literal instructions shown under the label, in the asking institution's own words. */
+  help?: string
+  /** Render `options` verbatim instead of looking each one up in the dictionary. */
+  optionsLiteral?: boolean
+  /** Character cap the real form enforces, surfaced as a counter. */
+  maxChars?: number
   type: FieldType
   required?: boolean
   options?: string[]
   placeholderKey?: string
+}
+
+/**
+ * A field's display label. School-authored wording wins over a dictionary key;
+ * a field carrying neither falls back to its key rather than rendering blank.
+ */
+export function fieldLabel(field: FieldDef, t: (key: string) => string): string {
+  if (field.label) return field.label
+  return field.labelKey ? t(field.labelKey) : field.key
 }
 
 export interface FieldGroup {
@@ -601,7 +624,7 @@ export function buildFieldSchema(t: (key: string) => string): FieldSchemaEntry[]
         entries.push({
           section: section.key,
           field: field.key,
-          label: t(field.labelKey),
+          label: fieldLabel(field, t),
           type: field.type,
           options: field.options,
           repeatable: true,
@@ -611,7 +634,7 @@ export function buildFieldSchema(t: (key: string) => string): FieldSchemaEntry[]
     }
     for (const group of section.def.groups) {
       for (const field of group.fields) {
-        entries.push({ section: section.key, field: field.key, label: t(field.labelKey), type: field.type, options: field.options })
+        entries.push({ section: section.key, field: field.key, label: fieldLabel(field, t), type: field.type, options: field.options })
       }
     }
     for (const nested of section.def.nestedRepeatables || []) {
@@ -623,7 +646,7 @@ export function buildFieldSchema(t: (key: string) => string): FieldSchemaEntry[]
           // inside the nestedRepeatable "otherSchools") - see applySuggestions,
           // which strips the "<nestedKey>." prefix back off before writing.
           field: `${nested.key}.${field.key}`,
-          label: t(field.labelKey),
+          label: fieldLabel(field, t),
           type: field.type,
           options: field.options,
           repeatable: true,
