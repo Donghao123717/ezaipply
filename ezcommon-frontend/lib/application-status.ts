@@ -1,6 +1,7 @@
 import { getApplicationPages, type ApplicationPageDef } from '@/lib/application-schema'
 import { loadApplication } from '@/lib/application-store'
 import { loadEssays, wordCount } from '@/lib/essay-store'
+import { getSchoolWriting } from '@/lib/essay-tasks'
 
 export type ApplicationStatus = 'not_started' | 'getting_started' | 'in_progress' | 'almost_done' | 'complete'
 
@@ -50,14 +51,19 @@ export function computeApplicationProgress(
   const { pages } = getApplicationPages(schoolName)
   const required = requiredFieldKeys(pages)
   const requiredAnswered = required.filter((k) => answers[k]?.trim()).length
-  const requiredTotal = required.length + 1 // +1 for the required Writing essay
+  // Only count a writing requirement where the school actually has one -
+  // otherwise a student could never reach 100% on a school that asks for no
+  // supplement.
+  const writing = schoolName ? getSchoolWriting(schoolName) : null
+  const essayRequired = !writing?.noSupplement
+  const requiredTotal = required.length + (essayRequired ? 1 : 0)
   const optionalTotal = optionalFieldCount(pages)
 
   const essays = loadEssays(userId)
   const essayRecord = essays[`school-${collegeId}`]
   const essayDone = essayRecord ? wordCount(essayRecord.html) > 0 : false
 
-  const totalRequiredAnswered = requiredAnswered + (essayDone ? 1 : 0)
+  const totalRequiredAnswered = requiredAnswered + (essayRequired && essayDone ? 1 : 0)
   const percent = requiredTotal > 0 ? Math.round((totalRequiredAnswered / requiredTotal) * 100) : 0
 
   let status: ApplicationStatus = 'not_started'

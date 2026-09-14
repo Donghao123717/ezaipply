@@ -1,4 +1,5 @@
 import { SCHOOL_ADMISSIONS_DATA } from '@/lib/school-admissions-data'
+import { SCHOOL_ESSAY_PROMPTS } from '@/lib/school-essay-prompts'
 
 export interface EssayTask {
   id: string
@@ -9,8 +10,10 @@ export interface EssayTask {
   school?: string
   wordLimit: number
   promptRequired?: boolean
-  /** The real supplement prompt text, when sourced from school-admissions-data.ts - shown above the editor instead of a generic placeholder. */
+  /** The real supplement prompt text, when we have it - shown above the editor instead of a generic placeholder. */
   prompt?: string
+  /** True when this slot is a stand-in because we have not verified the school's prompts. */
+  placeholder?: boolean
 }
 
 export function essayTaskTitle(task: EssayTask, t: (key: string) => string): string {
@@ -34,11 +37,45 @@ export const ESSAY_TASKS: EssayTask[] = [
  * question, others ask three) - schools outside that researched set fall
  * back to a single generic supplemental slot as a placeholder.
  */
+export interface SchoolWriting {
+  supplements: { prompt: string; wordLimit: number }[]
+  /** The school asks for no supplement - a fact, not a gap in our data. */
+  noSupplement: boolean
+  note?: string
+}
+
+/**
+ * What a school asks for in writing. Three outcomes, and the difference
+ * matters: real prompts, a confirmed "nothing required", or genuinely unknown.
+ * Collapsing the middle case into the last one - which this used to do - puts
+ * a fake essay in front of a student who owes the school nothing.
+ */
+export function getSchoolWriting(schoolName: string): SchoolWriting | null {
+  const admissions = SCHOOL_ADMISSIONS_DATA[schoolName]
+  if (admissions && admissions.essaySupplements.length > 0) {
+    return { supplements: admissions.essaySupplements, noSupplement: false }
+  }
+  const prompts = SCHOOL_ESSAY_PROMPTS[schoolName]
+  if (prompts) {
+    return {
+      supplements: prompts.supplements,
+      noSupplement: !!prompts.noSupplement,
+      note: prompts.note,
+    }
+  }
+  return null
+}
+
 export function getSchoolEssayTasks(colleges: { id: string; name: string }[], t: (key: string) => string): EssayTask[] {
-  return colleges.flatMap((college) => {
-    const admissions = SCHOOL_ADMISSIONS_DATA[college.name]
-    if (admissions && admissions.essaySupplements.length > 0) {
-      return admissions.essaySupplements.map((supp, i) => ({
+  return colleges.flatMap((college): EssayTask[] => {
+    const writing = getSchoolWriting(college.name)
+
+    // Nothing to write for this school - so offer nothing, rather than a
+    // placeholder the student would dutifully fill in for no reason.
+    if (writing?.noSupplement) return []
+
+    if (writing && writing.supplements.length > 0) {
+      return writing.supplements.map((supp, i) => ({
         id: `school-${college.id}-${i}`,
         title: `${college.name} · ${t('writing.tasks.supplemental')} ${i + 1}`,
         group: 'school' as const,
@@ -47,6 +84,7 @@ export function getSchoolEssayTasks(colleges: { id: string; name: string }[], t:
         prompt: supp.prompt,
       }))
     }
+
     return [
       {
         id: `school-${college.id}-0`,
@@ -54,6 +92,7 @@ export function getSchoolEssayTasks(colleges: { id: string; name: string }[], t:
         group: 'school' as const,
         school: college.name,
         wordLimit: 400,
+        placeholder: true,
       },
     ]
   })

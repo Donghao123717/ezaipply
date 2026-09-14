@@ -7,7 +7,7 @@ import { loadApplication, saveApplication, type ApplicationAnswers } from '@/lib
 import { computeApplicationProgress } from '@/lib/application-status'
 import { loadColleges, saveColleges, type SavedCollege } from '@/lib/college-store'
 import { loadEssays, saveEssay, loadProfileContext } from '@/lib/essay-store'
-import { getSchoolEssayTasks } from '@/lib/essay-tasks'
+import { getSchoolEssayTasks, getSchoolWriting } from '@/lib/essay-tasks'
 import { PROFILE_SECTIONS, fieldLabel as resolveFieldLabel } from '@/lib/profile-schema'
 import { FormHeader } from '@/components/application-form/form-header'
 import { SchoolRequirements } from '@/components/colleges/school-requirements'
@@ -50,7 +50,11 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
   const form = useMemo(() => getApplicationPages(college?.name), [college?.name])
   const page = form.pages.find((p) => p.key === activePage) ?? form.pages[0]
   const progress = useMemo(() => computeApplicationProgress(userId, collegeId, college?.name), [userId, collegeId, college?.name, answers, essays])
+  // A school that asks for no supplement yields no task at all, so this is
+  // legitimately undefined - the Writing page says so rather than rendering
+  // an editor for an essay the student does not owe anyone.
   const essayTask = getSchoolEssayTasks([{ id: collegeId, name: college?.name || '' }], t)[0]
+  const schoolWriting = college ? getSchoolWriting(college.name) : null
 
   function persistAnswers(next: ApplicationAnswers) {
     setAnswers(next)
@@ -65,6 +69,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
   }
 
   function handleEssayChange(html: string) {
+    if (!essayTask) return
     const record = { html, promptId: essays[essayTask.id]?.promptId || null, updatedAt: new Date().toISOString() }
     setEssays((prev) => ({ ...prev, [essayTask.id]: record }))
     saveEssay(userId, essayTask.id, record)
@@ -228,9 +233,17 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
             {page.kind === 'fields' && page.groups && (
               <FieldPage groups={page.groups} answers={answers} suggestions={suggestions} onChange={handleFieldChange} />
             )}
-            {page.kind === 'writing' && (
-              <ApplicationWritingPage userId={userId} task={essayTask} record={essays[essayTask.id]} onChange={handleEssayChange} />
-            )}
+            {page.kind === 'writing' &&
+              (essayTask ? (
+                <ApplicationWritingPage userId={userId} task={essayTask} record={essays[essayTask.id]} onChange={handleEssayChange} />
+              ) : (
+                <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-5">
+                  <p className="text-sm font-medium text-primary">{t('writing.noSupplementTitle')}</p>
+                  <p className="mt-1.5 text-sm text-muted-foreground">
+                    {schoolWriting?.note || t('writing.noSupplementBody')}
+                  </p>
+                </div>
+              ))}
             {page.kind === 'profile-pull' && (
               <ProfilePullPage
                 sections={(page.profileSections || []).map((key) => {

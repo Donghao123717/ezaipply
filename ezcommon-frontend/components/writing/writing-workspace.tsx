@@ -140,6 +140,15 @@ export function WritingWorkspace({ userId }: { userId: string }) {
                 </div>
               )}
 
+              {/* A slot we could not verify. Saying so costs a line and saves a
+                  student from polishing an answer to a question their school
+                  never asked. */}
+              {task.placeholder && (
+                <div className="mb-4 rounded-lg border border-amber-500/40 bg-amber-500/5 px-4 py-3">
+                  <p className="text-sm text-muted-foreground">{t('writing.promptUnverified')}</p>
+                </div>
+              )}
+
               <EssayEditor html={html} onChange={(next) => persist(next, promptId || null)} />
               {draftError && <p className="text-sm text-destructive mt-2">{draftError}</p>}
 

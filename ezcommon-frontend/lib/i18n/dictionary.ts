@@ -893,6 +893,9 @@ export const dictionary = {
       },
     },
     writing: {
+      noSupplementTitle: 'No supplemental essay required',
+      noSupplementBody: 'This school asks for no school-specific essay this cycle - your Common App personal essay is the only writing it reads.',
+      promptUnverified: "We haven't verified this school's prompts yet - treat this as practice, and check the school's own page before you write.",
       versions: {
         save: 'Save version',
         saved: 'Saved',
@@ -2461,6 +2464,9 @@ export const dictionary = {
       },
     },
     writing: {
+      noSupplementTitle: '这所学校不要求补充文书',
+      noSupplementBody: '本申请季该校没有校内文书，它只看你的 Common App 主文书。',
+      promptUnverified: '该校的题目我们还没核实，这里先当作练习；动笔前请以学校官网为准。',
       versions: {
         save: '保存版本',
         saved: '已保存',
