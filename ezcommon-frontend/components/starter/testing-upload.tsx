@@ -110,7 +110,7 @@ export function TestingUpload() {
         <Button onClick={handleSubmit} className="w-full" disabled={uploading || status === 'loading'}>
           {uploading ? 'Uploading...' : 'Submit'}
         </Button>
-        <Link href="/" className="text-center text-sm text-muted-foreground hover:underline">Skip, I will manually input</Link>
+        <Link href="/home" className="text-center text-sm text-muted-foreground hover:underline">Skip, I will manually input</Link>
       </div>
 
       {existing.length > 0 && (

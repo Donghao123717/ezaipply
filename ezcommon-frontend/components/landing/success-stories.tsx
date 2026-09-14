@@ -18,7 +18,10 @@ export function SuccessStories({ copy }: { copy: LandingCopy }) {
             <Reveal key={item.initials} delay={i * 90}>
               <figure className="h-full rounded-2xl border bg-card p-6">
                 <div className="flex items-center gap-3">
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-xs font-semibold">
+                  <span
+                    style={{ animationDelay: `${i * 100}ms` }}
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-xs font-semibold animate-portrait-pop motion-reduce:animate-none"
+                  >
                     {item.initials}
                   </span>
                   <figcaption className="min-w-0">

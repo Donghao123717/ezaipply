@@ -14,6 +14,7 @@ export interface LandingCopy {
     blurb: string
     cta: string
     credibility: { bold: string; rest: string }[]
+    scrollHint: string
   }
   why: {
     eyebrow: string
@@ -120,6 +121,7 @@ const EN: LandingCopy = {
       { bold: '6 senior advisors', rest: 'former admissions readers' },
       { bold: '120+ student testers', rest: 'Harvard, Princeton, Georgia Tech, etc.' },
     ],
+    scrollHint: 'Scroll down',
   },
   why: {
     eyebrow: '02 — Why Us',
@@ -398,6 +400,7 @@ const ZH: LandingCopy = {
       { bold: '6 位资深顾问', rest: '前招生材料审阅人' },
       { bold: '120+ 名学生测试者', rest: 'Harvard、Princeton、Georgia Tech 等' },
     ],
+    scrollHint: '继续向下滚动',
   },
   why: {
     eyebrow: '02 — 为什么选择我们',

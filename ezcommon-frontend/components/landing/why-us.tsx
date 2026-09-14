@@ -210,7 +210,7 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
             {copy.why.eyebrow}
           </p>
 
-          <div key={current.title} className="text-center animate-fade-in-up motion-reduce:animate-none">
+          <div key={current.title} className="text-center animate-rise-in motion-reduce:animate-none">
             <h2 className="font-display text-3xl sm:text-5xl font-semibold text-primary">{current.title}</h2>
             <p className="font-display text-xl sm:text-3xl mt-2">
               <span className="text-primary font-semibold">{current.lead} </span>
@@ -232,7 +232,7 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
                   {copy.why.contextPills.map((pill) => (
                     <span
                       key={pill}
-                      className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-[11px] text-primary animate-fade-in-up motion-reduce:animate-none"
+                      className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-[11px] text-primary animate-rise-in motion-reduce:animate-none"
                     >
                       {pill}
                     </span>
@@ -242,8 +242,8 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
                   {copy.why.reusedSchools.map((school, i) => (
                     <span
                       key={school}
-                      style={{ animationDelay: `${i * 80}ms` }}
-                      className="inline-flex items-center gap-1.5 rounded-lg border bg-card px-3 py-1.5 text-xs text-primary animate-fade-in-up motion-reduce:animate-none"
+                      style={{ animationDelay: `${i * 100}ms` }}
+                      className="inline-flex items-center gap-1.5 rounded-lg border bg-card px-3 py-1.5 text-xs text-primary animate-rise-in motion-reduce:animate-none"
                     >
                       <Check className="h-3 w-3 text-emerald-500" />
                       {school}

@@ -56,7 +56,7 @@ export function Reveal({
       style={{ transitionDelay: shown ? `${delay}ms` : '0ms' }}
       className={cn(
         'transition-all duration-700 ease-out motion-reduce:transition-none',
-        shown ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4',
+        shown ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-7',
         className,
       )}
     >

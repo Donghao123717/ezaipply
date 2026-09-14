@@ -201,7 +201,7 @@ export function TestingReview() {
                 Upload More Files
               </Button>
             </Link>
-            <Link href="/" className="flex-1">
+            <Link href="/home" className="flex-1">
               <Button className="w-full">
                 Complete & Go to Dashboard
               </Button>

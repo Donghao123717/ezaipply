@@ -40,7 +40,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
   function switchMode(next: AppMode) {
     if (next === mode) return
     setMode(next)
-    router.push(next === 'visa' ? '/visa/ds160' : '/')
+    router.push(next === 'visa' ? '/visa/ds160' : '/home')
   }
 
   const name = session?.user?.name || session?.user?.email || 'User'
@@ -80,11 +80,11 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
 
           <nav className="flex items-center gap-1 flex-1">
             <Link
-              href="/"
+              href="/home"
               aria-label={t('nav.home')}
               className={cn(
                 'rounded-md p-2 hover:bg-white/10 transition-colors',
-                pathname === '/' && 'bg-white/10',
+                pathname === '/home' && 'bg-white/10',
               )}
             >
               <Home className="h-5 w-5" />

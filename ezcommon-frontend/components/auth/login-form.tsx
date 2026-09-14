@@ -34,7 +34,8 @@ export function LoginForm() {
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [usePassword, setUsePassword] = useState(false)
-  const appBase = process.env.NEXT_PUBLIC_APP_URL || '/'
+  // Sign-in drops the student into the app, not back onto the marketing page.
+  const appBase = '/home'
 
   const emailForm = useForm<EmailOnlyValues>({
     resolver: zodResolver(EmailOnlySchema),

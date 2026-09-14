@@ -188,7 +188,7 @@ export function EducationReviewForm() {
 
         <div className="flex flex-col gap-3">
           <Button type="submit" disabled={loading} className="w-full">{loading ? 'Saving...' : 'Save and continue'}</Button>
-          <a href="/" className="text-center text-sm text-muted-foreground hover:underline">Skip, I&apos;ll do it later</a>
+          <a href="/home" className="text-center text-sm text-muted-foreground hover:underline">Skip, I&apos;ll do it later</a>
         </div>
       </form>
     </div>

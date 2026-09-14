@@ -67,6 +67,23 @@ const config: Config = {
           from: { opacity: '0', transform: 'translateY(8px)' },
           to: { opacity: '1', transform: 'translateY(0)' },
         },
+        // Marketing-page entrance: a longer, slower rise than the in-app one,
+        // which stays snappy because it fires on every interaction.
+        'rise-in': {
+          from: { opacity: '0', transform: 'translateY(28px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        'portrait-pop': {
+          from: { opacity: '0', transform: 'scale(0.78)' },
+          to: { opacity: '1', transform: 'scale(1)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        'route-flow': {
+          to: { strokeDashoffset: '-60' },
+        },
         'fade-out-right': {
           from: { opacity: '1', transform: 'translateX(0)' },
           to: { opacity: '0', transform: 'translateX(24px)' },
@@ -91,6 +108,10 @@ const config: Config = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'fade-in-up': 'fade-in-up 0.35s cubic-bezier(0.22, 1, 0.36, 1) both',
+        'rise-in': 'rise-in 0.7s ease-out both',
+        'portrait-pop': 'portrait-pop 0.5s cubic-bezier(0.23, 1, 0.32, 1) both',
+        float: 'float 6s ease-in-out infinite',
+        'route-flow': 'route-flow 0.9s linear infinite',
         'fade-out-right': 'fade-out-right 0.25s ease-in both',
         'slide-up-in': 'slide-up-in 0.25s cubic-bezier(0.22, 1, 0.36, 1) both',
         shimmer: 'shimmer 1.6s infinite',

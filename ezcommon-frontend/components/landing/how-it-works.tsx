@@ -24,7 +24,7 @@ function StagePreview({ kind, t }: { kind: string; t: LandingCopy['how']['previe
             <div className="mt-1.5 h-1 rounded-full bg-muted overflow-hidden">
               <div
                 className={cn('h-full rounded-full', file.pct === 100 ? 'bg-emerald-500' : 'bg-accent')}
-                style={{ width: `${file.pct}%`, transitionDelay: `${i * 80}ms` }}
+                style={{ width: `${file.pct}%`, transitionDelay: `${i * 100}ms` }}
               />
             </div>
           </div>
@@ -87,8 +87,8 @@ function StagePreview({ kind, t }: { kind: string; t: LandingCopy['how']['previe
         ].map((row, i) => (
           <div
             key={row.school}
-            style={{ animationDelay: `${i * 70}ms` }}
-            className="flex items-center gap-2 rounded-lg border bg-background px-3 py-1.5 animate-fade-in-up motion-reduce:animate-none"
+            style={{ animationDelay: `${i * 100}ms` }}
+            className="flex items-center gap-2 rounded-lg border bg-background px-3 py-1.5 animate-rise-in motion-reduce:animate-none"
           >
             <span className="text-xs text-primary flex-1 truncate">
               {row.school} · {row.prompt}
@@ -235,7 +235,7 @@ export function HowItWorks({ copy }: { copy: LandingCopy }) {
                   </span>
                 </div>
                 {/* Remount on change so the entry animations replay. */}
-                <div key={stage.num} className="p-5 animate-fade-in-up motion-reduce:animate-none">
+                <div key={stage.num} className="p-5 animate-rise-in motion-reduce:animate-none">
                   <StagePreview kind={stage.preview} t={HOW.preview} />
                 </div>
               </div>

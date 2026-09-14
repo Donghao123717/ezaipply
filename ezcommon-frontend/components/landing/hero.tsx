@@ -27,13 +27,13 @@ export function Hero({ copy }: { copy: LandingCopy }) {
           </h1>
         </Reveal>
 
-        <Reveal delay={120}>
+        <Reveal delay={100}>
           <p className="mt-7 border-l-2 border-accent/70 pl-4 text-base sm:text-lg text-primary-foreground/75 max-w-lg leading-relaxed">
             {HERO.blurb}
           </p>
         </Reveal>
 
-        <Reveal delay={240}>
+        <Reveal delay={200}>
           <Link
             href="/auth/login"
             className="group mt-9 inline-flex items-center gap-2 rounded-sm border border-primary-foreground/30 px-7 py-3.5 text-sm font-medium uppercase tracking-[0.14em] hover:bg-primary-foreground hover:text-primary transition-colors"
@@ -43,7 +43,7 @@ export function Hero({ copy }: { copy: LandingCopy }) {
           </Link>
         </Reveal>
 
-        <Reveal delay={360}>
+        <Reveal delay={300}>
           <ul className="mt-12 space-y-2.5">
             {HERO.credibility.map((item) => (
               <li key={item.bold} className="flex items-baseline gap-2 text-sm">
@@ -54,6 +54,14 @@ export function Hero({ copy }: { copy: LandingCopy }) {
             ))}
           </ul>
         </Reveal>
+      </div>
+
+      {/* Scroll hint: their hero has one, and this page is tall enough to need it. */}
+      <div className="absolute bottom-7 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5">
+        <span className="text-[10px] uppercase tracking-[0.2em] text-primary-foreground/40">
+          {HERO.scrollHint}
+        </span>
+        <span className="h-8 w-px bg-gradient-to-b from-primary-foreground/40 to-transparent animate-float motion-reduce:animate-none" />
       </div>
     </section>
   )
