@@ -3,8 +3,10 @@ import Link from 'next/link'
 import { ArrowRight, QrCode } from 'lucide-react'
 import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
+import { useStartHref } from '@/lib/use-start-href'
 
 export function Rewards({ copy }: { copy: LandingCopy }) {
+  const startHref = useStartHref()
   const REWARDS = copy.rewards
   return (
     <section id="rewards" className="relative overflow-hidden bg-primary py-24 text-primary-foreground">
@@ -65,7 +67,7 @@ export function Rewards({ copy }: { copy: LandingCopy }) {
 
             <div className="text-center">
               <Link
-                href="/auth/login"
+                href={startHref}
                 className="inline-flex items-center gap-2 rounded-sm bg-accent px-8 py-3.5 text-sm font-semibold text-accent-foreground transition-colors hover:brightness-110"
               >
                 {REWARDS.cta}

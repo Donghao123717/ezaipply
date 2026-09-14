@@ -3,8 +3,10 @@ import Link from 'next/link'
 import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
 import { VideoBackdrop } from '@/components/landing/video-backdrop'
+import { useStartHref } from '@/lib/use-start-href'
 
 export function Hero({ copy }: { copy: LandingCopy }) {
+  const startHref = useStartHref()
   const HERO = copy.hero
   return (
     <section
@@ -39,7 +41,7 @@ export function Hero({ copy }: { copy: LandingCopy }) {
           {/* Solid, square, high-contrast - the one thing on the hero that is
               meant to be clicked should not look like the border-only chrome. */}
           <Link
-            href="/auth/login"
+            href={startHref}
             className="mt-9 inline-flex items-center rounded-sm bg-primary-foreground px-8 py-3.5 text-sm font-semibold text-primary transition-colors hover:bg-accent hover:text-accent-foreground"
           >
             {HERO.cta}
