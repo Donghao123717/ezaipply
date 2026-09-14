@@ -67,22 +67,45 @@ export function LandingPage() {
   const [active, setActive] = useState<string>('hero')
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        // The entry covering the most of the viewport wins, so the index never
-        // flickers between two sections meeting at the fold.
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]
-        if (visible) setActive(visible.target.id)
-      },
-      { threshold: [0.15, 0.4, 0.7] },
-    )
-    for (const section of copy.sections) {
-      const node = document.getElementById(section.id)
-      if (node) observer.observe(node)
+    const ids = copy.sections.map((section) => section.id)
+    let frame = 0
+
+    // Which section is under a line just above the middle of the viewport.
+    //
+    // Not intersection ratio: the Why Us runway is nine screens tall, so the
+    // most of it that can ever be on screen is about a tenth - under every
+    // threshold - and the rail would sit on Get Started for the whole scroll,
+    // which is exactly what it was doing.
+    function pick() {
+      cancelAnimationFrame(frame)
+      frame = requestAnimationFrame(() => {
+        const line = window.innerHeight * 0.4
+        let current = ids[0]
+        for (const id of ids) {
+          const node = document.getElementById(id)
+          if (!node) continue
+          const rect = node.getBoundingClientRect()
+          if (rect.top <= line && rect.bottom > line) {
+            current = id
+            break
+          }
+          // Past the line already: remember it and keep looking, so scrolling
+          // through a gap between sections holds the last one rather than
+          // snapping back to the first.
+          if (rect.top <= line) current = id
+        }
+        setActive(current)
+      })
     }
-    return () => observer.disconnect()
+
+    window.addEventListener('scroll', pick, { passive: true })
+    window.addEventListener('resize', pick)
+    pick()
+    return () => {
+      window.removeEventListener('scroll', pick)
+      window.removeEventListener('resize', pick)
+      cancelAnimationFrame(frame)
+    }
   }, [copy.sections])
 
   return (

@@ -32,8 +32,13 @@ export interface LandingCopy {
     reusedSchools: string[]
     mathTitle: string
     math: { bold: string; rest: string }[]
-    chart: { yLabel: string; xLabel: string; lines: { key: string; label: string; note: string }[] }
-    closer: { muted: string; strong: string }[]
+    chart: {
+      yLabel: string
+      xLabel: string
+      /** Sits on the dashed line the three curves are measured against. */
+      refLabel: string
+      lines: { key: string; label: string; note: string }[]
+    }
   }
   how: {
     eyebrow: string
@@ -210,9 +215,16 @@ const EN: LandingCopy = {
         mode: 'routes',
       },
       {
-        title: 'Aipply',
+        title: 'Workload compared',
         lead: 'Same workload.',
         emphasis: 'More schools reached.',
+        caption: 'Same work, more schools',
+        mode: 'chart',
+      },
+      {
+        title: 'Aipply',
+        lead: 'Less repeated work.',
+        emphasis: 'More chances.',
         caption: 'More schools. More chances.',
         mode: 'payoff',
       },
@@ -237,17 +249,13 @@ const EN: LandingCopy = {
     chart: {
       yLabel: 'Total workload ↑',
       xLabel: 'Schools applied to →',
+      refLabel: 'The same workload',
       lines: [
         { key: 'manual', label: 'Manual', note: 'Work keeps adding' },
         { key: 'otherAi', label: 'Other AI products', note: 'Still starts over' },
         { key: 'aipply', label: 'Aipply', note: 'Same workload' },
       ],
     },
-    closer: [
-      { muted: 'Less', strong: 'busywork.' },
-      { muted: 'More', strong: 'schools.' },
-      { muted: 'More', strong: 'chances.' },
-    ],
   },
   how: {
     eyebrow: '03 — How It Works',
@@ -472,7 +480,8 @@ const ZH: LandingCopy = {
       { title: '其他 AI 申请产品', lead: '单项任务更快。', emphasis: '冷启动没有减少。', caption: '每所学校都要开启新的 AI 会话', mode: 'otherAi' },
       { title: '申请管理过载', lead: '一套申请背景', emphasis: '把一切连接起来。', caption: '一套可复用的系统', mode: 'hub' },
       { title: 'Aipply', lead: '你的申请背景', emphasis: '持续复用。', caption: '用同一套背景覆盖每一所学校', mode: 'routes' },
-      { title: 'Aipply', lead: '同样的工作量。', emphasis: '覆盖更多学校。', caption: '更多学校。更多机会。', mode: 'payoff' },
+      { title: '工作量对比', lead: '同样的工作量。', emphasis: '覆盖更多学校。', caption: '同样的工作量，更多学校', mode: 'chart' },
+      { title: 'Aipply', lead: '更少重复工作。', emphasis: '更多机会。', caption: '更多学校。更多机会。', mode: 'payoff' },
     ],
     axisLabel: '可视化工作量',
     scrollLabel: '继续向下滚动',
@@ -494,17 +503,13 @@ const ZH: LandingCopy = {
     chart: {
       yLabel: '总工作量 ↑',
       xLabel: '已申请学校数 →',
+      refLabel: '同样的工作量',
       lines: [
         { key: 'manual', label: '手动流程', note: '工作不断累积' },
         { key: 'otherAi', label: '其他 AI 产品', note: '仍要重新开始' },
         { key: 'aipply', label: 'Aipply', note: '同样的工作量' },
       ],
     },
-    closer: [
-      { muted: '更少', strong: '重复工作。' },
-      { muted: '更多', strong: '学校。' },
-      { muted: '更多', strong: '机会。' },
-    ],
   },
   how: {
     eyebrow: '03 — 如何运作',

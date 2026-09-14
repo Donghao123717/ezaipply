@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { ArrowDown, Check, Loader2, PenLine, RotateCcw } from 'lucide-react'
 import type { LandingCopy } from '@/lib/landing-content'
-import { Reveal } from '@/components/landing/reveal'
 import { SchoolLogo } from '@/components/landing/school-logo'
 import { cn } from '@/lib/utils'
 
@@ -275,74 +274,178 @@ function RadialRoutes({ copy, progress }: { copy: LandingCopy; progress: number 
   )
 }
 
-function WorkloadChart({ copy }: { copy: LandingCopy }) {
+/**
+ * The closing argument, drawn rather than asserted.
+ *
+ * Three curves against one horizontal line. The line is a fixed amount of
+ * work; where each curve crosses it is how many schools that much work buys
+ * you. Manual crosses first and keeps climbing, another AI tool crosses a
+ * little later, and Aipply runs flat along the line and never crosses - which
+ * is the whole claim in one shape, and the reason this is a chart and not a
+ * bullet list.
+ *
+ * Scrubbed by scroll rather than run on mount. A chart that animates on mount
+ * inside a pinned stage has already finished by the time the reader reaches
+ * its beat, so they only ever see the final frame - which is exactly what was
+ * happening before.
+ */
+
+const REF_Y = 120
+
+/** Where each curve meets the workload line, and what to say about it. */
+const CROSSINGS = [
+  { x: 152, tone: 'muted' as const },
+  { x: 258, tone: 'primary' as const },
+  { x: 474, tone: 'accent' as const },
+]
+
+const CURVES = [
+  // Manual: climbs and never stops climbing.
+  { d: 'M40 172 C 92 162, 124 142, 152 120 S 372 54, 480 30', stroke: 'hsl(var(--muted-foreground))', width: 2, opacity: 1 },
+  // Another AI tool: the same shape, shifted right. Faster, not different.
+  { d: 'M40 174 C 128 170, 206 146, 258 120 S 404 82, 480 60', stroke: 'hsl(var(--primary))', width: 2, opacity: 0.55 },
+  // Aipply: rises once, then runs along the line.
+  { d: 'M40 172 C 74 150, 116 126, 168 121 C 268 118, 380 118, 480 118', stroke: 'hsl(var(--accent))', width: 2.75, opacity: 1 },
+]
+
+function WorkloadChart({ copy, progress }: { copy: LandingCopy; progress: number }) {
+  // Axes settle, then the curves draw, then the crossings land, then the
+  // labels. Reading order, in time.
+  const frame = ramp(progress, START, START + 0.08)
+  const draw = ramp(progress, START + 0.06, START + 0.46)
+
   return (
-    <div className="w-full max-w-2xl">
-      <div className="mb-2 flex items-start justify-between gap-4">
-        <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
-          {copy.why.chart.yLabel}
-        </p>
-        <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
-          {copy.why.chart.xLabel}
-        </p>
+    <div className="flex w-full max-w-5xl flex-col items-center gap-8 lg:flex-row lg:items-center">
+      {/* What ten applications actually cost, counted out beside the curves. */}
+      <div className="w-full shrink-0 lg:w-56">
+        <p className="text-xs font-semibold text-primary">{copy.why.mathTitle}</p>
+        <ul className="mt-3 space-y-2.5">
+          {copy.why.math.map((item, i) => {
+            const [a, b] = slot(i, copy.why.math.length, 0.4, START + 0.12)
+            const shown = ramp(progress, a, b)
+            return (
+              <li
+                key={item.bold}
+                style={{ opacity: shown, transform: `translateX(${(1 - shown) * -10}px)` }}
+                className="border-l-2 border-accent/40 pl-2.5 text-[11px] motion-reduce:!opacity-100 motion-reduce:!transform-none"
+              >
+                <span className="font-semibold text-primary">{item.bold}</span>
+                <span className="block text-muted-foreground">{item.rest}</span>
+              </li>
+            )
+          })}
+        </ul>
       </div>
-      <svg viewBox="0 0 520 200" className="w-full" role="img" aria-label={copy.why.chart.xLabel}>
-        <defs>
-          <linearGradient id="why-aipply-fill" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="hsl(var(--accent))" stopOpacity="0.22" />
-            <stop offset="100%" stopColor="hsl(var(--accent))" stopOpacity="0" />
-          </linearGradient>
-        </defs>
-        {[0, 1, 2, 3].map((i) => (
-          <line key={i} x1="40" x2="500" y1={26 + i * 44} y2={26 + i * 44} stroke="hsl(var(--border))" />
-        ))}
-        <path
-          d="M40 158 C 150 142, 260 92, 500 30"
-          fill="none"
-          stroke="hsl(var(--muted-foreground))"
-          strokeWidth="2"
-          strokeDasharray="1000"
-          className="animate-draw-line motion-reduce:animate-none"
-        />
-        <path
-          d="M40 158 C 160 152, 290 124, 500 78"
-          fill="none"
-          stroke="hsl(var(--primary))"
-          strokeWidth="2"
-          strokeOpacity="0.55"
-          strokeDasharray="1000"
-          style={{ animationDelay: '250ms' }}
-          className="animate-draw-line motion-reduce:animate-none"
-        />
-        <path d="M40 158 C 180 156, 320 152, 500 148 L500 162 L40 162 Z" fill="url(#why-aipply-fill)" />
-        <path
-          d="M40 158 C 180 156, 320 152, 500 148"
-          fill="none"
-          stroke="hsl(var(--accent))"
-          strokeWidth="2.5"
-          strokeDasharray="1000"
-          style={{ animationDelay: '500ms' }}
-          className="animate-draw-line motion-reduce:animate-none"
-        />
-        <text x="498" y="22" textAnchor="end" className="fill-muted-foreground" fontSize="10">
-          {copy.why.chart.lines[0].label}
-        </text>
-        <text x="498" y="70" textAnchor="end" className="fill-primary" fontSize="10" opacity="0.7">
-          {copy.why.chart.lines[1].label}
-        </text>
-        <text x="498" y="140" textAnchor="end" className="fill-accent" fontSize="10" fontWeight="600">
-          {copy.why.chart.lines[2].label}
-        </text>
-      </svg>
-      <div className="mt-3 grid gap-3 sm:grid-cols-3">
-        {copy.why.chart.lines.map((line) => (
-          <div key={line.key}>
-            <p className={cn('text-xs font-semibold', line.key === 'aipply' ? 'text-accent' : 'text-primary')}>
+
+      <div
+        style={{ opacity: frame, transform: `translateY(${(1 - frame) * 12}px)` }}
+        className="w-full rounded-2xl border bg-card p-4 shadow-sm motion-reduce:!opacity-100 motion-reduce:!transform-none sm:p-5"
+      >
+        <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-1">
+          {copy.why.chart.lines.map((line, i) => (
+            <span key={line.key} className="flex items-center gap-1.5 text-[10px] text-muted-foreground">
+              <span className="h-0.5 w-5 rounded-full" style={{ background: CURVES[i].stroke, opacity: CURVES[i].opacity }} />
               {line.label}
-            </p>
-            <p className="text-[11px] text-muted-foreground">{line.note}</p>
-          </div>
-        ))}
+            </span>
+          ))}
+        </div>
+
+        <svg viewBox="0 0 520 200" className="w-full" role="img" aria-label={copy.why.axisLabel}>
+          <text x="40" y="16" className="fill-muted-foreground" fontSize="9">
+            {copy.why.chart.yLabel}
+          </text>
+
+          {[0, 1, 2, 3].map((i) => (
+            <line
+              key={i}
+              x1="40"
+              x2="500"
+              y1={30 + i * 44}
+              y2={30 + i * 44}
+              stroke="hsl(var(--border))"
+              strokeOpacity={0.6 * frame}
+            />
+          ))}
+          <line x1="40" y1="30" x2="40" y2="180" stroke="hsl(var(--border))" strokeOpacity={frame} />
+          <line x1="40" y1="180" x2="500" y2="180" stroke="hsl(var(--border))" strokeOpacity={frame} />
+
+          {/* The fixed amount of work everything is measured against. */}
+          <line
+            x1="40"
+            y1={REF_Y}
+            x2="500"
+            y2={REF_Y}
+            stroke="hsl(var(--accent))"
+            strokeWidth="1"
+            strokeDasharray="4 4"
+            strokeOpacity={0.55 * frame}
+          />
+          <text x="44" y={REF_Y - 6} className="fill-accent" fontSize="9" opacity={0.85 * frame}>
+            {copy.why.chart.refLabel}
+          </text>
+
+          {CURVES.map((curve, i) => (
+            <path
+              key={i}
+              d={curve.d}
+              fill="none"
+              stroke={curve.stroke}
+              strokeWidth={curve.width}
+              strokeOpacity={curve.opacity}
+              strokeLinecap="round"
+              // pathLength normalises the curve to 1 so the same offset draws
+              // every path at the same rate, whatever its real length.
+              pathLength={1}
+              strokeDasharray={1}
+              strokeDashoffset={1 - draw}
+            />
+          ))}
+
+          {/* Where each curve buys its last school. */}
+          {CROSSINGS.map((cross, i) => {
+            const [a, b] = slot(i, CROSSINGS.length, 0.3, START + 0.44)
+            const pop = ramp(progress, a, b)
+            return (
+              <circle
+                key={cross.x}
+                cx={cross.x}
+                cy={REF_Y}
+                r={4.5 * pop}
+                fill={CURVES[i].stroke}
+                fillOpacity={CURVES[i].opacity}
+                stroke="hsl(var(--card))"
+                strokeWidth="1.5"
+              />
+            )
+          })}
+
+          <text x="500" y="196" textAnchor="end" className="fill-muted-foreground" fontSize="9" opacity={frame}>
+            {copy.why.chart.xLabel}
+          </text>
+        </svg>
+
+        {/* One note per curve, held back until its crossing has landed. */}
+        <div className="mt-3 grid gap-2 sm:grid-cols-3">
+          {copy.why.chart.lines.map((line, i) => {
+            const [a, b] = slot(i, copy.why.chart.lines.length, 0.3, START + 0.56)
+            const shown = ramp(progress, a, b)
+            return (
+              <div
+                key={line.key}
+                style={{ opacity: shown, transform: `translateY(${(1 - shown) * 8}px)` }}
+                className={cn(
+                  'rounded-lg border px-2.5 py-1.5 motion-reduce:!opacity-100 motion-reduce:!transform-none',
+                  line.key === 'aipply' ? 'border-accent/45 bg-accent/5' : 'bg-background',
+                )}
+              >
+                <p className={cn('text-[11px] font-semibold', line.key === 'aipply' ? 'text-accent' : 'text-primary')}>
+                  {line.label}
+                </p>
+                <p className="text-[10px] leading-snug text-muted-foreground">{line.note}</p>
+              </div>
+            )
+          })}
+        </div>
       </div>
     </div>
   )
@@ -424,18 +527,22 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
             style={{ opacity: stageOpacity }}
             className="absolute inset-0 flex flex-col items-center justify-center px-6 motion-reduce:!opacity-100"
           >
-            <div
-              style={{ transform: `translateY(${(1 - ramp(local, 0, START + 0.04)) * 18}px)` }}
-              className="text-center motion-reduce:!transform-none"
-            >
-              <h2 className="font-display text-3xl font-semibold text-primary sm:text-5xl">{current.title}</h2>
-              <p className="mt-2 font-display text-xl sm:text-3xl">
-                <span className="font-semibold text-primary">{current.lead} </span>
-                <span className="italic text-primary/55">{current.emphasis}</span>
-              </p>
-            </div>
-
+            {/* The payoff beat is the three lines and nothing else - a heading
+                above them would only say what they already say. */}
             {current.mode !== 'payoff' && (
+              <div
+                style={{ transform: `translateY(${(1 - ramp(local, 0, START + 0.04)) * 18}px)` }}
+                className="text-center motion-reduce:!transform-none"
+              >
+                <h2 className="font-display text-3xl font-semibold text-primary sm:text-5xl">{current.title}</h2>
+                <p className="mt-2 font-display text-xl sm:text-3xl">
+                  <span className="font-semibold text-primary">{current.lead} </span>
+                  <span className="italic text-primary/55">{current.emphasis}</span>
+                </p>
+              </div>
+            )}
+
+            {current.mode !== 'payoff' && current.mode !== 'chart' && (
               <p className="mb-5 mt-8 flex items-center gap-1.5 text-xs text-muted-foreground">
                 <RotateCcw className="h-3 w-3" />
                 {current.caption}
@@ -460,6 +567,8 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
                     )
                   })}
                 </div>
+              ) : current.mode === 'chart' ? (
+                <WorkloadChart copy={copy} progress={local} />
               ) : current.mode === 'routes' ? (
                 <RadialRoutes copy={copy} progress={local} />
               ) : current.mode === 'hub' ? (
@@ -526,36 +635,6 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
         </div>
       </div>
 
-      {/* The counting argument and the closer sit after the pinned run - no
-          negative offset, or they ride up over the sticky chapter. */}
-      <div className="relative mx-auto max-w-4xl px-6 py-24">
-        <Reveal>
-          <WorkloadChart copy={copy} />
-        </Reveal>
-        <Reveal delay={100}>
-          <div className="mt-12 rounded-2xl border bg-card p-6">
-            <p className="font-display text-xl text-primary">{copy.why.mathTitle}</p>
-            <ul className="mt-4 space-y-3">
-              {copy.why.math.map((item) => (
-                <li key={item.bold} className="text-sm">
-                  <span className="font-semibold text-primary">{item.bold}</span>
-                  <span className="text-muted-foreground"> {item.rest}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </Reveal>
-        <Reveal delay={200}>
-          <p className="mt-12 text-center font-display text-2xl sm:text-3xl">
-            {copy.why.closer.map((part) => (
-              <span key={part.strong}>
-                <span className="text-muted-foreground">{part.muted} </span>
-                <span className="font-semibold text-primary">{part.strong} </span>
-              </span>
-            ))}
-          </p>
-        </Reveal>
-      </div>
     </section>
   )
 }
