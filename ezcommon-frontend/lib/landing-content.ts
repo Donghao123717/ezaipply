@@ -96,8 +96,50 @@ export interface LandingCopy {
   }
 }
 
-/** Institution names only - no logos, so nothing here is a third party's mark. */
 const SCHOOL_CARDS = ['UGA', 'Brown', 'Rice', 'UCLA', 'Duke']
+
+/**
+ * Institution marks, keyed by every name the page uses for a school - the
+ * short card label and the full marquee name both resolve to the same file.
+ * The marks belong to the institutions; they appear here to identify them.
+ * Anything without an entry falls back to a monogram tile.
+ */
+export const SCHOOL_LOGOS: Record<string, string> = {
+  'Harvard University': '/logos/harvard.png',
+  'Yale University': '/logos/yale.png',
+  'Princeton University': '/logos/princeton.png',
+  'Columbia University': '/logos/columbia.png',
+  'University of Pennsylvania': '/logos/upenn.png',
+  'Cornell University': '/logos/cornell.png',
+  'Brown University': '/logos/brown.png',
+  Brown: '/logos/brown.png',
+  'Dartmouth College': '/logos/dartmouth.png',
+  'Stanford University': '/logos/stanford.png',
+  Stanford: '/logos/stanford.png',
+  MIT: '/logos/mit.png',
+  'University of Chicago': '/logos/uchicago.png',
+  Caltech: '/logos/caltech.png',
+  'Duke University': '/logos/duke.png',
+  Duke: '/logos/duke.png',
+  'Johns Hopkins': '/logos/jhu.png',
+  Northwestern: '/logos/northwestern.png',
+  'Rice University': '/logos/rice.png',
+  Rice: '/logos/rice.png',
+  Vanderbilt: '/logos/vanderbilt.png',
+  'Carnegie Mellon': '/logos/cmu.png',
+  'Notre Dame': '/logos/notredame.png',
+  'UC Berkeley': '/logos/berkeley.png',
+  UCLA: '/logos/ucla.png',
+  'UC San Diego': '/logos/ucsd.png',
+  'UC Santa Barbara': '/logos/ucsb.png',
+  'UC Irvine': '/logos/uci.png',
+  'UC Davis': '/logos/ucdavis.png',
+  'UC Santa Cruz': '/logos/ucsc.png',
+  'Williams College': '/logos/williams.png',
+  'Amherst College': '/logos/amherst.png',
+  'University of Georgia': '/logos/uga.png',
+  UGA: '/logos/uga.png',
+}
 
 const UNIVERSITIES = [
   'Harvard University', 'Yale University', 'Princeton University', 'Columbia University',

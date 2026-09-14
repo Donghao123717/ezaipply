@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 import { ArrowDown, Check, Loader2, PenLine, RotateCcw } from 'lucide-react'
 import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
+import { SchoolLogo } from '@/components/landing/school-logo'
 import { cn } from '@/lib/utils'
 
 /**
@@ -45,10 +46,7 @@ function SchoolCard({
       className="w-[128px] sm:w-[150px] lg:w-[172px] shrink-0 rounded-xl border bg-card p-3 shadow-[0_10px_30px_-18px_hsl(var(--primary)/0.45)] motion-reduce:!opacity-100 motion-reduce:!transform-none"
     >
       <div className="flex items-center gap-2">
-        {/* A monogram, not a crest: institution marks belong to the institutions. */}
-        <span className="flex h-6 w-6 items-center justify-center rounded bg-primary text-[10px] font-bold text-primary-foreground">
-          {name.slice(0, 1)}
-        </span>
+        <SchoolLogo name={name} className="h-6 w-6 shrink-0" />
         <div className="min-w-0">
           <p className="truncate text-xs font-semibold text-primary">{name}</p>
           <p className="text-[9px] text-muted-foreground">Application</p>
@@ -229,9 +227,7 @@ function RadialRoutes({ copy, progress }: { copy: LandingCopy; progress: number 
               arrived > 0.98 && 'animate-node-receive motion-reduce:animate-none',
             )}
           >
-            <span className="flex h-4 w-4 items-center justify-center rounded bg-primary text-[7px] font-bold text-primary-foreground">
-              {nodes[i]?.slice(0, 1)}
-            </span>
+            <SchoolLogo name={nodes[i] ?? ''} className="h-4 w-4 shrink-0" />
             {nodes[i]}
             <Check
               style={{ animationDelay: `${i * 0.18}s` }}

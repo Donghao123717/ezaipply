@@ -4,12 +4,12 @@ import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
 
 /**
- * Optional looping hero clip. Drop a file in public/ and point
- * NEXT_PUBLIC_HERO_VIDEO at it (e.g. /hero-loop.mp4) to switch the hero over
- * to footage. Left unset, nothing is requested at all - probing for a file
- * that is usually absent just buys a 404 in everyone's console.
+ * Looping hero clip, with the poster standing in until it has decoded. Set
+ * NEXT_PUBLIC_HERO_VIDEO to swap in different footage, or to '' to drop back
+ * to the gradient wash alone.
  */
-const HERO_VIDEO = process.env.NEXT_PUBLIC_HERO_VIDEO
+const HERO_VIDEO = process.env.NEXT_PUBLIC_HERO_VIDEO ?? '/hero-loop.mp4'
+const HERO_POSTER = '/hero-poster.jpg'
 
 export function Hero({ copy }: { copy: LandingCopy }) {
   const HERO = copy.hero
@@ -18,13 +18,20 @@ export function Hero({ copy }: { copy: LandingCopy }) {
       id="hero"
       className="relative flex min-h-[92vh] items-center overflow-hidden bg-primary text-primary-foreground"
     >
-      {/* Backdrop. With footage configured the clip takes over; without it the
-          drifting wash below stands in, so the hero is never a flat rectangle. */}
+      {/* Backdrop: the footage, with the gradient wash layered over it to keep
+          the drift alive in the corners the clip does not fill. */}
       <div aria-hidden className="absolute inset-0">
         {HERO_VIDEO && (
           <video
-            className="h-full w-full object-cover"
+            // React sets `muted` as a property but never as the HTML
+            // attribute, and Chrome's autoplay policy reads the attribute -
+            // so `defaultMuted` is what actually lets this start on its own.
+            ref={(el) => {
+              if (el) el.defaultMuted = true
+            }}
+            className="absolute inset-0 h-full w-full object-cover"
             src={HERO_VIDEO}
+            poster={HERO_POSTER}
             autoPlay
             loop
             muted

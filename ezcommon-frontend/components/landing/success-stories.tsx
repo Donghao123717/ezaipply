@@ -2,6 +2,7 @@
 import { Star } from 'lucide-react'
 import { LANDING_UNIVERSITIES, type LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
+import { SchoolLogo } from '@/components/landing/school-logo'
 
 export function SuccessStories({ copy }: { copy: LandingCopy }) {
   const STORIES = copy.stories
@@ -71,10 +72,7 @@ export function SuccessStories({ copy }: { copy: LandingCopy }) {
                   key={`${name}-${i}`}
                   className="flex items-center gap-2 whitespace-nowrap rounded-lg border bg-card px-3 py-2 shadow-sm"
                 >
-                  {/* Monogram tile, not a crest: institution marks are theirs. */}
-                  <span className="flex h-5 w-5 items-center justify-center rounded bg-primary/10 text-[9px] font-bold text-primary">
-                    {name.slice(0, 1)}
-                  </span>
+                  <SchoolLogo name={name} className="h-5 w-5 shrink-0" />
                   <span className="font-display text-xs text-primary">{name}</span>
                 </span>
               ))}
