@@ -301,7 +301,7 @@ export default function SettingsPage() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-4 gap-6">
+              <div className="grid md:grid-cols-3 gap-6">
                 <div className="space-y-2">
                   <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mb-2">
                     <Info className="h-5 w-5 text-primary" />
@@ -315,15 +315,6 @@ export default function SettingsPage() {
                   </div>
                   <p className="text-sm font-medium">Last Updated</p>
                   <p className="text-sm text-muted-foreground">Nov 7, 2025</p>
-                </div>
-                <div className="space-y-2">
-                  <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mb-2">
-                    <Mail className="h-5 w-5 text-primary" />
-                  </div>
-                  <p className="text-sm font-medium">Support</p>
-                  <a href="mailto:support@ezcommon.com" className="text-sm text-primary hover:underline">
-                    Contact Us
-                  </a>
                 </div>
                 <div className="space-y-2">
                   <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mb-2">

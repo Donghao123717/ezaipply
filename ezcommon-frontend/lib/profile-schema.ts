@@ -184,7 +184,7 @@ const CIRCUMSTANCES_OPTIONS = [
 ]
 const TIMING_OF_PARTICIPATION_OPTIONS = ['During school year', 'During school break', 'All year']
 
-// Personal Information / Family (EZCollegeApp-style, simplified)
+// Personal Information / Family, simplified
 const US_STATES_OPTIONS = [
   'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware',
   'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas',

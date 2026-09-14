@@ -16,10 +16,10 @@ class ChatbotService:
         self.model = os.environ.get("CHATBOT_MODEL", "gpt-4o-mini")
         
         # System prompt for the chatbot
-        self.system_prompt = """You are a helpful assistant for EZCommon, an AI-powered college application autofill system. 
+        self.system_prompt = """You are a helpful assistant for Aipply, an AI-powered college application autofill system. 
 
 Your role is to help students with:
-- Understanding how to use the EZCommon platform
+- Understanding how to use the Aipply platform
 - Answering questions about college applications
 - Providing guidance on filling out application forms
 - Explaining different sections like Education, Activities, Testing, and Profile

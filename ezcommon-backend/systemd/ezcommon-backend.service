@@ -1,5 +1,5 @@
 [Unit]
-Description=EZCommon Backend (uvicorn)
+Description=Aipply Backend (uvicorn)
 After=network.target
 
 [Service]

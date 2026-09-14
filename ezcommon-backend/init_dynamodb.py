@@ -79,7 +79,7 @@ def create_users_table(table_name: str = DYNAMODB_USERS_TABLE):
             Tags=[
                 {
                     'Key': 'Application',
-                    'Value': 'EZCommon'
+                    'Value': 'Aipply'
                 },
                 {
                     'Key': 'Environment',
@@ -126,7 +126,7 @@ def create_orgs_table(table_name: str = DYNAMODB_ORGS_TABLE):
             AttributeDefinitions=[{"AttributeName": "id", "AttributeType": "S"}],
             ProvisionedThroughput={"ReadCapacityUnits": 5, "WriteCapacityUnits": 5},
             Tags=[
-                {"Key": "Application", "Value": "EZCommon"},
+                {"Key": "Application", "Value": "Aipply"},
                 {"Key": "Environment", "Value": "Production"},
             ],
         )
@@ -195,7 +195,7 @@ def create_org_invitations_table(
             ],
             ProvisionedThroughput={"ReadCapacityUnits": 5, "WriteCapacityUnits": 5},
             Tags=[
-                {"Key": "Application", "Value": "EZCommon"},
+                {"Key": "Application", "Value": "Aipply"},
                 {"Key": "Environment", "Value": "Production"},
             ],
         )

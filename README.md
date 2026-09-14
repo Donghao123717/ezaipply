@@ -20,7 +20,7 @@ Aipply is a research project that investigates the application of large language
 
 The repository includes a comprehensive research paper documenting the methodology, findings, and implications of using LLMs for college applications:
 
-📄 **`EZCollegeApp__Large_Language_Models_for_College_Applications_submitted.pdf`**
+📄 **`Aipply__Large_Language_Models_for_College_Applications_submitted.pdf`**
 
 ## 🔬 Research Focus
 

@@ -1,5 +1,5 @@
 [Unit]
-Description=EZCommon Frontend (Next.js production)
+Description=Aipply Frontend (Next.js production)
 After=network.target
 
 [Service]
