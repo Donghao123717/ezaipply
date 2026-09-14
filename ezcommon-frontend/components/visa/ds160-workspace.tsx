@@ -9,6 +9,7 @@ import { FieldInput } from '@/components/profile/field-input'
 import { ProfilePullPage } from '@/components/application-form/profile-pull-page'
 import { prefillFromProfile, prefilledFields, clearPrefillMark } from '@/lib/ds160-prefill'
 import { SecurityReview, SECURITY_SECTION_KEYS } from '@/components/visa/security-review'
+import { VoiceFill, sectionAcceptsVoice } from '@/components/visa/voice-fill'
 import { RiskFlagsPanel } from '@/components/visa/risk-flags-panel'
 import { Ds160SuggestionsPanel } from '@/components/visa/ds160-suggestions-panel'
 import { Button } from '@/components/ui/button'
@@ -363,6 +364,23 @@ export function Ds160Workspace({ userId }: { userId: string }) {
           ) : activeSection && activeSection.def.kind === 'simple' ? (
             <div>
               <h2 className="text-xl font-semibold text-primary mb-6">{t(activeSection.labelKey)}</h2>
+
+              {/* Offered only where the profile cannot prefill and the answers
+                  are short facts - never on the security questions. */}
+              {mode === 'fill' && sectionAcceptsVoice(activeKey) && (
+                <VoiceFill
+                  fields={activeSection.def.groups.flatMap((g) => g.fields)}
+                  sectionLabel={t(activeSection.labelKey)}
+                  onApply={(values) => {
+                    const merged = {
+                      ...data,
+                      [activeKey]: { ...((data[activeKey] as SimpleData) || {}), ...values },
+                    }
+                    setData(merged)
+                    saveDS160Data(userId, merged)
+                  }}
+                />
+              )}
 
               {mode === 'fill' ? (
                 <div className="space-y-8">

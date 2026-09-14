@@ -94,3 +94,36 @@ class OpenAIProvider(LLMProvider):
 
         content = response.choices[0].message.content
         return {'content': content}
+
+    def transcribe_audio(
+        self,
+        audio_bytes: bytes,
+        filename: str = "voice-input.webm",
+        model: Optional[str] = None,
+    ) -> Dict[str, str]:
+        """Transcribe audio via the OpenAI transcription API.
+
+        `self.transcribe_model` was already configured (whisper-1 by default)
+        but nothing implemented the call, so every caller raised
+        AttributeError. Callers expect the same {'content': <str>} shape
+        chat_completion returns.
+
+        The model is left to detect the language rather than being pinned to
+        English - applicants dictate in their own language and the caller
+        translates afterwards.
+        """
+        if not self.client:
+            self.initialize()
+
+        import io
+
+        buffer = io.BytesIO(audio_bytes)
+        # The SDK infers the format from the filename, so it has to carry a
+        # real extension.
+        buffer.name = filename or "voice-input.webm"
+
+        response = self.client.audio.transcriptions.create(
+            model=model or self.transcribe_model,
+            file=buffer,
+        )
+        return {'content': (getattr(response, 'text', '') or '').strip()}

@@ -12,10 +12,11 @@ import os
 import re
 from typing import Any, Dict, List, Optional
 
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, File, Form, HTTPException, UploadFile, status
 from pydantic import BaseModel, Field
 
 from services.llm_providers import LLMProviderFactory
+from services.voice_service import VoiceService
 
 router = APIRouter()
 
@@ -40,6 +41,12 @@ try:
 except Exception as e:
     print(f"⚠ Warning: Visa API LLM provider initialization failed: {e}")
     llm_provider = None
+
+# VoiceService transcribes through an injected provider - constructing it without
+# one leaves every transcription raising "LLM provider not initialized".
+voice_service = VoiceService(llm_provider=llm_provider) if llm_provider else None
+if voice_service:
+    print("✓ Visa API: voice service initialized")
 
 
 def _extract_json(text: str) -> Optional[Any]:
@@ -626,6 +633,124 @@ async def visa_risk_214b(body: RiskFactorRequest):
             summary=str(parsed.get("summary", "")).strip(),
             missing=missing,
         )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
+
+class VoiceFieldSpec(BaseModel):
+    key: str
+    label: str
+    type: str = "text"
+    options: List[str] = Field(default_factory=list)
+
+
+class VoiceFillResponse(BaseModel):
+    transcript: str
+    values: Dict[str, str] = Field(default_factory=dict)
+    unanswered: List[str] = Field(default_factory=list)
+
+
+@router.post("/api/visa/voice-fill", response_model=VoiceFillResponse, tags=["Visa"])
+async def visa_voice_fill(
+    audio: UploadFile = File(..., description="Recorded answer"),
+    fields_json: str = Form(..., description="JSON array of the fields being asked about"),
+    section_label: str = Form("", description="Human name of the DS-160 page, for context"),
+):
+    """
+    Turn a spoken answer into DS-160 field values.
+
+    This exists for the handful of pages the profile cannot prefill - trip dates,
+    where you are staying, who is receiving you, prior visits. They are short
+    factual answers, and saying them out loud beats typing them into a dozen
+    boxes.
+
+    Deliberately not the existing /api/voice/transcribe: that one files a
+    transcript into the applicant's documents as a side effect, which is right
+    for an activity note and wrong for dictating a form field. Nothing here is
+    written anywhere - the values come back for the applicant to review, and
+    only what they accept reaches the form.
+    """
+    if not voice_service:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="Voice service not available")
+    if not llm_provider:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="LLM provider not available")
+
+    try:
+        specs = json.loads(fields_json)
+        if not isinstance(specs, list) or not specs:
+            raise ValueError("fields_json must be a non-empty array")
+    except Exception:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="fields_json is not a valid field list")
+
+    try:
+        audio_bytes = await audio.read()
+        transcript = voice_service.transcribe_audio(audio_bytes, audio.filename or "answer.webm")
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=f"Could not transcribe: {e}")
+
+    if not transcript.strip():
+        return VoiceFillResponse(transcript="", values={}, unanswered=[s.get("key", "") for s in specs])
+
+    field_lines = []
+    for s in specs:
+        line = f"- {s.get('key')}: {s.get('label')}"
+        if s.get("options"):
+            line += f" (must be exactly one of: {', '.join(s['options'])})"
+        elif s.get("type") == "date":
+            line += " (format YYYY-MM-DD)"
+        field_lines.append(line)
+
+    system_prompt = (
+        "You turn a spoken answer into values for a DS-160 form page"
+        + (f" ({section_label})" if section_label else "")
+        + ".\n\n"
+        "Rules:\n"
+        "- Only fill a field the applicant actually addressed. Leave everything else out and list its "
+        "key under 'unanswered'. Guessing here writes a wrong answer onto a sworn government form.\n"
+        "- The applicant may speak Chinese. The DS-160 is filled in English, so translate values into "
+        "English, but keep proper nouns as they would appear on their documents.\n"
+        "- For a field with a fixed option list, return exactly one of those options or leave it out.\n"
+        "- Dates as YYYY-MM-DD. If they said something relative like 'next August', resolve it only if "
+        "the year is unambiguous; otherwise leave it out.\n\n"
+        f"Fields on this page:\n" + "\n".join(field_lines) + "\n\n"
+        'Respond ONLY with JSON: {"values": {"fieldKey": "value"}, "unanswered": ["fieldKey"]}'
+    )
+
+    try:
+        raw = llm_provider.chat_completion(
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"The applicant said:\n{transcript}"},
+            ],
+            temperature=0.1,
+            max_tokens=800,
+        )
+        parsed = _extract_json(raw["content"]) or {}
+        allowed = {str(s.get("key")): s for s in specs}
+        values: Dict[str, str] = {}
+        for key, value in (parsed.get("values") or {}).items():
+            spec = allowed.get(str(key))
+            if not spec or value is None or str(value).strip() == "":
+                continue
+            text = str(value).strip()
+            options = spec.get("options") or []
+            # A value outside the option list would not select anything in the UI.
+            if options and text not in options:
+                continue
+            # A date whose year was never spoken has had its year invented. The
+            # model was told not to, and did anyway - "August 20th" came back as
+            # 2023-08-20. Guessing a year onto a sworn travel date is worse than
+            # leaving the field for them to type.
+            if spec.get("type") == "date":
+                year = text[:4]
+                if not (year.isdigit() and year in transcript):
+                    continue
+            values[str(key)] = text
+
+        unanswered = [k for k in allowed if k not in values]
+        return VoiceFillResponse(transcript=transcript, values=values, unanswered=unanswered)
     except HTTPException:
         raise
     except Exception as e:

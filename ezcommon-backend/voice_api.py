@@ -5,16 +5,34 @@ Handles voice recording uploads, transcription, and context checking.
 from fastapi import APIRouter, File, UploadFile, Form, HTTPException, status
 from typing import Optional
 import io
+import os
 from datetime import datetime
 
+from services.llm_providers import LLMProviderFactory
 from services.voice_service import VoiceService
 from s3_service import get_s3_service
 
 router = APIRouter()
 
-# Initialize voice service
+
+def _build_llm_config():
+    return {
+        'LLM_PROVIDER': os.environ.get('LLM_PROVIDER', 'openai'),
+        'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY'),
+        'OPENAI_MODEL': os.environ.get('OPENAI_MODEL', 'gpt-4o-mini'),
+        'OPENAI_VISION_MODEL': os.environ.get('OPENAI_VISION_MODEL', 'gpt-4o'),
+        'GEMINI_API_KEY': os.environ.get('GEMINI_API_KEY'),
+        'GEMINI_MODEL': os.environ.get('GEMINI_MODEL', 'gemini-2.0-flash'),
+        'AWS_REGION': os.environ.get('AWS_REGION', 'us-east-1'),
+        'BEDROCK_MODEL': os.environ.get('BEDROCK_MODEL', 'anthropic.claude-3-5-sonnet-20241022-v2:0'),
+    }
+
+
+# VoiceService transcribes through an injected provider. It was constructed
+# without one, so every call raised "LLM provider not initialized" - this
+# endpoint could never have transcribed anything.
 try:
-    voice_service = VoiceService()
+    voice_service = VoiceService(llm_provider=LLMProviderFactory.create(_build_llm_config()))
     print("✓ Voice service initialized")
 except Exception as e:
     print(f"⚠ Warning: Voice service initialization failed: {e}")

@@ -38,3 +38,14 @@ class BedrockProvider(LLMProvider):
             "BedrockProvider.chat_completion is not implemented. "
             "Set LLM_PROVIDER=openai to use the fully implemented provider."
         )
+
+    def transcribe_audio(self, audio_bytes: bytes, filename: str = "voice-input.webm", model=None):
+        """Not supported here.
+
+        Declared so callers get this message instead of an AttributeError -
+        VoiceService already treats NotImplementedError as a missing capability
+        rather than a failure.
+        """
+        raise NotImplementedError(
+            "Bedrock provider does not support audio transcription - set LLM_PROVIDER=openai for voice input."
+        )

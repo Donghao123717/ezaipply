@@ -1193,6 +1193,19 @@ export const dictionary = {
       },
     },
     ds160: {
+      voice: {
+        title: 'Say it instead of typing it',
+        hint: 'Speak your answers for this page - dates, places, names. English or Chinese.',
+        start: 'Record',
+        stop: 'Stop',
+        working: 'Working…',
+        listening: 'Listening - say your answers, then stop.',
+        caught: 'Caught {n} answers',
+        apply: 'Fill these in',
+        failed: 'Could not process that recording.',
+        micDenied: 'No microphone access.',
+        nothingCaught: "Nothing on this page matched what you said - try naming the fields, or type them in.",
+      },
       prefill: {
         note: "We filled {count} answers from your profile - check them before you confirm each page. Anything you change here wins over your profile.",
       },
@@ -2974,6 +2987,19 @@ export const dictionary = {
       },
     },
     ds160: {
+      voice: {
+        title: '说给它听，不用打字',
+        hint: '直接说出这一页的答案 —— 日期、地点、人名。中英文都行。',
+        start: '开始录音',
+        stop: '停止',
+        working: '处理中…',
+        listening: '正在听 —— 说完点停止。',
+        caught: '识别出 {n} 项',
+        apply: '填进表单',
+        failed: '这段录音没能处理。',
+        micDenied: '没有麦克风权限。',
+        nothingCaught: '这一页没有匹配到你说的内容 —— 可以点名字段再说一遍，或者直接打字。',
+      },
       prefill: {
         note: '我们从你的个人资料里填好了 {count} 项，确认每一页前请先核对。你在这里改过的内容会覆盖资料里的值。',
       },
