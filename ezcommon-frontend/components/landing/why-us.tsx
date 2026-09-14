@@ -21,6 +21,13 @@ const BEAT_VH = 140
 const START = 0.06
 const END = 0.85
 
+/**
+ * How much of a beat the hand-over occupies. Long enough that the two beats
+ * are visibly on screen together - which is the point - and short enough that
+ * the reader is not looking at a double exposure for most of the scroll.
+ */
+const OVERLAP = 0.16
+
 /** 0 outside [a,b], 1 past b, eased in between - linear reads as mechanical. */
 function ramp(value: number, a: number, b: number) {
   if (b <= a) return value >= b ? 1 : 0
@@ -41,6 +48,17 @@ function slot(index: number, count: number, hold = 0.45, from = START): [number,
   return [begin, begin + span * hold]
 }
 
+/** Beats that put the same row of application cards on the desk. */
+const CARD_MODES = ['single', 'manual', 'otherAi']
+
+/** How many cards the previous beat left standing, so this one can keep them. */
+function carriedInto(copy: LandingCopy, index: number): number {
+  const previous = copy.why.chapters[index - 1]
+  const current = copy.why.chapters[index]
+  if (!previous || !CARD_MODES.includes(previous.mode) || !CARD_MODES.includes(current.mode)) return 0
+  return previous.mode === 'single' ? 1 : copy.why.schools.length
+}
+
 /** A school's application card, drawn differently per beat. */
 function SchoolCard({
   name,
@@ -48,16 +66,23 @@ function SchoolCard({
   index,
   count,
   progress,
+  carried,
 }: {
   name: string
   mode: string
   index: number
   count: number
   progress: number
+  /** How many of these cards were already on screen in the previous beat. */
+  carried: number
 }) {
-  // Cards arrive one after another rather than all at once.
+  // Cards arrive one after another rather than all at once - but only the ones
+  // that were not already here. Three consecutive beats show the same row of
+  // applications and change only what is written on them; re-staggering the
+  // whole row each time makes them blink out and march back in, which reads as
+  // a new slide instead of the same desk being looked at again.
   const [cardIn, cardOut] = slot(index, count, 0.4)
-  const arrival = ramp(progress, cardIn, cardOut)
+  const arrival = index < carried ? 1 : ramp(progress, cardIn, cardOut)
   const rows = [0, 1, 2]
 
   return (
@@ -451,6 +476,132 @@ function WorkloadChart({ copy, progress }: { copy: LandingCopy; progress: number
   )
 }
 
+/**
+ * One beat of the run, drawn at its own opacity.
+ *
+ * Split out so two can be on screen at once. Fading one beat to zero and the
+ * next up from zero leaves a frame of empty stage between every beat, and a
+ * reader reads that blink as a slide change. Overlapping them dissolves one
+ * into the other instead, which is what makes a scrubbed run feel like one
+ * continuous thing rather than six separate screens.
+ *
+ * The incoming beat is handed a negative `local`, so everything scheduled
+ * inside it sits at its entry pose while it fades up and only starts moving
+ * once the beat is its turn.
+ */
+function BeatStage({
+  copy,
+  current,
+  local,
+  alpha,
+  carried,
+}: {
+  copy: LandingCopy
+  current: LandingCopy['why']['chapters'][number]
+  local: number
+  alpha: number
+  carried: number
+}) {
+  if (alpha <= 0.002) return null
+  return (
+    <div
+      aria-hidden={alpha < 0.5}
+      style={{ opacity: alpha }}
+      className="absolute inset-0 flex flex-col items-center justify-center px-6 motion-reduce:!opacity-100"
+    >
+          {/* The payoff beat is the three lines and nothing else - a heading
+              above them would only say what they already say. */}
+          {current.mode !== 'payoff' && (
+            <div
+              style={{ transform: `translateY(${(1 - ramp(local, 0, START + 0.04)) * 18}px)` }}
+              className="text-center motion-reduce:!transform-none"
+            >
+              <h2 className="font-display text-3xl font-semibold text-primary sm:text-5xl">{current.title}</h2>
+              <p className="mt-2 font-display text-xl sm:text-3xl">
+                <span className="font-semibold text-primary">{current.lead} </span>
+                <span className="italic text-primary/55">{current.emphasis}</span>
+              </p>
+            </div>
+          )}
+
+          {current.mode !== 'payoff' && current.mode !== 'chart' && (
+            <p className="mb-5 mt-8 flex items-center gap-1.5 text-xs text-muted-foreground">
+              <RotateCcw className="h-3 w-3" />
+              {current.caption}
+            </p>
+          )}
+
+          <div className="flex min-h-[300px] w-full max-w-5xl items-center justify-center">
+            {current.mode === 'payoff' ? (
+              <div className="space-y-1 text-center">
+                {copy.why.payoff.map((line, i) => {
+                  const [a, b] = slot(i, copy.why.payoff.length, 0.5)
+                  const shown = ramp(local, a, b)
+                  return (
+                    <p
+                      key={line.accent}
+                      style={{ opacity: shown, transform: `translateY(${(1 - shown) * 20}px)` }}
+                      className="font-display text-4xl font-semibold sm:text-6xl motion-reduce:!opacity-100 motion-reduce:!transform-none"
+                    >
+                      <span className="text-primary/70">{line.muted} </span>
+                      <span className="italic text-accent">{line.accent}</span>
+                    </p>
+                  )
+                })}
+              </div>
+            ) : current.mode === 'chart' ? (
+              <WorkloadChart copy={copy} progress={local} />
+            ) : current.mode === 'routes' ? (
+              <RadialRoutes copy={copy} progress={local} />
+            ) : current.mode === 'hub' ? (
+              <div className="flex flex-col items-center">
+                <ContextHub copy={copy} glow={ramp(local, START, START + 0.3)} />
+                <div className="mt-6 flex flex-wrap justify-center gap-1.5">
+                  {copy.why.contextPills.map((pill, i) => {
+                    // Held back until the hub itself has settled.
+                    const [a, b] = slot(i, copy.why.contextPills.length, 0.4, 0.3)
+                    const shown = ramp(local, a, b)
+                    return (
+                      <span
+                        key={pill}
+                        style={{ opacity: shown, transform: `translateY(${(1 - shown) * 10}px)` }}
+                        className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-[11px] text-primary motion-reduce:!opacity-100 motion-reduce:!transform-none"
+                      >
+                        {pill}
+                      </span>
+                    )
+                  })}
+                </div>
+              </div>
+            ) : (
+              <div className="flex w-full items-center justify-center gap-2 sm:gap-3">
+                {/* Spacing is the same in every card beat on purpose. Three
+                    consecutive beats dissolve into one another here, and two
+                    layers only dissolve cleanly if what is being dissolved sits
+                    in the same place in both - re-spacing the row for one beat
+                    turned the hand-over into a double image. What changes
+                    between these beats is what is written on the cards, which
+                    is the argument anyway. */}
+                {(current.mode === 'single' ? copy.why.schools.slice(0, 1) : copy.why.schools).map(
+                  (school, i, list) => (
+                    <SchoolCard
+                      key={school}
+                      name={school}
+                      mode={current.mode}
+                      index={i}
+                      count={list.length}
+                      progress={local}
+                      carried={carried}
+                    />
+                  ),
+                )}
+              </div>
+            )}
+          </div>
+    </div>
+  )
+}
+
 export function WhyUs({ copy }: { copy: LandingCopy }) {
   const runwayRef = useRef<HTMLDivElement>(null)
   // `beat` is which chapter is on screen; `local` is how far through it we are.
@@ -490,10 +641,13 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
   // the boundary where its progress resets, so the swap is never seen. The
   // last beat does not fade out - the runway simply ends and it scrolls away.
   const isLast = index === total - 1
-  const stageOpacity = Math.min(
-    ramp(local, 0, START),
-    isLast ? 1 : 1 - ramp(local, END + 0.07, 1),
-  )
+  const nextChapter = isLast ? null : copy.why.chapters[index + 1]
+  // The dissolve: over the last OVERLAP of a beat the outgoing one falls away
+  // while the incoming one rises, both on screen together. The first beat
+  // still fades up from nothing, because there is nothing behind it.
+  const handover = ramp(local, 1 - OVERLAP, 1)
+  const currentAlpha = Math.min(index === 0 ? ramp(local, 0, START) : 1, isLast ? 1 : 1 - handover)
+  const nextAlpha = nextChapter ? handover : 0
 
   return (
     <section id="why" className="relative bg-background">
@@ -523,110 +677,38 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
             </span>
           </div>
 
-          <div
-            style={{ opacity: stageOpacity }}
-            className="absolute inset-0 flex flex-col items-center justify-center px-6 motion-reduce:!opacity-100"
-          >
-            {/* The payoff beat is the three lines and nothing else - a heading
-                above them would only say what they already say. */}
-            {current.mode !== 'payoff' && (
-              <div
-                style={{ transform: `translateY(${(1 - ramp(local, 0, START + 0.04)) * 18}px)` }}
-                className="text-center motion-reduce:!transform-none"
-              >
-                <h2 className="font-display text-3xl font-semibold text-primary sm:text-5xl">{current.title}</h2>
-                <p className="mt-2 font-display text-xl sm:text-3xl">
-                  <span className="font-semibold text-primary">{current.lead} </span>
-                  <span className="italic text-primary/55">{current.emphasis}</span>
-                </p>
-              </div>
-            )}
+          {/* The outgoing beat stays on screen while the next fades up over
+              it, so a hand-over is a dissolve rather than a cut. */}
+          <BeatStage
+            copy={copy}
+            current={current}
+            local={local}
+            alpha={currentAlpha}
+            carried={carriedInto(copy, index)}
+          />
+          {nextChapter && (
+            <BeatStage
+              copy={copy}
+              current={nextChapter}
+              local={local - 1}
+              alpha={nextAlpha}
+              carried={carriedInto(copy, index + 1)}
+            />
+          )}
 
-            {current.mode !== 'payoff' && current.mode !== 'chart' && (
-              <p className="mb-5 mt-8 flex items-center gap-1.5 text-xs text-muted-foreground">
-                <RotateCcw className="h-3 w-3" />
-                {current.caption}
-              </p>
-            )}
-
-            <div className="flex min-h-[300px] w-full max-w-5xl items-center justify-center">
-              {current.mode === 'payoff' ? (
-                <div className="space-y-1 text-center">
-                  {copy.why.payoff.map((line, i) => {
-                    const [a, b] = slot(i, copy.why.payoff.length, 0.5)
-                    const shown = ramp(local, a, b)
-                    return (
-                      <p
-                        key={line.accent}
-                        style={{ opacity: shown, transform: `translateY(${(1 - shown) * 20}px)` }}
-                        className="font-display text-4xl font-semibold sm:text-6xl motion-reduce:!opacity-100 motion-reduce:!transform-none"
-                      >
-                        <span className="text-primary/70">{line.muted} </span>
-                        <span className="italic text-accent">{line.accent}</span>
-                      </p>
-                    )
-                  })}
-                </div>
-              ) : current.mode === 'chart' ? (
-                <WorkloadChart copy={copy} progress={local} />
-              ) : current.mode === 'routes' ? (
-                <RadialRoutes copy={copy} progress={local} />
-              ) : current.mode === 'hub' ? (
-                <div className="flex flex-col items-center">
-                  <ContextHub copy={copy} glow={ramp(local, START, START + 0.3)} />
-                  <div className="mt-6 flex flex-wrap justify-center gap-1.5">
-                    {copy.why.contextPills.map((pill, i) => {
-                      // Held back until the hub itself has settled.
-                      const [a, b] = slot(i, copy.why.contextPills.length, 0.4, 0.3)
-                      const shown = ramp(local, a, b)
-                      return (
-                        <span
-                          key={pill}
-                          style={{ opacity: shown, transform: `translateY(${(1 - shown) * 10}px)` }}
-                          className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-[11px] text-primary motion-reduce:!opacity-100 motion-reduce:!transform-none"
-                        >
-                          {pill}
-                        </span>
-                      )
-                    })}
-                  </div>
-                </div>
-              ) : (
-                <div
-                  className={cn(
-                    'flex w-full items-center justify-center',
-                    // The "other AI" beat crowds the cards together: same work,
-                    // stacked up, rather than laid out side by side.
-                    current.mode === 'otherAi' ? 'gap-0 -space-x-6' : 'gap-2 sm:gap-3',
-                  )}
-                >
-                  {(current.mode === 'single' ? copy.why.schools.slice(0, 1) : copy.why.schools).map(
-                    (school, i, list) => (
-                      <SchoolCard
-                        key={school}
-                        name={school}
-                        mode={current.mode}
-                        index={i}
-                        count={list.length}
-                        progress={local}
-                      />
-                    ),
-                  )}
-                </div>
-              )}
-            </div>
-
-            {/* Beat meter: a segment per chapter, the current one filling as you go. */}
-            <div className="mt-10 flex items-center gap-1.5">
-              {copy.why.chapters.map((chapter, i) => (
-                <span key={chapter.mode} className="h-0.5 w-8 overflow-hidden rounded-full bg-muted-foreground/20">
-                  <span
-                    style={{ width: `${i < index ? 100 : i === index ? local * 100 : 0}%` }}
-                    className="block h-full rounded-full bg-accent"
-                  />
-                </span>
-              ))}
-            </div>
+          {/* The meter belongs to the run, not to a beat, so it never fades. */}
+          <div className="pointer-events-none absolute inset-x-0 bottom-10 flex justify-center px-6">
+          {/* Beat meter: a segment per chapter, the current one filling as you go. */}
+          <div className="mt-10 flex items-center gap-1.5">
+            {copy.why.chapters.map((chapter, i) => (
+              <span key={chapter.mode} className="h-0.5 w-8 overflow-hidden rounded-full bg-muted-foreground/20">
+                <span
+                  style={{ width: `${i < index ? 100 : i === index ? local * 100 : 0}%` }}
+                  className="block h-full rounded-full bg-accent"
+                />
+              </span>
+            ))}
+          </div>
           </div>
 
           <p className="absolute right-6 top-8 text-[10px] uppercase tracking-[0.2em] text-muted-foreground/50">
