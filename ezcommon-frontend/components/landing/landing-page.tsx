@@ -14,24 +14,26 @@ import { cn } from '@/lib/utils'
 /** Dotted section index down the right edge, tracking whatever is on screen. */
 function SectionNav({ active, sections }: { active: string; sections: LandingCopy['sections'] }) {
   return (
-    /* Only from 2xl up: below that the centred 6xl content leaves too little
-       gutter and the index lands on top of the cards. */
+    /* From lg up. Below that the centred content leaves too little gutter and
+       the index would land on top of the cards. */
     <nav
       aria-label="Sections"
-      className="hidden 2xl:flex fixed right-8 top-1/2 -translate-y-1/2 z-30 flex-col gap-3"
+      className="fixed right-5 top-1/2 z-30 hidden -translate-y-1/2 flex-col gap-4 lg:flex xl:right-8"
     >
+      {/* Hairline spine the dots sit on, so the index reads as one track. */}
+      <span aria-hidden className="absolute right-[3px] top-2 bottom-2 w-px bg-muted-foreground/20" />
       {sections.map((section) => {
         const isActive = section.id === active
         return (
           <a
             key={section.id}
             href={`#${section.id}`}
-            className="group flex items-center justify-end gap-3"
+            className="group relative flex items-center justify-end gap-3"
           >
             <span
               className={cn(
-                'text-[10px] tabular-nums transition-colors',
-                isActive ? 'text-accent' : 'text-muted-foreground/50 group-hover:text-muted-foreground',
+                'font-display text-[11px] italic tabular-nums transition-colors',
+                isActive ? 'text-accent' : 'text-muted-foreground/45 group-hover:text-muted-foreground',
               )}
             >
               {section.num}
@@ -39,15 +41,17 @@ function SectionNav({ active, sections }: { active: string; sections: LandingCop
             <span
               className={cn(
                 'text-[11px] transition-colors',
-                isActive ? 'text-primary font-medium' : 'text-muted-foreground/50 group-hover:text-muted-foreground',
+                isActive ? 'font-medium text-primary' : 'text-muted-foreground/50 group-hover:text-muted-foreground',
               )}
             >
               {section.label}
             </span>
             <span
               className={cn(
-                'h-1.5 w-1.5 rounded-full transition-all',
-                isActive ? 'bg-accent scale-150' : 'bg-muted-foreground/30',
+                'h-[7px] w-[7px] rounded-full border transition-all',
+                isActive
+                  ? 'border-accent bg-accent shadow-[0_0_0_3px_hsl(var(--accent)/0.2)]'
+                  : 'border-muted-foreground/40 bg-background',
               )}
             />
           </a>

@@ -1,37 +1,48 @@
 "use client"
 import { useEffect, useRef, useState } from 'react'
-import { Check, Loader2, RotateCcw } from 'lucide-react'
+import { ArrowDown, Check, Loader2, PenLine, RotateCcw } from 'lucide-react'
 import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
 import { cn } from '@/lib/utils'
 
 /**
- * A school's application, drawn the way each chapter needs it: rebuilt from
- * nothing (manual), spinning up a fresh AI session, or carried over from
- * context that already exists.
+ * The scale story: one long pinned run that scrubs through six beats as the
+ * reader scrolls. Each beat gets roughly 1.75 screens of scroll, which is what
+ * makes the motion read as a narrative being played rather than a set of
+ * slides being swapped - the same beat length the reference page uses.
  */
+const BEAT_VH = 175
+
+/** 0 outside [a,b], 1 past b, linear in between. */
+function ramp(value: number, a: number, b: number) {
+  if (b <= a) return value >= b ? 1 : 0
+  return Math.min(Math.max((value - a) / (b - a), 0), 1)
+}
+
+/** A school's application card, drawn differently per beat. */
 function SchoolCard({
   name,
   mode,
   index,
-  active,
+  progress,
 }: {
   name: string
   mode: string
   index: number
-  active: boolean
+  progress: number
 }) {
+  // Cards arrive one after another rather than all at once.
+  const arrival = ramp(progress, index * 0.1, index * 0.1 + 0.35)
   const rows = [0, 1, 2]
+
   return (
     <div
       style={{
-        transitionDelay: `${index * 90}ms`,
-        transform: active ? `translateY(${index % 2 === 0 ? 8 : -8}px)` : 'translateY(24px)',
+        opacity: arrival,
+        transform: `translateY(${(1 - arrival) * 26 + (index % 2 === 0 ? 6 : -6)}px) scale(${0.94 + arrival * 0.06})`,
+        zIndex: 10 - index,
       }}
-      className={cn(
-        'w-[116px] sm:w-[140px] lg:w-[168px] shrink-0 rounded-xl border bg-card p-2.5 sm:p-3 shadow-sm transition-all duration-500 ease-out motion-reduce:transition-none',
-        active ? 'opacity-100' : 'opacity-0',
-      )}
+      className="w-[128px] sm:w-[150px] lg:w-[172px] shrink-0 rounded-xl border bg-card p-3 shadow-[0_10px_30px_-18px_hsl(var(--primary)/0.45)] motion-reduce:!opacity-100 motion-reduce:!transform-none"
     >
       <div className="flex items-center gap-2">
         {/* A monogram, not a crest: institution marks belong to the institutions. */}
@@ -39,25 +50,28 @@ function SchoolCard({
           {name.slice(0, 1)}
         </span>
         <div className="min-w-0">
-          <p className="text-xs font-semibold text-primary truncate">{name}</p>
+          <p className="truncate text-xs font-semibold text-primary">{name}</p>
           <p className="text-[9px] text-muted-foreground">Application</p>
         </div>
       </div>
 
-      <div className="mt-2.5 space-y-1.5">
-        {mode === 'otherAi' && active ? (
-          <div className="flex flex-col items-center justify-center py-4 gap-1.5">
-            <Loader2 className="h-4 w-4 text-primary/50 animate-spin motion-reduce:animate-none" />
+      <div className="mt-3 space-y-2">
+        {mode === 'otherAi' ? (
+          <div className="flex flex-col items-center justify-center gap-1.5 py-4">
+            <Loader2 className="h-4 w-4 animate-spin text-primary/45 motion-reduce:animate-none" />
             <span className="text-[9px] text-muted-foreground">new session</span>
           </div>
         ) : (
           rows.map((row) => {
-            const filled = mode === 'aipply' || (active && row <= index % 3)
+            // Each row is filled in turn, and the pen sits on the row being written.
+            const rowStart = index * 0.1 + 0.18 + row * 0.16
+            const filled = progress > rowStart + 0.14
+            const writing = progress > rowStart && !filled
             return (
-              <div key={row} className="flex items-center gap-1.5">
+              <div key={row} className="relative flex items-center gap-1.5">
                 <span
                   className={cn(
-                    'flex h-3 w-3 shrink-0 items-center justify-center rounded-[3px] border transition-colors duration-500',
+                    'flex h-3 w-3 shrink-0 items-center justify-center rounded-[3px] border transition-colors duration-300',
                     filled ? 'border-primary bg-primary' : 'border-muted-foreground/30',
                   )}
                 >
@@ -65,17 +79,23 @@ function SchoolCard({
                 </span>
                 <span
                   className={cn(
-                    'h-1.5 flex-1 rounded-full transition-colors duration-500',
+                    'h-1.5 flex-1 rounded-full transition-colors duration-300',
                     filled ? 'bg-accent/40' : 'bg-muted',
                   )}
                 />
+                {writing && (
+                  <PenLine
+                    aria-hidden
+                    className="absolute left-6 h-3 w-3 -translate-y-0.5 text-accent"
+                  />
+                )}
               </div>
             )
           })
         )}
       </div>
 
-      {mode === 'manual' && active && (
+      {mode === 'manual' && (
         <p className="mt-2 flex items-center gap-1 text-[9px] text-muted-foreground">
           <RotateCcw className="h-2.5 w-2.5" />
           from zero
@@ -85,10 +105,154 @@ function SchoolCard({
   )
 }
 
+/** The centre of the radial beats: one context card inside a breathing ring. */
+function ContextHub({ copy, glow }: { copy: LandingCopy; glow: number }) {
+  const tints = [
+    'bg-amber-50 text-amber-900 border-amber-200',
+    'bg-emerald-50 text-emerald-900 border-emerald-200',
+    'bg-sky-50 text-sky-900 border-sky-200',
+    'bg-violet-50 text-violet-900 border-violet-200',
+  ]
+  return (
+    <div className="relative flex h-[230px] w-[230px] items-center justify-center">
+      <span
+        aria-hidden
+        style={{ opacity: glow }}
+        className="absolute inset-0 rounded-full bg-accent/10 blur-2xl"
+      />
+      <span
+        aria-hidden
+        style={{ opacity: glow }}
+        className="absolute inset-2 animate-core-breathe rounded-full border border-accent/30 motion-reduce:animate-none"
+      />
+      <span
+        aria-hidden
+        style={{ opacity: glow * 0.8 }}
+        className="absolute inset-0 animate-core-spin rounded-full border border-dashed border-accent/25 motion-reduce:animate-none"
+      />
+      <div className="relative w-[150px] rounded-xl border bg-card p-2.5 shadow-[0_16px_40px_-24px_hsl(var(--primary)/0.5)]">
+        <p className="mb-2 text-[7px] font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+          {copy.why.hubLabel}
+        </p>
+        <div className="grid grid-cols-2 gap-1.5">
+          {copy.why.contextPills.map((pill, i) => (
+            <span
+              key={pill}
+              className={cn(
+                'rounded-md border px-1.5 py-2 text-center text-[8px] font-medium leading-tight',
+                tints[i % tints.length],
+              )}
+            >
+              {pill}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+/**
+ * Dashed routes fanning out from the hub to six school nodes, drawn as the
+ * reader scrolls, with packets running along them once a route is complete.
+ */
+function RadialRoutes({ copy, progress }: { copy: LandingCopy; progress: number }) {
+  const nodes = copy.why.reusedSchools.slice(0, 6)
+  const cx = 500
+  const cy = 250
+  const radii = { x: 400, y: 190 }
+  // Two arcs of three, above and below the hub, mirroring the reference layout.
+  const angles = [-145, -90, -35, 145, 90, 35]
+
+  return (
+    <div className="relative w-full max-w-4xl">
+      <svg viewBox="0 0 1000 500" className="w-full" aria-hidden>
+        <defs>
+          <linearGradient id="why-route" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stopColor="hsl(var(--accent))" stopOpacity="0.15" />
+            <stop offset="100%" stopColor="hsl(var(--accent))" stopOpacity="0.75" />
+          </linearGradient>
+        </defs>
+        {angles.map((angle, i) => {
+          const rad = (angle * Math.PI) / 180
+          const x = cx + Math.cos(rad) * radii.x
+          const y = cy + Math.sin(rad) * radii.y
+          // Bow each route outward so they read as distinct paths, not spokes.
+          const mx = cx + Math.cos(rad) * radii.x * 0.55
+          const my = cy + Math.sin(rad) * radii.y * 0.8
+          const d = `M ${cx} ${cy} Q ${mx} ${my} ${x} ${y}`
+          const draw = ramp(progress, 0.08 + i * 0.07, 0.4 + i * 0.07)
+          const done = draw >= 1
+          return done ? (
+            // Complete: switch to the dashed pattern and let it flow outward.
+            <path
+              key={angle}
+              d={d}
+              fill="none"
+              stroke="url(#why-route)"
+              strokeWidth="1.6"
+              strokeDasharray="6 6"
+              className="animate-route-flow motion-reduce:animate-none"
+            />
+          ) : (
+            // Drawing: pathLength 1 makes the dash array a plain 0-1 fraction,
+            // so `draw` reveals exactly that much of the route.
+            <path
+              key={angle}
+              d={d}
+              fill="none"
+              stroke="url(#why-route)"
+              strokeWidth="1.6"
+              pathLength={1}
+              strokeDasharray={`${draw} 1`}
+            />
+          )
+        })}
+      </svg>
+
+      {angles.map((angle, i) => {
+        const rad = (angle * Math.PI) / 180
+        const leftPct = ((cx + Math.cos(rad) * radii.x) / 1000) * 100
+        const topPct = ((cy + Math.sin(rad) * radii.y) / 500) * 100
+        const arrived = ramp(progress, 0.36 + i * 0.07, 0.46 + i * 0.07)
+        return (
+          <span
+            key={angle}
+            style={{
+              left: `${leftPct}%`,
+              top: `${topPct}%`,
+              opacity: arrived,
+              animationDelay: `${i * 0.18}s`,
+            }}
+            className={cn(
+              '-translate-x-1/2 -translate-y-1/2 absolute inline-flex items-center gap-1.5 rounded-lg border bg-card px-2.5 py-1.5 text-[10px] font-medium text-primary shadow-sm',
+              arrived > 0.98 && 'animate-node-receive motion-reduce:animate-none',
+            )}
+          >
+            <span className="flex h-4 w-4 items-center justify-center rounded bg-primary text-[7px] font-bold text-primary-foreground">
+              {nodes[i]?.slice(0, 1)}
+            </span>
+            {nodes[i]}
+            <Check
+              style={{ animationDelay: `${i * 0.18}s` }}
+              className="h-2.5 w-2.5 animate-check-receive text-emerald-500 motion-reduce:animate-none"
+            />
+          </span>
+        )
+      })}
+
+      {/* The hub sits on top of the route origins. */}
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+        <ContextHub copy={copy} glow={1} />
+      </div>
+    </div>
+  )
+}
+
 function WorkloadChart({ copy }: { copy: LandingCopy }) {
   return (
     <div className="w-full max-w-2xl">
-      <div className="flex items-start justify-between gap-4 mb-2">
+      <div className="mb-2 flex items-start justify-between gap-4">
         <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
           {copy.why.chart.yLabel}
         </p>
@@ -144,7 +308,7 @@ function WorkloadChart({ copy }: { copy: LandingCopy }) {
           {copy.why.chart.lines[2].label}
         </text>
       </svg>
-      <div className="grid sm:grid-cols-3 gap-3 mt-3">
+      <div className="mt-3 grid gap-3 sm:grid-cols-3">
         {copy.why.chart.lines.map((line) => (
           <div key={line.key}>
             <p className={cn('text-xs font-semibold', line.key === 'aipply' ? 'text-accent' : 'text-primary')}>
@@ -159,12 +323,14 @@ function WorkloadChart({ copy }: { copy: LandingCopy }) {
 }
 
 export function WhyUs({ copy }: { copy: LandingCopy }) {
-  const sectionRef = useRef<HTMLDivElement>(null)
-  const [chapter, setChapter] = useState(0)
+  const runwayRef = useRef<HTMLDivElement>(null)
+  // `beat` is which chapter is on screen; `local` is how far through it we are.
+  const [beat, setBeat] = useState(0)
+  const [local, setLocal] = useState(0)
   const total = copy.why.chapters.length
 
   useEffect(() => {
-    const node = sectionRef.current
+    const node = runwayRef.current
     if (!node) return
 
     let frame = 0
@@ -174,9 +340,10 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
         const rect = node!.getBoundingClientRect()
         const scrollable = rect.height - window.innerHeight
         if (scrollable <= 0) return
-        // 0 while the top is at the viewport top, 1 once the section is scrolled through.
-        const progress = Math.min(Math.max(-rect.top / scrollable, 0), 0.999)
-        setChapter(Math.floor(progress * total))
+        const progress = Math.min(Math.max(-rect.top / scrollable, 0), 0.9999)
+        const scaled = progress * total
+        setBeat(Math.floor(scaled))
+        setLocal(scaled % 1)
       })
     }
 
@@ -188,108 +355,148 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
     }
   }, [total])
 
-  const current = copy.why.chapters[Math.min(chapter, total - 1)]
+  const index = Math.min(beat, total - 1)
+  const current = copy.why.chapters[index]
+  // The heading fades back out near the end of its beat so the next one can
+  // fade in over it, instead of snapping between two titles.
+  const headingOpacity = 1 - ramp(local, 0.86, 1)
 
   return (
     <section id="why" className="relative bg-background">
       {/* The runway is its own box: the sticky chapter only occupies 100vh of
           flow, so anything sharing this box would ride up underneath it. */}
-      <div ref={sectionRef} style={{ height: `${total * 100}vh` }}>
-      {/* Graph-paper ground, so the cards read as work being laid out on a page. */}
-      <div
-        aria-hidden
-        className="sticky top-0 h-screen w-full overflow-hidden"
-        style={{
-          backgroundImage:
-            'linear-gradient(hsl(var(--border)/0.35) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--border)/0.35) 1px, transparent 1px)',
-          backgroundSize: '56px 56px',
-        }}
-      >
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-6">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-accent mb-6">
+      <div ref={runwayRef} style={{ height: `${total * BEAT_VH}vh` }}>
+        {/* Graph-paper ground, so the cards read as work being laid out on a page. */}
+        <div
+          className="sticky top-0 h-screen w-full overflow-hidden"
+          style={{
+            backgroundImage:
+              'linear-gradient(hsl(var(--border)/0.35) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--border)/0.35) 1px, transparent 1px)',
+            backgroundSize: '56px 56px',
+          }}
+        >
+          <p className="absolute left-6 top-8 text-[10px] font-semibold uppercase tracking-[0.18em] text-accent">
             {copy.why.eyebrow}
           </p>
 
-          <div key={current.title} className="text-center animate-rise-in motion-reduce:animate-none">
-            <h2 className="font-display text-3xl sm:text-5xl font-semibold text-primary">{current.title}</h2>
-            <p className="font-display text-xl sm:text-3xl mt-2">
-              <span className="text-primary font-semibold">{current.lead} </span>
-              <span className="italic text-primary/55">{current.emphasis}</span>
-            </p>
+          {/* Scroll rail: an arrow that falls and resets, beside a vertical label. */}
+          <div className="absolute left-5 top-1/2 hidden -translate-y-1/2 flex-col items-center gap-3 sm:flex">
+            <span className="relative block h-10 w-4">
+              <ArrowDown className="absolute left-1/2 h-3.5 w-3.5 animate-scroll-arrow text-accent motion-reduce:animate-none" />
+            </span>
+            <span className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground/60 [writing-mode:vertical-rl]">
+              {copy.why.scrollLabel}
+            </span>
           </div>
 
-          <p className="mt-8 mb-5 text-xs text-muted-foreground flex items-center gap-1.5">
-            <RotateCcw className="h-3 w-3" />
-            {current.caption}
-          </p>
+          <div className="absolute inset-0 flex flex-col items-center justify-center px-6">
+            <div
+              key={`${current.title}-${current.lead}`}
+              style={{ opacity: headingOpacity }}
+              className="animate-rise-in text-center motion-reduce:animate-none"
+            >
+              <h2 className="font-display text-3xl font-semibold text-primary sm:text-5xl">{current.title}</h2>
+              <p className="mt-2 font-display text-xl sm:text-3xl">
+                <span className="font-semibold text-primary">{current.lead} </span>
+                <span className="italic text-primary/55">{current.emphasis}</span>
+              </p>
+            </div>
 
-          <div className="w-full max-w-4xl flex items-center justify-center min-h-[230px]">
-            {current.mode === 'chart' ? (
-              <WorkloadChart copy={copy} />
-            ) : current.mode === 'aipply' ? (
-              <div className="w-full max-w-3xl">
-                <div className="flex flex-wrap justify-center gap-1.5 mb-5">
-                  {copy.why.contextPills.map((pill) => (
-                    <span
-                      key={pill}
-                      className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-[11px] text-primary animate-rise-in motion-reduce:animate-none"
-                    >
-                      {pill}
-                    </span>
-                  ))}
-                </div>
-                <div className="flex flex-wrap justify-center gap-2">
-                  {copy.why.reusedSchools.map((school, i) => (
-                    <span
-                      key={school}
-                      style={{ animationDelay: `${i * 100}ms` }}
-                      className="inline-flex items-center gap-1.5 rounded-lg border bg-card px-3 py-1.5 text-xs text-primary animate-rise-in motion-reduce:animate-none"
-                    >
-                      <Check className="h-3 w-3 text-emerald-500" />
-                      {school}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ) : (
-              <div className="flex items-center justify-center gap-2 sm:gap-3 flex-nowrap w-full">
-                {copy.why.schools.map((school, i) => (
-                  <SchoolCard
-                    key={school}
-                    name={school}
-                    mode={current.mode}
-                    index={i}
-                    active={current.mode !== 'single' || i === 0}
-                  />
-                ))}
-              </div>
+            {current.mode !== 'payoff' && (
+              <p className="mb-5 mt-8 flex items-center gap-1.5 text-xs text-muted-foreground">
+                <RotateCcw className="h-3 w-3" />
+                {current.caption}
+              </p>
             )}
+
+            <div className="flex min-h-[300px] w-full max-w-5xl items-center justify-center">
+              {current.mode === 'payoff' ? (
+                <div className="space-y-1 text-center">
+                  {copy.why.payoff.map((line, i) => {
+                    const shown = ramp(local, i * 0.14, i * 0.14 + 0.3)
+                    return (
+                      <p
+                        key={line.accent}
+                        style={{ opacity: shown, transform: `translateY(${(1 - shown) * 20}px)` }}
+                        className="font-display text-4xl font-semibold sm:text-6xl motion-reduce:!opacity-100 motion-reduce:!transform-none"
+                      >
+                        <span className="text-primary/70">{line.muted} </span>
+                        <span className="italic text-accent">{line.accent}</span>
+                      </p>
+                    )
+                  })}
+                </div>
+              ) : current.mode === 'routes' ? (
+                <RadialRoutes copy={copy} progress={local} />
+              ) : current.mode === 'hub' ? (
+                <div className="flex flex-col items-center">
+                  <ContextHub copy={copy} glow={ramp(local, 0.05, 0.5)} />
+                  <div className="mt-6 flex flex-wrap justify-center gap-1.5">
+                    {copy.why.contextPills.map((pill, i) => {
+                      const shown = ramp(local, 0.3 + i * 0.08, 0.55 + i * 0.08)
+                      return (
+                        <span
+                          key={pill}
+                          style={{ opacity: shown, transform: `translateY(${(1 - shown) * 10}px)` }}
+                          className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-[11px] text-primary motion-reduce:!opacity-100 motion-reduce:!transform-none"
+                        >
+                          {pill}
+                        </span>
+                      )
+                    })}
+                  </div>
+                </div>
+              ) : (
+                <div
+                  className={cn(
+                    'flex w-full items-center justify-center',
+                    // The "other AI" beat crowds the cards together: same work,
+                    // stacked up, rather than laid out side by side.
+                    current.mode === 'otherAi' ? 'gap-0 -space-x-6' : 'gap-2 sm:gap-3',
+                  )}
+                >
+                  {(current.mode === 'single' ? copy.why.schools.slice(0, 1) : copy.why.schools).map(
+                    (school, i) => (
+                      <SchoolCard
+                        key={school}
+                        name={school}
+                        mode={current.mode}
+                        index={i}
+                        progress={local}
+                      />
+                    ),
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* Beat meter: a segment per chapter, the current one filling as you go. */}
+            <div className="mt-10 flex items-center gap-1.5">
+              {copy.why.chapters.map((chapter, i) => (
+                <span key={chapter.mode} className="h-0.5 w-8 overflow-hidden rounded-full bg-muted-foreground/20">
+                  <span
+                    style={{ width: `${i < index ? 100 : i === index ? local * 100 : 0}%` }}
+                    className="block h-full rounded-full bg-accent"
+                  />
+                </span>
+              ))}
+            </div>
           </div>
 
-          <div className="flex items-center gap-1.5 mt-10">
-            {copy.why.chapters.map((_, i) => (
-              <span
-                key={i}
-                className={cn(
-                  'h-0.5 rounded-full transition-all duration-500',
-                  i === chapter ? 'w-8 bg-accent' : 'w-4 bg-muted-foreground/25',
-                )}
-              />
-            ))}
-          </div>
+          <p className="absolute right-6 top-8 text-[10px] uppercase tracking-[0.2em] text-muted-foreground/50">
+            {copy.why.axisLabel}
+          </p>
         </div>
-
-        <p className="absolute left-6 top-1/2 -translate-y-1/2 text-[10px] uppercase tracking-[0.2em] text-muted-foreground/60 [writing-mode:vertical-rl]">
-          {copy.why.axisLabel}
-        </p>
-      </div>
       </div>
 
       {/* The counting argument and the closer sit after the pinned run - no
           negative offset, or they ride up over the sticky chapter. */}
       <div className="relative mx-auto max-w-4xl px-6 py-24">
         <Reveal>
-          <div className="rounded-2xl border bg-card p-6">
+          <WorkloadChart copy={copy} />
+        </Reveal>
+        <Reveal delay={100}>
+          <div className="mt-12 rounded-2xl border bg-card p-6">
             <p className="font-display text-xl text-primary">{copy.why.mathTitle}</p>
             <ul className="mt-4 space-y-3">
               {copy.why.math.map((item) => (
@@ -301,12 +508,12 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
             </ul>
           </div>
         </Reveal>
-        <Reveal delay={100}>
-          <p className="font-display text-2xl sm:text-3xl mt-12 text-center">
+        <Reveal delay={200}>
+          <p className="mt-12 text-center font-display text-2xl sm:text-3xl">
             {copy.why.closer.map((part) => (
               <span key={part.strong}>
                 <span className="text-muted-foreground">{part.muted} </span>
-                <span className="text-primary font-semibold">{part.strong} </span>
+                <span className="font-semibold text-primary">{part.strong} </span>
               </span>
             ))}
           </p>

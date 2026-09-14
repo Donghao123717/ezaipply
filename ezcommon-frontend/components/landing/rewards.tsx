@@ -1,28 +1,38 @@
 "use client"
 import Link from 'next/link'
-import { QrCode } from 'lucide-react'
+import { ArrowRight, QrCode } from 'lucide-react'
 import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
 
 export function Rewards({ copy }: { copy: LandingCopy }) {
   const REWARDS = copy.rewards
   return (
-    <section id="rewards" className="bg-secondary/30 py-24 border-y">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="rewards" className="relative overflow-hidden bg-primary py-24 text-primary-foreground">
+      {/* Soft glows rather than a flat navy block - the reference section is
+          lit from a couple of directions and reads as depth, not a slab. */}
+      <div
+        aria-hidden
+        className="absolute inset-0"
+        style={{
+          background:
+            'radial-gradient(700px 420px at 18% 22%, hsl(var(--accent) / 0.16), transparent 62%), radial-gradient(760px 460px at 82% 78%, hsl(var(--primary-foreground) / 0.10), transparent 60%)',
+        }}
+      />
+      <div className="relative mx-auto max-w-6xl px-6">
         <Reveal>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-accent mb-3">{REWARDS.eyebrow}</p>
-          <h2 className="font-display text-3xl sm:text-4xl font-semibold text-primary max-w-2xl">{REWARDS.title}</h2>
-          <p className="text-muted-foreground mt-3 max-w-2xl">{REWARDS.blurb}</p>
+          <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-accent">{REWARDS.eyebrow}</p>
+          <h2 className="max-w-2xl font-display text-3xl font-semibold sm:text-4xl">{REWARDS.title}</h2>
+          <p className="mt-3 max-w-2xl text-primary-foreground/70">{REWARDS.blurb}</p>
         </Reveal>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12 items-start">
           {REWARDS.cards.map((card, i) => (
             <Reveal key={card.label} delay={i * 90}>
-              <div className="h-full rounded-2xl border bg-card p-5 hover:border-accent/40 transition-colors">
+              <div className="h-full rounded-2xl border border-primary-foreground/15 bg-primary-foreground/[0.06] p-5 transition-colors hover:border-accent/50">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-accent">{card.label}</p>
-                <p className="font-display text-lg text-primary mt-2 leading-snug">{card.title}</p>
-                <p className="text-sm text-muted-foreground mt-2.5 leading-relaxed">{card.body}</p>
-                <p className="text-xs text-muted-foreground/80 mt-3 pt-3 border-t">{card.note}</p>
+                <p className="mt-2 font-display text-lg leading-snug">{card.title}</p>
+                <p className="mt-2.5 text-sm leading-relaxed text-primary-foreground/70">{card.body}</p>
+                <p className="mt-3 border-t border-primary-foreground/15 pt-3 text-xs text-primary-foreground/55">{card.note}</p>
               </div>
             </Reveal>
           ))}
@@ -30,7 +40,7 @@ export function Rewards({ copy }: { copy: LandingCopy }) {
 
         <Reveal delay={120}>
           <div className="mt-10 flex flex-col lg:flex-row items-center justify-center gap-8">
-            <div className="w-full max-w-sm rounded-2xl border bg-primary text-primary-foreground p-5">
+            <div className="w-full max-w-sm rounded-2xl border border-primary-foreground/20 bg-primary-foreground/[0.08] p-5 backdrop-blur">
               <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-accent">{REWARDS.inviteLabel}</p>
               <div className="flex items-end justify-between gap-4 mt-4">
                 <div className="min-w-0 space-y-2">
@@ -56,11 +66,12 @@ export function Rewards({ copy }: { copy: LandingCopy }) {
             <div className="text-center">
               <Link
                 href="/auth/login"
-                className="inline-flex items-center rounded-sm bg-primary px-7 py-3.5 text-sm font-medium uppercase tracking-[0.14em] text-primary-foreground hover:bg-primary/90 transition-colors"
+                className="inline-flex items-center gap-2 rounded-sm bg-accent px-8 py-3.5 text-sm font-semibold text-accent-foreground transition-colors hover:brightness-110"
               >
                 {REWARDS.cta}
+                <ArrowRight className="h-4 w-4" />
               </Link>
-              <p className="text-xs text-muted-foreground mt-2.5">{REWARDS.ctaNote}</p>
+              <p className="mt-2.5 text-xs text-primary-foreground/55">{REWARDS.ctaNote}</p>
             </div>
           </div>
         </Reveal>

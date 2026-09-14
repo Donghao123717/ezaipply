@@ -184,7 +184,9 @@ export function HowItWorks({ copy }: { copy: LandingCopy }) {
 
         <Reveal delay={120}>
           <div className="grid lg:grid-cols-[1fr_1.1fr] gap-6 mt-12 items-start">
-            <ol className="space-y-2">
+            {/* A hairline-ruled index rather than a stack of boxes: the active
+                step is marked by scale and weight, not by a border. */}
+            <ol className="divide-y border-y">
               {HOW.stages.map((s, i) => {
                 const isActive = i === active
                 return (
@@ -192,25 +194,36 @@ export function HowItWorks({ copy }: { copy: LandingCopy }) {
                     <button
                       type="button"
                       onClick={() => setActive(i)}
-                      className={cn(
-                        'w-full text-left rounded-xl border px-4 py-3.5 transition-all',
-                        isActive
-                          ? 'border-accent/50 bg-card shadow-sm'
-                          : 'bg-card/50 hover:bg-card hover:border-primary/20',
-                      )}
+                      className="group flex w-full items-start gap-5 py-5 pr-2 text-left"
                     >
-                      <div className="flex items-center gap-3">
+                      <span
+                        className={cn(
+                          'shrink-0 font-display italic tabular-nums transition-all duration-300',
+                          isActive
+                            ? 'text-2xl not-italic font-semibold text-primary'
+                            : 'text-sm text-muted-foreground/50 group-hover:text-muted-foreground',
+                        )}
+                      >
+                        {s.num}
+                      </span>
+                      <span className="min-w-0">
                         <span
                           className={cn(
-                            'font-display text-sm tabular-nums transition-colors',
-                            isActive ? 'text-accent' : 'text-muted-foreground',
+                            'block text-[10px] font-semibold uppercase tracking-[0.12em] transition-colors',
+                            isActive ? 'text-accent' : 'text-muted-foreground/60',
                           )}
                         >
-                          {s.num}
+                          {s.name}
                         </span>
-                        <span className="font-medium text-primary">{s.name}</span>
-                      </div>
-                      <p className="text-xs text-muted-foreground mt-1 pl-9">{s.summary}</p>
+                        <span
+                          className={cn(
+                            'mt-1 block text-sm leading-snug transition-colors',
+                            isActive ? 'font-semibold text-primary' : 'text-muted-foreground',
+                          )}
+                        >
+                          {s.summary}
+                        </span>
+                      </span>
                     </button>
                   </li>
                 )

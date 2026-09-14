@@ -1,26 +1,55 @@
 "use client"
 import Link from 'next/link'
-import { ArrowRight } from 'lucide-react'
 import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
+
+/**
+ * Optional looping hero clip. Drop a file in public/ and point
+ * NEXT_PUBLIC_HERO_VIDEO at it (e.g. /hero-loop.mp4) to switch the hero over
+ * to footage. Left unset, nothing is requested at all - probing for a file
+ * that is usually absent just buys a 404 in everyone's console.
+ */
+const HERO_VIDEO = process.env.NEXT_PUBLIC_HERO_VIDEO
 
 export function Hero({ copy }: { copy: LandingCopy }) {
   const HERO = copy.hero
   return (
-    <section id="hero" className="relative min-h-[88vh] flex items-center bg-primary text-primary-foreground overflow-hidden">
-      {/* Ambient wash rather than a photo: nothing to load, nothing to misattribute. */}
+    <section
+      id="hero"
+      className="relative flex min-h-[92vh] items-center overflow-hidden bg-primary text-primary-foreground"
+    >
+      {/* Backdrop. With footage configured the clip takes over; without it the
+          drifting wash below stands in, so the hero is never a flat rectangle. */}
+      <div aria-hidden className="absolute inset-0">
+        {HERO_VIDEO && (
+          <video
+            className="h-full w-full object-cover"
+            src={HERO_VIDEO}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        )}
+        <div
+          className="absolute inset-0 animate-ken-burns motion-reduce:animate-none"
+          style={{
+            background:
+              'radial-gradient(1200px 700px at 72% 18%, hsl(var(--accent) / 0.30), transparent 60%), radial-gradient(900px 620px at 12% 88%, hsl(var(--accent) / 0.14), transparent 58%), radial-gradient(700px 500px at 40% 50%, hsl(var(--primary-foreground) / 0.08), transparent 65%)',
+          }}
+        />
+      </div>
+
+      {/* Directional wash: heaviest at the left so the copy always has contrast,
+          whatever the footage underneath happens to be doing. */}
       <div
         aria-hidden
-        className="absolute inset-0 opacity-70"
-        style={{
-          background:
-            'radial-gradient(1100px 600px at 78% 8%, hsl(var(--accent) / 0.25), transparent 62%), radial-gradient(900px 500px at 8% 92%, hsl(var(--accent) / 0.12), transparent 60%)',
-        }}
+        className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-primary/45"
       />
 
       <div className="relative mx-auto w-full max-w-6xl px-6 py-24">
         <Reveal>
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.15] tracking-tight max-w-3xl">
+          <h1 className="max-w-3xl font-display text-4xl font-semibold leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl">
             {HERO.title[0]}
             <br />
             {HERO.title[1]}
@@ -28,18 +57,19 @@ export function Hero({ copy }: { copy: LandingCopy }) {
         </Reveal>
 
         <Reveal delay={100}>
-          <p className="mt-7 border-l-2 border-accent/70 pl-4 text-base sm:text-lg text-primary-foreground/75 max-w-lg leading-relaxed">
+          <p className="mt-7 max-w-lg border-l-2 border-accent pl-4 text-base leading-relaxed text-primary-foreground/75 sm:text-lg">
             {HERO.blurb}
           </p>
         </Reveal>
 
         <Reveal delay={200}>
+          {/* Solid, square, high-contrast - the one thing on the hero that is
+              meant to be clicked should not look like the border-only chrome. */}
           <Link
             href="/auth/login"
-            className="group mt-9 inline-flex items-center gap-2 rounded-sm border border-primary-foreground/30 px-7 py-3.5 text-sm font-medium uppercase tracking-[0.14em] hover:bg-primary-foreground hover:text-primary transition-colors"
+            className="mt-9 inline-flex items-center rounded-sm bg-primary-foreground px-8 py-3.5 text-sm font-semibold text-primary transition-colors hover:bg-accent hover:text-accent-foreground"
           >
             {HERO.cta}
-            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
         </Reveal>
 
@@ -56,12 +86,18 @@ export function Hero({ copy }: { copy: LandingCopy }) {
         </Reveal>
       </div>
 
-      {/* Scroll hint: their hero has one, and this page is tall enough to need it. */}
-      <div className="absolute bottom-7 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5">
+      {/* Feathered edge into the cream section below, so the two do not meet
+          on a hard line. */}
+      <div
+        aria-hidden
+        className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-b from-transparent to-background"
+      />
+
+      <div className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-1.5">
         <span className="text-[10px] uppercase tracking-[0.2em] text-primary-foreground/40">
           {HERO.scrollHint}
         </span>
-        <span className="h-8 w-px bg-gradient-to-b from-primary-foreground/40 to-transparent animate-float motion-reduce:animate-none" />
+        <span className="h-8 w-px animate-float bg-gradient-to-b from-primary-foreground/40 to-transparent motion-reduce:animate-none" />
       </div>
     </section>
   )

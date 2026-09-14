@@ -1,4 +1,5 @@
 "use client"
+import { Star } from 'lucide-react'
 import { LANDING_UNIVERSITIES, type LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
 
@@ -6,32 +7,51 @@ export function SuccessStories({ copy }: { copy: LandingCopy }) {
   const STORIES = copy.stories
   return (
     <section id="stories" className="bg-background py-24">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-5xl px-6">
         <Reveal>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-accent mb-3">{STORIES.eyebrow}</p>
-          <h2 className="font-display text-3xl sm:text-4xl font-semibold text-primary">{STORIES.title}</h2>
-          <p className="text-muted-foreground mt-3 max-w-2xl">{STORIES.blurb}</p>
+          <div className="flex items-center gap-4">
+            <p className="whitespace-nowrap text-[10px] font-semibold uppercase tracking-[0.18em] text-accent">
+              {STORIES.eyebrow}
+            </p>
+            <span aria-hidden className="h-px flex-1 bg-border" />
+          </div>
+          <h2 className="mt-10 text-center font-display text-3xl font-semibold text-primary sm:text-4xl">
+            {STORIES.title}
+          </h2>
+          <p className="mx-auto mt-3 max-w-xl text-center text-sm text-muted-foreground">{STORIES.blurb}</p>
         </Reveal>
 
-        <div className="grid md:grid-cols-2 gap-4 mt-12 items-start">
+        <div className="mt-12 grid items-start gap-4 md:grid-cols-2">
           {STORIES.items.map((item, i) => (
             <Reveal key={item.initials} delay={i * 90}>
-              <figure className="h-full rounded-2xl border bg-card p-6">
+              <figure className="relative flex h-full flex-col rounded-2xl border bg-card p-6">
+                {/* Decorative quote mark, the way the reference cards mark a pull quote. */}
+                <span
+                  aria-hidden
+                  className="absolute right-5 top-3 select-none font-display text-4xl leading-none text-accent/25"
+                >
+                  &rdquo;
+                </span>
                 <div className="flex items-center gap-3">
                   <span
                     style={{ animationDelay: `${i * 100}ms` }}
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground text-xs font-semibold animate-portrait-pop motion-reduce:animate-none"
+                    className="flex h-10 w-10 shrink-0 animate-portrait-pop items-center justify-center rounded-full bg-accent/25 text-xs font-semibold text-primary motion-reduce:animate-none"
                   >
                     {item.initials}
                   </span>
                   <figcaption className="min-w-0">
-                    <p className="text-sm font-medium text-primary truncate">{item.name}</p>
-                    <p className="text-xs text-muted-foreground truncate">{item.role}</p>
+                    <p className="truncate text-sm font-semibold text-primary">{item.name}</p>
+                    <p className="truncate text-xs font-medium text-accent">{item.role}</p>
                   </figcaption>
                 </div>
-                <blockquote className="mt-4 text-sm text-muted-foreground leading-relaxed">
+                <blockquote className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground">
                   &ldquo;{item.quote}&rdquo;
                 </blockquote>
+                <div className="mt-5 flex gap-0.5">
+                  {[0, 1, 2, 3, 4].map((s) => (
+                    <Star key={s} aria-hidden className="h-3 w-3 fill-accent text-accent" />
+                  ))}
+                </div>
               </figure>
             </Reveal>
           ))}
@@ -49,9 +69,13 @@ export function SuccessStories({ copy }: { copy: LandingCopy }) {
               {[...LANDING_UNIVERSITIES, ...LANDING_UNIVERSITIES].map((name, i) => (
                 <span
                   key={`${name}-${i}`}
-                  className="whitespace-nowrap rounded-full border bg-card px-4 py-1.5 text-xs text-muted-foreground"
+                  className="flex items-center gap-2 whitespace-nowrap rounded-lg border bg-card px-3 py-2 shadow-sm"
                 >
-                  {name}
+                  {/* Monogram tile, not a crest: institution marks are theirs. */}
+                  <span className="flex h-5 w-5 items-center justify-center rounded bg-primary/10 text-[9px] font-bold text-primary">
+                    {name.slice(0, 1)}
+                  </span>
+                  <span className="font-display text-xs text-primary">{name}</span>
                 </span>
               ))}
             </div>

@@ -21,6 +21,12 @@ export interface LandingCopy {
     /** One chapter per scroll step. `lead` is plain, `emphasis` is the italic phrase. */
     chapters: { title: string; lead: string; emphasis: string; caption: string; mode: string }[]
     axisLabel: string
+    /** Vertical label beside the scroll-hint arrow on the pinned run. */
+    scrollLabel: string
+    /** Caption on the hub card at the centre of the radial beat. */
+    hubLabel: string
+    /** Closing statement: each line is a plain half and an accented half. */
+    payoff: { muted: string; accent: string }[]
     schools: string[]
     contextPills: string[]
     reusedSchools: string[]
@@ -148,21 +154,35 @@ const EN: LandingCopy = {
         mode: 'otherAi',
       },
       {
-        title: 'Aipply',
-        lead: 'Your context',
-        emphasis: 'keeps moving.',
+        title: 'Application overload',
+        lead: 'One application background',
+        emphasis: 'connects everything.',
         caption: 'One reusable system',
-        mode: 'aipply',
+        mode: 'hub',
       },
       {
-        title: 'Workload comparison',
+        title: 'Aipply',
+        lead: 'Your application background',
+        emphasis: 'keeps being reused.',
+        caption: 'Reach every school from the same context',
+        mode: 'routes',
+      },
+      {
+        title: 'Aipply',
         lead: 'Same workload.',
         emphasis: 'More schools reached.',
         caption: 'More schools. More chances.',
-        mode: 'chart',
+        mode: 'payoff',
       },
     ],
     axisLabel: 'Visualising the workload',
+    scrollLabel: 'Keep scrolling',
+    hubLabel: 'AIPPLY · Application context',
+    payoff: [
+      { muted: 'Less', accent: 'repeated work.' },
+      { muted: 'More', accent: 'schools.' },
+      { muted: 'More', accent: 'chances.' },
+    ],
     schools: SCHOOL_CARDS,
     contextPills: ['Background', 'Activities', 'Writing', 'School Forms'],
     reusedSchools: ['UGA', 'Brown', 'Carnegie Mellon', 'UCLA', 'Duke', 'Stanford'],
@@ -408,10 +428,18 @@ const ZH: LandingCopy = {
       { title: '手动申请流程', lead: '一所学校', emphasis: '从零开始。', caption: '每所学校都从头再来', mode: 'single' },
       { title: '手动申请流程', lead: '每增加一所学校', emphasis: '都要重新开始。', caption: '每所学校都从头再来', mode: 'manual' },
       { title: '其他 AI 申请产品', lead: '单项任务更快。', emphasis: '冷启动没有减少。', caption: '每所学校都要开启新的 AI 会话', mode: 'otherAi' },
-      { title: 'Aipply', lead: '你的申请背景', emphasis: '持续复用。', caption: '一套可复用的系统', mode: 'aipply' },
-      { title: '工作量对比', lead: '同样的工作量。', emphasis: '覆盖更多学校。', caption: '更多学校。更多机会。', mode: 'chart' },
+      { title: '申请管理过载', lead: '一套申请背景', emphasis: '把一切连接起来。', caption: '一套可复用的系统', mode: 'hub' },
+      { title: 'Aipply', lead: '你的申请背景', emphasis: '持续复用。', caption: '用同一套背景覆盖每一所学校', mode: 'routes' },
+      { title: 'Aipply', lead: '同样的工作量。', emphasis: '覆盖更多学校。', caption: '更多学校。更多机会。', mode: 'payoff' },
     ],
     axisLabel: '可视化工作量',
+    scrollLabel: '继续向下滚动',
+    hubLabel: 'AIPPLY · 申请背景',
+    payoff: [
+      { muted: '更少', accent: '重复工作。' },
+      { muted: '更多', accent: '学校。' },
+      { muted: '更多', accent: '机会。' },
+    ],
     schools: SCHOOL_CARDS,
     contextPills: ['个人背景', '活动经历', '文书', '申请表格'],
     reusedSchools: ['UGA', 'Brown', 'Carnegie Mellon', 'UCLA', 'Duke', 'Stanford'],
