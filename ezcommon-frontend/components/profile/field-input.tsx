@@ -1,4 +1,5 @@
 "use client"
+import { useId } from 'react'
 import { FieldDef, fieldLabel } from '@/lib/profile-schema'
 import { useT } from '@/lib/i18n/use-t'
 
@@ -15,6 +16,13 @@ export function FieldInput({
   placeholderOverride?: string
 }) {
   const t = useT()
+  // Radios with the same `name` are one group as far as the browser is
+  // concerned, and only one of them may be checked. Two test scores, or two
+  // activities, would therefore share a single group: React would set the
+  // second entry's value in state, the browser would refuse to show it
+  // checked, and the field read as "clicking does nothing". Scoping the name
+  // to this instance keeps each entry's radios a group of their own.
+  const groupId = useId()
   const placeholder = placeholderOverride ?? (field.placeholderKey ? t(field.placeholderKey) : undefined)
 
   const eyebrow = (
@@ -88,7 +96,8 @@ export function FieldInput({
             <label key={opt} className="flex items-center gap-1.5 text-sm cursor-pointer">
               <input
                 type="radio"
-                name={field.key}
+                name={`${groupId}-${field.key}`}
+                value={opt}
                 checked={value === opt}
                 onChange={() => onChange(opt)}
                 className="h-4 w-4 accent-primary"
