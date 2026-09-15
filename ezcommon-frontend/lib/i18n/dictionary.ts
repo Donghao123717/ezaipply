@@ -1039,6 +1039,114 @@ export const dictionary = {
         loading: 'Loading…',
         remove: 'Remove {filename}',
       },
+      commands: {
+        title: 'Quick Actions',
+        hint: 'Type / for shortcuts',
+        noMatch: 'No shortcut matches that - just type your question.',
+        groups: {
+          schools: 'Schools',
+          profile: 'Profile',
+          essays: 'Essays',
+          forms: 'Forms and deadlines',
+          files: 'Documents',
+        },
+        balance: {
+          label: 'Is my list balanced?',
+          prompt: 'Look at my school list and tell me whether the reach, target and safety balance is right for my grades. Name what is missing.',
+        },
+        'add-school': {
+          label: 'Suggest schools to add',
+          prompt: 'Based on my profile, suggest three schools worth adding to my list and say in one line why each one fits me.',
+        },
+        'cut-school': {
+          label: 'Which school should I drop?',
+          prompt: 'Which school on my list is the weakest fit for me, and what would I gain by dropping it?',
+        },
+        early: {
+          label: 'Should I apply ED or EA?',
+          prompt: 'Given my list and my family\'s finances, should I apply Early Decision or Early Action anywhere? Name the school and the trade-off.',
+        },
+        cost: {
+          label: 'Compare what these cost',
+          prompt: 'Compare what the schools on my list would cost me per year, and say which are most likely to give me aid.',
+        },
+        major: {
+          label: 'Who is strongest in my major?',
+          prompt: 'Rank the schools on my list by how strong they are in the major I want, and say what you are ranking on.',
+        },
+        gaps: {
+          label: 'What is missing from my profile?',
+          prompt: 'Read my profile and list the gaps that would weaken my application, most important first.',
+        },
+        activities: {
+          label: 'How do my activities read?',
+          prompt: 'Look at my activities and honours and tell me how an admissions reader would rate them, and what would move them up a level.',
+        },
+        scores: {
+          label: 'Are my test scores enough?',
+          prompt: 'Compare my test scores against the schools on my list and tell me where I am below their range.',
+        },
+        'next-term': {
+          label: 'What should I do next term?',
+          prompt: 'Given where my profile is weakest, what should I actually do over the next six months? Be specific.',
+        },
+        recommenders: {
+          label: 'Who should write my letters?',
+          prompt: 'Based on my profile, who should I ask for recommendation letters, and what should I tell them before they write?',
+        },
+        topic: {
+          label: 'Help me pick an essay topic',
+          prompt: 'Based on my profile, suggest three personal statement topics that only I could write, and say what each would have to prove.',
+        },
+        outline: {
+          label: 'Outline my personal statement',
+          prompt: 'Outline my personal statement: opening image, the turning point, what I understood, and how it closes.',
+        },
+        'why-school': {
+          label: 'Write the why-this-school answer',
+          prompt: 'Help me answer the why-this-school prompt for the school I am furthest along with. Ask me what you need to know first.',
+        },
+        tighten: {
+          label: 'Cut my draft to the limit',
+          prompt: 'My draft is over the word limit. Show me what to cut, line by line, without losing the point of it.',
+        },
+        reuse: {
+          label: 'Can I reuse an essay?',
+          prompt: 'Which of my finished essays could answer another prompt on my list with light editing, and what would need to change?',
+        },
+        deadlines: {
+          label: 'What is due next?',
+          prompt: 'List what is due next across the schools on my list, soonest first, with how many days are left.',
+        },
+        'this-week': {
+          label: 'What should I do this week?',
+          prompt: 'Given everything on my plate, what are the three things I should finish this week?',
+        },
+        unfinished: {
+          label: 'What is still unfinished?',
+          prompt: 'Which application forms on my list still have unanswered required questions?',
+        },
+        'fee-waiver': {
+          label: 'Do I qualify for a fee waiver?',
+          prompt: 'Am I likely to qualify for application fee waivers, and how would I request one?',
+        },
+        ready: {
+          label: 'Is this ready to submit?',
+          prompt: 'Check the school I am closest to finishing and tell me honestly whether it is ready to submit.',
+        },
+        documents: {
+          label: 'What documents do I still need?',
+          prompt: 'List the documents I still need to upload, and say in one line what each is for.',
+        },
+        'read-transcript': {
+          label: 'Read my transcript',
+          prompt: 'Read the transcript I uploaded and summarise what it says about my record - the trend, my strongest subjects, and anything a reader would question.',
+        },
+        'case-summary': {
+          label: 'Summarise where I stand',
+          prompt: 'Give me a one-page summary of where I stand: profile, school list, essays and deadlines.',
+        },
+      },
       chat: {
         history: 'History',
         bannerHasPrevious: 'You have a previous conversation',
@@ -3089,6 +3197,114 @@ export const dictionary = {
         dropHint: '支持 PDF、Word、文本或图片',
         loading: '加载中…',
         remove: '移除 {filename}',
+      },
+      commands: {
+        title: '快捷操作',
+        hint: '输入 / 调出快捷指令',
+        noMatch: '没有匹配的快捷指令，直接把问题打出来就行。',
+        groups: {
+          schools: '选校',
+          profile: '个人资料',
+          essays: '文书',
+          forms: '表格与截止',
+          files: '材料',
+        },
+        balance: {
+          label: '我的选校清单合理吗？',
+          prompt: '看一下我的选校清单，按我的成绩来说，冲刺／匹配／保底的比例合不合理？缺的那一档直接说出来。',
+        },
+        'add-school': {
+          label: '推荐几所可以加的学校',
+          prompt: '根据我的资料，推荐三所值得加进清单的学校，每所用一句话说明为什么适合我。',
+        },
+        'cut-school': {
+          label: '哪所学校可以去掉？',
+          prompt: '我清单里哪所学校最不匹配？去掉它我能腾出什么？',
+        },
+        early: {
+          label: '我该不该走 ED 或 EA？',
+          prompt: '结合我的清单和家里的经济情况，我该不该 ED 或 EA？具体是哪所，代价是什么。',
+        },
+        cost: {
+          label: '这些学校一年要花多少？',
+          prompt: '对比一下我清单里各校一年大概要花多少钱，哪几所更可能给我奖学金。',
+        },
+        major: {
+          label: '哪所学校我的专业最强？',
+          prompt: '按我想读的专业强弱给清单里的学校排序，并说明你是按什么排的。',
+        },
+        gaps: {
+          label: '我的资料还缺什么？',
+          prompt: '读一下我的个人资料，按重要程度列出会削弱我申请的短板。',
+        },
+        activities: {
+          label: '我的活动在招生官眼里算几档？',
+          prompt: '看看我的活动和奖项，招生官会怎么评价？要再上一个档次需要做什么？',
+        },
+        scores: {
+          label: '我的标化够用吗？',
+          prompt: '把我的标化成绩和清单里的学校对比一下，哪些学校我低于他们的区间。',
+        },
+        'next-term': {
+          label: '下学期我该做什么？',
+          prompt: '针对我资料里最弱的部分，接下来半年我具体该做什么？要具体、可执行。',
+        },
+        recommenders: {
+          label: '推荐信该找谁写？',
+          prompt: '根据我的资料，推荐信该找谁写？找之前我应该先跟他们说清楚什么？',
+        },
+        topic: {
+          label: '帮我选文书题目',
+          prompt: '根据我的资料，给三个只有我能写的主文书选题，并说明每个选题要证明什么。',
+        },
+        outline: {
+          label: '给我的主文书列提纲',
+          prompt: '给我的主文书列个提纲：开头画面、转折点、我想明白了什么、怎么收尾。',
+        },
+        'why-school': {
+          label: '写 why school 这篇',
+          prompt: '帮我写进度最快那所学校的 why school 那题。先问我你需要知道的信息。',
+        },
+        tighten: {
+          label: '帮我把字数删下来',
+          prompt: '我的草稿超字数了。逐句告诉我删哪里，但别把核心删掉。',
+        },
+        reuse: {
+          label: '有文书可以复用吗？',
+          prompt: '我写完的文书里，哪一篇稍微改改就能回答清单上的另一道题？需要改什么？',
+        },
+        deadlines: {
+          label: '接下来有什么截止？',
+          prompt: '把我清单里各校接下来的截止日期按时间先后列出来，写清还剩几天。',
+        },
+        'this-week': {
+          label: '这周我该做什么？',
+          prompt: '手上这么多事，这周我最该做完的三件事是什么？',
+        },
+        unfinished: {
+          label: '哪些表格还没填完？',
+          prompt: '我清单里哪些学校的申请表还有必填项没填？',
+        },
+        'fee-waiver': {
+          label: '我能免申请费吗？',
+          prompt: '我大概率能不能拿到申请费减免？要怎么申请？',
+        },
+        ready: {
+          label: '这所可以提交了吗？',
+          prompt: '看看我进度最快的那所，说实话，它到底能不能提交了。',
+        },
+        documents: {
+          label: '我还缺哪些材料？',
+          prompt: '列出我还没上传的材料，每项用一句话说明是干什么用的。',
+        },
+        'read-transcript': {
+          label: '读一下我的成绩单',
+          prompt: '读我上传的成绩单，总结它反映出我什么样的学业情况——趋势、最强的科目、招生官可能会追问的地方。',
+        },
+        'case-summary': {
+          label: '给我一份整体情况总结',
+          prompt: '给我一页纸的总结：个人资料、选校清单、文书、截止时间，我现在处在什么位置。',
+        },
       },
       chat: {
         history: '历史记录',

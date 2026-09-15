@@ -1,10 +1,11 @@
 "use client"
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import { ArrowUpRight, ChevronRight, History, Loader2, MessageCircle, Paperclip, Send, X, Zap } from 'lucide-react'
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { useT } from '@/lib/i18n/use-t'
 import type { CounselorMessage } from '@/lib/counselor-chat'
+import { COMMAND_GROUPS, filterCommands, type CounselorCommand } from '@/lib/counselor-commands'
 
 /**
  * The specialists shown as tabs. The admissions side and the visa side both use
@@ -86,18 +87,49 @@ export function TeamChat({
 }) {
   const t = useT()
   const [input, setInput] = useState('')
-  const [showQuickActions, setShowQuickActions] = useState(false)
   const [bannerDismissed, setBannerDismissed] = useState(false)
+  // The palette opens on "/" as the first character, and on the Quick Actions
+  // button. `highlight` is the row Enter would send - it is kept in state
+  // rather than read off focus so the student can keep typing to narrow the
+  // list while the arrow keys move the selection.
+  const [paletteOpen, setPaletteOpen] = useState(false)
+  const [highlight, setHighlight] = useState(0)
   const scrollRef = useRef<HTMLDivElement>(null)
   const attachInputRef = useRef<HTMLInputElement>(null)
+  const inputRef = useRef<HTMLTextAreaElement>(null)
+  const paletteRef = useRef<HTMLDivElement>(null)
   const persona = personas.find((p) => p.tab === activeTab) ?? personas[0]
   const personaKey = (suffix: string) => `${dictNamespace}.personas.${persona.dictKey}.${suffix}`
-  const quickActions = [t(personaKey('quickAction1')), t(personaKey('quickAction2')), t(personaKey('quickAction3'))]
+  const suggested = [t(personaKey('quickAction1')), t(personaKey('quickAction2')), t(personaKey('quickAction3'))]
+
+  // Everything after the leading "/" narrows the list as it is typed.
+  const query = paletteOpen && input.startsWith('/') ? input.slice(1) : ''
+  const matches = useMemo(() => (paletteOpen ? filterCommands(query, t) : []), [paletteOpen, query, t])
+  const grouped = useMemo(() => {
+    const map = new Map<string, CounselorCommand[]>()
+    for (const c of matches) map.set(c.group, [...(map.get(c.group) || []), c])
+    return COMMAND_GROUPS.filter((g) => map.has(g)).map((g) => [g, map.get(g)!] as const)
+  }, [matches])
+  // The flat order the arrow keys walk, which has to match the render order.
+  const ordered = useMemo(() => grouped.flatMap(([, list]) => list), [grouped])
 
   useEffect(() => {
     setBannerDismissed(false)
-    setShowQuickActions(false)
+    setPaletteOpen(false)
   }, [activeTab])
+
+  // A narrowed list can be shorter than where the cursor was.
+  useEffect(() => {
+    setHighlight((h) => (h < ordered.length ? h : 0))
+  }, [ordered.length])
+
+  // Keep the highlighted row in view when the arrows walk past the fold.
+  useEffect(() => {
+    if (!paletteOpen) return
+    paletteRef.current
+      ?.querySelector('[data-highlighted="true"]')
+      ?.scrollIntoView({ block: 'nearest' })
+  }, [highlight, paletteOpen])
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' })
@@ -106,8 +138,20 @@ export function TeamChat({
   function send(text: string) {
     if (!text.trim() || sending) return
     setInput('')
-    setShowQuickActions(false)
+    setPaletteOpen(false)
     onSend(text.trim())
+  }
+
+  /** Sends the question the shortcut stands for, not the shorthand itself. */
+  function runCommand(command: CounselorCommand) {
+    send(t(command.promptKey))
+  }
+
+  function openPalette() {
+    setPaletteOpen(true)
+    setHighlight(0)
+    if (!input.startsWith('/')) setInput('/')
+    inputRef.current?.focus()
   }
 
   const showBanner = hasSavedHistory && messages.length === 0 && !bannerDismissed
@@ -216,29 +260,83 @@ export function TeamChat({
 
       {notesSlot}
 
-      <div className="border-t px-6 py-3">
-        <div className="flex items-center gap-3 mb-2">
+      <div className="relative border-t px-6 py-3">
+        <div className="mb-2 flex items-center gap-3">
           <button
-            onClick={() => setShowQuickActions((v) => !v)}
+            onClick={() => (paletteOpen ? setPaletteOpen(false) : openPalette())}
+            aria-expanded={paletteOpen}
             className="inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:underline"
           >
             <Zap className="h-3.5 w-3.5" />
-            {t('counselor.chat.quickActions')}
+            {t('counselor.commands.title')}
           </button>
+          <span className="text-xs text-muted-foreground">{t('counselor.commands.hint')}</span>
         </div>
-        {showQuickActions && (
-          <div className="flex flex-wrap gap-1.5 mb-2">
-            {quickActions.map((action) => (
-              <button
-                key={action}
-                onClick={() => send(action)}
-                className="text-xs rounded-full border px-2.5 py-1 hover:bg-muted text-left"
-              >
-                {action}
-              </button>
-            ))}
+
+        {/* The palette sits above the composer so the list grows upward and the
+            text you are typing never moves. */}
+        {paletteOpen && (
+          <div
+            ref={paletteRef}
+            role="listbox"
+            aria-label={t('counselor.commands.title')}
+            className="absolute bottom-full left-6 right-6 z-20 mb-2 max-h-80 overflow-y-auto rounded-xl border bg-card shadow-lg animate-slide-up-in motion-reduce:animate-none"
+          >
+            {/* What this specialist would ask about right now, kept at the top
+                because it is the one part of the list that changes with the tab. */}
+            {!query && (
+              <div className="border-b p-2">
+                <p className="px-2 pb-1 text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
+                  {t(personaKey('navLabel'))}
+                </p>
+                {suggested.map((action) => (
+                  <button
+                    key={action}
+                    onClick={() => send(action)}
+                    className="block w-full truncate rounded-lg px-2 py-1.5 text-left text-sm hover:bg-muted"
+                  >
+                    {action}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {ordered.length === 0 ? (
+              <p className="px-4 py-3 text-sm text-muted-foreground">{t('counselor.commands.noMatch')}</p>
+            ) : (
+              grouped.map(([group, list]) => (
+                <div key={group} className="p-2">
+                  <p className="px-2 pb-1 text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
+                    {t(`counselor.commands.groups.${group}`)}
+                  </p>
+                  {list.map((command) => {
+                    const index = ordered.indexOf(command)
+                    const isHighlighted = index === highlight
+                    return (
+                      <button
+                        key={command.id}
+                        role="option"
+                        aria-selected={isHighlighted}
+                        data-highlighted={isHighlighted}
+                        onMouseEnter={() => setHighlight(index)}
+                        onClick={() => runCommand(command)}
+                        className={`flex w-full items-baseline gap-2 rounded-lg px-2 py-1.5 text-left ${
+                          isHighlighted ? 'bg-secondary' : 'hover:bg-muted'
+                        }`}
+                      >
+                        <span className="shrink-0 font-mono text-xs text-accent">/{command.id}</span>
+                        <span className="min-w-0 flex-1 truncate text-sm text-foreground">
+                          {t(command.labelKey)}
+                        </span>
+                      </button>
+                    )
+                  })}
+                </div>
+              ))
+            )}
           </div>
         )}
+
         <div className="flex items-end gap-2">
           <button
             onClick={() => attachInputRef.current?.click()}
@@ -259,9 +357,47 @@ export function TeamChat({
             }}
           />
           <textarea
+            ref={inputRef}
             value={input}
-            onChange={(e) => setInput(e.target.value)}
+            onChange={(e) => {
+              const next = e.target.value
+              setInput(next)
+              // "/" only opens the palette as the first character - a slash
+              // inside a sentence is a slash.
+              if (next.startsWith('/')) {
+                setPaletteOpen(true)
+                setHighlight(0)
+              } else {
+                setPaletteOpen(false)
+              }
+            }}
+            onBlur={() => {
+              // Let a click on a palette row land before the palette closes.
+              window.setTimeout(() => setPaletteOpen(false), 120)
+            }}
             onKeyDown={(e) => {
+              if (paletteOpen && ordered.length > 0) {
+                if (e.key === 'ArrowDown') {
+                  e.preventDefault()
+                  setHighlight((h) => (h + 1) % ordered.length)
+                  return
+                }
+                if (e.key === 'ArrowUp') {
+                  e.preventDefault()
+                  setHighlight((h) => (h - 1 + ordered.length) % ordered.length)
+                  return
+                }
+                if (e.key === 'Enter' || e.key === 'Tab') {
+                  e.preventDefault()
+                  runCommand(ordered[highlight])
+                  return
+                }
+              }
+              if (e.key === 'Escape' && paletteOpen) {
+                e.preventDefault()
+                setPaletteOpen(false)
+                return
+              }
               if (e.key === 'Enter' && !e.shiftKey) {
                 e.preventDefault()
                 send(input)

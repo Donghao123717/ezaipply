@@ -35,7 +35,10 @@ export function DocumentsPanel({
       const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
       const res = await fetch(`${base}/api/upload/user/${encodeURIComponent(userId)}`)
       const data = await res.json()
-      setFiles(data.files || [])
+      // Visa paperwork has its own upload section and its own counselor. An
+      // I-20 and a fee receipt in the admissions team's document rail is the
+      // mixing that split was meant to prevent.
+      setFiles((data.files || []).filter((f: CounselorDoc) => f.section !== 'visa'))
     } catch {
       setFiles([])
     } finally {
