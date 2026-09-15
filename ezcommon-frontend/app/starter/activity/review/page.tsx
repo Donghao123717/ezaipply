@@ -1,10 +1,13 @@
+import { requireSession } from '@/lib/require-session'
 import { AppLayout } from '@/components/layout/app-layout'
 import { SectionReview } from '@/components/starter/section-review'
 import { OnboardingSteps } from '@/components/starter/onboarding-steps'
 
 export const dynamic = 'force-dynamic'
 
-export default function ActivityReviewPage() {
+export default async function ActivityReviewPage() {
+  await requireSession()
+
   return (
     <AppLayout>
       <div className="p-6 flex items-center justify-center">

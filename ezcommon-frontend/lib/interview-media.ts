@@ -63,6 +63,15 @@ export function stopStream(stream: MediaStream | null) {
  */
 let voicesReady: Promise<SpeechSynthesisVoice[]> | null = null
 
+/**
+ * Bumped by every speak() and every stopSpeaking(). Waiting for the voice list
+ * made speaking asynchronous, which opened a race: an applicant who hits
+ * record while the first question is still waiting on voices would have the
+ * officer start talking over their answer, and Whisper would transcribe the
+ * question as part of it. A cancelled utterance has to stay cancelled.
+ */
+let speechTurn = 0
+
 function loadVoices(): Promise<SpeechSynthesisVoice[]> {
   if (voicesReady) return voicesReady
   voicesReady = new Promise((resolve) => {
@@ -116,8 +125,10 @@ export function speak(text: string, lang = 'en-US', onState?: (speaking: boolean
     onState?.(false)
     return
   }
+  const turn = ++speechTurn
   void loadVoices()
     .then((voices) => {
+      if (turn !== speechTurn) return
       window.speechSynthesis.cancel()
       const utterance = new SpeechSynthesisUtterance(text)
       utterance.lang = lang
@@ -143,6 +154,8 @@ export function speak(text: string, lang = 'en-US', onState?: (speaking: boolean
 }
 
 export function stopSpeaking(onState?: (speaking: boolean) => void): void {
+  // Invalidates any utterance still waiting on the voice list.
+  speechTurn++
   onState?.(false)
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
   try {

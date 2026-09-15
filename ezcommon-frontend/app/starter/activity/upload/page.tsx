@@ -1,10 +1,13 @@
+import { requireSession } from '@/lib/require-session'
 import { AppLayout } from '@/components/layout/app-layout'
 import { ActivityUpload } from '@/components/starter/activity-upload'
 import { OnboardingSteps } from '@/components/starter/onboarding-steps'
 
 export const dynamic = 'force-dynamic'
 
-export default function ActivityUploadPage() {
+export default async function ActivityUploadPage() {
+  await requireSession()
+
   return (
     <AppLayout>
       <div className="p-6 flex items-center justify-center">

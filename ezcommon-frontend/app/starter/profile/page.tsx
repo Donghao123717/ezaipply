@@ -1,10 +1,13 @@
+import { requireSession } from '@/lib/require-session'
 import { AppLayout } from '@/components/layout/app-layout'
 import { UserProfileInfo } from '@/components/starter/user-profile-info'
 import { AllFilesReview } from '@/components/starter/all-files-review'
 
 export const dynamic = 'force-dynamic'
 
-export default function StarterProfileIndex() {
+export default async function StarterProfileIndex() {
+  await requireSession()
+
   return (
     <AppLayout>
       <div className="p-6 space-y-6">

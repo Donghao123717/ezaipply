@@ -1,3 +1,4 @@
+import { requireSession } from '@/lib/require-session'
 import { AppLayout } from '@/components/layout/app-layout'
 import { ParsePageClient } from '@/components/parse/parse-page-client'
 
@@ -6,6 +7,8 @@ interface ParsePageProps {
 }
 
 export default async function ParsePage({ searchParams }: ParsePageProps) {
+  await requireSession()
+
   const resolvedSearchParams = await searchParams
   const userIdParam = resolvedSearchParams?.user_id
   const userIdOverride = Array.isArray(userIdParam) ? userIdParam[0] : userIdParam

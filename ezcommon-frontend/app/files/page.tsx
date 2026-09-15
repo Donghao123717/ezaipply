@@ -1,9 +1,12 @@
+import { requireSession } from '@/lib/require-session'
 import { AppLayout } from '@/components/layout/app-layout'
 import { AllFilesReview } from '@/components/starter/all-files-review'
 
 export const dynamic = 'force-dynamic'
 
-export default function AllFilesPage() {
+export default async function AllFilesPage() {
+  await requireSession()
+
   return (
     <AppLayout>
       <div className="p-6">
