@@ -5,19 +5,23 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button'
 import { User, Bell, Shield, Globe, HardDrive, Bot, Info, Mail, Lock, Download, Trash2, ChevronRight } from 'lucide-react'
 import { useState } from 'react'
+import { useT } from '@/lib/i18n/use-t'
+import { useLocale } from '@/lib/i18n/locale-context'
 
 export function SettingsClient() {
+  const t = useT()
+  const { locale, setLocale } = useLocale()
   const { data: session } = useSession()
   const userEmail = session?.user?.email || ''
-  const userName = session?.user?.name || 'User'
+  const userName = session?.user?.name || t('settings.fullName')
 
   return (
     <AppLayout>
       <div className="p-6 space-y-6 max-w-7xl mx-auto">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight">Settings</h1>
+          <h1 className="text-3xl font-bold tracking-tight">{t('settings.title')}</h1>
           <p className="text-muted-foreground mt-2">
-            Manage your account settings and preferences
+            {t('settings.blurb')}
           </p>
         </div>
 
@@ -27,10 +31,10 @@ export function SettingsClient() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <User className="h-5 w-5 text-primary" />
-                Account Settings
+                {t('settings.account')}
               </CardTitle>
               <CardDescription>
-                Manage your personal information and account security
+                {t('settings.accountBlurb')}
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -41,7 +45,7 @@ export function SettingsClient() {
                       <User className="h-6 w-6 text-primary" />
                     </div>
                     <div className="space-y-1">
-                      <p className="text-sm font-medium">Full Name</p>
+                      <p className="text-sm font-medium">{t('settings.fullName')}</p>
                       <p className="text-sm text-muted-foreground">{userName}</p>
                     </div>
                   </div>
@@ -56,7 +60,7 @@ export function SettingsClient() {
                       <Mail className="h-6 w-6 text-primary" />
                     </div>
                     <div className="space-y-1">
-                      <p className="text-sm font-medium">Email Address</p>
+                      <p className="text-sm font-medium">{t('settings.email')}</p>
                       <p className="text-sm text-muted-foreground">{userEmail}</p>
                     </div>
                   </div>
@@ -71,7 +75,7 @@ export function SettingsClient() {
                       <Lock className="h-6 w-6 text-primary" />
                     </div>
                     <div className="space-y-1">
-                      <p className="text-sm font-medium">Password</p>
+                      <p className="text-sm font-medium">{t('settings.password')}</p>
                       <p className="text-sm text-muted-foreground">••••••••</p>
                     </div>
                   </div>
@@ -88,24 +92,24 @@ export function SettingsClient() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Shield className="h-5 w-5 text-primary" />
-                Quick Actions
+                {t('settings.quickActions')}
               </CardTitle>
               <CardDescription>
-                Common account operations
+                {t('settings.quickActionsBlurb')}
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-3">
               <Button variant="outline" className="w-full justify-start" size="lg">
                 <Download className="h-4 w-4 mr-2" />
-                Export My Data
+                {t('settings.exportData')}
               </Button>
               <Button variant="outline" className="w-full justify-start" size="lg">
                 <HardDrive className="h-4 w-4 mr-2" />
-                Manage Storage
+                {t('settings.manageStorage')}
               </Button>
               <Button variant="destructive" className="w-full justify-start" size="lg">
                 <Trash2 className="h-4 w-4 mr-2" />
-                Delete Account
+                {t('settings.deleteAccount')}
               </Button>
             </CardContent>
           </Card>
@@ -115,17 +119,17 @@ export function SettingsClient() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Bell className="h-5 w-5 text-primary" />
-                Notifications
+                {t('settings.notifications')}
               </CardTitle>
               <CardDescription>
-                Configure how you receive notifications
+                {t('settings.notificationsBlurb')}
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-center justify-between p-4 rounded-lg border">
                 <div className="space-y-1">
-                  <p className="text-sm font-medium">Email Notifications</p>
-                  <p className="text-xs text-muted-foreground">Receive updates via email</p>
+                  <p className="text-sm font-medium">{t('settings.emailNotifications')}</p>
+                  <p className="text-xs text-muted-foreground">{t('settings.emailNotificationsBlurb')}</p>
                 </div>
                 <label className="relative inline-flex items-center cursor-pointer">
                   <input type="checkbox" className="sr-only peer" />
@@ -134,8 +138,8 @@ export function SettingsClient() {
               </div>
               <div className="flex items-center justify-between p-4 rounded-lg border">
                 <div className="space-y-1">
-                  <p className="text-sm font-medium">Application Updates</p>
-                  <p className="text-xs text-muted-foreground">Status change notifications</p>
+                  <p className="text-sm font-medium">{t('settings.applicationUpdates')}</p>
+                  <p className="text-xs text-muted-foreground">{t('settings.applicationUpdatesBlurb')}</p>
                 </div>
                 <label className="relative inline-flex items-center cursor-pointer">
                   <input type="checkbox" className="sr-only peer" defaultChecked />
@@ -144,8 +148,8 @@ export function SettingsClient() {
               </div>
               <div className="flex items-center justify-between p-4 rounded-lg border">
                 <div className="space-y-1">
-                  <p className="text-sm font-medium">File Upload Notifications</p>
-                  <p className="text-xs text-muted-foreground">Get notified when files are uploaded</p>
+                  <p className="text-sm font-medium">{t('settings.fileNotifications')}</p>
+                  <p className="text-xs text-muted-foreground">{t('settings.fileNotificationsBlurb')}</p>
                 </div>
                 <label className="relative inline-flex items-center cursor-pointer">
                   <input type="checkbox" className="sr-only peer" defaultChecked />
@@ -160,16 +164,16 @@ export function SettingsClient() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <HardDrive className="h-5 w-5 text-primary" />
-                Storage
+                {t('settings.storage')}
               </CardTitle>
               <CardDescription>
-                Manage your file storage and usage
+                {t('settings.storageBlurb')}
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-3">
                 <div className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">Storage Used</span>
+                  <span className="text-muted-foreground">{t('settings.storageUsed')}</span>
                   <span className="font-medium">0 MB / 1 GB</span>
                 </div>
                 <div className="w-full bg-secondary rounded-full h-3">
@@ -177,11 +181,11 @@ export function SettingsClient() {
                 </div>
                 <div className="grid grid-cols-2 gap-4 pt-2">
                   <div className="space-y-1">
-                    <p className="text-xs text-muted-foreground">Documents</p>
-                    <p className="text-sm font-medium">0 files</p>
+                    <p className="text-xs text-muted-foreground">{t('settings.documents')}</p>
+                    <p className="text-sm font-medium">{t('settings.fileCount').replace('{n}', '0')}</p>
                   </div>
                   <div className="space-y-1">
-                    <p className="text-xs text-muted-foreground">Total Size</p>
+                    <p className="text-xs text-muted-foreground">{t('settings.totalSize')}</p>
                     <p className="text-sm font-medium">0 MB</p>
                   </div>
                 </div>
@@ -194,10 +198,10 @@ export function SettingsClient() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Globe className="h-5 w-5 text-primary" />
-                Preferences
+                {t('settings.preferences')}
               </CardTitle>
               <CardDescription>
-                Customize your application experience
+                {t('settings.preferencesBlurb')}
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -206,14 +210,17 @@ export function SettingsClient() {
                   <div className="flex items-center gap-3">
                     <Globe className="h-5 w-5 text-primary" />
                     <div>
-                      <p className="text-sm font-medium">Language</p>
-                      <p className="text-xs text-muted-foreground">Choose your preferred language</p>
+                      <p className="text-sm font-medium">{t('settings.language')}</p>
+                      <p className="text-xs text-muted-foreground">{t('settings.languageBlurb')}</p>
                     </div>
                   </div>
-                  <select className="w-full p-2 rounded-md border bg-background">
-                    <option>English (US)</option>
-                    <option>中文 (简体)</option>
-                    <option>中文 (繁體)</option>
+                  <select
+                    value={locale}
+                    onChange={(e) => setLocale(e.target.value as 'en' | 'zh')}
+                    className="w-full p-2 rounded-md border bg-background"
+                  >
+                    <option value="en">English (US)</option>
+                    <option value="zh">中文 (简体)</option>
                   </select>
                 </div>
 
@@ -221,14 +228,14 @@ export function SettingsClient() {
                   <div className="flex items-center gap-3">
                     <Globe className="h-5 w-5 text-primary" />
                     <div>
-                      <p className="text-sm font-medium">Time Zone</p>
-                      <p className="text-xs text-muted-foreground">Set your local time zone</p>
+                      <p className="text-sm font-medium">{t('settings.timeZone')}</p>
+                      <p className="text-xs text-muted-foreground">{t('settings.timeZoneBlurb')}</p>
                     </div>
                   </div>
-                  <select className="w-full p-2 rounded-md border bg-background">
-                    <option>UTC-5 (Eastern Time)</option>
-                    <option>UTC-8 (Pacific Time)</option>
-                    <option>UTC+8 (Beijing Time)</option>
+                  <select defaultValue="eastern" className="w-full p-2 rounded-md border bg-background">
+                    <option value="eastern">{t('settings.tzEastern')}</option>
+                    <option value="pacific">{t('settings.tzPacific')}</option>
+                    <option value="beijing">{t('settings.tzBeijing')}</option>
                   </select>
                 </div>
               </div>
@@ -240,10 +247,10 @@ export function SettingsClient() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Bot className="h-5 w-5 text-primary" />
-                AI Assistant
+                {t('settings.ai')}
               </CardTitle>
               <CardDescription>
-                Configure AI-powered features for your application
+                {t('settings.aiBlurb')}
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -251,8 +258,8 @@ export function SettingsClient() {
                 <div className="p-4 rounded-lg border space-y-3">
                   <div className="flex items-center justify-between">
                     <div className="space-y-1">
-                      <p className="text-sm font-medium">Auto-fill</p>
-                      <p className="text-xs text-muted-foreground">AI form completion</p>
+                      <p className="text-sm font-medium">{t('settings.autofill')}</p>
+                      <p className="text-xs text-muted-foreground">{t('settings.autofillBlurb')}</p>
                     </div>
                     <label className="relative inline-flex items-center cursor-pointer">
                       <input type="checkbox" className="sr-only peer" defaultChecked />
@@ -263,24 +270,24 @@ export function SettingsClient() {
 
                 <div className="p-4 rounded-lg border space-y-3">
                   <div className="space-y-1">
-                    <p className="text-sm font-medium">Suggestion Level</p>
-                    <p className="text-xs text-muted-foreground">AI assistance intensity</p>
+                    <p className="text-sm font-medium">{t('settings.suggestionLevel')}</p>
+                    <p className="text-xs text-muted-foreground">{t('settings.suggestionLevelBlurb')}</p>
                   </div>
                   <select
                     defaultValue="Balanced"
                     className="w-full p-2 rounded-md border bg-background text-sm"
                   >
-                    <option>Conservative</option>
-                    <option>Balanced</option>
-                    <option>Aggressive</option>
+                    <option value="Conservative">{t('settings.conservative')}</option>
+                    <option value="Balanced">{t('settings.balanced')}</option>
+                    <option value="Aggressive">{t('settings.aggressive')}</option>
                   </select>
                 </div>
 
                 <div className="p-4 rounded-lg border space-y-3">
                   <div className="flex items-center justify-between">
                     <div className="space-y-1">
-                      <p className="text-sm font-medium">Smart Review</p>
-                      <p className="text-xs text-muted-foreground">AI document analysis</p>
+                      <p className="text-sm font-medium">{t('settings.smartReview')}</p>
+                      <p className="text-xs text-muted-foreground">{t('settings.smartReviewBlurb')}</p>
                     </div>
                     <label className="relative inline-flex items-center cursor-pointer">
                       <input type="checkbox" className="sr-only peer" defaultChecked />
@@ -297,10 +304,10 @@ export function SettingsClient() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Info className="h-5 w-5 text-primary" />
-                About Aipply
+                {t('settings.about')}
               </CardTitle>
               <CardDescription>
-                AI-powered college application autofill system
+                {t('settings.aboutBlurb')}
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -309,23 +316,23 @@ export function SettingsClient() {
                   <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mb-2">
                     <Info className="h-5 w-5 text-primary" />
                   </div>
-                  <p className="text-sm font-medium">Version</p>
+                  <p className="text-sm font-medium">{t('settings.version')}</p>
                   <p className="text-sm text-muted-foreground">1.0.0</p>
                 </div>
                 <div className="space-y-2">
                   <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mb-2">
                     <Globe className="h-5 w-5 text-primary" />
                   </div>
-                  <p className="text-sm font-medium">Last Updated</p>
+                  <p className="text-sm font-medium">{t('settings.lastUpdated')}</p>
                   <p className="text-sm text-muted-foreground">Nov 7, 2025</p>
                 </div>
                 <div className="space-y-2">
                   <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mb-2">
                     <Shield className="h-5 w-5 text-primary" />
                   </div>
-                  <p className="text-sm font-medium">Documentation</p>
+                  <p className="text-sm font-medium">{t('settings.documentation')}</p>
                   <a href="/policy" className="text-sm text-primary hover:underline">
-                    Privacy Policy
+                    {t('settings.privacyPolicy')}
                   </a>
                 </div>
               </div>

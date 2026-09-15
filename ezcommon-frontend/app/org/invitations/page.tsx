@@ -5,6 +5,7 @@ import { useSession } from 'next-auth/react'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Label } from '@/components/ui/label'
+import { useT } from '@/lib/i18n/use-t'
 
 interface Invitation {
   org_id: string
@@ -26,6 +27,7 @@ interface StudentSummary {
 const backendBase = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
 
 export default function OrgInvitationsPage() {
+  const t = useT()
   const { data: session } = useSession()
   const orgId = (session?.user as any)?.orgId as string | undefined
   const orgUserId = (session?.user as any)?.id as string | undefined
@@ -44,7 +46,7 @@ export default function OrgInvitationsPage() {
       try {
         setLoadingInvites(true)
         const res = await fetch(`${backendBase}/api/org/invitations?org_id=${encodeURIComponent(orgId)}`)
-        if (!res.ok) throw new Error('Failed to load invitations')
+        if (!res.ok) throw new Error(t('org.loadInvitationsFailed'))
         const data = await res.json()
         const items = (data as any)?.items ?? []
         setInvitations(Array.isArray(items) ? items : [])
@@ -66,13 +68,13 @@ export default function OrgInvitationsPage() {
       const res = await fetch(
         `${backendBase}/api/org/students/search?query=${encodeURIComponent(searchQuery.trim())}`,
       )
-      if (!res.ok) throw new Error('Failed to search students')
+      if (!res.ok) throw new Error(t('org.searchFailed'))
       const data = await res.json()
       const users = (data as any)?.users ?? (data as any)?.items ?? []
       setSearchResults(Array.isArray(users) ? users : [])
     } catch (e) {
       console.error(e)
-      setError(e instanceof Error ? e.message : 'Search failed')
+      setError(e instanceof Error ? e.message : t('org.searchFailed'))
     } finally {
       setSearching(false)
     }
@@ -93,7 +95,7 @@ export default function OrgInvitationsPage() {
       })
       if (!res.ok) {
         const data = await res.json().catch(() => ({}))
-        throw new Error((data as any)?.detail || 'Failed to create invitation')
+        throw new Error((data as any)?.detail || t('org.inviteFailed'))
       }
       // Refresh invitations list
       const listRes = await fetch(
@@ -106,22 +108,19 @@ export default function OrgInvitationsPage() {
       }
     } catch (e) {
       console.error(e)
-      setError(e instanceof Error ? e.message : 'Failed to send invitation')
+      setError(e instanceof Error ? e.message : t('org.inviteFailed'))
     }
   }
 
   return (
     <div className="p-6 space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold">Student invitations</h1>
-        <p className="text-muted-foreground mt-1">
-          Search for existing student accounts and send invitations. Students must accept your
-          invitation before you can manage their applications.
-        </p>
+        <h1 className="text-2xl font-semibold">{t('org.invitationsTitle')}</h1>
+        <p className="text-muted-foreground mt-1">{t('org.invitationsIntro')}</p>
       </div>
 
       {!orgId && (
-        <p className="text-sm text-destructive">Missing organization id on your account.</p>
+        <p className="text-sm text-destructive">{t('org.missingOrgId')}</p>
       )}
 
       {error && <p className="text-sm text-destructive">{error}</p>}
@@ -129,16 +128,16 @@ export default function OrgInvitationsPage() {
       <section className="space-y-3">
         <form onSubmit={handleSearch} className="flex flex-col md:flex-row gap-2 md:items-end">
           <div className="flex-1 space-y-1">
-            <Label htmlFor="search">Search students</Label>
+            <Label htmlFor="search">{t('org.searchStudents')}</Label>
             <Input
               id="search"
-              placeholder="Search by email, name, or user ID"
+              placeholder={t('org.searchPlaceholder')}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
           </div>
           <Button type="submit" disabled={searching || !searchQuery.trim()}>
-            {searching ? 'Searching...' : 'Search'}
+            {searching ? t('org.searching') : t('org.search')}
           </Button>
         </form>
 
@@ -156,7 +155,7 @@ export default function OrgInvitationsPage() {
                   </div>
                 </div>
                 <Button size="sm" variant="outline" onClick={() => handleInvite(s)}>
-                  Invite
+                  {t('org.invite')}
                 </Button>
               </div>
             ))}
@@ -166,16 +165,16 @@ export default function OrgInvitationsPage() {
 
       <section className="space-y-3">
         <div>
-          <h2 className="text-lg font-semibold">Existing invitations</h2>
+          <h2 className="text-lg font-semibold">{t('org.existingInvitations')}</h2>
           <p className="text-xs text-muted-foreground">
-            Includes pending, accepted, and rejected invitations for this organization.
+            {t('org.invitationsBlurb')}
           </p>
         </div>
 
         {loadingInvites ? (
-          <p className="text-sm text-muted-foreground">Loading invitations...</p>
+          <p className="text-sm text-muted-foreground">{t('org.loadingInvitations')}</p>
         ) : invitations.length === 0 ? (
-          <p className="text-sm text-muted-foreground">No invitations yet.</p>
+          <p className="text-sm text-muted-foreground">{t('org.noInvitations')}</p>
         ) : (
           <div className="border rounded-lg divide-y bg-card">
             {invitations.map((inv) => (
@@ -185,11 +184,11 @@ export default function OrgInvitationsPage() {
               >
                 <div>
                   <div className="font-medium">
-                    Student ID: <span className="font-mono">{inv.student_id}</span>
+                    {t('org.studentId')}: <span className="font-mono">{inv.student_id}</span>
                   </div>
                   <div className="text-xs text-muted-foreground">
-                    Status: {inv.status}
-                    {inv.created_at && <span className="ml-2">Created: {inv.created_at}</span>}
+                    {t('org.status')}: {inv.status}
+                    {inv.created_at && <span className="ml-2">{t('org.created')}: {inv.created_at}</span>}
                   </div>
                 </div>
               </div>

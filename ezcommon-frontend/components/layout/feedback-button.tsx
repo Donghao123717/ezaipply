@@ -2,8 +2,10 @@
 import { useState } from 'react'
 import { MessageSquare } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { useT } from '@/lib/i18n/use-t'
 
 export function FeedbackButton() {
+  const t = useT()
   const [open, setOpen] = useState(false)
   const [sent, setSent] = useState(false)
   const [value, setValue] = useState('')
@@ -12,14 +14,14 @@ export function FeedbackButton() {
     <div className="fixed bottom-6 right-6 z-50">
       {open && (
         <div className="mb-2 w-72 rounded-xl border bg-card shadow-lg p-4">
-          <p className="text-sm font-semibold text-primary mb-2">Send feedback</p>
+          <p className="text-sm font-semibold text-primary mb-2">{t('feedbackWidget.title')}</p>
           {sent ? (
-            <p className="text-sm text-muted-foreground">Thanks — we read every note.</p>
+            <p className="text-sm text-muted-foreground">{t('feedbackWidget.thanks')}</p>
           ) : (
             <>
               <textarea
                 className="w-full min-h-20 rounded-md border p-2 text-sm resize-none"
-                placeholder="What's working, what's not?"
+                placeholder={t('feedbackWidget.placeholder')}
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
               />
@@ -29,7 +31,7 @@ export function FeedbackButton() {
                 disabled={!value.trim()}
                 onClick={() => setSent(true)}
               >
-                Send
+                {t('feedbackWidget.send')}
               </Button>
             </>
           )}
@@ -46,7 +48,7 @@ export function FeedbackButton() {
         className="flex items-center gap-2 rounded-full bg-card border shadow-lg px-4 py-2.5 text-sm font-medium text-primary hover:bg-muted transition-colors"
       >
         <MessageSquare className="h-4 w-4" />
-        Feedback
+        {t('feedbackWidget.button')}
       </button>
     </div>
   )

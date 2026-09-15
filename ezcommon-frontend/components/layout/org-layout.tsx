@@ -4,31 +4,33 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useSession } from 'next-auth/react'
 import { AccountMenu } from '@/components/home/account-menu'
+import { useT } from '@/lib/i18n/use-t'
 import { cn } from '@/lib/utils'
 
 interface MenuItem {
-  label: string
+  labelKey: string
   href: string
 }
 
 const orgMenu: MenuItem[] = [
-  { label: 'Dashboard', href: '/org/dashboard' },
-  { label: 'Students', href: '/org/students' },
-  { label: 'Invitations', href: '/org/invitations' },
+  { labelKey: 'org.navDashboard', href: '/org/dashboard' },
+  { labelKey: 'org.navStudents', href: '/org/students' },
+  { labelKey: 'org.navInvitations', href: '/org/invitations' },
 ]
 
 export function OrgLayout({ children }: { children: React.ReactNode }) {
+  const t = useT()
   const pathname = usePathname()
   const { data: session } = useSession()
 
-  const name = session?.user?.name || session?.user?.email || 'Organization'
+  const name = session?.user?.name || session?.user?.email || 'Aipply'
   const parts = name.split(' ').filter(Boolean)
   const initials = (parts[0]?.[0] || '') + (parts[1]?.[0] || '')
 
   return (
     <div className="min-h-screen w-full flex">
       <aside className="w-64 border-r bg-card p-4 flex-shrink-0">
-        <div className="text-xl font-bold mb-6 text-primary">Aipply Org</div>
+        <div className="text-xl font-bold mb-6 text-primary">{t('org.brand')}</div>
         <nav className="flex flex-col gap-2">
           {orgMenu.map((m) => {
             const isActive = pathname === m.href || pathname?.startsWith(m.href + '/')
@@ -41,7 +43,7 @@ export function OrgLayout({ children }: { children: React.ReactNode }) {
                   isActive && 'bg-accent text-accent-foreground font-medium',
                 )}
               >
-                {m.label}
+                {t(m.labelKey)}
               </Link>
             )
           })}
