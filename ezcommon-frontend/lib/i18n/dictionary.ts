@@ -1189,6 +1189,7 @@ export const dictionary = {
         placeholder: 'Tell me a story or paste an outline...',
       },
       evaluation: {
+        breakdown: 'How this score was reached',
         title: 'Essay Evaluation',
         deepReviewOn: 'Deep review · on · line-by-line',
         deepReviewOff: 'Deep review · off · single pass',
@@ -3113,6 +3114,7 @@ export const dictionary = {
         placeholder: '讲讲你的故事，或者直接粘贴大纲…',
       },
       evaluation: {
+        breakdown: '这个分数是怎么来的',
         title: '文书评估',
         deepReviewOn: '深度精读 · 已开启 · 逐句点评',
         deepReviewOff: '深度精读 · 已关闭 · 整体速览',

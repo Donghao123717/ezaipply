@@ -10,6 +10,8 @@ interface Evaluation {
   summary: string
   feedback: { category: string; comment: string }[]
   word_count: number
+  /** Per-criterion marks the overall score is computed from. */
+  criteria?: { key: string; label: string; score: number; weight: number; comment: string }[]
 }
 
 export function EssayEvaluation({
@@ -84,9 +86,12 @@ export function EssayEvaluation({
             <div
               className={cn(
                 'h-14 w-14 rounded-full border-4 flex items-center justify-center text-lg font-semibold shrink-0',
-                result.overall_score >= 75
+                // Banded to the rubric: a straight run of 3s - competent and
+                // ordinary - lands at 50, so 50 is not a failing essay, it is
+                // an unfinished one.
+                result.overall_score >= 70
                   ? 'border-emerald-500 text-emerald-600'
-                  : result.overall_score >= 50
+                  : result.overall_score >= 45
                     ? 'border-amber-500 text-amber-600'
                     : 'border-destructive text-destructive',
               )}
@@ -98,6 +103,35 @@ export function EssayEvaluation({
               <p className="text-xs text-muted-foreground mt-1">{t('writing.evaluation.words').replace('{count}', String(result.word_count))}</p>
             </div>
           </div>
+          {/* Where the number came from. A score with no breakdown is just an
+              opinion with a digit in front of it. */}
+          {!!result.criteria?.length && (
+            <div className="mb-3 rounded-lg border bg-card p-3">
+              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                {t('writing.evaluation.breakdown')}
+              </p>
+              <div className="space-y-1.5">
+                {result.criteria.map((c) => (
+                  <div key={c.key} className="flex items-baseline gap-2 text-xs">
+                    <span className="w-40 shrink-0 text-muted-foreground">{c.label}</span>
+                    <span className="flex shrink-0 gap-0.5" aria-label={`${c.score} / 5`}>
+                      {[1, 2, 3, 4, 5].map((n) => (
+                        <span
+                          key={n}
+                          className={cn(
+                            'h-1.5 w-3 rounded-full',
+                            n <= c.score ? 'bg-accent' : 'bg-muted-foreground/20',
+                          )}
+                        />
+                      ))}
+                    </span>
+                    <span className="min-w-0 text-muted-foreground">{c.comment}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div className="space-y-2">
             {result.feedback.map((item, i) => (
               <div key={i} className="rounded-lg bg-muted/60 px-3 py-2">

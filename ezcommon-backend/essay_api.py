@@ -167,11 +167,63 @@ class EvaluationFeedbackItem(BaseModel):
     comment: str
 
 
+class CriterionScore(BaseModel):
+    key: str
+    label: str
+    score: int          # 1-5 on the rubric below
+    weight: int         # percentage contribution to the overall score
+    comment: str
+
+
 class EvaluateResponse(BaseModel):
     overall_score: int
     summary: str
     feedback: List[EvaluationFeedbackItem]
     word_count: int
+    criteria: List[CriterionScore] = []
+
+
+# What an admissions essay is actually judged on, and what each level means.
+#
+# The previous version asked for one 0-100 number with nothing to anchor it, and
+# got 85 for almost everything. That is the documented failure mode: with no
+# rubric, a model returns the middle of its prior for anything competently
+# written, and only moves when the text is obviously bad. A score that says 85
+# to every draft carries no information, and worse, tells a student their essay
+# is finished when it is not.
+#
+# So the model never states an overall score at all. It scores each criterion on
+# a 1-5 scale with written anchors, and the overall is computed here from the
+# weights. Weights reflect what actually separates essays in a reading pile:
+# specificity and reflection carry half of it between them, because that is the
+# difference between an essay about a person and an essay about a topic.
+RUBRIC = [
+    ("promptFit", "Answers the prompt", 15,
+     "Does it answer the question asked, in full, rather than a nearby question the writer preferred?"),
+    ("specificity", "Specific detail", 25,
+     "Concrete, particular detail only this writer could supply - names, moments, sensory specifics - "
+     "versus general claims that would fit thousands of applicants."),
+    ("insight", "Reflection and insight", 25,
+     "What the writer made of the experience: thinking that goes somewhere, not a summary of events "
+     "followed by a stated lesson."),
+    ("voice", "Voice", 15,
+     "Sounds like one particular seventeen-year-old rather than an essay-shaped object. Penalise "
+     "thesaurus reaching and borrowed inspirational register."),
+    ("structure", "Structure and pacing", 10,
+     "Opens without throat-clearing, spends its words where the meaning is, and earns its ending."),
+    ("mechanics", "Mechanics and economy", 10,
+     "Clean grammar and no wasted words; respects the word limit."),
+]
+
+SCALE = (
+    "1 = absent or actively harmful. "
+    "2 = present but weak; a reader would notice the lack. "
+    "3 = competent and unremarkable - this is what most submitted essays are, and 3 is the honest "
+    "default, not a criticism. "
+    "4 = clearly strong; better than most of the pile. "
+    "5 = exceptional; a reader would still remember this an hour later. Rare - if you are giving out "
+    "several 5s, you are being generous rather than accurate."
+)
 
 
 @router.post("/api/essay/evaluate", response_model=EvaluateResponse, tags=["Essay"])
@@ -193,13 +245,28 @@ async def evaluate_essay(body: EvaluateRequest):
     depth = "Give a thorough, line-level review covering voice, structure, specificity, and pacing." \
         if body.deep_review else "Give a concise single-pass review covering the most impactful issues only."
 
+    rubric_text = "\n".join(
+        f"- {key} ({label}, {weight}% of the overall): {description}"
+        for key, label, weight, description in RUBRIC
+    )
+
     system_prompt = (
-        "You are an admissions essay reviewer. Evaluate the draft against the prompt and the "
-        f"{body.word_limit}-word target. {depth} "
+        "You are an admissions essay reader who has read thousands of these. Evaluate this draft "
+        f"against the prompt and the {body.word_limit}-word target. {depth}\n\n"
+        "Score each criterion from 1 to 5. Do NOT give an overall score - it is computed from your "
+        "criterion scores and the weights below, and any number you invent will be ignored.\n\n"
+        f"Criteria:\n{rubric_text}\n\n"
+        f"The 1-5 scale:\n{SCALE}\n\n"
+        "Calibrate honestly. An essay that is clean, organised and says something true but ordinary "
+        "is a 3 across the board - that is the middle of the range and most drafts belong there. "
+        "Scoring a mediocre draft generously does not encourage a student; it tells them to stop "
+        "working on an essay that will not stand out.\n\n"
         "Respond ONLY with JSON matching this shape: "
-        '{"overall_score": <0-100 integer>, "summary": "<2-3 sentence overview>", '
-        '"feedback": [{"category": "<short label like \'Opening hook\' or \'Specificity\'>", "comment": "<1-2 sentences>"}]}. '
-        "Include 3 to 6 feedback items."
+        '{"criteria": [{"key": "<one of the criterion keys above>", "score": <1-5>, '
+        '"comment": "<1-2 sentences justifying this score, naming something in the draft>"}], '
+        '"summary": "<2-3 sentence overview>", '
+        '"feedback": [{"category": "<short label like \'Opening hook\'>", "comment": "<1-2 sentences, actionable>"}]}. '
+        "Score every criterion. Include 3 to 6 feedback items, each one a change the writer could make."
     )
     user_prompt = f"Prompt: {body.prompt or '(none selected)'}\n\nEssay ({word_count} words):\n{text}"
 
@@ -222,11 +289,41 @@ async def evaluate_essay(body: EvaluateRequest):
             if isinstance(f, dict)
         ]
 
+        scored = {}
+        for item in parsed.get("criteria", []):
+            if not isinstance(item, dict):
+                continue
+            key = str(item.get("key", ""))
+            try:
+                value = int(item.get("score", 0))
+            except (TypeError, ValueError):
+                continue
+            if key and 1 <= value <= 5:
+                scored[key] = (value, str(item.get("comment", "")))
+
+        criteria: List[CriterionScore] = []
+        earned = 0.0
+        possible = 0
+        for key, label, weight, _ in RUBRIC:
+            if key not in scored:
+                continue
+            value, comment = scored[key]
+            criteria.append(
+                CriterionScore(key=key, label=label, score=value, weight=weight, comment=comment)
+            )
+            # 1-5 maps onto 0-100 of that criterion's weight, so a straight 3 -
+            # a competent, ordinary essay - lands at 50 rather than at 85.
+            earned += weight * (value - 1) / 4
+            possible += weight
+
+        overall = round(earned / possible * 100) if possible else 0
+
         return EvaluateResponse(
-            overall_score=int(parsed.get("overall_score", 0)),
+            overall_score=overall,
             summary=str(parsed.get("summary", "")),
             feedback=feedback_items,
             word_count=word_count,
+            criteria=criteria,
         )
     except HTTPException:
         raise
