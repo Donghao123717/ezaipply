@@ -6,7 +6,6 @@ import { useT } from '@/lib/i18n/use-t'
 import { useLocale } from '@/lib/i18n/locale-context'
 import { loadDS160Context } from '@/lib/ds160-store'
 import { loadProfileContext } from '@/lib/essay-store'
-import { loadStudyContext } from '@/lib/visa-study-context'
 import {
   loadInterview,
   saveInterview,
@@ -180,7 +179,6 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         turns: turns.map((turn) => ({ question: turn.question, answer: turn.answer })),
         ds160_context: loadDS160Context(userId),
         profile_context: loadProfileContext(userId),
-        study_context: loadStudyContext(userId),
         session_seed: seed,
       }),
     })
@@ -283,7 +281,6 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           turns: session.turns.filter((t) => t.answer).map((turn) => ({ question: turn.question, answer: turn.answer })),
           ds160_context: loadDS160Context(userId),
           profile_context: loadProfileContext(userId),
-          study_context: loadStudyContext(userId),
           session_seed: session?.seed ?? 1,
         }),
       })

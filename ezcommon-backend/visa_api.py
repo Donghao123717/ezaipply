@@ -230,22 +230,33 @@ VISA_TOPICS: Dict[str, List[Dict[str, str]]] = {
         {"key": "study_plan", "ask": "What exactly will you be studying there?", "probe": "What exactly they will study, which courses or research area, and how it follows from what they studied before."},
         {"key": "funding", "ask": "Who is paying for your studies, and what do they do?", "probe": "Who is paying, what that person earns or has saved, and whether the amount credibly covers the cost the I-20 states."},
         {"key": "academic_background", "ask": "What were your grades and test scores?", "probe": "Their grades, test scores, and previous school - and whether the jump to this university is plausible."},
-        {"key": "post_graduation", "ask": "What do you plan to do after you finish the degree?", "probe": "What they will do after the degree, and specifically why they intend to return home rather than stay."},
-        {"key": "ties_home", "ask": "What is waiting for you back home after you graduate?", "probe": "Family, property, a job offer, or anything else waiting for them at home."},
+        {"key": "post_graduation", "ask": "What do you plan to do after you finish the degree?", "probe": "The concrete next step after the degree - a specific industry, employer type, or further study - and why it has to happen at home."},
+        {"key": "ties_home", "ask": "Who depends on you at home?", "probe": "Family, property or obligations that exist right now - parents, siblings, a family business. Do NOT ask about post-graduation plans here; that is a separate question."},
         {"key": "why_not_home", "ask": "Why not study this subject in your own country?", "probe": "Why not study this subject at a university in their own country."},
         {"key": "relatives_us", "ask": "Do you have any relatives or close friends in the United States?", "probe": "Relatives or close contacts already in the United States, and their status."},
         {"key": "prior_travel", "ask": "Have you been to the United States before?", "probe": "Previous U.S. travel or visa refusals, and whether they left when they were supposed to."},
         {"key": "living_plan", "ask": "Where will you live, and do you plan to work while studying?", "probe": "Where they will live, how they will get around, and whether they intend to work."},
     ],
+    # B1/B2 is refused far more often than F-1, and almost always under 214(b) -
+    # the law presumes every applicant intends to immigrate until they show
+    # otherwise. So these topics are weighted towards what actually sinks
+    # applications: thin ties to home, vague plans, money that does not add up,
+    # and answers that contradict the form.
     "B1B2": [
-        {"key": "purpose", "ask": "What is the purpose of your trip?", "probe": "The specific reason for this trip and what they will actually do on it."},
-        {"key": "itinerary", "ask": "How long will you stay, and where will you go?", "probe": "Dates, cities, where they are staying, and how long."},
-        {"key": "funding", "ask": "Who is paying for your studies, and what do they do?", "probe": "Who pays for the trip and whether that is consistent with their income."},
-        {"key": "employment", "ask": "What job or study are you returning to?", "probe": "The job or study they are returning to, and whether leave has been approved."},
-        {"key": "ties_home", "ask": "What is waiting for you back home after you graduate?", "probe": "Family, property, or obligations that make returning the obvious outcome."},
-        {"key": "us_contacts", "ask": "Who are you visiting in the United States?", "probe": "Who they are visiting or meeting, and that person's status."},
-        {"key": "prior_travel", "ask": "Have you been to the United States before?", "probe": "Previous travel and whether they overstayed."},
-        {"key": "return_plan", "ask": "What happens right after you return home?", "probe": "What happens immediately after they get back."},
+        {"key": "purpose", "ask": "What is the purpose of your trip?", "probe": "The specific reason for this trip. A vague answer - 'tourism', 'to visit' - is itself a refusal signal; press for what they will actually do."},
+        {"key": "itinerary", "ask": "Where will you go, and how long will you stay?", "probe": "Exact dates, cities, and where they are staying. Not being able to say where they are going or when they are coming back is one of the most common refusal reasons."},
+        {"key": "why_this_place", "ask": "Why did you choose that city?", "probe": "Why that particular city or state, and whether it fits the stated purpose. A trip with no reason for its destination reads as a cover story."},
+        {"key": "funding", "ask": "Who is paying for this trip, and what do you earn?", "probe": "Who pays, their annual income, and whether the cost of the trip is plausible against it. Ask for the number."},
+        {"key": "sponsor", "ask": "Who will you be staying with in the United States?", "probe": "The host: who they are, their immigration status, how the applicant knows them, and whether the applicant will be staying in their home. Do NOT ask who pays here - that is a separate question already covered elsewhere. A host who is an immediate relative with a green card cuts against the presumption of return."},
+        {"key": "employment", "ask": "What do you do for work, and has your leave been approved?", "probe": "Their job, how long they have held it, and whether leave has actually been granted for the dates requested. Unemployed, or newly employed, is a common refusal profile."},
+        {"key": "ties_family", "ask": "Who is staying behind when you travel?", "probe": "Spouse, children, elderly parents who depend on them. Being young, single and without dependents is the profile refused fastest, and they should know to lead with whatever ties they do have."},
+        {"key": "ties_assets", "ask": "Do you own property or a business at home?", "probe": "Property, a business, savings, or anything else that would be costly to abandon."},
+        {"key": "intent_to_return", "ask": "What brings you back?", "probe": "The direct 214(b) question. What specifically requires them to be home again - a job to return to, a lease, a term starting, a family obligation."},
+        {"key": "no_work", "ask": "Do you intend to work while you are in the United States?", "probe": "Whether they understand a B visa permits no employment. Any hint of looking for work, or of an ambiguous 'business opportunity', is disqualifying."},
+        {"key": "prior_travel", "ask": "Have you travelled outside your country before?", "probe": "Previous travel, previous U.S. trips, and whether they returned on time. A clean record of leaving on time is one of the strongest things they have; no travel history at all is a weakness."},
+        {"key": "relatives_us", "ask": "Do you have relatives living in the United States?", "probe": "Relatives or close contacts in the U.S. and their status - especially immediate family who are citizens or permanent residents, which cuts directly against the presumption of return."},
+        {"key": "previous_refusal", "ask": "Have you ever been refused a U.S. visa?", "probe": "Any previous refusal, and what has changed since. Concealing one is worse than having one."},
+        {"key": "return_plan", "ask": "What happens the week after you get back?", "probe": "What is scheduled immediately after the trip. A concrete commitment on the calendar is worth more than a general promise to return."},
     ],
 }
 
@@ -391,10 +402,6 @@ class InterviewRequest(BaseModel):
     turns: List[InterviewTurn] = Field(default_factory=list)
     ds160_context: str = ""
     profile_context: str = ""
-    # Where they are actually going: the school list, the intended major. The
-    # officer cannot ask "why Duke" without this, and "why this school" is one
-    # of the few questions every F-1 applicant is guaranteed to face.
-    study_context: str = ""
     # Fixed for the life of one interview, so the topic order is stable while
     # it runs and different the next time they start one.
     session_seed: int = 0
@@ -459,15 +466,28 @@ async def visa_interview(body: InterviewRequest):
         "Real interviews are two to five minutes and conducted in English. Ask ONE question at a time, "
         "short and direct, the way an officer actually speaks.\n\n"
         f"Ground this question should cover: {topic['probe']}\n"
-        "Stay on that ground unless the applicant's last answer was vague, rehearsed or evasive - in "
-        "which case press on that instead, which is what an officer would do. Never re-ask something "
-        "already covered in the transcript below, and do not open with the same question every time.\n\n"
-        "Use their actual details. If you know which university they are heading to, name it. If you "
-        "know their major, their funding source, their home city, ask about those specifically rather "
-        "than in the abstract - a generic question teaches nothing that a list of sample questions "
-        "would not. Where you genuinely know nothing, ask the plain version rather than inventing a "
-        "detail.\n\n"
-        "You can see the applicant's DS-160 answers. Your most important job is to catch where what "
+        "Stay on that ground. You may abandon it to press a vague, rehearsed or evasive answer - an "
+        "officer would - but only ONCE: if your previous question was already a follow-up, return to "
+        "the assigned ground no matter how unsatisfying the last answer was. An officer presses once "
+        "and moves on; they do not circle.\n\n"
+        "Ask only questions a consular officer actually asks at the window. No hypotheticals about "
+        "being refused, no questions about how the applicant feels, no coaching disguised as a "
+        "question.\n\n"
+        "Use their actual details. Their DS-160 below carries what their I-20 says - the school, the "
+        "course of study, the SEVIS number - along with their funding, their family and their home "
+        "city. Name those when you ask: 'why this university', 'why this programme', 'who is paying' "
+        "land completely differently when the school and the parent's occupation are in the question. "
+        "A generic question teaches nothing a list of sample questions would not. Where the form is "
+        "genuinely silent, ask the plain version rather than inventing a detail.\n\n"
+        + (
+            "This is a B visa, so the law starts against the applicant: section 214(b) presumes every "
+            "applicant intends to immigrate until they prove otherwise. Almost every refusal at this "
+            "window is 214(b), and it is decided in under two minutes on thin ties, vague plans, or "
+            "money that does not add up. Interview accordingly - press where a real officer would.\n\n"
+            if body.visa_type == "B1B2"
+            else ""
+        )
+        + "You can see the applicant's DS-160 answers. Your most important job is to catch where what "
         "they just SAID conflicts with what they WROTE on the form - a different funding source, a "
         "different length of stay, a different job, a relative in the U.S. they did not declare. Report "
         "these precisely, quoting both sides. Do not invent conflicts: if the spoken answer and the "
@@ -503,11 +523,21 @@ async def visa_interview(body: InterviewRequest):
         )
     )
 
+    already_asked = [t.question for t in body.turns if t.question]
+    asked_block = (
+        "Questions you have ALREADY asked in this interview - asking any of these again, or a "
+        "rephrasing of one, is a failure:\n"
+        + "\n".join(f"  {i + 1}. {q}" for i, q in enumerate(already_asked))
+        + "\n\n"
+        if already_asked
+        else ""
+    )
+
     user_block = (
         f"Applicant's profile:\n{body.profile_context or '(none)'}\n\n"
-        f"Where they are going:\n{body.study_context or '(not recorded yet)'}\n\n"
         f"Applicant's DS-160 answers:\n{body.ds160_context or '(none)'}\n\n"
         f"Interview so far:\n{transcript or '(not started - ask your opening question)'}\n\n"
+        + asked_block
         + (
             "The interview has run its length. Give your evaluation of the last answer and, for "
             "'question', a one-line closing remark instead of another question."
@@ -666,6 +696,16 @@ async def visa_risk_214b(body: RiskFactorRequest):
         + _language_rule(body.locale) + "\n\n"
         'Respond ONLY with JSON: {"factors": [{"key": "...", "label": "...", "score": 0, '
         '"finding": "...", "evidence": ["..."]}], "overall": 0, "summary": "...", "missing": ["..."]}'
+    )
+
+    already_asked = [t.question for t in body.turns if t.question]
+    asked_block = (
+        "Questions you have ALREADY asked in this interview - asking any of these again, or a "
+        "rephrasing of one, is a failure:\n"
+        + "\n".join(f"  {i + 1}. {q}" for i, q in enumerate(already_asked))
+        + "\n\n"
+        if already_asked
+        else ""
     )
 
     user_block = (
@@ -937,9 +977,18 @@ async def visa_interview_review(body: InterviewReviewRequest):
         '"weaknesses": [], "drill": [], "unresolved_conflicts": []}'
     )
 
+    already_asked = [t.question for t in body.turns if t.question]
+    asked_block = (
+        "Questions you have ALREADY asked in this interview - asking any of these again, or a "
+        "rephrasing of one, is a failure:\n"
+        + "\n".join(f"  {i + 1}. {q}" for i, q in enumerate(already_asked))
+        + "\n\n"
+        if already_asked
+        else ""
+    )
+
     user_block = (
         f"Applicant's profile:\n{body.profile_context or '(none)'}\n\n"
-        f"Where they are going:\n{body.study_context or '(not recorded yet)'}\n\n"
         f"Applicant's DS-160 answers:\n{body.ds160_context or '(none)'}\n\n"
         f"Full interview transcript:\n{transcript}"
     )
