@@ -36,6 +36,13 @@ export interface InterviewSession {
   turns: InterviewTurn[]
   startedAt: string
   done: boolean
+  /**
+   * Fixed when the interview starts and sent with every turn. The backend
+   * shuffles its topic order from it, so the question order is stable while an
+   * interview runs and different the next time one is started - practising
+   * twice should not be the same interview twice.
+   */
+  seed?: number
 }
 
 function key(userId: string) {

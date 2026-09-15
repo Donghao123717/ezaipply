@@ -6,6 +6,7 @@ import { useT } from '@/lib/i18n/use-t'
 import { useLocale } from '@/lib/i18n/locale-context'
 import { loadDS160Context } from '@/lib/ds160-store'
 import { loadProfileContext } from '@/lib/essay-store'
+import { loadStudyContext } from '@/lib/visa-study-context'
 import {
   loadInterview,
   saveInterview,
@@ -168,7 +169,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' })
   }, [session, pending])
 
-  async function callInterview(turns: InterviewTurn[]) {
+  async function callInterview(turns: InterviewTurn[], seed: number) {
     const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
     const res = await fetch(`${base}/api/visa/interview`, {
       method: 'POST',
@@ -179,6 +180,8 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         turns: turns.map((turn) => ({ question: turn.question, answer: turn.answer })),
         ds160_context: loadDS160Context(userId),
         profile_context: loadProfileContext(userId),
+        study_context: loadStudyContext(userId),
+        session_seed: seed,
       }),
     })
     const data = await res.json()
@@ -189,8 +192,11 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
   async function start() {
     setBusy(true)
     setError(null)
+    // Minted here, before the opening question, and kept for the rest of the
+    // interview. Two runs get two different topic orders.
+    const freshSeed = Math.floor(Math.random() * 1_000_000) + 1
     try {
-      const data = await callInterview([])
+      const data = await callInterview([], freshSeed)
       // The open question is stored as a trailing turn with no answer. It is
       // what loadInterview() resumes from, and without it a reload mid-
       // interview lost the question and told the applicant, on an interview
@@ -200,6 +206,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         turns: [{ question: data.question, questionTranslation: data.question_translation || '', answer: '' }],
         startedAt: new Date().toISOString(),
         done: false,
+        seed: freshSeed,
       }
       setSession(fresh)
       saveInterview(userId, fresh)
@@ -225,7 +232,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
     ]
     setAnswer('')
     try {
-      const data = await callInterview(answered)
+      const data = await callInterview(answered, session.seed ?? 1)
       // The reply grades the answer we just sent, then asks the next question.
       const graded = [...answered]
       graded[graded.length - 1] = {
@@ -276,6 +283,8 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           turns: session.turns.filter((t) => t.answer).map((turn) => ({ question: turn.question, answer: turn.answer })),
           ds160_context: loadDS160Context(userId),
           profile_context: loadProfileContext(userId),
+          study_context: loadStudyContext(userId),
+          session_seed: session?.seed ?? 1,
         }),
       })
       const data = await res.json()

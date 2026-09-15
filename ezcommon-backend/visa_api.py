@@ -9,6 +9,7 @@ opinion - same framing as forecast_api.py's admission-chance estimate.
 """
 import json
 import os
+import random
 import re
 from typing import Any, Dict, List, Optional
 
@@ -211,6 +212,44 @@ VISA_ALLOWED_LINKS: Dict[str, str] = {
 }
 
 # F-1 and B1/B2 interviews barely overlap, so the type steers every prompt here.
+# The areas a consular officer actually works through, per visa class.
+#
+# Without this the model was left to choose its own next question from an open
+# prompt, and it chose the same three every time - study plan, funding, plans
+# after graduation - because those are the most representative F-1 questions
+# and nothing told it which ground had already been covered. An officer does
+# not work that way: they open somewhere, and where they go next depends on
+# what they have not yet tested.
+#
+# One topic is assigned per turn from a per-interview shuffle, so two runs of
+# the same interview ask different things in a different order, and no run
+# repeats itself.
+VISA_TOPICS: Dict[str, List[Dict[str, str]]] = {
+    "F1": [
+        {"key": "school_choice", "ask": "Why did you choose this university over the others you were admitted to?", "probe": "Why this specific university over the others they were admitted to, and what they know about it - the programme, the city, a professor, the curriculum. Vagueness here is a classic red flag."},
+        {"key": "study_plan", "ask": "What exactly will you be studying there?", "probe": "What exactly they will study, which courses or research area, and how it follows from what they studied before."},
+        {"key": "funding", "ask": "Who is paying for your studies, and what do they do?", "probe": "Who is paying, what that person earns or has saved, and whether the amount credibly covers the cost the I-20 states."},
+        {"key": "academic_background", "ask": "What were your grades and test scores?", "probe": "Their grades, test scores, and previous school - and whether the jump to this university is plausible."},
+        {"key": "post_graduation", "ask": "What do you plan to do after you finish the degree?", "probe": "What they will do after the degree, and specifically why they intend to return home rather than stay."},
+        {"key": "ties_home", "ask": "What is waiting for you back home after you graduate?", "probe": "Family, property, a job offer, or anything else waiting for them at home."},
+        {"key": "why_not_home", "ask": "Why not study this subject in your own country?", "probe": "Why not study this subject at a university in their own country."},
+        {"key": "relatives_us", "ask": "Do you have any relatives or close friends in the United States?", "probe": "Relatives or close contacts already in the United States, and their status."},
+        {"key": "prior_travel", "ask": "Have you been to the United States before?", "probe": "Previous U.S. travel or visa refusals, and whether they left when they were supposed to."},
+        {"key": "living_plan", "ask": "Where will you live, and do you plan to work while studying?", "probe": "Where they will live, how they will get around, and whether they intend to work."},
+    ],
+    "B1B2": [
+        {"key": "purpose", "ask": "What is the purpose of your trip?", "probe": "The specific reason for this trip and what they will actually do on it."},
+        {"key": "itinerary", "ask": "How long will you stay, and where will you go?", "probe": "Dates, cities, where they are staying, and how long."},
+        {"key": "funding", "ask": "Who is paying for your studies, and what do they do?", "probe": "Who pays for the trip and whether that is consistent with their income."},
+        {"key": "employment", "ask": "What job or study are you returning to?", "probe": "The job or study they are returning to, and whether leave has been approved."},
+        {"key": "ties_home", "ask": "What is waiting for you back home after you graduate?", "probe": "Family, property, or obligations that make returning the obvious outcome."},
+        {"key": "us_contacts", "ask": "Who are you visiting in the United States?", "probe": "Who they are visiting or meeting, and that person's status."},
+        {"key": "prior_travel", "ask": "Have you been to the United States before?", "probe": "Previous travel and whether they overstayed."},
+        {"key": "return_plan", "ask": "What happens right after you return home?", "probe": "What happens immediately after they get back."},
+    ],
+}
+
+
 VISA_TYPES: Dict[str, Dict[str, str]] = {
     "F1": {
         "label": "F-1 student visa",
@@ -352,6 +391,13 @@ class InterviewRequest(BaseModel):
     turns: List[InterviewTurn] = Field(default_factory=list)
     ds160_context: str = ""
     profile_context: str = ""
+    # Where they are actually going: the school list, the intended major. The
+    # officer cannot ask "why Duke" without this, and "why this school" is one
+    # of the few questions every F-1 applicant is guaranteed to face.
+    study_context: str = ""
+    # Fixed for the life of one interview, so the topic order is stable while
+    # it runs and different the next time they start one.
+    session_seed: int = 0
     locale: str = "en"
 
 
@@ -396,6 +442,14 @@ async def visa_interview(body: InterviewRequest):
     last = answered[-1] if answered else None
     done = len(answered) >= MAX_INTERVIEW_TURNS
 
+    # The ground this question should cover. Shuffled per interview from the
+    # seed the client holds, so the same applicant practising twice does not
+    # get the same interview twice, and never the same question twice in one.
+    topics = VISA_TOPICS.get(body.visa_type) or VISA_TOPICS["F1"]
+    order = list(topics)
+    random.Random(body.session_seed or 1).shuffle(order)
+    topic = order[len(answered) % len(order)]
+
     transcript = "\n".join(f"Officer: {t.question}\nApplicant: {t.answer or '(no answer yet)'}" for t in body.turns)
 
     system_prompt = (
@@ -403,8 +457,16 @@ async def visa_interview(body: InterviewRequest):
         "between questions - the coach reviewing how they did.\n\n"
         f"What decides this visa type: {visa['focus']}\n\n"
         "Real interviews are two to five minutes and conducted in English. Ask ONE question at a time, "
-        "short and direct, the way an officer actually speaks. Follow up when an answer is vague, "
-        "rehearsed, or evasive rather than moving down a list.\n\n"
+        "short and direct, the way an officer actually speaks.\n\n"
+        f"Ground this question should cover: {topic['probe']}\n"
+        "Stay on that ground unless the applicant's last answer was vague, rehearsed or evasive - in "
+        "which case press on that instead, which is what an officer would do. Never re-ask something "
+        "already covered in the transcript below, and do not open with the same question every time.\n\n"
+        "Use their actual details. If you know which university they are heading to, name it. If you "
+        "know their major, their funding source, their home city, ask about those specifically rather "
+        "than in the abstract - a generic question teaches nothing that a list of sample questions "
+        "would not. Where you genuinely know nothing, ask the plain version rather than inventing a "
+        "detail.\n\n"
         "You can see the applicant's DS-160 answers. Your most important job is to catch where what "
         "they just SAID conflicts with what they WROTE on the form - a different funding source, a "
         "different length of stay, a different job, a relative in the U.S. they did not declare. Report "
@@ -443,6 +505,7 @@ async def visa_interview(body: InterviewRequest):
 
     user_block = (
         f"Applicant's profile:\n{body.profile_context or '(none)'}\n\n"
+        f"Where they are going:\n{body.study_context or '(not recorded yet)'}\n\n"
         f"Applicant's DS-160 answers:\n{body.ds160_context or '(none)'}\n\n"
         f"Interview so far:\n{transcript or '(not started - ask your opening question)'}\n\n"
         + (
@@ -457,14 +520,24 @@ async def visa_interview(body: InterviewRequest):
         raw = llm_provider.chat_completion(
             messages=[{"role": "system", "content": system_prompt}, {"role": "user", "content": user_block}],
             temperature=0.6,
-            max_tokens=1100,
+            max_tokens=1800,
         )
         parsed = _extract_json(raw["content"])
         if not isinstance(parsed, dict) or not parsed.get("question"):
-            raise HTTPException(
-                status_code=status.HTTP_502_BAD_GATEWAY,
-                detail="Interviewer returned an unusable response",
+            # One retry, then carry on with the plain question for this topic.
+            # Losing the coaching on one turn is a degraded interview; a 502
+            # mid-session is a lost one, and the applicant did nothing wrong.
+            raw = llm_provider.chat_completion(
+                messages=[{"role": "system", "content": system_prompt},
+                          {"role": "user", "content": user_block}],
+                temperature=0.7,
+                max_tokens=1800,
             )
+            parsed = _extract_json(raw["content"])
+        if not isinstance(parsed, dict) or not parsed.get("question"):
+            parsed = {"question": topic.get("ask", "Tell me about your plans."),
+                      "question_translation": "", "evaluation": None,
+                      "score": None, "better_answer": None, "consistency": []}
 
         flags: List[ConsistencyFlag] = []
         for item in parsed.get("consistency", [])[:6]:
@@ -866,6 +939,7 @@ async def visa_interview_review(body: InterviewReviewRequest):
 
     user_block = (
         f"Applicant's profile:\n{body.profile_context or '(none)'}\n\n"
+        f"Where they are going:\n{body.study_context or '(not recorded yet)'}\n\n"
         f"Applicant's DS-160 answers:\n{body.ds160_context or '(none)'}\n\n"
         f"Full interview transcript:\n{transcript}"
     )
