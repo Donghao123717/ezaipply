@@ -1027,3 +1027,119 @@ async def visa_interview_review(body: InterviewReviewRequest):
         raise
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
+
+class ParseI20Request(BaseModel):
+    user_id: str
+    filename: str
+
+
+class ParsedI20(BaseModel):
+    """The fields an I-20 carries that the DS-160 and the interview both want."""
+
+    sevis_id: str = ""
+    school_name: str = ""
+    school_address: str = ""
+    course_of_study: str = ""
+    degree_level: str = ""
+    program_start: str = ""
+    program_end: str = ""
+    estimated_annual_cost: str = ""
+    funding_source: str = ""
+    student_name: str = ""
+    found: bool = False
+    note: str = ""
+
+
+@router.post("/api/visa/parse-i20", response_model=ParsedI20, tags=["Visa"])
+async def parse_i20(body: ParseI20Request):
+    """Read an uploaded I-20 and hand back the fields the rest of the app needs.
+
+    Uploading the form and the app knowing what is on it are different things,
+    and until now only the first happened - the mock interview kept asking
+    generic questions because nothing had ever read the document. The I-20
+    carries exactly what is missing: the school, the course, the SEVIS number,
+    the cost the student has to show funding for.
+
+    Text first, vision only if the PDF has no text layer. A scanned I-20 is
+    common enough that falling back matters, but running vision on a normal
+    text PDF would cost money for nothing.
+    """
+    if not llm_provider:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="LLM provider not available")
+
+    try:
+        from services.intelligent_extractor_service import IntelligentExtractorService
+
+        extractor = IntelligentExtractorService(llm_provider=llm_provider)
+        file_bytes = extractor._fetch_file_bytes(body.user_id, body.filename, "visa")
+        if not file_bytes:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Uploaded file could not be read")
+
+        text = extractor._extract_text(body.filename, file_bytes) or ""
+        if len(text.strip()) < 40 and body.filename.lower().endswith(".pdf"):
+            # A scan: no text layer to read, so look at it instead.
+            text = extractor._extract_text_from_image(body.filename, file_bytes, "png") or text
+
+        if len(text.strip()) < 20:
+            return ParsedI20(found=False, note="Could not read any text from that file")
+
+        system_prompt = (
+            "You are reading a U.S. Form I-20 (Certificate of Eligibility for F-1 status). Pull out "
+            "only what is printed on it. Never guess or fill a field from general knowledge - if the "
+            "document does not show it, return an empty string for it.\n\n"
+            "Fields:\n"
+            "- sevis_id: the SEVIS identifier, usually starting with N and digits\n"
+            "- school_name: the school named on the form\n"
+            "- school_address: the school's address as printed\n"
+            "- course_of_study: the major or field of study\n"
+            "- degree_level: e.g. Bachelor's, Master's, Doctorate\n"
+            "- program_start / program_end: dates as printed\n"
+            "- estimated_annual_cost: the total estimated expenses for one academic year, with currency\n"
+            "- funding_source: how the student's funding is described, e.g. personal funds, family, "
+            "school scholarship, with amounts if shown\n"
+            "- student_name: the student's name as printed\n\n"
+            'Respond ONLY with JSON: {"sevis_id": "", "school_name": "", "school_address": "", '
+            '"course_of_study": "", "degree_level": "", "program_start": "", "program_end": "", '
+            '"estimated_annual_cost": "", "funding_source": "", "student_name": ""}'
+        )
+
+        raw = llm_provider.chat_completion(
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"Document text:\n{text[:12000]}"},
+            ],
+            temperature=0.0,
+            max_tokens=700,
+        )
+        parsed = _extract_json(raw["content"])
+        if not isinstance(parsed, dict):
+            return ParsedI20(found=False, note="Could not read the fields from that file")
+
+        def take(key: str) -> str:
+            value = parsed.get(key)
+            return str(value).strip() if value not in (None, "") else ""
+
+        result = ParsedI20(
+            sevis_id=take("sevis_id"),
+            school_name=take("school_name"),
+            school_address=take("school_address"),
+            course_of_study=take("course_of_study"),
+            degree_level=take("degree_level"),
+            program_start=take("program_start"),
+            program_end=take("program_end"),
+            estimated_annual_cost=take("estimated_annual_cost"),
+            funding_source=take("funding_source"),
+            student_name=take("student_name"),
+        )
+        # A file that yields nothing recognisable is more likely the wrong file
+        # than an unusual I-20, and saying so beats silently filling nothing.
+        result.found = bool(result.school_name or result.sevis_id or result.course_of_study)
+        if not result.found:
+            result.note = "That does not look like an I-20"
+        return result
+
+    except HTTPException:
+        raise
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=f"Could not read the I-20: {e}")

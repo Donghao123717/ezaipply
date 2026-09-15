@@ -2,8 +2,9 @@
 import { useRef, useState } from 'react'
 import { Loader2, Paperclip, X } from 'lucide-react'
 import { useT } from '@/lib/i18n/use-t'
-import type { RequiredDocumentKey, VisaDocFile } from '@/lib/visa-prep-store'
 import { apiErrorMessage } from '@/lib/api-error'
+import { parseI20, applyI20ToDS160 } from '@/lib/i20-import'
+import type { RequiredDocumentKey, VisaDocFile } from '@/lib/visa-prep-store'
 
 /**
  * Attach the actual document to a checklist row.
@@ -32,6 +33,8 @@ export function VisaDocumentUpload({
   const t = useT()
   const inputRef = useRef<HTMLInputElement>(null)
   const [busy, setBusy] = useState(false)
+  const [reading, setReading] = useState(false)
+  const [imported, setImported] = useState<{ label: string; value: string }[]>([])
   const [error, setError] = useState<string | null>(null)
 
   async function send(list: FileList | null) {
@@ -57,11 +60,38 @@ export function VisaDocumentUpload({
         url: f.url,
         uploadedAt: new Date().toISOString(),
       }))
-      onUploaded(added.length ? added : Array.from(list).map((f) => ({
-        filename: f.name,
-        size: f.size,
-        uploadedAt: new Date().toISOString(),
-      })))
+      const stored = added.length
+        ? added
+        : Array.from(list).map((f) => ({
+            filename: f.name,
+            size: f.size,
+            uploadedAt: new Date().toISOString(),
+          }))
+      onUploaded(stored)
+
+      // An I-20 is the one document here that the rest of the app can use:
+      // it names the school, the course and the SEVIS number, which is what
+      // the DS-160 asks for and what the mock interviewer needs in order to
+      // ask "why this university" rather than a generic question.
+      if (docKey === 'i20' && stored.length) {
+        setReading(true)
+        try {
+          const raw = (data.files || data.uploaded_files || [])[0]?.filename || `${docKey}__${stored[0].filename}`
+          const parsed = await parseI20(userId, raw)
+          if (parsed.found) {
+            const applied = applyI20ToDS160(userId, parsed)
+            setImported(applied)
+          } else if (parsed.note) {
+            setError(parsed.note)
+          }
+        } catch (e) {
+          // The file is uploaded either way; failing to read it is a missed
+          // convenience, not a failed upload, and saying otherwise would be a lie.
+          setError(e instanceof Error ? e.message : t('visaPrep.upload.readFailed'))
+        } finally {
+          setReading(false)
+        }
+      }
     } catch (e) {
       setError(e instanceof Error ? e.message : t('visaPrep.upload.failed'))
     } finally {
@@ -106,6 +136,29 @@ export function VisaDocumentUpload({
           </span>
         ))}
       </div>
+
+      {reading && (
+        <p className="mt-1 flex items-center gap-1 text-[11px] text-muted-foreground">
+          <Loader2 className="h-3 w-3 animate-spin" />
+          {t('visaPrep.upload.reading')}
+        </p>
+      )}
+
+      {/* What was taken off the document, named. Nothing should land in a form
+          the applicant signs under penalty of perjury without them seeing it. */}
+      {imported.length > 0 && (
+        <div className="mt-1.5 rounded-md border border-accent/40 bg-accent/5 px-2.5 py-1.5">
+          <p className="text-[11px] font-medium text-accent">{t('visaPrep.upload.imported')}</p>
+          <dl className="mt-1 space-y-0.5">
+            {imported.map((row) => (
+              <div key={row.label} className="flex gap-1.5 text-[11px]">
+                <dt className="shrink-0 text-muted-foreground">{row.label}</dt>
+                <dd className="truncate font-medium text-primary">{row.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      )}
 
       {error && <p className="mt-1 text-[11px] text-destructive">{error}</p>}
 
