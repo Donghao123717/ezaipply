@@ -11,6 +11,14 @@ export interface RecommendedCollege {
   category: CollegeCategory
   rationale: string
   acceptanceRate: number
+  /** 0-100 overall fit, computed from scores, programme and stated preferences. */
+  fitScore?: number
+  /** The dimensions behind the score, so the student can argue with it. */
+  reasons?: { label: string; detail: string }[]
+  /** 'ED' or 'EA' on the one or two reaches worth an early card. */
+  earlyPlan?: string | null
+  /** Estimated all-in annual cost, USD thousands. */
+  costPerYear?: number
 }
 
 export interface RecommendationSet {

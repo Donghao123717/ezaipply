@@ -11,7 +11,10 @@ import {
   type RecommendationSet,
   type RecommendedCollege,
 } from '@/lib/recommendation-store'
-import { COLLEGES_DATABASE } from '@/lib/colleges-database'
+import { buildCandidates } from '@/lib/school-candidates'
+import { SCHOOL_FIT } from '@/lib/school-fit-data'
+import { loadPreferences, toRequestShape, type CollegePreferences } from '@/lib/college-preferences'
+import { PreferenceIntake } from '@/components/colleges/preference-intake'
 import { computeProfileStrength } from '@/lib/profile-strength'
 import { computeStudentScores } from '@/lib/student-scores'
 import { loadProfileContext } from '@/lib/essay-store'
@@ -37,9 +40,11 @@ export function RecommendedColleges({
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [leaving, setLeaving] = useState<Set<string>>(new Set())
+  const [prefs, setPrefs] = useState<CollegePreferences>({})
 
   useEffect(() => {
     setSet(loadRecommendations(userId))
+    setPrefs(loadPreferences(userId))
   }, [userId])
 
   // A school the student added by hand is no longer a useful suggestion.
@@ -69,11 +74,9 @@ export function RecommendedColleges({
           student_act: scores.act ?? null,
           student_gpa: scores.gpa4 ?? null,
           saved_names: Array.from(savedNames),
-          candidates: COLLEGES_DATABASE.map((c) => ({
-            name: c.name,
-            acceptance_rate: c.acceptanceRate,
-          })),
-          count: 8,
+          candidates: buildCandidates(),
+          preferences: toRequestShape(prefs),
+          count: 20,
         }),
       })
       const data = await res.json()
@@ -83,6 +86,10 @@ export function RecommendedColleges({
         category: r.category,
         rationale: r.rationale,
         acceptanceRate: r.acceptance_rate,
+        fitScore: r.fit_score,
+        reasons: r.reasons || [],
+        earlyPlan: r.early_plan ?? null,
+        costPerYear: SCHOOL_FIT[r.name]?.costPerYear,
       }))
       persist({ generatedAt: new Date().toISOString(), items })
       setSelected(new Set())
@@ -133,7 +140,10 @@ export function RecommendedColleges({
   }
 
   return (
-    <div className="rounded-2xl border bg-card overflow-hidden mb-6">
+    <div className="mb-6 space-y-3">
+      <PreferenceIntake userId={userId} onChange={setPrefs} />
+
+      <div className="rounded-2xl border bg-card overflow-hidden">
       <div className="flex items-center justify-between gap-4 px-5 py-4 border-b">
         <div>
           <h2 className="font-semibold text-primary flex items-center gap-2">
@@ -228,8 +238,37 @@ export function RecommendedColleges({
                       <span className="text-[11px] text-muted-foreground tabular-nums">
                         {t('colleges.recommend.admitRate').replace('{rate}', String(Math.round(item.acceptanceRate)))}
                       </span>
+                      {typeof item.costPerYear === 'number' && item.costPerYear > 0 && (
+                        <span className="text-[11px] text-muted-foreground tabular-nums">
+                          {t('colleges.recommend.perYear').replace('{cost}', String(item.costPerYear))}
+                        </span>
+                      )}
+                      {/* The one or two schools worth an early card. Worth
+                          shouting about: it is the only lever that measurably
+                          changes the odds, and it expires. */}
+                      {item.earlyPlan && (
+                        <span className="rounded-full bg-accent/15 px-2 py-0.5 text-[10px] font-semibold text-accent">
+                          {t('colleges.recommend.earlyPick').replace('{plan}', item.earlyPlan)}
+                        </span>
+                      )}
+                      {typeof item.fitScore === 'number' && (
+                        <span className="ml-auto text-[11px] font-semibold tabular-nums text-accent">
+                          {t('colleges.recommend.fit').replace('{n}', String(item.fitScore))}
+                        </span>
+                      )}
                     </div>
-                    <p className="text-xs text-muted-foreground mt-1 leading-relaxed">{item.rationale}</p>
+                    {item.rationale && (
+                      <p className="text-xs text-muted-foreground mt-1 leading-relaxed">{item.rationale}</p>
+                    )}
+                    {!!item.reasons?.length && (
+                      <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
+                        {item.reasons.map((r) => (
+                          <span key={r.label} className="text-[11px] text-muted-foreground">
+                            <span className="font-medium text-primary/70">{r.label}</span> · {r.detail}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
 
                   <button
@@ -263,6 +302,7 @@ export function RecommendedColleges({
           </div>
         </>
       )}
+      </div>
     </div>
   )
 }

@@ -10,6 +10,7 @@ import { loadEssays, saveEssay, loadProfileContext } from '@/lib/essay-store'
 import { getSchoolEssayTasks, getSchoolWriting } from '@/lib/essay-tasks'
 import { PROFILE_SECTIONS, fieldLabel as resolveFieldLabel } from '@/lib/profile-schema'
 import { FormHeader } from '@/components/application-form/form-header'
+import { CostEstimate } from '@/components/application-form/cost-estimate'
 import { SchoolRequirements } from '@/components/colleges/school-requirements'
 import { SubmitPluginBanner, AutofillSuggestionsBar } from '@/components/application-form/autofill-bar'
 import { FieldPage } from '@/components/application-form/field-page'
@@ -169,6 +170,8 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
         progress={progress}
         saved={justSaved}
       />
+
+      <CostEstimate schoolName={college.name} />
 
       <SchoolRequirements schoolName={college.name} />
 
