@@ -40,7 +40,7 @@ export function AcrossEssays({
   return (
     <div className="mt-6">
       <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3">{t('writing.across.title')}</p>
-      <div className="grid sm:grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {cards.map(({ label, task }) => {
           if (!task) return null
           const status = statusFor(task, essays, t)

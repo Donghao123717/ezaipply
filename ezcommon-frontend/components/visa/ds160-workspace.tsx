@@ -306,7 +306,7 @@ export function Ds160Workspace({ userId }: { userId: string }) {
         </div>
       )}
 
-      <div className="grid lg:grid-cols-[240px_1fr] gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-[240px_minmax(0,1fr)] gap-8">
         <aside>
           {/* A count alone does not read as movement. The bar does, and this is
               a long form where knowing you are getting somewhere matters. */}

@@ -57,7 +57,7 @@ export function ApplicationsList({
           {t('submit.list.empty')}
         </div>
       ) : view === 'board' ? (
-        <div className="grid sm:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {([
             { key: 'ready', label: t('submit.list.columnReady'), items: ready, dot: 'bg-amber-500' },
             { key: 'sent', label: t('submit.list.columnSubmitted'), items: sent, dot: 'bg-emerald-500' },
@@ -109,7 +109,7 @@ export function ApplicationsList({
         </div>
       ) : (
         <div className="rounded-xl border bg-card overflow-hidden">
-          <div className="grid grid-cols-[1fr_120px_90px_110px_110px] gap-2 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground border-b">
+          <div className="grid grid-cols-[minmax(0,1fr)_120px_90px_110px_110px] gap-2 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground border-b">
             <span>{t('submit.list.colSchool')}</span>
             <span>{t('submit.list.colPortal')}</span>
             <span>{t('submit.list.colCycle')}</span>
@@ -124,7 +124,7 @@ export function ApplicationsList({
                 <div
                   key={college.id}
                   style={{ animationDelay: `${Math.min(index, 8) * 40}ms` }}
-                  className="grid grid-cols-[1fr_120px_90px_110px_110px] gap-2 px-4 py-3 items-center animate-fade-in-up motion-reduce:animate-none"
+                  className="grid grid-cols-[minmax(0,1fr)_120px_90px_110px_110px] gap-2 px-4 py-3 items-center animate-fade-in-up motion-reduce:animate-none"
                 >
                   <span className="text-sm font-medium text-primary truncate">{college.name}</span>
                   <span>

@@ -70,7 +70,7 @@ export function PrepTracker({ userId }: { userId: string }) {
           />
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1.5">
               {t('visaPrep.consulate')}

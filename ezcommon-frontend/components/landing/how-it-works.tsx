@@ -183,7 +183,7 @@ export function HowItWorks({ copy }: { copy: LandingCopy }) {
         </Reveal>
 
         <Reveal delay={120}>
-          <div className="grid lg:grid-cols-[1fr_1.1fr] gap-6 mt-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_1.1fr] gap-6 mt-12 items-start">
             {/* A hairline-ruled index rather than a stack of boxes: the active
                 step is marked by scale and weight, not by a border. */}
             <ol className="divide-y border-y">

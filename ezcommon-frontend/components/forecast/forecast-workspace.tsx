@@ -179,7 +179,7 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
 
           <OverallChance colleges={colleges} schools={forecast.schools} history={history} />
 
-          <div className="grid lg:grid-cols-[1fr_1fr] gap-6 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-6 items-start">
             <BySchoolList
               colleges={colleges}
               forecasts={forecastMap}

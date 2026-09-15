@@ -46,7 +46,7 @@ export function AtAGlance({ userId, colleges }: { userId: string; colleges: Save
   }))
 
   return (
-    <div className="grid lg:grid-cols-[1fr_360px] gap-4 mb-6">
+    <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_360px] gap-4 mb-6">
       <div className="rounded-2xl border bg-card p-6">
         <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-1">{t('colleges.atAGlance.eyebrow')}</p>
         <h1 className="font-display text-3xl font-semibold text-primary mb-2">{t('colleges.atAGlance.title')}</h1>

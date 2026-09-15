@@ -27,7 +27,7 @@ export function Rewards({ copy }: { copy: LandingCopy }) {
           <p className="mt-3 max-w-2xl text-primary-foreground/70">{REWARDS.blurb}</p>
         </Reveal>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12 items-start">
           {REWARDS.cards.map((card, i) => (
             <Reveal key={card.label} delay={i * 90}>
               <div className="h-full rounded-2xl border border-primary-foreground/15 bg-primary-foreground/[0.06] p-5 transition-colors hover:border-accent/50">

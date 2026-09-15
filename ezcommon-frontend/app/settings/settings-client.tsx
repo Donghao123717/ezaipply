@@ -201,7 +201,7 @@ export function SettingsClient() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 rounded-lg border space-y-3">
                   <div className="flex items-center gap-3">
                     <Globe className="h-5 w-5 text-primary" />
@@ -247,7 +247,7 @@ export function SettingsClient() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="p-4 rounded-lg border space-y-3">
                   <div className="flex items-center justify-between">
                     <div className="space-y-1">
@@ -304,7 +304,7 @@ export function SettingsClient() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="space-y-2">
                   <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mb-2">
                     <Info className="h-5 w-5 text-primary" />

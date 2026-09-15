@@ -102,7 +102,7 @@ export function WritingWorkspace({ userId }: { userId: string }) {
             />
           </div>
 
-          <div className="grid lg:grid-cols-[1fr_320px] gap-6 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-6 items-start">
             <div>
               {task.promptRequired && (
                 <div className="mb-4 flex items-center gap-3">

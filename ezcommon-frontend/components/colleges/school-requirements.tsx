@@ -34,7 +34,7 @@ export function SchoolRequirements({ schoolName }: { schoolName: string }) {
 
         {open && (
           <div className="px-5 pb-5 space-y-5">
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">{t('colleges.requirements.acceptanceRate')}</p>
                 <p className="text-lg font-semibold text-primary mt-0.5">{data.acceptanceRate}%</p>

@@ -189,7 +189,7 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
         {group.descriptionKey && (
           <p className="text-sm text-muted-foreground mb-4 whitespace-pre-line">{t(group.descriptionKey)}</p>
         )}
-        <div className="grid sm:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {group.fields.map((field: FieldDef) => (
             <FieldInput
               key={field.key}
@@ -220,7 +220,7 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
               >
                 <Trash2 className="h-4 w-4" />
               </button>
-              <div className="grid sm:grid-cols-2 gap-5 pr-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pr-6">
                 {nested.fields.map((field) => (
                   <FieldInput
                     key={field.key}
@@ -251,7 +251,7 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
         <Button onClick={() => setSuggestionsOpen(true)}>{t('profile.findSuggestions')}</Button>
       </div>
 
-      <div className="grid lg:grid-cols-[240px_1fr] gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-[240px_minmax(0,1fr)] gap-8">
         <aside>
           <nav className="space-y-1">
             {PROFILE_SECTIONS.map((section) => {
@@ -356,7 +356,7 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
                     >
                       <Trash2 className="h-4 w-4" />
                     </button>
-                    <div className="grid sm:grid-cols-2 gap-5 pr-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pr-6">
                       {(activeMeta.def as any).fields.map((field: FieldDef) => (
                         <FieldInput
                           key={field.key}

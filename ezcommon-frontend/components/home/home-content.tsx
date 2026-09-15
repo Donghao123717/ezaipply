@@ -37,7 +37,7 @@ export function HomeContent({ userId, firstName }: { userId: string; firstName: 
 
   return (
     <>
-      <div className="max-w-6xl mx-auto px-6 py-10 grid lg:grid-cols-[1fr_320px] gap-10">
+      <div className="max-w-6xl mx-auto px-6 py-10 grid lg:grid-cols-[minmax(0,1fr)_320px] gap-10">
         <div className="space-y-8 min-w-0">
           <div className="flex items-start justify-between gap-4">
             <HomeGreeting firstName={firstName} />

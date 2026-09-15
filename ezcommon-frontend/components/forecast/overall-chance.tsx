@@ -92,7 +92,7 @@ export function OverallChance({
 
   return (
     <div className="rounded-2xl border bg-card p-6 mb-6">
-      <div className="grid sm:grid-cols-[auto_1fr] gap-8 items-start">
+      <div className="grid grid-cols-1 sm:grid-cols-[auto_minmax(0,1fr)] gap-8 items-start">
         <div className="relative">
           <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
             {t('forecast.overall.chanceOfOffer')}

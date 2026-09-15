@@ -22,7 +22,7 @@ export function SuccessStories({ copy }: { copy: LandingCopy }) {
           <p className="mx-auto mt-3 max-w-xl text-center text-sm text-muted-foreground">{STORIES.blurb}</p>
         </Reveal>
 
-        <div className="mt-12 grid items-start gap-4 md:grid-cols-2">
+        <div className="mt-12 grid grid-cols-1 items-start gap-4 md:grid-cols-2">
           {STORIES.items.map((item, i) => (
             <Reveal key={item.initials} delay={i * 90}>
               <figure className="relative flex h-full flex-col rounded-2xl border bg-card p-6">

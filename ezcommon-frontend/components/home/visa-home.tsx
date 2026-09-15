@@ -23,7 +23,7 @@ export function VisaHome({ userId }: { userId: string }) {
   const totalSections = DS160_SECTIONS.length
 
   return (
-    <div className="grid sm:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <Link href="/visa/ds160" className="rounded-xl border bg-card p-5 hover:border-primary/40 transition-colors">
         <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">{t('home.visa.ds160Label')}</p>
         <div className="flex items-center justify-between">

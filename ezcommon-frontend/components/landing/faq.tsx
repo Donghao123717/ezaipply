@@ -62,7 +62,7 @@ export function SiteFooter({ copy }: { copy: LandingCopy }) {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="mx-auto max-w-6xl px-6 py-14">
-        <div className="grid md:grid-cols-[2fr_1fr_1fr] gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-[2fr_minmax(0,1fr)_minmax(0,1fr)] gap-10">
           <div>
             <p className="font-display text-lg">
               <span className="text-accent">Ai</span>pply

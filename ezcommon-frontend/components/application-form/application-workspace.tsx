@@ -183,7 +183,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
           />
         )}
 
-        <div className="grid lg:grid-cols-[220px_1fr_340px] gap-6 mt-4 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[220px_minmax(0,1fr)_340px] gap-6 mt-4 items-start">
           <aside>
             <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">{t('applicationForm.pagesLabel')}</p>
             <nav className="space-y-1">

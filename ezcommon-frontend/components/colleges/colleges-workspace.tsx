@@ -68,7 +68,7 @@ export function CollegesWorkspace({ userId }: { userId: string }) {
     <div className="max-w-7xl mx-auto px-6 py-8">
       <AtAGlance userId={userId} colleges={colleges} />
 
-      <div className="grid lg:grid-cols-[1fr_380px] gap-6 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_380px] gap-6 items-start">
         <div>
           <RecommendedColleges userId={userId} savedNames={savedNames} onAccept={handleAcceptRecommendations} />
           <YourSchools userId={userId} colleges={colleges} onRemove={handleRemove} onChangeCategory={handleChangeCategory} />
