@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Loader2, MessageCircle, Send, Trash2 } from 'lucide-react'
 import { useT } from '@/lib/i18n/use-t'
+import { apiErrorMessage } from '@/lib/api-error'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -33,7 +34,7 @@ export function FormHelperChat({ schoolName }: { schoolName: string }) {
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Request failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Request failed'))
       setMessages((prev) => [...prev, { role: 'assistant', content: data.response }])
     } catch (e) {
       setMessages((prev) => [

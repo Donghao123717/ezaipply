@@ -12,6 +12,7 @@ import {
 import { loadProfileContext, wordCount, type EssayRecord } from '@/lib/essay-store'
 import { EssayEditor } from '@/components/writing/essay-editor'
 import { useT } from '@/lib/i18n/use-t'
+import { apiErrorMessage } from '@/lib/api-error'
 
 /**
  * Reuses the exact same essay editor and localStorage record (keyed by
@@ -53,7 +54,7 @@ export function ApplicationWritingPage({
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Draft failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Draft failed'))
       const paragraphs = String(data.draft)
         .split(/\n{2,}/)
         .map((p: string) => `<p>${p.replace(/\n/g, '<br/>')}</p>`)

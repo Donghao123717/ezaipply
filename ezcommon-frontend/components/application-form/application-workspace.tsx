@@ -20,6 +20,7 @@ import { NotesPage } from '@/components/application-form/notes-page'
 import { FormHelperChat } from '@/components/application-form/form-helper-chat'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
+import { apiErrorMessage } from '@/lib/api-error'
 
 export function ApplicationWorkspace({ userId, collegeId }: { userId: string; collegeId: string }) {
   const t = useT()
@@ -104,7 +105,7 @@ export function ApplicationWorkspace({ userId, collegeId }: { userId: string; co
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Autofill failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Autofill failed'))
       setSuggestions(data.suggestions || {})
     } catch {
       setSuggestions({})

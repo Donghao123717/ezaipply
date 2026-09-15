@@ -24,6 +24,7 @@ import { OverallChance } from '@/components/forecast/overall-chance'
 import { BySchoolList } from '@/components/forecast/by-school-list'
 import { SchoolDetail } from '@/components/forecast/school-detail'
 import { useT } from '@/lib/i18n/use-t'
+import { apiErrorMessage } from '@/lib/api-error'
 
 export function ForecastWorkspace({ userId }: { userId: string }) {
   const t = useT()
@@ -93,7 +94,7 @@ export function ForecastWorkspace({ userId }: { userId: string }) {
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Forecast generation failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Forecast generation failed'))
 
       const record: ForecastRecord = {
         generatedAt: new Date().toISOString(),

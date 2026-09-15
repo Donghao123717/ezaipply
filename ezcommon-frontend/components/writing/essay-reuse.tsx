@@ -25,6 +25,7 @@ import {
   putPreview,
   type PreviewMap,
 } from '@/lib/essay-previews-store'
+import { apiErrorMessage } from '@/lib/api-error'
 
 /** How many adaptations to run at once - enough to feel fast, not enough to rate-limit. */
 const EXPAND_CONCURRENCY = 3
@@ -137,7 +138,7 @@ export function EssayReuse({
       form.append('file', file)
       const res = await fetch(`${base}/api/essay/import`, { method: 'POST', body: form })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Import failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Import failed'))
       setImported(
         addImportedSource(userId, {
           title: file.name.replace(/\.[^.]+$/, ''),
@@ -189,7 +190,7 @@ export function EssayReuse({
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Request failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Request failed'))
       const next: EssayMatchSet = {
         generatedAt: new Date().toISOString(),
         matches: (data.matches || []).map((m: any) => ({
@@ -233,7 +234,7 @@ export function EssayReuse({
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Request failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Request failed'))
       setPreviews(
         putPreview(userId, {
           targetTaskId: target.id,

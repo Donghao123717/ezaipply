@@ -4,6 +4,7 @@ import { AlertTriangle, CheckCircle2, Loader2, ShieldAlert } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
 import { loadProfileContext } from '@/lib/essay-store'
+import { apiErrorMessage } from '@/lib/api-error'
 
 interface RiskFlag {
   field: string
@@ -47,7 +48,7 @@ export function RiskFlagsPanel({
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Risk check failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Risk check failed'))
       setFlags(data.flags || [])
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Something went wrong')

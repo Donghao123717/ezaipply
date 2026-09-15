@@ -10,6 +10,7 @@ import { addCaseNote, loadCaseNotes, removeCaseNote, type CaseNote } from '@/lib
 import { loadProfileContext } from '@/lib/essay-store'
 import { loadColleges, CATEGORY_LABEL_KEY } from '@/lib/college-store'
 import { computeApplicationTracker } from '@/lib/application-tracker'
+import { apiErrorMessage } from '@/lib/api-error'
 
 const TABS: CounselorTab[] = ['team', 'strategist', 'essay', 'coordinator']
 
@@ -83,7 +84,7 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Request failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Request failed'))
       const next = [
         ...history,
         { role: 'assistant' as const, content: data.response, links: data.links || [], reasoning: data.reasoning || [] },

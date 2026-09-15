@@ -6,6 +6,7 @@ import type { FieldDef } from '@/lib/profile-schema'
 import { fieldLabel } from '@/lib/profile-schema'
 import { useT } from '@/lib/i18n/use-t'
 import { cn } from '@/lib/utils'
+import { apiErrorMessage } from '@/lib/api-error'
 
 /**
  * Speak a DS-160 page instead of typing it.
@@ -89,7 +90,7 @@ export function VoiceFill({
       const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
       const res = await fetch(`${base}/api/visa/voice-fill`, { method: 'POST', body: form })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || t('ds160.voice.failed'))
+      if (!res.ok) throw new Error(apiErrorMessage(data, t('ds160.voice.failed')))
       setTranscript(data.transcript || '')
       setValues(data.values || {})
       if (!Object.keys(data.values || {}).length) setError(t('ds160.voice.nothingCaught'))

@@ -18,6 +18,7 @@ import { PreferenceIntake } from '@/components/colleges/preference-intake'
 import { computeProfileStrength } from '@/lib/profile-strength'
 import { computeStudentScores } from '@/lib/student-scores'
 import { loadProfileContext } from '@/lib/essay-store'
+import { apiErrorMessage } from '@/lib/api-error'
 
 const CATEGORY_STYLE: Record<CollegeCategory, string> = {
   reach: 'bg-rose-50 text-rose-700 border-rose-200',
@@ -80,7 +81,7 @@ export function RecommendedColleges({
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Request failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Request failed'))
       const items: RecommendedCollege[] = (data.recommendations || []).map((r: any) => ({
         name: r.name,
         category: r.category,

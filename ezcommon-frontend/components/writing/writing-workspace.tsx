@@ -19,6 +19,7 @@ import { AcrossEssays } from '@/components/writing/across-essays'
 import { EssayReuse } from '@/components/writing/essay-reuse'
 import { VersionHistory } from '@/components/writing/version-history'
 import { useT } from '@/lib/i18n/use-t'
+import { apiErrorMessage } from '@/lib/api-error'
 
 export function WritingWorkspace({ userId }: { userId: string }) {
   const t = useT()
@@ -70,7 +71,7 @@ export function WritingWorkspace({ userId }: { userId: string }) {
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Draft failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Draft failed'))
       const paragraphs = String(data.draft)
         .split(/\n{2,}/)
         .map((p: string) => `<p>${p.replace(/\n/g, '<br/>')}</p>`)

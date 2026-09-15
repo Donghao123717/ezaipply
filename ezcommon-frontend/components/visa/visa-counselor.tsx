@@ -22,6 +22,7 @@ import { loadDS160Context, loadDS160Data } from '@/lib/ds160-store'
 import { loadProfileContext } from '@/lib/essay-store'
 import { computeDS160Progress } from '@/lib/ds160-schema'
 import { cn } from '@/lib/utils'
+import { apiErrorMessage } from '@/lib/api-error'
 
 const PERSONAS: PersonaMeta[] = VISA_TABS.map((tab) => ({ tab, dictKey: tab }))
 
@@ -89,7 +90,7 @@ export function VisaCounselor({ userId }: { userId: string }) {
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || t('visaCounselor.failed'))
+      if (!res.ok) throw new Error(apiErrorMessage(data, t('visaCounselor.failed')))
 
       const next = [
         ...history,

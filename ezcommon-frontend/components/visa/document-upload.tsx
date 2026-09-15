@@ -3,6 +3,7 @@ import { useRef, useState } from 'react'
 import { Loader2, Paperclip, X } from 'lucide-react'
 import { useT } from '@/lib/i18n/use-t'
 import type { RequiredDocumentKey, VisaDocFile } from '@/lib/visa-prep-store'
+import { apiErrorMessage } from '@/lib/api-error'
 
 /**
  * Attach the actual document to a checklist row.
@@ -49,7 +50,7 @@ export function VisaDocumentUpload({
       }
       const res = await fetch(`${base}/api/upload/visa`, { method: 'POST', body: form })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || t('visaPrep.upload.failed'))
+      if (!res.ok) throw new Error(apiErrorMessage(data, t('visaPrep.upload.failed')))
       const added: VisaDocFile[] = (data.uploaded_files || data.files || []).map((f: any) => ({
         filename: String(f.filename || '').replace(`${docKey}__`, ''),
         size: Number(f.size || 0),

@@ -8,6 +8,7 @@ import { loadDS160Context } from '@/lib/ds160-store'
 import { loadProfileContext } from '@/lib/essay-store'
 import type { VisaType } from '@/lib/visa-chat-store'
 import { cn } from '@/lib/utils'
+import { apiErrorMessage } from '@/lib/api-error'
 
 /**
  * Refusal risk under INA 214(b), broken into the factors behind it.
@@ -65,7 +66,7 @@ export function Risk214bPanel({ userId, visaType }: { userId: string; visaType: 
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || t('visaRisk.failed'))
+      if (!res.ok) throw new Error(apiErrorMessage(data, t('visaRisk.failed')))
       setGrown(false)
       setResult(data)
       window.setTimeout(() => setGrown(true), 40)

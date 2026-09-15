@@ -27,6 +27,7 @@ import {
 } from '@/lib/interview-media'
 import { InterviewerAvatar } from '@/components/visa/interviewer-avatar'
 import { cn } from '@/lib/utils'
+import { apiErrorMessage } from '@/lib/api-error'
 
 /**
  * A mock consular interview: one question at a time, the way a real one runs.
@@ -138,7 +139,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
         const res = await fetch(`${base}/api/visa/transcribe-answer`, { method: 'POST', body: form })
         const data = await res.json()
-        if (!res.ok) throw new Error(data?.detail || t('visaInterview.transcribeFailed'))
+        if (!res.ok) throw new Error(apiErrorMessage(data, t('visaInterview.transcribeFailed')))
         // Into the box rather than straight off to be graded - a
         // mis-transcribed answer should be correctable before it counts.
         setAnswer((prev) => (prev ? `${prev} ${data.transcript}` : data.transcript))
@@ -183,7 +184,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
       }),
     })
     const data = await res.json()
-    if (!res.ok) throw new Error(data?.detail || t('visaInterview.failed'))
+    if (!res.ok) throw new Error(apiErrorMessage(data, t('visaInterview.failed')))
     return data
   }
 
@@ -285,7 +286,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || t('visaInterview.reviewFailed'))
+      if (!res.ok) throw new Error(apiErrorMessage(data, t('visaInterview.reviewFailed')))
       setReview(data)
     } catch (e) {
       setError(e instanceof Error ? e.message : t('visaInterview.reviewFailed'))

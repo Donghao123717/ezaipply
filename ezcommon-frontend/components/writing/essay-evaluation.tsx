@@ -4,6 +4,7 @@ import { Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n/use-t'
+import { apiErrorMessage } from '@/lib/api-error'
 
 interface Evaluation {
   overall_score: number
@@ -45,7 +46,7 @@ export function EssayEvaluation({
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Evaluation failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Evaluation failed'))
       setResult(data)
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Something went wrong')

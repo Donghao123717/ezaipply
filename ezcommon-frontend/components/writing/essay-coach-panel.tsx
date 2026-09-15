@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Loader2, Send, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
+import { apiErrorMessage } from '@/lib/api-error'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -54,7 +55,7 @@ export function EssayCoachPanel({
         }),
       })
       const data = await res.json()
-      if (!res.ok) throw new Error(data?.detail || 'Coach request failed')
+      if (!res.ok) throw new Error(apiErrorMessage(data, 'Coach request failed'))
       setMessages((prev) => [...prev, { role: 'assistant', content: data.response }])
     } catch (e) {
       setMessages((prev) => [
