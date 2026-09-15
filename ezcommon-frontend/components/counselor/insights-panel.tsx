@@ -141,10 +141,23 @@ function PremiumTab() {
   )
 }
 
-export function InsightsPanel({ userId, onQuickAsk }: { userId: string; onQuickAsk: (text: string) => void }) {
+import { SideRail } from '@/components/layout/side-rail'
+
+export function InsightsPanel({
+  userId,
+  onQuickAsk,
+  open,
+  onClose,
+}: {
+  userId: string
+  onQuickAsk: (text: string) => void
+  /** Slide-over state below lg; ignored where the rail is docked. */
+  open: boolean
+  onClose: () => void
+}) {
   const t = useT()
   return (
-    <aside className="w-96 shrink-0 border-l bg-card/50 h-full overflow-y-auto">
+    <SideRail side="right" width="w-96" open={open} onClose={onClose} label={t('counselor.insights.title')}>
       <Tabs defaultValue="progress" className="p-4">
         <TabsList className="grid grid-cols-3 gap-1 bg-muted/60 h-auto mb-1">
           <TabsTrigger value="profile" className="flex items-center gap-1.5 text-xs py-1.5">
@@ -187,6 +200,6 @@ export function InsightsPanel({ userId, onQuickAsk }: { userId: string; onQuickA
           <PremiumTab />
         </TabsContent>
       </Tabs>
-    </aside>
+    </SideRail>
   )
 }

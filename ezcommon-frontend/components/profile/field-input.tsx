@@ -1,7 +1,141 @@
 "use client"
-import { useId } from 'react'
+import { useEffect, useId, useMemo, useState } from 'react'
 import { FieldDef, fieldLabel } from '@/lib/profile-schema'
 import { useT } from '@/lib/i18n/use-t'
+import { useLocale } from '@/lib/i18n/locale-context'
+
+
+/**
+ * Year / month / day as three dropdowns, holding an ISO "YYYY-MM-DD" string.
+ *
+ * `<input type="date">` looked like the obvious answer and is the wrong one for
+ * a date of birth. Its picker opens on the current month, and reaching 2008
+ * means paging back two hundred times; Firefox's calendar has no year jump at
+ * all, and Safari on macOS renders no picker, just a field that silently
+ * rejects anything not in the browser's own format. Students reported simply
+ * not being able to choose a year.
+ *
+ * Three selects work identically in every browser, are typeable (a native
+ * select jumps to "2008" as you type it), and read the way the paper form
+ * does. The value stored is unchanged, so saved profiles and the PDF export
+ * carry on working.
+ */
+const EARLIEST_YEAR_OFFSET = 90
+const LATEST_YEAR_OFFSET = 15
+
+function splitISO(value: string): { y: string; m: string; d: string } {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value || '')
+  return match ? { y: match[1], m: match[2], d: match[3] } : { y: '', m: '', d: '' }
+}
+
+function daysInMonth(year: string, month: string): number {
+  if (!month) return 31
+  // A day count needs a year for February; without one, offer 29 so a leap-day
+  // birthday can still be picked before the year is chosen.
+  const y = year ? Number(year) : 2024
+  return new Date(y, Number(month), 0).getDate()
+}
+
+function DateField({
+  value,
+  onChange,
+  required,
+}: {
+  value: string
+  onChange: (value: string) => void
+  required?: boolean
+}) {
+  const t = useT()
+  const { locale } = useLocale()
+  const [parts, setParts] = useState(() => splitISO(value))
+
+  // Adopt a value set from outside (AI autofill, a restored profile), but never
+  // clobber a half-finished selection: an incomplete date reports itself as
+  // empty, and resyncing on that would erase the year the moment it was picked.
+  useEffect(() => {
+    if (!value) return
+    const next = splitISO(value)
+    setParts((prev) => (prev.y === next.y && prev.m === next.m && prev.d === next.d ? prev : next))
+  }, [value])
+
+  const years = useMemo(() => {
+    const now = new Date().getFullYear()
+    const list: string[] = []
+    for (let y = now + LATEST_YEAR_OFFSET; y >= now - EARLIEST_YEAR_OFFSET; y--) list.push(String(y))
+    return list
+  }, [])
+
+  const months = useMemo(() => {
+    const format = new Intl.DateTimeFormat(locale === 'zh' ? 'zh-CN' : 'en-US', { month: 'long' })
+    return Array.from({ length: 12 }, (_, i) => ({
+      value: String(i + 1).padStart(2, '0'),
+      label: format.format(new Date(2024, i, 1)),
+    }))
+  }, [locale])
+
+  const maxDay = daysInMonth(parts.y, parts.m)
+  const days = useMemo(
+    () => Array.from({ length: maxDay }, (_, i) => String(i + 1).padStart(2, '0')),
+    [maxDay],
+  )
+
+  function update(next: { y: string; m: string; d: string }) {
+    // Shortening the month drops an impossible day rather than saving 31 June.
+    if (next.d && Number(next.d) > daysInMonth(next.y, next.m)) next = { ...next, d: '' }
+    setParts(next)
+    onChange(next.y && next.m && next.d ? `${next.y}-${next.m}-${next.d}` : '')
+  }
+
+  const selectClass =
+    'rounded-lg border bg-card px-2 py-2.5 text-sm outline-none transition-colors focus:border-primary'
+
+  return (
+    <div className="grid grid-cols-3 gap-2">
+      <select
+        aria-label={t('common.date.year')}
+        required={required}
+        className={selectClass}
+        value={parts.y}
+        onChange={(e) => update({ ...parts, y: e.target.value })}
+      >
+        <option value="">{t('common.date.year')}</option>
+        {years.map((y) => (
+          <option key={y} value={y}>
+            {y}
+          </option>
+        ))}
+      </select>
+      <select
+        aria-label={t('common.date.month')}
+        required={required}
+        className={selectClass}
+        value={parts.m}
+        onChange={(e) => update({ ...parts, m: e.target.value })}
+      >
+        <option value="">{t('common.date.month')}</option>
+        {months.map((m) => (
+          <option key={m.value} value={m.value}>
+            {m.label}
+          </option>
+        ))}
+      </select>
+      <select
+        aria-label={t('common.date.day')}
+        required={required}
+        className={selectClass}
+        value={parts.d}
+        onChange={(e) => update({ ...parts, d: e.target.value })}
+      >
+        <option value="">{t('common.date.day')}</option>
+        {days.map((d) => (
+          <option key={d} value={d}>
+            {Number(d)}
+          </option>
+        ))}
+      </select>
+    </div>
+  )
+}
 
 export function FieldInput({
   field,
@@ -163,11 +297,20 @@ export function FieldInput({
     )
   }
 
+  if (field.type === 'date') {
+    return (
+      <div>
+        {eyebrow}
+        <DateField value={value} onChange={onChange} required={field.required} />
+      </div>
+    )
+  }
+
   return (
     <div>
       {eyebrow}
       <input
-        type={field.type === 'date' ? 'date' : field.type === 'number' ? 'number' : 'text'}
+        type={field.type === 'number' ? 'number' : 'text'}
         className={baseInputClass}
         value={value}
         placeholder={placeholder}

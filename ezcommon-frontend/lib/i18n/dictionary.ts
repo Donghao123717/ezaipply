@@ -269,6 +269,7 @@ export const dictionary = {
       help: 'Help',
       logout: 'Logout',
       more: 'More',
+      menu: 'Menu',
       account: 'Account',
       modeStudy: 'Study',
       modeVisa: 'Visa',
@@ -599,6 +600,11 @@ export const dictionary = {
       previous: 'Previous',
       next: 'Next',
       selectPlaceholder: 'Select…',
+      date: {
+        year: 'Year',
+        month: 'Month',
+        day: 'Day',
+      },
       status: {
         notStarted: 'Not started',
         gettingStarted: 'Getting started',
@@ -1028,6 +1034,9 @@ export const dictionary = {
       notes: {
         sharedWith: '{count} notes shared with {agent}',
         remove: 'Remove this note',
+      },
+      insights: {
+        title: 'Insights',
       },
       documents: {
         title: 'My Documents',
@@ -2429,6 +2438,7 @@ export const dictionary = {
       help: '帮助',
       logout: '退出登录',
       more: '更多',
+      menu: '菜单',
       account: '账户',
       modeStudy: '留学',
       modeVisa: '签证',
@@ -2759,6 +2769,11 @@ export const dictionary = {
       previous: '上一个',
       next: '下一个',
       selectPlaceholder: '请选择…',
+      date: {
+        year: '年',
+        month: '月',
+        day: '日',
+      },
       status: {
         notStarted: '未开始',
         gettingStarted: '刚起步',
@@ -3187,6 +3202,9 @@ export const dictionary = {
       notes: {
         sharedWith: '{count} 条笔记已共享给{agent}',
         remove: '删除这条笔记',
+      },
+      insights: {
+        title: '进度与洞察',
       },
       documents: {
         title: '我的资料',

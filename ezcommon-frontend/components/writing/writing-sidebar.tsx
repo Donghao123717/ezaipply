@@ -1,6 +1,7 @@
 "use client"
 import { useMemo, useState } from 'react'
 import { Check, ChevronRight, Search } from 'lucide-react'
+import { SideRail } from '@/components/layout/side-rail'
 import { cn } from '@/lib/utils'
 import { ESSAY_TASKS, essayTaskTitle, type EssayTask } from '@/lib/essay-tasks'
 import type { EssayStore } from '@/lib/essay-store'
@@ -26,11 +27,16 @@ export function WritingSidebar({
   onSelect,
   essays,
   schoolTasks,
+  open,
+  onClose,
 }: {
   activeId: string
   onSelect: (id: string) => void
   essays: EssayStore
   schoolTasks: EssayTask[]
+  /** Slide-over state. Ignored at lg and above, where the rail is docked. */
+  open: boolean
+  onClose: () => void
 }) {
   const t = useT()
   const [query, setQuery] = useState('')
@@ -60,8 +66,8 @@ export function WritingSidebar({
   }, [schoolTasks])
 
   return (
-    <aside className="w-72 shrink-0 border-r bg-card/50 h-full overflow-y-auto">
-      <div className="p-4">
+    <SideRail side="left" width="w-72" open={open} onClose={onClose} label={t('writing.sidebar.title')}>
+      <div className="p-4 max-lg:pt-0">
         <h2 className="font-semibold text-primary mb-3">{t('writing.sidebar.title')}</h2>
         <div className="relative mb-4">
           <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
@@ -175,6 +181,6 @@ export function WritingSidebar({
           </>
         )}
       </div>
-    </aside>
+    </SideRail>
   )
 }

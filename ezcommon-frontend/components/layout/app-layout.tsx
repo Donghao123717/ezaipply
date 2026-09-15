@@ -5,6 +5,7 @@ import { useSession } from 'next-auth/react'
 import { AccountMenu } from '@/components/home/account-menu'
 import { MoreMenu } from '@/components/layout/more-menu'
 import { LanguageSwitcher } from '@/components/layout/language-switcher'
+import { MobileNav } from '@/components/layout/mobile-nav'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n/use-t'
 import { Home } from 'lucide-react'
@@ -51,13 +52,17 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen w-full flex flex-col bg-background">
       <header className="h-16 flex-shrink-0 bg-primary text-primary-foreground">
-        <div className="h-full flex items-center px-6 gap-8">
-          <Link href="/" className="flex items-center gap-1 font-display text-xl font-semibold tracking-tight shrink-0">
+        <div className="flex h-full items-center gap-3 px-4 md:gap-8 md:px-6">
+          <MobileNav menu={menu} mode={mode} onSwitchMode={switchMode} />
+
+          <Link href="/" className="flex shrink-0 items-center gap-1 font-display text-xl font-semibold tracking-tight">
             <span className="text-accent">Ai</span>
             <span>pply</span>
           </Link>
 
-          <div className="flex items-center gap-0.5 rounded-full bg-white/10 p-0.5 shrink-0">
+          {/* The pill and the link row are the two things that cannot fit a
+              phone; both live in the drawer below md. */}
+          <div className="hidden shrink-0 items-center gap-0.5 rounded-full bg-white/10 p-0.5 md:flex">
             <button
               onClick={() => switchMode('study')}
               className={cn(
@@ -78,7 +83,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
             </button>
           </div>
 
-          <nav className="flex items-center gap-1 flex-1">
+          <nav className="hidden flex-1 items-center gap-1 md:flex">
             <Link
               href="/home"
               aria-label={t('nav.home')}
@@ -107,8 +112,10 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
             <MoreMenu />
           </nav>
 
-          <div className="flex items-center gap-3 shrink-0">
-            <LanguageSwitcher />
+          <div className="ml-auto flex shrink-0 items-center gap-3 md:ml-0">
+            <span className="hidden md:block">
+              <LanguageSwitcher />
+            </span>
             <AccountMenu initials={initials.toUpperCase()} />
           </div>
         </div>

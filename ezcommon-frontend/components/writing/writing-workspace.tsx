@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useMemo, useState } from 'react'
-import { Loader2 } from 'lucide-react'
+import { Loader2, PanelLeft } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import {
   ESSAY_TASKS,
@@ -24,6 +24,7 @@ import { apiErrorMessage } from '@/lib/api-error'
 export function WritingWorkspace({ userId }: { userId: string }) {
   const t = useT()
   const [activeId, setActiveId] = useState(ESSAY_TASKS[0].id)
+  const [tasksOpen, setTasksOpen] = useState(false)
   const [essays, setEssays] = useState<EssayStore>({})
   const [schoolTasks, setSchoolTasks] = useState(() => getSchoolEssayTasks([], t))
   const [promptId, setPromptId] = useState<string>('')
@@ -86,12 +87,30 @@ export function WritingWorkspace({ userId }: { userId: string }) {
 
   return (
     <div className="flex h-[calc(100vh-4rem)]">
-      <WritingSidebar activeId={activeId} onSelect={setActiveId} essays={essays} schoolTasks={schoolTasks} />
+      <WritingSidebar
+        activeId={activeId}
+        onSelect={(id) => {
+          setActiveId(id)
+          setTasksOpen(false)
+        }}
+        essays={essays}
+        schoolTasks={schoolTasks}
+        open={tasksOpen}
+        onClose={() => setTasksOpen(false)}
+      />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-6xl mx-auto px-6 py-6">
-          <div className="flex items-start justify-between mb-4">
-            <div>
+          {/* On a phone the task list is a slide-over, so it needs a way in. */}
+          <button
+            onClick={() => setTasksOpen(true)}
+            className="mb-3 inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm text-muted-foreground hover:bg-muted lg:hidden"
+          >
+            <PanelLeft className="h-4 w-4" />
+            {t('writing.sidebar.title')}
+          </button>
+          <div className="flex items-start justify-between mb-4 gap-3">
+            <div className="min-w-0">
               <h1 className="text-2xl font-semibold text-primary">{essayTaskTitle(task, t)}</h1>
               <p className="text-sm text-muted-foreground">{t('writing.wordsMax').replace('{count}', String(task.wordLimit))}</p>
             </div>
@@ -106,14 +125,14 @@ export function WritingWorkspace({ userId }: { userId: string }) {
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-6 items-start">
             <div>
               {task.promptRequired && (
-                <div className="mb-4 flex items-center gap-3">
+                <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3">
                   <select
                     value={promptId}
                     onChange={(e) => {
                       setPromptId(e.target.value)
                       persist(html, e.target.value || null)
                     }}
-                    className="rounded-lg border bg-card px-3 py-2 text-sm outline-none focus:border-primary"
+                    className="w-full min-w-0 rounded-lg border bg-card px-3 py-2 text-sm outline-none focus:border-primary sm:w-auto sm:max-w-xs"
                   >
                     <option value="">{t('writing.pickPrompt')}</option>
                     {ESSAY_PROMPTS.map((p) => (
@@ -122,7 +141,7 @@ export function WritingWorkspace({ userId }: { userId: string }) {
                       </option>
                     ))}
                   </select>
-                  <div className="flex-1">
+                  <div className="min-w-0 flex-1">
                     <p className="text-xs text-muted-foreground">
                       {prompt || t('writing.pickPromptHint')}
                     </p>

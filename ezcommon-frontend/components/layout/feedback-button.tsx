@@ -11,9 +11,11 @@ export function FeedbackButton() {
   const [value, setValue] = useState('')
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    // Lifted and shrunk on a phone: at bottom-right it sat exactly on the
+    // send button of every composer in the app.
+    <div className="fixed bottom-20 right-3 z-30 sm:bottom-6 sm:right-6 sm:z-50">
       {open && (
-        <div className="mb-2 w-72 rounded-xl border bg-card shadow-lg p-4">
+        <div className="mb-2 w-[min(18rem,calc(100vw-1.5rem))] rounded-xl border bg-card p-4 shadow-lg">
           <p className="text-sm font-semibold text-primary mb-2">{t('feedbackWidget.title')}</p>
           {sent ? (
             <p className="text-sm text-muted-foreground">{t('feedbackWidget.thanks')}</p>
@@ -45,10 +47,10 @@ export function FeedbackButton() {
             setValue('')
           }
         }}
-        className="flex items-center gap-2 rounded-full bg-card border shadow-lg px-4 py-2.5 text-sm font-medium text-primary hover:bg-muted transition-colors"
+        className="flex items-center gap-2 rounded-full border bg-card px-3 py-2.5 text-sm font-medium text-primary shadow-lg transition-colors hover:bg-muted sm:px-4"
       >
         <MessageSquare className="h-4 w-4" />
-        {t('feedbackWidget.button')}
+        <span className="hidden sm:inline">{t('feedbackWidget.button')}</span>
       </button>
     </div>
   )

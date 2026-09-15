@@ -48,8 +48,13 @@ export function Checklist({ items, userId }: { items: ChecklistItem[]; userId: s
   const doneCount = items.filter((i) => done[i.key]).length
 
   return (
-    <div>
-      <div className="flex items-center justify-between mb-3">
+    // A frame of its own. On the cream page the four tiles were white cards
+    // floating next to a white carousel card, so the eye had no way to tell
+    // where the checklist ended - everything read as one busy field. The
+    // checklist now sits on white and its tiles take the page's cream, which
+    // inverts the contrast inside the frame and makes the zone legible.
+    <section className="rounded-2xl border bg-card p-4 sm:p-5">
+      <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
         <div className="flex items-baseline gap-2">
           <h2 className="text-lg font-semibold text-primary">{t('home.checklistTitle')}</h2>
           <span className="text-sm text-muted-foreground">
@@ -68,25 +73,31 @@ export function Checklist({ items, userId }: { items: ChecklistItem[]; userId: s
             <Link
               key={item.key}
               href={item.href}
-              className="group flex items-start gap-3 rounded-xl border bg-card p-4 hover:border-primary/40 transition-colors"
+              className="group block rounded-xl border border-transparent bg-background p-4 transition-colors hover:border-primary/40"
             >
-              <span
-                className={cn(
-                  'mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2',
-                  isDone ? 'bg-primary border-primary' : 'border-muted-foreground/40',
-                )}
-              >
-                {isDone && <Check className="h-3 w-3 text-primary-foreground" />}
+              {/* Title row first, subtitle across the full width underneath.
+                  Sharing one row with the tick and the arrow left the subtitle
+                  a column about two words wide, and "Details you reuse" came
+                  out as three ragged lines. */}
+              <span className="flex items-start gap-2">
+                <span
+                  className={cn(
+                    'flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2',
+                    isDone ? 'bg-primary border-primary' : 'border-muted-foreground/40',
+                  )}
+                >
+                  {isDone && <Check className="h-3 w-3 text-primary-foreground" />}
+                </span>
+                <span className="min-w-0 flex-1 font-display font-semibold leading-tight text-primary">
+                  {t(item.titleKey)}
+                </span>
+                <ArrowRight className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
               </span>
-              <span className="flex-1 min-w-0">
-                <span className="block font-display font-semibold text-primary leading-tight">{t(item.titleKey)}</span>
-                <span className="block text-sm text-muted-foreground mt-0.5">{t(item.subtitleKey)}</span>
-              </span>
-              <ArrowRight className="h-4 w-4 text-muted-foreground shrink-0 mt-1 group-hover:translate-x-0.5 transition-transform" />
+              <span className="mt-1 block text-sm text-muted-foreground">{t(item.subtitleKey)}</span>
             </Link>
           )
         })}
       </div>
-    </div>
+    </section>
   )
 }

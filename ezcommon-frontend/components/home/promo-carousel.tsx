@@ -72,7 +72,11 @@ export function PromoCarousel({ initialIndex = 0 }: { initialIndex?: number }) {
   const slide = slides[index]
 
   return (
-    <div className="relative rounded-2xl bg-card border p-2 sm:p-3">
+    // Inverted against the checklist frame on purpose: that zone is a white
+    // card holding cream tiles, this one a warm-grey frame holding a white
+    // stage. Two zones of the same shade stacked on a cream page is what made
+    // the home screen read as one undifferentiated block.
+    <div className="relative rounded-2xl border bg-muted/70 p-2 sm:p-3">
       <button
         aria-label={t('common.previous')}
         onClick={() => setIndex((i) => (i - 1 + slides.length) % slides.length)}
@@ -88,7 +92,7 @@ export function PromoCarousel({ initialIndex = 0 }: { initialIndex?: number }) {
         <ChevronRight className="h-4 w-4" />
       </button>
 
-      <div className="rounded-xl bg-muted/60 p-6 sm:p-10 grid sm:grid-cols-2 gap-8 items-center">
+      <div className="grid items-center gap-8 rounded-xl bg-card p-6 sm:grid-cols-2 sm:p-10">
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-2">{t(slide.eyebrowKey)}</p>
           <h3 className="font-display text-3xl sm:text-4xl font-semibold text-primary leading-tight mb-6">
@@ -109,7 +113,7 @@ export function PromoCarousel({ initialIndex = 0 }: { initialIndex?: number }) {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="h-40 w-40 rounded-2xl bg-card border flex items-center justify-center shadow-sm">
+          <div className="flex h-40 w-40 items-center justify-center rounded-2xl border bg-background">
             {slide.icon}
           </div>
         </div>

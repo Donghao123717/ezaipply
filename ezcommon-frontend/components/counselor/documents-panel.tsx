@@ -11,15 +11,22 @@ export interface CounselorDoc {
   url?: string
 }
 
+import { SideRail } from '@/components/layout/side-rail'
+
 export function DocumentsPanel({
   userId,
   refreshSignal,
   onUploaded,
+  open,
+  onClose,
 }: {
   userId: string
   /** Bump this from a parent to force a re-fetch (e.g. after a chat "+" attach upload). */
   refreshSignal?: number
   onUploaded?: () => void
+  /** Slide-over state below lg; ignored where the rail is docked. */
+  open: boolean
+  onClose: () => void
 }) {
   const t = useT()
   const [files, setFiles] = useState<CounselorDoc[]>([])
@@ -78,7 +85,7 @@ export function DocumentsPanel({
   const filtered = files.filter((f) => f.filename.toLowerCase().includes(query.toLowerCase()))
 
   return (
-    <aside className="w-72 shrink-0 border-r bg-card/50 h-full overflow-y-auto">
+    <SideRail side="left" width="w-72" open={open} onClose={onClose} label={t('counselor.documents.title')}>
       <div className="p-4">
         <h2 className="font-semibold text-primary mb-3">{t('counselor.documents.title')}</h2>
 
@@ -152,6 +159,6 @@ export function DocumentsPanel({
           )}
         </div>
       </div>
-    </aside>
+    </SideRail>
   )
 }

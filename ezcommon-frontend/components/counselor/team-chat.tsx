@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
-import { ArrowUpRight, ChevronRight, History, Loader2, MessageCircle, Paperclip, Send, X, Zap } from 'lucide-react'
+import { ArrowUpRight, ChevronRight, History, LayoutPanelLeft, Loader2, MessageCircle, PanelRight, Paperclip, Send, X, Zap } from 'lucide-react'
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { useT } from '@/lib/i18n/use-t'
 import type { CounselorMessage } from '@/lib/counselor-chat'
@@ -68,6 +68,8 @@ export function TeamChat({
   onSend,
   onAttach,
   attaching,
+  onOpenDocuments,
+  onOpenInsights,
   notesSlot,
 }: {
   /** Which specialists to show. Defaults to the admissions four. */
@@ -83,6 +85,10 @@ export function TeamChat({
   onSend: (text: string) => void
   onAttach: (files: FileList | null) => void
   attaching: boolean
+  /** Opens the rails that are slide-overs below lg. Absent on the visa side,
+   *  which has no rails to open. */
+  onOpenDocuments?: () => void
+  onOpenInsights?: () => void
   notesSlot?: React.ReactNode
 }) {
   const t = useT()
@@ -158,25 +164,46 @@ export function TeamChat({
 
   return (
     <div className="flex-1 flex flex-col min-w-0">
-      <div className="border-b px-6 py-3 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <MessageCircle className="h-4 w-4 text-accent" />
-          <h1 className="font-semibold text-primary">{t(personaKey('title'))}</h1>
-          <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+      <div className="flex items-center justify-between gap-2 border-b px-4 py-3 sm:px-6">
+        <div className="flex min-w-0 items-center gap-2">
+          {/* Below lg the two rails are slide-overs, so they need a way in. */}
+          {onOpenDocuments && (
+            <button
+              onClick={onOpenDocuments}
+              aria-label={t('counselor.documents.title')}
+              className="rounded-md p-1.5 text-muted-foreground hover:bg-muted lg:hidden"
+            >
+              <LayoutPanelLeft className="h-4 w-4" />
+            </button>
+          )}
+          <MessageCircle className="hidden h-4 w-4 shrink-0 text-accent sm:block" />
+          <h1 className="min-w-0 truncate font-semibold text-primary">{t(personaKey('title'))}</h1>
+          <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500" />
         </div>
+        <div className="flex shrink-0 items-center gap-1">
+        {onOpenInsights && (
+          <button
+            onClick={onOpenInsights}
+            aria-label={t('counselor.insights.title')}
+            className="rounded-md p-1.5 text-muted-foreground hover:bg-muted lg:hidden"
+          >
+            <PanelRight className="h-4 w-4" />
+          </button>
+        )}
         <button
           onClick={onRestore}
           disabled={!hasSavedHistory}
           className="inline-flex items-center gap-1.5 text-xs font-medium rounded-md border px-2.5 py-1.5 text-muted-foreground hover:bg-muted disabled:opacity-40"
         >
           <History className="h-3.5 w-3.5" />
-          {t('counselor.chat.history')}
+          <span className="hidden sm:inline">{t('counselor.chat.history')}</span>
         </button>
+        </div>
       </div>
 
       <Tabs value={activeTab} onValueChange={onTabChange}>
-        <div className="px-6 pt-3">
-          <TabsList className="bg-muted/60">
+        <div className="px-4 pt-3 sm:px-6">
+          <TabsList className="max-w-full overflow-x-auto bg-muted/60">
             {personas.map((p) => (
               <TabsTrigger key={p.tab} value={p.tab}>
                 {t(`${dictNamespace}.personas.${p.dictKey}.navLabel`)}
@@ -187,14 +214,14 @@ export function TeamChat({
       </Tabs>
 
       {showBanner && (
-        <div className="mx-6 mt-3 flex items-center gap-2 rounded-lg border bg-secondary/50 px-3 py-2 text-sm">
-          <History className="h-4 w-4 text-muted-foreground shrink-0" />
+        <div className="mx-4 mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-lg border bg-secondary/50 px-3 py-2 text-sm sm:mx-6">
+          <History className="h-4 w-4 shrink-0 text-muted-foreground" />
           <span className="text-foreground">{t('counselor.chat.bannerHasPrevious')}</span>
-          <span className="text-muted-foreground">·</span>
-          <span className="text-muted-foreground">{t('counselor.chat.bannerPickUp')}</span>
+          <span className="hidden text-muted-foreground sm:inline">·</span>
+          <span className="hidden text-muted-foreground sm:inline">{t('counselor.chat.bannerPickUp')}</span>
           <button
             onClick={onRestore}
-            className="ml-auto inline-flex items-center gap-1 rounded-md bg-primary text-primary-foreground text-xs font-medium px-2.5 py-1"
+            className="ml-auto inline-flex items-center gap-1 rounded-md bg-primary px-2.5 py-1 text-xs font-medium text-primary-foreground"
           >
             <History className="h-3 w-3" />
             {t('counselor.chat.restore')}
@@ -209,7 +236,7 @@ export function TeamChat({
         </div>
       )}
 
-      <div ref={scrollRef} className="flex-1 overflow-y-auto px-6 py-6">
+      <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
         {messages.length === 0 ? (
           <div className="h-full flex flex-col items-center justify-center text-center max-w-sm mx-auto">
             <div className="h-14 w-14 rounded-full bg-muted flex items-center justify-center mb-4">
@@ -260,7 +287,7 @@ export function TeamChat({
 
       {notesSlot}
 
-      <div className="relative border-t px-6 py-3">
+      <div className="relative border-t px-4 py-3 sm:px-6">
         <div className="mb-2 flex items-center gap-3">
           <button
             onClick={() => (paletteOpen ? setPaletteOpen(false) : openPalette())}
@@ -280,7 +307,7 @@ export function TeamChat({
             ref={paletteRef}
             role="listbox"
             aria-label={t('counselor.commands.title')}
-            className="absolute bottom-full left-6 right-6 z-20 mb-2 max-h-80 overflow-y-auto rounded-xl border bg-card shadow-lg animate-slide-up-in motion-reduce:animate-none"
+            className="absolute bottom-full left-4 right-4 z-20 mb-2 sm:left-6 sm:right-6 max-h-80 overflow-y-auto rounded-xl border bg-card shadow-lg animate-slide-up-in motion-reduce:animate-none"
           >
             {/* What this specialist would ask about right now, kept at the top
                 because it is the one part of the list that changes with the tab. */}

@@ -33,6 +33,9 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
   const [attaching, setAttaching] = useState(false)
   const [docsRefreshSignal, setDocsRefreshSignal] = useState(0)
   const [caseNotes, setCaseNotes] = useState<CaseNote[]>([])
+  // Both rails are docked at lg and above; below it they open over the chat.
+  const [docsOpen, setDocsOpen] = useState(false)
+  const [insightsOpen, setInsightsOpen] = useState(false)
 
   useEffect(() => {
     const saved: Record<CounselorTab, boolean> = { team: false, strategist: false, essay: false, coordinator: false }
@@ -129,7 +132,12 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
 
   return (
     <div className="flex h-[calc(100vh-4rem)]">
-      <DocumentsPanel userId={userId} refreshSignal={docsRefreshSignal} />
+      <DocumentsPanel
+        userId={userId}
+        refreshSignal={docsRefreshSignal}
+        open={docsOpen}
+        onClose={() => setDocsOpen(false)}
+      />
       <TeamChat
         activeTab={activeTab}
         onTabChange={(tab) => setActiveTab(tab as CounselorTab)}
@@ -140,6 +148,8 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
         onSend={(text) => send(activeTab, text)}
         onAttach={attach}
         attaching={attaching}
+        onOpenDocuments={() => setDocsOpen(true)}
+        onOpenInsights={() => setInsightsOpen(true)}
         notesSlot={
           <CaseNotes
             notes={caseNotes}
@@ -148,7 +158,15 @@ export function CounselorWorkspace({ userId }: { userId: string }) {
           />
         }
       />
-      <InsightsPanel userId={userId} onQuickAsk={quickAsk} />
+      <InsightsPanel
+        userId={userId}
+        onQuickAsk={(text) => {
+          setInsightsOpen(false)
+          quickAsk(text)
+        }}
+        open={insightsOpen}
+        onClose={() => setInsightsOpen(false)}
+      />
     </div>
   )
 }
