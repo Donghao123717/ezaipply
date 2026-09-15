@@ -273,8 +273,13 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
                   key={section.key}
                   onClick={() => setActiveKey(section.key)}
                   className={cn(
-                    'w-full flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-left transition-colors',
-                    isActive ? 'bg-secondary text-primary font-semibold' : 'text-foreground hover:bg-muted',
+                    // The left bar is what tells you where you are at a glance;
+                    // it is always in the layout so switching sections does not
+                    // shift the labels sideways.
+                    'flex w-full items-center gap-2 border-l-2 rounded-r-lg px-3 py-2 text-left text-sm transition-colors',
+                    isActive
+                      ? 'border-accent bg-secondary font-semibold text-primary'
+                      : 'border-transparent text-foreground hover:bg-muted',
                   )}
                 >
                   <CheckCircle2 className={cn('h-4 w-4 shrink-0', complete ? 'text-emerald-500' : 'text-muted-foreground/30')} />
@@ -293,13 +298,25 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
             </p>
           </div>
 
+          {/* Documents get a card of their own rather than a grey line at the
+              bottom of the rail: uploading a transcript is half of filling in
+              a profile, and it was reading as an afterthought. */}
           <button
             onClick={() => setFilesOpen(true)}
-            className="mt-4 pt-4 border-t flex items-center gap-2 text-sm text-muted-foreground w-full hover:text-primary"
+            className="mt-4 w-full rounded-xl border bg-card p-3 text-left transition-colors hover:border-primary"
           >
-            <Paperclip className="h-4 w-4" />
-            {t('profile.filesCount').replace('{count}', String(fileCount))}
-            <span className="text-primary font-medium ml-1">{t('profile.manage')}</span>
+            <span className="flex items-center gap-2">
+              <Paperclip className="h-4 w-4 shrink-0 text-accent" />
+              <span className="min-w-0 flex-1 truncate text-sm font-medium text-primary">
+                {t('profile.files.title')}
+              </span>
+              <span className="shrink-0 text-xs font-medium text-accent">{t('profile.manage')}</span>
+            </span>
+            <span className="mt-1 block text-xs text-muted-foreground">
+              {fileCount > 0
+                ? t('profile.filesCount').replace('{count}', String(fileCount))
+                : t('profile.filesKinds')}
+            </span>
           </button>
 
           <ProfileAdvanced

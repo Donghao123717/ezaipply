@@ -1120,6 +1120,11 @@ class Section(str, Enum):
     education = "education"
     activity = "activity"
     testing = "testing"
+    # Award certificates and competition results. Their own folder rather than
+    # a corner of `activity`, because a student looking for the one certificate
+    # a school asked to see should not have to read past twelve internship
+    # letters to find it.
+    honor = "honor"
     visa = "visa"
 
 
