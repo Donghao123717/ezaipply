@@ -18,6 +18,7 @@ import { PreferenceIntake } from '@/components/colleges/preference-intake'
 import { computeProfileStrength } from '@/lib/profile-strength'
 import { computeStudentScores } from '@/lib/student-scores'
 import { loadProfileContext } from '@/lib/essay-store'
+import { profileSection } from '@/lib/profile-section-context'
 import { apiErrorMessage } from '@/lib/api-error'
 
 const CATEGORY_STYLE: Record<CollegeCategory, string> = {
@@ -77,6 +78,8 @@ export function RecommendedColleges({
           saved_names: Array.from(savedNames),
           candidates: buildCandidates(),
           preferences: toRequestShape(prefs),
+          activities_context: profileSection(userId, 'activities'),
+          honors_context: profileSection(userId, 'honors'),
           count: 20,
         }),
       })

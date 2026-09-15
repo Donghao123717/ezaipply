@@ -129,6 +129,11 @@ class RecommendRequest(BaseModel):
     saved_names: List[str] = Field(default_factory=list)
     candidates: List[CandidateSchool] = Field(default_factory=list)
     preferences: StudentPreferences = Field(default_factory=StudentPreferences)
+    # What they have actually done. Rated once per run and applied to every
+    # school, because a patent or a national award changes the odds everywhere,
+    # not at one school.
+    activities_context: str = ""
+    honors_context: str = ""
     count: int = Field(20, ge=1, le=30)
 
 
@@ -213,7 +218,12 @@ def _student_sat_equivalent(sat: Optional[int], act: Optional[int]) -> Optional[
     return None
 
 
-def _categorise(cand: CandidateSchool, student_sat: Optional[int], strength: float) -> str:
+def _categorise(
+    cand: CandidateSchool,
+    student_sat: Optional[int],
+    strength: float,
+    record: float = 0.45,
+) -> str:
     """reach / target / safety, from how the student's scores sit against this
     school's band and how selective it is overall.
 
@@ -231,8 +241,10 @@ def _categorise(cand: CandidateSchool, student_sat: Optional[int], strength: flo
 
     gap = student_sat - _expected_sat(cand)
     # Roughly: each 60 points above a school's midpoint doubles your standing
-    # relative to the published rate.
-    odds = rate * (2.0 ** (gap / 60.0))
+    # relative to the published rate. An exceptional record is worth real
+    # points on top of that - holistic review is the whole reason these schools
+    # do not just rank by score - and a bare one costs a little.
+    odds = rate * (2.0 ** (gap / 60.0)) * (0.8 + 0.8 * record)
     if rate <= 8:
         odds = min(odds, 18.0)   # nobody's scores make an Ivy a target
     if odds < 15:
@@ -240,6 +252,58 @@ def _categorise(cand: CandidateSchool, student_sat: Optional[int], strength: flo
     if odds < 45:
         return "target"
     return "safety"
+
+
+def _rate_record(activities: str, honors: str) -> tuple[float, str]:
+    """0-1 for how much this student's record moves an admissions decision.
+
+    Not all extracurriculars are worth the same and pretending otherwise is the
+    most common way a school list ends up wrong. A national competition result,
+    a patent, published research with a faculty member, or software with real
+    users is the kind of thing that pulls an application out of the pile. Being
+    student council president or volunteering weekly is good, and also what a
+    large share of applicants have - it is a floor, not a differentiator.
+
+    Returns the rating and a one-line reason, so the student can see which
+    bucket their record landed in rather than just a number.
+    """
+    text = "\n".join(part for part in [activities, honors] if part).strip()
+    if not text or llm_provider is None:
+        return 0.45, ""
+
+    system_prompt = (
+        "You are an admissions reader rating one applicant's activities and awards on how much they "
+        "move an admissions decision at a selective university. Judge only what is described.\n\n"
+        "Guidance on the scale:\n"
+        "- 85-100: a result that lifts an application out of the pile - top placement in a national or "
+        "international competition (AMC/AIME/olympiad, ISEF, top-tier debate), a granted patent, "
+        "published or presented research with a faculty member, software or a venture with real "
+        "measurable users or revenue, national-level recognition in an art or sport.\n"
+        "- 65-84: strong regional or state distinction, sustained original work, meaningful research "
+        "participation, founding something that demonstrably ran.\n"
+        "- 45-64: solid, common school-level leadership and service - student council president, club "
+        "founder, sustained volunteering, varsity team. Genuinely good, and held by a large share of "
+        "applicants to these schools, so it is a floor rather than a differentiator.\n"
+        "- 20-44: participation without depth, duration or result.\n"
+        "- 0-19: nothing substantive described.\n\n"
+        "Do not inflate. Most real applicants land between 45 and 70, and rating a common profile as "
+        "exceptional makes the whole school list wrong.\n\n"
+        'Respond ONLY with JSON: {"score": <0-100 integer>, "reason": "<one short sentence naming the '
+        'single strongest item and why it does or does not carry weight>"}'
+    )
+    try:
+        raw = llm_provider.chat_completion(
+            messages=[{"role": "system", "content": system_prompt}, {"role": "user", "content": text[:6000]}],
+            temperature=0.1,
+            max_tokens=300,
+        )
+        parsed = _extract_json(raw["content"])
+        if isinstance(parsed, dict):
+            value = int(parsed.get("score", 45))
+            return max(0.0, min(1.0, value / 100.0)), str(parsed.get("reason", "")).strip()
+    except Exception as e:  # noqa: BLE001
+        logger.warning("Could not rate the activity record: %s", e)
+    return 0.45, ""
 
 
 def _program_match(cand: CandidateSchool, major: str) -> float:
@@ -345,10 +409,17 @@ def _fit_score(
     category: str,
     student_sat: Optional[int],
     prefs: StudentPreferences,
+    record: float,
+    record_reason: str,
 ) -> tuple[int, List[FitReason]]:
-    """0-100 overall fit. Academics and programme dominate by design - the
-    student was explicit that scores and subject strength matter most, and the
-    lifestyle answers are there to choose between schools that already fit."""
+    """0-100 overall fit.
+
+    Scores and subject strength dominate by design. What the student has
+    actually done carries the next largest share, because a national award or a
+    patent moves an admissions decision far more than a preference for warm
+    weather does. The lifestyle answers are last: they are there to choose
+    between schools that already fit, not to decide which schools fit.
+    """
     reasons: List[FitReason] = []
 
     # Academic fit: how close the student sits to this school's band. Being far
@@ -382,11 +453,15 @@ def _fit_score(
     preference, pref_reasons = _preference_score(cand, prefs)
     reasons.extend(pref_reasons)
 
+    if record_reason:
+        reasons.append(FitReason(label="\u6d3b\u52a8\u4e0e\u5956\u9879", detail=record_reason))
+
     score = (
         0.40 * academic
         + 0.25 * programme
+        + 0.15 * record
         + 0.10 * reputation
-        + 0.25 * preference
+        + 0.10 * preference
     )
     return round(score * 100), reasons
 
@@ -414,10 +489,14 @@ async def recommend_colleges(body: RecommendRequest):
     student_sat = _student_sat_equivalent(body.student_sat, body.student_act)
     prefs = body.preferences
 
+    # One rating for the whole run: the record is a property of the student,
+    # not of any school.
+    record, record_reason = _rate_record(body.activities_context, body.honors_context)
+
     scored = []
     for cand in pool:
-        category = _categorise(cand, student_sat, strength)
-        score, reasons = _fit_score(cand, category, student_sat, prefs)
+        category = _categorise(cand, student_sat, strength, record)
+        score, reasons = _fit_score(cand, category, student_sat, prefs, record, record_reason)
         scored.append((score, category, cand, reasons))
     scored.sort(key=lambda row: row[0], reverse=True)
 
