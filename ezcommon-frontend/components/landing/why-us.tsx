@@ -12,6 +12,9 @@ import { cn } from '@/lib/utils'
  * slides being swapped - the same beat length the reference page uses.
  */
 const BEAT_VH = 140
+/** Scroll progress is rounded to this many steps per beat before it reaches
+ *  React, so scrolling does not re-render the chapter on every frame. */
+const STEPS = 48
 
 /**
  * Every beat's motion is scheduled inside this window. Leaving a margin at
@@ -506,7 +509,7 @@ function BeatStage({
   return (
     <div
       aria-hidden={alpha < 0.5}
-      style={{ opacity: alpha }}
+      style={{ opacity: alpha, willChange: 'opacity' }}
       className="absolute inset-0 flex flex-col items-center justify-center px-6 motion-reduce:!opacity-100"
     >
           {/* The payoff beat is the three lines and nothing else - a heading
@@ -614,23 +617,46 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
     if (!node) return
 
     let frame = 0
+    // Measured once rather than per frame: a getBoundingClientRect() inside a
+    // scroll handler forces the browser to lay the page out again before it
+    // can answer, sixty times a second, on a document nine screens tall.
+    let runwayTop = 0
+    let scrollable = 0
+
+    function measure() {
+      const rect = node!.getBoundingClientRect()
+      runwayTop = rect.top + window.scrollY
+      scrollable = rect.height - window.innerHeight
+    }
+
     function onScroll() {
       cancelAnimationFrame(frame)
       frame = requestAnimationFrame(() => {
-        const rect = node!.getBoundingClientRect()
-        const scrollable = rect.height - window.innerHeight
         if (scrollable <= 0) return
-        const progress = Math.min(Math.max(-rect.top / scrollable, 0), 0.9999)
+        const progress = Math.min(Math.max((window.scrollY - runwayTop) / scrollable, 0), 0.9999)
         const scaled = progress * total
         setBeat(Math.floor(scaled))
-        setLocal(scaled % 1)
+        // Quantised to 1/STEPS. The raw float changes every single frame, and
+        // every change re-rendered the whole chapter; at this step the largest
+        // move it can hide is a third of a pixel and two percent of an opacity,
+        // so nothing is visibly lost and most frames do no React work at all.
+        const next = Math.round((scaled % 1) * STEPS) / STEPS
+        setLocal((prev) => (prev === next ? prev : next))
       })
     }
 
-    window.addEventListener('scroll', onScroll, { passive: true })
+    function remeasure() {
+      measure()
+      onScroll()
+    }
+
+    measure()
     onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', remeasure)
     return () => {
       window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', remeasure)
       cancelAnimationFrame(frame)
     }
   }, [total])

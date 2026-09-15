@@ -71,5 +71,30 @@
 
 body {
   @apply bg-background text-foreground font-sans;
+  /* Subpixel positioning while a scroll-linked animation is running otherwise
+     shows up as text that shimmers as it moves. */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Every in-app panel is its own scroll box. Without this, reaching the end of
+   one hands the gesture to the page behind it, which reads as the panel
+   sticking and then the whole page lurching. */
+aside,
+[data-scroll-panel] {
+  overscroll-behavior: contain;
+}
+
+/* Respect the system setting everywhere at once, rather than relying on each
+   animated element remembering its own motion-reduce: variant. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 

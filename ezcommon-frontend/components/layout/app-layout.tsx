@@ -6,6 +6,7 @@ import { AccountMenu } from '@/components/home/account-menu'
 import { MoreMenu } from '@/components/layout/more-menu'
 import { LanguageSwitcher } from '@/components/layout/language-switcher'
 import { MobileNav } from '@/components/layout/mobile-nav'
+import { RouteProgress } from '@/components/layout/route-progress'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n/use-t'
 import { Home } from 'lucide-react'
@@ -51,6 +52,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen w-full flex flex-col bg-background">
+      <RouteProgress />
       <header className="h-16 flex-shrink-0 bg-primary text-primary-foreground">
         <div className="flex h-full items-center gap-3 px-4 md:gap-8 md:px-6">
           <MobileNav menu={menu} mode={mode} onSwitchMode={switchMode} />

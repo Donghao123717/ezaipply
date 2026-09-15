@@ -69,6 +69,24 @@ export function LandingPage() {
   useEffect(() => {
     const ids = copy.sections.map((section) => section.id)
     let frame = 0
+    // Document-space tops, measured once. Reading getBoundingClientRect() for
+    // every section on every scroll frame forced the browser to lay out a
+    // 12,000px document sixty times a second, which is most of what made the
+    // page feel heavy under the finger. Scroll position alone is enough once
+    // the tops are known, and they only move when the layout does.
+    let tops: { id: string; top: number; bottom: number }[] = []
+
+    function measure() {
+      const pageTop = window.scrollY
+      tops = ids
+        .map((id) => {
+          const node = document.getElementById(id)
+          if (!node) return null
+          const rect = node.getBoundingClientRect()
+          return { id, top: rect.top + pageTop, bottom: rect.bottom + pageTop }
+        })
+        .filter((entry): entry is { id: string; top: number; bottom: number } => entry !== null)
+    }
 
     // Which section is under a line just above the middle of the viewport.
     //
@@ -79,31 +97,38 @@ export function LandingPage() {
     function pick() {
       cancelAnimationFrame(frame)
       frame = requestAnimationFrame(() => {
-        const line = window.innerHeight * 0.4
+        const line = window.scrollY + window.innerHeight * 0.4
         let current = ids[0]
-        for (const id of ids) {
-          const node = document.getElementById(id)
-          if (!node) continue
-          const rect = node.getBoundingClientRect()
-          if (rect.top <= line && rect.bottom > line) {
-            current = id
+        for (const entry of tops) {
+          if (entry.top <= line && entry.bottom > line) {
+            current = entry.id
             break
           }
           // Past the line already: remember it and keep looking, so scrolling
           // through a gap between sections holds the last one rather than
           // snapping back to the first.
-          if (rect.top <= line) current = id
+          if (entry.top <= line) current = entry.id
         }
         setActive(current)
       })
     }
 
-    window.addEventListener('scroll', pick, { passive: true })
-    window.addEventListener('resize', pick)
+    function remeasure() {
+      measure()
+      pick()
+    }
+
+    measure()
     pick()
+    window.addEventListener('scroll', pick, { passive: true })
+    window.addEventListener('resize', remeasure)
+    // A web font landing late reflows the page and moves every section.
+    const observer = new ResizeObserver(remeasure)
+    observer.observe(document.body)
     return () => {
       window.removeEventListener('scroll', pick)
-      window.removeEventListener('resize', pick)
+      window.removeEventListener('resize', remeasure)
+      observer.disconnect()
       cancelAnimationFrame(frame)
     }
   }, [copy.sections])

@@ -92,7 +92,12 @@ export function PromoCarousel({ initialIndex = 0 }: { initialIndex?: number }) {
         <ChevronRight className="h-4 w-4" />
       </button>
 
-      <div className="grid items-center gap-8 rounded-xl bg-card p-6 sm:grid-cols-2 sm:p-10">
+      {/* Keyed on the slide so the entrance replays on every change. Swapping
+          the contents with no transition read as a jump rather than a slide. */}
+      <div
+        key={slide.key}
+        className="grid animate-fade-in-up items-center gap-8 rounded-xl bg-card p-6 motion-reduce:animate-none sm:grid-cols-2 sm:p-10"
+      >
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-2">{t(slide.eyebrowKey)}</p>
           <h3 className="font-display text-3xl sm:text-4xl font-semibold text-primary leading-tight mb-6">
