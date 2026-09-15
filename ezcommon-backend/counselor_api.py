@@ -230,3 +230,112 @@ async def counselor_chat(body: CounselorChatRequest):
         raise
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
+
+class StudentProfileRequest(BaseModel):
+    profile_context: str = ""
+    gpa: Optional[float] = None
+    class_rank: str = ""
+    sat: Optional[int] = None
+    act: Optional[int] = None
+    intended_major: str = ""
+    activities_context: str = ""
+    honors_context: str = ""
+    locale: str = "en"
+
+
+class StudentProfileSummary(BaseModel):
+    """A counsellor's read on the student, in the shape a reader can scan."""
+
+    verdict: str = ""                       # one sentence, the whole student
+    academic: List[str] = Field(default_factory=list)
+    strengths: List[str] = Field(default_factory=list)
+    activities: List[str] = Field(default_factory=list)
+    growth: List[str] = Field(default_factory=list)
+    has_data: bool = False
+
+
+@router.post("/api/counselor/student-profile", response_model=StudentProfileSummary, tags=["Counselor"])
+async def student_profile(body: StudentProfileRequest):
+    """Summarise the student the way a counsellor would describe them.
+
+    The profile page already shows every field the student typed. This is the
+    other thing a counsellor has and a form does not: a read on what those
+    fields add up to, and - the part students never get - what is conspicuously
+    missing for the schools they are aiming at.
+
+    Growth areas are the point. Anyone can list a GPA back at you; naming the
+    gap between a stated major and the evidence for it is the work.
+    """
+    if not llm_provider:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="LLM provider not available")
+
+    facts = [
+        f"GPA: {body.gpa:.2f}/4.0" if body.gpa else "",
+        f"Class rank: {body.class_rank}" if body.class_rank else "",
+        f"SAT: {body.sat}" if body.sat else "",
+        f"ACT: {body.act}" if body.act else "",
+        f"Intended major: {body.intended_major}" if body.intended_major else "",
+    ]
+    known = "\n".join(f for f in facts if f)
+    body_text = "\n\n".join(
+        part for part in [
+            f"Known academics:\n{known}" if known else "",
+            f"Activities:\n{body.activities_context}" if body.activities_context else "",
+            f"Honors and awards:\n{body.honors_context}" if body.honors_context else "",
+            f"Full profile:\n{body.profile_context}" if body.profile_context else "",
+        ] if part
+    )
+
+    if not body_text.strip():
+        return StudentProfileSummary(has_data=False)
+
+    language = "Simplified Chinese" if body.locale == "zh" else "English"
+    system_prompt = (
+        "You are an experienced admissions counsellor writing a short internal read on one student, "
+        "for that student to see. Work only from what you are given - never invent a score, an award "
+        "or an activity, and never pad a thin profile to look fuller than it is.\n\n"
+        f"Write in {language}.\n\n"
+        "Return JSON:\n"
+        "- verdict: ONE sentence describing this student as a whole, the way you would open a "
+        "recommendation. Concrete, not flattering. If the profile is thin, say that plainly.\n"
+        "- academic: 2-4 short lines, each a single fact as printed - a GPA, a rank, a score. Omit "
+        "anything you were not given rather than writing 'not provided'.\n"
+        "- strengths: 2-4 short phrases naming what this student is demonstrably good at, each "
+        "grounded in something in the profile.\n"
+        "- activities: 2-4 short lines on what they actually do outside class, naming the activity.\n"
+        "- growth: 2-4 short lines on what is MISSING for where they are headed - the evidence an "
+        "admissions officer would expect to see for their stated major and does not. This is the most "
+        "useful section; be specific and direct rather than encouraging. If their intended major is "
+        "known, judge the gaps against that major.\n\n"
+        'Respond ONLY with JSON: {"verdict": "...", "academic": [], "strengths": [], '
+        '"activities": [], "growth": []}'
+    )
+
+    try:
+        raw = llm_provider.chat_completion(
+            messages=[{"role": "system", "content": system_prompt},
+                      {"role": "user", "content": body_text[:9000]}],
+            temperature=0.3,
+            max_tokens=900,
+        )
+        parsed = _extract_json(raw["content"])
+        if not isinstance(parsed, dict):
+            raise ValueError("unusable response")
+
+        def lines(key: str) -> List[str]:
+            value = parsed.get(key)
+            if not isinstance(value, list):
+                return []
+            return [str(x).strip() for x in value if str(x).strip()][:4]
+
+        return StudentProfileSummary(
+            verdict=str(parsed.get("verdict", "")).strip(),
+            academic=lines("academic"),
+            strengths=lines("strengths"),
+            activities=lines("activities"),
+            growth=lines("growth"),
+            has_data=True,
+        )
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=f"Could not build the profile: {e}")

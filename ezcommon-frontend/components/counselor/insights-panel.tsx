@@ -9,6 +9,7 @@ import { computeProfileSectionsProgress } from '@/lib/profile-schema'
 import { loadColleges, CATEGORY_LABEL_KEY, type SavedCollege } from '@/lib/college-store'
 import { loadForecast, timeAgo, type ForecastRecord } from '@/lib/forecast-store'
 import { ApplicationTrackerPanel } from '@/components/counselor/application-tracker'
+import { StudentProfileCard } from '@/components/counselor/student-profile-card'
 
 const CATEGORY_CLASS: Record<SavedCollege['category'], string> = {
   reach: 'bg-rose-100 text-rose-700',
@@ -30,6 +31,9 @@ function ProfileTab({ userId }: { userId: string }) {
 
   return (
     <div>
+      <div className="mb-4">
+        <StudentProfileCard userId={userId} />
+      </div>
       <div className="flex items-center justify-between mb-3">
         <h3 className="font-semibold text-primary text-sm">{t('counselor.profileTab.title')}</h3>
         <span className="text-xs font-semibold text-primary">{percent}%</span>
