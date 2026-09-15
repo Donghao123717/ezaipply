@@ -93,7 +93,12 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
   // granted, so the ref was still null at the point of assignment.
   useEffect(() => {
     if (videoRef.current && streamRef.current) {
-      videoRef.current.srcObject = streamRef.current
+      // Video only. A self-view has no use for the microphone track, and an
+      // element holding live mic audio is one regression away from playing the
+      // applicant's own voice back at them mid-answer. React sets `muted` as a
+      // property but never as the attribute, so the attribute is set here too.
+      videoRef.current.defaultMuted = true
+      videoRef.current.srcObject = new MediaStream(streamRef.current.getVideoTracks())
     }
   }, [permission, cameraOn])
 
@@ -186,9 +191,13 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
     setError(null)
     try {
       const data = await callInterview([])
+      // The open question is stored as a trailing turn with no answer. It is
+      // what loadInterview() resumes from, and without it a reload mid-
+      // interview lost the question and told the applicant, on an interview
+      // they had not answered a word of, that it was finished.
       const fresh: InterviewSession = {
         visaType,
-        turns: [],
+        turns: [{ question: data.question, questionTranslation: data.question_translation || '', answer: '' }],
         startedAt: new Date().toISOString(),
         done: false,
       }
@@ -207,8 +216,11 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
     if (!answer.trim() || busy || !session) return
     setBusy(true)
     setError(null)
+    // Everything already answered, plus the open question now answered. The
+    // trailing unanswered turn is a placeholder, not history, so it is dropped
+    // rather than sent to the model or counted twice.
     const answered: InterviewTurn[] = [
-      ...session.turns,
+      ...session.turns.filter((turn) => turn.answer),
       { question: pending, questionTranslation: pendingTranslation, answer: answer.trim() },
     ]
     setAnswer('')
@@ -228,7 +240,13 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           detail: f.detail,
         })),
       }
-      const next: InterviewSession = { ...session, turns: graded, done: !!data.done }
+      const next: InterviewSession = {
+        ...session,
+        turns: data.done
+          ? graded
+          : [...graded, { question: data.question, questionTranslation: data.question_translation || '', answer: '' }],
+        done: !!data.done,
+      }
       setSession(next)
       saveInterview(userId, next)
       setPending(data.done ? '' : data.question)
@@ -255,7 +273,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         body: JSON.stringify({
           visa_type: visaType,
           locale,
-          turns: session.turns.map((turn) => ({ question: turn.question, answer: turn.answer })),
+          turns: session.turns.filter((t) => t.answer).map((turn) => ({ question: turn.question, answer: turn.answer })),
           ds160_context: loadDS160Context(userId),
           profile_context: loadProfileContext(userId),
         }),
@@ -331,7 +349,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         <div className="flex items-center gap-4 text-sm">
           <span className="font-medium text-primary">{t('visaInterview.title')}</span>
           <span className="text-muted-foreground">
-            {t('visaInterview.turnCount').replace('{n}', String(session.turns.length))}
+            {t('visaInterview.turnCount').replace('{n}', String(session.turns.filter((turn) => turn.answer).length))}
           </span>
           {avg !== null && (
             <span className="text-muted-foreground">
@@ -454,7 +472,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
       </div>
 
       <div ref={scrollRef} className="mx-auto w-full max-w-3xl flex-1 space-y-6 overflow-y-auto px-6 py-6">
-        {session.turns.map((turn, i) => (
+        {session.turns.filter((turn) => turn.answer).map((turn, i) => (
           <div key={i} className="space-y-3">
             <div>
               <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
