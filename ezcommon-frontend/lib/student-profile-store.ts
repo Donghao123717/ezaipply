@@ -11,6 +11,12 @@ export interface StudentProfileSummary {
   has_data: boolean
   /** When this read was generated, so the card can say how old it is. */
   generatedAt?: string
+  /**
+   * Fingerprint of the profile it was built from. The card regenerates when
+   * this stops matching - which is what makes it keep itself current without
+   * either a button to press or a model call on every page view.
+   */
+  sourceHash?: string
 }
 
 function key(userId: string) {
@@ -32,6 +38,54 @@ export function saveStudentProfile(userId: string, summary: StudentProfileSummar
     else window.localStorage.removeItem(key(userId))
   } catch {
     /* a cached read is a convenience, not a record */
+  }
+}
+
+/**
+ * A cheap, stable fingerprint of everything the summary is built from.
+ *
+ * Not a security hash - just enough that editing an activity or adding a score
+ * changes it, and opening the page twice does not.
+ */
+function fingerprint(input: string): string {
+  let h = 0
+  for (let i = 0; i < input.length; i++) {
+    h = (h << 5) - h + input.charCodeAt(i)
+    h |= 0
+  }
+  return `${input.length}-${h}`
+}
+
+/** Everything the summary depends on, as one string. */
+export function profileFingerprint(userId: string): string {
+  const scores = computeStudentScores(userId)
+  let extras = ''
+  try {
+    extras = window.localStorage.getItem(`aipply-profile-${userId}`) || ''
+  } catch {
+    extras = ''
+  }
+  return fingerprint(
+    [scores.sat, scores.act, scores.gpa4, extras].map((x) => String(x ?? '')).join('|'),
+  )
+}
+
+/** True when there is enough in the profile to be worth summarising. */
+export function hasProfileData(userId: string): boolean {
+  const scores = computeStudentScores(userId)
+  if (scores.sat || scores.act || scores.gpa4) return true
+  try {
+    const raw = window.localStorage.getItem(`aipply-profile-${userId}`)
+    if (!raw) return false
+    const profile = JSON.parse(raw) as Record<string, any>
+    // A name alone is not a profile; look for something with substance in it.
+    return ['activities', 'honors', 'education', 'academic-interests'].some((key) => {
+      const value = profile[key]
+      if (Array.isArray(value)) return value.length > 0
+      return !!value && Object.values(value).some((v) => String(v ?? '').trim())
+    })
+  } catch {
+    return false
   }
 }
 
@@ -92,7 +146,11 @@ export async function generateStudentProfile(
   })
   const data = await res.json()
   if (!res.ok) throw new Error(apiErrorMessage(data, 'Could not build your profile'))
-  const summary: StudentProfileSummary = { ...data, generatedAt: new Date().toISOString() }
+  const summary: StudentProfileSummary = {
+    ...data,
+    generatedAt: new Date().toISOString(),
+    sourceHash: profileFingerprint(userId),
+  }
   saveStudentProfile(userId, summary)
   return summary
 }

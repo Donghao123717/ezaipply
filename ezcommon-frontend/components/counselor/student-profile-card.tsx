@@ -1,11 +1,13 @@
 "use client"
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Loader2, RefreshCw, Sparkles } from 'lucide-react'
 import { useT } from '@/lib/i18n/use-t'
 import { useLocale } from '@/lib/i18n/locale-context'
 import {
   generateStudentProfile,
+  hasProfileData,
   loadStudentProfile,
+  profileFingerprint,
   type StudentProfileSummary,
 } from '@/lib/student-profile-store'
 
@@ -18,9 +20,15 @@ import {
  * this exists - anyone can read a GPA back at you, and nobody tells a student
  * that their stated major has no evidence behind it.
  *
- * Generated on request rather than on load. It costs a model call, it only
- * changes when the profile does, and a card that silently regenerates itself
- * is a card the student cannot trust to still say what they read yesterday.
+ * It builds itself. Nobody should have to press a button to find out what
+ * their own counsellor thinks, and a card that only appears after you discover
+ * the button mostly does not get read at all.
+ *
+ * It regenerates when the profile it was built from actually changes, not on
+ * every page view - keyed on a fingerprint of the inputs. That keeps it current
+ * without spending a model call every time the panel mounts, and means the
+ * student can trust it still says what they read an hour ago unless they
+ * changed something themselves.
  */
 
 function Section({ title, items, tone }: { title: string; items: string[]; tone?: 'growth' }) {
@@ -46,22 +54,37 @@ export function StudentProfileCard({ userId }: { userId: string }) {
   const [summary, setSummary] = useState<StudentProfileSummary | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  // React mounts effects twice in development, and each build is a paid model
+  // call - so the fingerprint already being in flight is enough to skip.
+  const building = useRef<string | null>(null)
 
-  useEffect(() => {
-    setSummary(loadStudentProfile(userId))
-  }, [userId])
-
-  async function run() {
+  const run = useCallback(async () => {
+    const stamp = profileFingerprint(userId)
+    if (building.current === stamp) return
+    building.current = stamp
     setLoading(true)
     setError(null)
     try {
       setSummary(await generateStudentProfile(userId, locale))
     } catch (e) {
       setError(e instanceof Error ? e.message : t('counselor.studentProfile.failed'))
+      building.current = null
     } finally {
       setLoading(false)
     }
-  }
+  }, [userId, locale, t])
+
+  useEffect(() => {
+    const cached = loadStudentProfile(userId)
+    setSummary(cached)
+
+    // Build it when there is something to read and no current read of it.
+    // Stale means the profile changed since, not that time has passed.
+    if (!hasProfileData(userId)) return
+    const stale = !cached || cached.sourceHash !== profileFingerprint(userId)
+    if (stale) void run()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [userId])
 
   return (
     <div className="rounded-2xl border bg-card p-4">
@@ -82,7 +105,14 @@ export function StudentProfileCard({ userId }: { userId: string }) {
       </div>
 
       {!summary && !loading && (
-        <p className="text-xs leading-relaxed text-muted-foreground">{t('counselor.studentProfile.empty')}</p>
+        <p className="text-xs leading-relaxed text-muted-foreground">{t('counselor.studentProfile.noProfile')}</p>
+      )}
+
+      {loading && !summary && (
+        <p className="flex items-center gap-1.5 text-xs text-muted-foreground">
+          <Loader2 className="h-3 w-3 animate-spin" />
+          {t('counselor.studentProfile.building')}
+        </p>
       )}
 
       {summary && !summary.has_data && (
