@@ -1,13 +1,5 @@
 import { queueUserStateSync } from '@/lib/user-state-sync'
 
-export interface VisaPrepData {
-  sevisFeepaid: boolean
-  ds160ConfirmationBarcode: string
-  consulate: string
-  appointmentDate: string
-  documentsChecked: Record<string, boolean>
-}
-
 export const REQUIRED_DOCUMENTS = [
   'passport',
   'i20',
@@ -22,12 +14,36 @@ export const REQUIRED_DOCUMENTS = [
 
 export type RequiredDocumentKey = (typeof REQUIRED_DOCUMENTS)[number]
 
+/** One uploaded visa document, as returned by the upload endpoint. */
+export interface VisaDocFile {
+  filename: string
+  size: number
+  url?: string
+  uploadedAt: string
+}
+
+export interface VisaPrepData {
+  sevisFeepaid: boolean
+  ds160ConfirmationBarcode: string
+  consulate: string
+  appointmentDate: string
+  documentsChecked: Record<string, boolean>
+  /**
+   * Files held against each checklist item. The upload endpoint stores them
+   * all under one `visa` section in S3; this is what remembers which of them
+   * is the I-20 and which is the bank statement, so each row can show its own.
+   */
+  documentFiles?: Partial<Record<RequiredDocumentKey, VisaDocFile[]>>
+}
+
+
 const DEFAULT_DATA: VisaPrepData = {
   sevisFeepaid: false,
   ds160ConfirmationBarcode: '',
   consulate: '',
   appointmentDate: '',
   documentsChecked: {},
+  documentFiles: {},
 }
 
 function visaPrepKey(userId: string) {

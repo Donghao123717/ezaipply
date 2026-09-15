@@ -1107,11 +1107,20 @@ def list_users(limit: int = 100):
 # ============================================================================
 
 class Section(str, Enum):
-    """Upload sections"""
+    """Upload sections.
+
+    `visa` is deliberately its own section rather than another application
+    folder. An applicant at the visa stage already holds an I-20 - they are
+    past applying - and their passport, fee receipts and financial evidence
+    have nothing to do with a college application. Keeping them in separate
+    S3 prefixes is what stops the two sets of paperwork getting mixed up in
+    the files view.
+    """
     profile = "profile"
     education = "education"
     activity = "activity"
     testing = "testing"
+    visa = "visa"
 
 
 @app.on_event("startup")

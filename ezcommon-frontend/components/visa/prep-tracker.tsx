@@ -1,7 +1,8 @@
 "use client"
 import { useEffect, useState } from 'react'
 import { CheckCircle2, Info } from 'lucide-react'
-import { loadVisaPrep, saveVisaPrep, REQUIRED_DOCUMENTS, type VisaPrepData, type RequiredDocumentKey } from '@/lib/visa-prep-store'
+import { loadVisaPrep, saveVisaPrep, REQUIRED_DOCUMENTS, type VisaPrepData, type RequiredDocumentKey, type VisaDocFile } from '@/lib/visa-prep-store'
+import { VisaDocumentUpload } from '@/components/visa/document-upload'
 import { useT } from '@/lib/i18n/use-t'
 
 const TIP_KEYS = ['tip1', 'tip2', 'tip3', 'tip4', 'tip5'] as const
@@ -26,6 +27,23 @@ export function PrepTracker({ userId }: { userId: string }) {
   function toggleDoc(key: RequiredDocumentKey) {
     if (!data) return
     update({ documentsChecked: { ...data.documentsChecked, [key]: !data.documentsChecked[key] } })
+  }
+
+  function addFiles(key: RequiredDocumentKey, added: VisaDocFile[]) {
+    if (!data) return
+    const existing = data.documentFiles?.[key] || []
+    update({
+      documentFiles: { ...data.documentFiles, [key]: [...existing, ...added] },
+      // Holding the file is stronger evidence than ticking the box, so the
+      // tick follows the upload rather than the student having to do both.
+      documentsChecked: { ...data.documentsChecked, [key]: true },
+    })
+  }
+
+  function removeFile(key: RequiredDocumentKey, filename: string) {
+    if (!data) return
+    const remaining = (data.documentFiles?.[key] || []).filter((f) => f.filename !== filename)
+    update({ documentFiles: { ...data.documentFiles, [key]: remaining } })
   }
 
   if (!data) return null
@@ -111,20 +129,33 @@ export function PrepTracker({ userId }: { userId: string }) {
           />
         </div>
         <div className="space-y-1">
-          {REQUIRED_DOCUMENTS.map((key) => (
-            <label
-              key={key}
-              className="flex cursor-pointer items-center gap-3 rounded-lg px-2 py-2 transition-colors hover:bg-muted/40"
-            >
-              <input
-                type="checkbox"
-                checked={!!data.documentsChecked[key]}
-                onChange={() => toggleDoc(key)}
-                className="h-4 w-4 rounded accent-primary shrink-0"
-              />
-              <span className="text-sm text-foreground">{t(`visaPrep.documents.${key}`)}</span>
-            </label>
-          ))}
+          {REQUIRED_DOCUMENTS.map((key) => {
+            const attached = data.documentFiles?.[key] || []
+            return (
+              <div key={key} className="rounded-lg px-2 py-2 transition-colors hover:bg-muted/40">
+                {/* The upload control sits outside the label on purpose - inside
+                    one, clicking "attach" would toggle the checkbox too. */}
+                <label className="flex cursor-pointer items-center gap-3">
+                  <input
+                    type="checkbox"
+                    checked={!!data.documentsChecked[key]}
+                    onChange={() => toggleDoc(key)}
+                    className="h-4 w-4 rounded accent-primary shrink-0"
+                  />
+                  <span className="text-sm text-foreground">{t(`visaPrep.documents.${key}`)}</span>
+                </label>
+                <div className="pl-7">
+                  <VisaDocumentUpload
+                    userId={userId}
+                    docKey={key}
+                    files={attached}
+                    onUploaded={(added) => addFiles(key, added)}
+                    onRemove={(filename) => removeFile(key, filename)}
+                  />
+                </div>
+              </div>
+            )
+          })}
         </div>
       </div>
 

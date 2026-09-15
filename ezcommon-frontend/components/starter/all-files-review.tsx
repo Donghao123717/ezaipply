@@ -23,7 +23,10 @@ const SECTION_LABELS: { [key: string]: string } = {
   profile: 'Profile Documents',
   education: 'Education Documents',
   activity: 'Activity Documents',
-  testing: 'Testing Documents'
+  testing: 'Testing Documents',
+  // Grouped separately because it is separate paperwork: someone uploading a
+  // passport and an I-20 has finished applying to schools.
+  visa: 'Visa Documents',
 }
 
 export function AllFilesReview({ userIdOverride }: { userIdOverride?: string }) {

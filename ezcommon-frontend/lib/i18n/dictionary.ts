@@ -1559,6 +1559,13 @@ export const dictionary = {
       ds160BarcodePlaceholder: 'e.g. AA00123456789',
       consulate: 'Consulate / Embassy',
       appointmentDate: 'Interview Appointment Date',
+        upload: {
+          attach: 'Attach file',
+          addMore: 'Add another',
+          remove: 'Remove',
+          failed: 'Upload failed - try again',
+          note: 'Visa paperwork is kept separate from your application documents.',
+        },
       documentsTitle: 'Required Documents Checklist',
       documents: {
         passport: 'Valid passport (6+ months beyond intended stay)',
@@ -3533,6 +3540,13 @@ export const dictionary = {
       ds160BarcodePlaceholder: '例如：AA00123456789',
       consulate: '使领馆',
       appointmentDate: '面签预约日期',
+        upload: {
+          attach: '上传文件',
+          addMore: '再传一个',
+          remove: '删除',
+          failed: '上传失败，请重试',
+          note: '签证材料与申请学校的材料分开存放。',
+        },
       documentsTitle: '所需材料清单',
       documents: {
         passport: '有效护照(有效期需超出预计停留时间 6 个月以上)',
