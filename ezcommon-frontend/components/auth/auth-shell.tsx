@@ -20,7 +20,7 @@ export function AuthShell({
 }) {
   return (
     <main className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-primary px-4 py-24">
-      <VideoBackdrop />
+      <VideoBackdrop still />
       {/* Enough wash for the card edge to read against moving footage, but
           not so much that the campus turns into a flat navy rectangle - the
           point of the clip is that you can see it. Darker at the edges so the

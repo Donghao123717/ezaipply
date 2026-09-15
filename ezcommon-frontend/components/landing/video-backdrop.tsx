@@ -7,11 +7,28 @@
  */
 export const HERO_VIDEO = process.env.NEXT_PUBLIC_HERO_VIDEO ?? '/hero-loop.mp4'
 const HERO_POSTER = '/hero-poster.jpg'
+/** A light still of the same frame, for pages that should not pay for video. */
+const HERO_STILL = '/hero-still.jpg'
 
-export function VideoBackdrop() {
+export function VideoBackdrop({ still = false }: { still?: boolean }) {
   return (
     <div aria-hidden className="absolute inset-0 overflow-hidden">
-      {HERO_VIDEO && (
+      {/* The sign-in pages get the still, not the clip.
+          The video is 6.3 MB and the poster another 0.4 MB, and a browser with
+          a cold cache - a new incognito window, or a first-time visitor -
+          downloads all of it before the form is usable. That is a lot to spend
+          on decoration behind a two-field form, and it is spent at exactly the
+          moment someone is deciding whether this product feels slow. The
+          landing page still gets the clip, which is where it earns it. */}
+      {still ? (
+        <img
+          src={HERO_STILL}
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
+          fetchPriority="high"
+        />
+      ) : (
+        HERO_VIDEO && (
         <video
           // React sets `muted` as a property but never as the HTML attribute,
           // and Chrome's autoplay policy reads the attribute - so
@@ -27,6 +44,7 @@ export function VideoBackdrop() {
           muted
           playsInline
         />
+        )
       )}
       {/* Keeps the drift alive in the corners the clip does not reach. */}
       <div
