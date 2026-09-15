@@ -41,6 +41,24 @@ export function FieldInput({
   const baseInputClass =
     'w-full rounded-lg border bg-card px-3 py-2.5 text-sm outline-none focus:border-primary transition-colors'
 
+  // A select with nothing to select from is a dead end - the student can see
+  // the question and cannot answer it. That should never ship, but when a
+  // school's option list is missing, letting them type the answer is strictly
+  // better than a disabled-looking dropdown.
+  if (field.type === 'select' && !field.options?.length) {
+    return (
+      <div>
+        {eyebrow}
+        <input
+          type="text"
+          className={baseInputClass}
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+        />
+      </div>
+    )
+  }
+
   if (field.type === 'select') {
     return (
       <div>
