@@ -20,6 +20,13 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     if (saved === 'en' || saved === 'zh') setLocaleState(saved)
   }, [])
 
+  // Keep <html lang> honest. It is what a screen reader picks a voice from and
+  // what the browser offers to translate against, and it was stuck on "en"
+  // however much Chinese was on the page.
+  useEffect(() => {
+    document.documentElement.lang = locale === 'zh' ? 'zh-CN' : 'en'
+  }, [locale])
+
   function setLocale(next: Locale) {
     setLocaleState(next)
     window.localStorage.setItem(STORAGE_KEY, next)
