@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react'
 import Link from 'next/link'
-import { ChevronLeft, ChevronRight, FileText, GraduationCap, PenLine, SendHorizonal } from 'lucide-react'
+import { ChevronLeft, ChevronRight, FileText, GraduationCap, PenLine, SendHorizonal, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
 
@@ -12,6 +12,9 @@ interface Slide {
   eyebrowKey: string
   titleKey: string
   ctaKey: string
+  /** An optional second way in, for slides where there are two real starting points. */
+  secondaryHref?: string
+  secondaryKey?: string
   noteLabelKey: string
   noteBodyKey: string
 }
@@ -44,6 +47,10 @@ const slides: Slide[] = [
     eyebrowKey: 'home.promo.collegesEyebrow',
     titleKey: 'home.promo.collegesTitle',
     ctaKey: 'home.promo.collegesCta',
+    // Two genuinely different starting points: open the list you have, or let
+    // the counsellor build one. A student with an empty list wants the second.
+    secondaryHref: '/colleges?view=recommend',
+    secondaryKey: 'home.promo.collegesRecommendCta',
     noteLabelKey: 'home.promo.collegesNoteLabel',
     noteBodyKey: 'home.promo.collegesNoteBody',
   },
@@ -87,9 +94,19 @@ export function PromoCarousel({ initialIndex = 0 }: { initialIndex?: number }) {
           <h3 className="font-display text-3xl sm:text-4xl font-semibold text-primary leading-tight mb-6">
             {t(slide.titleKey)}
           </h3>
-          <Button asChild size="lg">
-            <Link href={slide.href}>{t(slide.ctaKey)}</Link>
-          </Button>
+          <div className="flex flex-wrap gap-2">
+            <Button asChild size="lg">
+              <Link href={slide.href}>{t(slide.ctaKey)}</Link>
+            </Button>
+            {slide.secondaryHref && slide.secondaryKey && (
+              <Button asChild size="lg" variant="outline">
+                <Link href={slide.secondaryHref}>
+                  <Sparkles className="mr-1.5 h-4 w-4" />
+                  {t(slide.secondaryKey)}
+                </Link>
+              </Button>
+            )}
+          </div>
         </div>
         <div className="flex items-center justify-center">
           <div className="h-40 w-40 rounded-2xl bg-card border flex items-center justify-center shadow-sm">

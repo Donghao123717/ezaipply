@@ -1,5 +1,6 @@
 "use client"
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { Check, Loader2, RefreshCw, Sparkles, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
@@ -44,10 +45,26 @@ export function RecommendedColleges({
   const [leaving, setLeaving] = useState<Set<string>>(new Set())
   const [prefs, setPrefs] = useState<CollegePreferences>({})
 
+  const router = useRouter()
+  const params = useSearchParams()
+  // Arriving with ?generate=1 - from the profile page or the home card - means
+  // "do the thing", not "show me the button for the thing".
+  const askedToGenerate = params.get('generate') === '1'
+  const autoRan = useRef(false)
+
   useEffect(() => {
     setSet(loadRecommendations(userId))
     setPrefs(loadPreferences(userId))
   }, [userId])
+
+  useEffect(() => {
+    if (!askedToGenerate || autoRan.current) return
+    autoRan.current = true
+    // Drop the flag so a refresh does not silently spend another run.
+    router.replace('/colleges?view=recommend', { scroll: false })
+    void generate()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [askedToGenerate])
 
   // A school the student added by hand is no longer a useful suggestion.
   const visible = useMemo(

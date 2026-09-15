@@ -1,6 +1,7 @@
 "use client"
+import Link from 'next/link'
 import { useEffect, useMemo, useState } from 'react'
-import { CheckCircle2, ChevronDown, ChevronRight, Paperclip, Plus, Trash2 } from 'lucide-react'
+import { CheckCircle2, ChevronDown, ChevronRight, Paperclip, Plus, Trash2, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import {
@@ -248,7 +249,17 @@ export function ProfileBuilder({ userId, defaultFirstName, defaultLastName }: { 
           <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-1">{t('profile.eyebrow')}</p>
           <h1 className="font-display text-3xl font-semibold text-primary">{t('profile.title')}</h1>
         </div>
-        <Button onClick={() => setSuggestionsOpen(true)}>{t('profile.findSuggestions')}</Button>
+        <div className="flex flex-wrap gap-2">
+          {/* The profile is the input to the school list, so the shortest path
+              from "I filled this in" to "so what" belongs right here. */}
+          <Button asChild variant="outline">
+            <Link href="/colleges?view=recommend&generate=1">
+              <Sparkles className="mr-1.5 h-4 w-4" />
+              {t('profile.generateSchools')}
+            </Link>
+          </Button>
+          <Button onClick={() => setSuggestionsOpen(true)}>{t('profile.findSuggestions')}</Button>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[240px_minmax(0,1fr)] gap-8">
