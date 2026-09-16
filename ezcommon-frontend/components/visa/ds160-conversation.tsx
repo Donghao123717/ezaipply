@@ -63,17 +63,34 @@ export function Ds160Conversation({
   const [error, setError] = useState('')
   const [pending, setPending] = useState<Gap[]>([])
   const [gaps, setGaps] = useState<Gap[]>([])
+  /**
+   * Fields asked once and ruled out - "no, I don't have a social security
+   * number", "I haven't booked anything yet". Nothing lands in the form for
+   * those, so without remembering that they were asked, they stay gaps and
+   * come back around. That loop is what made the conversation feel broken.
+   */
+  const [declined, setDeclined] = useState<Set<string>>(new Set())
   const [started, setStarted] = useState(false)
   const scrollRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
 
-  const recount = useCallback(() => {
-    const data = loadDS160Data(userId)
-    const found = findGaps(data, t, sections)
-    setGaps(found)
-    return { data, found }
-  }, [userId, t, sections])
+  const recount = useCallback(
+    (ruledOut?: Set<string>) => {
+      const data = loadDS160Data(userId)
+      const found = findGaps(data, t, sections, ruledOut ?? declined)
+      setGaps(found)
+      return { data, found }
+    },
+    [userId, t, sections, declined],
+  )
 
+  // Restoring the transcript happens once per applicant, and deliberately does
+  // not depend on `recount`. It used to: `recount` changes identity whenever
+  // the answers or the ruled-out set change, so every turn re-ran this and
+  // pasted the transcript from before that turn back over the fresh one. The
+  // visible symptom was the conversation cycling - the same two questions
+  // asked over and over, because the record of having asked them kept being
+  // rolled back.
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(storageKey(userId))
@@ -81,18 +98,26 @@ export function Ds160Conversation({
         const saved = JSON.parse(raw)
         if (Array.isArray(saved?.turns)) setTurns(saved.turns)
         if (Array.isArray(saved?.pending)) setPending(saved.pending)
+        if (Array.isArray(saved?.declined)) setDeclined(new Set(saved.declined))
         if (saved?.turns?.length) setStarted(true)
       }
     } catch {
       // A malformed transcript is not worth failing over - start fresh.
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [userId])
+
+  useEffect(() => {
     recount()
-  }, [userId, recount])
+  }, [recount])
 
   useEffect(() => {
     if (!started) return
-    window.localStorage.setItem(storageKey(userId), JSON.stringify({ turns, pending }))
-  }, [turns, pending, started, userId])
+    window.localStorage.setItem(
+      storageKey(userId),
+      JSON.stringify({ turns, pending, declined: [...declined] }),
+    )
+  }, [turns, pending, declined, started, userId])
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' })
@@ -148,9 +173,24 @@ export function Ds160Conversation({
         ...(filled.length ? [{ role: 'user' as const, text: '', filled }] : []),
         ...(body.question ? [{ role: 'assistant' as const, text: body.question, hint: body.hint }] : []),
       ])
+
+      // They answered, and some of what was asked did not land. Unless this is
+      // a follow-up - where the whole point is to ask those again - that means
+      // the answer was "not applicable", and asking again is the bug.
+      let ruledOut = declined
+      if (answer.trim() && !body.follow_up && answered.length) {
+        const landed = new Set((body.fills || []).map((f: any) => `${f.section}.${f.field}`))
+        ruledOut = new Set(declined)
+        for (const target of answered) {
+          const id = `${target.section}.${target.field}`
+          if (!landed.has(id)) ruledOut.add(id)
+        }
+        setDeclined(ruledOut)
+      }
+
       // A follow-up is a re-ask of the same fields, so they stay pending.
       setPending(body.follow_up ? answered : batch)
-      recount()
+      recount(ruledOut)
     } catch (e) {
       setError(e instanceof Error ? e.message : t('ds160.chat.failed'))
     } finally {
@@ -182,8 +222,9 @@ export function Ds160Conversation({
     window.localStorage.removeItem(storageKey(userId))
     setTurns([])
     setPending([])
+    setDeclined(new Set())
     setStarted(false)
-    recount()
+    recount(new Set())
   }
 
   const total = Math.max(gaps.length + turns.filter((x) => x.filled?.length).length, 1)

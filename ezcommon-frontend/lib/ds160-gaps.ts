@@ -38,6 +38,46 @@ const SKIP_SECTIONS = new Set(['setup', 'photo'])
  */
 const PRE_ANSWERED_NO = new Set(['security1', 'security2', 'security3', 'security4', 'security5'])
 
+/**
+ * Questions the form only asks when an earlier answer opens them.
+ *
+ * Asking someone who has never been to the United States when they last
+ * arrived is not a gap in their application, it is a question that does not
+ * exist for them - and a visitor who has not booked anything yet should never
+ * be asked their flight number. The real form branches here; ours did not, so
+ * it kept coming back to fields the applicant had already ruled out.
+ *
+ * Keyed "section.field", and read as: only ask this if that field says this.
+ */
+const DEPENDS_ON: Record<string, { section: string; field: string; equals: string }> = {}
+
+function dependOn(section: string, parent: string, equals: string, children: string[]) {
+  for (const child of children) {
+    DEPENDS_ON[`${section}.${child}`] = { section, field: parent, equals }
+  }
+}
+
+// Specific travel plans: with none made, the form wants an intended date and
+// nothing that presupposes a booking.
+dependOn('travel', 'hasSpecificPlans', 'Yes', [
+  'arrivalFlight',
+  'arrivalCity',
+  'departureDate',
+  'departureFlight',
+  'departureCity',
+])
+dependOn('previousTravel', 'hasBeenToUS', 'Yes', ['dateArrived', 'lengthOfStay'])
+dependOn('previousTravel', 'hasPriorVisa', 'Yes', [
+  'lastVisaDate',
+  'visaNumber',
+  'sameVisaType',
+  'sameCountryAsBefore',
+  'tenPrinted',
+  'visaLostOrStolen',
+  'visaCancelledOrRevoked',
+])
+dependOn('companions', 'hasCompanions', 'Yes', ['travelingAsGroup'])
+
 function isEmpty(value: unknown): boolean {
   if (value === undefined || value === null) return true
   if (typeof value === 'string') return value.trim() === ''
@@ -58,7 +98,13 @@ function gapFrom(sectionKey: string, field: FieldDef, t: (key: string) => string
 }
 
 /** Every unanswered field, form order, skipping the pages above. */
-export function findGaps(data: Ds160Data, t: (key: string) => string, visibleSections?: Ds160SectionMeta[]): Gap[] {
+export function findGaps(
+  data: Ds160Data,
+  t: (key: string) => string,
+  visibleSections?: Ds160SectionMeta[],
+  /** Fields the applicant has already been asked and ruled out. */
+  declined?: Set<string>,
+): Gap[] {
   const sections = visibleSections || DS160_SECTIONS
   const gaps: Gap[] = []
 
@@ -74,6 +120,17 @@ export function findGaps(data: Ds160Data, t: (key: string) => string, visibleSec
         // applicant who uploads their paperwork is never asked their passport
         // number or their SEVIS ID.
         if (!isEmpty(sectionData[field.key])) continue
+        // Already asked, and the answer was that it does not apply. Coming back
+        // to it is the single thing that made the conversation feel broken:
+        // "no, I don't have one" and then, two questions later, the same
+        // question again.
+        if (declined?.has(`${section.key}.${field.key}`)) continue
+        // A question the form only opens when an earlier answer opens it.
+        const gate = DEPENDS_ON[`${section.key}.${field.key}`]
+        if (gate) {
+          const parent = (data[gate.section] as Record<string, any>)?.[gate.field]
+          if (parent !== gate.equals) continue
+        }
         // An explanation only exists because of a Yes above it. Asking "please
         // explain" of someone who answered No is asking about nothing.
         if (/explain|explanation/i.test(field.key) && !hasYesInSection(sectionData)) continue

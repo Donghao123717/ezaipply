@@ -79,6 +79,23 @@ export function loadVisaType(userId: string): VisaType {
   }
 }
 
+/**
+ * The chosen type, or null when nothing has been chosen yet.
+ *
+ * `loadVisaType` defaults to F-1 so every downstream caller has something to
+ * work with. That default is wrong as an answer to "has this applicant told us
+ * yet?" - it is what let a visitor be shown the student checklist without ever
+ * being asked.
+ */
+export function chosenVisaType(userId: string): VisaType | null {
+  try {
+    const saved = window.localStorage.getItem(visaTypeKey(userId))
+    return saved === 'B1B2' || saved === 'H1B' || saved === 'F1' ? saved : null
+  } catch {
+    return 'F1'
+  }
+}
+
 export function saveVisaType(userId: string, type: VisaType) {
   const key = visaTypeKey(userId)
   window.localStorage.setItem(key, type)

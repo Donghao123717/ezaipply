@@ -1,18 +1,19 @@
 import { queueUserStateSync } from '@/lib/user-state-sync'
 
-export const REQUIRED_DOCUMENTS = [
-  'passport',
-  'i20',
-  'ds160Confirmation',
-  'sevisFeeReceipt',
-  'visaFeeReceipt',
-  'photo',
-  'academicTranscripts',
-  'financialEvidence',
-  'admissionLetter',
-] as const
+/**
+ * What every applicant carries to the window regardless of visa class.
+ *
+ * The rest of the checklist comes from `documentsFor(visaType)` - the same list
+ * the intake collects against - because a B1/B2 applicant being told to bring
+ * an I-20 is the kind of thing that makes people distrust the whole checklist.
+ * These three are the ones that are not documents about the applicant but
+ * about the application itself, so they belong to no visa class in particular.
+ */
+export const APPOINTMENT_DOCUMENTS = ['ds160Confirmation', 'visaFeeReceipt', 'appointmentLetter'] as const
 
-export type RequiredDocumentKey = (typeof REQUIRED_DOCUMENTS)[number]
+export type AppointmentDocumentKey = (typeof APPOINTMENT_DOCUMENTS)[number]
+/** Either an appointment document or one of the per-visa-type kinds. */
+export type RequiredDocumentKey = string
 
 /** One uploaded visa document, as returned by the upload endpoint. */
 export interface VisaDocFile {

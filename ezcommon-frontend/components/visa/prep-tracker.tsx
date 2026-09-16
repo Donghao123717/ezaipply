@@ -1,7 +1,9 @@
 "use client"
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { CheckCircle2, Info } from 'lucide-react'
-import { loadVisaPrep, saveVisaPrep, REQUIRED_DOCUMENTS, type VisaPrepData, type RequiredDocumentKey, type VisaDocFile } from '@/lib/visa-prep-store'
+import { loadVisaPrep, saveVisaPrep, APPOINTMENT_DOCUMENTS, type VisaPrepData, type RequiredDocumentKey, type VisaDocFile } from '@/lib/visa-prep-store'
+import { documentsFor } from '@/lib/visa-documents'
+import { loadVisaType, type VisaType } from '@/lib/visa-chat-store'
 import { VisaDocumentUpload } from '@/components/visa/document-upload'
 import { useT } from '@/lib/i18n/use-t'
 
@@ -10,9 +12,11 @@ const TIP_KEYS = ['tip1', 'tip2', 'tip3', 'tip4', 'tip5'] as const
 export function PrepTracker({ userId }: { userId: string }) {
   const t = useT()
   const [data, setData] = useState<VisaPrepData | null>(null)
+  const [visaType, setVisaType] = useState<VisaType>('F1')
 
   useEffect(() => {
     setData(loadVisaPrep(userId))
+    setVisaType(loadVisaType(userId))
   }, [userId])
 
   function update(patch: Partial<VisaPrepData>) {
@@ -46,9 +50,26 @@ export function PrepTracker({ userId }: { userId: string }) {
     update({ documentFiles: { ...data.documentFiles, [key]: remaining } })
   }
 
+  /**
+   * The checklist, per visa class.
+   *
+   * It used to be one flat list that named an I-20, a SEVIS receipt and an
+   * admission letter for everybody - which is the F-1 list, handed to visitors
+   * and H-1B applicants as though it were theirs. What each class actually
+   * brings comes from the same definition the intake collects against, so the
+   * two can never drift apart.
+   */
+  const checklist = useMemo(
+    () => [
+      ...documentsFor(visaType).map((spec) => ({ key: spec.kind as RequiredDocumentKey, labelKey: spec.labelKey })),
+      ...APPOINTMENT_DOCUMENTS.map((key) => ({ key: key as RequiredDocumentKey, labelKey: `visaPrep.documents.${key}` })),
+    ],
+    [visaType],
+  )
+
   if (!data) return null
 
-  const checkedCount = REQUIRED_DOCUMENTS.filter((k) => data.documentsChecked[k]).length
+  const checkedCount = checklist.filter((item) => data.documentsChecked[item.key]).length
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-8 space-y-8">
@@ -117,7 +138,7 @@ export function PrepTracker({ userId }: { userId: string }) {
         <div className="flex items-center justify-between mb-2">
           <h2 className="font-semibold text-primary">{t('visaPrep.documentsTitle')}</h2>
           <span className="text-xs tabular-nums text-muted-foreground">
-            {checkedCount} / {REQUIRED_DOCUMENTS.length}
+            {checkedCount} / {checklist.length}
           </span>
         </div>
         {/* Packing for an interview is the one place a bar earns its keep -
@@ -125,11 +146,11 @@ export function PrepTracker({ userId }: { userId: string }) {
         <div className="mb-4 h-1.5 overflow-hidden rounded-full bg-muted">
           <div
             className="h-full rounded-full bg-emerald-500 transition-[width] duration-500 ease-out motion-reduce:transition-none"
-            style={{ width: `${(checkedCount / REQUIRED_DOCUMENTS.length) * 100}%` }}
+            style={{ width: `${checklist.length ? (checkedCount / checklist.length) * 100 : 0}%` }}
           />
         </div>
         <div className="space-y-1">
-          {REQUIRED_DOCUMENTS.map((key) => {
+          {checklist.map(({ key, labelKey }) => {
             const attached = data.documentFiles?.[key] || []
             return (
               <div key={key} className="rounded-lg px-2 py-2 transition-colors hover:bg-muted/40">
@@ -142,7 +163,7 @@ export function PrepTracker({ userId }: { userId: string }) {
                     onChange={() => toggleDoc(key)}
                     className="h-4 w-4 rounded accent-primary shrink-0"
                   />
-                  <span className="text-sm text-foreground">{t(`visaPrep.documents.${key}`)}</span>
+                  <span className="text-sm text-foreground">{t(labelKey)}</span>
                 </label>
                 <div className="pl-7">
                   <VisaDocumentUpload
