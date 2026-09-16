@@ -64,24 +64,28 @@ export function Ds160Conversation({
   const [pending, setPending] = useState<Gap[]>([])
   const [gaps, setGaps] = useState<Gap[]>([])
   /**
-   * Fields asked once and ruled out - "no, I don't have a social security
-   * number", "I haven't booked anything yet". Nothing lands in the form for
-   * those, so without remembering that they were asked, they stay gaps and
-   * come back around. That loop is what made the conversation feel broken.
+   * Fields asked once that produced nothing - "I don't have my passport on
+   * me", "I haven't booked anything yet". They are set aside rather than
+   * dropped: the rest of the page gets finished, then they are asked once
+   * more, that time asking what is in the way. Without remembering they were
+   * asked at all, they stayed gaps and came round again immediately, which is
+   * the loop that made the conversation feel broken.
    */
-  const [declined, setDeclined] = useState<Set<string>>(new Set())
+  const [deferred, setDeferred] = useState<Set<string>>(new Set())
+  /** Pages whose set-aside questions have already been gone back over once. */
+  const [swept, setSwept] = useState<Set<string>>(new Set())
   const [started, setStarted] = useState(false)
   const scrollRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
 
   const recount = useCallback(
-    (ruledOut?: Set<string>) => {
+    (_ruledOut?: Set<string>) => {
       const data = loadDS160Data(userId)
-      const found = findGaps(data, t, sections, ruledOut ?? declined)
+      const found = findGaps(data, t, sections)
       setGaps(found)
       return { data, found }
     },
-    [userId, t, sections, declined],
+    [userId, t, sections],
   )
 
   // Restoring the transcript happens once per applicant, and deliberately does
@@ -98,7 +102,8 @@ export function Ds160Conversation({
         const saved = JSON.parse(raw)
         if (Array.isArray(saved?.turns)) setTurns(saved.turns)
         if (Array.isArray(saved?.pending)) setPending(saved.pending)
-        if (Array.isArray(saved?.declined)) setDeclined(new Set(saved.declined))
+        if (Array.isArray(saved?.deferred)) setDeferred(new Set(saved.deferred))
+        if (Array.isArray(saved?.swept)) setSwept(new Set(saved.swept))
         if (saved?.turns?.length) setStarted(true)
       }
     } catch {
@@ -115,9 +120,9 @@ export function Ds160Conversation({
     if (!started) return
     window.localStorage.setItem(
       storageKey(userId),
-      JSON.stringify({ turns, pending, declined: [...declined] }),
+      JSON.stringify({ turns, pending, deferred: [...deferred], swept: [...swept] }),
     )
-  }, [turns, pending, declined, started, userId])
+  }, [turns, pending, deferred, swept, started, userId])
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' })
@@ -132,7 +137,9 @@ export function Ds160Conversation({
       const remaining = found.filter(
         (g) => !answered.some((a) => a.section === g.section && a.field === g.field),
       )
-      const batch = nextBatch(remaining)
+      const next = nextBatch(remaining, 8, deferred, swept)
+      const batch = next.gaps
+      if (next.sweep && next.section) setSwept((prev) => new Set(prev).add(next.section))
       const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
       const res = await fetch(`${base}/api/visa/ds160-turn`, {
         method: 'POST',
@@ -144,6 +151,9 @@ export function Ds160Conversation({
           answer,
           answered_targets: answered,
           next_targets: batch,
+          // The second time of asking is a different question: not "what is
+          // it?" but "what is stopping you answering?"
+          mode: next.sweep ? 'sweep' : 'ask',
           known_context: knownContext(data, t),
           remaining: remaining.length,
         }),
@@ -177,20 +187,21 @@ export function Ds160Conversation({
       // They answered, and some of what was asked did not land. Unless this is
       // a follow-up - where the whole point is to ask those again - that means
       // the answer was "not applicable", and asking again is the bug.
-      let ruledOut = declined
+      let setAside = deferred
       if (answer.trim() && !body.follow_up && answered.length) {
         const landed = new Set((body.fills || []).map((f: any) => `${f.section}.${f.field}`))
-        ruledOut = new Set(declined)
+        setAside = new Set(deferred)
         for (const target of answered) {
           const id = `${target.section}.${target.field}`
-          if (!landed.has(id)) ruledOut.add(id)
+          if (!landed.has(id)) setAside.add(id)
+          else setAside.delete(id)
         }
-        setDeclined(ruledOut)
+        setDeferred(setAside)
       }
 
       // A follow-up is a re-ask of the same fields, so they stay pending.
       setPending(body.follow_up ? answered : batch)
-      recount(ruledOut)
+      recount(setAside)
     } catch (e) {
       setError(e instanceof Error ? e.message : t('ds160.chat.failed'))
     } finally {
@@ -222,7 +233,8 @@ export function Ds160Conversation({
     window.localStorage.removeItem(storageKey(userId))
     setTurns([])
     setPending([])
-    setDeclined(new Set())
+    setDeferred(new Set())
+    setSwept(new Set())
     setStarted(false)
     recount(new Set())
   }

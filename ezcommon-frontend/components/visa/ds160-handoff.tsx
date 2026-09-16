@@ -60,24 +60,26 @@ export function Ds160Handoff({
       .map((section) => {
         const sectionData = (data[section.key] as Record<string, any>) || {}
         const rows: { label: string; value: string }[] = []
-        let blanks = 0
+        const missing: string[] = []
         for (const group of (section.def as any).groups || []) {
           for (const field of group.fields) {
             const value = sectionData[field.key]
             const text = typeof value === 'string' ? value.trim() : ''
             if (!text) {
-              if (field.required) blanks += 1
+              // Named, not counted. "3 blank" tells the applicant there is a
+              // problem; the name of the field tells them what to go and find.
+              if (field.required) missing.push(fieldLabel(field, t))
               continue
             }
             rows.push({ label: fieldLabel(field, t), value: text })
           }
         }
-        return { key: section.key, label: t(section.labelKey), rows, blanks }
+        return { key: section.key, label: t(section.labelKey), rows, missing }
       })
-      .filter((page) => page.rows.length > 0 || page.blanks > 0)
+      .filter((page) => page.rows.length > 0 || page.missing.length > 0)
   }, [data, sections, t])
 
-  const totalBlanks = pages.reduce((n, p) => n + p.blanks, 0)
+  const totalBlanks = pages.reduce((n, p) => n + p.missing.length, 0)
   const applicationId = ((data.setup as Record<string, any>) || {}).applicationId || ''
   const ready = totalBlanks === 0
 
@@ -111,9 +113,9 @@ export function Ds160Handoff({
             <div className="flex items-center justify-between gap-3 border-b bg-muted/40 px-4 py-2.5">
               <div className="flex min-w-0 items-center gap-2">
                 <h3 className="truncate text-sm font-semibold text-primary">{page.label}</h3>
-                {page.blanks > 0 && (
+                {page.missing.length > 0 && (
                   <span className="shrink-0 rounded-full bg-accent/15 px-2 py-0.5 text-[11px] font-medium text-accent">
-                    {t('ds160.handoff.pageBlanks').replace('{count}', String(page.blanks))}
+                    {t('ds160.handoff.pageBlanks').replace('{count}', String(page.missing.length))}
                   </span>
                 )}
               </div>
@@ -125,6 +127,18 @@ export function Ds160Handoff({
                 {t('ds160.handoff.edit')}
               </button>
             </div>
+            {page.missing.length > 0 && (
+              <div className="border-b border-accent/20 bg-accent/5 px-4 py-2.5">
+                <p className="mb-1 text-xs font-semibold text-accent">{t('ds160.handoff.missingHere')}</p>
+                <ul className="space-y-0.5">
+                  {page.missing.map((label) => (
+                    <li key={label} className="text-xs text-muted-foreground">
+                      · {label}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <dl className="divide-y">
               {page.rows.map((row, i) => (
                 <div key={i} className="flex items-baseline justify-between gap-4 px-4 py-2">

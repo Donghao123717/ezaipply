@@ -57,8 +57,11 @@ function dependOn(section: string, parent: string, equals: string, children: str
   }
 }
 
-// Specific travel plans: with none made, the form wants an intended date and
-// nothing that presupposes a booking.
+// Read off the real form, page by page, with each Yes expanded.
+//
+// Travel: with no specific plans made, the form drops the itinerary and asks
+// only for an intended date and length of stay. It still asks where you will
+// stay and who is paying - those are not part of the itinerary.
 dependOn('travel', 'hasSpecificPlans', 'Yes', [
   'arrivalFlight',
   'arrivalCity',
@@ -66,7 +69,10 @@ dependOn('travel', 'hasSpecificPlans', 'Yes', [
   'departureFlight',
   'departureCity',
 ])
-dependOn('previousTravel', 'hasBeenToUS', 'Yes', ['dateArrived', 'lengthOfStay'])
+// Previous travel: the licence question sits inside the "have you ever been in
+// the U.S." block on the real form - it is not asked of someone who has never
+// been.
+dependOn('previousTravel', 'hasBeenToUS', 'Yes', ['dateArrived', 'lengthOfStay', 'hasDriversLicense'])
 dependOn('previousTravel', 'hasPriorVisa', 'Yes', [
   'lastVisaDate',
   'visaNumber',
@@ -77,6 +83,13 @@ dependOn('previousTravel', 'hasPriorVisa', 'Yes', [
   'visaCancelledOrRevoked',
 ])
 dependOn('companions', 'hasCompanions', 'Yes', ['travelingAsGroup'])
+// Address and phone: each "have you used any others in the last five years"
+// opens its own list, and nothing below it is asked when the answer is No.
+dependOn('addressPhone', 'hasOtherPhones', 'Yes', ['additionalPhone'])
+dependOn('addressPhone', 'hasOtherEmails', 'Yes', ['additionalEmail'])
+dependOn('addressPhone', 'hasOtherWebPresence', 'Yes', ['additionalPlatform', 'additionalHandle'])
+
+const OPTIONAL_LABEL = /line 2|if known|optional|第二行|选填/i
 
 function isEmpty(value: unknown): boolean {
   if (value === undefined || value === null) return true
@@ -131,6 +144,11 @@ export function findGaps(
           const parent = (data[gate.section] as Record<string, any>)?.[gate.field]
           if (parent !== gate.equals) continue
         }
+        // The form marks some fields optional in their own label - "Street
+        // Address (Line 2) *Optional*", "Arrival Flight (if known)". Asking
+        // for them out loud spends a turn on something the applicant can
+        // leave blank, and there are enough of them to notice.
+        if (!field.required && OPTIONAL_LABEL.test(fieldLabel(field, t))) continue
         // An explanation only exists because of a Yes above it. Asking "please
         // explain" of someone who answered No is asking about nothing.
         if (/explain|explanation/i.test(field.key) && !hasYesInSection(sectionData)) continue
@@ -214,33 +232,78 @@ const ASK_CLUSTERS: Record<string, string[][]> = {
 }
 
 /**
- * The next cluster of gaps to ask about together.
+ * What to ask next, and whether this is a first pass or the sweep.
  *
- * Everything the documents already answered is absent from `gaps` by
- * construction - this only ever sees blanks - so an applicant who uploaded a
- * passport, an I-20 and an itinerary is never asked their passport number, and
- * the security pages, which default to No, never come up at all. What is left
- * is the handful the paperwork cannot know.
+ * A question the applicant could not answer is not dropped - it is set aside
+ * until the rest of its page is done, then asked once more, this time asking
+ * what is in the way. Somebody who does not have their passport to hand at
+ * nine in the evening is not refusing to answer, and stopping the whole form
+ * on them is how a form gets abandoned. Somebody who has no US contact at all
+ * needs a different answer, and the only way to tell the two apart is to ask.
+ *
+ * After the sweep the page is left alone and the blanks are carried to the
+ * confirmation step, where they are named as blocking submission.
  */
-export function nextBatch(gaps: Gap[], cap = 8): Gap[] {
-  if (gaps.length === 0) return []
-  const first = gaps[0]
-  const sameSection = gaps.filter((g) => g.section === first.section)
-  const clusters = ASK_CLUSTERS[first.section]
+export interface Batch {
+  gaps: Gap[]
+  /** Second time of asking: find out what is in the way. */
+  sweep: boolean
+  /** The page these belong to, so the caller can mark it swept. */
+  section: string
+}
 
+/**
+ * Fields that belong in one question, because a person answers them in one
+ * breath.
+ *
+ * "Who is your contact in the US, what is their relationship to you, and where
+ * do they live?" is one question that fills six boxes. Asked as six questions
+ * it is an interrogation, and asked four-at-a-time by position it splits a
+ * street address across two turns. The form's own page order is followed; only
+ * the grouping within a page is set here.
+ */
+export function nextBatch(
+  gaps: Gap[],
+  cap = 8,
+  deferred: Set<string> = new Set(),
+  swept: Set<string> = new Set(),
+): Batch {
+  const id = (g: Gap) => `${g.section}.${g.field}`
+  if (gaps.length === 0) return { gaps: [], sweep: false, section: '' }
+
+  // Page order is the form's order. Work the current page to the end before
+  // moving on, so the sweep happens while the page is still fresh.
+  const order: string[] = []
+  for (const gap of gaps) if (!order.includes(gap.section)) order.push(gap.section)
+
+  for (const section of order) {
+    const here = gaps.filter((g) => g.section === section)
+    const fresh = here.filter((g) => !deferred.has(id(g)))
+    if (fresh.length) return { gaps: clusterFrom(fresh, section, cap), sweep: false, section }
+
+    const setAside = here.filter((g) => deferred.has(id(g)))
+    if (setAside.length && !swept.has(section)) {
+      return { gaps: setAside.slice(0, cap), sweep: true, section }
+    }
+  }
+  return { gaps: [], sweep: false, section: '' }
+}
+
+function clusterFrom(gaps: Gap[], section: string, cap: number): Gap[] {
+  const first = gaps[0]
+  const clusters = ASK_CLUSTERS[section]
   if (clusters) {
     const cluster = clusters.find((c) => c.includes(first.field))
     if (cluster) {
-      const batch = sameSection.filter((g) => cluster.includes(g.field))
+      const batch = gaps.filter((g) => cluster.includes(g.field))
       if (batch.length) return batch.slice(0, cap)
     }
   }
-
   // No cluster covers it - take a capped run, and never bundle a free-text
   // explanation with anything else: attached to three other fields it gets a
   // one-word answer.
   const batch: Gap[] = []
-  for (const gap of sameSection) {
+  for (const gap of gaps) {
     if (gap.type === 'textarea' && batch.length > 0) break
     batch.push(gap)
     if (gap.type === 'textarea' || batch.length >= cap) break

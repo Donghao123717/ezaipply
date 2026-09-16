@@ -1438,8 +1438,9 @@ export const dictionary = {
       },
       handoff: {
         ready: 'Every required answer is filled. Read it through - you are the one signing it.',
-        blanks: '{count} required answers are still blank. You can still review, but the government site will not let you submit until they are filled.',
+        blanks: '{count} required answers are still blank. They are named below, page by page. The government site will not accept the form until every one of them is filled.',
         pageBlanks: '{count} blank',
+        missingHere: 'Still needed before you can submit:',
         edit: 'Edit',
         submitTitle: 'Submitting it',
         submitBody: 'We prepare the form; you submit it. The government site issues your Application ID and asks a security question only you should know the answer to, so the last few steps are yours.',
@@ -3718,8 +3719,9 @@ export const dictionary = {
       },
       handoff: {
         ready: '所有必填项都填好了。请通读一遍——签字的人是你。',
-        blanks: '还有 {count} 个必填项是空的。你现在可以先核对，但官网在填完之前不会让你提交。',
+        blanks: '还有 {count} 个必填项是空的，下面按页列出来了。这些不补齐，官网不会接受这份表格。',
         pageBlanks: '{count} 项未填',
+        missingHere: '提交前必须补上：',
         edit: '修改',
         submitTitle: '提交',
         submitBody: '表格由我们准备，提交由你完成。官网会发给你 Application ID，并要你设置一个只有你知道答案的安全问题，所以最后几步必须你自己来。',

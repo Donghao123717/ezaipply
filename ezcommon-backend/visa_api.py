@@ -1189,6 +1189,9 @@ class Ds160TurnRequest(BaseModel):
     next_targets: List[Ds160Target] = Field(default_factory=list)
     known_context: str = ""
     remaining: int = 0
+    # "ask" is the first time of asking; "sweep" is going back over what was set
+    # aside at the end of a page, to find out what is in the way.
+    mode: str = "ask"
 
 
 class Ds160TurnResponse(BaseModel):
@@ -1307,7 +1310,20 @@ async def ds160_turn(body: Ds160TurnRequest):
     else:
         parts.append("\nThis is the opening question - nothing has been asked yet.")
 
-    if body.next_targets:
+    if body.next_targets and body.mode == "sweep":
+        # Going back over what they could not answer the first time. The useful
+        # question is not the same one again - they heard it - but what is in
+        # the way, because "my passport is at my parents' house" and "I have no
+        # contact in the US" need completely different help.
+        parts.append(
+            "\nTHESE WERE ASKED ONCE AND THEY COULD NOT ANSWER. You are at the end of this "
+            f"section, going back over them:\n{_targets_block(body.next_targets)}\n\n"
+            "Ask again, but say that you know you already asked, and ask what is in the way - is "
+            "the document somewhere else, do they not know it yet, or does it genuinely not apply "
+            "to them? One short question, warm, not pushy. If they answer it this time, fill it; "
+            "if they explain why they cannot, fill nothing and that is a fine outcome."
+        )
+    elif body.next_targets:
         block = f"\nNOW ASK ABOUT THESE FIELDS, all of them, in one question:\n{_targets_block(body.next_targets)}"
         if body.answer.strip():
             block += (
