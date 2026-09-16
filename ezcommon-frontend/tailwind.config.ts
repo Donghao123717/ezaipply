@@ -157,6 +157,34 @@ const config: Config = {
           from: { strokeDashoffset: '1000' },
           to: { strokeDashoffset: '0' },
         },
+        // The ambient layer of the scale story. The reference page keeps two
+        // dozen infinite animations running at once - flows, breathing nodes,
+        // slow spins - which is what stops its graphics reading as stills
+        // between scrolls. These are ours: small, perpetual, and cheap
+        // (transform and opacity only).
+        'card-breathe': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-3px)' },
+        },
+        // A light running along a drawn curve, the way a trace runs along an
+        // EKG. The dash is short and the gap is the whole path, so exactly one
+        // streak travels at a time.
+        'trace-run': {
+          from: { strokeDashoffset: '1' },
+          to: { strokeDashoffset: '0' },
+        },
+        'marker-breathe': {
+          '0%, 100%': { transform: 'scale(1)', opacity: '0.35' },
+          '50%': { transform: 'scale(1.9)', opacity: '0' },
+        },
+        'row-glow': {
+          '0%, 100%': { opacity: '0.4' },
+          '50%': { opacity: '1' },
+        },
+        'accent-sweep': {
+          '0%': { backgroundPosition: '-120% 0' },
+          '60%, 100%': { backgroundPosition: '220% 0' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -182,6 +210,11 @@ const config: Config = {
         shimmer: 'shimmer 1.6s infinite',
         marquee: 'marquee 40s linear infinite',
         'draw-line': 'draw-line 1.8s ease-out forwards',
+        'card-breathe': 'card-breathe 4.6s ease-in-out infinite',
+        'trace-run': 'trace-run 2.6s linear infinite',
+        'marker-breathe': 'marker-breathe 2.4s ease-out infinite',
+        'row-glow': 'row-glow 2.8s ease-in-out infinite',
+        'accent-sweep': 'accent-sweep 4.5s ease-in-out infinite',
       },
     },
   },

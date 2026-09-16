@@ -51,6 +51,47 @@ function slot(index: number, count: number, hold = 0.45, from = START): [number,
   return [begin, begin + span * hold]
 }
 
+/**
+ * A beat's own clock, in place of scroll position.
+ *
+ * Every beat used to be scrubbed: its graphic was a function of how far down
+ * the runway the reader had scrolled. That has two failures the reference page
+ * does not have. Stop scrolling and the graphic stops dead - it is a slider,
+ * not an animation. Scroll quickly and it skips whole sections of its own
+ * motion, so it never reads as continuous.
+ *
+ * Reading the reference settles how it should work: its entrances run once
+ * (fade-up, row-slide, pop - all `iterations: 1`) and its sense of being alive
+ * comes from a second layer of two dozen infinite loops - flows, breathing
+ * nodes, a slow spin - that never stop. So the entrance here plays once, on
+ * its own time, when the beat becomes the one being read; the perpetual motion
+ * lives in CSS on the elements themselves.
+ *
+ * The value is quantised before it reaches React, and the loop stops itself
+ * the moment the entrance is finished.
+ */
+function useBeatClock(active: boolean, playMs = 2600) {
+  const [t, setT] = useState(0)
+
+  useEffect(() => {
+    if (!active) {
+      setT(0)
+      return
+    }
+    let raf = 0
+    const started = performance.now()
+    function tick(now: number) {
+      const next = Math.min(Math.round(((now - started) / playMs) * STEPS) / STEPS, 1)
+      setT((prev) => (prev === next ? prev : next))
+      if (next < 1) raf = requestAnimationFrame(tick)
+    }
+    raf = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(raf)
+  }, [active, playMs])
+
+  return t
+}
+
 /** Beats that put the same row of application cards on the desk. */
 const CARD_MODES = ['single', 'manual', 'otherAi']
 
@@ -88,14 +129,27 @@ function SchoolCard({
   const arrival = index < carried ? 1 : ramp(progress, cardIn, cardOut)
   const rows = [0, 1, 2]
 
+  const settled = arrival > 0.98
+
   return (
+    // Two layers: the outer one is the entrance, driven by the beat's clock;
+    // the inner one drifts for ever once the card has landed. Separating them
+    // is what lets a card keep moving after its entrance has finished, instead
+    // of holding a pose until the next scroll.
     <div
       style={{
         opacity: arrival,
         transform: `translateY(${(1 - arrival) * 26 + (index % 2 === 0 ? 6 : -6)}px) scale(${0.94 + arrival * 0.06})`,
         zIndex: 10 - index,
       }}
-      className="w-[128px] sm:w-[150px] lg:w-[172px] shrink-0 rounded-xl border bg-card p-3 shadow-[0_10px_30px_-18px_hsl(var(--primary)/0.45)] motion-reduce:!opacity-100 motion-reduce:!transform-none"
+      className="w-[128px] shrink-0 motion-reduce:!opacity-100 motion-reduce:!transform-none sm:w-[150px] lg:w-[172px]"
+    >
+    <div
+      style={{ animationDelay: `${index * 0.42}s` }}
+      className={cn(
+        'rounded-xl border bg-card p-3 shadow-[0_10px_30px_-18px_hsl(var(--primary)/0.45)]',
+        settled && 'animate-card-breathe motion-reduce:animate-none',
+      )}
     >
       <div className="flex items-center gap-2">
         <SchoolLogo name={name} className="h-6 w-6 shrink-0" />
@@ -130,9 +184,10 @@ function SchoolCard({
                   {filled && <Check className="h-2 w-2 text-primary-foreground" />}
                 </span>
                 <span
+                  style={{ animationDelay: `${(index * 3 + row) * 0.3}s` }}
                   className={cn(
                     'h-1.5 flex-1 rounded-full transition-colors duration-300',
-                    filled ? 'bg-accent/40' : 'bg-muted',
+                    filled ? 'animate-row-glow bg-accent/40 motion-reduce:animate-none' : 'bg-muted',
                   )}
                 />
                 {writing && (
@@ -153,6 +208,7 @@ function SchoolCard({
           from zero
         </p>
       )}
+    </div>
     </div>
   )
 }
@@ -429,21 +485,56 @@ function WorkloadChart({ copy, progress }: { copy: LandingCopy; progress: number
             />
           ))}
 
+          {/* Once a curve is drawn, a light keeps running along it. A finished
+              chart is otherwise a still picture, and a still picture is what
+              made this section look stopped between scrolls. The dash is a
+              short segment against a gap of the whole path, so exactly one
+              streak travels at a time. */}
+          {draw >= 1 &&
+            CURVES.map((curve, i) => (
+              <path
+                key={`trace-${i}`}
+                d={curve.d}
+                fill="none"
+                stroke={curve.stroke}
+                strokeWidth={curve.width + 1.4}
+                strokeOpacity={0.55 * curve.opacity}
+                strokeLinecap="round"
+                pathLength={1}
+                strokeDasharray="0.07 0.93"
+                style={{ animationDelay: `${i * 0.55}s` }}
+                className="animate-trace-run motion-reduce:animate-none"
+              />
+            ))}
+
           {/* Where each curve buys its last school. */}
           {CROSSINGS.map((cross, i) => {
             const [a, b] = slot(i, CROSSINGS.length, 0.3, START + 0.44)
             const pop = ramp(progress, a, b)
             return (
-              <circle
-                key={cross.x}
-                cx={cross.x}
-                cy={REF_Y}
-                r={4.5 * pop}
-                fill={CURVES[i].stroke}
-                fillOpacity={CURVES[i].opacity}
-                stroke="hsl(var(--card))"
-                strokeWidth="1.5"
-              />
+              <g key={cross.x}>
+                {/* A halo that keeps opening out of the marker, the way a ping
+                    keeps repeating on a radar. */}
+                {pop >= 1 && (
+                  <circle
+                    cx={cross.x}
+                    cy={REF_Y}
+                    r={5}
+                    fill={CURVES[i].stroke}
+                    style={{ transformOrigin: `${cross.x}px ${REF_Y}px`, animationDelay: `${i * 0.8}s` }}
+                    className="animate-marker-breathe motion-reduce:animate-none"
+                  />
+                )}
+                <circle
+                  cx={cross.x}
+                  cy={REF_Y}
+                  r={4.5 * pop}
+                  fill={CURVES[i].stroke}
+                  fillOpacity={CURVES[i].opacity}
+                  stroke="hsl(var(--card))"
+                  strokeWidth="1.5"
+                />
+              </g>
             )
           })}
 
@@ -488,23 +579,28 @@ function WorkloadChart({ copy, progress }: { copy: LandingCopy; progress: number
  * into the other instead, which is what makes a scrubbed run feel like one
  * continuous thing rather than six separate screens.
  *
- * The incoming beat is handed a negative `local`, so everything scheduled
+ * The incoming beat is held at zero until the hand-over starts, so everything
  * inside it sits at its entry pose while it fades up and only starts moving
  * once the beat is its turn.
  */
 function BeatStage({
   copy,
   current,
-  local,
+  active,
   alpha,
   carried,
 }: {
   copy: LandingCopy
   current: LandingCopy['why']['chapters'][number]
-  local: number
+  /** Whether this beat's motion should be running. */
+  active: boolean
   alpha: number
   carried: number
 }) {
+  // The beat's own progress, on its own clock. Named `local` because every
+  // schedule below is written against a 0-1 beat position, and those schedules
+  // did not need to change - only where the number comes from.
+  const local = useBeatClock(active)
   if (alpha <= 0.002) return null
   return (
     <div
@@ -547,7 +643,22 @@ function BeatStage({
                       className="font-display text-4xl font-semibold sm:text-6xl motion-reduce:!opacity-100 motion-reduce:!transform-none"
                     >
                       <span className="text-primary/70">{line.muted} </span>
-                      <span className="italic text-accent">{line.accent}</span>
+                      {/* The accent word keeps a light passing over it, so the
+                          closing frame is not three lines of dead type. */}
+                      <span
+                        style={{
+                          animationDelay: `${i * 0.7}s`,
+                          backgroundImage:
+                            'linear-gradient(100deg, hsl(var(--accent)) 38%, hsl(var(--accent)/0.45) 50%, hsl(var(--accent)) 62%)',
+                          backgroundSize: '260% 100%',
+                          WebkitBackgroundClip: 'text',
+                          backgroundClip: 'text',
+                          color: 'transparent',
+                        }}
+                        className="animate-accent-sweep italic motion-reduce:animate-none motion-reduce:!text-accent"
+                      >
+                        {line.accent}
+                      </span>
                     </p>
                   )
                 })}
@@ -607,6 +718,10 @@ function BeatStage({
 
 export function WhyUs({ copy }: { copy: LandingCopy }) {
   const runwayRef = useRef<HTMLDivElement>(null)
+  const stageRef = useRef<HTMLDivElement>(null)
+  // Beats run on a clock now, so they would keep animating after the reader
+  // has scrolled past. They stop when the stage leaves the screen.
+  const [visible, setVisible] = useState(false)
   // `beat` is which chapter is on screen; `local` is how far through it we are.
   const [beat, setBeat] = useState(0)
   const [local, setLocal] = useState(0)
@@ -661,6 +776,16 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
     }
   }, [total])
 
+  useEffect(() => {
+    const node = stageRef.current
+    if (!node) return
+    const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting), {
+      threshold: 0,
+    })
+    observer.observe(node)
+    return () => observer.disconnect()
+  }, [])
+
   const index = Math.min(beat, total - 1)
   const current = copy.why.chapters[index]
   // Beats hand over by cross-fading: the outgoing one is already invisible at
@@ -682,6 +807,7 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
       <div ref={runwayRef} style={{ height: `${total * BEAT_VH}vh` }}>
         {/* Graph-paper ground, so the cards read as work being laid out on a page. */}
         <div
+          ref={stageRef}
           className="sticky top-0 h-screen w-full overflow-hidden"
           style={{
             backgroundImage:
@@ -705,18 +831,27 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
 
           {/* The outgoing beat stays on screen while the next fades up over
               it, so a hand-over is a dissolve rather than a cut. */}
+          {/* Keyed on the chapter so a new beat gets a clock that starts at
+              zero, rather than joining whatever the previous one was mid-way
+              through. */}
           <BeatStage
+            key={current.mode}
             copy={copy}
             current={current}
-            local={local}
+            active={visible}
             alpha={currentAlpha}
             carried={carriedInto(copy, index)}
           />
           {nextChapter && (
             <BeatStage
+              key={nextChapter.mode}
               copy={copy}
               current={nextChapter}
-              local={local - 1}
+              // Held at its entry pose until the hand-over actually starts,
+              // then it plays from the beginning as it fades up - rather than
+              // arriving half-finished because its clock had been running
+              // behind the beat in front of it.
+              active={visible && nextAlpha > 0.002}
               alpha={nextAlpha}
               carried={carriedInto(copy, index + 1)}
             />
