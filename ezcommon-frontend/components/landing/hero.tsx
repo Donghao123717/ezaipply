@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
 import { VideoBackdrop } from '@/components/landing/video-backdrop'
+import { Ambient } from '@/components/landing/ambient'
 import { useStartHref } from '@/lib/use-start-href'
 
 export function Hero({ copy }: { copy: LandingCopy }) {
@@ -68,12 +69,12 @@ export function Hero({ copy }: { copy: LandingCopy }) {
         className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-b from-transparent to-background"
       />
 
-      <div className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-1.5">
+      <Ambient className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-1.5">
         <span className="text-[10px] uppercase tracking-[0.2em] text-primary-foreground/40">
           {HERO.scrollHint}
         </span>
         <span className="h-8 w-px animate-float bg-gradient-to-b from-primary-foreground/40 to-transparent motion-reduce:animate-none" />
-      </div>
+      </Ambient>
     </section>
   )
 }

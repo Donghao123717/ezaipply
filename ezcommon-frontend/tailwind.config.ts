@@ -103,10 +103,20 @@ const config: Config = {
           '0%, 12%': { transform: 'translateX(-120%)' },
           '32%, 100%': { transform: 'translateX(130%)' },
         },
+        // Transform only. This used to animate borderColor as well, which the
+        // compositor cannot take: a colour change is a repaint, and a repaint
+        // every frame is main-thread work for the whole run. The colour flash
+        // is now a second ring fading in over the top, which is opacity, which
+        // composites.
         'node-receive': {
-          '0%, 16%, 100%': { borderColor: 'hsl(var(--border))', transform: 'scale(1)' },
-          '21%, 33%': { borderColor: 'hsl(var(--accent) / 0.55)', transform: 'scale(1.045)' },
+          '0%, 16%, 100%': { transform: 'scale(1)' },
+          '21%, 33%': { transform: 'scale(1.045)' },
           '42%': { transform: 'scale(1)' },
+        },
+        'node-ring': {
+          '0%, 16%, 100%': { opacity: '0' },
+          '21%, 33%': { opacity: '1' },
+          '46%': { opacity: '0' },
         },
         'check-receive': {
           '0%, 18%, 100%': { opacity: '0.2', transform: 'scale(0.4)' },
@@ -157,6 +167,43 @@ const config: Config = {
           from: { strokeDashoffset: '1000' },
           to: { strokeDashoffset: '0' },
         },
+        // The scale story's entrances. These used to be computed in React from
+        // a clock and written back as inline styles, which capped the motion at
+        // the rate React was re-rendering - about eighteen frames a second, and
+        // visibly steppy. As keyframes they run on the compositor at the
+        // display's own rate, and each beat renders exactly once.
+        'beat-rise': {
+          from: { opacity: '0', transform: 'translateY(18px)' },
+          to: { opacity: '1', transform: 'none' },
+        },
+        'beat-card': {
+          from: { opacity: '0', transform: 'translateY(26px) scale(0.94)' },
+          to: { opacity: '1', transform: 'none' },
+        },
+        'beat-slide-x': {
+          from: { opacity: '0', transform: 'translateX(-10px)' },
+          to: { opacity: '1', transform: 'none' },
+        },
+        'beat-pop': {
+          from: { opacity: '0', transform: 'scale(0)' },
+          to: { opacity: '1', transform: 'scale(1)' },
+        },
+        'beat-fade': {
+          from: { opacity: '0' },
+          to: { opacity: '1' },
+        },
+        // Drawing a path. pathLength is normalised to 1 by the caller, so the
+        // offset is a plain fraction whatever the curve's real length.
+        'beat-draw': {
+          from: { strokeDashoffset: '1' },
+          to: { strokeDashoffset: '0' },
+        },
+        // On for the span of its delay, then gone - the pen moving down a card.
+        'beat-flash': {
+          '0%, 100%': { opacity: '0' },
+          '12%, 88%': { opacity: '1' },
+        },
+
         // The ambient layer of the scale story. The reference page keeps two
         // dozen infinite animations running at once - flows, breathing nodes,
         // slow spins - which is what stops its graphics reading as stills
@@ -173,9 +220,12 @@ const config: Config = {
           from: { strokeDashoffset: '1' },
           to: { strokeDashoffset: '0' },
         },
+        // The centring translate is baked in: this runs on a plain element
+        // positioned by its centre, and a transform keyframe replaces the
+        // element's own transform rather than adding to it.
         'marker-breathe': {
-          '0%, 100%': { transform: 'scale(1)', opacity: '0.35' },
-          '50%': { transform: 'scale(1.9)', opacity: '0' },
+          '0%, 100%': { transform: 'translate(-50%, -50%) scale(1)', opacity: '0.35' },
+          '50%': { transform: 'translate(-50%, -50%) scale(2.4)', opacity: '0' },
         },
         'row-glow': {
           '0%, 100%': { opacity: '0.4' },
@@ -199,6 +249,7 @@ const config: Config = {
         'core-breathe': 'core-breathe 3.2s ease-in-out infinite',
         'tile-charge': 'tile-charge 2.6s ease-in-out infinite',
         'node-receive': 'node-receive 2.6s ease-in-out infinite',
+        'node-ring': 'node-ring 2.6s ease-in-out infinite',
         'check-receive': 'check-receive 2.6s ease-in-out infinite',
         'row-slide': 'row-slide 0.45s ease-out both',
         'ken-burns': 'ken-burns 26s ease-in-out infinite',
@@ -210,6 +261,15 @@ const config: Config = {
         shimmer: 'shimmer 1.6s infinite',
         marquee: 'marquee 40s linear infinite',
         'draw-line': 'draw-line 1.8s ease-out forwards',
+        // `both` so an element sits at its start pose during its delay and
+        // holds its end pose afterwards - the entrance is a one-shot.
+        'beat-rise': 'beat-rise 1s cubic-bezier(0.22, 1, 0.36, 1) both',
+        'beat-card': 'beat-card 1s cubic-bezier(0.22, 1, 0.36, 1) both',
+        'beat-slide-x': 'beat-slide-x 1s cubic-bezier(0.22, 1, 0.36, 1) both',
+        'beat-pop': 'beat-pop 1s cubic-bezier(0.34, 1.56, 0.64, 1) both',
+        'beat-fade': 'beat-fade 1s ease-out both',
+        'beat-draw': 'beat-draw 1s ease-out both',
+        'beat-flash': 'beat-flash 1s linear both',
         'card-breathe': 'card-breathe 4.6s ease-in-out infinite',
         'trace-run': 'trace-run 2.6s linear infinite',
         'marker-breathe': 'marker-breathe 2.4s ease-out infinite',

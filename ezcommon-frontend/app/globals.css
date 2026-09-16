@@ -77,6 +77,13 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* Anything inside an <Ambient> boundary animates only while that boundary is
+   on screen. Declared once here so no animated element has to opt in. */
+[style*="--ambient-play"] *,
+[style*="--ambient-play"] {
+  animation-play-state: var(--ambient-play, running);
+}
+
 /* Every in-app panel is its own scroll box. Without this, reaching the end of
    one hands the gesture to the page behind it, which reads as the panel
    sticking and then the whole page lurching. */

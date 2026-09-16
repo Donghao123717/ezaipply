@@ -3,6 +3,7 @@ import { Star } from 'lucide-react'
 import { LANDING_UNIVERSITIES, type LandingCopy } from '@/lib/landing-content'
 import { Reveal } from '@/components/landing/reveal'
 import { SchoolLogo } from '@/components/landing/school-logo'
+import { Ambient } from '@/components/landing/ambient'
 
 export function SuccessStories({ copy }: { copy: LandingCopy }) {
   const STORIES = copy.stories
@@ -65,7 +66,7 @@ export function SuccessStories({ copy }: { copy: LandingCopy }) {
             {STORIES.marqueeTitle}
           </p>
           {/* Duplicated once so the -50% keyframe loops seamlessly. */}
-          <div className="relative mt-5 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
+          <Ambient className="relative mt-5 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
             <div className="flex w-max gap-3 animate-marquee motion-reduce:animate-none hover:[animation-play-state:paused]">
               {[...LANDING_UNIVERSITIES, ...LANDING_UNIVERSITIES].map((name, i) => (
                 <span
@@ -77,7 +78,7 @@ export function SuccessStories({ copy }: { copy: LandingCopy }) {
                 </span>
               ))}
             </div>
-          </div>
+          </Ambient>
         </div>
       </Reveal>
     </section>
