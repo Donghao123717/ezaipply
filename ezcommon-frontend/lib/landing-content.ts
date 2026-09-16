@@ -28,6 +28,10 @@ export interface LandingCopy {
     /** Closing statement: each line is a plain half and an accented half. */
     payoff: { muted: string; accent: string }[]
     schools: string[]
+    /** The heap of schools the overload beat throws outward. */
+    swarmSchools: string[]
+    /** What the overload beat's counter is counting. */
+    swarmCaption: string
     contextPills: string[]
     reusedSchools: string[]
     mathTitle: string
@@ -102,6 +106,16 @@ export interface LandingCopy {
 }
 
 const SCHOOL_CARDS = ['UGA', 'Brown', 'Rice', 'UCLA', 'Duke']
+
+/**
+ * The pile for the overload beat. Deliberately more names than anyone reads:
+ * the point of that beat is the size of the heap, not which schools are in it.
+ */
+const SWARM_SCHOOLS = [
+  'UGA', 'Harvard', 'Yale', 'Princeton', 'Columbia', 'Cornell',
+  'Brown', 'Dartmouth', 'Stanford', 'MIT', 'Duke', 'Johns Hopkins',
+  'Northwestern', 'Rice', 'Carnegie Mellon', 'UCLA',
+]
 
 /**
  * Institution marks, keyed by every name the page uses for a school - the
@@ -202,6 +216,13 @@ const EN: LandingCopy = {
       },
       {
         title: 'Application overload',
+        lead: 'More schools.',
+        emphasis: 'More steps.',
+        caption: 'Every school multiplies the work',
+        mode: 'swarm',
+      },
+      {
+        title: 'Application overload',
         lead: 'One application background',
         emphasis: 'connects everything.',
         caption: 'One reusable system',
@@ -238,6 +259,8 @@ const EN: LandingCopy = {
       { muted: 'More', accent: 'chances.' },
     ],
     schools: SCHOOL_CARDS,
+    swarmSchools: SWARM_SCHOOLS,
+    swarmCaption: 'school applications',
     contextPills: ['Background', 'Activities', 'Writing', 'School Forms'],
     reusedSchools: ['UGA', 'Brown', 'Carnegie Mellon', 'UCLA', 'Duke', 'Stanford'],
     mathTitle: '10 applications actually mean:',
@@ -478,6 +501,7 @@ const ZH: LandingCopy = {
       { title: '手动申请流程', lead: '一所学校', emphasis: '从零开始。', caption: '每所学校都从头再来', mode: 'single' },
       { title: '手动申请流程', lead: '每增加一所学校', emphasis: '都要重新开始。', caption: '每所学校都从头再来', mode: 'manual' },
       { title: '其他 AI 申请产品', lead: '单项任务更快。', emphasis: '冷启动没有减少。', caption: '每所学校都要开启新的 AI 会话', mode: 'otherAi' },
+      { title: '申请管理过载', lead: '学校越多。', emphasis: '环节越多。', caption: '每多一所学校，工作量就翻一倍', mode: 'swarm' },
       { title: '申请管理过载', lead: '一套申请背景', emphasis: '把一切连接起来。', caption: '一套可复用的系统', mode: 'hub' },
       { title: 'Aipply', lead: '你的申请背景', emphasis: '持续复用。', caption: '用同一套背景覆盖每一所学校', mode: 'routes' },
       { title: '工作量对比', lead: '同样的工作量。', emphasis: '覆盖更多学校。', caption: '同样的工作量，更多学校', mode: 'chart' },
@@ -492,6 +516,8 @@ const ZH: LandingCopy = {
       { muted: '更多', accent: '机会。' },
     ],
     schools: SCHOOL_CARDS,
+    swarmSchools: SWARM_SCHOOLS,
+    swarmCaption: '所学校申请',
     contextPills: ['个人背景', '活动经历', '文书', '申请表格'],
     reusedSchools: ['UGA', 'Brown', 'Carnegie Mellon', 'UCLA', 'Duke', 'Stanford'],
     mathTitle: '申请 10 所学校实际意味着：',

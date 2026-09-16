@@ -77,6 +77,54 @@ function carriedInto(copy: LandingCopy, index: number): number {
   return previous.mode === 'single' ? 1 : copy.why.schools.length
 }
 
+/**
+ * The scale story's surfaces, taken from the reference page's own computed
+ * styles rather than guessed at.
+ *
+ * Their cards read as paper on a desk: a warm off-white a shade lighter than
+ * the page, a hairline of the ink colour at a tenth opacity rather than a grey
+ * border, and a shadow that is tinted navy and thrown a long way with no
+ * spread. Ours were flatter, greyer and much tighter-cornered, which is most
+ * of why the same layout looked cheaper.
+ */
+const CARD_SURFACE =
+  'border border-primary/10 bg-[hsl(36_50%_99%)] shadow-[0_24px_80px_-28px_hsl(var(--primary)/0.30)]'
+const NODE_SURFACE =
+  'border border-primary/10 bg-[hsl(36_50%_99%)] shadow-[0_12px_30px_-12px_hsl(var(--primary)/0.28)]'
+/** The row pills inside an application card: 50px tall, barely-there cream. */
+const ROW_SURFACE = 'bg-[hsl(38_38%_97%)]'
+
+/**
+ * Where each card in the overload swarm ends up, as a stable pseudo-random
+ * scatter.
+ *
+ * Deterministic on purpose - `Math.random()` here would give the server one
+ * layout and the client another, and React would throw the markup away and
+ * rebuild it on hydration. A hash of the index gives the same jumble every
+ * time, on both sides.
+ */
+const SWARM_HOLE = { x: 190, y: 96 }
+
+function swarmSpot(index: number, count: number): { x: number; y: number; delay: number } {
+  const columns = 6
+  const column = index % columns
+  const row = Math.floor(index / columns)
+  const rows = Math.ceil(count / columns)
+  // A cheap deterministic hash, so the grid reads as a scatter rather than a table.
+  const jitter = (seed: number) => (((seed * 2654435761) % 1000) / 1000 - 0.5) * 2
+  let x = (column - (columns - 1) / 2) * 176 + jitter(index + 1) * 44
+  let y = (row - (rows - 1) / 2) * 128 + jitter(index + 17) * 30
+
+  // Keep the middle clear for the count. Without this the number is read
+  // through four overlapping cards, which is the one thing on this beat that
+  // has to stay legible.
+  if (Math.abs(x) < SWARM_HOLE.x && Math.abs(y) < SWARM_HOLE.y) {
+    const push = SWARM_HOLE.x + 40
+    x = x >= 0 ? push : -push
+  }
+  return { x, y, delay: index * 42 }
+}
+
 /** A school's application card, drawn differently per beat. */
 function SchoolCard({
   name,
@@ -99,6 +147,9 @@ function SchoolCard({
   // a new slide instead of the same desk being looked at again.
   const arriving = index >= carried
   const arrival = slot(index, count, 0.4)
+  // One school on its own is the hero of its beat and is drawn at full size;
+  // the row of five shares the stage and is drawn smaller.
+  const solo = mode === 'single'
   const rows = [0, 1, 2]
 
   return (
@@ -109,112 +160,304 @@ function SchoolCard({
     <div
       style={{ ...(arriving ? cue(arrival) : {}), zIndex: 10 - index }}
       className={cn(
-        'w-[128px] shrink-0 sm:w-[150px] lg:w-[172px]',
-        // A card the previous beat already had stays where it is. Re-staggering
-        // the whole row each time makes them blink out and march back in.
+        'shrink-0',
+        solo ? 'w-[300px] sm:w-[360px]' : 'w-[150px] sm:w-[178px] lg:w-[196px]',
         arriving && 'animate-beat-card motion-reduce:animate-none',
       )}
     >
-    <div
-      style={{ animationDelay: `${after(arrival)}`, willChange: 'transform' }}
-      className="animate-card-breathe rounded-xl border bg-card p-3 shadow-[0_10px_30px_-18px_hsl(var(--primary)/0.45)] motion-reduce:animate-none"
-    >
-      <div className="flex items-center gap-2">
-        <SchoolLogo name={name} className="h-6 w-6 shrink-0" />
-        <div className="min-w-0">
-          <p className="truncate text-xs font-semibold text-primary">{name}</p>
-          <p className="text-[9px] text-muted-foreground">Application</p>
-        </div>
-      </div>
-
-      <div className="mt-3 space-y-2">
-        {mode === 'otherAi' ? (
-          <div className="flex flex-col items-center justify-center gap-1.5 py-4">
-            <Loader2 className="h-4 w-4 animate-spin text-primary/45 motion-reduce:animate-none" />
-            <span className="text-[9px] text-muted-foreground">new session</span>
+      <div
+        style={{ animationDelay: after(arrival), willChange: 'transform' }}
+        className={cn(
+          'animate-card-breathe motion-reduce:animate-none',
+          CARD_SURFACE,
+          solo ? 'rounded-[26px] p-6' : 'rounded-2xl p-4',
+        )}
+      >
+        <div className={cn('flex items-center', solo ? 'gap-3.5' : 'gap-2.5')}>
+          {/* The logo sits in a bordered tile rather than loose on the card -
+              it is what stops a dozen different institutional marks, each with
+              its own shape and weight, from making the row look ragged. */}
+          <span
+            className={cn(
+              'flex shrink-0 items-center justify-center border border-primary/10 bg-card',
+              solo ? 'h-14 w-14 rounded-2xl' : 'h-9 w-9 rounded-xl',
+            )}
+          >
+            <SchoolLogo name={name} className={solo ? 'h-8 w-8' : 'h-5 w-5'} />
+          </span>
+          <div className="min-w-0">
+            <p
+              className={cn(
+                'truncate font-semibold tracking-tight text-primary',
+                solo ? 'text-xl' : 'text-[13px]',
+              )}
+            >
+              {name}
+            </p>
+            <p className={cn('text-muted-foreground', solo ? 'mt-0.5 text-sm' : 'text-[10px]')}>
+              {mode === 'otherAi' ? 'new session' : 'Application'}
+            </p>
           </div>
-        ) : (
-          rows.map((row) => {
-            // Each row is filled in turn, and the pen sits on the row being
-            // written. Rows share one schedule across every card, so the last
-            // card's last row still lands inside the beat.
-            const fill = slot(index * 3 + row, count * 3, 0.22)
-            // Both states are drawn, and the filled one fades in over the empty
-            // one on cue. Swapping which is rendered needs React to be told
-            // when; fading one over the other is a delay CSS already knows.
-            return (
-              <div key={row} className="relative flex items-center gap-1.5">
-                <span className="relative flex h-3 w-3 shrink-0 items-center justify-center rounded-[3px] border border-muted-foreground/30">
+        </div>
+
+        <div className={cn(solo ? 'mt-5 space-y-2.5' : 'mt-3.5 space-y-2')}>
+          {mode === 'otherAi' ? (
+            <div className={cn('flex flex-col items-center justify-center gap-2', solo ? 'py-10' : 'py-7')}>
+              <Loader2 className="h-5 w-5 animate-spin text-primary/35 motion-reduce:animate-none" />
+              <span className="text-[10px] text-muted-foreground">starting over</span>
+            </div>
+          ) : (
+            rows.map((row) => {
+              // Each row is filled in turn, and the pen sits on the row being
+              // written. Rows share one schedule across every card, so the last
+              // card's last row still lands inside the beat.
+              const fill = slot(index * 3 + row, count * 3, 0.22)
+              // Both states are drawn, and the filled one fades in over the
+              // empty one on cue. Swapping which is rendered needs React to be
+              // told when; fading one over the other is a delay CSS knows.
+              return (
+                <div
+                  key={row}
+                  className={cn(
+                    'relative flex items-center rounded-lg',
+                    ROW_SURFACE,
+                    solo ? 'gap-3 px-3.5 py-3.5' : 'gap-2 px-2.5 py-2.5',
+                  )}
+                >
                   <span
-                    style={{ animationDelay: after(fill), animationDuration: '260ms' }}
-                    className="absolute inset-[-1px] flex animate-beat-fade items-center justify-center rounded-[3px] border border-primary bg-primary motion-reduce:animate-none"
+                    className={cn(
+                      'relative flex shrink-0 items-center justify-center rounded-md border border-primary/20',
+                      solo ? 'h-6 w-6' : 'h-4 w-4',
+                    )}
                   >
-                    <Check className="h-2 w-2 text-primary-foreground" />
+                    <span
+                      style={{ animationDelay: after(fill), animationDuration: '260ms' }}
+                      className="absolute inset-[-1px] flex animate-beat-fade items-center justify-center rounded-md bg-primary motion-reduce:animate-none"
+                    >
+                      <Check className={cn('text-primary-foreground', solo ? 'h-3.5 w-3.5' : 'h-2.5 w-2.5')} />
+                    </span>
                   </span>
-                </span>
-                <span className="relative h-1.5 flex-1 rounded-full bg-muted">
-                  <span
-                    style={{ animationDelay: after(fill), animationDuration: '260ms' }}
-                    className="absolute inset-0 animate-beat-fade rounded-full bg-accent/40 motion-reduce:animate-none"
+                  <span className="min-w-0 flex-1 space-y-1.5">
+                    <span className={cn('block rounded-full bg-primary/10', solo ? 'h-2' : 'h-1.5')} />
+                    <span className={cn('block w-2/3 rounded-full bg-primary/10', solo ? 'h-2' : 'h-1.5')} />
+                  </span>
+                  <PenLine
+                    aria-hidden
+                    style={cue(fill)}
+                    className={cn(
+                      'absolute animate-beat-flash text-accent motion-reduce:hidden',
+                      solo ? 'left-9 h-4 w-4' : 'left-7 h-3 w-3',
+                    )}
                   />
-                </span>
-                <PenLine
-                  aria-hidden
-                  style={cue(fill)}
-                  className="absolute left-6 h-3 w-3 -translate-y-0.5 animate-beat-flash text-accent motion-reduce:hidden"
-                />
-              </div>
-            )
-          })
+                </div>
+              )
+            })
+          )}
+        </div>
+
+        {mode === 'manual' && (
+          <p className="mt-3 flex items-center gap-1 text-[10px] text-muted-foreground">
+            <RotateCcw className="h-2.5 w-2.5" />
+            from zero
+          </p>
         )}
       </div>
-
-      {mode === 'manual' && (
-        <p className="mt-2 flex items-center gap-1 text-[9px] text-muted-foreground">
-          <RotateCcw className="h-2.5 w-2.5" />
-          from zero
-        </p>
-      )}
-    </div>
     </div>
   )
 }
 
-/** The centre of the radial beats: one context card inside a breathing ring. */
-function ContextHub({ copy, glow }: { copy: LandingCopy; glow?: [number, number] }) {
-  const tints = [
-    'bg-amber-50 text-amber-900 border-amber-200',
-    'bg-emerald-50 text-emerald-900 border-emerald-200',
-    'bg-sky-50 text-sky-900 border-sky-200',
-    'bg-violet-50 text-violet-900 border-violet-200',
-  ]
+/**
+ * The overload beat: every school thrown outward from the middle, counting up
+ * as they land - and, on the beat after, gathered back into one.
+ *
+ * This is the shape the argument needs and the page did not have. A row of
+ * five cards says "several applications"; twenty-two thrown out of the centre
+ * says "this does not stop", which is the claim. Gathering the same pile back
+ * into the hub is the answer to it, and the two only read as one idea because
+ * the cards fly out to, and come back from, exactly the same places.
+ */
+function SchoolSwarm({
+  copy,
+  gathering,
+}: {
+  copy: LandingCopy
+  /** Reverse: the pile converges into the hub instead of flying out of it. */
+  gathering?: boolean
+}) {
+  const schools = copy.why.swarmSchools
+  const count = schools.length
+  // The counter runs while the cards are still landing, so the number and the
+  // pile grow together.
+  const steps = [3, 6, 9, 12, count]
+
   return (
-    <div className="relative flex h-[230px] w-[230px] items-center justify-center">
-      <span aria-hidden className="absolute inset-0 rounded-full bg-accent/10 blur-2xl" />
+    // The scatter is laid out in pixels around a centre, so on a narrow screen
+    // it is scaled rather than re-flowed: the pile keeps its shape and the
+    // cards keep their proportions, and one transform on the wrapper is
+    // cheaper than sixteen recalculated positions.
+    <div className="pointer-events-none absolute inset-0 flex scale-[0.42] items-center justify-center sm:scale-[0.62] lg:scale-100">
+      {schools.map((school, i) => {
+        const spot = swarmSpot(i, count)
+        const flight = gathering
+          ? { animationDelay: `${600 + (count - 1 - i) * 34}ms`, animationDuration: '760ms' }
+          : { animationDelay: `${spot.delay}ms`, animationDuration: '820ms' }
+        return (
+          <span
+            key={`${school}-${i}`}
+            // No explicit will-change: an element animating transform and
+            // opacity is promoted for the length of its animation anyway, and
+            // pinning a layer on every card in the pile costs more to set up
+            // and tear down than it saves.
+            style={{
+              ['--fx' as string]: `${spot.x}px`,
+              ['--fy' as string]: `${spot.y}px`,
+              ...flight,
+            }}
+            className={cn(
+              'absolute z-0 w-[164px] rounded-xl px-3 py-2.5',
+              NODE_SURFACE,
+              gathering ? 'animate-swarm-in' : 'animate-swarm-out',
+              'motion-reduce:animate-none motion-reduce:hidden',
+            )}
+          >
+            <span className="flex items-center gap-2">
+              <SchoolLogo name={school} className="h-4 w-4 shrink-0" />
+              <span className="min-w-0 flex-1 truncate text-[11px] font-bold tracking-tight text-primary">
+                {school}
+              </span>
+              <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent/70" />
+            </span>
+            {/* The work still waiting on each one. A name alone reads as a tag;
+                what makes the pile feel heavy is that every card has a form
+                under it. Left off the gathering pass - nobody reads two grey
+                lines on a card that is in flight and fading, and the pile is
+                built twice across the two beats. */}
+            {!gathering && (
+              <span className="mt-2 block space-y-1">
+                <span className="block h-1 rounded-full bg-primary/10" />
+                <span className="block h-1 w-2/3 rounded-full bg-primary/10" />
+              </span>
+            )}
+          </span>
+        )
+      })}
+
+      {!gathering && (
+        // The count, stacked rather than computed: each number fades over the
+        // one before it on its own delay, which keeps a counter that appears to
+        // run off the main thread entirely.
+        <span className="relative z-10 flex flex-col items-center">
+          <span className="relative block h-[86px] w-[170px]">
+            {steps.map((value, i) => {
+              const last = i === steps.length - 1
+              // Each number is on screen only for its own slice: they are
+              // stacked, so one that fades in and stays leaves every earlier
+              // number printed underneath it. Only the final count holds.
+              return (
+                <span
+                  key={value}
+                  style={{
+                    animationDelay: `${260 + i * 300}ms`,
+                    animationDuration: last ? '260ms' : '320ms',
+                  }}
+                  className={cn(
+                    'absolute inset-0 flex items-center justify-center font-display text-[80px] font-semibold leading-none tracking-[-0.04em] tabular-nums text-[hsl(207_56%_42%)] motion-reduce:animate-none',
+                    last ? 'animate-beat-fade' : 'animate-beat-flash',
+                  )}
+                >
+                  {String(value).padStart(2, '0')}
+                </span>
+              )
+            })}
+          </span>
+          <span
+            style={{ animationDelay: '360ms', animationDuration: '400ms' }}
+            className="animate-beat-fade text-[13px] font-medium text-muted-foreground motion-reduce:animate-none"
+          >
+            {copy.why.swarmCaption}
+          </span>
+        </span>
+      )}
+    </div>
+  )
+}
+
+/**
+ * The centre of the radial beats: the one reusable context, inside a ball.
+ *
+ * Drawn at the size the reference draws it. Ours was a 150px thumbnail with
+ * 8px type, which made the thing the whole argument turns on the smallest
+ * object on the screen - it read as a stray tooltip rather than as the answer
+ * the swarm is collapsing into.
+ */
+function ContextHub({
+  copy,
+  glow,
+  gathering,
+}: {
+  copy: LandingCopy
+  glow?: [number, number]
+  /** Swell as the swarm arrives, instead of simply being there. */
+  gathering?: boolean
+}) {
+  const tints = [
+    'bg-amber-50/90 text-amber-900 border-amber-200/70',
+    'bg-emerald-50/90 text-emerald-900 border-emerald-200/70',
+    'bg-sky-50/90 text-sky-900 border-sky-200/70',
+    'bg-violet-50/90 text-violet-900 border-violet-200/70',
+  ]
+  const delay = glow ? after(glow) : undefined
+
+  return (
+    <div
+      style={gathering ? { animationDelay: '900ms', animationDuration: '900ms', willChange: 'transform, opacity' } : undefined}
+      className={cn(
+        'relative flex h-[330px] w-[330px] items-center justify-center',
+        gathering && 'animate-hub-gather motion-reduce:animate-none',
+      )}
+    >
+      {/* The ball: a soft body, a breathing halo, and a slow dashed orbit. */}
       <span
         aria-hidden
-        style={{ animationDelay: glow ? after(glow) : undefined, willChange: 'transform, opacity' }}
-        className="absolute inset-2 animate-core-breathe rounded-full border border-accent/30 motion-reduce:animate-none"
+        style={{ animationDelay: delay, willChange: 'transform, opacity' }}
+        className="absolute inset-0 animate-hub-halo rounded-full bg-accent/15 blur-2xl motion-reduce:animate-none"
       />
       <span
         aria-hidden
-        style={{ animationDelay: glow ? after(glow) : undefined, willChange: 'transform' }}
-        className="absolute inset-0 animate-core-spin rounded-full border border-dashed border-accent/25 opacity-80 motion-reduce:animate-none"
+        className="absolute inset-4 rounded-full border border-accent/25 bg-[hsl(36_50%_99%)]/70"
       />
-      <div className="relative w-[150px] rounded-xl border bg-card p-2.5 shadow-[0_16px_40px_-24px_hsl(var(--primary)/0.5)]">
-        <p className="mb-2 text-[7px] font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+      <span
+        aria-hidden
+        style={{ animationDelay: delay, willChange: 'transform, opacity' }}
+        className="absolute inset-8 animate-core-breathe rounded-full border border-accent/35 motion-reduce:animate-none"
+      />
+      <span
+        aria-hidden
+        style={{ animationDelay: delay, willChange: 'transform' }}
+        className="absolute inset-0 animate-core-spin rounded-full border border-dashed border-accent/30 opacity-80 motion-reduce:animate-none"
+      />
+
+      <div
+        className={cn(
+          'relative w-[232px] rounded-[20px] p-4',
+          CARD_SURFACE,
+        )}
+      >
+        <p className="mb-3 flex items-center gap-1.5 text-[9px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
+          <span className="rounded bg-primary px-1.5 py-0.5 text-[8px] font-bold text-primary-foreground">Ai</span>
           {copy.why.hubLabel}
         </p>
-        <div className="grid grid-cols-2 gap-1.5">
+        <div className="grid grid-cols-2 gap-2">
           {copy.why.contextPills.map((pill, i) => (
             <span
               key={pill}
               className={cn(
-                'rounded-md border px-1.5 py-2 text-center text-[8px] font-medium leading-tight',
+                'rounded-xl border px-2.5 py-3 text-[11px] font-semibold leading-tight',
                 tints[i % tints.length],
               )}
             >
               {pill}
+              <span className="mt-1.5 block h-1 w-8 rounded-full bg-current opacity-25" />
             </span>
           ))}
         </div>
@@ -374,8 +617,11 @@ function WorkloadChart({ copy }: { copy: LandingCopy }) {
 
   return (
     <div className="flex w-full max-w-5xl flex-col items-center gap-8 lg:flex-row lg:items-center">
-      {/* What ten applications actually cost, counted out beside the curves. */}
-      <div className="w-full shrink-0 lg:w-56">
+      {/* What ten applications actually cost, counted out beside the curves.
+          Hidden on a phone: beside the chart it is a margin note, but stacked
+          above it on a narrow screen it pushed the chart - and the heading -
+          off a stage that is exactly one screen tall. */}
+      <div className="hidden w-full shrink-0 lg:block lg:w-56">
         <p className="text-xs font-semibold text-primary">{copy.why.mathTitle}</p>
         <ul className="mt-3 space-y-2.5">
           {copy.why.math.map((item, i) => {
@@ -585,16 +831,27 @@ function WorkloadChart({ copy }: { copy: LandingCopy }) {
  * inside it sits at its entry pose while it fades up and only starts moving
  * once the beat is its turn.
  */
+/**
+ * `waiting` is a beat that has been built but not started.
+ *
+ * Building one costs real time - the overload beat alone is twenty-two cards,
+ * each with a logo - and paying it at the moment the reader crosses into that
+ * beat put a sixty-millisecond task in the middle of a scroll, which is a
+ * dropped frame exactly where the eye is. So the next beat is mounted a beat
+ * early with its animations paused: `both` fill holds every element at its
+ * opening pose, and letting them run is one custom property away.
+ */
+type BeatState = 'current' | 'leaving' | 'waiting'
+
 const BeatStage = memo(function BeatStage({
   copy,
   current,
-  leaving,
+  state,
   carried,
 }: {
   copy: LandingCopy
   current: LandingCopy['why']['chapters'][number]
-  /** The beat being scrolled away from, fading out under the incoming one. */
-  leaving: boolean
+  state: BeatState
   carried: number
 }) {
   return (
@@ -603,33 +860,49 @@ const BeatStage = memo(function BeatStage({
     // position was quantised to - about eight across the whole dissolve - and
     // a fade in eight steps is a fade you can count.
     <div
-      aria-hidden={leaving}
-      style={{ willChange: 'opacity' }}
+      aria-hidden={state !== 'current'}
+      style={{
+        willChange: 'opacity',
+        // Overrides the stage-wide value for this subtree only, which is what
+        // holds a pre-built beat still until it is the one being read.
+        ...(state === 'waiting' ? { ['--ambient-play' as string]: 'paused' } : {}),
+      }}
       className={cn(
-        'absolute inset-0 flex flex-col items-center justify-center px-6 transition-opacity duration-700 ease-out motion-reduce:transition-none',
-        leaving ? 'z-0 opacity-0' : 'z-10 opacity-100',
+        'absolute inset-0 flex flex-col items-center justify-center px-6',
+        state === 'current' && 'z-10 opacity-100',
+        // Only the beat being left animates its opacity. A waiting one is
+        // simply not drawn, and a current one is already being faded in by its
+        // own contents.
+        state === 'leaving' && 'z-0 opacity-0 transition-opacity duration-700 ease-out motion-reduce:transition-none',
+        state === 'waiting' && 'z-0 opacity-0',
       )}
     >
           {/* The payoff beat is the three lines and nothing else - a heading
               above them would only say what they already say. */}
           {current.mode !== 'payoff' && (
             <div style={cue([0, START + 0.1])} className="animate-beat-rise text-center motion-reduce:animate-none">
-              <h2 className="font-display text-3xl font-semibold text-primary sm:text-5xl">{current.title}</h2>
-              <p className="mt-2 font-display text-xl sm:text-3xl">
+              {/* Sized off the reference: 54px, weight 650, tracking pulled in
+                  hard and leading set to the type size. Ours was 48px at normal
+                  tracking with loose leading, which is the difference between a
+                  title and a headline. */}
+              <h2 className="font-display text-[34px] font-semibold leading-none tracking-[-0.045em] text-primary sm:text-[54px] sm:tracking-[-0.055em]">
+                {current.title}
+              </h2>
+              <p className="mt-3 font-display text-[22px] leading-tight tracking-[-0.03em] sm:text-[34px]">
                 <span className="font-semibold text-primary">{current.lead} </span>
-                <span className="italic text-primary/55">{current.emphasis}</span>
+                <span className="italic text-primary/50">{current.emphasis}</span>
               </p>
             </div>
           )}
 
           {current.mode !== 'payoff' && current.mode !== 'chart' && (
-            <p className="mb-5 mt-8 flex items-center gap-1.5 text-xs text-muted-foreground">
+            <p className="mb-6 mt-7 flex items-center gap-1.5 text-xs text-muted-foreground">
               <RotateCcw className="h-3 w-3" />
               {current.caption}
             </p>
           )}
 
-          <div className="flex min-h-[300px] w-full max-w-5xl items-center justify-center">
+          <div className="flex min-h-[340px] w-full max-w-5xl items-center justify-center">
             {current.mode === 'payoff' ? (
               <div className="space-y-1 text-center">
                 {copy.why.payoff.map((line, i) => {
@@ -664,26 +937,27 @@ const BeatStage = memo(function BeatStage({
               <WorkloadChart copy={copy} />
             ) : current.mode === 'routes' ? (
               <RadialRoutes copy={copy} />
+            ) : current.mode === 'swarm' ? (
+              // Scaled down on a narrow screen, so it needs less room there
+              // too - at full height it pushed the heading up under the site
+              // header.
+              <div className="relative h-[230px] w-full sm:h-[330px] lg:h-[460px]">
+                <SchoolSwarm copy={copy} />
+              </div>
             ) : current.mode === 'hub' ? (
-              <div className="flex flex-col items-center">
-                <ContextHub copy={copy} glow={[START, START + 0.3]} />
-                <div className="mt-6 flex flex-wrap justify-center gap-1.5">
-                  {copy.why.contextPills.map((pill, i) => {
-                    // Held back until the hub itself has settled.
-                    return (
-                      <span
-                        key={pill}
-                        style={cue(slot(i, copy.why.contextPills.length, 0.4, 0.3))}
-                        className="animate-beat-rise rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-[11px] text-primary motion-reduce:animate-none"
-                      >
-                        {pill}
-                      </span>
-                    )
-                  })}
+              <div className="relative flex flex-col items-center">
+                {/* The same pile, in reverse: it converges on the hub while the
+                    hub swells to take it. The two beats only read as one idea
+                    because the cards come back from exactly where they went. */}
+                <div className="pointer-events-none absolute inset-x-0 top-1/2 h-[230px] -translate-y-1/2 sm:h-[330px] lg:h-[460px]">
+                  <SchoolSwarm copy={copy} gathering />
                 </div>
+                <ContextHub copy={copy} glow={[START, START + 0.3]} gathering />
+                {/* The hub already names these four; repeating them as pills
+                    underneath was the same four words twice. */}
               </div>
             ) : (
-              <div className="flex w-full items-center justify-center gap-2 sm:gap-3">
+              <div className="flex w-full items-center justify-center gap-3 sm:gap-4">
                 {/* Spacing is the same in every card beat on purpose. Three
                     consecutive beats dissolve into one another here, and two
                     layers only dissolve cleanly if what is being dissolved sits
@@ -813,6 +1087,25 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
   const leaving = shown.prev
   const leavingChapter = leaving !== null && leaving !== index ? copy.why.chapters[leaving] : null
 
+  /**
+   * The beat after this one, built now and started later.
+   *
+   * Building a beat at the moment the reader crosses into it put a sixty
+   * millisecond task in the middle of a scroll - a dropped frame exactly where
+   * the eye is, and the overload beat is the worst of them. It is built one
+   * beat early, paused, and let go when it is the one being read.
+   *
+   * One ahead, not all seven: keeping every beat mounted makes each style
+   * recalculation walk a tree several times the size, which cost far more
+   * during a scroll than the mount it saved.
+   */
+  // Not when scrolling back: the beat just left is also the beat ahead, and
+  // rendering it as both gives two stages the same key - React then has two
+  // children claiming one identity and keeps the wrong one.
+  const waitingIndex = index + 1
+  const waitingChapter =
+    visible && waitingIndex < total && waitingIndex !== leaving ? copy.why.chapters[waitingIndex] : null
+
   return (
     <section id="why" className="relative bg-background">
       {/* The runway is its own box: the sticky chapter only occupies 100vh of
@@ -854,7 +1147,7 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
               key={leavingChapter.mode}
               copy={copy}
               current={leavingChapter}
-              leaving
+              state="leaving"
               carried={carriedInto(copy, leaving!)}
             />
           )}
@@ -862,9 +1155,20 @@ export function WhyUs({ copy }: { copy: LandingCopy }) {
             key={current.mode}
             copy={copy}
             current={current}
-            leaving={false}
+            state="current"
             carried={carriedInto(copy, index)}
           />
+          {/* Built during idle time, started later - so the reader never
+              scrolls into the cost of building one. */}
+          {waitingChapter && (
+            <BeatStage
+              key={waitingChapter.mode}
+              copy={copy}
+              current={waitingChapter}
+              state="waiting"
+              carried={carriedInto(copy, index + 1)}
+            />
+          )}
 
           {/* The meter belongs to the run, not to a beat, so it never fades. */}
           <div className="pointer-events-none absolute inset-x-0 bottom-10 flex justify-center px-6">

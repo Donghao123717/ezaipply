@@ -204,6 +204,37 @@ const config: Config = {
           '12%, 88%': { opacity: '1' },
         },
 
+        // The overload beat: every school thrown outward from the middle, then
+        // gathered back into one. Each card carries its own destination in
+        // --fx/--fy, so one keyframe serves all twenty-two and the whole thing
+        // stays transform-and-opacity - which is to say, it stays on the
+        // compositor however many cards are in flight.
+        'swarm-out': {
+          from: { opacity: '0', transform: 'translate3d(0, 0, 0) scale(0.3)' },
+          '55%': { opacity: '1' },
+          to: { opacity: '1', transform: 'translate3d(var(--fx), var(--fy), 0) scale(1)' },
+        },
+        'swarm-in': {
+          from: { opacity: '1', transform: 'translate3d(var(--fx), var(--fy), 0) scale(1)' },
+          '70%': { opacity: '0.55' },
+          to: { opacity: '0', transform: 'translate3d(0, 0, 0) scale(0.25)' },
+        },
+        // The card's own drift once it has landed, around wherever it landed.
+        'swarm-hover': {
+          '0%, 100%': { transform: 'translate3d(var(--fx), var(--fy), 0)' },
+          '50%': { transform: 'translate3d(var(--fx), calc(var(--fy) - 6px), 0)' },
+        },
+        // The hub taking the swarm in: a ball that swells as they arrive.
+        'hub-gather': {
+          from: { opacity: '0', transform: 'scale(0.55)' },
+          '70%': { opacity: '1', transform: 'scale(1.06)' },
+          to: { opacity: '1', transform: 'scale(1)' },
+        },
+        'hub-halo': {
+          '0%, 100%': { opacity: '0.25', transform: 'scale(0.92)' },
+          '50%': { opacity: '0.6', transform: 'scale(1.06)' },
+        },
+
         // The ambient layer of the scale story. The reference page keeps two
         // dozen infinite animations running at once - flows, breathing nodes,
         // slow spins - which is what stops its graphics reading as stills
@@ -263,6 +294,11 @@ const config: Config = {
         'draw-line': 'draw-line 1.8s ease-out forwards',
         // `both` so an element sits at its start pose during its delay and
         // holds its end pose afterwards - the entrance is a one-shot.
+        'swarm-out': 'swarm-out 1s cubic-bezier(0.22, 1, 0.36, 1) both',
+        'swarm-in': 'swarm-in 1s cubic-bezier(0.55, 0, 0.5, 1) both',
+        'swarm-hover': 'swarm-hover 5.4s ease-in-out infinite',
+        'hub-gather': 'hub-gather 1s cubic-bezier(0.22, 1, 0.36, 1) both',
+        'hub-halo': 'hub-halo 4.2s ease-in-out infinite',
         'beat-rise': 'beat-rise 1s cubic-bezier(0.22, 1, 0.36, 1) both',
         'beat-card': 'beat-card 1s cubic-bezier(0.22, 1, 0.36, 1) both',
         'beat-slide-x': 'beat-slide-x 1s cubic-bezier(0.22, 1, 0.36, 1) both',
