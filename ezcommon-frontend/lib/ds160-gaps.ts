@@ -49,11 +49,12 @@ const PRE_ANSWERED_NO = new Set(['security1', 'security2', 'security3', 'securit
  *
  * Keyed "section.field", and read as: only ask this if that field says this.
  */
-const DEPENDS_ON: Record<string, { section: string; field: string; equals: string }> = {}
+const DEPENDS_ON: Record<string, { section: string; field: string; equals: string[] }> = {}
 
-function dependOn(section: string, parent: string, equals: string, children: string[]) {
+function dependOn(section: string, parent: string, equals: string | string[], children: string[]) {
+  const values = Array.isArray(equals) ? equals : [equals]
   for (const child of children) {
-    DEPENDS_ON[`${section}.${child}`] = { section, field: parent, equals }
+    DEPENDS_ON[`${section}.${child}`] = { section, field: parent, equals: values }
   }
 }
 
@@ -89,7 +90,51 @@ dependOn('addressPhone', 'hasOtherPhones', 'Yes', ['additionalPhone'])
 dependOn('addressPhone', 'hasOtherEmails', 'Yes', ['additionalEmail'])
 dependOn('addressPhone', 'hasOtherWebPresence', 'Yes', ['additionalPlatform', 'additionalHandle'])
 
+// Who is paying. Three of the five answers open nothing at all - an applicant
+// paying their own way, or being sent by their employer, is asked no follow-up
+// whatsoever, and asking anyway was making the form feel like it had not
+// listened.
+const PAYER_PERSON = ['OTHER PERSON']
+const PAYER_ORG = ['OTHER COMPANY/ORGANIZATION']
+dependOn('travel', 'payer', PAYER_PERSON, [
+  'payerSurnames',
+  'payerGivenNames',
+  'payerPhone',
+  'payerEmail',
+  'payerRelationship',
+  'payerAddressSameAsHome',
+])
+dependOn('travel', 'payer', PAYER_ORG, ['payerOrgName', 'payerOrgPhone', 'payerOrgRelationship'])
+// The itinerary's mirror image: an intended length of stay is what the form
+// asks for instead, when no plans have been made.
+dependOn('travel', 'hasSpecificPlans', 'No', ['intendedLengthOfStay', 'intendedLengthUnit'])
+// A parent's immigration status is only asked once they are said to be in the
+// US - it is meaningless otherwise.
+dependOn('familyInfo', 'fatherInUS', 'Yes', ['fatherStatus'])
+dependOn('familyInfo', 'motherInUS', 'Yes', ['motherStatus'])
+
 const OPTIONAL_LABEL = /line 2|if known|optional|第二行|选填/i
+
+/**
+ * The payer's address, which has two ways in: an organisation is always asked
+ * for it, a person only when their address differs from the applicant's own.
+ * One parent field cannot express that, so it gets its own test.
+ */
+const PAYER_ADDRESS_FIELDS = [
+  'payerStreetAddress1',
+  'payerStreetAddress2',
+  'payerCity',
+  'payerStateProvince',
+  'payerPostalCode',
+  'payerCountry',
+]
+
+function payerAddressAsked(travel: Record<string, any> | undefined): boolean {
+  const payer = travel?.payer
+  if (payer === 'OTHER COMPANY/ORGANIZATION') return true
+  if (payer === 'OTHER PERSON') return travel?.payerAddressSameAsHome === 'No'
+  return false
+}
 
 function isEmpty(value: unknown): boolean {
   if (value === undefined || value === null) return true
@@ -139,10 +184,13 @@ export function findGaps(
         // question again.
         if (declined?.has(`${section.key}.${field.key}`)) continue
         // A question the form only opens when an earlier answer opens it.
+        if (section.key === 'travel' && PAYER_ADDRESS_FIELDS.includes(field.key)) {
+          if (!payerAddressAsked(data.travel as Record<string, any>)) continue
+        }
         const gate = DEPENDS_ON[`${section.key}.${field.key}`]
         if (gate) {
           const parent = (data[gate.section] as Record<string, any>)?.[gate.field]
-          if (parent !== gate.equals) continue
+          if (typeof parent !== 'string' || !gate.equals.includes(parent)) continue
         }
         // The form marks some fields optional in their own label - "Street
         // Address (Line 2) *Optional*", "Arrival Flight (if known)". Asking

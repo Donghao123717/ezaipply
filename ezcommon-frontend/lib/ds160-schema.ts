@@ -22,9 +22,32 @@ const MARITAL_STATUS_OPTIONS = [
 // Scoped to the two demo visa classes per the user's request - the real DS-160 has many more.
 const TRIP_PURPOSE_CLASS_OPTIONS = ['TEMP. BUSINESS OR PLEASURE VISITOR (B)', 'ACADEMIC OR LANGUAGE STUDENT (F)']
 const TRIP_PURPOSE_SPECIFY_OPTIONS = ['TOURISM/MEDICAL TREATMENT (B2)', 'STUDENT (F1)']
-const PAYER_OPTIONS = ['Self', 'Other Person', 'Employer', 'Educational Institution', 'Other']
+// The real dropdown, verbatim. Three of these five open a follow-up block and
+// two do not, which is why the exact values matter rather than a paraphrase.
+const PAYER_OPTIONS = [
+  'SELF',
+  'OTHER PERSON',
+  'PRESENT EMPLOYER',
+  'EMPLOYER IN THE U.S.',
+  'OTHER COMPANY/ORGANIZATION',
+]
+const PARENT_STATUS_OPTIONS = [
+  'U.S. CITIZEN',
+  'U.S. LEGAL PERMANENT RESIDENT (LPR)',
+  'NONIMMIGRANT',
+  "OTHER/I DON'T KNOW",
+]
 const RELATIONSHIP_OPTIONS = ['Spouse', 'Child', 'Parent', 'Sibling', 'Relative', 'Friend', 'Colleague', 'Employer', 'School Official', 'Other']
-const SOCIAL_MEDIA_PLATFORM_OPTIONS = ['Facebook', 'Instagram', 'Twitter/X', 'LinkedIn', 'YouTube', 'TikTok', 'WeChat', 'Weibo', 'Other']
+// The form's own list, in its own order. It is not the list of platforms a
+// Chinese applicant would expect - there is no WeChat and no TikTok on it, and
+// there is a MySpace - so guessing at it would have had people looking for
+// entries that are not there.
+const SOCIAL_MEDIA_PLATFORM_OPTIONS = [
+  'ASK.FM', 'DOUBAN', 'FACEBOOK', 'FLICKR', 'GOOGLE+', 'INSTAGRAM', 'LINKEDIN', 'MYSPACE',
+  'PINTEREST', 'QZONE (QQ)', 'REDDIT', 'SINA WEIBO', 'TENCENT WEIBO', 'TUMBLR', 'TWITTER',
+  'TWOO', 'VINE', 'VKONTAKTE (VK)', 'YOUKU', 'YOUTUBE', 'NONE',
+]
+const LENGTH_UNIT_OPTIONS = ['DAY(S)', 'WEEK(S)', 'MONTH(S)', 'YEAR(S)']
 const PASSPORT_TYPE_OPTIONS = ['Regular', 'Official', 'Diplomatic', 'Laissez-Passer', 'Other']
 const OCCUPATION_OPTIONS = ['Student', 'Employed', 'Self-Employed', 'Unemployed', 'Retired', 'Other']
 const SECURITY_QUESTION_OPTIONS = [
@@ -108,7 +131,13 @@ export const DS160_SECTIONS: Ds160SectionMeta[] = [
           labelKey: 'ds160.personal1.otherNationalitiesLabel',
           itemLabelKey: 'ds160.personal1.addOtherNationality',
           emptyLabelKey: 'ds160.personal1.noOtherNationalities',
-          fields: [{ key: 'country', labelKey: 'ds160.personal1.otherNationalityCountry', type: 'select', options: COUNTRY_OPTIONS }],
+          fields: [
+            { key: 'country', labelKey: 'ds160.personal1.otherNationalityCountry', type: 'select', options: COUNTRY_OPTIONS },
+            // Each other nationality carries its own passport question, and the
+            // number only when the answer is Yes.
+            { key: 'holdsPassportForOther', labelKey: 'ds160.personal1.holdsPassportForOther', type: 'radio', options: YES_NO },
+            { key: 'otherPassportNumber', labelKey: 'ds160.personal1.otherPassportNumber', type: 'text' },
+          ],
         },
       ],
     },
@@ -134,6 +163,51 @@ export const DS160_SECTIONS: Ds160SectionMeta[] = [
             { key: 'stayState', labelKey: 'ds160.travel.stayState', type: 'text' },
             { key: 'stayZip', labelKey: 'ds160.travel.stayZip', type: 'text' },
             { key: 'payer', labelKey: 'ds160.travel.payer', type: 'select', options: PAYER_OPTIONS },
+          ],
+        },
+        {
+          // Shown when no specific plans have been made: the form drops the
+          // itinerary and asks for an intention instead.
+          eyebrowKey: 'ds160.travel.intendedEyebrow',
+          fields: [
+            { key: 'intendedLengthOfStay', labelKey: 'ds160.travel.intendedLengthOfStay', type: 'text' },
+            { key: 'intendedLengthUnit', labelKey: 'ds160.travel.intendedLengthUnit', type: 'select', options: LENGTH_UNIT_OPTIONS },
+          ],
+        },
+        {
+          // Opened by "OTHER PERSON" on the payer dropdown. SELF, PRESENT
+          // EMPLOYER and EMPLOYER IN THE U.S. open nothing at all.
+          eyebrowKey: 'ds160.travel.payerPersonEyebrow',
+          fields: [
+            { key: 'payerSurnames', labelKey: 'ds160.travel.payerSurnames', type: 'text' },
+            { key: 'payerGivenNames', labelKey: 'ds160.travel.payerGivenNames', type: 'text' },
+            { key: 'payerPhone', labelKey: 'ds160.travel.payerPhone', type: 'text' },
+            { key: 'payerEmail', labelKey: 'ds160.travel.payerEmail', type: 'text' },
+            { key: 'payerRelationship', labelKey: 'ds160.travel.payerRelationship', type: 'select', options: RELATIONSHIP_OPTIONS },
+            { key: 'payerAddressSameAsHome', labelKey: 'ds160.travel.payerAddressSameAsHome', type: 'radio', options: YES_NO },
+          ],
+        },
+        {
+          // Opened by "OTHER COMPANY/ORGANIZATION". Note the relationship here
+          // is free text on the real form, not the dropdown used for a person.
+          eyebrowKey: 'ds160.travel.payerOrgEyebrow',
+          fields: [
+            { key: 'payerOrgName', labelKey: 'ds160.travel.payerOrgName', type: 'text' },
+            { key: 'payerOrgPhone', labelKey: 'ds160.travel.payerOrgPhone', type: 'text' },
+            { key: 'payerOrgRelationship', labelKey: 'ds160.travel.payerOrgRelationship', type: 'text' },
+          ],
+        },
+        {
+          // The payer's address, asked of a person only when it differs from
+          // the applicant's own, and of an organisation always.
+          eyebrowKey: 'ds160.travel.payerAddressEyebrow',
+          fields: [
+            { key: 'payerStreetAddress1', labelKey: 'ds160.travel.payerStreetAddress1', type: 'text' },
+            { key: 'payerStreetAddress2', labelKey: 'ds160.travel.payerStreetAddress2', type: 'text' },
+            { key: 'payerCity', labelKey: 'ds160.travel.payerCity', type: 'text' },
+            { key: 'payerStateProvince', labelKey: 'ds160.travel.payerStateProvince', type: 'text' },
+            { key: 'payerPostalCode', labelKey: 'ds160.travel.payerPostalCode', type: 'text' },
+            { key: 'payerCountry', labelKey: 'ds160.travel.payerCountry', type: 'select', options: COUNTRY_OPTIONS },
           ],
         },
       ],
@@ -336,6 +410,26 @@ export const DS160_SECTIONS: Ds160SectionMeta[] = [
           fields: [
             { key: 'hasImmediateRelativesInUS', labelKey: 'ds160.familyInfo.hasImmediateRelativesInUS', type: 'radio', required: true, options: YES_NO },
             { key: 'hasOtherRelativesInUS', labelKey: 'ds160.familyInfo.hasOtherRelativesInUS', type: 'radio', required: true, options: YES_NO },
+          ],
+        },
+        {
+          eyebrowKey: 'ds160.familyInfo.fatherEyebrow',
+          fields: [
+            { key: 'fatherSurnames', labelKey: 'ds160.familyInfo.fatherSurnames', type: 'text' },
+            { key: 'fatherGivenNames', labelKey: 'ds160.familyInfo.fatherGivenNames', type: 'text' },
+            { key: 'fatherDob', labelKey: 'ds160.familyInfo.fatherDob', type: 'date' },
+            { key: 'fatherInUS', labelKey: 'ds160.familyInfo.fatherInUS', type: 'radio', options: YES_NO },
+            { key: 'fatherStatus', labelKey: 'ds160.familyInfo.fatherStatus', type: 'select', options: PARENT_STATUS_OPTIONS },
+          ],
+        },
+        {
+          eyebrowKey: 'ds160.familyInfo.motherEyebrow',
+          fields: [
+            { key: 'motherSurnames', labelKey: 'ds160.familyInfo.motherSurnames', type: 'text' },
+            { key: 'motherGivenNames', labelKey: 'ds160.familyInfo.motherGivenNames', type: 'text' },
+            { key: 'motherDob', labelKey: 'ds160.familyInfo.motherDob', type: 'date' },
+            { key: 'motherInUS', labelKey: 'ds160.familyInfo.motherInUS', type: 'radio', options: YES_NO },
+            { key: 'motherStatus', labelKey: 'ds160.familyInfo.motherStatus', type: 'select', options: PARENT_STATUS_OPTIONS },
           ],
         },
       ],

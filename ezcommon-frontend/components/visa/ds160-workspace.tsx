@@ -33,6 +33,11 @@ const SECURITY_SECTIONS = ['security1', 'security2', 'security3', 'security4', '
  * it varies a lot student to student and feeds the countriesVisited list below it. */
 const DEFAULT_NO_SECTIONS: Record<string, string[]> = {
   additionalWork: ['belongsToClanOrTribe', 'hasOrgMembership', 'hasSpecializedSkills', 'hasMilitaryService', 'hasParamilitaryInvolvement'],
+  // A telecode is a four-digit code for a non-Roman name that almost nobody
+  // applying today has or needs, and answering Yes opens two more fields. It
+  // defaults to No like the security questions - still on the form to be
+  // corrected, never asked out loud.
+  personal1: ['hasTelecode'],
 }
 
 export function Ds160Workspace({ userId }: { userId: string }) {

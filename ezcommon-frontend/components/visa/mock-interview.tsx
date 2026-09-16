@@ -6,6 +6,7 @@ import { useT } from '@/lib/i18n/use-t'
 import { useLocale } from '@/lib/i18n/locale-context'
 import { loadDS160Context } from '@/lib/ds160-store'
 import { loadProfileContext } from '@/lib/essay-store'
+import { loadInterviewNotes } from '@/lib/visa-interview-notes'
 import {
   loadInterview,
   saveInterview,
@@ -180,6 +181,10 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
         turns: turns.map((turn) => ({ question: turn.question, answer: turn.answer })),
         ds160_context: loadDS160Context(userId),
         profile_context: loadProfileContext(userId),
+        // What the form-filling agent flagged on the way through. Without this
+        // the interviewer asks generically about funding while the note saying
+        // "an uncle is paying and they could not say what he does" sits unread.
+        focus_notes: loadInterviewNotes(userId).map((n) => n.text),
         session_seed: seed,
       }),
     })
@@ -282,6 +287,7 @@ export function MockInterview({ userId, visaType }: { userId: string; visaType: 
           turns: session.turns.filter((t) => t.answer).map((turn) => ({ question: turn.question, answer: turn.answer })),
           ds160_context: loadDS160Context(userId),
           profile_context: loadProfileContext(userId),
+          focus_notes: loadInterviewNotes(userId).map((n) => n.text),
           session_seed: session?.seed ?? 1,
         }),
       })

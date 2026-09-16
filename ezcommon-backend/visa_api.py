@@ -411,6 +411,11 @@ class InterviewRequest(BaseModel):
     turns: List[InterviewTurn] = Field(default_factory=list)
     ds160_context: str = ""
     profile_context: str = ""
+    # What the form-filling agent flagged on the way through - the answers it
+    # thought an officer would push on. Without these the interviewer asks
+    # generically about funding while the note saying "an uncle is paying and
+    # they could not say what he does" sits unread.
+    focus_notes: List[str] = Field(default_factory=list)
     # Fixed for the life of one interview, so the topic order is stable while
     # it runs and different the next time they start one.
     session_seed: int = 0
@@ -542,10 +547,23 @@ async def visa_interview(body: InterviewRequest):
         else ""
     )
 
+    # Written down while their form was being filled, by the same specialist.
+    # These are the answers that looked thin at the time, and they are what a
+    # real officer would go at - so they are what this one goes at too.
+    focus_block = (
+        "Weak points noted while their form was being filled - work these in rather than "
+        "asking generically about the same subjects:\n"
+        + "\n".join(f"  - {n}" for n in body.focus_notes[:12])
+        + "\n\n"
+        if body.focus_notes
+        else ""
+    )
+
     user_block = (
         f"Applicant's profile:\n{body.profile_context or '(none)'}\n\n"
         f"Applicant's DS-160 answers:\n{body.ds160_context or '(none)'}\n\n"
-        f"Interview so far:\n{transcript or '(not started - ask your opening question)'}\n\n"
+        + focus_block
+        + f"Interview so far:\n{transcript or '(not started - ask your opening question)'}\n\n"
         + asked_block
         + (
             "The interview has run its length. Give your evaluation of the last answer and, for "
@@ -926,6 +944,7 @@ async def visa_transcribe_answer(audio: UploadFile = File(..., description="A sp
 
 class InterviewReviewRequest(BaseModel):
     visa_type: str = "F1"
+    focus_notes: List[str] = Field(default_factory=list)
     turns: List[InterviewTurn] = Field(default_factory=list)
     ds160_context: str = ""
     profile_context: str = ""
@@ -1200,6 +1219,9 @@ class Ds160TurnResponse(BaseModel):
     hint: str = ""
     unresolved: List[str] = Field(default_factory=list)
     follow_up: bool = False
+    # An answer a consular officer would push on, written down as it is given
+    # so the mock interview can push on it too.
+    interview_note: str = ""
 
 
 def _targets_block(targets: List[Ds160Target]) -> str:
@@ -1282,6 +1304,12 @@ async def ds160_turn(body: Ds160TurnRequest):
         "- Never ask for a value you already have in what is known below.\n"
         "- One question per turn. Do not number your questions or mention the form's section "
         "names - they are talking to you, not filling in a form.\n\n"
+        "You are also the person who will put them through a mock interview afterwards. When an "
+        "answer is one a consular officer would push on - funding that is vague or from someone "
+        "with no obvious means, a trip with no return date, a story that does not hang together "
+        "with what they said earlier - write one short line in interview_note saying what you "
+        "would ask them about it. Not a warning to them; a note to yourself. Leave it empty for "
+        "ordinary answers, which is most of them.\n\n"
         "Return ONLY JSON. `review` must contain one entry for EVERY field listed under "
         "'NOW ASK ABOUT THESE FIELDS' - go through them one at a time and say whether what "
         "they have told you so far already answers it. This is a checklist, not a summary; "
@@ -1291,6 +1319,7 @@ async def ds160_turn(body: Ds160TurnRequest):
         '{"id":"personal1.birthCity","covered":true,"value":"Beijing"},'
         '{"id":"personal1.maritalStatus","covered":false,"value":""}],'
         '"question":"Who is paying for your trip?","hint":"For example, my parents",'
+        '"interview_note":"",'
         '"unresolved":["travel.flightNumber"],"follow_up":false}'
     )
 
@@ -1300,6 +1329,14 @@ async def ds160_turn(body: Ds160TurnRequest):
         f"\nFIELDS STILL TO FILL AFTER THIS QUESTION: about {max(body.remaining, 0)}",
     ]
     if body.asked and body.answered_targets:
+        parts.append(
+            "\nAFTER reading their answer, judge it as the interviewer you also are: is "
+            "this an answer a consular officer would push on? Vague funding, a funder "
+            "whose means the applicant cannot describe, a trip with no return, a story "
+            "that does not fit what they said earlier. If so, put one short line in "
+            "interview_note saying what you would ask them about it. Most answers need "
+            "nothing and get an empty string."
+        )
         parts.append(
             "\nYOU JUST ASKED:\n"
             f"{body.asked}\n\n"
@@ -1425,6 +1462,7 @@ async def ds160_turn(body: Ds160TurnRequest):
         hint=str(parsed.get("hint") or "").strip(),
         unresolved=[str(u) for u in (parsed.get("unresolved") or []) if isinstance(u, (str, int))],
         follow_up=bool(parsed.get("follow_up")),
+        interview_note=str(parsed.get("interview_note") or "").strip()[:400],
     )
 
 

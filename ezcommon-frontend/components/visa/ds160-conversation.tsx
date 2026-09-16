@@ -7,6 +7,7 @@ import { useLocale } from '@/lib/i18n/locale-context'
 import { apiErrorMessage } from '@/lib/api-error'
 import { loadDS160Data, saveDS160Data, type Ds160Data } from '@/lib/ds160-store'
 import { findGaps, knownContext, nextBatch, type Gap } from '@/lib/ds160-gaps'
+import { addInterviewNote } from '@/lib/visa-interview-notes'
 import type { Ds160SectionMeta } from '@/lib/ds160-schema'
 import type { VisaType } from '@/lib/visa-chat-store'
 import { Button } from '@/components/ui/button'
@@ -176,6 +177,12 @@ export function Ds160Conversation({
         }
         saveDS160Data(userId, next)
         onDataChange(next)
+      }
+
+      // Anything the officer will push on goes to the interviewer, written at
+      // the moment the answer is given.
+      if (body.interview_note) {
+        addInterviewNote(userId, body.interview_note, answered[0]?.section || next.section)
       }
 
       setTurns((prev) => [
