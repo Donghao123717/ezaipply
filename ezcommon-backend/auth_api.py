@@ -1130,10 +1130,27 @@ class Section(str, Enum):
 
 @app.on_event("startup")
 async def startup_event():
-    """Initialize S3 bucket on startup"""
-    s3_service = get_s3_service()
-    if not s3_service.ensure_bucket_exists():
-        print("Warning: S3 bucket initialization failed")
+    """
+    Check the S3 bucket without holding up the server.
+
+    Uvicorn runs this handler BEFORE it binds the socket, so anything slow in
+    here is time the port does not exist. That is how a deploy fails with "no
+    open ports detected" while the application itself is perfectly healthy: one
+    S3 call against a missing credential or an unreachable endpoint, retried on
+    botocore's defaults, outlasts the platform's port scan.
+
+    Nothing needs the bucket before the first upload, so the check runs in the
+    background and the server starts regardless of how it goes.
+    """
+    async def check() -> None:
+        try:
+            ok = await asyncio.to_thread(get_s3_service().ensure_bucket_exists)
+            if not ok:
+                print("⚠ Warning: S3 bucket initialization failed - uploads will not work")
+        except Exception as e:
+            print(f"⚠ Warning: S3 bucket check failed: {e}")
+
+    asyncio.create_task(check())
 
 
 @app.post("/api/upload/{section}")

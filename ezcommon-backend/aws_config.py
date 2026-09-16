@@ -4,6 +4,7 @@ Handles DynamoDB, OpenSearch, and other AWS service configurations
 """
 import os
 import boto3
+from botocore.config import Config as BotoConfig
 from typing import Optional
 
 # AWS Region Configuration
@@ -49,6 +50,19 @@ def get_bedrock_client():
     return boto3.client('bedrock-runtime', region_name=AWS_REGION_BEDROCK)
 
 
+# Every S3 call is made while something is waiting - a request, or worse, the
+# startup handler that runs before the server opens its port. Botocore's
+# defaults are a 60 second connect timeout and five attempts, so one
+# unreachable endpoint or one wrong credential can hold the process for
+# minutes. These bound it to a few seconds, and a failure surfaces as a failure
+# rather than as a hang.
+_S3_TIMEOUTS = BotoConfig(
+    connect_timeout=5,
+    read_timeout=20,
+    retries={"max_attempts": 3, "mode": "standard"},
+)
+
+
 def get_s3_client():
     """Get S3 client"""
-    return boto3.client('s3', region_name=AWS_REGION)
+    return boto3.client('s3', region_name=AWS_REGION, config=_S3_TIMEOUTS)
