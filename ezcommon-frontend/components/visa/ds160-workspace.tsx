@@ -12,6 +12,8 @@ import { SecurityReview, SECURITY_SECTION_KEYS } from '@/components/visa/securit
 import { VoiceFill, sectionAcceptsVoice } from '@/components/visa/voice-fill'
 import { RiskFlagsPanel } from '@/components/visa/risk-flags-panel'
 import { Ds160SuggestionsPanel } from '@/components/visa/ds160-suggestions-panel'
+import { Ds160Conversation } from '@/components/visa/ds160-conversation'
+import { loadVisaType, type VisaType } from '@/lib/visa-chat-store'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
 
@@ -37,9 +39,17 @@ export function Ds160Workspace({ userId }: { userId: string }) {
   const [profileData, setProfileData] = useState<Record<string, any>>({})
   const [activeKey, setActiveKey] = useState<string>(DS160_SECTIONS[0].key)
   const [hydrated, setHydrated] = useState(false)
-  const [mode, setMode] = useState<'fill' | 'confirm'>('fill')
+  // 'chat' is the way in: the form is two hundred and thirty-one fields of
+  // government English, and reading it is the part people pay to avoid. The
+  // form itself stays one click away and stays the record.
+  const [mode, setMode] = useState<'chat' | 'fill' | 'confirm'>('chat')
   const [suggestionsOpen, setSuggestionsOpen] = useState(false)
   const [prefilled, setPrefilled] = useState(0)
+  const [visaType, setVisaType] = useState<VisaType>('F1')
+
+  useEffect(() => {
+    setVisaType(loadVisaType(userId))
+  }, [userId])
 
   useEffect(() => {
     // Security questions (and a few Additional Work/Education Yes/No questions)
@@ -104,6 +114,13 @@ export function Ds160Workspace({ userId }: { userId: string }) {
   // The five security pages collapse into one entry - they are 27 yes/no
   // questions that all default to No, so five separate screens asked the
   // student to page through and change nothing.
+  /** The schema pages that apply to this applicant - the conversation must not
+   *  ask about a page the sidebar hides. */
+  const visibleSections = useMemo(
+    () => DS160_SECTIONS.filter((s) => !F1_ONLY_SECTIONS.includes(s.key) || isF1Selected),
+    [isF1Selected],
+  )
+
   const pages = useMemo(() => {
     const out: { key: string; labelKey: string }[] = []
     for (const s of DS160_SECTIONS) {
@@ -288,10 +305,29 @@ export function Ds160Workspace({ userId }: { userId: string }) {
           <h1 className="font-display text-3xl font-semibold text-primary">{t('ds160.title')}</h1>
           <p className="text-sm text-muted-foreground mt-1">{t('ds160.subtitle')}</p>
         </div>
-        <Button onClick={() => setSuggestionsOpen(true)} className="shrink-0">
-          <Sparkles className="h-4 w-4 mr-2" />
-          {t('ds160.autofill.button')}
-        </Button>
+        <div className="flex shrink-0 items-center gap-2">
+          {/* Two ways through the same form, and the applicant picks. Answering
+              questions is faster; the form is what they have to be able to
+              check before they sign it. */}
+          <div className="flex items-center gap-0.5 rounded-full border bg-card p-0.5">
+            {(['chat', 'fill'] as const).map((value) => (
+              <button
+                key={value}
+                onClick={() => setMode(value)}
+                className={cn(
+                  'rounded-full px-3 py-1.5 text-xs font-medium transition-colors',
+                  mode === value ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:text-primary',
+                )}
+              >
+                {t(value === 'chat' ? 'ds160.mode.chat' : 'ds160.mode.form')}
+              </button>
+            ))}
+          </div>
+          <Button onClick={() => setSuggestionsOpen(true)}>
+            <Sparkles className="h-4 w-4 mr-2" />
+            {t('ds160.autofill.button')}
+          </Button>
+        </div>
       </div>
 
       {/* Say what we carried over. A student who is not told will assume the
@@ -306,6 +342,20 @@ export function Ds160Workspace({ userId }: { userId: string }) {
         </div>
       )}
 
+      {mode === 'chat' ? (
+        <div className="h-[calc(100vh-17rem)] min-h-[520px] overflow-hidden rounded-2xl border bg-card">
+          <Ds160Conversation
+            userId={userId}
+            visaType={visaType}
+            sections={visibleSections}
+            onDataChange={setData}
+            onOpenForm={(section) => {
+              setActiveKey(section)
+              setMode('fill')
+            }}
+          />
+        </div>
+      ) : (
       <div className="grid grid-cols-1 lg:grid-cols-[240px_minmax(0,1fr)] gap-8">
         <aside>
           {/* A count alone does not read as movement. The bar does, and this is
@@ -503,6 +553,7 @@ export function Ds160Workspace({ userId }: { userId: string }) {
           ) : null}
         </div>
       </div>
+      )}
 
       {suggestionsOpen && (
         <Ds160SuggestionsPanel

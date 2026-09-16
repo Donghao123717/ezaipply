@@ -278,6 +278,15 @@ VISA_TYPES: Dict[str, Dict[str, str]] = {
             "or job ties that make return the obvious outcome."
         ),
     },
+    "H1B": {
+        "label": "H-1B specialty occupation visa",
+        "focus": (
+            "The petitioning employer and the approved petition, whether the role genuinely requires "
+            "the degree the applicant holds, how their qualifications match the job offer, the salary "
+            "against the prevailing wage, where the work will actually be performed, and - if this is "
+            "a renewal - what they did on the previous period of status."
+        ),
+    },
 }
 
 
@@ -1143,3 +1152,261 @@ async def parse_i20(body: ParseI20Request):
         raise
     except Exception as e:  # noqa: BLE001
         raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=f"Could not read the I-20: {e}")
+
+
+# ---------------------------------------------------------------------------
+# Filling the DS-160 by conversation
+# ---------------------------------------------------------------------------
+
+
+class Ds160Target(BaseModel):
+    """One DS-160 field the applicant is being asked about."""
+
+    section: str
+    field: str
+    label: str
+    type: str = "text"
+    options: List[str] = Field(default_factory=list)
+    required: bool = False
+    help: str = ""
+
+
+class Ds160Fill(BaseModel):
+    section: str
+    field: str
+    value: str
+
+
+class Ds160TurnRequest(BaseModel):
+    visa_type: str = "F1"
+    locale: str = "en"
+    """What the applicant was last asked, and what they said back. Empty on the
+    opening turn, when there is only a question to phrase."""
+    asked: str = ""
+    answer: str = ""
+    answered_targets: List[Ds160Target] = Field(default_factory=list)
+    """The fields to ask about now. The client chooses these - see below."""
+    next_targets: List[Ds160Target] = Field(default_factory=list)
+    known_context: str = ""
+    remaining: int = 0
+
+
+class Ds160TurnResponse(BaseModel):
+    fills: List[Ds160Fill] = Field(default_factory=list)
+    question: str = ""
+    hint: str = ""
+    unresolved: List[str] = Field(default_factory=list)
+    follow_up: bool = False
+
+
+def _targets_block(targets: List[Ds160Target]) -> str:
+    lines = []
+    for t in targets:
+        bits = [f'- id "{t.section}.{t.field}" | asks for: {t.label} | type: {t.type}']
+        if t.options:
+            bits.append(f'  allowed values (use one of these EXACTLY): {" | ".join(t.options)}')
+        if t.type == "date":
+            bits.append("  format: YYYY-MM-DD")
+        if t.help:
+            bits.append(f"  note: {t.help}")
+        if t.required:
+            bits.append("  this one is required on the real form")
+        lines.append("\n".join(bits))
+    return "\n".join(lines) or "(none)"
+
+
+@router.post("/api/visa/ds160-turn", response_model=Ds160TurnResponse, tags=["Visa"])
+async def ds160_turn(body: Ds160TurnRequest):
+    """
+    One turn of filling the DS-160 by conversation.
+
+    The model does two things a model is good at - putting a bureaucratic field
+    into a sentence a person can answer, and turning the sentence they answer
+    with back into field values. It does not decide what to ask: the client
+    walks the form's own order and hands over the next few fields, because a
+    model deciding its way through two hundred and thirty-one fields will
+    wander, repeat itself, and quietly skip the ones that matter.
+
+    Everything it returns is a proposal. The applicant sees each answer land in
+    the form and can change it there; nothing is submitted from here.
+    """
+    if not llm_provider:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="LLM provider not available")
+
+    visa = VISA_TYPES.get(body.visa_type) or VISA_TYPES["F1"]
+    language = _language_rule(body.locale)
+
+    system_prompt = (
+        "You are helping one applicant complete a US DS-160 visa application form for a "
+        f"{visa['label']}, by talking to them instead of making them read the form.\n\n"
+        f"{language}\n\n"
+        "You do two jobs each turn:\n"
+        "1. READ their answer to the last question and turn it into values for the fields it "
+        "was asking about.\n"
+        "2. ASK the next question, covering the fields you are given - all of them, in one "
+        "natural question a person would actually say out loud.\n\n"
+        "Rules that matter:\n"
+        "- Only ever fill the fields you are given. Never invent a field id.\n"
+        "- A value must ANSWER that field's question, not merely appear in the same sentence. A "
+        "date they gave as their birthday is not an arrival date. A city they were born in is not "
+        "a city they are flying to. If what they said does not address a field, leave it out.\n"
+        "- If their answer does not address what you asked at all - they answered a different "
+        "question, or changed the subject - fill nothing from it, set follow_up true, and ask "
+        "again. Salvaging a value out of an unrelated sentence is how a wrong answer ends up on "
+        "a form they sign.\n"
+        "- A value must come from something the applicant actually SAID. What is already known "
+        "about them is there so you do not ask twice - it is not a source of answers. If their "
+        "school is in Durham, that is not them telling you they will arrive in Durham; if they "
+        "are a student, that is not them telling you who is paying. Infer nothing. Ask.\n"
+        "- Fill the VALUE, not the sentence they said it in. 'My name is Li Donghao' fills "
+        "'Li Donghao'. 'I arrive on the 20th of August' fills the date, not the phrase.\n"
+        "- People answer more than they are asked. If what they said also answers one of the "
+        "fields you are ABOUT to ask about, fill that too and ask only about what is genuinely "
+        "still missing - never make them say the same thing twice.\n"
+        "- For a field with allowed values, the value must be one of them, copied exactly. If "
+        "none of them is actually TRUE for what they said, leave the field out and mark it "
+        "unresolved - never pick the closest one. 'My uncle is paying' is not 'Self' because "
+        "'Other Person' was not offered; it is a field you could not fill.\n"
+        "- Dates are YYYY-MM-DD. If they say 'next March' and the year is unclear, ask rather "
+        "than guess.\n"
+        "- If their answer does not cover a field, leave it out and list its id in unresolved. "
+        "Do not fill it with a guess, an empty string, or 'N/A'. This form is signed under "
+        "penalty of perjury.\n"
+        "- If their answer is genuinely unclear or contradicts something they already told you, "
+        "set follow_up true and make your question the clarifying one instead of moving on.\n"
+        "- Ask about what the fields need, in plain words. 'Where will you stay in the US, and "
+        "roughly what dates?' - not 'Provide the address of your intended lodging.'\n"
+        "- Never ask for a value you already have in what is known below.\n"
+        "- One question per turn. Do not number your questions or mention the form's section "
+        "names - they are talking to you, not filling in a form.\n\n"
+        "Return ONLY JSON. `review` must contain one entry for EVERY field listed under "
+        "'NOW ASK ABOUT THESE FIELDS' - go through them one at a time and say whether what "
+        "they have told you so far already answers it. This is a checklist, not a summary; "
+        "a field you leave out of it is a field the applicant gets asked for twice.\n"
+        '{"fills":[{"section":"personal1","field":"sex","value":"Male"}],'
+        '"review":[{"id":"personal1.dob","covered":true,"value":"2008-01-08"},'
+        '{"id":"personal1.birthCity","covered":true,"value":"Beijing"},'
+        '{"id":"personal1.maritalStatus","covered":false,"value":""}],'
+        '"question":"Who is paying for your trip?","hint":"For example, my parents",'
+        '"unresolved":["travel.flightNumber"],"follow_up":false}'
+    )
+
+    known = body.known_context.strip() or "(nothing recorded yet)"
+    parts = [
+        f"WHAT IS ALREADY KNOWN ABOUT THIS APPLICANT:\n{known}",
+        f"\nFIELDS STILL TO FILL AFTER THIS QUESTION: about {max(body.remaining, 0)}",
+    ]
+    if body.asked and body.answered_targets:
+        parts.append(
+            "\nYOU JUST ASKED:\n"
+            f"{body.asked}\n\n"
+            "IT WAS ASKING ABOUT THESE FIELDS:\n"
+            f"{_targets_block(body.answered_targets)}\n\n"
+            f"THEY ANSWERED:\n{body.answer.strip() or '(said nothing)'}"
+        )
+    else:
+        parts.append("\nThis is the opening question - nothing has been asked yet.")
+
+    if body.next_targets:
+        block = f"\nNOW ASK ABOUT THESE FIELDS, all of them, in one question:\n{_targets_block(body.next_targets)}"
+        if body.answer.strip():
+            block += (
+                "\n\nFIRST check their answer above against this list. Anything in it they have "
+                "ALREADY told you goes in fills right now - not skipped, not left for later, "
+                "filled. Then ask about whatever is genuinely left. If they have already answered "
+                "all of these, fill them all and ask nothing (empty question)."
+            )
+        else:
+            # There is no answer to review yet, and saying so matters: told to
+            # check a list against nothing, the model decides the list is
+            # already covered and returns neither fills nor a question, and the
+            # conversation never starts.
+            block += (
+                "\n\nThey have not said anything yet, so there is nothing to review and nothing "
+                "to fill: return `fills` and `review` as empty arrays and put your opening "
+                "question in `question`. Still JSON - the whole reply is the JSON object and "
+                "nothing else."
+            )
+        parts.append(block)
+    else:
+        parts.append(
+            "\nThere is nothing left to ask. Leave question empty and just return the fills."
+        )
+
+    try:
+        response = llm_provider.chat_completion(
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": "\n".join(parts)},
+            ],
+            temperature=0.3,
+            max_tokens=900,
+        )
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=f"Conversation failed: {e}")
+
+    content = response.get("content", "") or ""
+    parsed = _extract_json(content)
+    if not isinstance(parsed, dict):
+        # A reply that is a question rather than JSON is still a usable question -
+        # asking the applicant to sit through a retry because the model answered
+        # in prose helps nobody. Only ever taken as a question, never as a fill.
+        parsed = {"question": content.strip()} if content.strip() and not body.answer.strip() else {}
+
+    # Anything outside the fields we handed over is dropped rather than trusted:
+    # a field id the model invented would write into the form silently. The
+    # fields we are about to ask about count as handed over too - people answer
+    # more than they are asked, and the alternative is asking them again for
+    # something they have already said.
+    allowed = {f"{t.section}.{t.field}": t for t in (body.answered_targets + body.next_targets)}
+    # Nothing was said, so nothing can be filled. On the opening turn the model
+    # would otherwise answer the questions itself from the context - "No, No,
+    # Single" - and the applicant would sign a form they had not been asked.
+    if not body.answer.strip():
+        return Ds160TurnResponse(
+            question=str((parsed or {}).get("question") or "").strip(),
+            hint=str((parsed or {}).get("hint") or "").strip(),
+        )
+
+    # `fills` and the `review` checklist are the same thing said two ways - the
+    # checklist exists because a model told to "also fill anything else they
+    # mentioned" reliably fills one of three and drops the rest, while a model
+    # made to walk a list and mark each entry does not.
+    raw_fills: List[Dict[str, Any]] = [f for f in (parsed.get("fills") or []) if isinstance(f, dict)]
+    for entry in parsed.get("review") or []:
+        if not isinstance(entry, dict) or not entry.get("covered"):
+            continue
+        ident = str(entry.get("id") or "")
+        if "." not in ident:
+            continue
+        section, _, field = ident.partition(".")
+        raw_fills.append({"section": section, "field": field, "value": entry.get("value")})
+
+    fills: List[Ds160Fill] = []
+    seen: set = set()
+    for item in raw_fills:
+        section = str(item.get("section") or "").strip()
+        field = str(item.get("field") or "").strip()
+        value = str(item.get("value") or "").strip()
+        if f"{section}.{field}" in seen:
+            continue
+        target = allowed.get(f"{section}.{field}")
+        if not target or not value or value.lower() in {"n/a", "na", "unknown", "none"}:
+            continue
+        # A select or radio is a closed list on the real form; a near-miss here
+        # becomes a value the government site will not accept.
+        if target.options and value not in target.options:
+            match = next((o for o in target.options if o.lower() == value.lower()), None)
+            if not match:
+                continue
+            value = match
+        seen.add(f"{section}.{field}")
+        fills.append(Ds160Fill(section=section, field=field, value=value))
+
+    return Ds160TurnResponse(
+        fills=fills,
+        question=str(parsed.get("question") or "").strip(),
+        hint=str(parsed.get("hint") or "").strip(),
+        unresolved=[str(u) for u in (parsed.get("unresolved") or []) if isinstance(u, (str, int))],
+        follow_up=bool(parsed.get("follow_up")),
+    )

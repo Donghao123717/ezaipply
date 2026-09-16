@@ -1,4 +1,5 @@
 import { queueUserStateSync } from '@/lib/user-state-sync'
+import type { VisaType } from '@/lib/visa-chat-store'
 
 /**
  * A mock consular interview: the questions asked, what the applicant answered,
@@ -32,7 +33,7 @@ export interface InterviewTurn {
 }
 
 export interface InterviewSession {
-  visaType: 'F1' | 'B1B2'
+  visaType: VisaType
   turns: InterviewTurn[]
   startedAt: string
   done: boolean

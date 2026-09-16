@@ -9,8 +9,16 @@ export type VisaTab = 'interviewer' | 'documents' | 'risk' | 'coordinator'
 
 export const VISA_TABS: VisaTab[] = ['interviewer', 'documents', 'risk', 'coordinator']
 
-/** F-1 and B1/B2 interviews barely overlap, so the type steers every prompt. */
-export type VisaType = 'F1' | 'B1B2'
+/**
+ * The three classes this product covers. Their interviews barely overlap - a
+ * student is asked about their study plan and what brings them home, a visitor
+ * about the itinerary and who is paying, an H-1B applicant about the petition
+ * and whether the role really needs the degree - so the type steers every
+ * prompt, every document we ask for, and every risk check.
+ */
+export type VisaType = 'F1' | 'B1B2' | 'H1B'
+
+export const VISA_TYPES: VisaType[] = ['F1', 'B1B2', 'H1B']
 
 export interface VisaActionLink {
   label: string
@@ -64,7 +72,8 @@ function visaTypeKey(userId: string) {
 
 export function loadVisaType(userId: string): VisaType {
   try {
-    return window.localStorage.getItem(visaTypeKey(userId)) === 'B1B2' ? 'B1B2' : 'F1'
+    const saved = window.localStorage.getItem(visaTypeKey(userId))
+    return saved === 'B1B2' || saved === 'H1B' ? saved : 'F1'
   } catch {
     return 'F1'
   }
