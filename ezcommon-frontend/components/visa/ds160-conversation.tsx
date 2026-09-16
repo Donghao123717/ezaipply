@@ -44,6 +44,7 @@ export function Ds160Conversation({
   sections,
   onDataChange,
   onOpenForm,
+  onReview,
 }: {
   userId: string
   visaType: VisaType
@@ -51,6 +52,8 @@ export function Ds160Conversation({
   sections: Ds160SectionMeta[]
   onDataChange: (data: Ds160Data) => void
   onOpenForm: (section: string) => void
+  /** Everything answered - send them to read it before they sign it. */
+  onReview: () => void
 }) {
   const t = useT()
   const { locale } = useLocale()
@@ -104,7 +107,7 @@ export function Ds160Conversation({
       const remaining = found.filter(
         (g) => !answered.some((a) => a.section === g.section && a.field === g.field),
       )
-      const batch = nextBatch(remaining, 4)
+      const batch = nextBatch(remaining)
       const base = process.env.NEXT_PUBLIC_BACKEND_URL || '/api/backend'
       const res = await fetch(`${base}/api/visa/ds160-turn`, {
         method: 'POST',
@@ -281,7 +284,7 @@ export function Ds160Conversation({
               <div className="rounded-xl border border-accent/40 bg-accent/5 p-4 text-center">
                 <p className="mb-1 font-semibold text-primary">{t('ds160.chat.doneTitle')}</p>
                 <p className="mb-3 text-sm text-muted-foreground">{t('ds160.chat.doneBody')}</p>
-                <Button onClick={() => onOpenForm('setup')}>
+                <Button onClick={onReview}>
                   {t('ds160.chat.review')}
                   <ArrowRight className="ml-1.5 h-4 w-4" />
                 </Button>

@@ -27,11 +27,16 @@ export interface Gap {
 const SKIP_SECTIONS = new Set(['setup', 'photo'])
 
 /**
- * Security questions and a handful of others are pre-answered "No" on load, and
- * asking thirty-five of them out loud would bury the ten that matter. They stay
- * in the form for review; the conversation leaves them alone unless one is Yes.
+ * The security and background pages, which are answered "No" for almost every
+ * applicant and are pre-answered that way when the form loads.
+ *
+ * They are not skipped here - every question on the form gets checked, and one
+ * that is somehow blank should still be asked. They are simply never blank in
+ * practice, so they never come up. This set exists only to keep three dozen
+ * "No"s out of the context we send the model, where they say nothing about who
+ * the applicant is and crowd out what does.
  */
-const SKIP_UNLESS_YES = new Set(['security1', 'security2', 'security3', 'security4', 'security5'])
+const PRE_ANSWERED_NO = new Set(['security1', 'security2', 'security3', 'security4', 'security5'])
 
 function isEmpty(value: unknown): boolean {
   if (value === undefined || value === null) return true
@@ -64,8 +69,11 @@ export function findGaps(data: Ds160Data, t: (key: string) => string, visibleSec
 
     for (const group of section.def.groups) {
       for (const field of group.fields) {
+        // Anything a document already answered is not a gap - that is the whole
+        // point of reading the passport and the I-20 first, and it is why an
+        // applicant who uploads their paperwork is never asked their passport
+        // number or their SEVIS ID.
         if (!isEmpty(sectionData[field.key])) continue
-        if (SKIP_UNLESS_YES.has(section.key)) continue
         // An explanation only exists because of a Yes above it. Asking "please
         // explain" of someone who answered No is asking about nothing.
         if (/explain|explanation/i.test(field.key) && !hasYesInSection(sectionData)) continue
@@ -81,24 +89,104 @@ function hasYesInSection(sectionData: Record<string, any>): boolean {
 }
 
 /**
- * The next few gaps to ask about together.
+ * Fields that belong in one question, because a person answers them in one
+ * breath.
  *
- * Grouped by the page they live on and capped, because "when do you arrive,
- * when do you leave, and where are you staying?" is one question a person
- * answers in one breath, while six unrelated fields in one question is an
- * interrogation nobody finishes.
+ * "Who is your contact in the US, what is their relationship to you, and where
+ * do they live?" is one question that fills six boxes. Asked as six questions
+ * it is an interrogation, and asked four-at-a-time by position it splits a
+ * street address across two turns. The form's own page order is followed; only
+ * the grouping within a page is set here.
+ *
+ * A page with no clusters is asked as one question if it is small, or in
+ * capped runs if it is not.
  */
-export function nextBatch(gaps: Gap[], size = 3): Gap[] {
+const ASK_CLUSTERS: Record<string, string[][]> = {
+  personal1: [
+    ['surnames', 'givenNames', 'fullNameNativeAlphabet', 'hasOtherNames', 'hasTelecode'],
+    ['sex', 'maritalStatus', 'dob'],
+    ['birthCity', 'birthState', 'birthCountry'],
+    ['nationality', 'hasOtherNationality', 'isPermanentResidentElsewhere'],
+    ['nationalIdNumber', 'usSSN', 'usTaxpayerId'],
+  ],
+  travel: [
+    ['purposeClass', 'specify'],
+    ['hasSpecificPlans', 'arrivalDate', 'arrivalFlight', 'arrivalCity'],
+    ['departureDate', 'departureFlight', 'departureCity'],
+    ['stayStreetAddress1', 'stayStreetAddress2', 'stayCity', 'stayState', 'stayZip'],
+    ['payer'],
+  ],
+  previousTravel: [
+    ['hasBeenToUS', 'dateArrived', 'lengthOfStay'],
+    ['hasDriversLicense'],
+    ['hasPriorVisa', 'lastVisaDate', 'visaNumber', 'sameVisaType', 'sameCountryAsBefore', 'tenPrinted'],
+    ['visaLostOrStolen', 'visaCancelledOrRevoked'],
+    ['refusedVisaOrAdmission', 'refusedVisaExplain'],
+    ['immigrantPetitionFiled', 'immigrantPetitionExplain'],
+  ],
+  addressPhone: [
+    ['homeStreetAddress1', 'homeStreetAddress2', 'homeCity', 'homeStateProvince', 'homePostalCode', 'homeCountry'],
+    ['mailingSameAsHome'],
+    ['primaryPhone', 'secondaryPhone', 'workPhone', 'hasOtherPhones'],
+    ['email', 'hasOtherEmails'],
+    ['hasSocialMedia', 'hasOtherWebPresence'],
+  ],
+  passport: [
+    ['documentType', 'documentNumber', 'bookNumber'],
+    ['issuingCountry', 'issuingCity', 'issuingState', 'issuanceDate', 'expirationDate'],
+    ['wasLostOrStolen'],
+  ],
+  usContact: [['contactSurname', 'contactGivenNames', 'organizationName', 'relationship', 'address', 'phone']],
+  familyInfo: [['hasImmediateRelativesInUS', 'hasOtherRelativesInUS']],
+  presentWork: [
+    ['occupation', 'employerOrSchoolName', 'startDate'],
+    ['streetAddress1', 'streetAddress2', 'city', 'stateProvince', 'postalCode', 'country', 'phone'],
+    ['monthlyIncome', 'duties'],
+  ],
+  previousWork: [['wasPreviouslyEmployed'], ['attendedSecondaryOrAbove']],
+  additionalWork: [
+    ['belongsToClanOrTribe', 'belongsToClanOrTribeExplain'],
+    ['hasTraveledLast5Years'],
+    ['hasOrgMembership', 'hasOrgMembershipExplain'],
+    ['hasSpecializedSkills', 'hasSpecializedSkillsExplain'],
+    ['hasMilitaryService', 'hasMilitaryServiceExplain'],
+    ['hasParamilitaryInvolvement', 'hasParamilitaryInvolvementExplain'],
+  ],
+  companions: [['hasCompanions', 'travelingAsGroup']],
+  sevisSchool: [['sevisId', 'schoolName', 'courseOfStudy', 'schoolAddress']],
+}
+
+/**
+ * The next cluster of gaps to ask about together.
+ *
+ * Everything the documents already answered is absent from `gaps` by
+ * construction - this only ever sees blanks - so an applicant who uploaded a
+ * passport, an I-20 and an itinerary is never asked their passport number, and
+ * the security pages, which default to No, never come up at all. What is left
+ * is the handful the paperwork cannot know.
+ */
+export function nextBatch(gaps: Gap[], cap = 8): Gap[] {
   if (gaps.length === 0) return []
   const first = gaps[0]
+  const sameSection = gaps.filter((g) => g.section === first.section)
+  const clusters = ASK_CLUSTERS[first.section]
+
+  if (clusters) {
+    const cluster = clusters.find((c) => c.includes(first.field))
+    if (cluster) {
+      const batch = sameSection.filter((g) => cluster.includes(g.field))
+      if (batch.length) return batch.slice(0, cap)
+    }
+  }
+
+  // No cluster covers it - take a capped run, and never bundle a free-text
+  // explanation with anything else: attached to three other fields it gets a
+  // one-word answer.
   const batch: Gap[] = []
-  for (const gap of gaps) {
-    if (gap.section !== first.section) break
-    // A free-text explanation deserves its own question - bundled with three
-    // other fields it gets a one-word answer.
+  for (const gap of sameSection) {
     if (gap.type === 'textarea' && batch.length > 0) break
     batch.push(gap)
-    if (gap.type === 'textarea' || batch.length >= size) break
+    if (gap.type === 'textarea' || batch.length >= cap) break
   }
   return batch
 }
@@ -115,7 +203,7 @@ export function knownContext(data: Ds160Data, t: (key: string) => string, limit 
         if (isEmpty(value) || typeof value !== 'string') continue
         // The pre-answered "No"s are noise here; they say nothing about who
         // this applicant is and there are dozens of them.
-        if (SKIP_UNLESS_YES.has(section.key) && value === 'No') continue
+        if (PRE_ANSWERED_NO.has(section.key) && value === 'No') continue
         lines.push(`${fieldLabel(field, t)}: ${value}`)
         if (lines.length >= limit) return lines.join('\n')
       }

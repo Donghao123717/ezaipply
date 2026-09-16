@@ -1410,3 +1410,153 @@ async def ds160_turn(body: Ds160TurnRequest):
         unresolved=[str(u) for u in (parsed.get("unresolved") or []) if isinstance(u, (str, int))],
         follow_up=bool(parsed.get("follow_up")),
     )
+
+
+# ---------------------------------------------------------------------------
+# Reading the applicant's documents into the DS-160
+# ---------------------------------------------------------------------------
+
+
+class ParseDocumentRequest(BaseModel):
+    user_id: str
+    filename: str
+    kind: str
+    """The fields worth looking for, so the model is reading against the form
+    rather than summarising the page."""
+    targets: List[Ds160Target] = Field(default_factory=list)
+
+
+class ParseDocumentResponse(BaseModel):
+    fills: List[Ds160Fill] = Field(default_factory=list)
+    found: bool = False
+    note: str = ""
+
+
+# What each document is, in the words the model needs to read it properly. A
+# bank statement and an employment letter are both "a document with numbers on
+# it" unless you say which is which.
+DOC_DESCRIPTIONS: Dict[str, str] = {
+    "passport": "a passport biographic data page",
+    "nationalId": "a national identity card",
+    "photo": "a passport-style photograph",
+    "previousVisa": "a previously issued US visa page",
+    "familyInfo": "a household register or family record (e.g. a Chinese hukou)",
+    "funds": "a bank statement or certificate of deposit",
+    "sponsorLetter": "a letter from whoever is funding the trip",
+    "employment": "an employment letter, pay record or CV",
+    "travelPlan": "a travel itinerary",
+    "hotelBooking": "a hotel or accommodation booking",
+    "i20": "a US Form I-20 (Certificate of Eligibility for F-1 status)",
+    "admissionLetter": "a university admission letter",
+    "sevisFeeReceipt": "a SEVIS I-901 fee receipt",
+    "transcript": "an academic transcript",
+    "h1bApproval": "a USCIS Form I-797 approval notice for an H-1B petition",
+    "jobOffer": "a job offer letter",
+    "employerLetter": "a letter from the petitioning employer",
+}
+
+
+@router.post("/api/visa/parse-document", response_model=ParseDocumentResponse, tags=["Visa"])
+async def parse_document(body: ParseDocumentRequest):
+    """
+    Read one uploaded document and return the DS-160 fields it actually shows.
+
+    Uploading a document and the form knowing what is on it are different
+    things. A passport carries eight of the form's fields, an I-20 four more,
+    an itinerary most of the travel page - and an applicant who has handed all
+    that over should never be asked for any of it again.
+
+    The model is given the list of fields to look for rather than asked to
+    summarise, and is told plainly that a field the document does not show is
+    an empty field. Text first, vision only when there is no text layer: a
+    scanned passport page is the normal case, but running vision over a text
+    PDF costs money for nothing.
+    """
+    if not llm_provider:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail="LLM provider not available")
+    if not body.targets:
+        return ParseDocumentResponse(found=False, note="No fields to look for")
+
+    try:
+        from services.intelligent_extractor_service import IntelligentExtractorService
+
+        extractor = IntelligentExtractorService(llm_provider=llm_provider)
+        file_bytes = extractor._fetch_file_bytes(body.user_id, body.filename, "visa")
+        if not file_bytes:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Uploaded file could not be read")
+
+        text = extractor._extract_text(body.filename, file_bytes) or ""
+        lower = body.filename.lower()
+        if len(text.strip()) < 40 and (lower.endswith(".pdf") or lower.endswith((".png", ".jpg", ".jpeg"))):
+            suffix = "png" if not lower.endswith((".jpg", ".jpeg")) else "jpg"
+            text = extractor._extract_text_from_image(body.filename, file_bytes, suffix) or text
+
+        if len(text.strip()) < 20:
+            return ParseDocumentResponse(found=False, note="Could not read any text from that file")
+
+        described = DOC_DESCRIPTIONS.get(body.kind, "a supporting document")
+        system_prompt = (
+            f"You are reading {described} belonging to a US visa applicant, and filling in the "
+            "parts of their DS-160 form that this document actually shows.\n\n"
+            "This form is signed under penalty of perjury, so the rules are strict:\n"
+            "- Return a value ONLY if it is printed on this document. Never infer, never complete "
+            "from general knowledge, never carry a value over from a similar document you have "
+            "seen. A field the document does not show is a field you leave out.\n"
+            "- Copy names, numbers and spellings exactly as printed, including the order of "
+            "surname and given names as the document gives them.\n"
+            "- Dates are YYYY-MM-DD. A document showing only a month and year is not a date.\n"
+            "- For a field with allowed values, use one of them exactly. If none of them is what "
+            "the document says, leave the field out.\n\n"
+            "Return ONLY JSON:\n"
+            '{"fills":[{"section":"passport","field":"documentNumber","value":"E12345678"}]}'
+        )
+
+        user_prompt = (
+            f"FIELDS TO LOOK FOR:\n{_targets_block(body.targets)}\n\n"
+            f"THE DOCUMENT:\n{text[:12000]}"
+        )
+
+        response = llm_provider.chat_completion(
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0.1,
+            max_tokens=1200,
+        )
+        parsed = _extract_json(response.get("content", "")) or {}
+        if not isinstance(parsed, dict):
+            parsed = {}
+
+        allowed = {f"{t.section}.{t.field}": t for t in body.targets}
+        fills: List[Ds160Fill] = []
+        seen: set = set()
+        for item in parsed.get("fills") or []:
+            if not isinstance(item, dict):
+                continue
+            section = str(item.get("section") or "").strip()
+            field = str(item.get("field") or "").strip()
+            value = str(item.get("value") or "").strip()
+            ident = f"{section}.{field}"
+            target = allowed.get(ident)
+            if not target or not value or ident in seen:
+                continue
+            if value.lower() in {"n/a", "na", "unknown", "none", "not shown", "not stated"}:
+                continue
+            if target.options and value not in target.options:
+                match = next((o for o in target.options if o.lower() == value.lower()), None)
+                if not match:
+                    continue
+                value = match
+            seen.add(ident)
+            fills.append(Ds160Fill(section=section, field=field, value=value))
+
+        return ParseDocumentResponse(
+            fills=fills,
+            found=bool(fills),
+            note="" if fills else "Nothing on this document matched the fields we were looking for",
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_502_BAD_GATEWAY, detail=f"Could not read that document: {e}")

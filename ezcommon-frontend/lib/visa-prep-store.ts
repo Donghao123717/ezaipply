@@ -22,11 +22,25 @@ export interface VisaDocFile {
   uploadedAt: string
 }
 
+/**
+ * How the applicant gets their passport back afterwards. Chosen when booking,
+ * asked at the window, and the one part of the appointment we can usefully
+ * hold for them - the booking itself is theirs to make.
+ */
+export type PassportReturn = '' | 'pickup' | 'courier'
+
 export interface VisaPrepData {
   sevisFeepaid: boolean
   ds160ConfirmationBarcode: string
   consulate: string
   appointmentDate: string
+  /** Local time of the interview, as the confirmation gives it. */
+  appointmentTime: string
+  /** Recorded once they have submitted on ceac.state.gov - we never submit. */
+  ds160SubmittedAt: string
+  passportReturn: PassportReturn
+  /** The pickup centre, or the address the courier delivers to. */
+  returnAddress: string
   documentsChecked: Record<string, boolean>
   /**
    * Files held against each checklist item. The upload endpoint stores them
@@ -42,6 +56,10 @@ const DEFAULT_DATA: VisaPrepData = {
   ds160ConfirmationBarcode: '',
   consulate: '',
   appointmentDate: '',
+  appointmentTime: '',
+  ds160SubmittedAt: '',
+  passportReturn: '',
+  returnAddress: '',
   documentsChecked: {},
   documentFiles: {},
 }

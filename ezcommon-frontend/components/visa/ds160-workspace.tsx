@@ -13,6 +13,8 @@ import { VoiceFill, sectionAcceptsVoice } from '@/components/visa/voice-fill'
 import { RiskFlagsPanel } from '@/components/visa/risk-flags-panel'
 import { Ds160SuggestionsPanel } from '@/components/visa/ds160-suggestions-panel'
 import { Ds160Conversation } from '@/components/visa/ds160-conversation'
+import { DocumentIntake } from '@/components/visa/document-intake'
+import { Ds160Handoff } from '@/components/visa/ds160-handoff'
 import { loadVisaType, type VisaType } from '@/lib/visa-chat-store'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
@@ -42,7 +44,9 @@ export function Ds160Workspace({ userId }: { userId: string }) {
   // 'chat' is the way in: the form is two hundred and thirty-one fields of
   // government English, and reading it is the part people pay to avoid. The
   // form itself stays one click away and stays the record.
-  const [mode, setMode] = useState<'chat' | 'fill' | 'confirm'>('chat')
+  // Documents first, because they answer most of the form and everything they
+  // answer is something the applicant never has to be asked.
+  const [mode, setMode] = useState<'docs' | 'chat' | 'fill' | 'confirm' | 'review'>('docs')
   const [suggestionsOpen, setSuggestionsOpen] = useState(false)
   const [prefilled, setPrefilled] = useState(0)
   const [visaType, setVisaType] = useState<VisaType>('F1')
@@ -299,18 +303,21 @@ export function Ds160Workspace({ userId }: { userId: string }) {
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-8">
-      <div className="flex items-start justify-between gap-4 mb-6">
+      {/* Stacked on a phone: the title, four step pills and the autofill button
+          do not fit a 390px row, and squeezing them made the page scroll
+          sideways. */}
+      <div className="mb-6 flex flex-col items-start justify-between gap-4 sm:flex-row">
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-1">{t('ds160.eyebrow')}</p>
           <h1 className="font-display text-3xl font-semibold text-primary">{t('ds160.title')}</h1>
           <p className="text-sm text-muted-foreground mt-1">{t('ds160.subtitle')}</p>
         </div>
-        <div className="flex shrink-0 items-center gap-2">
+        <div className="flex w-full shrink-0 flex-wrap items-center gap-2 sm:w-auto">
           {/* Two ways through the same form, and the applicant picks. Answering
               questions is faster; the form is what they have to be able to
               check before they sign it. */}
           <div className="flex items-center gap-0.5 rounded-full border bg-card p-0.5">
-            {(['chat', 'fill'] as const).map((value) => (
+            {(['docs', 'chat', 'fill', 'review'] as const).map((value, i) => (
               <button
                 key={value}
                 onClick={() => setMode(value)}
@@ -319,7 +326,10 @@ export function Ds160Workspace({ userId }: { userId: string }) {
                   mode === value ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:text-primary',
                 )}
               >
-                {t(value === 'chat' ? 'ds160.mode.chat' : 'ds160.mode.form')}
+                <span className="mr-1 opacity-60">{i + 1}</span>
+                <span className="hidden sm:inline">
+                  {t(`ds160.mode.${value === 'fill' ? 'form' : value}`)}
+                </span>
               </button>
             ))}
           </div>
@@ -342,7 +352,31 @@ export function Ds160Workspace({ userId }: { userId: string }) {
         </div>
       )}
 
-      {mode === 'chat' ? (
+      {mode === 'review' ? (
+        <Ds160Handoff
+          userId={userId}
+          data={data}
+          sections={visibleSections}
+          onEditPage={(section) => {
+            setActiveKey(section)
+            setMode('fill')
+          }}
+        />
+      ) : mode === 'docs' ? (
+        <div className="rounded-2xl border bg-card p-5 sm:p-6">
+          <DocumentIntake
+            userId={userId}
+            visaType={visaType}
+            onFilled={() => setData(loadDS160Data(userId))}
+          />
+          <div className="mt-6 flex justify-end border-t pt-5">
+            <Button onClick={() => setMode('chat')}>
+              {t('ds160.mode.next')}
+              <ChevronRight className="ml-1 h-4 w-4" />
+            </Button>
+          </div>
+        </div>
+      ) : mode === 'chat' ? (
         <div className="h-[calc(100vh-17rem)] min-h-[520px] overflow-hidden rounded-2xl border bg-card">
           <Ds160Conversation
             userId={userId}
@@ -353,6 +387,7 @@ export function Ds160Workspace({ userId }: { userId: string }) {
               setActiveKey(section)
               setMode('fill')
             }}
+            onReview={() => setMode('review')}
           />
         </div>
       ) : (
