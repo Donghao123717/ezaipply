@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n/use-t'
 import { Button } from '@/components/ui/button'
 import { DS160_SECTIONS, type Ds160SectionMeta } from '@/lib/ds160-schema'
-import { fieldLabel } from '@/lib/profile-schema'
+import { DO_NOT_KNOW, DOES_NOT_APPLY, fieldLabel, isNotApplicable } from '@/lib/profile-schema'
 import type { Ds160Data } from '@/lib/ds160-store'
 import { loadVisaPrep, saveVisaPrep, type PassportReturn, type VisaPrepData } from '@/lib/visa-prep-store'
 
@@ -59,7 +59,7 @@ export function Ds160Handoff({
       .filter((section) => section.def.kind === 'simple' && section.key !== 'photo')
       .map((section) => {
         const sectionData = (data[section.key] as Record<string, any>) || {}
-        const rows: { label: string; value: string }[] = []
+        const rows: { label: string; value: string; muted?: boolean }[] = []
         const missing: string[] = []
         for (const group of (section.def as any).groups || []) {
           for (const field of group.fields) {
@@ -71,7 +71,15 @@ export function Ds160Handoff({
               if (field.required) missing.push(fieldLabel(field, t))
               continue
             }
-            rows.push({ label: fieldLabel(field, t), value: text })
+            // A ticked "does not apply" box is an answer, and reads as one -
+            // the raw sentinel in a review of a legal form would look like a bug.
+            rows.push({
+              label: fieldLabel(field, t),
+              value: isNotApplicable(text)
+                ? t(text === DO_NOT_KNOW ? 'common.doNotKnow' : 'common.doesNotApply')
+                : text,
+              muted: isNotApplicable(text),
+            })
           }
         }
         return { key: section.key, label: t(section.labelKey), rows, missing }
@@ -143,7 +151,14 @@ export function Ds160Handoff({
               {page.rows.map((row, i) => (
                 <div key={i} className="flex items-baseline justify-between gap-4 px-4 py-2">
                   <dt className="text-xs text-muted-foreground">{row.label}</dt>
-                  <dd className="max-w-[60%] break-words text-right text-sm text-primary">{row.value}</dd>
+                  <dd
+                    className={cn(
+                      'max-w-[60%] break-words text-right text-sm',
+                      row.muted ? 'italic text-muted-foreground' : 'text-primary',
+                    )}
+                  >
+                    {row.value}
+                  </dd>
                 </div>
               ))}
             </dl>

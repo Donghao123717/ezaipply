@@ -600,6 +600,8 @@ export const dictionary = {
       previous: 'Previous',
       next: 'Next',
       selectPlaceholder: 'Select…',
+      doesNotApply: 'Does not apply to me',
+      doNotKnow: "I don't know this",
       date: {
         year: 'Year',
         month: 'Month',
@@ -2917,6 +2919,8 @@ export const dictionary = {
       previous: '上一个',
       next: '下一个',
       selectPlaceholder: '请选择…',
+      doesNotApply: '这项不适用',
+      doNotKnow: '我不知道',
       date: {
         year: '年',
         month: '月',

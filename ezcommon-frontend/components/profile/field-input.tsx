@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useId, useMemo, useState } from 'react'
-import { FieldDef, fieldLabel } from '@/lib/profile-schema'
+import { FieldDef, fieldLabel, isNotApplicable, notApplicableValue } from '@/lib/profile-schema'
 import { useT } from '@/lib/i18n/use-t'
 import { useLocale } from '@/lib/i18n/locale-context'
 
@@ -183,6 +183,27 @@ export function FieldInput({
   const baseInputClass =
     'w-full rounded-lg border bg-card px-3 py-2.5 text-sm outline-none focus:border-primary transition-colors'
 
+  /**
+   * The form's own "Does Not Apply" / "Do Not Know" box.
+   *
+   * Without it, "I have no US social security number" and "I have not got to
+   * that yet" are the same empty field, so the form keeps asking about
+   * something already settled and the applicant has no way to say so. Ticking
+   * it writes a value, which is what makes the question stop.
+   */
+  const marked = isNotApplicable(value)
+  const notApplicableBox = field.notApplicable ? (
+    <label className="mt-1.5 flex cursor-pointer items-center gap-1.5 text-xs text-muted-foreground">
+      <input
+        type="checkbox"
+        checked={marked}
+        onChange={(e) => onChange(e.target.checked ? notApplicableValue(field.notApplicable!) : '')}
+        className="h-3.5 w-3.5 rounded accent-primary"
+      />
+      {t(field.notApplicable === 'doNotKnow' ? 'common.doNotKnow' : 'common.doesNotApply')}
+    </label>
+  ) : null
+
   // A select with nothing to select from is a dead end - the student can see
   // the question and cannot answer it. That should never ship, but when a
   // school's option list is missing, letting them type the answer is strictly
@@ -301,7 +322,12 @@ export function FieldInput({
     return (
       <div>
         {eyebrow}
-        <DateField value={value} onChange={onChange} required={field.required} />
+        {marked ? (
+          <input className={`${baseInputClass} text-muted-foreground`} value={value} disabled readOnly />
+        ) : (
+          <DateField value={value} onChange={onChange} required={field.required} />
+        )}
+        {notApplicableBox}
       </div>
     )
   }
@@ -311,12 +337,14 @@ export function FieldInput({
       {eyebrow}
       <input
         type={field.type === 'number' ? 'number' : 'text'}
-        className={baseInputClass}
+        className={marked ? `${baseInputClass} text-muted-foreground` : baseInputClass}
         value={value}
         placeholder={placeholder}
         maxLength={field.maxChars}
+        disabled={marked}
         onChange={(e) => onChange(e.target.value)}
       />
+      {notApplicableBox}
     </div>
   )
 }

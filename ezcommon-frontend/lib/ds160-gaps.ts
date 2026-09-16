@@ -21,6 +21,8 @@ export interface Gap {
   options: string[]
   required: boolean
   help: string
+  /** The form offers a "Does Not Apply" / "Do Not Know" box for this one. */
+  not_applicable: string
 }
 
 /** Pages that are not questions to ask - they are ours, or they are a checklist. */
@@ -152,6 +154,7 @@ function gapFrom(sectionKey: string, field: FieldDef, t: (key: string) => string
     options: field.options || [],
     required: !!field.required,
     help: field.help || '',
+    not_applicable: field.notApplicable || '',
   }
 }
 

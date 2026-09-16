@@ -1188,6 +1188,10 @@ class Ds160Target(BaseModel):
     options: List[str] = Field(default_factory=list)
     required: bool = False
     help: str = ""
+    # The real form offers a "Does Not Apply" / "Do Not Know" box beside this
+    # field. When it fits, ticking it is a better answer than leaving a blank -
+    # it is how the form records asked and answered.
+    not_applicable: str = ""
 
 
 class Ds160Fill(BaseModel):
@@ -1232,6 +1236,12 @@ def _targets_block(targets: List[Ds160Target]) -> str:
             bits.append(f'  allowed values (use one of these EXACTLY): {" | ".join(t.options)}')
         if t.type == "date":
             bits.append("  format: YYYY-MM-DD")
+        if t.not_applicable:
+            phrase = "DO NOT KNOW" if t.not_applicable == "doNotKnow" else "DOES NOT APPLY"
+            bits.append(
+                f'  this field has a "{phrase}" box on the real form - if that is what they are '
+                f'telling you, the value is exactly "{phrase}"'
+            )
         if t.help:
             bits.append(f"  note: {t.help}")
         if t.required:
@@ -1310,10 +1320,11 @@ async def ds160_turn(body: Ds160TurnRequest):
         "with what they said earlier - write one short line in interview_note saying what you "
         "would ask them about it. Not a warning to them; a note to yourself. Leave it empty for "
         "ordinary answers, which is most of them.\n\n"
-        "Return ONLY JSON. `review` must contain one entry for EVERY field listed under "
-        "'NOW ASK ABOUT THESE FIELDS' - go through them one at a time and say whether what "
-        "they have told you so far already answers it. This is a checklist, not a summary; "
-        "a field you leave out of it is a field the applicant gets asked for twice.\n"
+        "Return ONLY JSON. `review` must contain one entry for EVERY field you were given "
+        "this turn - the ones under 'IT WAS ASKING ABOUT THESE FIELDS' and the ones under "
+        "'NOW ASK ABOUT THESE FIELDS' alike. Go through them one at a time and say whether "
+        "what they have told you answers it. This is a checklist, not a summary; a field you "
+        "leave out of it is a field the applicant gets asked for twice.\n"
         '{"fills":[{"section":"personal1","field":"sex","value":"Male"}],'
         '"review":[{"id":"personal1.dob","covered":true,"value":"2008-01-08"},'
         '{"id":"personal1.birthCity","covered":true,"value":"Beijing"},'
@@ -1448,6 +1459,17 @@ async def ds160_turn(body: Ds160TurnRequest):
             continue
         # A select or radio is a closed list on the real form; a near-miss here
         # becomes a value the government site will not accept.
+        # The form's own escape hatch is a valid answer even for a field with a
+        # closed list - it is a box beside the list, not an entry in it.
+        if value in ("DOES NOT APPLY", "DO NOT KNOW"):
+            if not target.not_applicable:
+                continue
+            expected = "DO NOT KNOW" if target.not_applicable == "doNotKnow" else "DOES NOT APPLY"
+            if value != expected:
+                continue
+            seen.add(f"{section}.{field}")
+            fills.append(Ds160Fill(section=section, field=field, value=value))
+            continue
         if target.options and value not in target.options:
             match = next((o for o in target.options if o.lower() == value.lower()), None)
             if not match:

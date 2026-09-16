@@ -22,6 +22,35 @@ export interface FieldDef {
   required?: boolean
   options?: string[]
   placeholderKey?: string
+  /**
+   * The real form offers a checkbox beside this field for people it does not
+   * apply to, or who genuinely do not know the answer.
+   *
+   * This matters more than it looks. Without it, "I have no US social security
+   * number" and "I have not filled that in yet" are the same empty box, so the
+   * form nags about something already settled and the applicant cannot tell it
+   * to stop. Ticking the box is the form's own way of saying asked and
+   * answered, and it is what the government site expects to receive.
+   */
+  notApplicable?: 'doesNotApply' | 'doNotKnow'
+}
+
+/**
+ * What goes in the field when that box is ticked.
+ *
+ * A sentinel rather than a parallel flag, so every reader already in place -
+ * the gap finder, the review page, the export, the autofill extension - sees an
+ * answered field without being taught a new shape.
+ */
+export const DOES_NOT_APPLY = 'DOES NOT APPLY'
+export const DO_NOT_KNOW = 'DO NOT KNOW'
+
+export function isNotApplicable(value: unknown): boolean {
+  return value === DOES_NOT_APPLY || value === DO_NOT_KNOW
+}
+
+export function notApplicableValue(kind: 'doesNotApply' | 'doNotKnow'): string {
+  return kind === 'doNotKnow' ? DO_NOT_KNOW : DOES_NOT_APPLY
 }
 
 /**
