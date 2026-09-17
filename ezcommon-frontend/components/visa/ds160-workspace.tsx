@@ -15,6 +15,7 @@ import { Ds160SuggestionsPanel } from '@/components/visa/ds160-suggestions-panel
 import { Ds160Conversation } from '@/components/visa/ds160-conversation'
 import { DocumentIntake } from '@/components/visa/document-intake'
 import { Ds160Handoff } from '@/components/visa/ds160-handoff'
+import { isFieldVisible, isListVisible } from '@/lib/ds160-visibility'
 import { loadVisaType, type VisaType } from '@/lib/visa-chat-store'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n/use-t'
@@ -490,19 +491,27 @@ export function Ds160Workspace({ userId }: { userId: string }) {
                       )}
                       {group.descriptionKey && <p className="text-sm text-muted-foreground mb-4 whitespace-pre-line">{t(group.descriptionKey)}</p>}
                       <div className="space-y-4">
-                        {group.fields.map((field) => (
-                          <FieldInput
-                            key={field.key}
-                            field={field}
-                            value={(data[activeKey] as SimpleData)?.[field.key] || ''}
-                            onChange={(v) => updateSimpleField(activeKey, field.key, v)}
-                          />
-                        ))}
+                        {/* A question the form is not asking this applicant is
+                            not drawn. Leaving them on screen meant a column of
+                            "if yes, please explain" boxes under answers of No,
+                            and a confirmation step counting them as blanks. */}
+                        {group.fields
+                          .filter((field) => isFieldVisible(activeKey, field.key, data))
+                          .map((field) => (
+                            <FieldInput
+                              key={field.key}
+                              field={field}
+                              value={(data[activeKey] as SimpleData)?.[field.key] || ''}
+                              onChange={(v) => updateSimpleField(activeKey, field.key, v)}
+                            />
+                          ))}
                       </div>
                     </div>
                   ))}
 
-                  {(activeSection.def.nestedRepeatables || []).map((nested) => {
+                  {(activeSection.def.nestedRepeatables || [])
+                    .filter((nested) => isListVisible(activeKey, nested.key, data))
+                    .map((nested) => {
                     const list = nestedList(data[activeKey], nested.key)
                     return (
                       <div key={nested.key} className="pt-6 border-t">

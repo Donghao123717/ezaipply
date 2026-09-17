@@ -1,6 +1,7 @@
 import { DS160_SECTIONS, type FieldDef, type Ds160SectionMeta } from '@/lib/ds160-schema'
 import { fieldLabel } from '@/lib/profile-schema'
 import type { Ds160Data } from '@/lib/ds160-store'
+import { isFieldVisible, isListVisible } from '@/lib/ds160-visibility'
 
 /**
  * Which DS-160 fields are still unanswered, in the order the form asks them.
@@ -15,6 +16,14 @@ import type { Ds160Data } from '@/lib/ds160-store'
 
 export interface Gap {
   section: string
+  /**
+   * The repeatable this question fills, when it is a list rather than a box -
+   * "which languages do you speak?", "which countries have you visited?".
+   * These were invisible to the conversation: it only ever walked the flat
+   * fields, so a page whose real content is two lists was reported complete
+   * while both lists sat empty.
+   */
+  nestedKey?: string
   field: string
   label: string
   type: string
@@ -23,6 +32,8 @@ export interface Gap {
   help: string
   /** The form offers a "Does Not Apply" / "Do Not Know" box for this one. */
   not_applicable: string
+  /** Same as nestedKey, in the shape the API expects. */
+  nested_key?: string
 }
 
 /** Pages that are not questions to ask - they are ours, or they are a checklist. */
@@ -51,70 +62,6 @@ const PRE_ANSWERED_NO = new Set(['security1', 'security2', 'security3', 'securit
  *
  * Keyed "section.field", and read as: only ask this if that field says this.
  */
-const DEPENDS_ON: Record<string, { section: string; field: string; equals: string[] }> = {}
-
-function dependOn(section: string, parent: string, equals: string | string[], children: string[]) {
-  const values = Array.isArray(equals) ? equals : [equals]
-  for (const child of children) {
-    DEPENDS_ON[`${section}.${child}`] = { section, field: parent, equals: values }
-  }
-}
-
-// Read off the real form, page by page, with each Yes expanded.
-//
-// Travel: with no specific plans made, the form drops the itinerary and asks
-// only for an intended date and length of stay. It still asks where you will
-// stay and who is paying - those are not part of the itinerary.
-dependOn('travel', 'hasSpecificPlans', 'Yes', [
-  'arrivalFlight',
-  'arrivalCity',
-  'departureDate',
-  'departureFlight',
-  'departureCity',
-])
-// Previous travel: the licence question sits inside the "have you ever been in
-// the U.S." block on the real form - it is not asked of someone who has never
-// been.
-dependOn('previousTravel', 'hasBeenToUS', 'Yes', ['dateArrived', 'lengthOfStay', 'hasDriversLicense'])
-dependOn('previousTravel', 'hasPriorVisa', 'Yes', [
-  'lastVisaDate',
-  'visaNumber',
-  'sameVisaType',
-  'sameCountryAsBefore',
-  'tenPrinted',
-  'visaLostOrStolen',
-  'visaCancelledOrRevoked',
-])
-dependOn('companions', 'hasCompanions', 'Yes', ['travelingAsGroup'])
-// Address and phone: each "have you used any others in the last five years"
-// opens its own list, and nothing below it is asked when the answer is No.
-dependOn('addressPhone', 'hasOtherPhones', 'Yes', ['additionalPhone'])
-dependOn('addressPhone', 'hasOtherEmails', 'Yes', ['additionalEmail'])
-dependOn('addressPhone', 'hasOtherWebPresence', 'Yes', ['additionalPlatform', 'additionalHandle'])
-
-// Who is paying. Three of the five answers open nothing at all - an applicant
-// paying their own way, or being sent by their employer, is asked no follow-up
-// whatsoever, and asking anyway was making the form feel like it had not
-// listened.
-const PAYER_PERSON = ['OTHER PERSON']
-const PAYER_ORG = ['OTHER COMPANY/ORGANIZATION']
-dependOn('travel', 'payer', PAYER_PERSON, [
-  'payerSurnames',
-  'payerGivenNames',
-  'payerPhone',
-  'payerEmail',
-  'payerRelationship',
-  'payerAddressSameAsHome',
-])
-dependOn('travel', 'payer', PAYER_ORG, ['payerOrgName', 'payerOrgPhone', 'payerOrgRelationship'])
-// The itinerary's mirror image: an intended length of stay is what the form
-// asks for instead, when no plans have been made.
-dependOn('travel', 'hasSpecificPlans', 'No', ['intendedLengthOfStay', 'intendedLengthUnit'])
-// A parent's immigration status is only asked once they are said to be in the
-// US - it is meaningless otherwise.
-dependOn('familyInfo', 'fatherInUS', 'Yes', ['fatherStatus'])
-dependOn('familyInfo', 'motherInUS', 'Yes', ['motherStatus'])
-
 const OPTIONAL_LABEL = /line 2|if known|optional|第二行|选填/i
 
 /**
@@ -174,6 +121,26 @@ export function findGaps(
     if (section.def.kind !== 'simple') continue
     const sectionData = (data[section.key] as Record<string, any>) || {}
 
+    // Lists first within their page, because "which languages do you speak?"
+    // is the page's actual question and the Yes/No answers around it are
+    // already settled.
+    for (const nested of section.def.nestedRepeatables || []) {
+      // Only single-value lists can be asked conversationally - a list of
+      // previous employers needs the form, not a sentence.
+      if (nested.fields.length !== 1) continue
+      if (!isListVisible(section.key, nested.key, data)) continue
+      const existing = sectionData[nested.key]
+      if (Array.isArray(existing) && existing.length > 0) continue
+      const field = nested.fields[0]
+      gaps.push({
+        ...gapFrom(section.key, field, t),
+        nestedKey: nested.key,
+        // The server reads snake_case, matching the rest of that API.
+        nested_key: nested.key,
+        label: t(nested.labelKey),
+      } as Gap)
+    }
+
     for (const group of section.def.groups) {
       for (const field of group.fields) {
         // Anything a document already answered is not a gap - that is the whole
@@ -186,23 +153,15 @@ export function findGaps(
         // "no, I don't have one" and then, two questions later, the same
         // question again.
         if (declined?.has(`${section.key}.${field.key}`)) continue
-        // A question the form only opens when an earlier answer opens it.
-        if (section.key === 'travel' && PAYER_ADDRESS_FIELDS.includes(field.key)) {
-          if (!payerAddressAsked(data.travel as Record<string, any>)) continue
-        }
-        const gate = DEPENDS_ON[`${section.key}.${field.key}`]
-        if (gate) {
-          const parent = (data[gate.section] as Record<string, any>)?.[gate.field]
-          if (typeof parent !== 'string' || !gate.equals.includes(parent)) continue
-        }
+        // A question the form is not asking this applicant is not a gap in
+        // their application - read from the same map the form renders by, so
+        // the two can never disagree about what is being asked.
+        if (!isFieldVisible(section.key, field.key, data)) continue
         // The form marks some fields optional in their own label - "Street
         // Address (Line 2) *Optional*", "Arrival Flight (if known)". Asking
         // for them out loud spends a turn on something the applicant can
         // leave blank, and there are enough of them to notice.
         if (!field.required && OPTIONAL_LABEL.test(fieldLabel(field, t))) continue
-        // An explanation only exists because of a Yes above it. Asking "please
-        // explain" of someone who answered No is asking about nothing.
-        if (/explain|explanation/i.test(field.key) && !hasYesInSection(sectionData)) continue
         gaps.push(gapFrom(section.key, field, t))
       }
     }
@@ -210,9 +169,6 @@ export function findGaps(
   return gaps
 }
 
-function hasYesInSection(sectionData: Record<string, any>): boolean {
-  return Object.values(sectionData).some((v) => typeof v === 'string' && v === 'Yes')
-}
 
 /**
  * Fields that belong in one question, because a person answers them in one
@@ -342,6 +298,7 @@ export function nextBatch(
 
 function clusterFrom(gaps: Gap[], section: string, cap: number): Gap[] {
   const first = gaps[0]
+  if (first.nestedKey) return [first]
   const clusters = ASK_CLUSTERS[section]
   if (clusters) {
     const cluster = clusters.find((c) => c.includes(first.field))
@@ -355,9 +312,11 @@ function clusterFrom(gaps: Gap[], section: string, cap: number): Gap[] {
   // one-word answer.
   const batch: Gap[] = []
   for (const gap of gaps) {
-    if (gap.type === 'textarea' && batch.length > 0) break
+    // A list question asks for several answers at once ("English and Mandarin")
+    // and needs the whole turn to itself.
+    if ((gap.type === 'textarea' || gap.nestedKey) && batch.length > 0) break
     batch.push(gap)
-    if (gap.type === 'textarea' || batch.length >= cap) break
+    if (gap.type === 'textarea' || gap.nestedKey || batch.length >= cap) break
   }
   return batch
 }

@@ -164,9 +164,11 @@ export function Ds160Conversation({
 
       // Write what it understood into the form, and say so.
       const filled: { label: string; value: string }[] = []
-      if (Array.isArray(body.fills) && body.fills.length) {
+      const fills = Array.isArray(body.fills) ? body.fills : []
+      const listFills = Array.isArray(body.list_fills) ? body.list_fills : []
+      if (fills.length || listFills.length) {
         const next: Ds160Data = { ...data }
-        for (const fill of body.fills) {
+        for (const fill of fills) {
           const sectionData = { ...((next[fill.section] as Record<string, any>) || {}) }
           sectionData[fill.field] = fill.value
           next[fill.section] = sectionData
@@ -174,6 +176,22 @@ export function Ds160Conversation({
             (a) => a.section === fill.section && a.field === fill.field,
           )
           filled.push({ label: target?.label || fill.field, value: fill.value })
+        }
+        // One answer, several entries: "Mandarin and English" becomes two rows
+        // in the languages list, which is the shape the form wants.
+        for (const list of listFills) {
+          const sectionData = { ...((next[list.section] as Record<string, any>) || {}) }
+          const existing: Record<string, string>[] = Array.isArray(sectionData[list.nested_key])
+            ? sectionData[list.nested_key]
+            : []
+          const already = new Set(existing.map((row) => row[list.field]))
+          const added = list.values.filter((v: string) => !already.has(v))
+          sectionData[list.nested_key] = [...existing, ...added.map((v: string) => ({ [list.field]: v }))]
+          next[list.section] = sectionData
+          const target = [...answered, ...batch].find(
+            (a) => a.section === list.section && a.nestedKey === list.nested_key,
+          )
+          if (added.length) filled.push({ label: target?.label || list.field, value: added.join(', ') })
         }
         saveDS160Data(userId, next)
         onDataChange(next)
@@ -196,7 +214,10 @@ export function Ds160Conversation({
       // the answer was "not applicable", and asking again is the bug.
       let setAside = deferred
       if (answer.trim() && !body.follow_up && answered.length) {
-        const landed = new Set((body.fills || []).map((f: any) => `${f.section}.${f.field}`))
+        const landed = new Set([
+          ...(body.fills || []).map((f: any) => `${f.section}.${f.field}`),
+          ...(body.list_fills || []).map((f: any) => `${f.section}.${f.field}`),
+        ])
         setAside = new Set(deferred)
         for (const target of answered) {
           const id = `${target.section}.${target.field}`

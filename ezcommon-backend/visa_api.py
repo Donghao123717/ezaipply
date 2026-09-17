@@ -1188,6 +1188,9 @@ class Ds160Target(BaseModel):
     options: List[str] = Field(default_factory=list)
     required: bool = False
     help: str = ""
+    # Set when the question fills a list rather than a box - "which languages do
+    # you speak?" is one question with several answers.
+    nested_key: str = ""
     # The real form offers a "Does Not Apply" / "Do Not Know" box beside this
     # field. When it fits, ticking it is a better answer than leaving a blank -
     # it is how the form records asked and answered.
@@ -1198,6 +1201,15 @@ class Ds160Fill(BaseModel):
     section: str
     field: str
     value: str
+
+
+class Ds160ListFill(BaseModel):
+    """Several answers to one question, each becoming an entry in a list."""
+
+    section: str
+    nested_key: str
+    field: str
+    values: List[str] = Field(default_factory=list)
 
 
 class Ds160TurnRequest(BaseModel):
@@ -1221,6 +1233,7 @@ class Ds160TurnResponse(BaseModel):
     fills: List[Ds160Fill] = Field(default_factory=list)
     question: str = ""
     hint: str = ""
+    list_fills: List[Ds160ListFill] = Field(default_factory=list)
     unresolved: List[str] = Field(default_factory=list)
     follow_up: bool = False
     # An answer a consular officer would push on, written down as it is given
@@ -1236,6 +1249,12 @@ def _targets_block(targets: List[Ds160Target]) -> str:
             bits.append(f'  allowed values (use one of these EXACTLY): {" | ".join(t.options)}')
         if t.type == "date":
             bits.append("  format: YYYY-MM-DD")
+        if t.nested_key:
+            bits.append(
+                "  this is a LIST - they may name several, and each becomes its own entry. "
+                f'return it in list_fills as {{"section":"{t.section}","nested_key":"{t.nested_key}",'
+                f'"field":"{t.field}","values":["...","..."]}}, not in fills'
+            )
         if t.not_applicable:
             phrase = "DO NOT KNOW" if t.not_applicable == "doNotKnow" else "DOES NOT APPLY"
             bits.append(
@@ -1293,6 +1312,10 @@ async def ds160_turn(body: Ds160TurnRequest):
         "about them is there so you do not ask twice - it is not a source of answers. If their "
         "school is in Durham, that is not them telling you they will arrive in Durham; if they "
         "are a student, that is not them telling you who is paying. Infer nothing. Ask.\n"
+        "- Match each value to the field it IS, never to the order you asked. If you asked for "
+        "a name, a phone number and a date of birth and they answer with the name, then the "
+        "date, then the phone, the date goes in the date field. A date is a date wherever it "
+        "appears in the sentence.\n"
         "- Fill the VALUE, not the sentence they said it in. 'My name is Li Donghao' fills "
         "'Li Donghao'. 'I arrive on the 20th of August' fills the date, not the phrase.\n"
         "- People answer more than they are asked. If what they said also answers one of the "
@@ -1329,6 +1352,8 @@ async def ds160_turn(body: Ds160TurnRequest):
         '"review":[{"id":"personal1.dob","covered":true,"value":"2008-01-08"},'
         '{"id":"personal1.birthCity","covered":true,"value":"Beijing"},'
         '{"id":"personal1.maritalStatus","covered":false,"value":""}],'
+        '"list_fills":[{"section":"additionalWork","nested_key":"languages","field":"language",'
+        '"values":["Mandarin","English"]}],'
         '"question":"Who is paying for your trip?","hint":"For example, my parents",'
         '"interview_note":"",'
         '"unresolved":["travel.flightNumber"],"follow_up":false}'
@@ -1457,6 +1482,11 @@ async def ds160_turn(body: Ds160TurnRequest):
         target = allowed.get(f"{section}.{field}")
         if not target or not value or value.lower() in {"n/a", "na", "unknown", "none"}:
             continue
+        # A list question is answered in list_fills. The same target arriving as
+        # a flat fill means the whole list stringified into one box, which is a
+        # value no form field should ever hold.
+        if target.nested_key:
+            continue
         # A select or radio is a closed list on the real form; a near-miss here
         # becomes a value the government site will not accept.
         # The form's own escape hatch is a valid answer even for a field with a
@@ -1470,6 +1500,13 @@ async def ds160_turn(body: Ds160TurnRequest):
             seen.add(f"{section}.{field}")
             fills.append(Ds160Fill(section=section, field=field, value=value))
             continue
+        # The shape has to match the field, whatever order it was said in. A
+        # model mapping by position rather than by meaning puts a phone number
+        # in a date of birth, and nothing downstream would catch it.
+        if target.type == "date" and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+            continue
+        if target.type == "number" and not re.fullmatch(r"[\d.,\s]+", value):
+            continue
         if target.options and value not in target.options:
             match = next((o for o in target.options if o.lower() == value.lower()), None)
             if not match:
@@ -1478,8 +1515,34 @@ async def ds160_turn(body: Ds160TurnRequest):
         seen.add(f"{section}.{field}")
         fills.append(Ds160Fill(section=section, field=field, value=value))
 
+    # List answers, filtered the same way as the rest: only for a list we
+    # actually asked about, and never empty strings.
+    allowed_lists = {f"{t.section}.{t.nested_key}": t for t in (body.answered_targets + body.next_targets) if t.nested_key}
+    list_fills: List[Ds160ListFill] = []
+    for item in parsed.get("list_fills") or []:
+        if not isinstance(item, dict):
+            continue
+        section = str(item.get("section") or "").strip()
+        nested_key = str(item.get("nested_key") or "").strip()
+        target = allowed_lists.get(f"{section}.{nested_key}")
+        if not target:
+            continue
+        values = [str(v).strip() for v in (item.get("values") or []) if str(v).strip()]
+        if target.options:
+            matched = []
+            for v in values:
+                exact = next((o for o in target.options if o.lower() == v.lower()), None)
+                if exact:
+                    matched.append(exact)
+            values = matched
+        if values:
+            list_fills.append(
+                Ds160ListFill(section=section, nested_key=nested_key, field=target.field, values=values[:12])
+            )
+
     return Ds160TurnResponse(
         fills=fills,
+        list_fills=list_fills,
         question=str(parsed.get("question") or "").strip(),
         hint=str(parsed.get("hint") or "").strip(),
         unresolved=[str(u) for u in (parsed.get("unresolved") or []) if isinstance(u, (str, int))],

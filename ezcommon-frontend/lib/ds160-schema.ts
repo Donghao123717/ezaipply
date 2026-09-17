@@ -20,8 +20,21 @@ const MARITAL_STATUS_OPTIONS = [
   'Married', 'Common Law Marriage', 'Civil Union/Domestic Partnership', 'Single', 'Widowed', 'Divorced', 'Legally Separated', 'Other',
 ]
 // Scoped to the two demo visa classes per the user's request - the real DS-160 has many more.
-const TRIP_PURPOSE_CLASS_OPTIONS = ['TEMP. BUSINESS OR PLEASURE VISITOR (B)', 'ACADEMIC OR LANGUAGE STUDENT (F)']
-const TRIP_PURPOSE_SPECIFY_OPTIONS = ['TOURISM/MEDICAL TREATMENT (B2)', 'STUDENT (F1)']
+// The three classes this product covers. An H-1B applicant had no purpose to
+// select at all, which made the page unfillable for them.
+const TRIP_PURPOSE_CLASS_OPTIONS = [
+  'TEMP. BUSINESS OR PLEASURE VISITOR (B)',
+  'ACADEMIC OR LANGUAGE STUDENT (F)',
+  'TEMPORARY WORKER (H)',
+]
+const TRIP_PURPOSE_SPECIFY_OPTIONS = [
+  'BUSINESS OR TOURISM (TEMPORARY VISITOR) (B1/B2)',
+  'TOURISM/MEDICAL TREATMENT (B2)',
+  'BUSINESS (B1)',
+  'STUDENT (F1)',
+  'SPECIALTY OCCUPATION (H1B)',
+  'SPOUSE OF AN H (H4)',
+]
 // The real dropdown, verbatim. Three of these five open a follow-up block and
 // two do not, which is why the exact values matter rather than a paraphrase.
 const PAYER_OPTIONS = [
@@ -242,6 +255,7 @@ export const DS160_SECTIONS: Ds160SectionMeta[] = [
           fields: [
             { key: 'hasCompanions', labelKey: 'ds160.companions.hasCompanions', type: 'radio', required: true, options: YES_NO },
             { key: 'travelingAsGroup', labelKey: 'ds160.companions.travelingAsGroup', type: 'radio', options: YES_NO },
+            { key: 'groupName', labelKey: 'ds160.companions.groupName', type: 'text' },
           ],
         },
       ],
@@ -325,8 +339,8 @@ export const DS160_SECTIONS: Ds160SectionMeta[] = [
           eyebrowKey: 'ds160.addressPhone.phoneEyebrow',
           fields: [
             { key: 'primaryPhone', labelKey: 'ds160.addressPhone.primaryPhone', type: 'text', required: true },
-            { key: 'secondaryPhone', labelKey: 'ds160.addressPhone.secondaryPhone', type: 'text' },
-            { key: 'workPhone', labelKey: 'ds160.addressPhone.workPhone', type: 'text' },
+            { key: 'secondaryPhone', labelKey: 'ds160.addressPhone.secondaryPhone', type: 'text', notApplicable: 'doesNotApply' },
+            { key: 'workPhone', labelKey: 'ds160.addressPhone.workPhone', type: 'text', notApplicable: 'doesNotApply' },
             { key: 'hasOtherPhones', labelKey: 'ds160.addressPhone.hasOtherPhones', type: 'radio', options: YES_NO },
           ],
         },

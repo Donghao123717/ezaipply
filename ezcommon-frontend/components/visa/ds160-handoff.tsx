@@ -6,6 +6,7 @@ import { useT } from '@/lib/i18n/use-t'
 import { Button } from '@/components/ui/button'
 import { DS160_SECTIONS, type Ds160SectionMeta } from '@/lib/ds160-schema'
 import { DO_NOT_KNOW, DOES_NOT_APPLY, fieldLabel, isNotApplicable } from '@/lib/profile-schema'
+import { isFieldVisible } from '@/lib/ds160-visibility'
 import type { Ds160Data } from '@/lib/ds160-store'
 import { loadVisaPrep, saveVisaPrep, type PassportReturn, type VisaPrepData } from '@/lib/visa-prep-store'
 
@@ -63,6 +64,9 @@ export function Ds160Handoff({
         const missing: string[] = []
         for (const group of (section.def as any).groups || []) {
           for (const field of group.fields) {
+            // A question this applicant was never asked is not a blank holding
+            // up their submission.
+            if (!isFieldVisible(section.key, field.key, data)) continue
             const value = sectionData[field.key]
             const text = typeof value === 'string' ? value.trim() : ''
             if (!text) {

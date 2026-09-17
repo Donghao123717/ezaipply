@@ -1664,6 +1664,7 @@ export const dictionary = {
       companions: {
         hasCompanions: 'Are there other persons traveling with you?',
         travelingAsGroup: 'Are you traveling as part of a group or organization?',
+        groupName: 'Name of the group you are traveling with',
         peopleLabel: 'Persons Traveling With You',
         addPerson: 'Person',
         noPeople: 'You haven\'t added any travel companions yet.',
@@ -3982,6 +3983,7 @@ export const dictionary = {
       companions: {
         hasCompanions: '是否有其他人与你同行？',
         travelingAsGroup: '你是否作为团体或组织的一部分出行？',
+        groupName: '同行团体的名称',
         peopleLabel: '与你同行的人',
         addPerson: '一位同行人',
         noPeople: '还没有添加任何同行人。',
